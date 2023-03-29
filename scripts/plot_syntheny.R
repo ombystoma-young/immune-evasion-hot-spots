@@ -19,7 +19,7 @@ tirs_paf <- read_paf("work_dir/anti_defence/anti_defence_pipeline/minimap2_out/a
 tirs_paf <- bind_rows(select(tirs_paf, seq_id=seq_id, start=start, end=end, de),
   select(tirs_paf, seq_id=seq_id2, start=start2, end=end2, de))
 
-p3 <- gggenomes(genes=g1,seqs=s1, feats=tirs_paf) +
+p3 <- gggenomes(genes=g1, seqs=s1, feats=tirs_paf) +
   geom_seq() +
   #geom_seq_label(aes(label=seq_desc), size = 4) +
   geom_seq_label() + 
