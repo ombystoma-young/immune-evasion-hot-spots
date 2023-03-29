@@ -10,6 +10,7 @@ features_dir = 'annotation'
 prokka_dir = os.path.join(features_dir, 'prokka')
 pharokka_dir = os.path.join(features_dir, 'pharokka')
 cluster_dir = 'clusterization'
+cluster_prot_dir = 'protein_clusterization'
 pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
 
 # do not rename this (used in side-scripts):
@@ -28,6 +29,7 @@ os.makedirs(blast_db_dir, exist_ok=True)
 os.makedirs(prokka_dir, exist_ok=True)
 os.makedirs(pharokka_dir, exist_ok=True)
 os.makedirs(cluster_dir, exist_ok=True)
+os.makedirs(cluster_prot_dir, exist_ok=True)
 os.makedirs(aln_dir, exist_ok=True)
 os.makedirs(upstream_dir, exist_ok=True)
 os.makedirs(profiles_dir, exist_ok=True)
@@ -70,7 +72,8 @@ rule all:
         os.path.join(cluster_dir, 'phages_genomes_concat_clu.tsv'),
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
-        faa = os.path.join(upstream_dir,'upstream.faa')
+        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -365,3 +368,59 @@ rule get_upstream_faa:
         faa = os.path.join(upstream_dir,'upstream.faa')
     script: 'scripts/get_upstream_proteins_faa.py'
 
+# BLOCK PROTEIN SEQUENCES CLUSTERIZATION
+
+rule create_prot_mmseq_db:
+    input:
+        os.path.join(upstream_dir, 'upstream.faa')
+    output:
+        os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+    conda:
+        'envs/mmseq2.yml'
+    shell:
+        """
+        mmseqs createdb {input} {output} --shuffle
+        """
+
+rule cluster_prot:
+    input:
+        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+    output:
+        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0')
+    conda:
+        'envs/mmseq2.yml'
+    params: clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu')
+    threads: 8
+    shell:
+        """
+        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --split-memory-limit 7G {input} {params.clu} tmp_prot
+        """
+
+rule get_prot_clusters_tsv:
+    input:
+        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
+        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+    output:
+        tsv = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
+    params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
+    conda:
+        'envs/mmseq2.yml'
+    shell:
+        """
+        mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
+        """
+
+rule get_upstream_clusters_faa:
+    input:
+        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
+        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+    output:
+        faa = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa')
+    params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
+    conda:
+        'envs/mmseq2.yml'
+    shell:
+        """
+        mmseqs createsubdb {params.clu} {input.db} protein_clusterization/DB_clu_rep
+        mmseqs convert2fasta protein_clusterization/DB_clu_rep {output.faa}   
+        """
