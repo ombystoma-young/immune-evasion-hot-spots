@@ -68,12 +68,9 @@ rule all:
         os.path.join(blast_dir, 'polymerases_tblastn.ssv'),
         expand(os.path.join(prokka_dir, '{genome}', '{genome}.txt'), zip, genome=genomes),
         os.path.join(cluster_dir, 'phages_genomes_concat_clu.tsv'),
-        os.path.join(tdrs_search_dir, 'representative_TDRs.tsv'),
-        os.path.join(upstream_dir, 'representative_genomes.gff'),
-        os.path.join(upstream_dir,'representative_TDRs.tsv'),
-        expand(os.path.join(domain_tables_dir,"{genome}_{domain}.tsv"), genome=genomes, domain=['PF03230']),
-        'domains'
-        # expand(os.path.join(pharokka_dir,'{genome}/{genome}.gff'), zip, genome=genomes)
+        os.path.join(upstream_dir,'representative_genomes.gff'),
+        os.path.join(upstream_dir,'upstream.gff'),
+        faa = os.path.join(upstream_dir,'upstream.faa')
 
 # update: report about removing useless
 rule update_stat:
@@ -209,26 +206,6 @@ rule find_TDRs:
         Rscript scripts/find_TDRs.R {input} {output} {params} 
         """
 
-rule get_representative_g_list:
-    input:
-        os.path.join(cluster_dir, 'phages_genomes_concat_clu.fna')
-    output:
-        os.path.join(tdrs_search_dir, 'representative_phages.txt')
-    shell:
-        """
-        cat {input} | grep ">" | tr -d ">" | cut -f 1 -d " " > {output}
-        """
-
-rule get_representative_TDRs_list:
-    input:
-        glist = os.path.join(tdrs_search_dir, 'representative_phages.txt'),
-        tsv = os.path.join(tdrs_search_dir, 'TDRs_all.tsv')
-    output:
-        os.path.join(tdrs_search_dir, 'representative_TDRs.tsv')
-    shell:
-        """
-        cat {input.tsv} | grep -f {input.glist} | cut -f 1,2,3 > {output}
-        """
 
 rule replace_names_fasta:
     input:
@@ -248,34 +225,6 @@ rule replace_names_fasta:
                     else:
                         out_f.write(line)
 
-rule get_TDR_fasta:
-    input:
-        bed = os.path.join(tdrs_search_dir, 'representative_TDRs.tsv'),
-        fna = os.path.join(tdrs_search_dir, 'phages_genomes_modified.fna')
-    output:
-        fna = os.path.join(aln_dir, 'tdrs.fna')
-    conda:
-        'envs/bedtools.yml'
-    shell:
-        """
-        bedtools getfasta -fi {input.fna} -bed {input.bed} > {output}
-        """
-
-rule align_TDRs:
-    input:
-        fna = os.path.join(aln_dir, 'tdrs.fna')
-    output:
-        fna = os.path.join(aln_dir, 'tdrs_mafft_1000.fasta')
-    conda:
-            'envs/mafft.yml'
-    threads: 8
-    params: iters = 1000
-    shell:
-        """
-        mafft --thread {threads} --maxiterate {params.iters} --localpair {input} > {output}
-        """
-
-# no results on alignment. ok, repeats done in circular state, mutations on both repeats
 
 # BLOCK blast RNAP
 rule create_blast_db:
@@ -372,47 +321,47 @@ rule get_anno_for_representative:
         os.path.join(upstream_dir, 'representative_genomes.gff')
     shell:
         """
-        cat {input.gff} | grep -f {input.glist} | grep -v ">" | grep -v "##" > {output}
+        cat {input.gff} | grep "CDS" > {output}
         """
 
-rule get_representative_TDRs_for_inresection:
+rule get_upstreams_coordinated:
     input:
-        glist = os.path.join(tdrs_search_dir, 'representative_phages.txt'),
-        tsv = os.path.join(tdrs_search_dir, 'TDRs_all.tsv')
+        os.path.join(upstream_dir, 'representative_genomes.gff'),
+        tsv= os.path.join(tdrs_search_dir,'TDRs_all.tsv')
     output:
-        os.path.join(upstream_dir, 'representative_TDRs.tsv')
+        os.path.join(upstream_dir,'upstream.bed')
+    script: 'scripts/getupstreambed.py'
+
+rule get_upstream_genes:
+    input:
+        bed = os.path.join(upstream_dir,'upstream.bed'),
+        gff = os.path.join(upstream_dir,'representative_genomes.gff')
+    output:
+        gff = os.path.join(upstream_dir, 'upstream.gff')
+    conda: 'envs/bedtools.yml'
     shell:
         """
-        cat {input.tsv} | grep -f {input.glist} | cut -f 1,2,3,4,5,6 > {output}
+        cat {input.bed} | cut -f 1-6 > temp_file.bed
+        bedtools intersect -a {input.gff} -b temp_file.bed -s > {output}
+        rm temp_file.bed
         """
 
-# rule get_upstream_regions_coords:
-#     input:
-#         os.path.join('stats', 'genomes_gc_length.statistics'),
-#         gff = os.path.join(upstream_dir, 'representative_genomes.gff'),
-#         tsv = os.path.join(upstream_dir, 'representative_TDRs.tsv')
-#     output:
-#         bed = os.path.join(upstream_dir, 'upstream.bed')
-#     script:  # remove '..' !!! 'scripts/getupstreambed.py'
-#
-
-rule search_domains:
+rule concat_protein_fasta:
     input:
-        faa = os.path.join(prokka_dir, '{genome}', '{genome}.faa'),
-        hmm = os.path.join(profiles_dir, "{domain}.hmm")
+        expand(os.path.join(prokka_dir,'{genome}','{genome}.faa'),zip,genome=genomes)
     output:
-        os.path.join(domain_tables_dir, "{genome}_{domain}.tsv")
-    shell:
-         """
-         hmmsearch --noali --notextw -E 0.001 --domE 0.00001 --tblout {output} {input.hmm} {input.faa}
-         """
-
-rule unite_domain_tables:
-    input:
-        expand(os.path.join(domain_tables_dir,"{genome}_{domain}.tsv"),genome=genomes,domain=['PF03230'])
-    output:
-        'domains'
+        faa = os.path.join(upstream_dir, 'all_genomes.faa')
+    params: path_prokka=prokka_dir
     shell:
         """
-        cat {domain_tables_dir}/* | grep -v "^#" > {output}
+        cat {params.path_prokka}/*/*.faa > {output} 
         """
+
+rule get_upstream_faa:
+    input:
+        faa = os.path.join(upstream_dir,'all_genomes.faa'),
+        gff = os.path.join(upstream_dir,'upstream.gff')
+    output:
+        faa = os.path.join(upstream_dir,'upstream.faa')
+    script: 'scripts/get_upstream_proteins_faa.py'
+
