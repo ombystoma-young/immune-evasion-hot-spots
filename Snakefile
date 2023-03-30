@@ -73,7 +73,8 @@ rule all:
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
         os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
-        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv')
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
+        os.path.join(domain_tables_dir,"upstream_domains.tsv")
 
 # update: report about removing useless
 rule update_stat:
@@ -423,4 +424,17 @@ rule get_upstream_clusters_faa:
         """
         mmseqs createsubdb {params.clu} {input.db} protein_clusterization/DB_clu_rep
         mmseqs convert2fasta protein_clusterization/DB_clu_rep {output.faa}   
+        """
+
+# BLOCK: DOMAINs SEARCH
+
+rule search_domains:
+    input:
+        faa = os.path.join(upstream_dir, 'upstream.faa'),
+        hmm = os.path.join(profiles_dir, "domains_Burstein.hmm")
+    output:
+        os.path.join(domain_tables_dir,"upstream_domains.tsv")
+    shell:
+        """
+        hmmsearch --noali --notextw -E 0.000001 --domE 0.000001 --tblout {output} {input.hmm} {input.faa}
         """
