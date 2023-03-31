@@ -17,7 +17,7 @@ pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
 tdrs_search_dir = 'minimap2_out'
 pics_dir = 'pics'
 aln_dir = 'tdr_search_aln'
-upstream_dir = 'search_upstream'
+upstream_dir = 'upstream_search'
 
 profiles_dir = 'domains_hmm'
 domain_tables_dir = 'domain_tables'

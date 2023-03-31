@@ -289,7 +289,7 @@ class IntersectionMaster:
 
 
 if __name__ == '__main__':
-    upstream_dir = 'search_upstream'
+    upstream_dir = 'upstream_search'
     tdrs_search_dir = 'minimap2_out'
     stats_dir = 'stats'
     gff = os.path.join(upstream_dir, 'representative_genomes.gff')
