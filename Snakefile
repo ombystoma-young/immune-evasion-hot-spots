@@ -12,6 +12,8 @@ pharokka_dir = os.path.join(features_dir, 'pharokka')
 cluster_dir = 'clusterization'
 cluster_prot_dir = 'protein_clusterization'
 pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
+promoters_dir = 'promoters_search'
+intergenic_regions_db = os.path.join(promoters_dir, 'ig_blast_db')
 
 # do not rename this (used in side-scripts):
 tdrs_search_dir = 'minimap2_out'
@@ -34,7 +36,8 @@ os.makedirs(aln_dir, exist_ok=True)
 os.makedirs(upstream_dir, exist_ok=True)
 os.makedirs(profiles_dir, exist_ok=True)
 os.makedirs(domain_tables_dir, exist_ok=True)
-
+os.makedirs(promoters_dir, exist_ok=True)
+os.makedirs(intergenic_regions_db, exist_ok=True)
 
 genomes = os.listdir(assemblies_dir)
 genomes.remove('assembly_data_report.jsonl')
@@ -72,9 +75,11 @@ rule all:
         os.path.join(cluster_dir, 'phages_genomes_concat_clu.tsv'),
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
-        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
-        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
-        os.path.join(domain_tables_dir,"upstream_domains.tsv")
+        # os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
+        # os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
+        os.path.join(domain_tables_dir, "upstream_domains.tsv"),
+        os.path.join(promoters_dir, 'intergenic_filtered.bed'),
+        os.path.join(promoters_dir, 'promoters_blastn.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -100,75 +105,75 @@ rule concat_fasta:
         """
 
 
-# BLOCK representative genomes
-rule create_mmseq_db:
-    input:
-        os.path.join(blast_dir,'phages_genomes_concat.fna')
-    output:
-        os.path.join(cluster_dir,'phages_genomes', 'phages_genomes_concat.fnaDB')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createdb {input} {output} --shuffle
-        """
-
-rule clusterization:
-    input:
-        db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-    output:
-        clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0')
-    conda:
-        'envs/mmseq2.yml'
-    params: clu = os.path.join(cluster_dir,'phages_genomes_concat_clu')
-    threads: 8
-    shell:
-        """
-        mmseqs cluster --threads {threads} --max-seqs 300 -k 14 --split-memory-limit 5G {input} {params.clu} tmp
-        """
-
-rule get_clusters_tsv:
-    input:
-        clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
-        db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-    output:
-        tsv = os.path.join(cluster_dir,'phages_genomes_concat_clu.tsv')
-    params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
-        """
-
-rule get_clusters_fasta:
-    input:
-        clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
-        db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-    output:
-        fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
-    params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createsubdb {params.clu} {input.db} clusterization/DB_clu_rep
-        mmseqs convert2fasta clusterization/DB_clu_rep {output.fna}   
-        """
-
-# update: report about removing useless
-rule update_stat_clusters:
-    input:
-        stats = os.path.join(meta_dir, 'stats_for_preso'),
-        fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
-    output:
-        'clusters.status'
-    shell:
-        """
-        echo "Number of representative genomes" >> {input.stats}
-        cat {input.fna} | grep ">" | wc -l >> {input.stats}
-        touch {output}
-        """
+# # BLOCK representative genomes
+# rule create_mmseq_db:
+#     input:
+#         os.path.join(blast_dir,'phages_genomes_concat.fna')
+#     output:
+#         os.path.join(cluster_dir,'phages_genomes', 'phages_genomes_concat.fnaDB')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createdb {input} {output} --shuffle
+#         """
+#
+# rule clusterization:
+#     input:
+#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
+#     output:
+#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0')
+#     conda:
+#         'envs/mmseq2.yml'
+#     params: clu = os.path.join(cluster_dir,'phages_genomes_concat_clu')
+#     threads: 8
+#     shell:
+#         """
+#         mmseqs cluster --threads {threads} --max-seqs 300 -k 14 --split-memory-limit 5G {input} {params.clu} tmp
+#         """
+#
+# rule get_clusters_tsv:
+#     input:
+#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
+#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
+#     output:
+#         tsv = os.path.join(cluster_dir,'phages_genomes_concat_clu.tsv')
+#     params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
+#         """
+#
+# rule get_clusters_fasta:
+#     input:
+#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
+#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
+#     output:
+#         fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
+#     params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createsubdb {params.clu} {input.db} clusterization/DB_clu_rep
+#         mmseqs convert2fasta clusterization/DB_clu_rep {output.fna}
+#         """
+#
+# # update: report about removing useless
+# rule update_stat_clusters:
+#     input:
+#         stats = os.path.join(meta_dir, 'stats_for_preso'),
+#         fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
+#     output:
+#         'clusters.status'
+#     shell:
+#         """
+#         echo "Number of representative genomes" >> {input.stats}
+#         cat {input.fna} | grep ">" | wc -l >> {input.stats}
+#         touch {output}
+#         """
 
 # BLOCK search TDRs in genomes with minimap2
 rule search_TDRs:
@@ -319,8 +324,7 @@ rule concat_anno:
 
 rule get_anno_for_representative:
     input:
-        gff=os.path.join(upstream_dir, 'all_genomes.gff'),
-        glist= os.path.join(tdrs_search_dir, 'representative_phages.txt')
+        gff=os.path.join(upstream_dir, 'all_genomes.gff')
     output:
         os.path.join(upstream_dir, 'representative_genomes.gff')
     shell:
@@ -437,4 +441,106 @@ rule search_domains:
     shell:
         """
         hmmsearch --noali --notextw -E 0.000001 --domE 0.000001 --tblout {output} {input.hmm} {input.faa}
+        """
+
+# BLOCK promoters search
+
+rule concat_seq_reports:
+    input:
+        expand(os.path.join(assemblies_dir, '{genome}', 'sequence_report.jsonl'), genome=genomes)
+    output:
+        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+    params: dir=assemblies_dir
+    shell:
+        """
+        cat {params.dir}/*/sequence_report.jsonl > {output}
+        """
+
+rule get_nuccore_names_bed:
+    input:
+        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+    output:
+        bed = os.path.join(promoters_dir, 'chromosome_lengths.bed')
+    script: 'scripts/get_chomosome_lengths.py'
+
+rule subtract_intergenic_regions:
+    input:
+        bed = os.path.join(promoters_dir,'chromosome_lengths.bed'),
+        gff = os.path.join(upstream_dir, 'representative_genomes.gff')
+    output:
+        os.path.join(promoters_dir, 'all_intergenic.bed')
+    conda: 'envs/bedtools.yml'
+    shell:
+        """
+        bedtools subtract -a {input.bed} -b {input.gff} > {output}
+        """
+
+rule filter_small_intergenic_regions:
+    input:
+        os.path.join(promoters_dir,'all_intergenic.bed')
+    output:
+        temp(os.path.join(promoters_dir,'_intergenic_filtered.bed'))
+    shell:
+        """
+        cat {input} | awk -v FS="\t" -v OFS="\t" '$3-$2>349 {{print $0}}' > {output}
+        """
+
+rule filter_representative_intergenic_regions:
+    input:
+        bed=os.path.join(promoters_dir, '_intergenic_filtered.bed'),
+        gff=os.path.join(upstream_dir, 'representative_genomes.gff')
+    output:
+        os.path.join(promoters_dir,'intergenic_filtered.bed')
+    shell:
+        """
+        cat {input.gff} | cut -f 1 | sort -u > ids
+        cat {input.bed} | grep -f ids > {output}
+        rm ids
+        """
+
+rule get_fa_intergenic_regions:
+    input:
+        bed = os.path.join(promoters_dir, 'intergenic_filtered.bed'),
+        fna = os.path.join(blast_dir, 'phages_genomes_concat.fna')
+    output:
+        fna = os.path.join(promoters_dir, 'intergenic.fna')
+    conda: 'envs/bedtools.yml'
+    shell:
+        """
+        bedtools getfasta -fi {input.fna} -bed {input.bed} > {output} 
+        """
+
+rule create_db_intergenic:
+    input:
+        fna = os.path.join(promoters_dir,'intergenic.fna')
+    output:
+        os.path.join(intergenic_regions_db, 'intergenic.nsq')
+    params: db_path= os.path.join(intergenic_regions_db, 'intergenic')
+    conda:
+        'envs/blast.yml'
+    shell:
+        """
+        makeblastdb -in {input} -dbtype nucl -out {params.db_path}
+        """
+
+rule run_blastn:
+    input:
+        db = os.path.join(intergenic_regions_db, 'intergenic.nsq'),
+        faa = os.path.join(meta_dir, 'promoters.fna')
+    output:
+        os.path.join(promoters_dir, 'promoters_blastn.tsv')
+    conda:
+        'envs/blast.yml'
+    params:
+        db_path=os.path.join(intergenic_regions_db, 'intergenic'),
+        fmt='6 qseqid sseqid pident nident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore',
+        eval=0.005
+    threads: 8
+    shell:
+        """
+        blastn -query {input.faa}  -db {params.db_path}  \
+        -task megablast \
+        -num_threads {threads} -out {output} \
+        -outfmt "{params.fmt}" \
+        -evalue {params.eval}
         """
