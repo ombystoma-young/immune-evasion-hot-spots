@@ -14,6 +14,7 @@ cluster_prot_dir = 'protein_clusterization'
 pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
 promoters_dir = 'promoters_search'
 intergenic_regions_db = os.path.join(promoters_dir, 'ig_blast_db')
+results_dir = 'results'
 
 # do not rename this (used in side-scripts):
 tdrs_search_dir = 'minimap2_out'
@@ -38,6 +39,7 @@ os.makedirs(profiles_dir, exist_ok=True)
 os.makedirs(domain_tables_dir, exist_ok=True)
 os.makedirs(promoters_dir, exist_ok=True)
 os.makedirs(intergenic_regions_db, exist_ok=True)
+os.makedirs(results_dir, exist_ok=True)
 
 genomes = os.listdir(assemblies_dir)
 genomes.remove('assembly_data_report.jsonl')
@@ -75,11 +77,12 @@ rule all:
         os.path.join(cluster_dir, 'phages_genomes_concat_clu.tsv'),
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
-        # os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
-        # os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
         os.path.join(promoters_dir, 'intergenic_filtered.bed'),
-        os.path.join(promoters_dir, 'promoters_blastn.tsv')
+        os.path.join(promoters_dir, 'promoters_blastn.tsv'),
+        os.path.join(upstream_dir, 'meta_upstream.gff'),
+        os.path.join(results_dir, 'freq_repres_proteins.txt'),
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -342,8 +345,8 @@ rule get_upstreams_coordinated:
 
 rule get_upstream_genes:
     input:
-        bed = os.path.join(upstream_dir,'upstream.bed'),
-        gff = os.path.join(upstream_dir,'representative_genomes.gff')
+        bed = os.path.join(upstream_dir, 'upstream.bed'),
+        gff = os.path.join(upstream_dir, 'representative_genomes.gff')
     output:
         gff = os.path.join(upstream_dir, 'upstream.gff')
     conda: 'envs/bedtools.yml'
@@ -429,6 +432,54 @@ rule get_upstream_clusters_faa:
         mmseqs createsubdb {params.clu} {input.db} protein_clusterization/DB_clu_rep
         mmseqs convert2fasta protein_clusterization/DB_clu_rep {output.faa}   
         """
+
+# BLOCK ANALYSE RESULTS
+rule steal:
+    input:
+        expand(os.path.join(assemblies_dir, '{genome}/sequence_report.jsonl'), genome=genomes)
+    output:
+        os.path.join(meta_dir,'not_all_genomic.gff')
+    params: dir=assemblies_dir
+    shell:
+        """
+        cat {params.dir}/*/genomic.gff | grep -v "#" > {output}
+        """
+
+rule intersect_upstream_and_ncbi_gff:
+    input:
+        a = os.path.join(meta_dir, 'not_all_genomic.gff'),
+        b = os.path.join(upstream_dir, 'upstream.gff')
+    output:
+        os.path.join(upstream_dir, 'meta_upstream.gff')
+    conda: 'envs/bedtools.yml'
+    shell:
+        """
+        bedtools intersect -s -wa -wb -a {input.a} -b {input.b} > {output}
+        """
+
+
+rule get_frequency_table:
+    input:
+        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
+    output:
+        os.path.join(results_dir, 'freq_repres_proteins.txt')
+    shell:
+        """
+        cat {input} | cut -f 1 | sort | uniq -dc | sort -n > {output}
+        """
+
+rule write_freq_stat:
+    input:
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.faa'),
+        os.path.join(upstream_dir, 'representative_genomes.gff'),
+        os.path.join(upstream_dir, 'meta_upstream.gff')
+    output:
+        clus_out_long = os.path.join(results_dir, 'upstream_proteins_clu_long.tsv'),
+        clus_out_wide = os.path.join(results_dir, 'upstream_proteins_clu_wide.tsv'),
+        clus_out_wide_seq = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv')
+    script: 'scripts/steal_annotation.py'
+
 
 # BLOCK: DOMAINs SEARCH
 
