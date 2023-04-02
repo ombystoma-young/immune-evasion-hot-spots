@@ -4,18 +4,20 @@ import csv
 
 class IntersectionMaster:
     def __init__(self, gff_path: str, tsv_path: str,
-                 stat_file: str, bp = 5000):
+                 stat_file: str, n_t_a: str, bp = 5000):
 
         self.gff = gff_path
         self.tsv = tsv_path
         self.bp = bp
         self.stat_file = stat_file
+        self.n_t_a = n_t_a
         self.upstreams = None
         self.rnaps = None
         self.tdrs = None
         self._inter_rnaps = None
         self._last_gene_starts = None
         self._lengths = None
+        self.nta = None
 
     def _read_gff(self):
         self._last_gene_starts = {}
@@ -76,41 +78,67 @@ class IntersectionMaster:
                 self._lengths[assemby_id] = length
         return self
 
+    def __read_nta(self):
+        self.nta = {}
+        with open(self.n_t_a, 'r') as in_f:
+            for line in in_f:
+                couple = line.strip().split('\t')
+                self.nta[couple[0]] = couple[1]
+        return self
+
     def __manual_curation(self, genome_id):
-        outliers = {'NC_047772.1': ['ncbi_dataset/data/GCF_002612265.1/genomic.gff', 'GCF_002612265.1']}
-        if genome_id not in outliers.keys():
-            raise KeyError(f'No info about path to gff: {genome_id}')
-        path_to_gff = outliers[genome_id][0]
-        assembly_id = outliers[genome_id][1]
-        with open(path_to_gff, 'r') as gff_file:
-            for line in gff_file:
-                if not line.startswith('#'):
-                    row = line.strip().split('\t')
-                    if row[2] == 'CDS':
-                        attribute = row[-1].split(';')
-                        attribute_dict = {i.split('=')[0]: i.split('=')[1] for i in attribute}
-                        if attribute_dict['product'] == 'RNA polymerase':
-                            start = row[3]
-                            end = row[4]
-                            strand = row[6]
-                            attribute = row[-1]
-                            self.rnaps[genome_id] = {'pol_start': start,
-                                                     'pol_end': end,
-                                                     'strand': strand,
-                                                     'assembly_id': assembly_id,
-                                                     'attribute': attribute}
+        # rewrite: take them from downloaded gff
+        # outliers = {'NC_047772.1': ['ncbi_dataset/data/GCF_002612265.1/genomic.gff', 'GCF_002612265.1'],
+        #             'NC_055824.1': ['ncbi_dataset/data/GCF_009388365.1/genomic.gff', 'GCF_009388365.1'],
+        #             'NC_021073.1': ['ncbi_dataset/data/GCF_000906335.1/genomic.gff', 'GCF_000906335.1'],
+        #             'MN518894.1': ['ncbi_dataset/data/GCA_013426665.1/genomic.gff', 'GCA_013426665.1'],
+        #             'NC_049436.1': ['ncbi_dataset/data/GCF_003308735.1/genomic.gff', 'GCF_003308735.1'],
+        #             'NC_049380.1': ['ncbi_dataset/data/GCF_002615685.1/genomic.gff', 'GCF_002615685.1']}
+        # if genome_id not in outliers.keys():
+        #     raise KeyError(f'No info about path to gff: {genome_id}')
+        assembly_id = self.nta[genome_id]
+        folder = list(os.walk(f'../ncbi_dataset/data/{assembly_id}'))
+        if 'genomic.gff' in folder[0][2]:
+            path_to_gff = f'../ncbi_dataset/data/{assembly_id}/genomic.gff'
+            with open(path_to_gff, 'r') as gff_file:
+                for line in gff_file:
+                    if not line.startswith('#'):
+                        row = line.strip().split('\t')
+                        if row[2] == 'CDS':
+                            attribute = row[-1].split(';')
+                            attribute_dict = {i.split('=')[0]: i.split('=')[1] for i in attribute}
+                            if attribute_dict['product'] == 'RNA polymerase':
+                                start = row[3]
+                                end = row[4]
+                                strand = row[6]
+                                attribute = row[-1]
+                                self.rnaps[genome_id] = {'pol_start': start,
+                                                         'pol_end': end,
+                                                         'strand': strand,
+                                                         'assembly_id': assembly_id,
+                                                         'attribute': attribute}
+                                return genome_id
+            if genome_id not in self.rnaps:
+                with open('../metadata/list_no_pol', 'a') as out_f:
+                    out_f.write('\t'.join([assembly_id, genome_id]))
+                    out_f.write('\n')
+        else:
+            with open('../metadata/list_no_anno_no_pol', 'a') as out_f:
+                out_f.write('\t'.join([assembly_id, genome_id]))
+                out_f.write('\n')
 
     def _subset_pols_dict(self):
         self._read_gff()
         self._read_tsv()
+        self.__read_nta()
 
         subset_rnaps = set(self.rnaps.keys()) & set(self.tdrs.keys())
-
         for outlier in set(im.tdrs.keys()) - subset_rnaps:
-            print(f'Warning! Something wrong with annotation of {outlier}')
-            self.__manual_curation(outlier)
-            subset_rnaps.add(outlier)
-
+            if outlier != 'seq_id':
+                print(f'Warning! Something wrong with annotation of {outlier}')
+                id__ = self.__manual_curation(outlier)
+                if id__ is not None:
+                    subset_rnaps.add(outlier)
         self._inter_rnaps = {id_: self.rnaps[id_] for id_ in subset_rnaps}
 
         return subset_rnaps
@@ -267,8 +295,6 @@ class IntersectionMaster:
                     self.upstreams.append(u)
 
         genome_wo_tdr_ids = set(self.rnaps.keys()) - genome_with_tdr_ids
-        print(len(set(self.rnaps.keys())))
-        print(genome_wo_tdr_ids)
         for genome_id in genome_wo_tdr_ids:
             rnap_data = self.rnaps[genome_id]
             upstream = self.__get_upstream_wo_tdr(rnap_data)
@@ -289,14 +315,15 @@ class IntersectionMaster:
 
 
 if __name__ == '__main__':
-    upstream_dir = 'upstream_search'
-    tdrs_search_dir = 'minimap2_out'
-    stats_dir = 'stats'
+    upstream_dir = '../upstream_search'
+    tdrs_search_dir = '../minimap2_out'
+    stats_dir = '../stats'
+    meta_dir = '../metadata'
     gff = os.path.join(upstream_dir, 'representative_genomes.gff')
     tsv = os.path.join(tdrs_search_dir, 'TDRs_all.tsv')
-    stat_file = os.path.join( stats_dir, 'genomes_gc_length.statistics')
+    stat_file = os.path.join(stats_dir, 'genomes_gc_length.statistics')
+    nuccore_to_assembly = os.path.join(meta_dir, 'assembly_nuccore.tsv')
     bed = os.path.join(upstream_dir, 'upstream.bed')
-    im = IntersectionMaster(gff_path=gff, tsv_path=tsv, stat_file=stat_file, bp=5000)
+    im = IntersectionMaster(gff_path=gff, tsv_path=tsv, stat_file=stat_file, n_t_a=nuccore_to_assembly, bp=5000)
     im.find_upstreams()
     im.write_bed(bed)
-    # print(len(im._subset_pols_dict()))

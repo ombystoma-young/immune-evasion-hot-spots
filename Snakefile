@@ -73,13 +73,12 @@ genome_fasta_s.sort()
 rule all:
     input:
         os.path.join(blast_dir, 'polymerases_tblastn.ssv'),
-        expand(os.path.join(prokka_dir, '{genome}', '{genome}.txt'), zip, genome=genomes),
-        os.path.join(cluster_dir, 'phages_genomes_concat_clu.tsv'),
+        expand(os.path.join(prokka_dir, '{genome}', '{genome}.gff'), zip, genome=genomes),
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
-        os.path.join(promoters_dir, 'intergenic_filtered.bed'),
-        os.path.join(promoters_dir, 'promoters_blastn.tsv'),
+        # os.path.join(promoters_dir, 'intergenic_filtered.bed'),  # some troubles with length of sequence
+        # os.path.join(promoters_dir, 'promoters_blastn.tsv'),
         os.path.join(upstream_dir, 'meta_upstream.gff'),
         os.path.join(results_dir, 'freq_repres_proteins.txt'),
         os.path.join(results_dir,'upstream_proteins_clu_wide_seq.tsv')
@@ -277,8 +276,9 @@ rule prokka_annotation:
     input:
         os.path.join(assemblies_dir, '{genome}')
     output:
-        os.path.join(prokka_dir, '{genome}/{genome}.txt')
-    threads: 8
+        os.path.join(prokka_dir, '{genome}/{genome}.gff'),
+        os.path.join(prokka_dir,'{genome}/{genome}.faa')
+    threads: 5
     conda: 'envs/prokka.yml'
     shell:
         """
@@ -338,6 +338,7 @@ rule get_anno_for_representative:
 rule get_upstreams_coordinated:
     input:
         os.path.join(upstream_dir, 'representative_genomes.gff'),
+        os.path.join('metadata','assembly_nuccore.tsv'),
         tsv= os.path.join(tdrs_search_dir,'TDRs_all.tsv')
     output:
         os.path.join(upstream_dir,'upstream.bed')
@@ -398,10 +399,10 @@ rule cluster_prot:
     conda:
         'envs/mmseq2.yml'
     params: clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu')
-    threads: 8
+    threads: 10
     shell:
         """
-        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --split-memory-limit 7G {input} {params.clu} tmp_prot
+        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 -c 0.7 --split-memory-limit 7G {input} {params.clu} tmp_prot
         """
 
 rule get_prot_clusters_tsv:
@@ -507,6 +508,13 @@ rule concat_seq_reports:
         cat {params.dir}/*/sequence_report.jsonl > {output}
         """
 
+rule create_nuccore_to_assembly_table:
+    input:
+        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+    output:
+        os.path.join('metadata', 'assembly_nuccore.tsv')
+    script: 'scripts/get_assembly_to_nuccore.py'
+
 rule get_nuccore_names_bed:
     input:
         os.path.join(promoters_dir, 'all_sequence_report.jsonl')
@@ -586,7 +594,7 @@ rule run_blastn:
         db_path=os.path.join(intergenic_regions_db, 'intergenic'),
         fmt='6 qseqid sseqid pident nident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore',
         eval=0.005
-    threads: 8
+    threads: 10
     shell:
         """
         blastn -query {input.faa}  -db {params.db_path}  \

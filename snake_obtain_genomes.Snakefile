@@ -2,7 +2,7 @@ import os
 
 
 # define directories
-source_data_dir = 'psi_blast_results'
+source_data_dir = 'psi_blast_more_genomes'
 temp_requests_dir = 'some_ids'
 metadata_dir = 'metadata'
 assemblies_dir = 'ncbi_dataset/data'
@@ -20,7 +20,7 @@ rule all:
 # get protein ids for obtaining genome id
 rule get_homolog_ids:
     input:
-        os.path.join(source_data_dir, 'psi_blast_results.csv')
+        os.path.join(source_data_dir, 'psi_blast_round_three_attempt_3.csv')
     output:
         temp(os.path.join(temp_requests_dir, 'protein_ids.txt'))
     shell:

@@ -1,7 +1,7 @@
 import os
 import json
 
-source_data = 'psi_blast_results/psi_blast_results.csv'
+source_data = 'psi_blast_more_genomes/psi_blast_round_three_attempt_3.csv'
 assemblies_dir = 'ncbi_dataset/data'
 meta_dir = 'metadata'
 stats_dir = 'stats'
@@ -26,7 +26,7 @@ rule obtain_stats:
         os.path.join(meta_dir, 'assembly_ids.txt')
     output:
         temp(os.path.join(stats_dir, '{genome}.stat'))
-    threads: 8
+    threads: 1
     run:
         id_strain_dict = {}
         path_file = str(input[0])
@@ -66,7 +66,7 @@ rule collect_gc_length_stats:
         expand(os.path.join(stats_dir, '{genome}.stat'), genome=genomes)
     output:
         os.path.join(stats_dir, 'genomes_gc_length.statistics')
-    threads: 8
+    threads: 1
     shell:
         """
         cat {input} > {output}
