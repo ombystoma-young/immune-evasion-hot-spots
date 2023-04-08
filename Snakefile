@@ -81,7 +81,7 @@ rule all:
         # os.path.join(promoters_dir, 'promoters_blastn.tsv'),
         os.path.join(upstream_dir, 'meta_upstream.gff'),
         os.path.join(results_dir, 'freq_repres_proteins.txt'),
-        os.path.join(results_dir,'upstream_proteins_clu_wide_seq.tsv')
+        os.path.join(results_dir,'upstreams_with_clusters.gff')
 
 # update: report about removing useless
 rule update_stat:
@@ -402,7 +402,7 @@ rule cluster_prot:
     threads: 10
     shell:
         """
-        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 -c 0.7 --split-memory-limit 7G {input} {params.clu} tmp_prot
+        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 -c 0.4 --split-memory-limit 7G {input} {params.clu} tmp_prot
         """
 
 rule get_prot_clusters_tsv:
@@ -480,6 +480,29 @@ rule write_freq_stat:
         clus_out_wide = os.path.join(results_dir, 'upstream_proteins_clu_wide.tsv'),
         clus_out_wide_seq = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv')
     script: 'scripts/steal_annotation.py'
+
+
+rule sort_wide:
+    input:
+        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide.tsv')
+    output:
+        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv')
+    shell:
+        """
+        cat {input} | sort -nrk 2 > {output}
+        """
+
+
+rule filter_later_upstreams:
+    input:
+        os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv'),
+        os.path.join(results_dir,'upstream_proteins_clu_long.tsv'),
+        os.path.join(upstream_dir, 'upstream.gff')
+    output:
+        os.path.join(results_dir, 'upstreams_with_clusters.gff')
+    params: keywords=['terminase', 'lysin', 'tail', 'gp19.5', 'gp53']
+    script: 'scripts/filter_terminase.py'
+
 
 
 # BLOCK: DOMAINs SEARCH
