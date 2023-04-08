@@ -1,8 +1,8 @@
-GCF_002578345.1_00025	968	{'DNA-directed RNA polymerase': 172, 'Mitochondrial DNA-directed RNA polymerase (RPO41)': 3, 'RNA polymerase': 387, 'T7 RNA polymerase': 167, 'RPO41 Mitochondrial DNA-directed RNA polymerase': 14, 'putative RNA polymerase': 35, 'putative DNA-dependent RNA polymerase': 13, 'single subunit RNA polymerase': 1, 'putative DNA-directed RNA-polymerase': 2, 'DNA-directed RNA-polymerase': 1, 'N4-like RNA polymerase': 72, 'DNA-dependent RNA polymerase': 23, 'DNA dependent RNA polymerase': 2, 'DNA directed RNA polymerase': 1, 'T3/T7-like RNA polymerase': 16, 'hypothetical protein': 38, 'putative DNA-directed RNA polymerase': 3, 'DNA-directed RNA polymerase protein': 6, 'putative recombination endonuclease VII': 1, 'endonuclease VII': 1, 'RNA polymerase%2C single-subunit': 1, 'p32': 1, 'RNA polymerase%2C phage-associated': 1, 'RNA polymerase-like protein': 1, 'T3/ T7 like RNA polymerase': 1, 'putative DNA-dependent RNA polymerase protein': 1, 'putative ATP-dependent DNA ligase': 1, 'DNA-directed RNA polymerase%2C phage-type': 1, 'predicted protein': 1, 'T7-like RNA polymerase': 1}
+GCF_002578345.1_00025	968	{'DNA-directed RNA polymerase': 171, 'Mitochondrial DNA-directed RNA polymerase (RPO41)': 3, 'RNA polymerase': 384, 'T7 RNA polymerase': 166, 'RPO41 Mitochondrial DNA-directed RNA polymerase': 14, 'putative RNA polymerase': 35, 'putative DNA-dependent RNA polymerase': 13, 'single subunit RNA polymerase': 1, 'putative DNA-directed RNA-polymerase': 2, 'DNA-directed RNA-polymerase': 1, 'N4-like RNA polymerase': 71, 'DNA-dependent RNA polymerase': 24, 'DNA dependent RNA polymerase': 2, 'DNA directed RNA polymerase': 1, 'hypothetical protein': 42, 'T3/T7-like RNA polymerase': 15, 'putative DNA-directed RNA polymerase': 3, 'DNA-directed RNA polymerase protein': 6, 'putative recombination endonuclease VII': 1, 'endonuclease VII': 1, 'RNA polymerase%2C single-subunit': 1, 'p32': 1, 'RNA polymerase%2C phage-associated': 1, 'RNA polymerase-like protein': 1, 'T3/ T7 like RNA polymerase': 1, 'putative DNA-dependent RNA polymerase protein': 1, 'putative ATP-dependent DNA ligase': 1, 'DNA-directed RNA polymerase%2C phage-type': 1, 'predicted protein': 1, 'T7-like ssDNA binding protein': 1, 'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 1, 'gp16': 1}
 GCF_002611585.1_00031	365	{'endonuclease VII': 47, 'hypothetical protein': 132, 'endonuclease': 7, 'putative endonuclease': 3, 'recombination endonuclease VII': 6, 'DNA endonuclease VII': 29, 'putative DNA endonuclease VII': 6, 'DNA endonuclease': 1, 'exonuclease': 14, 'nucleotidyltransferase': 2, 'HNH endonuclease': 3, 'phosphoesterase': 5, 'DNA repair exonuclease': 1, 'putative oxidoreductase': 1, "5'-3' exonuclease": 2, 'ribonuclease H': 1, 'DNA polymerase exonuclease subunit': 20, 'DNA-directed RNA polymerase': 1, 'DNA-directed RNA polymerase protein': 2, 'recombination endonuclease VII protein': 2, 'recombination DNA endonuclease': 3, 'exonuclease VII': 3, 'putative exonuclease': 1, 'Recombination endonuclease VII': 1, 'metallo-dependent phosphoesterase': 1, 'putative poly(A) polymerase': 1, 'putative phosphoesterase': 1, 'putative phosphodiesterase': 1, 'metallo-phosphoesterase': 7, 'putative DNA exonuclease': 1, 'nucleotide kinase': 21, 'putative structural protein': 1, 'putative polynucleotide kinase/phosphatase': 3, 'polynucleotide kinase/phosphatase': 1, 'terminase small subunit / SaV-like protein': 1, 'terminase small subunit': 2, 'putative HNH endonuclease': 1, 'putative DNA endonuclease': 1, 'nucelotide kinase': 1, 'polynucleotide kinase': 10, 'gp24': 1, 'gp31': 1, "3'-5' exonuclease": 6, 'RnaseH': 1, 'metallo-dependent phosphatase': 1, 'putative DNA-dependent RNA polymerase': 2, 'putative recombination endonuclease VII': 1, 'putative RNA polymerase': 1, 'nucleotide pyrophosphohydrolase domain protein': 1, 'RNA polymerase': 1, 'phosphodiesterase': 1, 'metallo-phosphohydrolase': 1}
 GCF_003929535.1_00033	363	{'PIN domain-like protein': 1, 'hypothetical protein': 192, 'DNA endonuclease VII': 6, 'putative DNA exonuclease': 3, 'endonuclease VII': 33, 'exonuclease': 31, 'endonuclease': 13, 'DNA polymerase': 1, 'HNH homing endonuclease': 2, 'tRNA nucleotidyltransferase/poly(A) polymerase': 2, 'tRNA nucleotidyltransferase': 20, "5'-3' exonuclease": 6, 'putative tRNA nucleotidyltransferase': 4, 'putative HNH homing endonuclease': 1, 'HNH endonuclease': 5, 'nucleotidyltransferase': 9, 'putative exonuclease': 2, 'amino acid adenylation domain-containing protein': 1, 'putative DNA endonuclease': 3, 'HNH endonuclease motif protein': 1, 'DNA exonuclease': 2, 'beta-galactosidase': 8, "putative 5'-3' exonuclease": 2, 'HNHc domain-containing protein': 2, 'gp29': 1, 'putative DNA endonuclease VII': 1, 'ribonuclease H': 1, 'putative ribonuclease H': 1, 'recombination DNA endonuclease': 3, 'P42': 1, 'DNA polymerase I': 2, 'host RecBCD nuclease inhibitor': 2, 'phosphodiesterase': 1}
 GCF_014262885.1_00038	356	{'hypothetical protein': 273, 'exonuclease': 31, 'putative exonuclease': 1, "5'-3' exonuclease": 10, "putative 5'-3' exonuclease": 1, 'host RecBCD nuclease inhibitor': 1, 'p38': 1, 'large tegument protein': 14, 'putative structural protein': 1, 'oxidoreductase': 1, 'structural protein': 4, 'Fe-S oxidoreductase': 6, 'putative large tegument protein': 2, 'P43': 1, 'putative DNA exonuclease': 2, 'ribonuclease H': 2, 'endonuclease': 1, 'DNA exonuclease': 1, 'gp': 1, 'levansucrase': 2}
-GCF_002578725.1_00001	242	{'terminase large subunit': 110, 'putative terminase large subunit': 7, 'Terminase%2C large subunit gp19': 73, 'DNA packaging protein B': 7, 'hypothetical protein': 29, 'putative DNA packaging protein B': 2, 'putative DNA packaging protein': 1, 'DNA packaging protein': 5, 'Rz-like spanin': 1, 'endopeptidase Rz': 1, 'DNA maturation protein': 2, 'large terminase': 1, 'DNA maturase B': 3}
+GCF_003226655.1_00048	242	{'terminase large subunit': 110, 'putative terminase large subunit': 7, 'Terminase%2C large subunit gp19': 73, 'DNA packaging protein B': 7, 'hypothetical protein': 29, 'putative DNA packaging protein B': 2, 'putative DNA packaging protein': 1, 'DNA packaging protein': 5, 'Rz-like spanin': 1, 'endopeptidase Rz': 1, 'DNA maturation protein': 2, 'large terminase': 1, 'DNA maturase B': 3}
 GCF_003094295.1_00004	197	{'serine-threonine kinase': 65, 'hypothetical protein': 26, 'Protein kinase 0.7': 36, 'putative protein kinase': 8, 'protein kinase': 46, 'seryl-threonyl protein kinase': 2, 'serine/threonine kinase': 6, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 5, 'kinase': 3}
 GCF_000917035.1_00002	182	{'ocr-like anti-restriction': 18, 'hypothetical protein': 108, 'Overcome classical restriction gp0.3': 35, 'overcome classical restriction': 1, 'restriction-modification evasion protein': 2, 'Ocr-like anti-restriction': 1, 'putative protein kinase': 1, 'DNA related protein': 1, 'putative restriction-modification evasion%2C mimics B-form DNA': 1, 'gp0.35': 1, 'DNA mimic ocr': 1, 'Orc protein': 1, 'protein kinase': 2, 'receptor binding protein kinase': 1, 'protein Ocr': 4, 'gp5': 1, 'ocr protein': 1, 'serine-threonine kinase': 1, 'putative antirestriction protein': 1}
 GCA_014183355.1_00001	176	{'hypothetical protein': 165, 'Phage protein': 1, 'putative transmembrane protein': 1, 'gp19.5 family protein': 9}
@@ -20,15 +20,15 @@ GCA_012587945.1_00011	79	{'hypothetical protein': 37, "5'-3' exonuclease": 1, 'p
 GCF_002618765.1_00022	72	{'hypothetical protein': 70, 'putative structural protein': 1, 'putative secreted protein': 1}
 GCA_022604885.2_00049	72	{'hypothetical protein': 68, 'hypotheticla protein': 1, 'endonuclease VII': 1, 'gp0.38': 1, 'Phage protein': 1}
 GCA_005075185.1_00029	70	{'deoxynucleoside monophosphate kinase': 2, 'dNMP kinase': 31, 'hypothetical protein': 25, 'deoxynucleotide monophosphate kinase': 3, 'putative dNMP kinase': 8, 'metallo-dependent phosphoesterase': 1}
+GCF_002578645.1_00022	67	{'tyrosine recombinase XerD (TIGR02225)': 1, 'integrase': 29, 'putative integrase': 7, 'tyrosine integrase': 2, 'XerC Integrase': 10, 'site-specific tyrosine integrase': 1, 'integrase protein': 1, 'hypothetical protein': 5, 'phage-related integrase': 1, 'conserved hypothetical protein': 1, 'Transcriptional regulators (MarR)': 1, 'Integrase (XerC)': 1, 'Integrase': 3, 'MarR Transcriptional regulators': 1, 'site-specific integrase': 1, 'transcriptional regulator': 2}
 GCA_020484125.1_00025	64	{'DNA ligase': 7, 'putative DNA ligase': 2, 'hypothetical protein': 46, 'putative recombination endonuclease VII': 1, 'ATP-dependent DNA ligase': 2, 'RNA polymerase': 3, 'dATP/dGTP diphosphohydrolase': 1, 'putative ATP-dependent DNA ligase': 2}
-GCF_017347905.1_00092	63	{'hypothetical protein': 55, 'virion structural protein': 1, 'putative structural protein': 1, 'gp53': 2, 'hypothetical protein vec25_57 [EscherichiavirusVEc25]': 1, 'gp70': 1, 'putative 4 transmembrane helical domains containing protein': 1, 'membrane protein': 1}
 GCF_003014195.1_00075	63	{'hypothetical protein': 53, 'lysozyme-like protein': 1, 'hypothetical protein [Escherichia phage PMBT]': 1, '16.5 kDa protein': 1, 'putative structural protein': 4, 'gp69': 1, 'structural protein': 2}
+GCF_020492005.1_00071	62	{'hypothetical protein': 54, 'putative structural protein': 1, 'gp53': 2, 'hypothetical protein vec25_57 [EscherichiavirusVEc25]': 1, 'gp70': 1, 'putative 4 transmembrane helical domains containing protein': 1, 'membrane protein': 1, 'virion structural protein': 1}
 GCA_028897605.1_00069	62	{'hypothetical protein': 3, 'virion RNA polymerase': 28, 'virion DNA-directed RNA polymerase': 1, 'RNA polymerase': 3, 'single subunit virion RNA polymerase': 2, 'Virion DNA-directed RNA polymerase': 7, 'RNA polymerase [Escherichia virus VEc25]': 1, 'DNA-directed RNA polymerase': 1, 'putative virion DNA-directed RNA polymerase': 2, 'virion-associated RNA polymerase': 1, 'virion RNA polymerase protein': 7, 'putative virion-associated RNA polymerase': 2, 'gp67': 1, 'putative virion RNA polymerase': 2, 'translation initiation factor 2': 1}
 GCA_022604905.2_00031	62	{'putative nucelotide kinase': 1, 'nucelotide kinase': 1, 'nucleotide kinase': 13, 'hypothetical protein': 33, 'endonuclease VII': 6, 'HNH endonuclease': 1, 'terminase small subunit': 2, 'putative DNA endonuclease': 1, 'Nucleotide kinase gp1.7': 2, 'gp1.8': 1, 'putative DNA endonuclease VII': 1}
 GCF_000915495.1_00005	60	{'hypothetical protein': 58, 'gp0.38': 1, 'Phage protein': 1}
 GCF_003865535.1_00029	57	{'deoxynucleoside monophosphate kinase': 6, 'hypothetical protein': 37, 'nucleotide/nucleoside kinase': 1, 'deoxynucleotide monophosphate kinase': 1, 'dNMP kinase': 1, 'putative deoxynucleoside monophosphate kinase': 1, 'probable E3 ubiquitin-protein ligase MID2': 1, 'ATPase': 1, 'ATPase%2C kinase': 1, 'putative ATP-binding protein': 3, 'polynucleotide kinase': 3, 'ATP-binding protein': 1}
 GCF_002602105.1_00028	56	{'exonuclease': 1, 'hypothetical protein': 18, "putative 5'-3' exonuclease": 2, "5'-3' exonuclease": 1, 'HNH endonuclease': 14, 'Recombination endonuclease VII': 1, 'putative HNH endonuclease': 10, 'HNH homing endonuclease': 4, 'putative NHN endonuclease': 1, 'putative HNH homing endonuclease': 2, 'HNH family endonuclease': 1, 'homing endonuclease': 1}
-GCA_009656035.1_00043	55	{'putative integrase': 5, 'integrase': 26, 'site-specific integrase': 1, 'hypothetical protein': 4, 'tyrosine integrase': 2, 'XerC Integrase': 8, 'hemagglutinin A like protein': 1, 'integrase (XerC)': 1, 'integrase protein': 1, 'Integrase (XerC)': 1, 'Integrase': 3, 'MarR Transcriptional regulators': 1, 'tyrosine recombinase XerD (TIGR02225)': 1}
 GCF_000900695.1_00027	54	{'hypothetical protein': 49, 'putative membrane protein': 4, 'small Trp-rich protein': 1}
 GCA_025085425.1_00026	54	{'virion structural protein': 31, 'putative structural protein': 1, 'hypothetical protein': 17, 'hypothetical protein [Escherichia phage PMBT57]': 1, '66 kDa protein': 1, 'endolysin': 3}
 GCA_022401895.1_00041	53	{'hypothetical protein': 51, 'gp0.35': 1, 'ocr-like anti-restriction': 1}
@@ -85,8 +85,8 @@ GCA_012360275.1_00024	19	{'hypothetical protein': 19}
 GCA_902810465.1_00031	18	{'hypothetical protein': 10, 'ATP dependent DNA lygase': 1, 'ATP dependent DNA ligase': 1, 'ATP-dependent DNA ligase': 6}
 GCA_008215605.1_00027	18	{'hypothetical protein': 18}
 GCF_002617405.1_00029	17	{'hypothetical protein': 16, 'endolysin%3B inhibits RNA polymerase': 1}
+GCF_003929535.1_00030	16	{'metallo-dependent phosphatase-like protein': 2, 'putative DNA polymerase II small subunit': 2, 'hypothetical protein': 6, 'exonuclease': 2, 'metallo-dependent phosphatase': 2, 'MazG-like nucleotide pyrophosphohydrolase': 1, 'endonuclease VII': 1}
 GCF_002578675.1_00039	16	{'Transcriptional regulators (MarR)': 2, 'integrase': 1, 'MarR family transcriptional regulator': 11, 'tyrosine recombinase XerD (TIGR02225)': 1, 'transcriptional regulator': 1}
-GCF_002149385.1_00022	16	{'hypothetical protein': 6, 'metallo-dependent phosphatase': 2, 'exonuclease': 2, 'MazG-like nucleotide pyrophosphohydrolase': 1, 'metallo-dependent phosphatase-like protein': 2, 'endonuclease VII': 1, 'putative DNA polymerase II small subunit': 2}
 GCA_022818295.1_00029	16	{'hypothetical protein': 15, 'exonuclease related to epsilon chain of DNA polymerase': 1}
 GCA_027574145.1_00042	15	{'hypothetical protein': 15}
 GCA_026432305.1_00079	15	{'hypothetical protein': 15}
@@ -105,6 +105,7 @@ GCA_002629945.1_00004	14	{'hypothetical protein': 14}
 GCA_002629945.1_00003	14	{'hypothetical protein': 14}
 GCF_003308855.1_00007	13	{'hypothetical protein': 12, 'glycosyltransferase': 1}
 GCF_000864645.1_00002	13	{'hypothetical protein': 13}
+GCA_027574325.1_00023	13	{'DNA-dependent RNA polymerase': 2, 'T7 RNA polymerase': 1, 'RNA polymerase': 7, 'N4-like RNA polymerase': 1, 'RNA polymerase-like protein': 1, 'hypothetical protein': 1}
 GCA_023898935.1_00026	13	{'hypothetical protein': 5, 'DNA endonuclease VII': 1, 'putative DNA endonuclease VII': 2, 'endonuclease': 2, 'transcription elongation factor': 1, 'endonuclease VII': 2}
 GCA_013086035.1_00003	13	{'hypothetical protein': 11, 'gp90': 2}
 GCA_006516775.1_00012	13	{'hypothetical protein': 12, 'MarR family transcriptional regulator': 1}
@@ -113,7 +114,6 @@ GCA_002629945.1_00049	13	{'hypothetical protein': 13}
 GCA_002629945.1_00048	13	{'hypothetical protein': 13}
 GCF_000905455.1_00031	12	{'hypothetical protein': 12}
 GCF_000884875.1_00038	12	{'P37': 1, 'hypothetical protein': 11}
-GCA_018448055.1_00006	12	{'hypothetical protein': 1, 'RNA polymerase': 7, 'T7 RNA polymerase': 1, 'DNA-dependent RNA polymerase': 1, 'RNA polymerase-like protein': 1, 'N4-like RNA polymerase': 1}
 GCA_014337605.2_00011	12	{'hypothetical protein': 11, 'glycosyltransferase': 1}
 GCA_013426665.1_00003	12	{'hypothetical protein': 12}
 GCA_006516795.1_00002	12	{'hypothetical protein': 11, 'Sel1 repeat family protein': 1}
@@ -125,7 +125,6 @@ GCA_010120305.1_00001	11	{'hypothetical protein': 6, 'endonuclease': 4, 'putativ
 GCA_010120115.1_00016	11	{'phosphoesterase': 4, "polynucleotide 5'-kinase/3'-phosphatase-like protein": 2, "putative polynucleotide 5' kinase/3' phosphatase": 2, 'hypothetical protein': 1, 'putative kinase-phosphatase': 1, 'polynucleotide kinase': 1}
 GCA_009667685.1_00051	11	{'hypothetical protein': 11}
 GCA_002990555.1_00001	11	{'hypothetical protein': 10, 'putative cell division FtsZ inhibitor': 1}
-GCF_000895235.1_00025	10	{'transcriptional regulator': 2, 'integrase': 5, 'hypothetical protein': 1, 'phage-related integrase': 1, 'conserved hypothetical protein': 1}
 GCA_025085795.1_00003	10	{'hypothetical protein': 10}
 GCA_024499625.1_00003	10	{'hypothetical protein': 10}
 GCA_020523215.1_00025	10	{'hypothetical protein': 10}
@@ -137,18 +136,17 @@ GCF_003226655.1_00049	9	{'hypothetical protein': 9}
 GCF_001550525.1_00033	9	{'holin': 2, 'hypothetical protein': 5, 'putative terminase small subunit': 1, 'DNA packaging/maturation protein A': 1}
 GCF_001470995.1_00021	9	{'hypothetical protein': 2, 'RNA polymerase': 1, 'DNA ligase': 5, 'DNA ligase-like protein': 1}
 GCF_000911455.1_00032	9	{'hypothetical protein': 9}
-GCA_902985345.1_00045	9	{'hypothetical protein': 8, 'Phage protein Gp37/Gp68-like protein': 1}
 GCA_025085185.1_00001	9	{'hypothetical protein': 7, 'putative F-box domain-containing protein': 1, 'SAM-dependent methyltransferase': 1}
 GCA_025085125.1_00045	9	{'hypothetical protein': 9}
 GCA_022213585.1_00046	9	{'hypothetical protein': 8, 'virion structural protein': 1}
 GCA_021378495.1_00043	9	{'protein kinase': 1, 'hypothetical protein': 3, 'Protein kinase 0.7': 4, 'gp0.7': 1}
+GCA_016653745.1_00048	9	{'hypothetical protein': 8, 'Phage protein Gp37/Gp68-like protein': 1}
 GCA_006516755.1_00007	9	{'hypothetical protein': 9}
 GCA_002618525.1_00040	9	{'catalytic beta propeller domain of endosialidase': 1, 'Tail spike protein': 3, 'hypothetical protein': 3, 'tail spike protein': 2}
 GCA_002618525.1_00031	9	{'hypothetical protein': 9}
+GCF_020523195.1_00020	8	{'virion structural protein': 4, 'hypothetical protein': 2, 'putative tail protein': 2}
 GCF_002757895.1_00002	8	{'hypothetical protein': 8}
 GCF_002757895.1_00001	8	{'hypothetical protein': 6, 'GNAT family N-acetyltransferase': 1, 'putative acetyltransferase': 1}
-GCF_002578345.1_00026	8	{'Transcriptional regulators (MarR)': 1, 'XerC Integrase': 4, 'putative integrase': 2, 'site-specific tyrosine integrase': 1}
-GCA_025790155.1_00025	8	{'hypothetical protein': 2, 'putative tail protein': 2, 'virion structural protein': 4}
 GCA_025085125.1_00047	8	{'hypothetical protein': 8}
 GCA_024499595.1_00040	8	{'hypothetical protein': 8}
 GCA_024499595.1_00003	8	{'hypothetical protein': 8}
@@ -205,16 +203,16 @@ GCF_004800205.1_00026	5	{'hypothetical protein': 3, 'exonuclease': 2}
 GCF_003440975.1_00010	5	{'hypothetical protein': 3, 'uncharacterized protein': 1, 'conserved hypothetical protein': 1}
 GCF_003440755.1_00006	5	{'hypothetical protein': 5}
 GCF_002990265.1_00030	5	{'hypothetical protein': 4, 'dATP / dGTP pyrophosphohydrolase': 1}
-GCF_002615685.1_00094	5	{'RNA polymerase': 2, 'DNA-directed RNA polymerase': 1, 'hypothetical protein': 1, 'RNAP1-like protein': 1}
-GCF_002615685.1_00092	5	{'RNA polymerase': 4, 'T7 RNA polymerase': 1}
+GCF_002989895.1_00023	5	{'RNA polymerase': 4, 'T7 RNA polymerase': 1}
+GCF_002615685.1_00094	5	{'RNA polymerase': 1, 'DNA-directed RNA polymerase': 1, 'hypothetical protein': 2, 'RNAP1-like protein': 1}
 GCF_001500935.1_00004	5	{'hypothetical protein': 5}
 GCF_000918515.1_00013	5	{'hypothetical protein': 5}
 GCF_000906055.1_00041	5	{'hypothetical protein': 5}
 GCF_000905455.1_00035	5	{'hypothetical protein': 5}
-GCF_000895235.1_00014	5	{'hypothetical protein': 3, 'uncharacterized protein': 1, 'conserved hypothetical protein': 1}
 GCF_000891635.1_00006	5	{'hypothetical protein': 5}
 GCF_000858745.1_00002	5	{'uncharacterized protein': 1, 'gp12': 1, 'DNA methyltransferase': 2, 'hypothetical protein': 1}
 GCA_902988585.1_00034	5	{'hypothetical protein': 2, 'MarR family transcriptional regulator protein': 2, 'MarR Transcriptional regulators': 1}
+GCA_902985125.1_00004	5	{'hypothetical protein': 3, 'uncharacterized protein': 1, 'conserved hypothetical protein': 1}
 GCA_028897605.1_00074	5	{'hypothetical protein': 5}
 GCA_026432285.1_00092	5	{'hypothetical protein': 2, 'Terminase%2C large subunit gp19': 3}
 GCA_025084075.1_00049	5	{'endonuclease VII': 2, 'hypothetical protein': 2, 'DNA endonuclease VII': 1}
@@ -235,10 +233,11 @@ GCA_009659355.1_00034	5	{'hypothetical protein': 4, 'gp9': 1}
 GCA_009185825.1_00026	5	{'hypothetical protein': 5}
 GCA_009185825.1_00025	5	{'hypothetical protein': 5}
 GCF_004800935.1_00053	4	{'hypothetical protein': 4}
-GCF_003958785.1_00003	4	{'anti-repressor Ant': 3, 'hypothetical protein': 1}
+GCF_004521515.1_00046	4	{'DNA-directed RNA polymerase': 1, 'hypothetical protein': 1, 'T7-like ssDNA binding protein': 1, 'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 1}
 GCF_003575385.1_00001	4	{'hypothetical protein': 4}
 GCF_003441135.1_00031	4	{'hypothetical protein': 4}
 GCF_003441135.1_00030	4	{'transcriptional regulator': 4}
+GCF_003308855.1_00010	4	{'anti-repressor Ant': 3, 'hypothetical protein': 1}
 GCF_003094255.1_00004	4	{'hypothetical protein': 4}
 GCF_002957185.1_00002	4	{'hypothetical protein': 4}
 GCF_002755275.1_00025	4	{'exonuclease': 1, "putative 5'-3' exonuclease protein": 3}
@@ -279,6 +278,7 @@ GCA_009667685.1_00044	4	{'hypothetical protein': 4}
 GCA_009657555.1_00040	4	{'hypothetical protein': 4}
 GCA_009656755.1_00029	4	{'hypothetical protein': 1, 'lysozyme murein hydrolase': 1, 'lysozyme': 2}
 GCA_006964805.1_00030	4	{'hypothetical protein': 3, 'N4-like RNA polymerase': 1}
+GCA_006516695.1_00007	4	{'integrase': 2, 'hemagglutinin A like protein': 1, 'integrase (XerC)': 1}
 GCF_004800935.1_00051	3	{'hypothetical protein': 3}
 GCF_004800935.1_00048	3	{'hypothetical protein': 2, 'RNA polymerase': 1}
 GCF_003991665.1_00022	3	{'putative ATP-binding protein': 3}
@@ -389,7 +389,6 @@ GCF_003764565.1_00037	2	{'endonuclease': 2}
 GCF_003601515.1_00003	2	{'hypothetical protein': 2}
 GCF_003575725.1_00002	2	{'hypothetical protein': 2}
 GCF_003505395.1_00009	2	{'hypothetical protein': 2}
-GCF_003440755.1_00031	2	{'major head protein': 1, 'capsid protein': 1}
 GCF_003440755.1_00002	2	{'gp90': 1, 'hypothetical protein': 1}
 GCF_003341035.1_00047	2	{'hypothetical protein': 2}
 GCF_003143375.1_00028	2	{'hypothetical protein': 2}
@@ -443,7 +442,6 @@ GCF_000929555.1_00062	2	{'hypothetical protein': 2}
 GCF_000929555.1_00004	2	{'hypothetical protein': 2}
 GCF_000924995.1_00011	2	{'hypothetical protein': 2}
 GCF_000918975.1_00082	2	{'hypothetical protein': 1, 'p10-like protein': 1}
-GCF_000907035.1_00010	2	{'anti-restriction protein': 1, 'hypothetical protein': 1}
 GCF_000906055.1_00040	2	{'hypothetical protein': 2}
 GCF_000905515.1_00041	2	{'hypothetical protein': 2}
 GCF_000905515.1_00037	2	{'hypothetical protein': 2}
@@ -466,6 +464,7 @@ GCF_000886155.1_00036	2	{'HNH endonuclease': 1, 'hypothetical protein': 1}
 GCF_000886135.1_00028	2	{'hypothetical protein': 2}
 GCF_000886135.1_00022	2	{'hypothetical protein': 2}
 GCF_000884875.1_00037	2	{'P36': 1, 'hypothetical protein': 1}
+GCF_000873225.1_00015	2	{'gp16': 1, 'hypothetical protein': 1}
 GCF_000864645.1_00005	2	{'hypothetical protein': 2}
 GCF_000858745.1_00004	2	{'uncharacterized protein': 1, 'conserved hypothetical protein': 1}
 GCF_000858745.1_00003	2	{'hypothetical protein': 1, 'conserved hypothetical protein': 1}
@@ -480,6 +479,7 @@ GCA_903233555.1_00003	2	{'hypothetical protein': 2}
 GCA_902988585.1_00037	2	{'hypothetical protein': 2}
 GCA_902988585.1_00036	2	{'hypothetical protein': 2}
 GCA_902988585.1_00035	2	{'hypothetical protein': 2}
+GCA_902988585.1_00033	2	{'XerC Integrase': 2}
 GCA_902986965.1_00049	2	{'hypothetical protein': 2}
 GCA_902986965.1_00048	2	{'hypothetical protein': 2}
 GCA_902986965.1_00047	2	{'hypothetical protein': 2}
@@ -501,6 +501,7 @@ GCA_026273205.1_00046	2	{'hypothetical protein': 2}
 GCA_025630455.1_00048	2	{'hypothetical protein': 1, 'gp6': 1}
 GCA_025085795.1_00008	2	{'hypothetical protein': 2}
 GCA_025084115.1_00020	2	{'hypothetical protein': 2}
+GCA_024499755.1_00042	2	{'hypothetical protein': 1, 'anti-restriction protein': 1}
 GCA_024384225.1_00025	2	{'hypothetical protein': 2}
 GCA_024023215.1_00045	2	{'DNA ligase': 1, 'hypothetical protein': 1}
 GCA_023571655.1_00015	2	{'hypothetical protein': 2}
@@ -517,6 +518,7 @@ GCA_019466435.1_00047	2	{'hypothetical protein': 2}
 GCA_018982585.1_00026	2	{'hypothetical protein': 2}
 GCA_018726285.1_00032	2	{'hypothetical protein': 2}
 GCA_017903885.1_00034	2	{'hypothetical protein': 2}
+GCA_017654355.1_00002	2	{'capsid protein': 1, 'major head protein': 1}
 GCA_016835325.1_00022	2	{'hypothetical protein': 2}
 GCA_016759195.1_00027	2	{'hypothetical protein': 2}
 GCA_016653745.1_00050	2	{'hypothetical protein': 2}
@@ -528,6 +530,7 @@ GCA_015644975.1_00038	2	{'hypothetical protein': 2}
 GCA_015644895.1_00024	2	{'mucin-22 like protein': 1, 'hypothetical protein': 1}
 GCA_015644895.1_00017	2	{'MoaE-like protein': 1, 'hypothetical protein': 1}
 GCA_015644885.1_00027	2	{'hypothetical protein': 2}
+GCA_015620925.1_00090	2	{'hypothetical protein': 2}
 GCA_015620925.1_00086	2	{'hypothetical protein': 2}
 GCA_015620925.1_00082	2	{'hypothetical protein': 2}
 GCA_015502225.1_00038	2	{'hypothetical protein': 2}
@@ -826,7 +829,6 @@ GCF_000927475.1_00002	1	{'hypothetical protein': 1}
 GCF_000927475.1_00001	1	{'hypothetical protein': 1}
 GCF_000925075.1_00012	1	{'hypothetical protein': 1}
 GCF_000925075.1_00009	1	{'hypothetical protein': 1}
-GCF_000925075.1_00008	1	{'hypothetical protein': 1}
 GCF_000925075.1_00007	1	{'hypothetical protein': 1}
 GCF_000925075.1_00006	1	{'hypothetical protein': 1}
 GCF_000925075.1_00005	1	{'hypothetical protein': 1}
@@ -1034,6 +1036,7 @@ GCA_028897465.1_00001	1	{'hypothetical protein': 1}
 GCA_027618025.1_00038	1	{'hypothetical protein': 1}
 GCA_027574165.1_00003	1	{'hypothetical protein': 1}
 GCA_027574165.1_00002	1	{'hypothetical protein': 1}
+GCA_027183915.1_00018	1	{'hypothetical protein': 1}
 GCA_027183915.1_00016	1	{'hypothetical protein': 1}
 GCA_027183915.1_00015	1	{'hypothetical protein': 1}
 GCA_027183915.1_00013	1	{'hypothetical protein': 1}
@@ -1057,6 +1060,7 @@ GCA_026273205.1_00004	1	{'hypothetical protein': 1}
 GCA_026273205.1_00001	1	{'hypothetical protein': 1}
 GCA_025989885.1_00023	1	{'hypothetical protein': 1}
 GCA_025790155.1_00028	1	{'hypothetical protein': 1}
+GCA_025790155.1_00026	1	{'hypothetical protein': 1}
 GCA_025727415.1_00037	1	{'hypothetical protein': 1}
 GCA_025727355.1_00015	1	{'hypothetical protein': 1}
 GCA_025630455.1_00053	1	{'hypothetical protein': 1}

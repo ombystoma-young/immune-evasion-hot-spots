@@ -97,9 +97,9 @@ class IntersectionMaster:
         # if genome_id not in outliers.keys():
         #     raise KeyError(f'No info about path to gff: {genome_id}')
         assembly_id = self.nta[genome_id]
-        folder = list(os.walk(f'../ncbi_dataset/data/{assembly_id}'))
+        folder = list(os.walk(f'ncbi_dataset/data/{assembly_id}'))
         if 'genomic.gff' in folder[0][2]:
-            path_to_gff = f'../ncbi_dataset/data/{assembly_id}/genomic.gff'
+            path_to_gff = f'ncbi_dataset/data/{assembly_id}/genomic.gff'
             with open(path_to_gff, 'r') as gff_file:
                 for line in gff_file:
                     if not line.startswith('#'):
@@ -119,11 +119,11 @@ class IntersectionMaster:
                                                          'attribute': attribute}
                                 return genome_id
             if genome_id not in self.rnaps:
-                with open('../metadata/list_no_pol', 'a') as out_f:
+                with open('metadata/list_no_pol', 'a') as out_f:
                     out_f.write('\t'.join([assembly_id, genome_id]))
                     out_f.write('\n')
         else:
-            with open('../metadata/list_no_anno_no_pol', 'a') as out_f:
+            with open('metadata/list_no_anno_no_pol', 'a') as out_f:
                 out_f.write('\t'.join([assembly_id, genome_id]))
                 out_f.write('\n')
 
@@ -156,26 +156,26 @@ class IntersectionMaster:
             if (rnap_start > tdrs_1_end) and (rnap_end < tdrs_2_start):  # RNAP BETWEEN TDRs
                 if rnap_start > self.bp:  #
                     upstream_start = str(max(tdrs_1_end, rnap_start - self.bp) - 1)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                 elif rnap_start == self.bp:
                     upstream_start = str(max(tdrs_1_end, rnap_start - self.bp + 1) - 1)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                 elif rnap_start < self.bp:
                     upstream_start = str(tdrs_1_end - 1)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                 else:
                     raise ValueError('+ strand, (rnap_start > tdrs_1_end) and (rnap_end < tdrs_2_start) '
                                      'not enough definition')
             elif (rnap_end < tdrs_1_start) and (rnap_end < tdrs_2_start):  # RNAP BEFORE TDRs
                 if rnap_start > self.bp:  # enough space at the left
                     upstream_start = str(rnap_start - self.bp - 1)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                 elif rnap_start == self.bp:  # enough space at the left, equal
                     upstream_start = str(0)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                 elif rnap_start < self.bp:  # not enough space at the left, need part from the end
                     upstream_start = str(0)
-                    upstream_end = str(rnap_start)
+                    upstream_end = str(rnap_end)
                     shift = self.bp - rnap_start
                     if length - shift >= tdrs_2_end:  # at the end enough space before TDR
                         upstream_start_2 = str(length - shift - 1)
@@ -192,20 +192,20 @@ class IntersectionMaster:
                                      'not enough definition')
             elif (rnap_end > tdrs_1_end) and (rnap_end > tdrs_2_end):  # RNAP after TDRs
                 upstream_start = str(max(tdrs_2_end, rnap_start - self.bp - 1))
-                upstream_end = str(rnap_start)
+                upstream_end = str(rnap_end)
             else:
                 self._inter_rnaps.pop(g_id)
                 return None
         elif upstream_strand == '-':  # "-"-strand
             if (rnap_start > tdrs_1_end) and (rnap_end < tdrs_2_start):
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(min(rnap_end + self.bp, tdrs_2_start))
             elif (rnap_start < tdrs_1_end) and (rnap_end < tdrs_2_end):
                 if rnap_end + self.bp <= length:
-                    upstream_start = str(rnap_end - 1)
+                    upstream_start = str(rnap_start - 1)
                     upstream_end = str(rnap_end + self.bp)
                 elif rnap_end + self.bp > length:
-                    upstream_start = str(rnap_end)
+                    upstream_start = str(rnap_start)
                     upstream_end = str(length)
                     shift = self.bp - (length - rnap_end)
                     if tdrs_1_start >= shift:
@@ -219,7 +219,7 @@ class IntersectionMaster:
                                       str(rnap_end), str(tdrs_1_start),
                                       str(tdrs_1_end), str(tdrs_2_start), str(tdrs_2_end)])
                 elif (rnap_end < tdrs_1_start) and (rnap_end < tdrs_2_start):
-                    upstream_start = str(rnap_end - 1)
+                    upstream_start = str(rnap_start - 1)
                     upstream_end = min(rnap_end + self.bp, tdrs_1_start)
                 else:
                     raise ValueError
@@ -315,10 +315,10 @@ class IntersectionMaster:
 
 
 if __name__ == '__main__':
-    upstream_dir = '../upstream_search'
-    tdrs_search_dir = '../minimap2_out'
-    stats_dir = '../stats'
-    meta_dir = '../metadata'
+    upstream_dir = 'upstream_search'
+    tdrs_search_dir = 'minimap2_out'
+    stats_dir = 'stats'
+    meta_dir = 'metadata'
     gff = os.path.join(upstream_dir, 'representative_genomes.gff')
     tsv = os.path.join(tdrs_search_dir, 'TDRs_all.tsv')
     stat_file = os.path.join(stats_dir, 'genomes_gc_length.statistics')
