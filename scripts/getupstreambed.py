@@ -245,13 +245,13 @@ class IntersectionMaster:
         if upstream_strand == '+':  # + strand
             if rnap_start > self.bp:
                 upstream_start = str(rnap_start - self.bp - 1)
-                upstream_end = str(rnap_start)
+                upstream_end = str(rnap_end)
             elif rnap_start == self.bp:
                 upstream_start = str(rnap_start - self.bp)
-                upstream_end = str(rnap_start)
+                upstream_end = str(rnap_end)
             elif rnap_start < self.bp:
                 upstream_start = str(0)
-                upstream_end = str(rnap_start)
+                upstream_end = str(rnap_end)
                 shift = self.bp - rnap_start
                 upstream_2_start = str(length - shift - 1)
                 upstream_2_end = str(length)
@@ -261,13 +261,13 @@ class IntersectionMaster:
 
         else:  # - strand
             if length > rnap_end + self.bp:
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(rnap_end + self.bp)
             elif length == rnap_end + self.bp:
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(length)
             elif length < rnap_end + self.bp:
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(length)
                 shift = rnap_end + self.bp - length
                 upstream_2_start = str(0)

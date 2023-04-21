@@ -77,11 +77,13 @@ rule all:
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
-        # os.path.join(promoters_dir, 'intergenic_filtered.bed'),  # some troubles with length of sequence
+        os.path.join(promoters_dir, 'intergenic_filtered.bed'),  # some troubles with length of sequence
         # os.path.join(promoters_dir, 'promoters_blastn.tsv'),
+        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
         os.path.join(upstream_dir, 'meta_upstream.gff'),
         os.path.join(results_dir, 'freq_repres_proteins.txt'),
-        os.path.join(results_dir,'upstreams_with_clusters.gff')
+        os.path.join(results_dir,'upstreams_with_clusters.gff'),
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -504,7 +506,21 @@ rule filter_later_upstreams:
     script: 'scripts/filter_terminase.py'
 
 
-
+rule write_filtered_wide:
+    input:
+        gff=os.path.join(results_dir, 'upstreams_with_clusters.gff'),
+        tsv_wide=os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv'),
+        tsv_long=os.path.join(results_dir,'upstream_proteins_clu_long.tsv')
+    output:
+        pass_one = temp('genes_passes'),
+        pass_two = temp('clusters_passes'),
+        tsv = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_filtered.tsv')
+    shell:
+        """
+        cat {input.gff} | cut -f 9 | cut -f 1 -d ";" | cut -f 2 -d "=" > {output.pass_one}
+        cat {input.tsv_long} | grep -f {output.pass_one} | cut -f 1 | sort -u > {output.pass_two}
+        cat {input.tsv_wide} | grep -f {output.pass_two} > {output.tsv}
+        """
 # BLOCK: DOMAINs SEARCH
 
 rule search_domains:
@@ -572,7 +588,7 @@ rule filter_representative_intergenic_regions:
         bed=os.path.join(promoters_dir, '_intergenic_filtered.bed'),
         gff=os.path.join(upstream_dir, 'representative_genomes.gff')
     output:
-        os.path.join(promoters_dir,'intergenic_filtered.bed')
+        os.path.join(promoters_dir, 'intergenic_filtered.bed')
     shell:
         """
         cat {input.gff} | cut -f 1 | sort -u > ids
@@ -580,49 +596,49 @@ rule filter_representative_intergenic_regions:
         rm ids
         """
 
-rule get_fa_intergenic_regions:
-    input:
-        bed = os.path.join(promoters_dir, 'intergenic_filtered.bed'),
-        fna = os.path.join(blast_dir, 'phages_genomes_concat.fna')
-    output:
-        fna = os.path.join(promoters_dir, 'intergenic.fna')
-    conda: 'envs/bedtools.yml'
-    shell:
-        """
-        bedtools getfasta -fi {input.fna} -bed {input.bed} > {output} 
-        """
-
-rule create_db_intergenic:
-    input:
-        fna = os.path.join(promoters_dir,'intergenic.fna')
-    output:
-        os.path.join(intergenic_regions_db, 'intergenic.nsq')
-    params: db_path= os.path.join(intergenic_regions_db, 'intergenic')
-    conda:
-        'envs/blast.yml'
-    shell:
-        """
-        makeblastdb -in {input} -dbtype nucl -out {params.db_path}
-        """
-
-rule run_blastn:
-    input:
-        db = os.path.join(intergenic_regions_db, 'intergenic.nsq'),
-        faa = os.path.join(meta_dir, 'promoters.fna')
-    output:
-        os.path.join(promoters_dir, 'promoters_blastn.tsv')
-    conda:
-        'envs/blast.yml'
-    params:
-        db_path=os.path.join(intergenic_regions_db, 'intergenic'),
-        fmt='6 qseqid sseqid pident nident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore',
-        eval=0.005
-    threads: 10
-    shell:
-        """
-        blastn -query {input.faa}  -db {params.db_path}  \
-        -task megablast \
-        -num_threads {threads} -out {output} \
-        -outfmt "{params.fmt}" \
-        -evalue {params.eval}
-        """
+# rule get_fa_intergenic_regions:
+#     input:
+#         bed = os.path.join(promoters_dir, 'intergenic_filtered.bed'),
+#         fna = os.path.join(blast_dir, 'phages_genomes_concat.fna')
+#     output:
+#         fna = os.path.join(promoters_dir, 'intergenic.fna')
+#     conda: 'envs/bedtools.yml'
+#     shell:
+#         """
+#         bedtools getfasta -fi {input.fna} -bed {input.bed} > {output}
+#         """
+#
+# rule create_db_intergenic:
+#     input:
+#         fna = os.path.join(promoters_dir,'intergenic.fna')
+#     output:
+#         os.path.join(intergenic_regions_db, 'intergenic.nsq')
+#     params: db_path= os.path.join(intergenic_regions_db, 'intergenic')
+#     conda:
+#         'envs/blast.yml'
+#     shell:
+#         """
+#         makeblastdb -in {input} -dbtype nucl -out {params.db_path}
+#         """
+#
+# rule run_blastn:
+#     input:
+#         db = os.path.join(intergenic_regions_db, 'intergenic.nsq'),
+#         faa = os.path.join(meta_dir, 'promoters.fna')
+#     output:
+#         os.path.join(promoters_dir, 'promoters_blastn.tsv')
+#     conda:
+#         'envs/blast.yml'
+#     params:
+#         db_path=os.path.join(intergenic_regions_db, 'intergenic'),
+#         fmt='6 qseqid sseqid pident nident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore',
+#         eval=0.005
+#     threads: 10
+#     shell:
+#         """
+#         blastn -query {input.faa}  -db {params.db_path}  \
+#         -task megablast \
+#         -num_threads {threads} -out {output} \
+#         -outfmt "{params.fmt}" \
+#         -evalue {params.eval}
+#         """
