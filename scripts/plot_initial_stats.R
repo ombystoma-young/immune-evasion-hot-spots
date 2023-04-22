@@ -33,12 +33,12 @@ table.length <- ggtexttable(table_length, rows = NULL,
 hist_length <- df %>% ggplot(aes(Length)) +
         geom_histogram(aes(y=..count../sum(..count..)), color='black', fill='white') +
         geom_vline(xintercept=qs[1], color='tomato') +
-        ylab('Frequency') +
+        ylab('Density') +
         theme_minimal()
 
 hist_gc <- df %>% ggplot(aes(GC_content)) +
   geom_histogram(aes(y=..count../sum(..count..)), color='black', fill='white') +
-  ylab('Frequency') +
+  ylab('Density') +
   theme_minimal()
 
 # arrange plots
@@ -47,5 +47,5 @@ g <- ggarrange(table.length, table.gc, ncol=2)
 ggarrange(p,g, ncol=1, heights = c(3,1))
 
 # save
-ggsave(figure_name, dpi=300, width=12, height=8)
+ggsave(figure_name, dpi=300, width=15, height=8)
 write.csv(df_drop, drop_file_name, sep='\t')

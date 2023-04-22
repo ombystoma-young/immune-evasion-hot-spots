@@ -72,18 +72,19 @@ genome_fasta_s.sort()
 
 rule all:
     input:
-        os.path.join(blast_dir, 'polymerases_tblastn.ssv'),
+        os.path.join(blast_dir, 'polymerases_tblastn.tsv'),
         expand(os.path.join(prokka_dir, '{genome}', '{genome}.gff'), zip, genome=genomes),
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
-        os.path.join(promoters_dir, 'intergenic_filtered.bed'),  # some troubles with length of sequence
-        # os.path.join(promoters_dir, 'promoters_blastn.tsv'),
-        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
-        os.path.join(upstream_dir, 'meta_upstream.gff'),
-        os.path.join(results_dir, 'freq_repres_proteins.txt'),
-        os.path.join(results_dir,'upstreams_with_clusters.gff'),
-        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
+        os.path.join(promoters_dir,'all_intergenic_with_length.tsv'),
+        os.path.join(upstream_dir,'tdr_pol_dist.tsv')
+        # os.path.join(promoters_dir, 'promoters_blastn.tsv'),   # some troubles with length of sequence
+        #os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
+        #os.path.join(upstream_dir, 'meta_upstream.gff'),
+        #os.path.join(results_dir, 'freq_repres_proteins.txt'),
+        #os.path.join(results_dir,'upstreams_with_clusters.gff'),
+        #os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -257,7 +258,7 @@ rule run_tblastn:
         db = os.path.join(blast_db_dir, 'phages_genomes_concat.nsq'),
         faa = os.path.join(meta_dir, 't7p07.faa')
     output:
-        os.path.join(blast_dir, 'polymerases_tblastn.ssv')
+        os.path.join(blast_dir, 'polymerases_tblastn.tsv')
     conda:
         'envs/blast.yml'
     params:
@@ -359,6 +360,14 @@ rule get_upstream_genes:
         bedtools intersect -a {input.gff} -b temp_file.bed -s > {output}
         rm temp_file.bed
         """
+
+rule get_intergenic_length:
+    input:
+        os.path.join(upstream_dir,'upstream.bed')
+    output:
+        os.path.join(upstream_dir,  'tdr_pol_dist.tsv')
+    script: 'scripts/upstream_lengths_estimator.py'
+
 
 rule concat_protein_fasta:
     input:
@@ -572,6 +581,13 @@ rule subtract_intergenic_regions:
         """
         bedtools subtract -a {input.bed} -b {input.gff} > {output}
         """
+
+rule get_intergenic_length:
+    input:
+        os.path.join(promoters_dir,'all_intergenic.bed')
+    output:
+        os.path.join(promoters_dir,'all_intergenic_with_length.tsv')
+    script: 'scripts/extract_intergenic_ends.py'
 
 rule filter_small_intergenic_regions:
     input:

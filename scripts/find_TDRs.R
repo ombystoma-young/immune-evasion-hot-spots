@@ -10,8 +10,8 @@ figure_name <- 'pics/hist_length_TDRs.png'
 mp_l_threshold <- 99
 de_threshold <- 0.3
 
-print(mp_l_threshold)
-print(de_threshold)
+# print(mp_l_threshold)
+# print(de_threshold)
 
 tdrs_paf <- read_paf(in_df_path)
 tdrs_paf <- tdrs_paf %>%
@@ -20,9 +20,13 @@ tdrs_paf <- tdrs_paf %>%
   dplyr::filter(map_length > mp_l_threshold) %>% 
   dplyr::filter(de < de_threshold)
 
-a <- tdrs_paf %>%  ggplot(aes(map_length)) +
-  geom_histogram(aes(y=..count../sum(..count..)), color='black', fill='white') +
-  ylab('Frequency') +
+a <- tdrs_paf %>% mutate(state_100 = (100<=map_length)) %>% 
+  mutate(state_300 = (300>=map_length)) %>% 
+  mutate(state = state_100*state_300) %>% 
+  ggplot() +
+  geom_histogram(aes(y=..density.., x = map_length), fill='white', color='black') +
+  ylab('Density') +
+  xlab('TDR length') + 
   theme_minimal()
 
 tdrs_paf <- tdrs_paf %>% dplyr::select(seq_id, start, end, strand, start2, end2, map_match, map_length, de) %>% 
@@ -34,8 +38,9 @@ tdrs_paf <- tdrs_paf %>% dplyr::select(seq_id, start, end, strand, start2, end2,
 
 
 b <-  tdrs_paf %>%  ggplot(aes(map_length)) +
-  geom_histogram(aes(y=..count../sum(..count..)), color='black', fill='white') +
-  ylab('Frequency') +
+  geom_histogram(aes(y=..density..), color='black', fill='white') +
+  ylab('Density') +
+    xlab('TDR length') + 
   theme_minimal()
 
 library(ggpubr)

@@ -13,7 +13,7 @@ os.makedirs(metadata_dir, exist_ok=True)
 
 rule all:
     input:
-        os.path.join(assemblies_dir, "dataset_catalog.json")
+        os.path.join(assemblies_dir, "assembly_data_report.jsonl")
         # os.path.join(temp_requests_dir, 'assembly_ids.txt')
 
 
@@ -25,7 +25,7 @@ rule get_homolog_ids:
         temp(os.path.join(temp_requests_dir, 'protein_ids.txt'))
     shell:
         """
-        cat {input} | cut -f 2 -d "," > {output}
+        cat {input} | awk -v FS="," -v OFS=","  '$4 >749 {{print $0}}'|  cut -f 2 -d "," > {output}
         """
 
 # extract assembly IDs and species names for this phages
@@ -64,8 +64,8 @@ rule unzip_data:
     input:
         "ncbi_dataset.zip"
     output:
-        os.path.join(assemblies_dir, "dataset_catalog.json"),
-        temp('README.md')
+        os.path.join(assemblies_dir, "assembly_data_report.jsonl")
+        #'README.md'
     shell:
         """
         unzip {input}
