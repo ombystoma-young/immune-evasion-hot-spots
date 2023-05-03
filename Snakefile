@@ -11,10 +11,14 @@ prokka_dir = os.path.join(features_dir, 'prokka')
 pharokka_dir = os.path.join(features_dir, 'pharokka')
 cluster_dir = 'clusterization'
 cluster_prot_dir = 'protein_clusterization'
+cluster_prot_by_dataset_dir = os.path.join(cluster_prot_dir, 'datasets')
 pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
-promoters_dir = 'promoters_search'
-intergenic_regions_db = os.path.join(promoters_dir, 'ig_blast_db')
+intergenic_dir = 'promoters_search'
+intergenic_regions_db = os.path.join(intergenic_dir,'ig_blast_db')
 results_dir = 'results'
+datasets_dir = 'define_datasets'
+alignments_dir = os.path.join(datasets_dir, 'alignments')
+trees_dir = os.path.join(datasets_dir, 'trees')
 
 # do not rename this (used in side-scripts):
 tdrs_search_dir = 'minimap2_out'
@@ -37,9 +41,13 @@ os.makedirs(aln_dir, exist_ok=True)
 os.makedirs(upstream_dir, exist_ok=True)
 os.makedirs(profiles_dir, exist_ok=True)
 os.makedirs(domain_tables_dir, exist_ok=True)
-os.makedirs(promoters_dir, exist_ok=True)
+os.makedirs(intergenic_dir, exist_ok=True)
 os.makedirs(intergenic_regions_db, exist_ok=True)
 os.makedirs(results_dir, exist_ok=True)
+os.makedirs(datasets_dir, exist_ok=True)
+os.makedirs(alignments_dir, exist_ok=True)
+os.makedirs(trees_dir, exist_ok=True)
+os.makedirs(cluster_prot_by_dataset_dir, exist_ok=True)
 
 genomes = os.listdir(assemblies_dir)
 genomes.remove('assembly_data_report.jsonl')
@@ -69,6 +77,8 @@ for genome_fasta in genome_fasta_s:
 genomes.sort()
 genome_fasta_s.sort()
 
+datasets = [f'dataset_{i}' for i in range(1, 6)]
+datasets_aln = [f'dataset_{i}' for i in range(1, 5)]
 
 rule all:
     input:
@@ -77,14 +87,19 @@ rule all:
         os.path.join(upstream_dir,'representative_genomes.gff'),
         os.path.join(upstream_dir,'upstream.gff'),
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
-        os.path.join(promoters_dir,'all_intergenic_with_length.tsv'),
-        os.path.join(upstream_dir,'tdr_pol_dist.tsv')
+        expand(os.path.join(upstream_dir,'upstream_{dataset}.faa'), dataset=datasets),
+        expand(os.path.join(trees_dir,'polymerases_{dataset}.iqtree.treefile'), dataset=datasets_aln),
+        # os.path.join(promoters_dir,'all_intergenic_with_length.tsv'),
+       # os.path.join(upstream_dir,'tdr_pol_dist.tsv'),
+       # os.path.join(upstream_dir,'polymerases.mafft.trim.faa'),
+       # os.path.join(meta_dir,'not_all_genomic.gff'),
+       # os.path.join(upstream_dir,'tree_far_','polymerases_far.iqtree.treefile')
         # os.path.join(promoters_dir, 'promoters_blastn.tsv'),   # some troubles with length of sequence
         #os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa'),
         #os.path.join(upstream_dir, 'meta_upstream.gff'),
         #os.path.join(results_dir, 'freq_repres_proteins.txt'),
         #os.path.join(results_dir,'upstreams_with_clusters.gff'),
-        #os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
 
 # update: report about removing useless
 rule update_stat:
@@ -216,7 +231,7 @@ rule find_TDRs:
     threads: 1
     params: min_len=99, de=0.3
     shell:
-        """ 
+        """
         Rscript scripts/find_TDRs.R {input} {output} {params} 
         """
 
@@ -361,7 +376,7 @@ rule get_upstream_genes:
         rm temp_file.bed
         """
 
-rule get_intergenic_length:
+rule get_tdr_rnap_dist:
     input:
         os.path.join(upstream_dir,'upstream.bed')
     output:
@@ -380,13 +395,136 @@ rule concat_protein_fasta:
         cat {params.path_prokka}/*/*.faa > {output} 
         """
 
-rule get_upstream_faa:
+rule split_data_into_datasets:
     input:
-        faa = os.path.join(upstream_dir,'all_genomes.faa'),
+        os.path.join(upstream_dir, 'upstream.bed'),
+        os.path.join(intergenic_dir, 'chromosome_lengths.bed'),
+        os.path.join(intergenic_dir,'all_intergenic_with_length.tsv'),
+        os.path.join(upstream_dir,'tdr_pol_dist.tsv')
+    output:
+        os.path.join(datasets_dir, 'joined.tsv')
+    script: 'scripts/split_into_datasets.R'
+
+
+rule get_genomes_datasets:
+    input:
+        os.path.join(datasets_dir, 'joined.tsv')
+    output:
+        os.path.join(datasets_dir, 'genomes_{dataset}.txt')
+    shell:
+        """
+        cat {input} | grep {wildcards.dataset} | cut -f 1 > {output}
+        """
+
+rule modify_datasets:
+    input:
+        os.path.join(datasets_dir, 'genomes_{dataset}.txt')
+    output:
+        os.path.join(datasets_dir,'{dataset}_genomes_modified.txt')
+    shell:
+        """
+       python scripts/modify_datasets.py {wildcards.dataset}
+       """
+
+
+rule get_upstreams_datasets:
+    input:
+        txt = os.path.join(datasets_dir,'genomes_{dataset}.txt'),
         gff = os.path.join(upstream_dir,'upstream.gff')
     output:
-        faa = os.path.join(upstream_dir,'upstream.faa')
+        gff = os.path.join(upstream_dir,'upstream_{dataset}.gff')
+    shell:
+        """
+        cat {input.gff} | grep -f {input.txt} > {output.gff}
+        """
+
+rule get_upstream_faa:
+    input:
+        faa = os.path.join(upstream_dir, 'all_genomes.faa'),
+        gff = os.path.join(upstream_dir, 'upstream.gff'),
+    output:
+        faa_total = os.path.join(upstream_dir, 'upstream.faa')
     script: 'scripts/get_upstream_proteins_faa.py'
+
+rule get_upstream_faa_datasets:
+    input:
+        faa = os.path.join(upstream_dir, 'all_genomes.faa'),
+        gffs = os.path.join(upstream_dir, 'upstream_{dataset}.gff')
+    output:
+        faa_datasets = os.path.join(upstream_dir, 'upstream_{dataset}.faa')
+    shell:
+        """
+       python scripts/get_upstream_faa_datasets.py {input.gffs} {output.faa_datasets}
+       """
+
+# BLOCK ALIGN RNAPS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
+rule get_rnap_faa:
+    input:
+        faa = os.path.join(upstream_dir, 'all_genomes.faa'),
+        gff = os.path.join(upstream_dir, 'representative_genomes.gff'),
+        tsv = os.path.join(datasets_dir,  'joined.tsv'),
+        list_ = os.path.join(datasets_dir,'{dataset}_genomes_modified.txt')
+    output:
+        faa = os.path.join(alignments_dir,  'polymerases_{dataset}.faa')
+    shell:
+        """
+       python scripts/get_RNAP_faa.py {wildcards.dataset}
+       """
+
+rule align_rnaps:
+    input:
+        os.path.join(alignments_dir,  'polymerases_{dataset}.faa')
+    output:
+        os.path.join(upstream_dir,'polymerases_{dataset}.mafft.faa')
+    conda: 'envs/mafft.yml'
+    threads: 10
+    shell:
+        """
+         mafft --thread {threads} --maxiterate 1000 --globalpair {input} > {output} 
+        """
+
+
+rule filter_alignment:
+    input:
+        os.path.join(upstream_dir,'polymerases_{dataset}.mafft.faa')
+    output:
+        os.path.join(upstream_dir,'polymerases_{dataset}.mafft.trim.faa')
+    conda: 'envs/trimal.yml'
+    shell:
+        """
+        trimal -in {input} -out {output} -automated1
+        """
+
+
+# rule choose_model_iqtree:
+#     input:
+#         os.path.join(upstream_dir, 'polymerases_{dataset}.mafft.trim.faa')
+#     output:
+#         os.path.join(upstream_dir,'polymerases_{dataset}.mafft.log')
+#     threads: 10
+#     params: prefix = os.path.join(upstream_dir, 'polymerases_{dataset}.iqtree')
+#     conda: 'envs/iqtree2.yml'
+#     shell:
+#         """
+#         iqtree2 -nt {threads} -m MFP -s {input} --prefix {params.prefix}
+#         """
+# Best-fit model: LG+I+R6 chosen according to BIC
+
+rule build_tree_iqtree:
+    input:
+        os.path.join(upstream_dir,'polymerases_{dataset}.mafft.trim.faa')
+    output:
+        os.path.join(trees_dir, 'polymerases_{dataset}.iqtree.treefile')
+    params:
+        pref=os.path.join(trees_dir, 'polymerases_{dataset}.iqtree'),
+        model='LG+I+R6',
+        bootstrap=100
+    threads: 10
+    conda: 'envs/iqtree2.yml'
+    shell:
+        """
+        iqtree2 -nt {threads} -m {params.model} -s {input[0]} --prefix {params.pref} # -b {params.bootstrap}
+        """
 
 # BLOCK PROTEIN SEQUENCES CLUSTERIZATION
 
@@ -413,7 +551,9 @@ rule cluster_prot:
     threads: 10
     shell:
         """
-        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 -c 0.4 --split-memory-limit 7G {input} {params.clu} tmp_prot
+        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --cluster-mode 1 \
+        --cov-mode 0 -c 0.7 \
+        --split-memory-limit 7G {input} {params.clu} tmp_prot
         """
 
 rule get_prot_clusters_tsv:
@@ -450,7 +590,7 @@ rule steal:
     input:
         expand(os.path.join(assemblies_dir, '{genome}/sequence_report.jsonl'), genome=genomes)
     output:
-        os.path.join(meta_dir,'not_all_genomic.gff')
+        os.path.join(meta_dir, 'not_all_genomic.gff')
     params: dir=assemblies_dir
     shell:
         """
@@ -530,8 +670,9 @@ rule write_filtered_wide:
         cat {input.tsv_long} | grep -f {output.pass_one} | cut -f 1 | sort -u > {output.pass_two}
         cat {input.tsv_wide} | grep -f {output.pass_two} > {output.tsv}
         """
-# BLOCK: DOMAINs SEARCH
 
+
+# BLOCK: DOMAINs SEARCH
 rule search_domains:
     input:
         faa = os.path.join(upstream_dir, 'upstream.faa'),
@@ -549,7 +690,7 @@ rule concat_seq_reports:
     input:
         expand(os.path.join(assemblies_dir, '{genome}', 'sequence_report.jsonl'), genome=genomes)
     output:
-        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+        os.path.join(intergenic_dir,'all_sequence_report.jsonl')
     params: dir=assemblies_dir
     shell:
         """
@@ -558,24 +699,24 @@ rule concat_seq_reports:
 
 rule create_nuccore_to_assembly_table:
     input:
-        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+        os.path.join(intergenic_dir,'all_sequence_report.jsonl')
     output:
         os.path.join('metadata', 'assembly_nuccore.tsv')
     script: 'scripts/get_assembly_to_nuccore.py'
 
 rule get_nuccore_names_bed:
     input:
-        os.path.join(promoters_dir, 'all_sequence_report.jsonl')
+        os.path.join(intergenic_dir,'all_sequence_report.jsonl')
     output:
-        bed = os.path.join(promoters_dir, 'chromosome_lengths.bed')
+        bed = os.path.join(intergenic_dir,'chromosome_lengths.bed')
     script: 'scripts/get_chomosome_lengths.py'
 
 rule subtract_intergenic_regions:
     input:
-        bed = os.path.join(promoters_dir,'chromosome_lengths.bed'),
+        bed = os.path.join(intergenic_dir,'chromosome_lengths.bed'),
         gff = os.path.join(upstream_dir, 'representative_genomes.gff')
     output:
-        os.path.join(promoters_dir, 'all_intergenic.bed')
+        os.path.join(intergenic_dir,'all_intergenic.bed')
     conda: 'envs/bedtools.yml'
     shell:
         """
@@ -584,16 +725,16 @@ rule subtract_intergenic_regions:
 
 rule get_intergenic_length:
     input:
-        os.path.join(promoters_dir,'all_intergenic.bed')
+        os.path.join(intergenic_dir, 'all_intergenic.bed')
     output:
-        os.path.join(promoters_dir,'all_intergenic_with_length.tsv')
+        os.path.join(intergenic_dir, 'all_intergenic_with_length.tsv')
     script: 'scripts/extract_intergenic_ends.py'
 
 rule filter_small_intergenic_regions:
     input:
-        os.path.join(promoters_dir,'all_intergenic.bed')
+        os.path.join(intergenic_dir,'all_intergenic.bed')
     output:
-        temp(os.path.join(promoters_dir,'_intergenic_filtered.bed'))
+        temp(os.path.join(intergenic_dir,'_intergenic_filtered.bed'))
     shell:
         """
         cat {input} | awk -v FS="\t" -v OFS="\t" '$3-$2>349 {{print $0}}' > {output}
@@ -601,10 +742,10 @@ rule filter_small_intergenic_regions:
 
 rule filter_representative_intergenic_regions:
     input:
-        bed=os.path.join(promoters_dir, '_intergenic_filtered.bed'),
+        bed=os.path.join(intergenic_dir,'_intergenic_filtered.bed'),
         gff=os.path.join(upstream_dir, 'representative_genomes.gff')
     output:
-        os.path.join(promoters_dir, 'intergenic_filtered.bed')
+        os.path.join(intergenic_dir,'intergenic_filtered.bed')
     shell:
         """
         cat {input.gff} | cut -f 1 | sort -u > ids

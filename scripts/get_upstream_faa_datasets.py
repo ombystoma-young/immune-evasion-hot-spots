@@ -1,5 +1,5 @@
 import os
-
+import argparse
 
 def read_gff(path_to_gff):
     cds_ids = []
@@ -39,8 +39,17 @@ def find_upstream_faa(gff_path, faa_input_path, faa_output_path):
             out_faa.write(f'{seqs[cds_id]}\n')
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('in_file', default=None, nargs='?')
+    parser.add_argument('out_file', default=None, nargs='?')
+    return parser.parse_args()
+
+
 if __name__ == '__main__':
-    folder = 'upstream_search'
-    find_upstream_faa(gff_path=os.path.join(folder, 'upstream.gff'),
-                      faa_input_path=os.path.join(folder,'all_genomes.faa'),
-                      faa_output_path=os.path.join(folder, 'upstream.faa'))
+    data_ = parse_args().in_file
+    output_file_name = parse_args().out_file
+
+    find_upstream_faa(gff_path=data_,
+                      faa_input_path=os.path.join('upstream_search', 'all_genomes.faa'),
+                      faa_output_path=output_file_name)

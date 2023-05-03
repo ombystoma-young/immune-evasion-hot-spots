@@ -255,7 +255,7 @@ class IntersectionMaster:
                 shift = self.bp - rnap_start
                 upstream_2_start = str(length - shift - 1)
                 upstream_2_end = str(length)
-                upstreams.append([upstream_2_start, upstream_2_end, '.', '0', upstream_strand])
+                upstreams.append([upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
             else:
                 raise ValueError("Some shit happened with coordinates")
 
@@ -272,7 +272,7 @@ class IntersectionMaster:
                 shift = rnap_end + self.bp - length
                 upstream_2_start = str(0)
                 upstream_2_end = str(shift)
-                upstreams.append([upstream_2_start, upstream_2_end, '.', '0', upstream_strand])
+                upstreams.append([upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
             else:
                 raise ValueError("Some shit happened with coordinates")
 
@@ -324,6 +324,6 @@ if __name__ == '__main__':
     stat_file = os.path.join(stats_dir, 'genomes_gc_length.statistics')
     nuccore_to_assembly = os.path.join(meta_dir, 'assembly_nuccore.tsv')
     bed = os.path.join(upstream_dir, 'upstream.bed')
-    im = IntersectionMaster(gff_path=gff, tsv_path=tsv, stat_file=stat_file, n_t_a=nuccore_to_assembly, bp=5000)
+    im = IntersectionMaster(gff_path=gff, tsv_path=tsv, stat_file=stat_file, n_t_a=nuccore_to_assembly, bp=10001)
     im.find_upstreams()
     im.write_bed(bed)
