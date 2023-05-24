@@ -186,22 +186,17 @@ def filter_within_one_genome(upstream: list, tabu_clusters: set) -> list:
     return upstream_mod
 
 
-def filter_later_genes(path_long: str, path_wide: str, path_upstream: str, keywords=None):
-    if keywords is None:
-        keywords = set()
-        keywords.add('terminase')
-
+def make_gff_with_clusters(path_long: str, path_wide: str, path_upstream: str):
     children_to_clu = extract_cluster_children_long(path_long)
     parent_to_func = extract_cluster_functions_wide(path_wide)
     upstreams = read_upstream_gff(path_upstream)
     ups_with_clu_info = add_cluster_information(upstreams=upstreams,
                                                 clu_children=children_to_clu,
                                                 clu_products=parent_to_func)
-    tabu_clu_nums = find_numclu_to_filter(parent_to_func, keywords)
     upstreams_mod = []
     for upstream in ups_with_clu_info.values():
-        upstream_mod = filter_within_one_genome(upstream=upstream, tabu_clusters=tabu_clu_nums)
-        upstreams_mod.extend(upstream_mod)
+        for cds in upstream:
+            upstreams_mod.append(cds)
     return upstreams_mod
 
 
@@ -222,8 +217,8 @@ if __name__ == '__main__':
     upstream_dir = 'upstream_search'
     path_wide_results = os.path.join(res_dir, f'{prefix}_wide_sorted.tsv')
     path_long_results = os.path.join(res_dir, f'{prefix}_long.tsv')
-    upstream_file = os.path.join(upstream_dir, 'upstream.gff')
+    upstream_file = os.path.join(upstream_dir, 'upstream_fixed.gff')
     upstream_mod_file = os.path.join(res_dir, 'upstreams_with_clusters.gff')
-    keywords = ['terminase', 'lysin', 'tail', 'gp19.5', 'gp53']
-    modified_upstream = filter_later_genes(path_long_results, path_wide_results, upstream_file, keywords)
+
+    modified_upstream = make_gff_with_clusters(path_long_results, path_wide_results, upstream_file)
     write_modified_gff(modified_upstream, upstream_mod_file)

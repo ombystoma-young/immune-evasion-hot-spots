@@ -125,76 +125,6 @@ rule concat_fasta:
         """
 
 
-# # BLOCK representative genomes
-# rule create_mmseq_db:
-#     input:
-#         os.path.join(blast_dir,'phages_genomes_concat.fna')
-#     output:
-#         os.path.join(cluster_dir,'phages_genomes', 'phages_genomes_concat.fnaDB')
-#     conda:
-#         'envs/mmseq2.yml'
-#     shell:
-#         """
-#         mmseqs createdb {input} {output} --shuffle
-#         """
-#
-# rule clusterization:
-#     input:
-#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-#     output:
-#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0')
-#     conda:
-#         'envs/mmseq2.yml'
-#     params: clu = os.path.join(cluster_dir,'phages_genomes_concat_clu')
-#     threads: 8
-#     shell:
-#         """
-#         mmseqs cluster --threads {threads} --max-seqs 300 -k 14 --split-memory-limit 5G {input} {params.clu} tmp
-#         """
-#
-# rule get_clusters_tsv:
-#     input:
-#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
-#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-#     output:
-#         tsv = os.path.join(cluster_dir,'phages_genomes_concat_clu.tsv')
-#     params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
-#     conda:
-#         'envs/mmseq2.yml'
-#     shell:
-#         """
-#         mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
-#         """
-#
-# rule get_clusters_fasta:
-#     input:
-#         clu = os.path.join(cluster_dir,'phages_genomes_concat_clu.0'),
-#         db = os.path.join(cluster_dir,'phages_genomes','phages_genomes_concat.fnaDB')
-#     output:
-#         fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
-#     params: clu=os.path.join(cluster_dir,'phages_genomes_concat_clu')
-#     conda:
-#         'envs/mmseq2.yml'
-#     shell:
-#         """
-#         mmseqs createsubdb {params.clu} {input.db} clusterization/DB_clu_rep
-#         mmseqs convert2fasta clusterization/DB_clu_rep {output.fna}
-#         """
-#
-# # update: report about removing useless
-# rule update_stat_clusters:
-#     input:
-#         stats = os.path.join(meta_dir, 'stats_for_preso'),
-#         fna = os.path.join(cluster_dir,'phages_genomes_concat_clu.fna')
-#     output:
-#         'clusters.status'
-#     shell:
-#         """
-#         echo "Number of representative genomes" >> {input.stats}
-#         cat {input.fna} | grep ">" | wc -l >> {input.stats}
-#         touch {output}
-#         """
-
 # BLOCK search TDRs in genomes with minimap2
 rule search_TDRs:
     input:
@@ -362,19 +292,19 @@ rule get_upstreams_coordinated:
         os.path.join(upstream_dir,'upstream.bed')
     script: 'scripts/getupstreambed.py'
 
-rule get_upstream_genes:
-    input:
-        bed = os.path.join(upstream_dir, 'upstream.bed'),
-        gff = os.path.join(upstream_dir, 'representative_genomes.gff')
-    output:
-        gff = os.path.join(upstream_dir, 'upstream.gff')
-    conda: 'envs/bedtools.yml'
-    shell:
-        """
-        cat {input.bed} | cut -f 1-6 > temp_file.bed
-        bedtools intersect -a {input.gff} -b temp_file.bed -s > {output}
-        rm temp_file.bed
-        """
+# rule get_upstream_genes:
+#     input:
+#         bed = os.path.join(upstream_dir, 'upstream.bed'),
+#         gff = os.path.join(upstream_dir, 'representative_genomes.gff')
+#     output:
+#         gff = os.path.join(upstream_dir, 'upstream.gff')
+#     conda: 'envs/bedtools.yml'
+#     shell:
+#         """
+#         cat {input.bed} | cut -f 1-6 > temp_file.bed
+#         bedtools intersect -a {input.gff} -b temp_file.bed -s > {output}
+#         rm temp_file.bed
+#         """
 
 rule get_tdr_rnap_dist:
     input:
@@ -427,35 +357,35 @@ rule modify_datasets:
        """
 
 
-rule get_upstreams_datasets:
-    input:
-        txt = os.path.join(datasets_dir,'genomes_{dataset}.txt'),
-        gff = os.path.join(upstream_dir,'upstream.gff')
-    output:
-        gff = os.path.join(upstream_dir,'upstream_{dataset}.gff')
-    shell:
-        """
-        cat {input.gff} | grep -f {input.txt} > {output.gff}
-        """
-
-rule get_upstream_faa:
-    input:
-        faa = os.path.join(upstream_dir, 'all_genomes.faa'),
-        gff = os.path.join(upstream_dir, 'upstream.gff'),
-    output:
-        faa_total = os.path.join(upstream_dir, 'upstream.faa')
-    script: 'scripts/get_upstream_proteins_faa.py'
-
-rule get_upstream_faa_datasets:
-    input:
-        faa = os.path.join(upstream_dir, 'all_genomes.faa'),
-        gffs = os.path.join(upstream_dir, 'upstream_{dataset}.gff')
-    output:
-        faa_datasets = os.path.join(upstream_dir, 'upstream_{dataset}.faa')
-    shell:
-        """
-       python scripts/get_upstream_faa_datasets.py {input.gffs} {output.faa_datasets}
-       """
+# rule get_upstreams_datasets:
+#     input:
+#         txt = os.path.join(datasets_dir,'genomes_{dataset}.txt'),
+#         gff = os.path.join(upstream_dir,'upstream.gff')
+#     output:
+#         gff = os.path.join(upstream_dir,'upstream_{dataset}.gff')
+#     shell:
+#         """
+#         cat {input.gff} | grep -f {input.txt} > {output.gff}
+#         """
+#
+# rule get_upstream_faa:
+#     input:
+#         faa = os.path.join(upstream_dir, 'all_genomes.faa'),
+#         gff = os.path.join(upstream_dir, 'upstream.gff'),
+#     output:
+#         faa_total = os.path.join(upstream_dir, 'upstream.faa')
+#     script: 'scripts/get_upstream_proteins_faa.py'
+#
+# rule get_upstream_faa_datasets:
+#     input:
+#         faa = os.path.join(upstream_dir, 'all_genomes.faa'),
+#         gffs = os.path.join(upstream_dir, 'upstream_{dataset}.gff')
+#     output:
+#         faa_datasets = os.path.join(upstream_dir, 'upstream_{dataset}.faa')
+#     shell:
+#         """
+#        python scripts/get_upstream_faa_datasets.py {input.gffs} {output.faa_datasets}
+#        """
 
 # BLOCK ALIGN RNAPS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
 rule get_rnap_faa:
@@ -496,20 +426,6 @@ rule filter_alignment:
         """
 
 
-# rule choose_model_iqtree:
-#     input:
-#         os.path.join(upstream_dir, 'polymerases_{dataset}.mafft.trim.faa')
-#     output:
-#         os.path.join(upstream_dir,'polymerases_{dataset}.mafft.log')
-#     threads: 10
-#     params: prefix = os.path.join(upstream_dir, 'polymerases_{dataset}.iqtree')
-#     conda: 'envs/iqtree2.yml'
-#     shell:
-#         """
-#         iqtree2 -nt {threads} -m MFP -s {input} --prefix {params.prefix}
-#         """
-# Best-fit model: LG+I+R6 chosen according to BIC
-
 rule build_tree_iqtree:
     input:
         os.path.join(upstream_dir,'polymerases_{dataset}.mafft.trim.faa')
@@ -528,163 +444,163 @@ rule build_tree_iqtree:
 
 # BLOCK PROTEIN SEQUENCES CLUSTERIZATION
 
-rule create_prot_mmseq_db:
-    input:
-        os.path.join(upstream_dir, 'upstream.faa')
-    output:
-        os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createdb {input} {output} --shuffle
-        """
+# rule create_prot_mmseq_db:
+#     input:
+#         os.path.join(upstream_dir, 'upstream.faa')
+#     output:
+#         os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createdb {input} {output} --shuffle
+#         """
+#
+# rule cluster_prot:
+#     input:
+#         db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+#     output:
+#         clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0')
+#     conda:
+#         'envs/mmseq2.yml'
+#     params: clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu')
+#     threads: 10
+#     shell:
+#         """
+#         mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --cluster-mode 1 \
+#         --cov-mode 0 -c 0.7 \
+#         --split-memory-limit 7G {input} {params.clu} tmp_prot
+#         """
+#
+# rule get_prot_clusters_tsv:
+#     input:
+#         clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
+#         db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+#     output:
+#         tsv = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
+#     params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
+#         """
+#
+# rule get_upstream_clusters_faa:
+#     input:
+#         clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
+#         db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
+#     output:
+#         faa = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa')
+#     params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
+#     conda:
+#         'envs/mmseq2.yml'
+#     shell:
+#         """
+#         mmseqs createsubdb {params.clu} {input.db} protein_clusterization/DB_clu_rep
+#         mmseqs convert2fasta protein_clusterization/DB_clu_rep {output.faa}
+#         """
+#
+# # BLOCK ANALYSE RESULTS
+# rule steal:
+#     input:
+#         expand(os.path.join(assemblies_dir, '{genome}/sequence_report.jsonl'), genome=genomes)
+#     output:
+#         os.path.join(meta_dir, 'not_all_genomic.gff')
+#     params: dir=assemblies_dir
+#     shell:
+#         """
+#         cat {params.dir}/*/genomic.gff | grep -v "#" > {output}
+#         """
+#
+# rule intersect_upstream_and_ncbi_gff:
+#     input:
+#         a = os.path.join(meta_dir, 'not_all_genomic.gff'),
+#         b = os.path.join(upstream_dir, 'upstream.gff')
+#     output:
+#         os.path.join(upstream_dir, 'meta_upstream.gff')
+#     conda: 'envs/bedtools.yml'
+#     shell:
+#         """
+#         bedtools intersect -s -wa -wb -a {input.a} -b {input.b} > {output}
+#         """
+#
+#
+# rule get_frequency_table:
+#     input:
+#         os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
+#     output:
+#         os.path.join(results_dir, 'freq_repres_proteins.txt')
+#     shell:
+#         """
+#         cat {input} | cut -f 1 | sort | uniq -dc | sort -n > {output}
+#         """
+#
+# rule write_freq_stat:
+#     input:
+#         os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
+#         os.path.join(cluster_prot_dir,'upstream_proteins_clu.faa'),
+#         os.path.join(upstream_dir, 'representative_genomes.gff'),
+#         os.path.join(upstream_dir, 'meta_upstream.gff')
+#     output:
+#         clus_out_long = os.path.join(results_dir, 'upstream_proteins_clu_long.tsv'),
+#         clus_out_wide = os.path.join(results_dir, 'upstream_proteins_clu_wide.tsv'),
+#         clus_out_wide_seq = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv')
+#     script: 'scripts/steal_annotation.py'
+#
+#
+# rule sort_wide:
+#     input:
+#         clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide.tsv')
+#     output:
+#         clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv')
+#     shell:
+#         """
+#         cat {input} | sort -nrk 2 > {output}
+#         """
+#
+#
+# rule filter_later_upstreams:
+#     input:
+#         os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv'),
+#         os.path.join(results_dir,'upstream_proteins_clu_long.tsv'),
+#         os.path.join(upstream_dir, 'upstream.gff')
+#     output:
+#         os.path.join(results_dir, 'upstreams_with_clusters.gff')
+#     params: keywords=['terminase', 'lysin', 'tail', 'gp19.5', 'gp53']
+#     script: 'scripts/write_gff_all_datasets.py'
+#
+#
+# rule write_filtered_wide:
+#     input:
+#         gff=os.path.join(results_dir, 'upstreams_with_clusters.gff'),
+#         tsv_wide=os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv'),
+#         tsv_long=os.path.join(results_dir,'upstream_proteins_clu_long.tsv')
+#     output:
+#         pass_one = temp('genes_passes'),
+#         pass_two = temp('clusters_passes'),
+#         tsv = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_filtered.tsv')
+#     shell:
+#         """
+#         cat {input.gff} | cut -f 9 | cut -f 1 -d ";" | cut -f 2 -d "=" > {output.pass_one}
+#         cat {input.tsv_long} | grep -f {output.pass_one} | cut -f 1 | sort -u > {output.pass_two}
+#         cat {input.tsv_wide} | grep -f {output.pass_two} > {output.tsv}
+#         """
+#
+#
+# # BLOCK: DOMAINs SEARCH
+# rule search_domains:
+#     input:
+#         faa = os.path.join(upstream_dir, 'upstream.faa'),
+#         hmm = os.path.join(profiles_dir, "domains_Burstein.hmm")
+#     output:
+#         os.path.join(domain_tables_dir,"upstream_domains.tsv")
+#     shell:
+#         """
+#         hmmsearch --noali --notextw -E 0.000001 --domE 0.000001 --tblout {output} {input.hmm} {input.faa}
+#         """
 
-rule cluster_prot:
-    input:
-        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
-    output:
-        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0')
-    conda:
-        'envs/mmseq2.yml'
-    params: clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu')
-    threads: 10
-    shell:
-        """
-        mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --cluster-mode 1 \
-        --cov-mode 0 -c 0.7 \
-        --split-memory-limit 7G {input} {params.clu} tmp_prot
-        """
-
-rule get_prot_clusters_tsv:
-    input:
-        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
-        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
-    output:
-        tsv = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
-    params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createtsv {input.db} {input.db} {params.clu} {output.tsv}
-        """
-
-rule get_upstream_clusters_faa:
-    input:
-        clu = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.0'),
-        db = os.path.join(cluster_prot_dir, 'upstream_proteins', 'upstream_proteins.fnaDB')
-    output:
-        faa = os.path.join(cluster_prot_dir, 'upstream_proteins_clu.faa')
-    params: clu=os.path.join(cluster_prot_dir,'upstream_proteins_clu')
-    conda:
-        'envs/mmseq2.yml'
-    shell:
-        """
-        mmseqs createsubdb {params.clu} {input.db} protein_clusterization/DB_clu_rep
-        mmseqs convert2fasta protein_clusterization/DB_clu_rep {output.faa}   
-        """
-
-# BLOCK ANALYSE RESULTS
-rule steal:
-    input:
-        expand(os.path.join(assemblies_dir, '{genome}/sequence_report.jsonl'), genome=genomes)
-    output:
-        os.path.join(meta_dir, 'not_all_genomic.gff')
-    params: dir=assemblies_dir
-    shell:
-        """
-        cat {params.dir}/*/genomic.gff | grep -v "#" > {output}
-        """
-
-rule intersect_upstream_and_ncbi_gff:
-    input:
-        a = os.path.join(meta_dir, 'not_all_genomic.gff'),
-        b = os.path.join(upstream_dir, 'upstream.gff')
-    output:
-        os.path.join(upstream_dir, 'meta_upstream.gff')
-    conda: 'envs/bedtools.yml'
-    shell:
-        """
-        bedtools intersect -s -wa -wb -a {input.a} -b {input.b} > {output}
-        """
-
-
-rule get_frequency_table:
-    input:
-        os.path.join(cluster_prot_dir, 'upstream_proteins_clu.tsv')
-    output:
-        os.path.join(results_dir, 'freq_repres_proteins.txt')
-    shell:
-        """
-        cat {input} | cut -f 1 | sort | uniq -dc | sort -n > {output}
-        """
-
-rule write_freq_stat:
-    input:
-        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
-        os.path.join(cluster_prot_dir,'upstream_proteins_clu.faa'),
-        os.path.join(upstream_dir, 'representative_genomes.gff'),
-        os.path.join(upstream_dir, 'meta_upstream.gff')
-    output:
-        clus_out_long = os.path.join(results_dir, 'upstream_proteins_clu_long.tsv'),
-        clus_out_wide = os.path.join(results_dir, 'upstream_proteins_clu_wide.tsv'),
-        clus_out_wide_seq = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv')
-    script: 'scripts/steal_annotation.py'
-
-
-rule sort_wide:
-    input:
-        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide.tsv')
-    output:
-        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv')
-    shell:
-        """
-        cat {input} | sort -nrk 2 > {output}
-        """
-
-
-rule filter_later_upstreams:
-    input:
-        os.path.join(results_dir,'upstream_proteins_clu_wide_sorted.tsv'),
-        os.path.join(results_dir,'upstream_proteins_clu_long.tsv'),
-        os.path.join(upstream_dir, 'upstream.gff')
-    output:
-        os.path.join(results_dir, 'upstreams_with_clusters.gff')
-    params: keywords=['terminase', 'lysin', 'tail', 'gp19.5', 'gp53']
-    script: 'scripts/filter_terminase.py'
-
-
-rule write_filtered_wide:
-    input:
-        gff=os.path.join(results_dir, 'upstreams_with_clusters.gff'),
-        tsv_wide=os.path.join(results_dir, 'upstream_proteins_clu_wide_seq.tsv'),
-        tsv_long=os.path.join(results_dir,'upstream_proteins_clu_long.tsv')
-    output:
-        pass_one = temp('genes_passes'),
-        pass_two = temp('clusters_passes'),
-        tsv = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_filtered.tsv')
-    shell:
-        """
-        cat {input.gff} | cut -f 9 | cut -f 1 -d ";" | cut -f 2 -d "=" > {output.pass_one}
-        cat {input.tsv_long} | grep -f {output.pass_one} | cut -f 1 | sort -u > {output.pass_two}
-        cat {input.tsv_wide} | grep -f {output.pass_two} > {output.tsv}
-        """
-
-
-# BLOCK: DOMAINs SEARCH
-rule search_domains:
-    input:
-        faa = os.path.join(upstream_dir, 'upstream.faa'),
-        hmm = os.path.join(profiles_dir, "domains_Burstein.hmm")
-    output:
-        os.path.join(domain_tables_dir,"upstream_domains.tsv")
-    shell:
-        """
-        hmmsearch --noali --notextw -E 0.000001 --domE 0.000001 --tblout {output} {input.hmm} {input.faa}
-        """
-
-# BLOCK promoters search
+# BLOCK intergenic search
 
 rule concat_seq_reports:
     input:
@@ -752,50 +668,3 @@ rule filter_representative_intergenic_regions:
         cat {input.bed} | grep -f ids > {output}
         rm ids
         """
-
-# rule get_fa_intergenic_regions:
-#     input:
-#         bed = os.path.join(promoters_dir, 'intergenic_filtered.bed'),
-#         fna = os.path.join(blast_dir, 'phages_genomes_concat.fna')
-#     output:
-#         fna = os.path.join(promoters_dir, 'intergenic.fna')
-#     conda: 'envs/bedtools.yml'
-#     shell:
-#         """
-#         bedtools getfasta -fi {input.fna} -bed {input.bed} > {output}
-#         """
-#
-# rule create_db_intergenic:
-#     input:
-#         fna = os.path.join(promoters_dir,'intergenic.fna')
-#     output:
-#         os.path.join(intergenic_regions_db, 'intergenic.nsq')
-#     params: db_path= os.path.join(intergenic_regions_db, 'intergenic')
-#     conda:
-#         'envs/blast.yml'
-#     shell:
-#         """
-#         makeblastdb -in {input} -dbtype nucl -out {params.db_path}
-#         """
-#
-# rule run_blastn:
-#     input:
-#         db = os.path.join(intergenic_regions_db, 'intergenic.nsq'),
-#         faa = os.path.join(meta_dir, 'promoters.fna')
-#     output:
-#         os.path.join(promoters_dir, 'promoters_blastn.tsv')
-#     conda:
-#         'envs/blast.yml'
-#     params:
-#         db_path=os.path.join(intergenic_regions_db, 'intergenic'),
-#         fmt='6 qseqid sseqid pident nident length mismatch gapopen qstart qend sstart send sstrand evalue bitscore',
-#         eval=0.005
-#     threads: 10
-#     shell:
-#         """
-#         blastn -query {input.faa}  -db {params.db_path}  \
-#         -task megablast \
-#         -num_threads {threads} -out {output} \
-#         -outfmt "{params.fmt}" \
-#         -evalue {params.eval}
-#         """

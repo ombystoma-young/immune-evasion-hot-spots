@@ -41,6 +41,6 @@ def find_upstream_faa(gff_path, faa_input_path, faa_output_path):
 
 if __name__ == '__main__':
     folder = 'upstream_search'
-    find_upstream_faa(gff_path=os.path.join(folder, 'upstream.gff'),
+    find_upstream_faa(gff_path=os.path.join(folder, 'upstream_fixed.gff'),
                       faa_input_path=os.path.join(folder,'all_genomes.faa'),
                       faa_output_path=os.path.join(folder, 'upstream.faa'))
