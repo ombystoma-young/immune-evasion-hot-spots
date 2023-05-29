@@ -65,12 +65,12 @@ def write_wide_with_sequence(clusters: dict, wide_file_name: str, clu_faa: dict)
 
 
 if __name__ == '__main__':
-    our_gff = os.path.join('../upstream_search', 'representative_genomes.gff')
-    clus = os.path.join('../protein_clusterization', 'upstream_proteins_clu.tsv')
-    clus_faa = os.path.join('../protein_clusterization', 'upstream_proteins_clu.faa')
-    clus_out_long = os.path.join('../results', 'upstream_proteins_clu_long_prokka.tsv')
-    clus_out_wide = os.path.join('../results', 'upstream_proteins_clu_wide_prokka.tsv')
-    clus_out_wide_seq = os.path.join('../results', 'upstream_proteins_clu_wide_seq_prokka.tsv')
+    our_gff = os.path.join('upstream_search', 'representative_genomes.gff')
+    clus = os.path.join('protein_clusterization', 'upstream_proteins_clu.tsv')
+    clus_faa = os.path.join('protein_clusterization', 'upstream_proteins_clu.faa')
+    clus_out_long = os.path.join('results', 'upstream_proteins_clu_long_prokka.tsv')
+    clus_out_wide = os.path.join('results', 'upstream_proteins_clu_wide_prokka.tsv')
+    clus_out_wide_seq = os.path.join('results', 'upstream_proteins_clu_wide_seq_prokka.tsv')
 
     func_prokka = read_prokka_gff(our_gff)
     faa_dict = read_faa(clus_faa)

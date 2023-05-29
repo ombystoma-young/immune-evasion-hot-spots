@@ -8,11 +8,14 @@ def parse_args():
     return parser.parse_args()
 
 
-def define_genomes_in_dataset(txt_path: str) -> set:
+def define_genomes_in_dataset(txt_path: str, all=False) -> set:
     genomes = set()
     with open(txt_path, 'r') as in_f:
         for line in in_f:
-            entry = line.strip()
+            if all:
+                entry = line.strip().split('\t')[0]
+            else:
+                entry = line.strip()
             genomes.add(entry)
     return genomes
 
@@ -67,13 +70,16 @@ def read_fa(pol_ids: dict, faa_path: str):
 
 if __name__ == '__main__':
     dataset = parse_args().wildcard
-    #dataset = 'dataset_3'
-    in_datasets = os.path.join('define_datasets', f'{dataset}_genomes_modified.txt')
     in_tsv = os.path.join('define_datasets', 'joined.tsv')
     in_gff = os.path.join('upstream_search', 'representative_genomes.gff')
     in_faa = os.path.join('upstream_search', 'all_genomes.faa')
-
-    genomes = define_genomes_in_dataset(in_datasets)
+    #dataset = 'dataset_3'
+    if dataset != 'all':
+        in_datasets = os.path.join('define_datasets', f'{dataset}_genomes_modified.txt')
+        genomes = define_genomes_in_dataset(in_datasets)
+    else:
+        in_datasets = os.path.join('metadata', 'genomes_after_curation.tsv')
+        genomes = define_genomes_in_dataset(in_datasets, all=True)
     print(genomes)
     pol_coords = read_bed(in_tsv, genomes)
     print(len(pol_coords))

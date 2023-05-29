@@ -89,8 +89,9 @@ rule all:
         os.path.join(domain_tables_dir, "upstream_domains.tsv"),
         os.path.join(cluster_prot_dir,'upstream_proteins_clu.faa'),
         os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
-        os.path.join(results_dir, 'upstreams_with_clusters.gff')
-
+        os.path.join(results_dir, 'upstreams_with_clusters.gff'),
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_sorted.tsv'),
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_sorted_prokka.tsv')
         #os.path.join(upstream_dir, 'meta_upstream.gff'),
         #os.path.join(results_dir, 'freq_repres_proteins.txt'),
         ,
@@ -191,7 +192,7 @@ rule cluster_prot:
     shell:
         """
         mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --cluster-mode 1 \
-        --cov-mode 0 -c 0.7 \
+        --cov-mode 0 -c 0.7 --min-seq-id 0.4 \
         --split-memory-limit 7G {input} {params.clu} tmp_prot
         """
 
@@ -272,6 +273,16 @@ rule write_freq_stat:
     script: 'scripts/steal_annotation.py'
 
 
+rule sort_wide_seq:
+    input:
+        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide_seq.tsv')
+    output:
+        clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide_seq_sorted.tsv')
+    shell:
+        """
+        cat {input} | sort -nrk 2 > {output}
+        """
+
 rule sort_wide:
     input:
         clus_out_wide = os.path.join(results_dir,'upstream_proteins_clu_wide.tsv')
@@ -280,6 +291,32 @@ rule sort_wide:
     shell:
         """
         cat {input} | sort -nrk 2 > {output}
+        """
+
+
+rule only_prokka_upstreams:
+    input:
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.tsv'),
+        os.path.join(cluster_prot_dir,'upstream_proteins_clu.faa'),
+        os.path.join(upstream_dir, 'representative_genomes.gff'),
+        os.path.join(upstream_dir, 'meta_upstream.gff')
+    output:
+        clus_out_long = os.path.join(results_dir, 'upstream_proteins_clu_long_prokka.tsv'),
+        clus_out_wide = os.path.join(results_dir, 'upstream_proteins_clu_wide_prokka.tsv'),
+        clus_out_wide_seq = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_prokka.tsv')
+    shell:
+        """
+        python3 scripts/add_only_prokka_annotation.py
+        """
+
+rule sort_prokka_ann:
+    input:
+        os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_prokka.tsv')
+    output:
+        os.path.join(results_dir,'upstream_proteins_clu_wide_seq_sorted_prokka.tsv')
+    shell:
+        """
+        cat {input} | sort -rnk 2 > {output}
         """
 
 

@@ -108,8 +108,8 @@ joined <- joined %>% mutate(TDR_in = factor(left_in + right_in))
 d <- joined %>% ggplot(aes(x = i_length_, y = u_length_, color = TDR_in)) +
   geom_point(size = 3, aes(shape=ifelse(tdr_left_start<1000, TRUE, FALSE)), alpha = 0.75) + 
   scale_y_log10() + 
-  scale_shape_manual('TDRs near ends', labels = c("No", "Yes"), values=c(15, 19)) + 
-  scale_color_manual('TDRs in intergenic regions', labels = c("No", "1", '2'), values=c('tomato', 'forestgreen', 'blue')) + 
+  scale_shape_manual('TDRs near ends  ', labels = c("No", "Yes"), values=c(15, 19)) + 
+  scale_color_manual('TDRs in intergenic regions   ', labels = c("No", "1", '2'), values=c('tomato', 'forestgreen', 'blue')) + 
   theme_minimal() + 
   ylab('Distance from RNAP to closest TDR, bp') +
   xlab('Length of the longest intergenic region, bp') +
@@ -126,6 +126,7 @@ ggarrange(a, d, NULL, c,
           common.legend = TRUE)  
 
 ggsave('pics/tdr_plus_intergenic_diagnostics.png', width=14, height = 10, dpi=400)
+ggsave('pics/tdr_plus_intergenic_diagnostics.pdf', width=14, height = 10, dpi=400)
 write.table(joined, 'results/joined.tsv', sep='\t', row.names = FALSE, quote = FALSE)
 
 

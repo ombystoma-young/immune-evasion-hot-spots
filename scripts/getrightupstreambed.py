@@ -237,7 +237,7 @@ class IntersectionMaster:
                     upstream_start = str(rnap_start - 1)
                     upstream_end = str(rnap_end + self.bp)
                 elif rnap_end + self.bp > length:
-                    upstream_start = str(rnap_start)
+                    upstream_start = str(rnap_start - 1)
                     upstream_end = str(length)
                     shift = self.bp - (length - rnap_end)
                     if tdrs_1_start >= shift:
@@ -384,10 +384,10 @@ class IntersectionMaster:
                 raise ValueError(f'{nuccore_id}: problems with intergenics')
         else:  # "-"-strand
             if rnap_end < intergenic_start:  # RNAP after intergenic
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(intergenic_start)
             elif rnap_start > intergenic_end:  # break between
-                upstream_start = str(rnap_end - 1)
+                upstream_start = str(rnap_start - 1)
                 upstream_end = str(min(length, rnap_end + self.bp))
                 if length <= rnap_end+self.bp:
                     upstream_start_2 = str(0)
