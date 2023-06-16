@@ -8,6 +8,7 @@ library(gggenomes)
 library(ggnewscale)
 library(stringr)
 library(gridExtra)
+library(stringi)
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
 s0 <- read_seqs("blasted/phages_genomes_concat.fna") %>% select(seq_id,
@@ -50,6 +51,7 @@ s1 <- s1 %>% mutate(genus = case_when(
                 .default = C
               )) %>% 
             mutate(order = case_when(
+              genus == 'Escherichia' ~ 'Escherichia',
               genus == 'Synechococcus' ~ 'Synechococcus',
               genus == 'Rhizobium' ~ 'Hyphomicrobiales',
               .default = order)) %>% 
@@ -95,22 +97,34 @@ s4 <- read.table('metadata/genome_id2taxid.tsv') %>%
 s2 <- s2 %>% left_join(s4, by=c('V1'='V3')) %>% select(subfamily, V2) 
 colnames(s2) <- c('subfamily', 'seqid')
 
+# ocr 3, 107, 135, 297 (1-based)
+
 df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
-      filter(str_detect(attributes, 'cluster_num=2;')) %>% 
+      filter(str_detect(attributes, 'cluster_num=2;|cluster_num=106;|cluster_num=134;|cluster_num=296;')) %>% 
       mutate(have_system = 'Ocr') %>% 
       select(seqid, have_system) %>% unique()
+# ard 256, 382, 488, 583 (1-based)
+df3 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+  filter(str_detect(attributes, 'cluster_num=255;|cluster_num=381;|cluster_num=487;|cluster_num=582;')) %>% 
+  mutate(have_system = 'ArdA/ArdcN') %>% 
+  select(seqid, have_system) %>% unique()
+# SAMase (1-based):
+samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
+samase <- samase_1_based - 1
+samase <- paste0('cluster_num=', samase, ';', collapse = '|')
 df4 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
-  filter(str_detect(attributes, 'cluster_num=4;|cluster_num=33;')) %>% 
+  filter(str_detect(attributes, samase)) %>% 
   mutate(have_system = 'SAMase') %>% 
   select(seqid, have_system) %>% unique()
 
 df_none <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
   filter(! seqid %in% df2$seqid) %>% 
+  filter(! seqid %in% df3$seqid) %>% 
   filter(! seqid %in% df4$seqid) %>% 
   mutate(have_system = 'No') %>% 
   select(seqid, have_system) %>% unique()
 
-df <- rbind(df2, df4, df_none) %>% 
+df <- rbind(df2, df3, df4, df_none) %>% 
   mutate(have_system = factor(have_system))
 both <- df %>% select(seqid) %>% filter(duplicated(seqid))
 df <- df %>% mutate(have_system = case_when(
@@ -118,7 +132,7 @@ df <- df %>% mutate(have_system = case_when(
                                   .default = have_system)) %>% 
         unique() %>% mutate(have_system = factor(have_system, 
                                                  levels = c('No', 'Ocr', 
-                                                            'SAMase', 'Both'), 
+                                                            'SAMase', 'ArdA/ArdcN', 'Both'), 
                                                  ordered = TRUE))
 
 
@@ -149,7 +163,8 @@ table(df3$subfamily) / nrow(df3) * 100 < 2.5
 
 
 
-drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
+drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1',
+           'MZ318361.1', 'MZ318362.1')
 rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.treefile")
 rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
 rnaps_tree_with_drops <- groupOTU(rnaps_tree_with_drops, c('NC_001604.1', 'NC_003298.1'))
@@ -164,28 +179,33 @@ t <- ggtree(rnaps_tree_with_drops,
 
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
 #             quote = F, sep='\t')
+colors_ <- c('Both'='#440154', 'SAMase'='#fde725', 'ArdA/ArdcN'='#3c4f8a',  'Ocr'='#35b779', 'No'='#ffffff')
 
-colors_ <- c('Both'='#440154', 'SAMase'='#fde725', 'Ocr'='#35b779', 'No'='#ffffff')
+colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
+                'Pseudomonadales'='#83ff52', 
+                'Enterobacterales'='#440154', 'Other'='gray90')
+
+colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
+                  'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
+
+  table(df1$have_system)
 p1 <- gheatmap(t, df1, offset=0.8, width=.1,
                colnames_position = 'top',
                custom_column_labels = c(''),  font.size = 1.5,
                colnames_angle=0, colnames_offset_y = 0.25) +
   scale_fill_manual(values=colors_, name="Known",
-                    breaks = c('Both', 'Ocr', 
-                               'SAMase',  'No')) 
-  #geom_taxalink("NC_001604.1", "NC_003298.1", color="blue3") 
-colors_bac <- c('Enterobacterales'='#440154', 'Pseudomonadales'='#1ae4b6', 
-             'Vibrionales'='#faba39', 'Other'='gray90')
+                    breaks = c('Both', 'ArdA/ArdcN', 'Ocr', 
+                               'SAMase', 'No')) 
+
 p2 <- p1 + new_scale_fill()
 p2 <- gheatmap(p2, df2, offset=5.5, width=.1,
          custom_column_labels = c('Host'), font.size = 2.5,
          colnames_angle=0, colnames_offset_y = .25) +
-  scale_fill_manual(values=colors_bac, name="Host Order",
-                    breaks = c('Enterobacterales', 'Pseudomonadales', 
+  scale_fill_manual(values=colors_bac, name="Host",
+                    breaks = c('Enterobacterales', 'Escherichia',
+                               'Pseudomonadales', 
                                'Vibrionales',  'Other')) 
 
-colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
-                'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
 p3 <- p2 + new_scale_fill()
 p3 <- gheatmap(p3, df3, offset=11, width=.1, 
          custom_column_labels = c('Phage'), font.size = 2.5,
@@ -200,6 +220,6 @@ p3 <- gheatmap(p3, df3, offset=11, width=.1,
 # p5 <- gridExtra::tableGrob(data.frame(table(df3$subfamily)))
 
 p3
-ggsave('pics/tree_dataset_order_virus_subfamily.pdf', width=9, height = 9)
+ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters.pdf', width=9, height = 9)
 
 

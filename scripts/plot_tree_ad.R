@@ -82,7 +82,7 @@ s3 <- left_join(s0, s1, by=c('host'='genus')) %>%
   ))
 
 s3 <- s3 %>% select(seq_id, order)
-
+# write.table(s3, 'metadata/seq_id_to_host.tsv', sep='\t', quote=F, row.names = F)
 s2 <- read.table('metadata/genome_lineage.tsv', sep=';', header=F,
                  fill = TRUE) %>% 
   mutate(subfamily = case_when(
