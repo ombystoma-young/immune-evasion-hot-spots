@@ -47,12 +47,24 @@ os.makedirs(trees_dir, exist_ok=True)
 os.makedirs(alignments_trimmed_dir, exist_ok=True)
 os.makedirs(cluster_prot_by_dataset_dir, exist_ok=True)
 
+
+def create_search_string(nums: list) -> str:
+    nums_list = [f'cluster_num={num};' for num in nums]
+    nums_str = '|'.join(nums_list)
+    return nums_str
+
+
 clusters = ['ocr', 'samase']
-clu_num = {'ocr': 'cluster_num=2;', 'samase': 'cluster_num=4;|cluster_num=32;'}
+clusters_nums_ocr = [2, 106, 134, 296]
+clusters_nums_samase = [4, 32, 54, 103, 195, 237, 288, 307, 371, 502, 625]
+clu_nums_ocr_str = create_search_string(clusters_nums_ocr)
+clu_nums_samase_str =  create_search_string(clusters_nums_samase)
+clu_num = {'ocr': clu_nums_ocr_str, 'samase': clu_nums_samase_str}
+
 
 rule all:
     input:
-        expand(os.path.join(trees_dir, '{cluster}_bootstrap.iqtree.treefile'), cluster = clusters)
+        expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters)
 
 
 rule select_cluster_representatives:
@@ -67,6 +79,7 @@ rule select_cluster_representatives:
         cat {input} | grep -P "{params.keyword}" > {output} 
         """
 
+
 rule get_protein_ids:
     input:
         os.path.join(known_ad_dir, 'upstreams_{cluster}.gff')
@@ -79,16 +92,18 @@ rule get_protein_ids:
 
 
 # BLOCK ALIGN RNAPS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
-rule get_cluster_faa:
+rule get_cluster_faa:  # here also we add the external sequences,  D. Andersson (2018)
     input:
         faa = os.path.join(upstream_dir, 'all_genomes.faa'),
-        tsv = os.path.join(known_ad_dir, 'protein_ids_{cluster}.tsv'),
+        extra = os.path.join(meta_dir, 'additional_samase.faa'),
+        tsv = os.path.join(known_ad_dir, 'protein_ids_{cluster}.tsv')
     output:
         faa = os.path.join(known_ad_dir,  'upsteam_{cluster}.faa')
     shell:
         """
-       python scripts/get_cluster_faa.py {input.faa} {input.tsv} {output}
+       python scripts/get_cluster_faa.py {input.faa} {input.tsv} {output} {wildcards.cluster} {input.extra}
        """
+
 
 rule align_proteins:
     input:
@@ -119,14 +134,14 @@ rule build_tree_iqtree:
     input:
         os.path.join(alignments_trimmed_dir, 'trimmed_{cluster}.mafft.faa')
     output:
-        os.path.join(trees_dir, '{cluster}_bootstrap.iqtree.treefile')
+        os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile')
     params:
-        pref=os.path.join(trees_dir, '{cluster}_bootstrap.iqtree'),
-        model='LG+I+R6',
-        ubootstrap=1000
+        pref=os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree'),
+        model='MFP',
+        ubootstrap=10000
     threads: 10
     conda: 'envs/iqtree2.yml'
     shell:
         """
-        iqtree2 -nt {threads} -m {params.model} -s {input[0]} --prefix {params.pref} -B {params.ubootstrap}
+        iqtree2 -T AUTO -m {params.model} -s {input[0]} --prefix {params.pref} -B {params.ubootstrap} -redo
         """
