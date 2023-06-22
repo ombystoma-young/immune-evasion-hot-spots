@@ -1,0 +1,6 @@
+channels:
+ - bioconda
+dependencies:
+ - taxonkit=0.14.2
+
+

@@ -1,0 +1,10 @@
+channels:
+ - bioconda
+dependencies:
+ - prokka=1.13.4
+ - barrnap=0.9
+ - blast=2.7.1
+ - hmmer=3.2.1
+ - infernal=1.1.2
+ - perl=5.26.2
+ - perl-bioperl=1.7.2
