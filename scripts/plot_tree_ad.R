@@ -173,7 +173,7 @@ samase_tree <- read.tree("antidefence_trees/trees/samase_bootstrap.iqtree.contre
 samase_tree <- groupOTU(samase_tree, c('NC_003298.1', 'Svi3-7'))
 a <- as.integer(samase_tree$node.label)
 a[is.na(a)] <- 0
-a <- ifelse(a >= 95, intToUtf8(9728), "")
+a <- ifelse(a >= 95, "*", "")
 samase_tree$node.label <- a
 
 t <- ggtree(samase_tree,
@@ -225,14 +225,14 @@ p3 <- gheatmap(p3, df3,  offset=11, width=.1,
                     breaks = c('Studiervirinae', 'Molineuxvirinae', 
                                'Colwellvirinae',  'Other')) + ggtitle('SAMase')
 p3
-ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters.png', width=15, height = 9)
+ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters.pdf', width=15, height = 9)
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 ocr_tree <- read.tree("antidefence_trees/trees/ocr_bootstrap.iqtree.contree")
 ocr_tree <- groupOTU(ocr_tree, c('NC_001604.1'))
 a <- as.integer(ocr_tree$node.label)
 a[is.na(a)] <- 0
-a <- ifelse(a >= 95, intToUtf8(9728), "")
+a <- ifelse(a >= 95, "*", "")
 ocr_tree$node.label <- a
 
 t <- ggtree(ocr_tree,
@@ -276,6 +276,6 @@ p4 <- gheatmap(p4, df3, offset=11, width=.1,
                                'Colwellvirinae',  'Other')) + ggtitle('Ocr')
 
 p4 
-ggsave('pics/ocr_tree_dataset_order_virus_subfamily_all_clusters.png', width=15, height = 9)
+ggsave('pics/ocr_tree_dataset_order_virus_subfamily_all_clusters.pdf', width=15, height = 9)
 
 p3 + p4

@@ -94,7 +94,6 @@ rule all:
         os.path.join(results_dir,'upstream_proteins_clu_wide_seq_sorted_prokka.tsv')
         #os.path.join(upstream_dir, 'meta_upstream.gff'),
         #os.path.join(results_dir, 'freq_repres_proteins.txt'),
-        ,
         # os.path.join(results_dir,'upstream_proteins_clu_wide_seq_filtered.tsv')
 
 # BLOCK cut upstream regions

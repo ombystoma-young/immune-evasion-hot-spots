@@ -42,5 +42,5 @@ GCA_024499755.1_00042 -          94                   94           3.6e-51  172.
 # Target file:     upstream_search/upstream.faa
 # Option settings: hmmsearch --tblout domain_tables/upstream_domains.tsv --noali --notextw -E 0.000001 --domE 0.000001 domains_hmm/domains_Burstein.hmm upstream_search/upstream.faa 
 # Current dir:     /home/oxalotl/PycharmProjects/anti_defence_pipeline
-# Date:            Thu May 25 21:34:05 2023
+# Date:            Thu Jun 22 13:37:17 2023
 # [ok]
