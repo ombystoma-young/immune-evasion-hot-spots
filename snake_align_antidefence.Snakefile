@@ -64,7 +64,8 @@ clu_num = {'ocr': clu_nums_ocr_str, 'samase': clu_nums_samase_str}
 
 rule all:
     input:
-        expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters)
+        expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters),
+        expand(os.path.join(alignments_dir, 'representatives_mafft_{cluster}.faa'), cluster=clusters)
 
 
 rule select_cluster_representatives:
@@ -144,4 +145,28 @@ rule build_tree_iqtree:
     shell:
         """
         iqtree2 -T AUTO -m {params.model} -s {input[0]} --prefix {params.pref} -B {params.ubootstrap} -redo
+        """
+
+rule extract_representatives:
+    input:
+        fa = os.path.join(known_ad_dir,  'upsteam_{cluster}.faa'),
+        meta = os.path.join(meta_dir, 'assembly_nuccore.tsv'),
+        res = os.path.join(results_dir, 'upstream_proteins_clu_wide_seq_sorted_prokka_domains_pi_length_host.tsv')
+    output:
+        os.path.join(known_ad_dir, 'representatives_{cluster}.faa')
+    shell:
+        """
+        python3 scripts/extract_clu_representatives.py {wildcards.cluster} {input.fa} {input.meta} {input.res} {output}
+        """
+
+rule align_representatives:
+    input:
+            os.path.join(known_ad_dir,'representatives_{cluster}.faa')
+    output:
+        os.path.join(alignments_dir, 'representatives_mafft_{cluster}.faa')
+    conda: 'envs/mafft.yml'
+    threads: 10
+    shell:
+        """
+         mafft --thread {threads} --maxiterate 1000 --globalpair {input} > {output} 
         """
