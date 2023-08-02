@@ -98,9 +98,10 @@ s2 <- s2 %>% left_join(s4, by=c('V1'='V3')) %>% select(subfamily, V2)
 colnames(s2) <- c('subfamily', 'seqid')
 
 # ocr 3, 107, 135, 297 (1-based)
-
+ocr <- c(2, 99, 124, 259)
+ocr <- paste0('cluster_num=', ocr, ';', collapse = '|')
 df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
-      filter(str_detect(attributes, 'cluster_num=2;|cluster_num=106;|cluster_num=134;|cluster_num=296;')) %>% 
+      filter(str_detect(attributes, ocr)) %>%
       mutate(have_system = 'Ocr') %>% 
       select(seqid, have_system) %>% unique()
 # ard 256, 382, 488, 583 (1-based)

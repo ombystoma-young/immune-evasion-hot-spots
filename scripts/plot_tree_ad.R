@@ -96,14 +96,13 @@ s4 <- read.table('metadata/genome_id2taxid.tsv') %>%
 s2 <- s2 %>% left_join(s4, by=c('V1'='V3')) %>% select(subfamily, V2) 
 colnames(s2) <- c('subfamily', 'seqid')
 
-# ocr 3, 107, 135, 297 (1-based)
-ocr_1_based <- c(3, 107, 135, 297)
-ocr <- ocr_1_based - 1
+# ocr 3, 100, 125, 260 (1-based)
+ocr <- c(2, 99, 124, 259)
 
 clu_107 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num  == 106)
+  filter(cluster_num  == 99)
 clu_135 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num  == 134)
+  filter(cluster_num  == 124)
   
 
 df2 <- read_feats('results/upstreams_with_clusters.gff') %>%
@@ -112,14 +111,13 @@ df2 <- read_feats('results/upstreams_with_clusters.gff') %>%
   select(seq_id, have_system) %>% unique()
 colnames(df2) <- c('seqid', 'have_system')
 
-samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
-samase <- samase_1_based - 1
+samase <- c(4, 25, 53, 251, 269, 324, 439)
 
 clu_308 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num == 307) %>% 
+  filter(cluster_num == 269) %>%
   select(seq_id) %>% unique()
 clu_289 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num == 288) %>% 
+  filter(cluster_num == 251) %>%
   select(seq_id) %>% unique()
 
 

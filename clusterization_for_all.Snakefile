@@ -191,7 +191,7 @@ rule cluster_prot:
     shell:
         """
         mmseqs cluster --threads {threads} --max-seqs 300 -k 6 --cluster-mode 1 \
-        --cov-mode 0 -c 0.7 --min-seq-id 0.4 \
+        --cov-mode 0 -c 0.7 --min-seq-id 0.3 \
         --split-memory-limit 7G {input} {params.clu} tmp_prot
         """
 

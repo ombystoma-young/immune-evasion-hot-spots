@@ -1,68 +1,152 @@
-GCA_003143435.2_00049	9	{'hypothetical protein': 5, 'SAM-dependent methyltransferase': 4}
-GCA_005145125.1_00040	18	{'hypothetical protein': 17, 'serine-threonine kinase': 1}
-GCA_005145125.1_00042	15	{'overcome classical restriction': 1, 'hypothetical protein': 14}
-GCA_005280775.1_00002	1	{'hypothetical protein': 1}
-GCA_005892125.1_00003	8	{'hypothetical protein': 8}
-GCA_005892125.1_00006	1	{'hypothetical protein': 1}
-GCA_005892605.1_00005	54	{'hypothetical protein': 53, 'gp0.38': 1}
-GCA_005892785.1_00005	1	{'hypothetical protein': 1}
-GCA_006384715.1_00001	1	{'hypothetical protein': 1}
-GCA_006384715.1_00002	1	{'hypothetical protein': 1}
-GCA_006384715.1_00003	1	{'hypothetical protein': 1}
-GCA_006384715.1_00004	1	{'hypothetical protein': 1}
-GCA_006384715.1_00005	1	{'hypothetical protein': 1}
-GCA_006384715.1_00006	1	{'hypothetical protein': 1}
-GCA_006384715.1_00007	1	{'hypothetical protein': 1}
-GCA_006384715.1_00008	1	{'hypothetical protein': 1}
-GCA_006384715.1_00009	1	{'hypothetical protein': 1}
-GCA_006384715.1_00010	1	{'hypothetical protein': 1}
-GCA_006384715.1_00011	1	{'hypothetical protein': 1}
-GCA_006384715.1_00012	1	{'hypothetical protein': 1}
-GCA_006384715.1_00013	5	{'tyrosine integrase': 1, 'integrase': 3, 'site-specific tyrosine integrase': 1}
-GCA_006516715.1_00001	1	{'hypothetical protein': 1}
-GCA_006516715.1_00002	2	{'hypothetical protein': 1, 'Sel1 repeat family protein': 1}
-GCA_006516715.1_00004	1	{'hypothetical protein': 1}
-GCA_006516715.1_00005	1	{'hypothetical protein': 1}
-GCA_006516715.1_00006	2	{'hypothetical protein': 1, 'histone acetyltransferase type B catalytic subunit': 1}
-GCA_006516715.1_00007	2	{'hypothetical protein': 2}
-GCA_006516715.1_00008	2	{'hypothetical protein': 1, 'cor repressor': 1}
-GCA_006516715.1_00009	2	{'hypothetical protein': 1, 'mucin-22 like protein': 1}
-GCA_006516735.1_00001	1	{'hypothetical protein': 1}
-GCA_006516735.1_00002	1	{'hypothetical protein': 1}
-GCA_006516735.1_00003	1	{'hypothetical protein': 1}
-GCA_006516735.1_00004	1	{'hypothetical protein': 1}
-GCA_006516735.1_00005	1	{'hypothetical protein': 1}
-GCA_006516735.1_00006	1	{'hypothetical protein': 1}
-GCA_006516735.1_00007	1	{'hypothetical protein': 1}
+GCA_014337635.1_00003	4	{'hypothetical protein': 4}
+GCA_014337635.1_00004	3	{'hypothetical protein': 3}
+GCA_014337635.1_00011	1	{'hypothetical protein': 1}
+GCA_014488975.1_00001	1	{'hypothetical protein': 1}
+GCA_014488975.1_00003	2	{'hypothetical protein': 2}
+GCA_014489655.2_00001	1	{'hypothetical protein': 1}
+GCA_014518185.1_00011	21	{'hypothetical protein': 20, 'gp0.6A': 1}
+GCA_014656775.1_00051	10	{'hypothetical protein': 10}
+GCA_015147065.1_00001	1	{'hypothetical protein': 1}
 GCA_024499755.1_00008	1	{'DNA-directed RNA polymerase': 1}
-GCA_024499755.1_00042	1	{'hypothetical protein': 1}
+GCA_024499755.1_00042	2	{'hypothetical protein': 1, 'anti-restriction protein': 1}
 GCA_024499755.1_00043	1	{'hypothetical protein': 1}
 GCA_024499755.1_00044	1	{'hypothetical protein': 1}
-GCA_024606195.1_00005	3	{'protein kinase': 2, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 1}
 GCA_024750295.1_00004	3	{'hypothetical protein': 3}
-GCA_024750295.1_00007	4	{'hypothetical protein': 4}
-GCA_024750415.1_00044	1	{'hypothetical protein': 1}
+GCA_024750415.1_00044	2	{'hypothetical protein': 2}
 GCA_025085125.1_00045	7	{'hypothetical protein': 7}
 GCA_025085125.1_00046	9	{'hypothetical protein': 9}
 GCA_025085125.1_00047	4	{'hypothetical protein': 4}
 GCA_025085155.1_00010	1	{'hypothetical protein': 1}
 GCA_025085155.1_00012	1	{'hypothetical protein': 1}
-GCA_025085155.1_00014	190	{'serine-threonine kinase': 77, 'seryl-threonyl protein kinase': 1, 'protein kinase': 28, 'hypothetical protein': 27, 'Protein kinase 0.7': 41, 'serine/threonine kinase': 7, 'putative protein kinase': 8, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 1}
 GCA_025085185.1_00001	9	{'hypothetical protein': 7, 'putative F-box domain-containing protein': 1, 'SAM-dependent methyltransferase': 1}
 GCA_025085795.1_00002	3	{'hypothetical protein': 3}
+GCF_002957955.1_00001	1	{'hypothetical protein': 1}
+GCF_002957955.1_00002	1	{'hypothetical protein': 1}
+GCF_002958225.1_00002	2	{'hypotheticla protein': 1, 'hypothetical protein': 1}
+GCF_002958225.1_00004	3	{'hypothetical protein': 3}
+GCF_002958225.1_00005	3	{'hypothetical protein': 3}
+GCF_002958225.1_00006	2	{'hypothetical protein': 2}
+GCF_002990805.1_00001	2	{'hypothetical protein': 2}
+GCF_002991165.1_00001	1	{'hypothetical protein': 1}
+GCF_002997865.1_00002	34	{'hypothetical protein': 33, 'RNA polymerase': 1}
+GCF_003093955.1_00001	2	{'hypothetical protein': 2}
+GCF_003093955.1_00002	1	{'hypothetical protein': 1}
+GCF_003093955.1_00005	1	{'hypothetical protein': 1}
+GCF_003093975.1_00001	1	{'hypothetical protein': 1}
+GCF_003093975.1_00003	1	{'hypothetical protein': 1}
+GCF_003093975.1_00005	1	{'GNAT family N-acetyltransferase': 1}
+GCF_003093975.1_00007	2	{'hypothetical protein': 2}
+GCF_003093995.1_00003	17	{'hypothetical protein': 17}
+GCF_003093995.1_00006	1	{'hypothetical protein': 1}
+GCF_003094015.1_00001	1	{'hypothetical protein': 1}
+GCF_003094015.1_00003	8	{'hypothetical protein': 6, 'GNAT family N-acetyltransferase': 1, 'putative acetyltransferase': 1}
+GCF_003094255.1_00003	4	{'hypothetical protein': 4}
+GCF_003094255.1_00004	4	{'hypothetical protein': 4}
+GCF_003094295.1_00001	1	{'hypothetical protein': 1}
+GCF_003094295.1_00004	214	{'serine-threonine kinase': 83, 'seryl-threonyl protein kinase': 1, 'hypothetical protein': 28, 'putative protein kinase': 9, 'protein kinase': 34, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 6, 'Protein kinase 0.7': 45, 'serine/threonine kinase': 8}
+GCF_003143215.1_00047	2	{'hypothetical protein': 2}
+GCF_003143215.1_00051	2	{'hypothetical protein': 2}
+GCA_002600045.1_00004	14	{'hypothetical protein': 14}
+GCA_002600045.1_00005	5	{'hypothetical protein': 3, 'Protein kinase 0.7': 2}
+GCA_002618525.1_00031	7	{'hypothetical protein': 7}
+GCA_002629945.1_00003	14	{'hypothetical protein': 14}
+GCA_002629945.1_00004	14	{'hypothetical protein': 14}
+GCA_002921805.1_00012	1	{'T7 RNA polymerase': 1}
+GCA_002922415.1_00055	4	{'hypothetical protein': 4}
+GCA_002922415.1_00056	3	{'hypothetical protein': 3}
+GCA_002922415.1_00057	1	{'Tail spike protein': 1}
+GCA_002990555.1_00001	4	{'hypothetical protein': 4}
+GCF_000918515.1_00016	1	{'hypothetical protein': 1}
+GCF_000918515.1_00017	1	{'DNA ligase': 1}
+GCF_000918515.1_00018	1	{'DNA ligase': 1}
+GCF_000918515.1_00019	1	{'DNA ligase': 1}
+GCF_000919455.1_00001	3	{'putative ABC transporter': 2, 'hypothetical protein': 1}
+GCF_000928875.1_00003	3	{'kinase': 1, 'protein kinase': 1, 'hypothetical protein': 1}
+GCF_000929515.1_00001	1	{'hypothetical protein': 1}
+GCF_000929515.1_00002	1	{'hypothetical protein': 1}
+GCF_000929515.1_00003	2	{'hypothetical protein': 2}
+GCF_000929515.1_00004	1	{'hypothetical protein': 1}
+GCF_000929515.1_00005	1	{'hypothetical protein': 1}
+GCF_000929515.1_00007	1	{'hypothetical protein': 1}
+GCF_000929515.1_00008	2	{'hypothetical protein': 2}
+GCF_000929515.1_00009	1	{'hypothetical protein': 1}
+GCF_000929515.1_00010	3	{'hypothetical protein': 3}
+GCF_000929515.1_00013	1	{'transcriptional regulator': 1}
+GCF_000929515.1_00014	4	{'integrase': 2, 'transcriptional regulator': 1, 'phage-related integrase': 1}
+GCF_000929515.1_00015	7	{'integrase': 4, 'phage-related integrase': 1, 'Integrase': 2}
+GCF_001040975.1_00004	1	{'hypothetical protein': 1}
+GCF_001041455.1_00001	4	{'hypothetical protein': 4}
+GCF_001041455.1_00002	1	{'hypothetical protein': 1}
+GCF_001041455.1_00003	4	{'hypothetical protein': 4}
+GCF_001041455.1_00004	3	{'hypothetical protein': 3}
+GCF_001041815.1_00001	1	{'hypothetical protein': 1}
+GCF_001041815.1_00006	150	{'Overcome classical restriction gp0.3': 34, 'ocr-like anti-restriction': 15, 'hypothetical protein': 83, 'DNA mimic ocr': 1, 'overcome classical restriction': 1, 'receptor binding protein kinase': 1, 'DNA related protein': 1, 'Orc protein': 1, 'restriction-modification evasion protein': 2, 'protein Ocr': 4, 'putative restriction-modification evasion%2C mimics B-form DNA': 1, 'Ocr-like anti-restriction': 1, 'gp5': 1, 'gp0.35': 1, 'putative protein kinase': 1, 'ocr protein': 1, 'putative antirestriction protein': 1}
+GCF_001470735.1_00006	5	{'hypothetical protein': 5}
+GCA_009797615.2_00010	2	{'hypothetical protein': 2}
+GCA_009797615.2_00011	2	{'hypothetical protein': 2}
+GCA_009797615.2_00012	2	{'hypothetical protein': 2}
+GCA_009801405.2_00051	1	{'hypothetical protein': 1}
+GCA_009828395.2_00002	1	{'hypothetical protein': 1}
+GCA_012637005.1_00017	147	{'hypothetical protein': 92, 'SAM-dependent methyltransferase': 31, 'S-adenosyl-L-methionine hydrolase': 17, 'gp0.4': 1, 'putative S-adenosyl-L-methionine hydrolase': 2, 'putative immunoglobulin-blocking virulence protein': 1, 'RNA polymerase sigma factor': 1, 'putative adenosyl-L-methionine hydrolase': 1, 'SAM hydrolase / restriction inhibitor': 1}
+GCA_012637005.1_00018	1	{'hypothetical protein': 1}
+GCA_012637005.1_00019	1	{'hypothetical protein': 1}
+GCA_012637005.1_00022	1	{'hypothetical protein': 1}
+GCA_012637085.1_00045	1	{'hypothetical protein': 1}
+GCA_012637085.1_00047	1	{'hypothetical protein': 1}
+GCA_012637085.1_00048	1	{'hypothetical protein': 1}
+GCA_012637085.1_00050	1	{'hypothetical protein': 1}
+GCA_012637085.1_00051	1	{'hypothetical protein': 1}
+GCA_012637085.1_00052	1	{'hypothetical protein': 1}
+GCA_012637085.1_00053	1	{'hypothetical protein': 1}
+GCA_012637085.1_00054	1	{'hypothetical protein': 1}
+GCA_012637085.1_00055	1	{'hypothetical protein': 1}
+GCA_013086035.1_00002	3	{'hypothetical protein': 3}
+GCA_013086035.1_00004	1	{'hypothetical protein': 1}
+GCA_013086035.1_00005	1	{'hypothetical protein': 1}
+GCA_013086035.1_00006	1	{'hypothetical protein': 1}
+GCA_013086035.1_00007	3	{'hypothetical protein': 3}
+GCA_013086035.1_00008	5	{'hypothetical protein': 5}
+GCA_013112065.1_00004	1	{'hypothetical protein': 1}
+GCA_013112085.1_00001	2	{'hypothetical protein': 2}
+GCA_013112085.1_00052	68	{'hypothetical protein': 65, 'hypotheticla protein': 1, 'gp0.38': 1, 'endonuclease VII': 1}
+GCA_013112085.1_00053	2	{'hypothetical protein': 2}
+GCA_024381135.1_00001	1	{'hypothetical protein': 1}
+GCA_024381135.1_00002	1	{'hypothetical protein': 1}
+GCA_024381135.1_00003	1	{'hypothetical protein': 1}
+GCA_024381135.1_00004	1	{'hypothetical protein': 1}
+GCA_024381135.1_00008	1	{'hypothetical protein': 1}
+GCA_024381135.1_00010	1	{'hypothetical protein': 1}
+GCA_024381135.1_00011	1	{'hypothetical protein': 1}
+GCA_024381145.1_00001	1	{'hypothetical protein': 1}
+GCA_024381145.1_00002	1	{'hypothetical protein': 1}
+GCA_024381145.1_00003	1	{'hypothetical protein': 1}
+GCA_024381145.1_00006	1	{'hypothetical protein': 1}
+GCA_024381245.2_00047	3	{'hypothetical protein': 3}
+GCA_024381265.1_00035	1	{'hypothetical protein': 1}
+GCA_024384215.1_00014	1	{'hypothetical protein': 1}
+GCA_024499585.1_00001	3	{'hypothetical protein': 3}
+GCA_024499585.1_00002	3	{'hypothetical protein': 3}
+GCA_024499585.1_00003	3	{'RNA polymerase': 3}
+GCA_024499585.1_00004	3	{'hypothetical protein': 3}
+GCA_024499585.1_00005	3	{'hypothetical protein': 3}
+GCA_024499755.1_00001	1	{'hypothetical protein': 1}
+GCA_024499755.1_00002	1	{'hypothetical protein': 1}
+GCA_024499755.1_00003	1	{'hypothetical protein': 1}
+GCA_024499755.1_00004	1	{'hypothetical protein': 1}
+GCA_024499755.1_00005	11	{'hypothetical protein': 1, 'putative integrase': 1, 'tyrosine integrase': 1, 'integrase': 6, 'site-specific tyrosine integrase': 1, 'XerC Integrase': 1}
+GCA_024499755.1_00006	1	{'hypothetical protein': 1}
+GCA_024499755.1_00007	1	{'DNA-directed RNA polymerase': 1}
 GCF_000849825.2_00001	1	{'hypothetical protein': 1}
 GCF_000849825.2_00002	1	{'hypothetical protein': 1}
 GCF_000849825.2_00003	1	{'hypothetical protein': 1}
 GCF_000849825.2_00004	1	{'hypothetical protein': 1}
 GCF_000849825.2_00005	1	{'hypothetical protein': 1}
-GCF_000849825.2_00006	1	{'hypothetical protein': 1}
-GCF_000849825.2_00008	1	{'hypothetical protein': 1}
 GCF_000858745.1_00001	1	{'uncharacterized protein': 1}
 GCF_000858745.1_00003	1	{'hypothetical protein': 1}
 GCF_000858745.1_00004	1	{'uncharacterized protein': 1}
 GCF_000858745.1_00005	1	{'uncharacterized protein': 1}
 GCF_000858745.1_00006	1	{'uncharacterized protein': 1}
-GCF_000858745.1_00007	1	{'uncharacterized protein': 1}
+GCF_000858745.1_00007	4	{'uncharacterized protein': 1, 'hypothetical protein': 3}
 GCF_000858745.1_00008	1	{'hypothetical protein': 1}
 GCF_000864645.1_00002	10	{'hypothetical protein': 10}
 GCF_000864645.1_00005	2	{'hypothetical protein': 2}
@@ -79,180 +163,47 @@ GCF_000873225.1_00008	1	{'gp9': 1}
 GCF_000873225.1_00009	1	{'gp11': 1}
 GCF_000873225.1_00010	1	{'gp11': 1}
 GCF_000873225.1_00011	1	{'gp13': 1}
-GCF_000873225.1_00013	2	{'gp14': 1, 'hypothetical protein': 1}
-GCF_000873225.1_00014	3	{'gp16': 1, 'hypothetical protein': 2}
-GCA_002600045.1_00004	14	{'hypothetical protein': 14}
-GCA_002600045.1_00005	5	{'hypothetical protein': 3, 'Protein kinase 0.7': 2}
-GCA_002618525.1_00031	7	{'hypothetical protein': 7}
-GCA_002618525.1_00035	18	{'hypothetical protein': 17, '2': 1}
-GCA_002629945.1_00003	14	{'hypothetical protein': 14}
-GCA_002629945.1_00004	14	{'hypothetical protein': 14}
-GCA_002758975.1_00001	15	{'putative S-adenosyl-L-methionine hydrolase': 5, 'hypothetical protein': 7, 'S-adenosyl-L-methionine hydrolase': 1, 'SAM-dependent methyltransferase': 2}
-GCA_002921805.1_00012	1	{'T7 RNA polymerase': 1}
-GCA_002922415.1_00055	4	{'hypothetical protein': 4}
-GCA_002922415.1_00056	3	{'hypothetical protein': 3}
-GCA_002922415.1_00057	1	{'Tail spike protein': 1}
-GCA_002990555.1_00001	4	{'hypothetical protein': 4}
-GCA_020491635.2_00004	1	{'hypothetical protein': 1}
-GCA_020491635.2_00006	1	{'hypothetical protein': 1}
-GCA_020492125.1_00002	4	{'hypothetical protein': 4}
-GCA_020496975.1_00001	1	{'hypothetical protein': 1}
-GCA_020496975.1_00004	7	{'hypothetical protein': 6, 'gp3': 1}
-GCA_020496975.1_00006	10	{'hypothetical protein': 10}
-GCA_020496975.1_00009	1	{'hypothetical protein': 1}
-GCA_020523135.1_00007	5	{'hypothetical protein': 5}
-GCA_020523215.1_00025	10	{'hypothetical protein': 10}
-GCA_020528835.1_00002	1	{'hypothetical protein': 1}
-GCA_020868875.1_00012	9	{'hypothetical protein': 9}
-GCF_000918515.1_00016	1	{'hypothetical protein': 1}
-GCF_000918515.1_00017	1	{'DNA ligase': 1}
-GCF_000918515.1_00018	1	{'DNA ligase': 1}
-GCF_000918515.1_00019	1	{'DNA ligase': 1}
-GCF_000919455.1_00001	3	{'putative ABC transporter': 2, 'hypothetical protein': 1}
-GCF_000928875.1_00003	3	{'kinase': 1, 'protein kinase': 1, 'hypothetical protein': 1}
-GCF_000929515.1_00001	1	{'hypothetical protein': 1}
-GCF_000929515.1_00002	1	{'hypothetical protein': 1}
-GCF_000929515.1_00003	2	{'hypothetical protein': 2}
-GCF_000929515.1_00004	1	{'hypothetical protein': 1}
-GCF_000929515.1_00005	1	{'hypothetical protein': 1}
-GCF_000929515.1_00007	1	{'hypothetical protein': 1}
-GCF_000929515.1_00008	2	{'hypothetical protein': 2}
-GCF_000929515.1_00009	1	{'hypothetical protein': 1}
-GCF_000929515.1_00010	3	{'hypothetical protein': 3}
-GCF_000929515.1_00012	1	{'hypothetical protein': 1}
-GCF_000929515.1_00013	1	{'transcriptional regulator': 1}
-GCF_000929515.1_00014	4	{'integrase': 2, 'transcriptional regulator': 1, 'phage-related integrase': 1}
-GCF_000929515.1_00015	3	{'integrase': 2, 'phage-related integrase': 1}
-GCF_001040975.1_00004	1	{'hypothetical protein': 1}
-GCF_001041455.1_00001	4	{'hypothetical protein': 4}
-GCF_001041455.1_00002	1	{'hypothetical protein': 1}
-GCF_001041455.1_00003	4	{'hypothetical protein': 4}
-GCF_001041455.1_00004	3	{'hypothetical protein': 3}
-GCF_001041455.1_00006	2	{'hypothetical protein': 2}
-GCF_001041815.1_00001	1	{'hypothetical protein': 1}
-GCF_001041815.1_00006	150	{'Overcome classical restriction gp0.3': 34, 'ocr-like anti-restriction': 15, 'hypothetical protein': 83, 'DNA mimic ocr': 1, 'overcome classical restriction': 1, 'receptor binding protein kinase': 1, 'DNA related protein': 1, 'Orc protein': 1, 'restriction-modification evasion protein': 2, 'protein Ocr': 4, 'putative restriction-modification evasion%2C mimics B-form DNA': 1, 'Ocr-like anti-restriction': 1, 'gp5': 1, 'gp0.35': 1, 'putative protein kinase': 1, 'ocr protein': 1, 'putative antirestriction protein': 1}
-GCF_001470735.1_00006	5	{'hypothetical protein': 5}
-GCF_003575385.1_00005	4	{'serine-threonine kinase': 4}
-GCF_003575425.1_00004	1	{'hypothetical protein': 1}
-GCF_003575725.1_00002	2	{'hypothetical protein': 2}
-GCF_003601515.1_00003	2	{'hypothetical protein': 2}
-GCF_003601515.1_00006	6	{'hypothetical protein': 6}
-GCF_003958785.1_00003	2	{'anti-repressor Ant': 1, 'hypothetical protein': 1}
-GCF_003991785.1_00020	1	{'hypothetical protein': 1}
-GCF_003991785.1_00021	1	{'hypothetical protein': 1}
-GCF_003991785.1_00023	3	{'hypothetical protein': 3}
-GCA_015502145.1_00009	1	{'hypothetical protein': 1}
-GCA_015502225.1_00037	1	{'hypothetical protein': 1}
-GCA_015502225.1_00038	2	{'hypothetical protein': 2}
-GCA_015502225.1_00040	1	{'hypothetical protein': 1}
-GCA_015502225.1_00041	1	{'hypothetical protein': 1}
-GCA_015502225.1_00042	1	{'hypothetical protein': 1}
-GCA_015502225.1_00044	1	{'hypothetical protein': 1}
-GCA_015644885.1_00026	1	{'hypothetical protein': 1}
-GCA_015644885.1_00027	1	{'hypothetical protein': 1}
-GCA_015644885.1_00028	1	{'hypothetical protein': 1}
-GCA_015644885.1_00029	3	{'hypothetical protein': 3}
-GCA_015644885.1_00030	1	{'hypothetical protein': 1}
-GCA_015644885.1_00032	1	{'superinfection exclusion protein': 1}
-GCA_015644885.1_00033	1	{'hypothetical protein': 1}
-GCA_015644885.1_00034	3	{'MarR family transcriptional regulator': 2, 'transcriptional regulator': 1}
-GCA_015644885.1_00035	1	{'integrase': 1}
-GCA_015644895.1_00017	2	{'MoaE-like protein': 1, 'hypothetical protein': 1}
-GCA_015644895.1_00018	1	{'hypothetical protein': 1}
-GCA_015644895.1_00021	1	{'hypothetical protein': 1}
-GCA_015644895.1_00022	1	{'mucin-19 like protein': 1}
-GCA_015644895.1_00024	2	{'mucin-22 like protein': 1, 'hypothetical protein': 1}
-GCA_015709755.1_00051	2	{'hypothetical protein': 2}
-GCA_015709755.1_00053	9	{'hypothetical protein': 9}
-GCA_016455525.1_00003	2	{'hypothetical protein': 2}
-GCA_016600835.1_00003	1	{'hypothetical protein': 1}
-GCA_016600835.1_00006	1	{'hypothetical protein': 1}
-GCA_016600895.1_00003	2	{'hypothetical protein': 2}
-GCA_016600895.1_00005	3	{'hypothetical protein': 3}
-GCA_016600895.1_00009	1	{'hypothetical protein': 1}
-GCF_000900955.1_00005	2	{'hypothetical protein': 2}
-GCF_000900955.1_00006	2	{'SAM-dependent methyltransferase': 1, 'S-adenosyl-L-methionine hydrolase': 1}
-GCF_000900955.1_00007	2	{'hypothetical protein': 2}
-GCF_000900955.1_00008	2	{'hypothetical protein': 2}
-GCF_000900955.1_00010	74	{'RNA polymerase': 30, 'DNA-directed RNA polymerase': 40, 'DNA-dependent RNA polymerase': 1, 'putative RNA polymerase': 1, 'putative DNA-directed RNA polymerase': 1, 'T3/T7-like RNA polymerase': 1}
-GCF_000902475.1_00001	1	{'gp0.2': 1}
-GCF_000902475.1_00002	2	{'gp0.6': 1, 'putative S-adenosyl-L-methionine hydrolase': 1}
-GCF_000902475.1_00003	1	{'gp0.6': 1}
-GCF_000902475.1_00004	1	{'gp0.65': 1}
-GCF_000902475.1_00005	1	{'serine-threonine kinase': 1}
-GCF_000905795.2_00001	4	{'hypothetical protein': 4}
-GCF_000905795.2_00003	6	{'hypothetical protein': 5, 'gp4': 1}
-GCF_000905875.1_00002	1	{'hypothetical protein': 1}
-GCF_000905875.1_00003	1	{'hypothetical protein': 1}
-GCF_000905875.1_00004	1	{'hypothetical protein': 1}
-GCF_000905875.1_00005	1	{'hypothetical protein': 1}
-GCF_000905875.1_00006	1	{'hypothetical protein': 1}
-GCF_000905875.1_00007	1	{'hypothetical protein': 1}
-GCF_000905875.1_00010	2	{'integrase': 2}
-GCF_000905875.1_00011	5	{'RNA polymerase': 5}
-GCF_000906315.1_00001	1	{'hypothetical protein': 1}
-GCF_000907035.1_00007	1	{'hypothetical protein': 1}
-GCF_000907035.1_00008	1	{'hypothetical protein': 1}
-GCF_000907035.1_00009	1	{'hypothetical protein': 1}
-GCF_000907035.1_00010	1	{'anti-restriction protein': 1}
-GCF_000915495.1_00005	1	{'hypothetical protein': 1}
-GCF_000916695.1_00001	1	{'hypothetical protein': 1}
-GCF_000916695.1_00002	1	{'hypothetical protein': 1}
-GCF_000916695.1_00005	1	{'hypothetical protein': 1}
-GCF_000916695.1_00009	1	{'hypothetical protein': 1}
-GCF_000917035.1_00001	1	{'hypothetical protein': 1}
-GCF_000917035.1_00004	37	{'hypothetical protein': 27, 'Gene 0.4 protein': 10}
-GCF_000917035.1_00005	12	{'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 4, 'protein kinase': 4, 'Protein kinase 0.7': 4}
-GCF_000917035.1_00006	4	{'hypothetical protein': 4}
-GCF_000918515.1_00001	1	{'hypothetical protein': 1}
-GCF_000918515.1_00002	1	{'hypothetical protein': 1}
-GCF_000918515.1_00003	1	{'hypothetical protein': 1}
-GCF_000918515.1_00004	1	{'SAM-dependent methyltransferase': 1}
-GCF_000918515.1_00005	1	{'hypothetical protein': 1}
-GCF_000918515.1_00006	1	{'hypothetical protein': 1}
-GCF_000918515.1_00007	1	{'hypothetical protein': 1}
-GCF_000918515.1_00008	1	{'hypothetical protein': 1}
-GCF_000918515.1_00009	1	{'hypothetical protein': 1}
-GCF_000918515.1_00010	1	{'hypothetical protein': 1}
-GCF_000918515.1_00011	1	{'hypothetical protein': 1}
-GCF_000918515.1_00012	1	{'hypothetical protein': 1}
-GCF_000918515.1_00013	1	{'hypothetical protein': 1}
-GCF_000918515.1_00014	1	{'hypothetical protein': 1}
-GCF_000918515.1_00015	1	{'hypothetical protein': 1}
-GCF_001470795.1_00002	3	{'hypothetical protein': 3}
-GCF_001470795.1_00004	4	{'hypothetical protein': 4}
-GCF_001470995.1_00011	1	{'hypothetical protein': 1}
-GCF_001470995.1_00012	1	{'hypothetical protein': 1}
-GCF_001470995.1_00013	1	{'hypothetical protein': 1}
-GCF_001470995.1_00014	1	{'hypothetical protein': 1}
-GCF_001470995.1_00015	1	{'hypothetical protein': 1}
-GCF_001470995.1_00016	1	{'hypothetical protein': 1}
-GCF_001470995.1_00017	1	{'hypothetical protein': 1}
-GCF_001470995.1_00018	1	{'hypothetical protein': 1}
-GCF_001470995.1_00019	1	{'hypothetical protein': 1}
-GCF_001470995.1_00020	1	{'hypothetical protein': 1}
-GCF_001470995.1_00021	1	{'hypothetical protein': 1}
-GCF_001470995.1_00022	1	{'hypothetical protein': 1}
-GCF_001470995.1_00023	354	{'RNA polymerase': 126, 'DNA-directed RNA polymerase': 50, 'T7 RNA polymerase': 89, 'putative RNA polymerase': 9, 'hypothetical protein': 23, 'T3/T7-like RNA polymerase': 7, 'N4-like RNA polymerase': 45, 'DNA-dependent RNA polymerase': 4, 'putative DNA-directed RNA polymerase': 1}
-GCF_001500915.1_00003	48	{'hypothetical protein': 47, 'gp0.35': 1}
-GCF_001500935.1_00004	5	{'hypothetical protein': 5}
-GCF_001501275.1_00006	2	{'hypothetical protein': 2}
-GCF_001503795.1_00002	1	{'hypothetical protein': 1}
-GCA_016653735.1_00005	1	{'Protein kinase 0.7': 1}
-GCA_016653735.1_00006	1	{'Protein kinase 0.7': 1}
-GCA_016653745.1_00052	1	{'hypothetical protein': 1}
-GCA_016653745.1_00055	3	{'Integrase': 2, 'integrase': 1}
-GCA_017903885.1_00034	2	{'hypothetical protein': 2}
-GCA_018215425.1_00002	7	{'hypothetical protein': 7}
-GCA_018726495.1_00002	3	{'hypothetical protein': 3}
-GCA_018726495.1_00005	3	{'protein kinase': 2, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 1}
-GCA_018726505.1_00006	1	{'hypothetical protein': 1}
+GCF_000873225.1_00013	3	{'gp14': 1, 'hypothetical protein': 2}
+GCF_000873225.1_00014	13	{'gp16': 1, 'RNA polymerase': 2, 'putative helix-destabilizing protein': 1, 'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 3, 'hypothetical protein': 4, 'DNA-directed RNA polymerase': 1, 'T7-like ssDNA binding protein': 1}
+GCF_001745895.1_00002	2	{'hypothetical protein': 2}
+GCF_001745895.1_00005	12	{'hypothetical protein': 12}
+GCF_001745895.1_00009	3	{'hypothetical protein': 3}
+GCF_002582845.1_00008	8	{'DNA-directed RNA polymerase': 2, 'RNA polymerase': 1, 'putative helix-destabilizing protein': 1, 'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 3, 'T7-like ssDNA binding protein': 1}
+GCF_002582845.1_00014	1	{'hypothetical protein': 1}
+GCF_002582845.1_00015	1	{'hypothetical protein': 1}
+GCF_002582845.1_00016	1	{'hypothetical protein': 1}
+GCF_002582845.1_00017	1	{'hypothetical protein': 1}
+GCF_002582845.1_00018	1	{'hypothetical protein': 1}
+GCF_002582845.1_00019	1	{'hypothetical protein': 1}
+GCF_002582845.1_00020	1	{'hypothetical protein': 1}
+GCF_002582845.1_00021	1	{'hypothetical protein': 1}
+GCF_002604545.1_00024	1	{'hypothetical protein': 1}
+GCF_002604545.1_00025	1	{'hypothetical protein': 1}
+GCF_002604545.1_00027	1	{'hypothetical protein': 1}
+GCF_002604545.1_00029	3	{'hypothetical protein': 3}
+GCF_002604705.1_00001	3	{'hypothetical protein': 3}
+GCA_006516735.1_00010	1	{'integrase': 1}
+GCA_006516795.1_00001	3	{'hypothetical protein': 3}
+GCA_006516795.1_00003	1	{'hypothetical protein': 1}
+GCA_006516795.1_00004	1	{'hypothetical protein': 1}
+GCA_006516795.1_00005	1	{'hypothetical protein': 1}
+GCA_006516795.1_00006	1	{'hypothetical protein': 1}
+GCA_006516795.1_00007	1	{'hypothetical protein': 1}
+GCA_006516795.1_00008	1	{'hypothetical protein': 1}
+GCA_006516795.1_00009	2	{'hypothetical protein': 2}
+GCA_008215485.1_00004	1	{'hypothetical protein': 1}
+GCA_008215585.1_00001	22	{'hypothetical protein': 22}
+GCA_008215585.1_00005	25	{'hypothetical protein': 25}
+GCA_008215665.1_00001	8	{'hypothetical protein': 7, 'alpha%2Calpha-trehalase': 1}
+GCA_008221325.1_00011	3	{'hypothetical protein': 3}
+GCA_008221485.1_00002	19	{'hypothetical protein': 18, 'overcome classical restriction': 1}
+GCA_008690445.1_00051	1	{'hypothetical protein': 1}
+GCA_008951985.1_00004	27	{'hypothetical protein': 27}
+GCA_009176145.1_00001	1	{'hypothetical protein': 1}
 GCA_029535525.1_00001	1	{'hypothetical protein': 1}
 GCA_029535565.1_00002	75	{'hypothetical protein': 70, 'receptor binding protein kinase': 1, 'restriction-modification evasion protein': 1, 'gp0.4': 1, 'gp0.6A': 1, 'ocr-like anti-restriction': 1}
 GCA_029535575.1_00004	1	{'hypothetical protein': 1}
-GCA_902989295.1_00004	9	{'RPO41 Mitochondrial DNA-directed RNA polymerase': 1, 'DNA-directed RNA polymerase': 3, 'RNA polymerase': 2, 'T7 RNA polymerase': 2, 'putative DNA-dependent RNA polymerase protein': 1}
-GCA_902989295.1_00006	1	{'XerC Integrase': 1}
-GCA_902989295.1_00007	1	{'MarR Transcriptional regulators': 1}
+GCA_902989295.1_00007	6	{'MarR Transcriptional regulators': 1, 'transcriptional regulator': 2, 'MarR family transcriptional regulator': 3}
 GCA_902989295.1_00008	1	{'hypothetical protein': 1}
 GCA_902989295.1_00009	1	{'hypothetical protein': 1}
 GCA_902989295.1_00010	1	{'hypothetical protein': 1}
@@ -271,19 +222,15 @@ GCA_903231675.1_00045	1	{'hypothetical protein': 1}
 GCA_903231675.1_00046	1	{'MarR Transcriptional regulators': 1}
 GCA_903231675.1_00047	1	{'MarR Transcriptional regulators': 1}
 GCA_903231675.1_00048	1	{'XerC Integrase': 1}
-GCA_903231675.1_00049	1	{'RPO41 Mitochondrial DNA-directed RNA polymerase': 1}
 GCF_000843145.1_00001	1	{'hypothetical protein': 1}
 GCF_000880255.1_00004	1	{'gp0.7': 1}
 GCF_000881355.2_00002	4	{'hypothetical protein': 4}
 GCF_000881355.2_00006	1	{'hypothetical protein': 1}
-GCF_000881355.2_00007	2	{'hypothetical protein': 2}
 GCF_000887015.1_00002	1	{'hypothetical protein': 1}
 GCF_000890795.1_00002	1	{'hypothetical protein': 1}
 GCF_000890795.1_00003	1	{'serine-threonine kinase': 1}
 GCF_000891635.1_00003	2	{'hypothetical protein': 2}
-GCF_000891635.1_00005	2	{'hypothetical protein': 2}
 GCF_000891635.1_00006	5	{'hypothetical protein': 5}
-GCF_000891635.1_00008	1	{'hypothetical protein': 1}
 GCF_000892275.1_00001	1	{'hypothetical protein': 1}
 GCF_000892395.1_00047	1	{'hypothetical protein': 1}
 GCF_000892395.1_00048	25	{'hypothetical protein': 25}
@@ -303,6 +250,104 @@ GCF_000900475.1_00005	2	{'hypothetical protein': 2}
 GCF_000900955.1_00001	2	{'hypothetical protein': 2}
 GCF_000900955.1_00002	2	{'hypothetical protein': 2}
 GCF_000900955.1_00003	2	{'hypothetical protein': 2}
+GCA_009372295.1_00002	1	{'hypothetical protein': 1}
+GCA_009651575.1_00001	1	{'hypothetical protein': 1}
+GCA_009654915.1_00001	1	{'putative integrase': 1}
+GCA_009654915.1_00003	1	{'hypothetical protein': 1}
+GCA_009654915.1_00004	1	{'hypothetical protein': 1}
+GCA_009654915.1_00005	1	{'hypothetical protein': 1}
+GCA_009654915.1_00006	1	{'putative RNA polymerase': 1}
+GCA_009659195.1_00014	1	{'hypothetical protein': 1}
+GCA_009667685.1_00041	1	{'hypothetical protein': 1}
+GCA_009667685.1_00043	1	{'hypothetical protein': 1}
+GCA_009667685.1_00044	3	{'hypothetical protein': 3}
+GCA_009667685.1_00047	1	{'hypothetical protein': 1}
+GCA_009667685.1_00048	1	{'hypothetical protein': 1}
+GCA_009667685.1_00049	17	{'hypothetical protein': 17}
+GCA_009667685.1_00051	1	{'hypothetical protein': 1}
+GCA_009667685.1_00052	1	{'hypothetical protein': 1}
+GCA_009667685.1_00053	1	{'hypothetical protein': 1}
+GCA_009667685.1_00054	1	{'hypothetical protein': 1}
+GCA_009672325.1_00010	21	{'hypothetical protein': 20, 'serine-threonine kinase': 1}
+GCA_009797585.2_00004	3	{'hypothetical protein': 3}
+GCA_009797585.2_00005	3	{'hypothetical protein': 3}
+GCA_009797585.2_00006	4	{'hypothetical protein': 4}
+GCA_009797585.2_00007	3	{'hypothetical protein': 3}
+GCA_009797585.2_00008	3	{'hypothetical protein': 3}
+GCA_009797585.2_00009	3	{'hypothetical protein': 3}
+GCA_009797585.2_00013	3	{'hypothetical protein': 3}
+GCA_009797585.2_00015	447	{'DNA-directed RNA polymerase': 93, 'RNA polymerase': 165, 'T7 RNA polymerase': 91, 'putative RNA polymerase': 12, 'hypothetical protein': 23, 'T3/T7-like RNA polymerase': 8, 'N4-like RNA polymerase': 45, 'DNA-dependent RNA polymerase': 5, 'putative DNA-directed RNA polymerase': 2, 'putative DNA-dependent RNA polymerase protein': 1, 'RPO41 Mitochondrial DNA-directed RNA polymerase': 2}
+GCA_009797615.2_00001	2	{'hypothetical protein': 2}
+GCA_009797615.2_00002	2	{'hypothetical protein': 2}
+GCA_009797615.2_00003	2	{'hypothetical protein': 2}
+GCA_020491635.2_00004	1	{'hypothetical protein': 1}
+GCA_020491635.2_00006	1	{'hypothetical protein': 1}
+GCA_020492125.1_00002	4	{'hypothetical protein': 4}
+GCA_020496975.1_00001	1	{'hypothetical protein': 1}
+GCA_020496975.1_00004	7	{'hypothetical protein': 6, 'gp3': 1}
+GCA_020496975.1_00008	3	{'hypothetical protein': 3}
+GCA_020496975.1_00009	1	{'hypothetical protein': 1}
+GCA_020523135.1_00007	5	{'hypothetical protein': 5}
+GCA_020523215.1_00025	10	{'hypothetical protein': 10}
+GCA_020528835.1_00002	1	{'hypothetical protein': 1}
+GCA_020868875.1_00012	9	{'hypothetical protein': 9}
+GCA_023547295.1_00009	22	{'hypothetical protein': 22}
+GCA_023571625.1_00002	2	{'hypothetical protein': 2}
+GCA_023571655.1_00009	1	{'hypothetical protein': 1}
+GCA_023571655.1_00010	1	{'hypothetical protein': 1}
+GCA_023571655.1_00011	1	{'hypothetical protein': 1}
+GCA_023571655.1_00012	4	{'hypothetical protein': 4}
+GCA_023571655.1_00013	1	{'hypothetical protein': 1}
+GCA_023571655.1_00015	2	{'hypothetical protein': 2}
+GCA_023571655.1_00017	1	{'hypothetical protein': 1}
+GCA_023571655.1_00019	1	{'hypothetical protein': 1}
+GCA_023716895.1_00035	149	{'hypothetical protein': 142, 'gene 0.65 protein': 1, 'putative 0.6A protein': 1, 'gp0.6A': 3, 'gp0.6a': 1, 'serine-threonine kinase': 1}
+GCA_023716895.1_00036	1	{'hypothetical protein': 1}
+GCA_023716895.1_00037	1	{'hypothetical protein': 1}
+GCF_001470795.1_00004	4	{'hypothetical protein': 4}
+GCF_001470995.1_00011	1	{'hypothetical protein': 1}
+GCF_001470995.1_00012	1	{'hypothetical protein': 1}
+GCF_001470995.1_00013	1	{'hypothetical protein': 1}
+GCF_001470995.1_00014	1	{'hypothetical protein': 1}
+GCF_001470995.1_00015	1	{'hypothetical protein': 1}
+GCF_001470995.1_00016	1	{'hypothetical protein': 1}
+GCF_001470995.1_00017	1	{'hypothetical protein': 1}
+GCF_001470995.1_00018	1	{'hypothetical protein': 1}
+GCF_001470995.1_00019	1	{'hypothetical protein': 1}
+GCF_001470995.1_00020	1	{'hypothetical protein': 1}
+GCF_001470995.1_00021	1	{'hypothetical protein': 1}
+GCF_001470995.1_00022	1	{'hypothetical protein': 1}
+GCF_001500915.1_00003	48	{'hypothetical protein': 47, 'gp0.35': 1}
+GCF_001500935.1_00004	5	{'hypothetical protein': 5}
+GCF_001501275.1_00006	2	{'hypothetical protein': 2}
+GCF_001503795.1_00002	1	{'hypothetical protein': 1}
+GCF_002615605.1_00003	1	{'hypothetical protein': 1}
+GCF_002617945.1_00001	1	{'hypothetical protein': 1}
+GCF_002617945.1_00003	5	{'hypothetical protein': 5}
+GCF_002617945.1_00004	1	{'hypothetical protein': 1}
+GCF_002617945.1_00008	2	{'hypothetical protein': 1, 'putative andolysin': 1}
+GCF_002618485.1_00032	2	{'hypothetical protein': 2}
+GCF_002619725.1_00003	2	{'hypothetical protein': 1, 'putative cell division FtsZ inhibitor': 1}
+GCF_002624845.1_00042	1	{'hypothetical protein': 1}
+GCF_002624845.1_00043	1	{'hypothetical protein': 1}
+GCF_002624845.1_00044	1	{'hypothetical protein': 1}
+GCF_002624845.1_00045	2	{'sequence-specific DNA binding RNA polymerase II transcription factor': 1, 'hypothetical protein': 1}
+GCF_002624845.1_00046	1	{'SAM-dependent methyltransferase': 1}
+GCF_002625125.1_00001	1	{'hypothetical protein': 1}
+GCF_002625125.1_00002	1	{'hypothetical protein': 1}
+GCF_002625125.1_00003	1	{'hypothetical protein': 1}
+GCF_002625125.1_00004	1	{'hypothetical protein': 1}
+GCF_002625125.1_00005	2	{'hypothetical protein': 2}
+GCF_002743475.1_00002	1	{'hypothetical protein': 1}
+GCF_002743475.1_00004	4	{'hypothetical protein': 4}
+GCF_002743475.1_00006	2	{'hypothetical protein': 2}
+GCF_002757895.1_00002	8	{'hypothetical protein': 8}
+GCF_002956045.1_00001	2	{'hypothetical protein': 2}
+GCF_002957185.1_00001	4	{'hypothetical protein': 4}
+GCF_002957185.1_00002	4	{'hypothetical protein': 4}
+GCF_002957185.1_00006	1	{'hypothetical protein': 1}
+GCF_002957545.1_00001	9	{'hypothetical protein': 9}
+GCF_002957545.1_00003	1	{'hypothetical protein': 1}
 GCF_004521515.1_00048	1	{'hypothetical protein': 1}
 GCF_004521515.1_00050	1	{'hypothetical protein': 1}
 GCF_004521515.1_00052	1	{'hypothetical protein': 1}
@@ -316,56 +361,179 @@ GCF_004875685.1_00003	3	{'hypothetical protein': 3}
 GCF_004875685.1_00005	1	{'hypothetical protein': 1}
 GCF_004875685.1_00007	1	{'hypothetical protein': 1}
 GCF_004875685.1_00008	1	{'hypothetical protein': 1}
-GCF_004875685.1_00011	1	{'hypothetical protein': 1}
-GCF_004875685.1_00013	1	{'integrase': 1}
-GCF_004875685.1_00014	9	{'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 3, 'RNA polymerase': 2, 'putative helix-destabilizing protein': 1, 'hypothetical protein': 1, 'DNA-directed RNA polymerase': 1, 'T7-like ssDNA binding protein': 1}
-GCF_013490925.1_00001	1	{'hypothetical protein': 1}
-GCF_013490925.1_00002	5	{'hypothetical protein': 5}
 GCF_013490925.1_00003	1	{'hypothetical protein': 1}
 GCF_013490925.1_00004	1	{'hypothetical protein': 1}
 GCF_013490925.1_00005	1	{'hypothetical protein': 1}
 GCF_013490925.1_00008	1	{'hypothetical protein': 1}
-GCF_900007805.1_00020	1	{'hypothetical protein': 1}
 GCF_900016765.1_00001	4	{'hypothetical protein': 4}
-GCA_014337635.1_00004	3	{'hypothetical protein': 3}
-GCA_014337635.1_00011	1	{'hypothetical protein': 1}
-GCA_014488975.1_00001	1	{'hypothetical protein': 1}
-GCA_014488975.1_00003	2	{'hypothetical protein': 2}
-GCA_014489655.2_00001	1	{'hypothetical protein': 1}
-GCA_014518185.1_00011	21	{'hypothetical protein': 20, 'gp0.6A': 1}
-GCA_014656775.1_00051	10	{'hypothetical protein': 10}
-GCA_015147065.1_00001	1	{'hypothetical protein': 1}
-GCA_024381135.1_00001	1	{'hypothetical protein': 1}
-GCA_024381135.1_00002	1	{'hypothetical protein': 1}
-GCA_024381135.1_00003	1	{'hypothetical protein': 1}
-GCA_024381135.1_00004	1	{'hypothetical protein': 1}
-GCA_024381135.1_00005	1	{'hypothetical protein': 1}
-GCA_024381135.1_00008	1	{'hypothetical protein': 1}
-GCA_024381135.1_00010	1	{'hypothetical protein': 1}
-GCA_024381135.1_00011	1	{'hypothetical protein': 1}
-GCA_024381145.1_00001	1	{'hypothetical protein': 1}
-GCA_024381145.1_00002	1	{'hypothetical protein': 1}
-GCA_024381145.1_00003	1	{'hypothetical protein': 1}
-GCA_024381145.1_00006	1	{'hypothetical protein': 1}
-GCA_024381245.2_00045	1	{'putative protein kinase': 1}
-GCA_024381245.2_00047	3	{'hypothetical protein': 3}
-GCA_024381265.1_00035	1	{'hypothetical protein': 1}
-GCA_024384215.1_00014	1	{'hypothetical protein': 1}
-GCA_024499585.1_00001	3	{'hypothetical protein': 3}
-GCA_024499585.1_00002	3	{'hypothetical protein': 3}
-GCA_024499585.1_00003	3	{'RNA polymerase': 3}
-GCA_024499585.1_00004	3	{'hypothetical protein': 3}
-GCA_024499585.1_00005	3	{'hypothetical protein': 3}
-GCA_024499755.1_00001	1	{'hypothetical protein': 1}
-GCA_024499755.1_00002	1	{'hypothetical protein': 1}
-GCA_024499755.1_00003	1	{'hypothetical protein': 1}
-GCA_024499755.1_00004	1	{'hypothetical protein': 1}
-GCA_024499755.1_00005	1	{'hypothetical protein': 1}
-GCA_024499755.1_00006	1	{'hypothetical protein': 1}
-GCA_024499755.1_00007	1	{'DNA-directed RNA polymerase': 1}
-GCA_025085795.1_00003	1	{'hypothetical protein': 1}
+GCA_019466435.1_00047	2	{'hypothetical protein': 2}
+GCA_019466435.1_00052	1	{'hypothetical protein': 1}
+GCA_020472965.1_00052	1	{'DNA-directed RNA polymerase': 1}
+GCA_020487865.3_00005	32	{'hypothetical protein': 30, 'Orc protein': 1, 'putative restriction-modification evasion%2C mimics B-form DNA': 1}
+GCA_020488535.1_00040	3	{'hypothetical protein': 3}
+GCA_020488535.1_00041	4	{'hypothetical protein': 4}
+GCA_020488535.1_00044	3	{'hypothetical protein': 3}
+GCA_020488535.1_00045	1	{'hypothetical protein': 1}
+GCA_020488535.1_00046	3	{'Terminase%2C large subunit gp19': 3}
+GCA_020488535.1_00047	1	{'hypothetical protein': 1}
+GCA_020488535.1_00048	1	{'hypothetical protein': 1}
+GCA_020488535.1_00049	1	{'hypothetical protein': 1}
+GCA_020488535.1_00050	1	{'Terminase%2C small subunit gp18': 1}
+GCA_020488535.1_00051	1	{'hypothetical protein': 1}
+GCA_020488535.1_00053	1	{'hypothetical protein': 1}
+GCA_020490015.1_00007	1	{'hypothetical protein': 1}
+GCA_020490015.1_00008	2	{'hypothetical protein': 1, 'gp14': 1}
+GCA_020490015.1_00011	3	{'hypothetical protein': 2, 'gp16': 1}
+GCF_000900955.1_00005	2	{'hypothetical protein': 2}
+GCF_000900955.1_00006	21	{'SAM-dependent methyltransferase': 5, 'S-adenosyl-L-methionine hydrolase': 3, 'hypothetical protein': 8, 'putative S-adenosyl-L-methionine hydrolase': 5}
+GCF_000900955.1_00007	2	{'hypothetical protein': 2}
+GCF_000900955.1_00008	2	{'hypothetical protein': 2}
+GCF_000902475.1_00001	1	{'gp0.2': 1}
+GCF_000902475.1_00002	2	{'gp0.6': 1, 'putative S-adenosyl-L-methionine hydrolase': 1}
+GCF_000902475.1_00003	1	{'gp0.6': 1}
+GCF_000902475.1_00004	1	{'gp0.65': 1}
+GCF_000902475.1_00005	1	{'serine-threonine kinase': 1}
+GCF_000905795.2_00001	4	{'hypothetical protein': 4}
+GCF_000905795.2_00003	33	{'hypothetical protein': 31, 'gp4': 1, '2': 1}
+GCF_000905875.1_00002	1	{'hypothetical protein': 1}
+GCF_000905875.1_00003	1	{'hypothetical protein': 1}
+GCF_000905875.1_00004	1	{'hypothetical protein': 1}
+GCF_000905875.1_00005	1	{'hypothetical protein': 1}
+GCF_000905875.1_00006	1	{'hypothetical protein': 1}
+GCF_000905875.1_00007	1	{'hypothetical protein': 1}
+GCF_000906315.1_00001	1	{'hypothetical protein': 1}
+GCF_000907035.1_00007	1	{'hypothetical protein': 1}
+GCF_000907035.1_00008	1	{'hypothetical protein': 1}
+GCF_000907035.1_00009	1	{'hypothetical protein': 1}
+GCF_000915495.1_00005	1	{'hypothetical protein': 1}
+GCF_000916695.1_00002	1	{'hypothetical protein': 1}
+GCF_000916695.1_00005	1	{'hypothetical protein': 1}
+GCF_000916695.1_00009	2	{'hypothetical protein': 2}
+GCF_000917035.1_00001	1	{'hypothetical protein': 1}
+GCF_000917035.1_00004	38	{'hypothetical protein': 28, 'Gene 0.4 protein': 10}
+GCF_000917035.1_00006	4	{'hypothetical protein': 4}
+GCF_000918515.1_00001	1	{'hypothetical protein': 1}
+GCF_000918515.1_00002	1	{'hypothetical protein': 1}
+GCF_000918515.1_00003	1	{'hypothetical protein': 1}
+GCF_000918515.1_00004	1	{'SAM-dependent methyltransferase': 1}
+GCF_000918515.1_00005	1	{'hypothetical protein': 1}
+GCF_000918515.1_00006	1	{'hypothetical protein': 1}
+GCF_000918515.1_00007	1	{'hypothetical protein': 1}
+GCF_000918515.1_00008	1	{'hypothetical protein': 1}
+GCF_000918515.1_00009	1	{'hypothetical protein': 1}
+GCF_000918515.1_00010	1	{'hypothetical protein': 1}
+GCF_000918515.1_00011	1	{'hypothetical protein': 1}
+GCF_000918515.1_00012	6	{'hypothetical protein': 6}
+GCF_000918515.1_00013	1	{'hypothetical protein': 1}
+GCF_000918515.1_00014	1	{'hypothetical protein': 1}
+GCF_000918515.1_00015	1	{'hypothetical protein': 1}
+GCA_013377455.1_00001	21	{'hypothetical protein': 21}
+GCA_013377455.1_00006	34	{'hypothetical protein': 31, 'putative oxidoreductase': 1, 'membrane protein': 1, 'glycosyltransferase': 1}
+GCA_013387635.1_00001	1	{'hypothetical protein': 1}
+GCA_014337605.2_00002	2	{'hypothetical protein': 2}
+GCA_014337625.1_00007	2	{'hypothetical protein': 2}
+GCA_014337625.1_00009	1	{'hypothetical protein': 1}
+GCA_020892805.1_00009	6	{'hypothetical protein': 6}
+GCA_020892805.1_00011	4	{'protein kinase': 1, 'serine-threonine kinase': 1, 'Protein kinase 0.7': 1, 'hypothetical protein': 1}
+GCA_021090025.1_00049	1	{'integrase': 1}
+GCA_021090025.1_00050	1	{'hypothetical protein': 1}
+GCA_021090025.1_00051	1	{'hypothetical protein': 1}
+GCA_021090025.1_00052	1	{'hypothetical protein': 1}
+GCA_021090025.1_00053	1	{'hypothetical protein': 1}
+GCA_021090025.1_00054	1	{'hypothetical protein': 1}
+GCA_021090025.1_00055	1	{'hypothetical protein': 1}
+GCA_021090025.1_00056	1	{'hypothetical protein': 1}
+GCA_021090025.1_00057	1	{'hypothetical protein': 1}
+GCA_021090025.1_00058	1	{'hypothetical protein': 1}
+GCA_026273205.1_00010	1	{'hypothetical protein': 1}
+GCA_026273205.1_00046	2	{'hypothetical protein': 2}
+GCA_026432355.2_00004	4	{'hypothetical protein': 4}
+GCA_026723915.1_00006	1	{'hypothetical protein': 1}
+GCA_028389935.1_00006	1	{'hypothetical protein': 1}
+GCA_028897465.1_00001	1	{'hypothetical protein': 1}
+GCA_028897465.1_00002	1	{'hypothetical protein': 1}
+GCA_028897465.1_00003	1	{'hypothetical protein': 1}
+GCA_029535485.1_00001	27	{'hypothetical protein': 27}
+GCF_003226655.1_00001	4	{'hypothetical protein': 4}
+GCF_003226655.1_00003	1	{'hypothetical protein': 1}
+GCF_003226655.1_00006	22	{'hypothetical protein': 21, 'glycosyltransferase': 1}
+GCF_003308855.1_00002	3	{'hypothetical protein': 3}
+GCF_003308855.1_00005	14	{'hypothetical protein': 13, 'virion structural protein': 1}
+GCF_003308855.1_00007	35	{'hypothetical protein': 28, 'glycosyltransferase': 1, 'putative oxidoreductase': 1, 'hydroxylase': 3, 'putative 2OG-Fe(II) oxygenase superfamily protein': 1, 'membrane protein': 1}
+GCF_003308855.1_00009	1	{'hypothetical protein': 1}
+GCF_003308855.1_00010	4	{'anti-repressor Ant': 3, 'hypothetical protein': 1}
+GCF_003341035.1_00047	2	{'hypothetical protein': 2}
+GCF_003369305.1_00001	1	{'hypothetical protein': 1}
+GCF_003369305.1_00003	1	{'hypothetical protein': 1}
+GCF_003369305.1_00004	1	{'hypothetical protein': 1}
+GCF_003369305.1_00005	1	{'hypothetical protein': 1}
+GCF_003369305.1_00006	1	{'hypothetical protein': 1}
+GCF_003369305.1_00008	1	{'hypothetical protein': 1}
+GCF_003369305.1_00009	1	{'hypothetical protein': 1}
+GCF_003575385.1_00001	4	{'hypothetical protein': 4}
+GCA_015502145.1_00009	1	{'hypothetical protein': 1}
+GCA_015502145.1_00014	3	{'hypothetical protein': 3}
+GCA_015502225.1_00037	1	{'hypothetical protein': 1}
+GCA_015502225.1_00038	2	{'hypothetical protein': 2}
+GCA_015502225.1_00040	1	{'hypothetical protein': 1}
+GCA_015502225.1_00041	1	{'hypothetical protein': 1}
+GCA_015502225.1_00042	1	{'hypothetical protein': 1}
+GCA_015502225.1_00044	1	{'hypothetical protein': 1}
+GCA_015644885.1_00026	1	{'hypothetical protein': 1}
+GCA_015644885.1_00027	1	{'hypothetical protein': 1}
+GCA_015644885.1_00028	1	{'hypothetical protein': 1}
+GCA_015644885.1_00029	3	{'hypothetical protein': 3}
+GCA_015644885.1_00030	1	{'hypothetical protein': 1}
+GCA_015644885.1_00032	1	{'superinfection exclusion protein': 1}
+GCA_015644885.1_00033	1	{'hypothetical protein': 1}
+GCA_015644895.1_00017	2	{'MoaE-like protein': 1, 'hypothetical protein': 1}
+GCA_015644895.1_00018	1	{'hypothetical protein': 1}
+GCA_015644895.1_00021	1	{'hypothetical protein': 1}
+GCA_015644895.1_00022	1	{'mucin-19 like protein': 1}
+GCA_015644895.1_00024	2	{'mucin-22 like protein': 1, 'hypothetical protein': 1}
+GCA_015709755.1_00051	2	{'hypothetical protein': 2}
+GCA_015709755.1_00053	9	{'hypothetical protein': 9}
+GCA_016455525.1_00003	2	{'hypothetical protein': 2}
+GCA_016600835.1_00003	1	{'hypothetical protein': 1}
+GCA_016600835.1_00006	1	{'hypothetical protein': 1}
+GCA_016600895.1_00003	2	{'hypothetical protein': 2}
+GCA_016600895.1_00005	3	{'hypothetical protein': 3}
+GCA_016600895.1_00009	1	{'hypothetical protein': 1}
+GCA_021351865.1_00056	1	{'hypothetical protein': 1}
+GCA_021355615.1_00002	2	{'hypothetical protein': 2}
+GCA_021355615.1_00005	4	{'hypothetical protein': 4}
+GCA_021355615.1_00006	1	{'hypothetical protein': 1}
+GCA_021378495.1_00043	1	{'protein kinase': 1}
+GCA_021378495.1_00047	49	{'hypothetical protein': 45, 'putative 0.6A protein': 1, 'gp0.45': 2, 'putative transmembrane protein': 1}
+GCA_021863795.1_00008	74	{'hypothetical protein': 67, 'hypotheticla protein': 1, 'putative andolysin': 1, 'late transcription factor VLTF-4': 1, 'endolysin': 1, '6': 1, 'andolysin': 1, 'gp7': 1}
+GCA_021863865.1_00001	1	{'hypothetical protein': 1}
+GCA_021863865.1_00002	1	{'hypothetical protein': 1}
+GCA_021863865.1_00003	1	{'hypothetical protein': 1}
+GCA_021863865.1_00004	1	{'hypothetical protein': 1}
+GCA_021863865.1_00005	4	{'hypothetical protein': 4}
+GCA_021863865.1_00006	1	{'hypothetical protein': 1}
+GCA_021863865.1_00008	1	{'hypothetical protein': 1}
+GCA_021863865.1_00010	1	{'hypothetical protein': 1}
+GCA_021870105.1_00001	3	{'protein kinase': 2, 'Protein kinase 0.7': 1}
+GCA_022211075.1_00004	1	{'hypothetical protein': 1}
+GCA_022213585.1_00042	10	{'hypothetical protein': 10}
+GCA_022213585.1_00045	1	{'hypothetical protein': 1}
+GCA_022213585.1_00046	9	{'hypothetical protein': 8, 'virion structural protein': 1}
+GCA_022213585.1_00048	1	{'hypothetical protein': 1}
+GCA_022401895.1_00043	1	{'hypothetical protein': 1}
+GCA_022401895.1_00045	1	{'Spanin%2C inner membrane subunit': 1}
+GCA_022401895.1_00046	1	{'hypothetical protein': 1}
+GCA_022401895.1_00047	2	{'hypothetical protein': 2}
+GCA_022401895.1_00048	1	{'hypothetical protein': 1}
+GCA_016653735.1_00005	1	{'Protein kinase 0.7': 1}
+GCA_016653735.1_00006	1	{'Protein kinase 0.7': 1}
+GCA_016653745.1_00052	1	{'hypothetical protein': 1}
+GCA_017903885.1_00034	2	{'hypothetical protein': 2}
+GCA_018215425.1_00002	20	{'hypothetical protein': 20}
+GCA_018726495.1_00002	3	{'hypothetical protein': 3}
+GCA_018726495.1_00005	3	{'protein kinase': 2, 'protein kinase%3B inhibitor of host transcription%3B positively regulates RNaseIII%3B negatively on RNaseE': 1}
+GCA_025085795.1_00003	10	{'hypothetical protein': 10}
 GCA_025085795.1_00008	2	{'hypothetical protein': 2}
-GCA_025085805.1_00002	5	{'hypothetical protein': 5}
 GCA_025085855.1_00003	9	{'hypothetical protein': 9}
 GCA_025085855.1_00005	1	{'hypothetical protein': 1}
 GCA_025630455.1_00048	2	{'hypothetical protein': 1, 'gp6': 1}
@@ -381,305 +549,56 @@ GCA_026273205.1_00006	1	{'hypothetical protein': 1}
 GCA_026273205.1_00007	1	{'hypothetical protein': 1}
 GCA_026273205.1_00008	1	{'hypothetical protein': 1}
 GCA_026273205.1_00009	1	{'hypothetical protein': 1}
-GCF_002615605.1_00003	1	{'hypothetical protein': 1}
-GCF_002617945.1_00001	1	{'hypothetical protein': 1}
-GCF_002617945.1_00003	1	{'hypothetical protein': 1}
-GCF_002617945.1_00004	1	{'hypothetical protein': 1}
-GCF_002617945.1_00006	1	{'hypothetical protein': 1}
-GCF_002617945.1_00008	2	{'hypothetical protein': 1, 'putative andolysin': 1}
-GCF_002618485.1_00032	2	{'hypothetical protein': 2}
-GCF_002619725.1_00003	2	{'hypothetical protein': 1, 'putative cell division FtsZ inhibitor': 1}
-GCF_002624845.1_00042	1	{'hypothetical protein': 1}
-GCF_002624845.1_00043	1	{'hypothetical protein': 1}
-GCA_006516735.1_00010	1	{'integrase': 1}
-GCA_006516735.1_00011	1	{'RNA polymerase': 1}
-GCA_006516795.1_00001	1	{'hypothetical protein': 1}
-GCA_006516795.1_00002	1	{'hypothetical protein': 1}
-GCA_006516795.1_00003	1	{'hypothetical protein': 1}
-GCA_006516795.1_00004	1	{'hypothetical protein': 1}
-GCA_006516795.1_00005	1	{'hypothetical protein': 1}
-GCA_006516795.1_00006	1	{'hypothetical protein': 1}
-GCA_006516795.1_00007	1	{'hypothetical protein': 1}
-GCA_006516795.1_00008	1	{'hypothetical protein': 1}
-GCA_006516795.1_00009	2	{'hypothetical protein': 2}
-GCA_008215485.1_00004	1	{'hypothetical protein': 1}
-GCA_008215585.1_00001	22	{'hypothetical protein': 22}
-GCA_008215585.1_00005	25	{'hypothetical protein': 25}
-GCA_008215665.1_00001	8	{'hypothetical protein': 7, 'alpha%2Calpha-trehalase': 1}
-GCA_008221325.1_00011	3	{'hypothetical protein': 3}
-GCA_008221485.1_00002	4	{'hypothetical protein': 4}
-GCA_008690445.1_00051	1	{'hypothetical protein': 1}
-GCA_008951985.1_00004	27	{'hypothetical protein': 27}
-GCA_009176145.1_00001	1	{'hypothetical protein': 1}
-GCA_023547295.1_00009	7	{'hypothetical protein': 7}
-GCA_023571625.1_00002	2	{'hypothetical protein': 2}
-GCA_023571655.1_00009	1	{'hypothetical protein': 1}
-GCA_023571655.1_00010	1	{'hypothetical protein': 1}
-GCA_023571655.1_00011	1	{'hypothetical protein': 1}
-GCA_023571655.1_00012	4	{'hypothetical protein': 4}
-GCA_023571655.1_00013	1	{'hypothetical protein': 1}
-GCA_023571655.1_00015	2	{'hypothetical protein': 2}
-GCA_023571655.1_00017	1	{'hypothetical protein': 1}
-GCA_023571655.1_00019	1	{'hypothetical protein': 1}
-GCA_023716895.1_00035	149	{'hypothetical protein': 142, 'gene 0.65 protein': 1, 'putative 0.6A protein': 1, 'gp0.6A': 3, 'gp0.6a': 1, 'serine-threonine kinase': 1}
-GCA_023716895.1_00036	1	{'hypothetical protein': 1}
-GCA_023716895.1_00037	1	{'hypothetical protein': 1}
-GCF_001745895.1_00001	1	{'hypothetical protein': 1}
-GCF_001745895.1_00002	2	{'hypothetical protein': 2}
-GCF_001745895.1_00005	2	{'hypothetical protein': 2}
-GCF_001745895.1_00008	3	{'hypothetical protein': 3}
-GCF_001745895.1_00009	1	{'hypothetical protein': 1}
-GCF_002582845.1_00008	8	{'DNA-directed RNA polymerase': 2, 'RNA polymerase': 1, 'putative helix-destabilizing protein': 1, 'Gp2.5-like ssDNA binding protein and ssDNA annealing protein': 3, 'T7-like ssDNA binding protein': 1}
-GCF_002582845.1_00010	1	{'hypothetical protein': 1}
-GCF_002582845.1_00014	1	{'hypothetical protein': 1}
-GCF_002582845.1_00015	1	{'hypothetical protein': 1}
-GCF_002582845.1_00016	1	{'hypothetical protein': 1}
-GCF_002582845.1_00017	1	{'hypothetical protein': 1}
-GCF_002582845.1_00018	1	{'hypothetical protein': 1}
-GCF_002582845.1_00019	1	{'hypothetical protein': 1}
-GCF_002582845.1_00020	1	{'hypothetical protein': 1}
-GCF_002582845.1_00021	1	{'hypothetical protein': 1}
-GCF_002604545.1_00024	1	{'hypothetical protein': 1}
-GCF_002604545.1_00025	1	{'hypothetical protein': 1}
-GCF_002604545.1_00027	1	{'hypothetical protein': 1}
-GCF_002604545.1_00029	1	{'hypothetical protein': 1}
-GCF_002604705.1_00001	2	{'hypothetical protein': 2}
-GCF_002612025.1_00004	1	{'hypothetical protein': 1}
-GCA_019466435.1_00047	2	{'hypothetical protein': 2}
-GCA_019466435.1_00052	1	{'hypothetical protein': 1}
-GCA_020472965.1_00052	1	{'DNA-directed RNA polymerase': 1}
-GCA_020487865.3_00005	32	{'hypothetical protein': 30, 'Orc protein': 1, 'putative restriction-modification evasion%2C mimics B-form DNA': 1}
-GCA_020488535.1_00040	3	{'hypothetical protein': 3}
-GCA_020488535.1_00041	4	{'hypothetical protein': 4}
-GCA_020488535.1_00044	3	{'hypothetical protein': 3}
-GCA_020488535.1_00045	1	{'hypothetical protein': 1}
-GCA_020488535.1_00046	2	{'Terminase%2C large subunit gp19': 2}
-GCA_020488535.1_00047	1	{'hypothetical protein': 1}
-GCA_020488535.1_00048	1	{'hypothetical protein': 1}
-GCA_020488535.1_00049	1	{'hypothetical protein': 1}
-GCA_020488535.1_00050	1	{'Terminase%2C small subunit gp18': 1}
-GCA_020488535.1_00051	1	{'hypothetical protein': 1}
-GCA_020488535.1_00053	1	{'hypothetical protein': 1}
-GCA_020489725.1_00007	3	{'hypothetical protein': 3}
-GCA_020489725.1_00008	4	{'hypothetical protein': 4}
-GCA_020490015.1_00007	1	{'hypothetical protein': 1}
-GCA_020490015.1_00008	2	{'hypothetical protein': 1, 'gp14': 1}
-GCA_020490015.1_00010	1	{'hypothetical protein': 1}
-GCA_020490015.1_00011	2	{'hypothetical protein': 1, 'gp16': 1}
-GCA_020491545.1_00005	21	{'hydroxylase': 3, 'hypothetical protein': 15, 'putative 2OG-Fe(II) oxygenase superfamily protein': 1, 'membrane protein': 1, 'putative oxidoreductase': 1}
-GCF_002624845.1_00044	1	{'hypothetical protein': 1}
-GCF_002624845.1_00045	2	{'sequence-specific DNA binding RNA polymerase II transcription factor': 1, 'hypothetical protein': 1}
-GCF_002624845.1_00046	1	{'SAM-dependent methyltransferase': 1}
-GCF_002625125.1_00001	1	{'hypothetical protein': 1}
-GCF_002625125.1_00002	1	{'hypothetical protein': 1}
-GCF_002625125.1_00003	1	{'hypothetical protein': 1}
-GCF_002625125.1_00004	1	{'hypothetical protein': 1}
-GCF_002625125.1_00005	2	{'hypothetical protein': 2}
-GCF_002743475.1_00002	1	{'hypothetical protein': 1}
-GCF_002743475.1_00004	4	{'hypothetical protein': 4}
-GCF_002743475.1_00006	2	{'hypothetical protein': 2}
-GCF_002757895.1_00002	2	{'hypothetical protein': 2}
-GCF_002956045.1_00001	2	{'hypothetical protein': 2}
-GCF_002957185.1_00001	2	{'hypothetical protein': 2}
-GCF_002957185.1_00002	2	{'hypothetical protein': 2}
-GCF_002957185.1_00005	13	{'hypothetical protein': 13}
-GCF_002957185.1_00006	1	{'hypothetical protein': 1}
-GCF_002957545.1_00001	8	{'hypothetical protein': 8}
-GCF_002957545.1_00003	1	{'hypothetical protein': 1}
-GCA_009797615.2_00010	2	{'hypothetical protein': 2}
-GCA_009797615.2_00011	2	{'hypothetical protein': 2}
-GCA_009797615.2_00012	2	{'hypothetical protein': 2}
-GCA_009801405.2_00051	1	{'hypothetical protein': 1}
-GCA_009828395.2_00001	1	{'RNA polymerase sigma factor': 1}
-GCA_009828395.2_00002	1	{'hypothetical protein': 1}
-GCA_009861105.1_00028	2	{'hypothetical protein': 2}
-GCA_012637005.1_00017	2	{'hypothetical protein': 2}
-GCA_012637005.1_00018	1	{'hypothetical protein': 1}
-GCA_012637005.1_00019	1	{'hypothetical protein': 1}
-GCA_012637005.1_00022	1	{'hypothetical protein': 1}
-GCA_012637035.1_00003	1	{'hypothetical protein': 1}
-GCA_012637085.1_00045	1	{'hypothetical protein': 1}
-GCA_012637085.1_00047	1	{'hypothetical protein': 1}
-GCA_012637085.1_00048	1	{'hypothetical protein': 1}
-GCA_012637085.1_00051	1	{'hypothetical protein': 1}
-GCA_012637085.1_00052	1	{'hypothetical protein': 1}
-GCA_012637085.1_00053	1	{'hypothetical protein': 1}
-GCA_012637085.1_00054	1	{'hypothetical protein': 1}
-GCA_012637085.1_00055	1	{'hypothetical protein': 1}
-GCA_013086035.1_00002	3	{'hypothetical protein': 3}
-GCA_013086035.1_00003	1	{'hypothetical protein': 1}
-GCA_013086035.1_00004	1	{'hypothetical protein': 1}
-GCA_013086035.1_00005	1	{'hypothetical protein': 1}
-GCA_013086035.1_00006	1	{'hypothetical protein': 1}
-GCA_013086035.1_00007	3	{'hypothetical protein': 3}
-GCA_013086035.1_00008	5	{'hypothetical protein': 5}
-GCA_013112065.1_00004	1	{'hypothetical protein': 1}
-GCA_013112075.1_00003	6	{'hypothetical protein': 6}
-GCA_013112075.1_00007	20	{'hypothetical protein': 19, 'glycosyltransferase': 1}
-GCA_013112075.1_00008	3	{'hypothetical protein': 3}
-GCA_013112085.1_00001	2	{'hypothetical protein': 2}
-GCA_013112085.1_00051	4	{'hypothetical protein': 4}
-GCA_013112085.1_00052	10	{'hypothetical protein': 9, 'hypotheticla protein': 1}
-GCA_013112085.1_00053	1	{'hypothetical protein': 1}
+GCA_003143435.2_00049	9	{'hypothetical protein': 5, 'SAM-dependent methyltransferase': 4}
+GCA_005145125.1_00040	18	{'hypothetical protein': 17, 'serine-threonine kinase': 1}
+GCA_005280775.1_00002	1	{'hypothetical protein': 1}
+GCA_005892125.1_00003	8	{'hypothetical protein': 8}
+GCA_005892125.1_00006	1	{'hypothetical protein': 1}
+GCA_005892605.1_00005	54	{'hypothetical protein': 53, 'gp0.38': 1}
+GCA_005892785.1_00005	1	{'hypothetical protein': 1}
+GCA_006384715.1_00001	1	{'hypothetical protein': 1}
+GCA_006384715.1_00002	1	{'hypothetical protein': 1}
+GCA_006384715.1_00003	1	{'hypothetical protein': 1}
+GCA_006384715.1_00004	1	{'hypothetical protein': 1}
+GCA_006384715.1_00005	1	{'hypothetical protein': 1}
+GCA_006384715.1_00006	1	{'hypothetical protein': 1}
+GCA_006384715.1_00008	1	{'hypothetical protein': 1}
+GCA_006384715.1_00009	1	{'hypothetical protein': 1}
+GCA_006384715.1_00010	1	{'hypothetical protein': 1}
+GCA_006384715.1_00011	1	{'hypothetical protein': 1}
+GCA_006384715.1_00012	1	{'hypothetical protein': 1}
+GCA_006516715.1_00001	1	{'hypothetical protein': 1}
+GCA_006516715.1_00002	3	{'hypothetical protein': 2, 'Sel1 repeat family protein': 1}
+GCA_006516715.1_00004	1	{'hypothetical protein': 1}
+GCA_006516715.1_00005	1	{'hypothetical protein': 1}
+GCA_006516715.1_00006	2	{'hypothetical protein': 1, 'histone acetyltransferase type B catalytic subunit': 1}
+GCA_006516715.1_00007	2	{'hypothetical protein': 2}
+GCA_006516715.1_00008	2	{'hypothetical protein': 1, 'cor repressor': 1}
+GCA_006516715.1_00009	2	{'hypothetical protein': 1, 'mucin-22 like protein': 1}
+GCA_006516735.1_00001	1	{'hypothetical protein': 1}
+GCA_006516735.1_00002	1	{'hypothetical protein': 1}
+GCA_006516735.1_00003	1	{'hypothetical protein': 1}
+GCA_006516735.1_00004	1	{'hypothetical protein': 1}
+GCA_006516735.1_00005	1	{'hypothetical protein': 1}
+GCA_006516735.1_00006	1	{'hypothetical protein': 1}
+GCA_006516735.1_00007	1	{'hypothetical protein': 1}
 GCA_022544615.1_00003	2	{'hypothetical protein': 2}
-GCA_022544615.1_00004	4	{'hypothetical protein': 4}
-GCA_023078845.1_00008	7	{'hypothetical protein': 7}
 GCA_023078915.1_00001	1	{'hypothetical protein': 1}
 GCA_023078915.1_00002	1	{'hypothetical protein': 1}
 GCA_023078915.1_00003	1	{'hypothetical protein': 1}
 GCA_023078915.1_00004	1	{'hypothetical protein': 1}
 GCA_023078915.1_00005	1	{'hypothetical protein': 1}
-GCA_023078915.1_00006	1	{'hypothetical protein': 1}
+GCA_023078915.1_00006	2	{'hypothetical protein': 2}
 GCA_023078915.1_00007	1	{'hypothetical protein': 1}
-GCA_023078915.1_00008	3	{'hypothetical protein': 3}
+GCA_023078915.1_00008	2	{'hypothetical protein': 2}
 GCA_023078915.1_00009	1	{'hypothetical protein': 1}
 GCA_023078915.1_00010	1	{'hypothetical protein': 1}
 GCA_023078915.1_00011	2	{'hypothetical protein': 2}
 GCA_023078915.1_00013	1	{'hypothetical protein': 1}
 GCA_023078915.1_00014	1	{'hypothetical protein': 1}
-GCF_002957955.1_00001	1	{'hypothetical protein': 1}
-GCF_002957955.1_00002	1	{'hypothetical protein': 1}
-GCF_002958225.1_00002	2	{'hypotheticla protein': 1, 'hypothetical protein': 1}
-GCF_002958225.1_00004	3	{'hypothetical protein': 3}
-GCF_002958225.1_00005	3	{'hypothetical protein': 3}
-GCF_002958225.1_00006	2	{'hypothetical protein': 2}
-GCF_002958455.1_00021	1	{'hypothetical protein': 1}
-GCF_002990805.1_00001	2	{'hypothetical protein': 2}
-GCF_002991165.1_00001	1	{'hypothetical protein': 1}
-GCF_002997865.1_00002	34	{'hypothetical protein': 33, 'RNA polymerase': 1}
-GCF_003093955.1_00001	2	{'hypothetical protein': 2}
-GCF_003093955.1_00002	1	{'hypothetical protein': 1}
-GCF_003093955.1_00005	1	{'hypothetical protein': 1}
-GCF_003093975.1_00001	1	{'hypothetical protein': 1}
-GCF_003093975.1_00003	1	{'hypothetical protein': 1}
-GCF_003093975.1_00005	1	{'GNAT family N-acetyltransferase': 1}
-GCF_003093975.1_00007	2	{'hypothetical protein': 2}
-GCF_003093995.1_00002	2	{'hypothetical protein': 2}
-GCF_003093995.1_00003	17	{'hypothetical protein': 17}
-GCF_003093995.1_00006	1	{'hypothetical protein': 1}
-GCF_003094015.1_00001	1	{'hypothetical protein': 1}
-GCF_003094015.1_00003	8	{'hypothetical protein': 6, 'GNAT family N-acetyltransferase': 1, 'putative acetyltransferase': 1}
-GCF_003094255.1_00003	4	{'hypothetical protein': 4}
-GCF_003094255.1_00004	4	{'hypothetical protein': 4}
-GCF_003094295.1_00001	1	{'hypothetical protein': 1}
-GCF_003094295.1_00004	1	{'serine-threonine kinase': 1}
-GCF_003094295.1_00005	1	{'anti-repressor Ant': 1}
-GCF_003143215.1_00047	2	{'hypothetical protein': 2}
-GCF_003143215.1_00051	2	{'hypothetical protein': 2}
-GCA_009372295.1_00002	1	{'hypothetical protein': 1}
-GCA_009388125.1_00001	11	{'hypothetical protein': 11}
-GCA_009651575.1_00001	1	{'hypothetical protein': 1}
-GCA_009654915.1_00001	1	{'putative integrase': 1}
-GCA_009654915.1_00002	1	{'putative integrase': 1}
-GCA_009654915.1_00003	1	{'hypothetical protein': 1}
-GCA_009654915.1_00004	1	{'hypothetical protein': 1}
-GCA_009654915.1_00005	1	{'hypothetical protein': 1}
-GCA_009654915.1_00006	1	{'putative RNA polymerase': 1}
-GCA_009654915.1_00007	2	{'putative RNA polymerase': 2}
-GCA_009659195.1_00014	1	{'hypothetical protein': 1}
-GCA_009667685.1_00041	1	{'hypothetical protein': 1}
-GCA_009667685.1_00043	1	{'hypothetical protein': 1}
-GCA_009667685.1_00044	3	{'hypothetical protein': 3}
-GCA_009667685.1_00047	1	{'hypothetical protein': 1}
-GCA_009667685.1_00048	1	{'hypothetical protein': 1}
-GCA_009667685.1_00049	17	{'hypothetical protein': 17}
-GCA_009667685.1_00050	1	{'hypothetical protein': 1}
-GCA_009667685.1_00051	1	{'hypothetical protein': 1}
-GCA_009667685.1_00052	1	{'hypothetical protein': 1}
-GCA_009667685.1_00053	1	{'hypothetical protein': 1}
-GCA_009667685.1_00054	1	{'hypothetical protein': 1}
-GCA_009672325.1_00007	144	{'hypothetical protein': 90, 'SAM-dependent methyltransferase': 31, 'S-adenosyl-L-methionine hydrolase': 17, 'gp0.4': 1, 'putative S-adenosyl-L-methionine hydrolase': 2, 'putative immunoglobulin-blocking virulence protein': 1, 'putative adenosyl-L-methionine hydrolase': 1, 'SAM hydrolase / restriction inhibitor': 1}
-GCA_009672325.1_00010	20	{'hypothetical protein': 19, 'serine-threonine kinase': 1}
-GCA_009797585.2_00004	3	{'hypothetical protein': 3}
-GCA_009797585.2_00005	3	{'hypothetical protein': 3}
-GCA_009797585.2_00006	3	{'hypothetical protein': 3}
-GCA_009797585.2_00007	3	{'hypothetical protein': 3}
-GCA_009797585.2_00008	3	{'hypothetical protein': 3}
-GCA_009797585.2_00009	3	{'hypothetical protein': 3}
-GCA_009797585.2_00013	3	{'hypothetical protein': 3}
-GCA_009797615.2_00001	2	{'hypothetical protein': 2}
-GCA_009797615.2_00002	2	{'hypothetical protein': 2}
-GCA_009797615.2_00003	2	{'hypothetical protein': 2}
-GCA_021351865.1_00050	1	{'hypothetical protein': 1}
-GCA_021351865.1_00055	8	{'hypothetical protein': 8}
-GCA_021351865.1_00056	1	{'hypothetical protein': 1}
-GCA_021355615.1_00002	2	{'hypothetical protein': 2}
-GCA_021355615.1_00005	1	{'hypothetical protein': 1}
-GCA_021355615.1_00006	1	{'hypothetical protein': 1}
-GCA_021378495.1_00043	1	{'protein kinase': 1}
-GCA_021378495.1_00047	49	{'hypothetical protein': 45, 'putative 0.6A protein': 1, 'gp0.45': 2, 'putative transmembrane protein': 1}
-GCA_021863795.1_00004	4	{'hypothetical protein': 1, 'S-adenosyl-L-methionine hydrolase': 1, 'SAM-dependent methyltransferase': 2}
-GCA_021863795.1_00008	53	{'hypothetical protein': 47, 'hypotheticla protein': 1, 'late transcription factor VLTF-4': 1, 'endolysin': 1, '6': 1, 'andolysin': 1, 'gp7': 1}
-GCA_021863865.1_00001	1	{'hypothetical protein': 1}
-GCA_021863865.1_00002	1	{'hypothetical protein': 1}
-GCA_021863865.1_00003	1	{'hypothetical protein': 1}
-GCA_021863865.1_00004	1	{'hypothetical protein': 1}
-GCA_021863865.1_00006	1	{'hypothetical protein': 1}
-GCA_021863865.1_00008	1	{'hypothetical protein': 1}
-GCA_021863865.1_00009	8	{'hypothetical protein': 7, 'putative andolysin': 1}
-GCA_021863865.1_00010	1	{'hypothetical protein': 1}
-GCA_021870105.1_00001	3	{'protein kinase': 2, 'Protein kinase 0.7': 1}
-GCA_022211075.1_00004	1	{'hypothetical protein': 1}
-GCA_022213585.1_00041	2	{'hypothetical protein': 2}
-GCA_022213585.1_00042	7	{'hypothetical protein': 7}
-GCA_022213585.1_00045	1	{'hypothetical protein': 1}
-GCA_022213585.1_00046	9	{'hypothetical protein': 8, 'virion structural protein': 1}
-GCA_022213585.1_00048	1	{'hypothetical protein': 1}
-GCA_022401895.1_00043	1	{'hypothetical protein': 1}
-GCA_022401895.1_00045	1	{'Spanin%2C inner membrane subunit': 1}
-GCA_022401895.1_00046	1	{'hypothetical protein': 1}
-GCA_022401895.1_00047	2	{'hypothetical protein': 2}
-GCA_022401895.1_00048	1	{'hypothetical protein': 1}
-GCA_026273205.1_00010	1	{'hypothetical protein': 1}
-GCA_026273205.1_00011	1	{'Terminase%2C large subunit gp19': 1}
-GCA_026273205.1_00046	2	{'hypothetical protein': 2}
-GCA_026432355.2_00004	4	{'hypothetical protein': 4}
-GCA_026723915.1_00006	1	{'hypothetical protein': 1}
-GCA_028389935.1_00002	2	{'hypothetical protein': 2}
-GCA_028389935.1_00006	1	{'hypothetical protein': 1}
-GCA_028897465.1_00001	1	{'hypothetical protein': 1}
-GCA_028897465.1_00002	1	{'hypothetical protein': 1}
-GCA_028897465.1_00003	1	{'hypothetical protein': 1}
-GCA_028897465.1_00004	2	{'transcriptional regulator': 1, 'MarR family transcriptional regulator': 1}
-GCA_029535485.1_00001	27	{'hypothetical protein': 27}
-GCF_003226655.1_00001	4	{'hypothetical protein': 4}
-GCF_003226655.1_00003	1	{'hypothetical protein': 1}
-GCF_003226655.1_00004	1	{'hypothetical protein': 1}
-GCF_003226655.1_00006	2	{'hypothetical protein': 2}
-GCF_003226655.1_00007	1	{'hypothetical protein': 1}
-GCF_003308855.1_00002	3	{'hypothetical protein': 3}
-GCF_003308855.1_00005	12	{'hypothetical protein': 11, 'virion structural protein': 1}
-GCF_003308855.1_00007	13	{'hypothetical protein': 12, 'glycosyltransferase': 1}
-GCF_003308855.1_00009	1	{'hypothetical protein': 1}
-GCF_003308855.1_00010	1	{'anti-repressor Ant': 1}
-GCF_003341035.1_00043	2	{'serine-threonine kinase': 1, 'serine/threonine kinase': 1}
-GCF_003341035.1_00047	2	{'hypothetical protein': 2}
-GCF_003369305.1_00001	1	{'hypothetical protein': 1}
-GCF_003369305.1_00003	1	{'hypothetical protein': 1}
-GCF_003369305.1_00004	1	{'hypothetical protein': 1}
-GCF_003369305.1_00005	1	{'hypothetical protein': 1}
-GCF_003369305.1_00006	1	{'hypothetical protein': 1}
-GCF_003369305.1_00008	1	{'hypothetical protein': 1}
-GCF_003369305.1_00009	1	{'hypothetical protein': 1}
-GCF_003575385.1_00001	4	{'hypothetical protein': 4}
-GCA_013377455.1_00001	21	{'hypothetical protein': 21}
-GCA_013377455.1_00006	34	{'hypothetical protein': 31, 'putative oxidoreductase': 1, 'membrane protein': 1, 'glycosyltransferase': 1}
-GCA_013387635.1_00001	1	{'hypothetical protein': 1}
-GCA_013426615.1_00002	58	{'hypothetical protein': 56, 'gp0.38': 1, 'endonuclease VII': 1}
-GCA_014337605.2_00002	2	{'hypothetical protein': 2}
-GCA_014337605.2_00011	1	{'hypothetical protein': 1}
-GCA_014337625.1_00007	2	{'hypothetical protein': 2}
-GCA_014337625.1_00009	1	{'hypothetical protein': 1}
-GCA_020892805.1_00009	6	{'hypothetical protein': 6}
-GCA_020892805.1_00011	3	{'protein kinase': 1, 'serine-threonine kinase': 1, 'Protein kinase 0.7': 1}
-GCA_021090025.1_00048	1	{'RNA polymerase': 1}
-GCA_021090025.1_00049	1	{'integrase': 1}
-GCA_021090025.1_00050	1	{'hypothetical protein': 1}
-GCA_021090025.1_00051	1	{'hypothetical protein': 1}
-GCA_021090025.1_00052	1	{'hypothetical protein': 1}
-GCA_021090025.1_00053	1	{'hypothetical protein': 1}
-GCA_021090025.1_00054	1	{'hypothetical protein': 1}
-GCA_021090025.1_00055	1	{'hypothetical protein': 1}
-GCA_021090025.1_00056	1	{'hypothetical protein': 1}
-GCA_021090025.1_00057	1	{'hypothetical protein': 1}
-GCA_021090025.1_00058	1	{'hypothetical protein': 1}
+GCF_003575425.1_00004	1	{'hypothetical protein': 1}
+GCF_003575725.1_00002	2	{'hypothetical protein': 2}
+GCF_003601515.1_00003	2	{'hypothetical protein': 2}
+GCF_003601515.1_00006	6	{'hypothetical protein': 6}
+GCF_003991785.1_00020	1	{'hypothetical protein': 1}
+GCF_003991785.1_00021	1	{'hypothetical protein': 1}

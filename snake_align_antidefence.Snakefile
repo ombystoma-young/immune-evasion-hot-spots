@@ -55,9 +55,9 @@ def create_search_string(nums: list) -> str:
 
 
 clusters = ['ocr', 'samase', 'ocr_interest']
-clusters_nums_ocr = [2, 106, 134, 296]
-clusters_nums_ocr_interest = [106]
-clusters_nums_samase = [4, 32, 54, 103, 195, 237, 288, 307, 371, 502, 625]
+clusters_nums_ocr = [2, 99, 124, 259]
+clusters_nums_ocr_interest = [99]
+clusters_nums_samase = [4, 25, 53, 251, 269, 324, 439]
 clu_nums_ocr_str = create_search_string(clusters_nums_ocr)
 clu_nums_ocr_int_str = create_search_string(clusters_nums_ocr_interest)
 clu_nums_samase_str =  create_search_string(clusters_nums_samase)

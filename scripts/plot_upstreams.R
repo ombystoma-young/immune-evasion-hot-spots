@@ -39,6 +39,9 @@ not_in_curated <- s0 %>% filter(! seq_id %in% curated$V1)
 #  'NC_029102.1',
 #  'MZ428229.1')
 # 
+
+
+
 drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.treefile")
 rnaps_tree <- drop.tip(rnaps_tree, drops)
@@ -66,7 +69,7 @@ p <- gggenomes(seqs=s0, genes=g0, feats = f0)  %>%
   scale_fill_discrete("Main cluster product") +  # change fill, genes
   theme(legend.position = 'bottom', axis.text.x = element_text(size=35))  # change font size and legend position
 
-ggsave('pics/upstreams.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) + 
+ggsave('pics/upstreams03.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) + 
                               theme(legend.position = 'none'), 
                             dpi=600,  height = 1.2 * 465, 
                           width = 50, limitsize = FALSE)
@@ -109,5 +112,43 @@ path_ <- paste0('pics/upstreams/', cl_num, '.pdf')
 ggsave(path_, dpi=200,  height = 1.29714286 * length(seqs), width = 20, limitsize = F)
 }
 
-  lapply(c(38, 59, 91, 115, 117, 189, 596, 625),  plot_upstream)
+  # lapply(c( 117, 189, 596, 625),  plot_upstream)
+plot_upstream(107)
 
+
+
+with_ocr_samase <- g0 %>% filter(`cluster_num` %in% c(3, 100, 125, 5, 26, 54, 252, 270, 325, 440)) %>% select(seq_id) %>% unique()
+
+
+
+drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
+rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.treefile")
+rnaps_tree <- drop.tip(rnaps_tree, drops)
+rnaps_tree <- drop.tip(rnaps_tree, with_ocr_samase$seq_id)
+t <- ggtree(rnaps_tree) + geom_tiplab(align=T, size=8) +
+  xlim(0,7) + scale_y_continuous(expand=c(0.01, 0.7, 0.01, 0.7))
+t
+
+flips__ <- g0 %>% group_by(seq_id, strand) %>% 
+  summarise(n()) %>% filter(seq_id != 'KJ183192.1') %>% 
+  pivot_wider(names_from = strand, names_prefix = 'strand_', values_from = `n()`) %>% 
+  ungroup() %>%
+  filter(is.na(`strand_+`) | `strand_-` > `strand_+`) %>% 
+  select(seq_id) %>% as.vector()
+
+p <- gggenomes(seqs=s0, genes=g0, feats = f0)  %>%
+  gggenomes::flip(flips__$seq_id) %>%  # flip sequences
+  gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
+  geom_seq() +  # draw contig/chromosome lines
+  geom_seq_label(aes(label=seq_desc), size=10, nudge_y = -0.22) + # label each sequence by this caption
+  geom_gene(aes(fill=`cluster_main_prod`), intron_shape=0, size=12) +  # add gene arrows
+  #geom_gene(aes(fill=cluster_num), intron_shape=0, size=8) +  # add gene arrows
+  geom_gene_text(aes(label=`cluster_num`), size=10) +  # add gene cluster text
+  #geom_feat(color='red') +  # add TDRs
+  scale_fill_discrete("Main cluster product") +  # change fill, genes
+  theme(legend.position = 'bottom', axis.text.x = element_text(size=35))  # change font size and legend position
+
+ggsave('pics/upstreams03_without_ocr_samase.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) + 
+         theme(legend.position = 'none'), 
+       dpi=600,  height = 1.2 * 280, 
+       width = 55, limitsize = FALSE)
