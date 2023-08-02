@@ -54,18 +54,22 @@ def create_search_string(nums: list) -> str:
     return nums_str
 
 
-clusters = ['ocr', 'samase']
+clusters = ['ocr', 'samase', 'ocr_interest']
 clusters_nums_ocr = [2, 106, 134, 296]
+clusters_nums_ocr_interest = [106]
 clusters_nums_samase = [4, 32, 54, 103, 195, 237, 288, 307, 371, 502, 625]
 clu_nums_ocr_str = create_search_string(clusters_nums_ocr)
+clu_nums_ocr_int_str = create_search_string(clusters_nums_ocr_interest)
 clu_nums_samase_str =  create_search_string(clusters_nums_samase)
-clu_num = {'ocr': clu_nums_ocr_str, 'samase': clu_nums_samase_str}
+clu_num = {'ocr': clu_nums_ocr_str, 'samase': clu_nums_samase_str, 'ocr_interest': clu_nums_ocr_int_str}
 
 
 rule all:
     input:
-        expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters),
-        expand(os.path.join(alignments_dir, 'representatives_mafft_{cluster}.faa'), cluster=clusters)
+        # expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters[:-1]),
+        # expand(os.path.join(alignments_dir, 'representatives_mafft_{cluster}.faa'), cluster=clusters[:-1]),
+        expand(os.path.join(alignments_dir,  'mafft_{cluster}.faa'), cluster=clusters)
+
 
 
 rule select_cluster_representatives:
@@ -92,17 +96,18 @@ rule get_protein_ids:
         """
 
 
-# BLOCK ALIGN RNAPS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
+# BLOCK ALIGN ANTIDEFENCE PROTEINS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
 rule get_cluster_faa:  # here also we add the external sequences,  D. Andersson (2018)
     input:
         faa = os.path.join(upstream_dir, 'all_genomes.faa'),
-        extra = os.path.join(meta_dir, 'additional_samase.faa'),
+        extra_samase = os.path.join(meta_dir, 'additional_samase.faa'),
+        extra_ocr_int = os.path.join(meta_dir, 'additional_ocr_domain.faa'),
         tsv = os.path.join(known_ad_dir, 'protein_ids_{cluster}.tsv')
     output:
         faa = os.path.join(known_ad_dir,  'upsteam_{cluster}.faa')
     shell:
         """
-       python scripts/get_cluster_faa.py {input.faa} {input.tsv} {output} {wildcards.cluster} {input.extra}
+       python scripts/get_cluster_faa.py {input.faa} {input.tsv} {output} {wildcards.cluster} {input.extra_samase} {input.extra_ocr_int}
        """
 
 

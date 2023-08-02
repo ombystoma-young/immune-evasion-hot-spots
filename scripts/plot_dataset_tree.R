@@ -104,10 +104,10 @@ df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
       mutate(have_system = 'Ocr') %>% 
       select(seqid, have_system) %>% unique()
 # ard 256, 382, 488, 583 (1-based)
-df3 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
-  filter(str_detect(attributes, 'cluster_num=255;|cluster_num=381;|cluster_num=487;|cluster_num=582;')) %>% 
-  mutate(have_system = 'ArdA/ArdcN') %>% 
-  select(seqid, have_system) %>% unique()
+# df3 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+#   filter(str_detect(attributes, 'cluster_num=255;|cluster_num=381;|cluster_num=487;|cluster_num=582;')) %>% 
+#   mutate(have_system = 'ArdA/ArdcN') %>% 
+#   select(seqid, have_system) %>% unique()
 # SAMase (1-based):
 samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
 samase <- samase_1_based - 1
@@ -119,12 +119,11 @@ df4 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
 
 df_none <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
   filter(! seqid %in% df2$seqid) %>% 
-  filter(! seqid %in% df3$seqid) %>% 
   filter(! seqid %in% df4$seqid) %>% 
   mutate(have_system = 'No') %>% 
   select(seqid, have_system) %>% unique()
 
-df <- rbind(df2, df3, df4, df_none) %>% 
+df <- rbind(df2, df4, df_none) %>% 
   mutate(have_system = factor(have_system))
 both <- df %>% select(seqid) %>% filter(duplicated(seqid))
 df <- df %>% mutate(have_system = case_when(
@@ -132,7 +131,7 @@ df <- df %>% mutate(have_system = case_when(
                                   .default = have_system)) %>% 
         unique() %>% mutate(have_system = factor(have_system, 
                                                  levels = c('No', 'Ocr', 
-                                                            'SAMase', 'ArdA/ArdcN', 'Both'), 
+                                                            'SAMase', 'Both'), 
                                                  ordered = TRUE))
 
 
@@ -167,19 +166,20 @@ drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1',
            'MZ318361.1', 'MZ318362.1')
 rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.treefile")
 rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
-rnaps_tree_with_drops <- groupOTU(rnaps_tree_with_drops, c('NC_001604.1', 'NC_003298.1'))
+# rnaps_tree_with_drops <- groupOTU(rnaps_tree_with_drops, )
 t <- ggtree(rnaps_tree_with_drops, 
             layout = 'circular',
             branch.length = 'none') +
-  geom_hilight(node=478, fill="purple", alpha=0.3) +
-  geom_tippoint(aes(alpha = group), col = "red") +
-  scale_color_manual(values = c(0,1), aesthetics = "alpha") +
+  #geom_hilight(node=478, fill="purple", alpha=0.3) +
+  geom_point2(aes(subset=(label %in% c('NC_001604.1', 'NC_003298.1'))), shape=23, size=1.5, fill='red') +
+  # geom_tippoint(aes(alpha = group), col = "red") +
+  # scale_color_manual(values = c(0,1), aesthetics = "alpha") +
   theme(legend.position = 'none')
 
-
+t
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
 #             quote = F, sep='\t')
-colors_ <- c('Both'='#440154', 'SAMase'='#fde725', 'ArdA/ArdcN'='#3c4f8a',  'Ocr'='#35b779', 'No'='#ffffff')
+colors_ <- c('Both'='#440154', 'SAMase'='#fde725',   'Ocr'='#35b779', 'No'='#ffffff')
 
 colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
                 'Pseudomonadales'='#83ff52', 
@@ -189,12 +189,12 @@ colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81',
                   'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
 
   table(df1$have_system)
-p1 <- gheatmap(t, df1, offset=0.8, width=.1,
+p1 <- gheatmap(t, df1, offset=0, width=.1,
                colnames_position = 'top',
                custom_column_labels = c(''),  font.size = 1.5,
                colnames_angle=0, colnames_offset_y = 0.25) +
   scale_fill_manual(values=colors_, name="Known",
-                    breaks = c('Both', 'ArdA/ArdcN', 'Ocr', 
+                    breaks = c('Both', 'Ocr', 
                                'SAMase', 'No')) 
 
 p2 <- p1 + new_scale_fill()
@@ -220,6 +220,6 @@ p3 <- gheatmap(p3, df3, offset=11, width=.1,
 # p5 <- gridExtra::tableGrob(data.frame(table(df3$subfamily)))
 
 p3
-ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters.pdf', width=9, height = 9)
+ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters.pdf', width=15, height = 9)
 
 

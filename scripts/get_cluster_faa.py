@@ -7,7 +7,8 @@ def parse_args():
     parser.add_argument('in_list', default=None, nargs='?')
     parser.add_argument('out_faa', default=None, nargs='?')
     parser.add_argument('clu', default=None, nargs='?')
-    parser.add_argument('extra_faa', default=None, nargs='?')
+    parser.add_argument('extra_faa_samase', default=None, nargs='?')
+    parser.add_argument('extra_faa_ocr', default=None, nargs='?')
     return parser.parse_args()
 
 
@@ -56,11 +57,11 @@ if __name__ == '__main__':
     in_tsv = parse_args().in_list
     out_faa_ = parse_args().out_faa
     clu = parse_args().clu
-    extra_faa = parse_args().extra_faa
+    extra_faa_samase = parse_args().extra_faa_samase
+    extra_faa_ocr = parse_args().extra_faa_ocr
 
     protein_ids = read_tsv(in_tsv)
     seqs = read_fa(protein_ids, in_faa)
-    print(len(seqs.keys()))
 
     with open(out_faa_, 'w') as out_faa:
         for chrom in seqs.keys():
@@ -68,7 +69,13 @@ if __name__ == '__main__':
             out_faa.write(f'{seqs[chrom]}\n')
 
     if clu == 'samase':
-        with open(extra_faa, 'r') as in_faa:
+        with open(extra_faa_samase, 'r') as in_faa:
+            with open(out_faa_, 'a') as out_faa:
+                for line in in_faa:
+                    out_faa.write(line)
+
+    elif clu == 'ocr_interest':
+        with open(extra_faa_ocr, 'r') as in_faa:
             with open(out_faa_, 'a') as out_faa:
                 for line in in_faa:
                     out_faa.write(line)
