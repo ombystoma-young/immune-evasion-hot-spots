@@ -96,13 +96,13 @@ rule build_tree_iqtree:
         os.path.join(trees_dir, 'polymerases_all.iqtree.treefile')
     params:
         pref=os.path.join(trees_dir, 'polymerases_all.iqtree'),
-        model='LG+I+R6',
-        bootstrap=100
+        model='MFP',
+        bootstrap=10000
     threads: 10
     conda: 'envs/iqtree2.yml'
     shell:
         """
-        iqtree2 -nt {threads} -m {params.model} -s {input[0]} --prefix {params.pref} # -b {params.bootstrap}
+        iqtree2 -nt AUTO -m {params.model} -s {input[0]} --prefix {params.pref}  -B {params.bootstrap}
         """
 
 
