@@ -108,12 +108,12 @@ p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
 }
 t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) 
 
-path_ <- paste0('pics/upstreams/', cl_num, '.pdf')
-ggsave(path_, dpi=200,  height = 1.29714286 * length(seqs), width = 20, limitsize = F)
+path_ <- paste0('pics/upstreams/', cl_num, '.svg')
+ggsave(path_, dpi=200,  height = 1.29714286 * length(seqs), width = 25, limitsize = F)
 }
 
   # lapply(c( 117, 189, 596, 625),  plot_upstream)
-plot_upstream(107)
+plot_upstream(205)
 
 
 
@@ -152,3 +152,32 @@ ggsave('pics/upstreams03_without_ocr_samase.pdf', t + p %>% pick_by_tree(t) + pl
          theme(legend.position = 'none'), 
        dpi=600,  height = 1.2 * 280, 
        width = 55, limitsize = FALSE)
+
+
+
+
+g0 <- g0 %>% filter(!(seq_id == 'MZ851152.1' & `end` > 35477)) 
+
+
+p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
+  gggenomes::pick_seqs(c('MZ234024.1', 'MT862763.1', 'ON637250.1', 
+                           'ON148527.1', 'ON602765.1', 'MW394389.1', #'OL744215.1',
+                         'NC_047858.1', 'NC_028916.1', 
+                         'MW671054.1', 'MT740748.1', 'MZ851152.1', 'ON604651.1')) %>%   # choose chromosomes (phages)
+  gggenomes::flip('MT862763.1', 'ON602765.1', 'MW671054.1', 'MZ851152.1') %>%  # flip sequences
+  gggenomes::focus(.track_id = genes, .expand = 100, .overhang='drop') + # focus on particular region +- 100 bp
+  geom_seq() +  # draw contig/chromosome lines
+  geom_seq_label(aes(label=paste0(str_split_i(seq_desc, ',', 1), ' (', seq_id, ')')), size=9, nudge_y = -0.5) + # label each sequence by this caption
+  geom_gene(aes(fill=`cluster_main_prod`), intron_shape=0, size=8) +  # add gene arrows
+  geom_gene_text(aes(label=`cluster_num`), size=8, nudge_y=-0.3) +  # add gene cluster text
+  geom_feat(color='red') +  # add TDRs
+  scale_fill_discrete("Main cluster product") +  # change fill, genes
+  theme(legend.position = 'bottom', legend.text = element_text(size=13), axis.text.x = element_text(size=15))  # change font size and legend position
+p
+ggsave('pics/all_cand.svg', p, dpi=600, width = 20, height = 15)
+
+
+
+
+
+

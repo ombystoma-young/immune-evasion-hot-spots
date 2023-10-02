@@ -9,7 +9,9 @@ library(ggnewscale)
 library(stringr)
 library(gridExtra)
 library(stringi)
+library(RColorBrewer)
 
+col_pal <- brewer.pal(n = 8, name = "Dark2")
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
 s0 <- read_seqs("blasted/phages_genomes_concat.fna") %>% select(seq_id,
                                                                 seq_desc)
@@ -110,8 +112,9 @@ df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
 #   mutate(have_system = 'ArdA/ArdcN') %>% 
 #   select(seqid, have_system) %>% unique()
 # SAMase (1-based):
-samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
-samase <- samase_1_based - 1
+# samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
+
+samase <- c(4, 25, 53, 251, 269, 324, 439)
 samase <- paste0('cluster_num=', samase, ';', collapse = '|')
 df4 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
   filter(str_detect(attributes, samase)) %>% 
@@ -165,14 +168,20 @@ table(df3$subfamily) / nrow(df3) * 100 < 2.5
 
 drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1',
            'MZ318361.1', 'MZ318362.1')
-rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.treefile")
+rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.contree")
 rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
+a <- as.integer(rnaps_tree_with_drops$node.label)
+a[is.na(a)] <- 0
+a <- ifelse(a >= 95, intToUtf8(9728), "")
+rnaps_tree_with_drops$node.label <- a
+
 # rnaps_tree_with_drops <- groupOTU(rnaps_tree_with_drops, )
 t <- ggtree(rnaps_tree_with_drops, 
             layout = 'circular',
             branch.length = 'none') +
   #geom_hilight(node=478, fill="purple", alpha=0.3) +
-  geom_point2(aes(subset=(label %in% c('NC_001604.1', 'NC_003298.1'))), shape=23, size=1.5, fill='red') +
+  geom_point2(aes(subset=(label %in% c('NC_001604.1', 'NC_003298.1'))), shape=23, size=2, fill='red') +
+  geom_nodelab(color='firebrick') +
   # geom_tippoint(aes(alpha = group), col = "red") +
   # scale_color_manual(values = c(0,1), aesthetics = "alpha") +
   theme(legend.position = 'none')
@@ -180,14 +189,23 @@ t <- ggtree(rnaps_tree_with_drops,
 t
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
 #             quote = F, sep='\t')
-colors_ <- c('Both'='#440154', 'SAMase'='#fde725',   'Ocr'='#35b779', 'No'='#ffffff')
+# colors_ <- c('Both'='#440154', 'SAMase'='#fde725',   'Ocr'='#35b779', 'No'='#ffffff')
+# 
+# colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
+#                 'Pseudomonadales'='#83ff52', 
+#                 'Enterobacterales'='#440154', 'Other'='gray90')
+# 
+# colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
+#                   'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
 
-colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
-                'Pseudomonadales'='#83ff52', 
-                'Enterobacterales'='#440154', 'Other'='gray90')
+colors_ <- c('Both'=col_pal[6], 'SAMase'=col_pal[5], 'Ocr'=col_pal[7], 'No'='#ffffff')
 
-colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
-                  'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
+colors_bac <- c('Escherichia'=col_pal[4], 'Vibrionales'= col_pal[2], 
+                'Pseudomonadales'=col_pal[1], 
+                'Enterobacterales'=col_pal[3], 'Other'=col_pal[8])
+
+colors_phage <- c('Molineuxvirinae'=col_pal[6], 'Studiervirinae'=col_pal[5], 
+                  'Colwellvirinae'=col_pal[7], 'Other'=col_pal[8])
 
   table(df1$have_system)
 p1 <- gheatmap(t, df1, offset=0, width=.1,
@@ -195,8 +213,8 @@ p1 <- gheatmap(t, df1, offset=0, width=.1,
                custom_column_labels = c(''),  font.size = 1.5,
                colnames_angle=0, colnames_offset_y = 0.25) +
   scale_fill_manual(values=colors_, name="Known",
-                    breaks = c('Both', 'Ocr', 
-                               'SAMase', 'No')) 
+                    breaks = c('Both', 
+                               'SAMase', 'Ocr', 'No')) 
 
 p2 <- p1 + new_scale_fill()
 p2 <- gheatmap(p2, df2, offset=5.5, width=.1,
@@ -221,6 +239,7 @@ p3 <- gheatmap(p3, df3, offset=11, width=.1,
 # p5 <- gridExtra::tableGrob(data.frame(table(df3$subfamily)))
 
 p3
-ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters.pdf', width=15, height = 9)
+ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters_color.svg', width=15, height = 9)
+
 
 

@@ -8,6 +8,9 @@ library(gggenomes)
 library(ggnewscale)
 library(stringr)
 library(gridExtra)
+library(RColorBrewer)
+
+col_pal <- brewer.pal(n = 8, name = "Dark2")
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
 s0 <- read_seqs("blasted/phages_genomes_concat.fna") %>% select(seq_id,
@@ -98,9 +101,13 @@ colnames(s2) <- c('subfamily', 'seqid')
 
 # ocr 3, 100, 125, 260 (1-based)
 ocr <- c(2, 99, 124, 259)
-
+new_clp <- c('GCA_020488535.1_00041',
+  'GCA_017903885.1_00036',
+  'GCF_000903135.1_00004',
+  'GCA_014071185.1_00045',
+  'GCF_002997865.1_00003')
 clu_107 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num  == 99)
+  filter(cluster_num  == 99 | geom_id %in% new_clp)
 clu_135 <- read_feats('results/upstreams_with_clusters.gff') %>%
   filter(cluster_num  == 124)
   
@@ -112,6 +119,12 @@ df2 <- read_feats('results/upstreams_with_clusters.gff') %>%
 colnames(df2) <- c('seqid', 'have_system')
 
 samase <- c(4, 25, 53, 251, 269, 324, 439)
+
+color_branches_df <- gggenomes::read_feats('results/upstreams_with_clusters.gff') %>% 
+  filter(cluster_num %in% samase) %>% select(seq_id, cluster_num)
+color_branches_df <- color_branches_df %>% 
+  mutate(cluster_num = as.numeric(cluster_num) + 1) %>%  # 1-based
+  mutate(cluster_num = factor(cluster_num))
 
 clu_308 <- read_feats('results/upstreams_with_clusters.gff') %>%
   filter(cluster_num == 269) %>%
@@ -191,14 +204,17 @@ samase_tree$node.label <- a
 
 t <- ggtree(samase_tree,
             branch.length = 'none',
-            layout = 'circular'
-            ) +
+            layout = 'circular',
+            aes(color = cluster_num)
+            )  %<+% color_branches_df +
   geom_point2(aes(subset=(label == 'NC_003298.1')), shape=23, size=2.5, fill='red') +
-  geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
-  geom_point2(aes(subset=(label %in% clu_308$seq_id)), shape=21, size=2.5, fill='#721f81') +
+  #geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
+  #geom_point2(aes(subset=(label %in% clu_308$seq_id)), shape=21, size=2.5, fill='#721f81') +
   # geom_hilight(node=478, fill="purple", alpha=0.3) +
-  # geom_nodelab() +
-  geom_nodelab(color='firebrick') 
+  geom_nodelab(color='firebrick')  + 
+  #geom_tiplab(show.legend = FALSE, align = TRUE) +
+  scale_color_brewer(na.value = "black", palette = 'Dark2')
+
   # geom_tiplab(offset = 0.5, align=T, size=2) +
   # scale_color_manual(values = c(0,1), aesthetics = "alpha") 
   
@@ -206,14 +222,24 @@ t
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
 #             quote = F, sep='\t')
 
-colors_ <- c('Both'='#440154', 'SAMase'='#fde725', 'Ocr'='#35b779', 'No'='#ffffff')
+# colors_ <- c('Both'='#440154', 'SAMase'='#fde725', 'Ocr'='#35b779', 'No'='#ffffff')
+# 
+# colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
+#                 'Pseudomonadales'='#83ff52', 
+#                 'Enterobacterales'='#440154', 'Other'='gray90')
+# 
+# colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
+#                   'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
 
-colors_bac <- c('Escherichia'='#31aff5', 'Vibrionales'= '#faba39', 
-                'Pseudomonadales'='#83ff52', 
-                'Enterobacterales'='#440154', 'Other'='gray90')
+colors_ <- c('Both'=col_pal[1], 'SAMase'=col_pal[2], 'Ocr'=col_pal[3], 'No'='#ffffff')
 
-colors_phage <- c('Molineuxvirinae'='#f1605d', 'Studiervirinae'='#721f81', 
-                  'Colwellvirinae'='#fcfdbf', 'Other'='gray90')
+colors_bac <- c('Escherichia'=col_pal[4], 'Vibrionales'= col_pal[2], 
+                'Pseudomonadales'=col_pal[1], 
+                'Enterobacterales'=col_pal[3], 'Other'=col_pal[8])
+
+colors_phage <- c('Molineuxvirinae'=col_pal[6], 'Studiervirinae'=col_pal[5], 
+                  'Colwellvirinae'=col_pal[7], 'Other'=col_pal[8])
+
 
 # p1 <- gheatmap(t, df1, offset=0.8, width=.1,
 #                colnames_position = 'top',
@@ -241,7 +267,7 @@ p3 <- gheatmap(p3, df3,  offset=6, width=.15,
                     breaks = c('Studiervirinae', 'Molineuxvirinae', 
                                'Colwellvirinae',  'Other')) + ggtitle('SAMase')
 p3
-ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters.svg', width=15, height = 9)
+ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters_color.svg', width=15, height = 9)
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 ocr_tree <- read.tree("antidefence_trees/trees/ocr_bootstrap.iqtree.contree")
@@ -259,10 +285,10 @@ t <- ggtree(ocr_tree,
   geom_point2(aes(subset=(label %in% clu_135$seq_id)), shape=21, size=2.5, fill='#fde725') +
   # geom_hilight(node=478, fill="purple", alpha=0.3) +
   # geom_tippoint(aes(alpha = group), col = "red") +
-  # scale_color_manual(values = c(0,1), aesthetics = "alpha") +
+   scale_color_manual(values = c(0,1), aesthetics = "alpha") +
  # geom_tiplab(offset = 0.22, align=T, size=2)+
-  geom_nodelab(color='firebrick') 
-  #theme(legend.position = 'none')# + geom_tiplab2(size=2, hjust=8)
+ # geom_nodelab(color='firebrick') 
+  theme(legend.position = 'none')# + geom_tiplab2(size=2, hjust=8)
 t
 
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
@@ -295,6 +321,6 @@ p4 <- gheatmap(p4, df3, offset=4.5, width=.15,
                                'Colwellvirinae',  'Other')) + ggtitle('Ocr')
 
 p4 
-ggsave('pics/ocr_tree_dataset_order_virus_subfamily_all_clusters.svg', width=15, height = 9)
+ggsave('pics/ocr_tree_dataset_order_virus_subfamily_all_clusters_color.svg', width=15, height = 9)
 
 p3 + p4
