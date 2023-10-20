@@ -11,7 +11,7 @@ cluster_prot_dir = 'protein_clusterization'
 cluster_prot_by_dataset_dir = os.path.join(cluster_prot_dir, 'datasets')
 pharokka_db_dir = os.path.join('metadata', 'pharokka_db')
 intergenic_dir = 'promoters_search'
-intergenic_regions_db = os.path.join(intergenic_dir,'ig_blast_db')
+intergenic_regions_db = os.path.join(intergenic_dir, 'ig_blast_db')
 results_dir = 'results'
 datasets_dir = 'define_datasets'
 known_ad_dir = 'antidefence_trees'
@@ -57,7 +57,7 @@ def create_search_string(nums: list) -> str:
 clusters = ['ocr', 'samase', 'ocr_interest']
 clusters_nums_ocr = [2, 99, 124, 259]
 clusters_nums_ocr_interest = [99]
-clusters_nums_samase = [4, 25, 53, 251, 269, 324, 439]
+clusters_nums_samase = [4, 25, 48, 53, 251, 269, 324, 439]
 clu_nums_ocr_str = create_search_string(clusters_nums_ocr)
 clu_nums_ocr_int_str = create_search_string(clusters_nums_ocr_interest)
 clu_nums_samase_str =  create_search_string(clusters_nums_samase)
@@ -66,9 +66,9 @@ clu_num = {'ocr': clu_nums_ocr_str, 'samase': clu_nums_samase_str, 'ocr_interest
 
 rule all:
     input:
-        # expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = clusters[:-1]),
+        expand(os.path.join(trees_dir, '{cluster}_bootstrap_model_selection.iqtree.treefile'), cluster = ['samase']),
         # expand(os.path.join(alignments_dir, 'representatives_mafft_{cluster}.faa'), cluster=clusters[:-1]),
-        expand(os.path.join(alignments_dir,  'mafft_{cluster}.faa'), cluster=clusters)
+        expand(os.path.join(alignments_trimmed_dir, 'trimmed_{cluster}.mafft.faa'), cluster=clusters)
 
 
 
