@@ -118,7 +118,7 @@ df2 <- read_feats('results/upstreams_with_clusters.gff') %>%
   select(seq_id, have_system) %>% unique()
 colnames(df2) <- c('seqid', 'have_system')
 
-samase <- c(4, 25, 53, 251, 269, 324, 439)
+samase <- c(4, 25, 48, 53, 251, 269, 324, 439)
 
 color_branches_df <- gggenomes::read_feats('results/upstreams_with_clusters.gff') %>% 
   filter(cluster_num %in% samase) %>% select(seq_id, cluster_num)
@@ -194,7 +194,7 @@ table(df3[, 1]) / nrow(df3) * 100 < 2.5
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 drops <- c('Svi3-7', 'Svi3-3', 'ORF1')
-samase_tree <- read.tree("antidefence_trees/trees/samase_bootstrap.iqtree.contree")
+samase_tree <- read.tree("antidefence_trees/trees/samase_bootstrap_model_selection.iqtree.contree")
 samase_tree <- drop.tip(samase_tree, drops)
 samase_tree <- groupOTU(samase_tree, c('NC_003298.1'))
 a <- as.integer(samase_tree$node.label)
@@ -205,14 +205,14 @@ samase_tree$node.label <- a
 t <- ggtree(samase_tree,
             branch.length = 'none',
             layout = 'circular',
-            aes(color = cluster_num)
+            aes(color = cluster_num, label = cluster_num)
             )  %<+% color_branches_df +
   geom_point2(aes(subset=(label == 'NC_003298.1')), shape=23, size=2.5, fill='red') +
   #geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
   #geom_point2(aes(subset=(label %in% clu_308$seq_id)), shape=21, size=2.5, fill='#721f81') +
   # geom_hilight(node=478, fill="purple", alpha=0.3) +
   geom_nodelab(color='firebrick')  + 
-  #geom_tiplab(show.legend = FALSE, align = TRUE) +
+ # geom_tiplab(show.legend = FALSE, align = TRUE) +
   scale_color_brewer(na.value = "black", palette = 'Dark2')
 
   # geom_tiplab(offset = 0.5, align=T, size=2) +
@@ -270,7 +270,7 @@ p3
 ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters_color.svg', width=15, height = 9)
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
-ocr_tree <- read.tree("antidefence_trees/trees/ocr_bootstrap.iqtree.contree")
+ocr_tree <- read.tree("antidefence_trees/trees/ocr_bootstrap_model_selection.iqtree.contree")
 # ocr_tree <- groupOTU(ocr_tree, c('NC_001604.1'))
 a <- as.integer(ocr_tree$node.label)
 a[is.na(a)] <- 0
@@ -287,7 +287,7 @@ t <- ggtree(ocr_tree,
   # geom_tippoint(aes(alpha = group), col = "red") +
    scale_color_manual(values = c(0,1), aesthetics = "alpha") +
  # geom_tiplab(offset = 0.22, align=T, size=2)+
- # geom_nodelab(color='firebrick') 
+ geom_nodelab(color='firebrick') +
   theme(legend.position = 'none')# + geom_tiplab2(size=2, hjust=8)
 t
 
