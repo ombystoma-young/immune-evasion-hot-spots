@@ -1,0 +1,5 @@
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - phanotate=1.5.1=h0dbaff4_1
