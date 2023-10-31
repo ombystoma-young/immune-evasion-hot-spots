@@ -1,0 +1,50 @@
+# DEFINE
+# PARAMETERS
+# annotation
+prefilter_ann: -1  # after PHANOTATE
+maxthreads: 10
+genomes_type: 'refseq'
+filter_strand: True
+maxram: 25G
+maxmem: 80G
+# filtering genomes
+manual_choice_genomes: False
+# if manual choise is True, specify path to file with genome IDs
+manual_choice_path: 'metadata/genomes_after_curation.txt'
+min_tdr_len: 99
+min_tdr_de: 0.3
+masking_threshold: -3
+max_dist_to_pol_tdr: 10000
+max_dist_to_pol_inter: 5000
+# DIRS
+genomes_source: 'data/genomes'
+phrog_db: '~/Tools/databases/phrogs_v_4'
+
+# OUTPUT DIRS
+# snake_annotate_genomes:
+annotation_dir: 'data/annotation'
+annotation_dir_nucl: 'data/annotation/cds'
+annotation_dir_prot: 'data/annotation/prot'
+annotation_dir_table: 'data/annotation/coords'
+
+mmseqs_db: 'data/mmseqs_dbs'
+prot_db_dir: 'data/mmseqs_dbs/whole_proteome_db'
+prot_clu_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_db'
+prot_clu_reprs_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_reprs_db'
+mmseqs_temp: 'mmseqs_temp'
+
+domains_dir: 'data/domains'
+domains_tables_dir: 'data/domains/tables'
+
+repeats_dir: 'data/tdrs'
+repeats_per_genome_dir: 'data/tdrs/per_genome'
+
+intergenic_dir: 'data/intergenics'
+
+upstreams_dir: 'data/upstreams'
+
+# DEFAULT
+scripts: 'scripts'
+meta: 'metadata'
+envs: 'envs'
+pics: 'pics'
