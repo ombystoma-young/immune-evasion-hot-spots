@@ -14,8 +14,13 @@ manual_choice_path: 'metadata/genomes_after_curation.txt'
 min_tdr_len: 99
 min_tdr_de: 0.3
 masking_threshold: -3
+max_genome_len: 65000
 max_dist_to_pol_tdr: 10000
 max_dist_to_pol_inter: 5000
+min_dist_to_pol_inter: 1000
+min_intergenic_len: 500
+max_intergenic_len: 3000  # means long other-strand region -> wrong organization
+max_dist_from_pol: 10000
 # DIRS
 genomes_source: 'data/genomes'
 phrog_db: '~/Tools/databases/phrogs_v_4'

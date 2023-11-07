@@ -1,42 +1,45 @@
-import os
+import argparse
+from Bio.SeqIO.FastaIO import SimpleFastaParser
 
 
-def read_jsonl(path: str) -> list:
-    entries = []
-    with open(path, 'r') as jsonl:
-        for line in jsonl:
-            entry = line.strip()[1:-1].split(',')
-            entry_dict = {el.split(':')[0]: el.split(':')[1] for el in entry}
-            entries.append(entry_dict)
-    return entries
+def parse_args():
+    parser = argparse.ArgumentParser(description='Part of "snake_filter_early" pipeline. '
+                                                 'Finds length of nucleotide sequences and write them to .bed file: '
+                                                 'chrm \t 1 \t length')
+    parser.add_argument('-f', '--fna', default=None, type=str, nargs='?',
+                        help='path to fasta')
+    parser.add_argument('-b', '--bed', default=None, type=str, nargs='?',
+                        help='path to output bed')
+    return parser.parse_args()
 
 
-def get_chr_length_couples(entries: list) -> list:
-    chr_lengths = []
-    for entry in entries:
-        if '"refseqAccession"' in entry.keys():
-            chrm = entry['"refseqAccession"']
-        else:
-            chrm = entry['"genbankAccession"']
-        length = entry['"length"']
-        chr_len = (chrm, length)
-        chr_lengths.append(chr_len)
-    return chr_lengths
+def get_chr_length_couples(in_path: str) -> list:
+    """
+    reads fasta file into dict {seq_id: sequence}
+    :param in_path: (str) path to fasta file to read
+    :return: (list) of tuples (seq_id, seq_len)
+    """
+    sequences = []
+    with open(in_path, 'rt') as fasta:
+        for record in SimpleFastaParser(fasta):
+            seq_id = record[0].split()[0]
+            seq_len = len(record[1])
+            sequences.append((seq_id, seq_len))
+    return sequences
 
 
 def write_bed(couples_list: list, bed_name: str) -> None:
-    with open(bed_name, 'w') as bed_file:
+    with open(bed_name, 'wt') as bed_file:
         for couple in couples_list:
-            chrm = couple[0][1:-1]
+            chrm = couple[0]
             length = couple[1]
-            line = "\t".join([chrm, str(0), length])
+            line = "\t".join([chrm, str(0), str(length)])
             bed_file.write(line)
             bed_file.write('\n')
 
 
 if __name__ == '__main__':
-    in_jsonl = os.path.join('promoters_search', 'all_sequence_report.jsonl')
-    out_bed = os.path.join('promoters_search', 'chromosome_lengths.bed')
-    e = read_jsonl(in_jsonl)
-    couples = get_chr_length_couples(e)
+    in_fasta = parse_args().fna
+    out_bed = parse_args().bed
+    couples = get_chr_length_couples(in_fasta)
     write_bed(couples_list=couples, bed_name=out_bed)

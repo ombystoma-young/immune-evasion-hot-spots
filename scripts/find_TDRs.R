@@ -1,17 +1,26 @@
+if (!requireNamespace("gggenomes", quietly = TRUE))
+    devtools::install_github("thackl/gggenomes")
+
 library(tidyverse)
 library(gggenomes, verbose = T)
 library(dplyr)
-args <- commandArgs(TRUE)
+library(ggpubr)
+
+args <- commandArgs(trailingOnly=TRUE)
 
 
-in_df_path <- 'minimap2_out/all_phages.paf'
-tdrs_tsv <- 'minimap2_out/TDRs_all.tsv'
-figure_name <- 'pics/hist_length_TDRs.png'
-mp_l_threshold <- 99
-de_threshold <- 0.3
+in_df_path <- args[1]
+tdrs_tsv <- args[2]
+figure_name <- args[3]
+mp_l_threshold <- as.numeric(args[4])
+de_threshold <- as.numeric(args[5])
 
-# print(mp_l_threshold)
-# print(de_threshold)
+print('The following arguments passed:')
+print(in_df_path)
+print(tdrs_tsv)
+print(figure_name)
+print(mp_l_threshold)
+print(de_threshold)
 
 tdrs_paf <- read_paf(in_df_path)
 tdrs_paf <- tdrs_paf %>%
@@ -24,7 +33,7 @@ a <- tdrs_paf %>% mutate(state_100 = (100<=map_length)) %>%
   mutate(state_300 = (300>=map_length)) %>% 
   mutate(state = state_100*state_300) %>% 
   ggplot() +
-  geom_histogram(aes(y=..density.., x = map_length), fill='white', color='black') +
+  geom_histogram(aes(y=after_stat(density), x = map_length), fill='white', color='black') +
   ylab('Density') +
   xlab('TDR length') + 
   theme_minimal()
@@ -38,13 +47,12 @@ tdrs_paf <- tdrs_paf %>% dplyr::select(seq_id, start, end, strand, start2, end2,
 
 
 b <-  tdrs_paf %>%  ggplot(aes(map_length)) +
-  geom_histogram(aes(y=..density..), color='black', fill='white') +
+  geom_histogram(aes(y=after_stat(density)), color='black', fill='white') +
   ylab('Density') +
     xlab('TDR length') + 
   theme_minimal()
 
-library(ggpubr)
-c <- ggarrange(a, b, ncol=1, nrow=2)
+c <- ggarrange(a, b, ncol=1, nrow=2, labels=c('Full scale', 'Zoom on'))
 
-write.table(tdrs_paf, tdrs_tsv, sep='\t', row.names = FALSE, quote = FALSE)
+write.table(tdrs_paf, tdrs_tsv, sep='\t', row.names = FALSE, col.names = FALSE, quote = FALSE)
 ggsave(filename=figure_name, plot=c, dpi=300, width=12, height=8)

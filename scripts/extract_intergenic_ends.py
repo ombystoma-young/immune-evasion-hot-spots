@@ -1,5 +1,27 @@
-import os
+import argparse
 from collections import defaultdict
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Part of "snake_filter_early" pipeline. '
+                                                 'Find lengths of intergenic regions, '
+                                                 'taking into account circular genomes')
+    parser.add_argument('-i', '--input', default=None, type=str, nargs='?',
+                        help='path to input bed with intergenic regions cooridnates')
+    parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
+                        help='path to output tsv with lengths')
+    parser.add_argument('-l', '--lengths', default=None, type=str, nargs='?',
+                        help='path to bed file with end eqaul to length of chromosome')
+    return parser.parse_args()
+
+
+def read_chrm_lengths(path_chr_length: str) -> dict:
+    chrm_lengths = {}
+    with open(path_chr_length, 'rt') as chr_len_file:
+        for line in chr_len_file:
+            chrm, _, length = line.strip().split('\t')
+            chrm_lengths[chrm] = int(length)
+    return chrm_lengths
 
 
 def read_bed(path_bed: str) -> dict:
@@ -14,35 +36,33 @@ def read_bed(path_bed: str) -> dict:
     return intergenics
 
 
-def calculate_length(start: int, end: int):
-    return end - start
+def is_intergenics_split_by_termini(first_start: int, last_end: int, chrm_len: int):
+    if first_start == 0 and last_end == chrm_len:
+        return True
+    else:
+        return False
 
 
-def calculate_lengths(intergenics: dict) -> dict:
+def calculate_lengths(intergenics: dict, chrm_lengths: dict) -> dict:
     intergenic_with_lengths = defaultdict(list)
-    for_deletion = set()
     for chrom in intergenics.keys():
         for intergenic in intergenics[chrom]:
             start = intergenic[0]
             end = intergenic[1]
-            length = calculate_length(start, end)
+            length = end - start
             intergenic_with_lengths[chrom].append((start, end, length))
-        if intergenics[chrom][0][0] == 0:
-            if len(intergenics[chrom]) == 1:
-                for_deletion.add(chrom)
-            else:
-                intergenic_with_lengths[chrom].pop(0)
-                intergenic_with_lengths[chrom].pop(-1)
-                start_left = intergenics[chrom][0][0]
-                end_left = intergenics[chrom][0][1]
-                start_right = intergenics[chrom][-1][0]
-                end_right = intergenics[chrom][-1][1]
-                length_left = calculate_length(start_left, end_left)
-                length_right = calculate_length(start_right, end_right)
-                length = length_left + length_right
-                intergenic_with_lengths[chrom].append((start_right, end_left, length))
-    for defective_genome in for_deletion:
-        intergenic_with_lengths.pop(defective_genome)
+        # check if the one big intergenic is split by termini
+        first_start = intergenics[chrom][0][0]
+        last_end = intergenics[chrom][-1][1]
+        chrm_len = chrm_lengths[chrom]
+        if is_intergenics_split_by_termini(first_start, last_end, chrm_len):
+            # if so, unite two intergenic regions into one big
+            intergenic_with_lengths[chrom].pop(0)  # remove the first intergenic
+            intergenic_with_lengths[chrom].pop(-1)  # remove the last intergenic
+            start_first, end_first = intergenics[chrom][0]
+            start_last, end_last = intergenics[chrom][-1]
+            length = end_first - start_first + end_last - start_last
+            intergenic_with_lengths[chrom].append((start_last, end_first, length))
     return intergenic_with_lengths
 
 
@@ -59,8 +79,11 @@ def write_table(intergen_with_length: dict, path_out: str) -> None:
 
 
 if __name__ == '__main__':
-    in_file = os.path.join('promoters_search', 'all_intergenic.bed')
-    out_file = os.path.join('promoters_search', 'all_intergenic_with_length.tsv')
+    in_file = parse_args().input
+    out_file = parse_args().output
+    lengths_file = parse_args().lengths
+
+    chrm_lengths = read_chrm_lengths(lengths_file)
     intergens = read_bed(in_file)
-    intergens_with_length = calculate_lengths(intergens)
+    intergens_with_length = calculate_lengths(intergens, chrm_lengths)
     write_table(intergens_with_length, out_file)
