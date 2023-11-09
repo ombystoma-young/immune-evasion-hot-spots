@@ -21,6 +21,9 @@ min_dist_to_pol_inter: 1000
 min_intergenic_len: 500
 max_intergenic_len: 3000  # means long other-strand region -> wrong organization
 max_dist_from_pol: 10000
+clu_min_seq_id: 0.3
+clu_min_cov: 0.7
+
 # DIRS
 genomes_source: 'data/genomes'
 phrog_db: '~/Tools/databases/phrogs_v_4'
@@ -37,6 +40,9 @@ prot_db_dir: 'data/mmseqs_dbs/whole_proteome_db'
 prot_clu_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_db'
 prot_clu_reprs_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_reprs_db'
 mmseqs_temp: 'mmseqs_temp'
+early_prot_db_dir:  'data/mmseqs_dbs/early_proteome_db'
+early_clu_db_dir:  'data/mmseqs_dbs/early_clu_proteome_db'
+early_clu_reprs_db_dir: 'data/mmseqs_dbs/early_clu_reprs_db'
 
 domains_dir: 'data/domains'
 domains_tables_dir: 'data/domains/tables'
