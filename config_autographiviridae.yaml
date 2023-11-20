@@ -25,6 +25,7 @@ clu_min_seq_id: 0.3
 clu_min_cov: 0.7
 min_seq_msa: 3
 hhsearch_eval_thres: 0.00005
+haircut_score_cl1: 0.5
 hmmer_eval_thres: 0.0005
 # DIRS
 genomes_source: 'data/genomes'
@@ -76,3 +77,4 @@ scripts: 'scripts'
 meta: 'metadata'
 envs: 'envs'
 pics: 'pics'
+cl1_path: '~/Tools/cluster_one-1.0.jar'
