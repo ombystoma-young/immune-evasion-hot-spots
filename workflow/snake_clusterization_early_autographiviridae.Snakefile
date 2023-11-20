@@ -54,8 +54,6 @@ rule create_prot_mmseq_db:
         os.path.join(config['upstreams_dir'], 'early.faa')
     output:
         os.path.join(config['early_prot_db_dir'], 'early_proteins')
-    # conda:
-    #     os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs createdb {input} {output} 
@@ -66,8 +64,6 @@ rule cluster_prot:
         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
     output:
         clu = os.path.join(config['early_clu_db_dir'], 'early_proteins_clu')
-    # conda:
-    #     os.path.join(config['envs'], 'mmseq2.yml')
     params:
             maxram = config['maxram'],
             tmp = config['mmseqs_temp'],
@@ -88,8 +84,6 @@ rule get_prot_clusters_tsv:
         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
     output:
         tsv = os.path.join(config['early_clu_db_dir'], 'early_proteins_clu.tsv')
-    # conda:
-    #     os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs createtsv {input.db} {input.db} {input.clu} {output.tsv}
@@ -101,8 +95,6 @@ rule create_clu_reprs_subdb:
         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
     output:
         db = os.path.join(config['early_clu_reprs_db_dir'], 'early_clu_reprs')
-    # conda:
-    #     os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs createsubdb {input.clu} {input.db} {output}
@@ -114,8 +106,6 @@ rule get_upstream_clusters_faa:
         db = os.path.join(config['early_clu_reprs_db_dir'], 'early_clu_reprs')
     output:
         faa = os.path.join(config['early_clu_db_dir'], 'early_proteins_clu.faa')
-    # conda:
-    #     os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs convert2fasta {input.db} {output.faa}
@@ -142,8 +132,6 @@ rule create_msa_filtered:
     params:
         minseqs = config['min_seq_msa']
     threads: config['maxthreads']
-    # conda:
-        # os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs result2msa {input.db} {input.db} {input.db_clu} {output.msa} \
@@ -170,8 +158,7 @@ rule build_ffindex:
     conda:
         os.path.join(config['envs'], 'hhsuite.yml')
     params:
-            in_dir = os.path.join(config['early_msa_unpacked_db_dir'], ''),
-            # pref = os.path.join(config['early_hhsuite_db_dir'], 'msa_msa.ff')
+            in_dir = os.path.join(config['early_msa_unpacked_db_dir'], '')
     threads: 1
     shell:
         """
@@ -262,8 +249,6 @@ rule create_msa:
     output:
         msa = os.path.join(config['early_clu_msa_dir'], 'msa.faDB')
     threads: config['maxthreads']
-    # conda:
-        # os.path.join(config['envs'], 'mmseq2.yml')
     shell:
         """
         mmseqs result2msa {input.db} {input.db} {input.db_clu} {output.msa} \
@@ -302,34 +287,10 @@ rule run_hhsearch:
 
 rule concat_search_results:
     input:
-        get_profiles_names,
-        # tsv = expand(os.path.join(config['early_clans_info_dir'], "{sample}.tsv"), sample=SMP2)
+        get_profiles_names
     output:
         os.path.join(config['early_clans_concat_dir'], 'early_clans_info.tsv')
     shell:
         """
         cat {input} > {output}
         """
-
-
-"""
-mmseqs result2msa data/mmseqs_dbs/early_proteome_db/early_proteins data/mmseqs_dbs/early_proteome_db/early_proteins data/mmseqs_dbs/early_clu_proteome_db/early_proteins_clu data/mmseqs_dbs/early_msa_db/msa --msa-format-mode 3
-mmseqs unpackdb data/mmseqs_dbs/early_msa_db/msa data/mmseqs_dbs/early_msa_db/msa_unpacked --unpack-name-mode 1
-cd data/mmseqs_dbs/early_msa_db/msa_unpacked
-mkdir ../hhdb
-ffindex_build -s ../hhdb/msa_msa.ff{data,index} .
-cd ../hhdb
-ffindex_apply msa_msa.ff{data,index} -i msa_a3m.ffindex -d msa_a3m.ffdata -- hhconsensus -M 50 -maxres 65535 -i stdin -oa3m stdout -v 0
-rm msa_msa.ff{data,index}
-#mv msa_a3m_wo_ss.ffdata msa_a3m.ffdata
-#mv msa_a3m_wo_ss.ffindex msa_a3m.ffindex 
-ffindex_apply msa_a3m.ff{data,index} -i msa_hhm.ffindex -d msa_hhm.ffdata -- hhmake -i stdin -o stdout -v 0
-cstranslate -f -x 0.3 -c 4 -I a3m -i msa_a3m -o msa_cs219
-sort -k3 -n -r msa_cs219.ffindex | cut -f1 > sorting.dat
- ffindex_order sorting.dat msa_hhm.ff{data,index} msa_hhm_ordered.ff{data,index}
- mv msa_hhm_ordered.ffindex msa_hhm.ffindex
- mv msa_hhm_ordered.ffdata msa_hhm.ffdata
- ffindex_order sorting.dat msa_a3m.ff{data,index} msa_a3m_ordered.ff{data,index}
- mv msa_a3m_ordered.ffindex msa_a3m.ffindex
- mv msa_a3m_ordered.ffdata msa_a3m.ffdata
-"""
