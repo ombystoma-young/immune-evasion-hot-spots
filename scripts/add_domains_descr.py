@@ -91,7 +91,7 @@ def add_annotation(table: pd.DataFrame, annotation: pd.DataFrame, db_type: str) 
     table_with_ann = table_with_ann[TARGET_SELECT_COLS[db_type]]
     if db_type == 'phrog':
         table_with_ann = (table_with_ann.groupby(TARGET_GROUP_COLS[db_type])
-                          .agg(lambda x: ','.join([str(i) for i in list(x)])))
+                          .agg(lambda x: ','.join([str(i) for i in set(x)])))
     else:
         table_with_ann = (table_with_ann.groupby(TARGET_GROUP_COLS[db_type])
                           .agg(lambda x: ','.join([str(i) for i in list(x)])))
