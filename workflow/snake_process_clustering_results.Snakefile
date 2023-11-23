@@ -7,7 +7,9 @@ rule all:
     input:
         os.path.join(config['early_clans_concat_dir'], 'early_clans_edgelist.tsv'),
         os.path.join(config['early_clans_concat_dir'], 'clu2clans_parsed.tsv'),
-        os.path.join(config['early_clans_concat_dir'],"clusters_description.tsv")
+        os.path.join(config['early_clans_concat_dir'],"clusters_description.tsv"),
+        os.path.join(config['early_clans_concat_dir'],"res_table_long.tsv"),
+        os.path.join(config['early_clans_concat_dir'],"res_table.tsv")
 
 # EXTRACT CLANS INFO
 ## parse similarity
@@ -74,4 +76,24 @@ rule extract_clusters_info:
     shell:
         """
         python {params.script} -i {params.in_dir} -o {output}
+        """
+
+rule add_proteins_info:
+    input:
+        clu_descr = os.path.join(config['early_clans_concat_dir'], "clusters_description.tsv"),
+        phrogs = os.path.join(config['domains_tables_dir'], "early_proteins_phrogs_with_descr.tsv"),
+        pfam = os.path.join(config['domains_tables_dir'], "pfam_early.tsv"),
+        apis = os.path.join(config['domains_tables_dir'], "apis_whole_with_descr.tsv"),
+        phys_char = os.path.join(config['upstreams_dir'], "early_physical_char.tsv"),
+        clans = os.path.join(config['early_clans_concat_dir'],'clu2clans_parsed.tsv')
+    output:
+        res_tab_long = os.path.join(config['early_clans_concat_dir'], "res_table_long.tsv"),
+        res_tab = os.path.join(config['early_clans_concat_dir'], "res_table.tsv")
+    params:
+        script = os.path.join(config['scripts'], 'unite_protein_info_to_clusters.py')
+    shell:
+        """
+        python {params.script} --clu {input.clu_descr} --phrogs {input.phrogs} --pfam {input.pfam} \
+        --apis {input.apis} --phys {input.phys_char} --clans {input.clans} \
+        --output {output.res_tab} --long {output.res_tab_long}
         """
