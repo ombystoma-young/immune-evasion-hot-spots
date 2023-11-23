@@ -12,28 +12,17 @@ rule all:
         os.path.join(config['early_clans_concat_dir'],"res_table.tsv")
 
 # EXTRACT CLANS INFO
-## parse similarity
-rule reformat_hhsearch_res:
-    input:
-        os.path.join(config['early_clans_concat_dir'], 'early_clans_info.tsv')
-    output:
-        os.path.join(config['early_clans_concat_dir'], 'early_clans_narrow.tsv')
-    shell:
-        """
-        cat {input}  | sed 's/cl-//' | sed 's/|Representative=//' | cut -f 1,2,3,11 > {output}
-        """
-
 rule create_edgelist:
     input:
-        os.path.join(config['early_clans_concat_dir'], 'early_clans_narrow.tsv')
+        os.path.join(config['early_clans_concat_dir'], 'early_clans_info_hhr.tsv')
     output:
         os.path.join(config['early_clans_concat_dir'], 'early_clans_edgelist.tsv')
     params:
         script = os.path.join(config['scripts'], 'create_edgelist_protein_clusters.py'),
-        eval_thres = config['hhsearch_eval_thres']
+        prob_thres = config['hhsearch_prob_thres']
     shell:
         """
-        python {params.script} -i {input} -o {output} -e {params.eval_thres}
+        python {params.script} -i {input} -o {output} -p {params.prob_thres} 
         """
 
 ## cluster clusters to clans
