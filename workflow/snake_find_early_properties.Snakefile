@@ -11,37 +11,37 @@ rule all:
         os.path.join(config['upstreams_dir'],"early_physical_char.tsv")
 
 # FIND DOMAINS IN EARLY GENES (for all, not only representatives of clusters)
-# rule search_phrog:
-#     input:
-#         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
-#     output:
-#         search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs')
-#     params:
-#             phrog_db = os.path.join(config['phrog_db'], 'phrogs_mmseqs_db', 'phrogs_profile_db'),
-#             temp_dir = os.path.join(config['mmseqs_temp'], 'tmp_phrog'),
-#             maxmem = config['maxmem'],
-#             maxram = config['maxram']
-#     threads: config['maxthreads']
-#     shell:
-#         """
-#         mmseqs search \
-#         --split-memory-limit {params.maxram} --disk-space-limit {params.maxmem} --threads {threads} \
-#         -s 7 \
-#         {params.phrog_db} {input} {output.search} {params.temp_dir}
-#         """
-#
-# rule write_results:
-#     input:
-#         search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs'),
-#         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
-#     output:
-#         os.path.join(config['domains_tables_dir'], "early_proteins_phrogs.tsv")
-#     params:
-#             phrog_db = os.path.join(config['phrog_db'],  'phrogs_mmseqs_db', 'phrogs_profile_db')
-#     shell:
-#         """
-#         mmseqs createtsv {params.phrog_db} {input.db} {input.search} {output}
-#         """
+rule search_phrog:
+    input:
+        db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
+    output:
+        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs')
+    params:
+            phrog_db = os.path.join(config['phrog_db'], 'phrogs_mmseqs_db', 'phrogs_profile_db'),
+            temp_dir = os.path.join(config['mmseqs_temp'], 'tmp_phrog'),
+            maxmem = config['maxmem'],
+            maxram = config['maxram']
+    threads: config['maxthreads']
+    shell:
+        """
+        mmseqs search \
+        --split-memory-limit {params.maxram} --disk-space-limit {params.maxmem} --threads {threads} \
+        -s 7 \
+        {params.phrog_db} {input} {output.search} {params.temp_dir}
+        """
+
+rule write_results:
+    input:
+        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs'),
+        db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
+    output:
+        os.path.join(config['domains_tables_dir'], "early_proteins_phrogs.tsv")
+    params:
+            phrog_db = os.path.join(config['phrog_db'],  'phrogs_mmseqs_db', 'phrogs_profile_db')
+    shell:
+        """
+        mmseqs createtsv {params.phrog_db} {input.db} {input.search} {output}
+        """
 
 rule add_descr_phrogs:
     input:

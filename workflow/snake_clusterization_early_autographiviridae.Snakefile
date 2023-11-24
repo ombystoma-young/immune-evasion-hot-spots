@@ -26,19 +26,25 @@ def get_msa_clu_db_names(wildcards):
     return expand(os.path.join(ck_output, "{SAMPLE}"), SAMPLE=SMP)
 
 
-def get_hhr_file_names(wildcards):
+def get_msa_clu_names(wildcards):
     ck_output = checkpoints.unpack_msa.get(**wildcards).output[0]
     SMP2, = glob_wildcards(os.path.join(ck_output, "{sample}"))
     SMP2.remove('.snakemake_timestamp')
-    return expand(os.path.join(config['early_clans_info_dir'], 'converted_from_hhr_{SAMPLE}.tsv'), SAMPLE=SMP2)
+    return expand(os.path.join(ck_output, "{SAMPLE}"), SAMPLE=SMP2)
+
+def get_profiles_names(wildcards):
+    ck_output = checkpoints.unpack_msa.get(**wildcards).output[0]
+    SMP2, = glob_wildcards(os.path.join(ck_output, "{sample}"))
+    SMP2.remove('.snakemake_timestamp')
+    return expand(os.path.join(config['early_clans_info_dir'], "{SAMPLE}.tsv"), SAMPLE=SMP2)
 
 
 rule all:
     input:
         os.path.join(config['early_clu_db_dir'], 'early_proteins_clu.faa'),
         os.path.join(config['early_clu_db_dir'], 'early_proteins_clu.tsv'),
-        # get_profiles_names,
-        os.path.join(config['early_clans_concat_dir'], 'early_clans_info_hhr.tsv')
+        get_profiles_names,
+        os.path.join(config['early_clans_concat_dir'], 'early_clans_info.tsv')
 
 
 
@@ -262,6 +268,7 @@ checkpoint unpack_msa:
 
 rule run_hhsearch:
     input:
+        get_msa_clu_names,
         db = expand(os.path.join(config['early_hhsuite_db_dir'],'msa_{type_}.ffdata'),
                type_=['hhm', 'cs219', 'a3m']),
         a3m = os.path.join(config['early_msa_unpacked_dir'], "{sample}")
@@ -278,24 +285,12 @@ rule run_hhsearch:
         hhsearch -cpu {threads} -i {input.a3m} -d {params.db} -o {output.hhr} -blasttab {output.tab}
         """
 
-rule parse_hhr_results:
+rule concat_search_results:
     input:
-        hhr = os.path.join(config['early_clans_info_dir'], '{sample}.hhr')
+        get_profiles_names
     output:
-        tsv = os.path.join(config['early_clans_info_dir'], 'converted_from_hhr_{sample}.tsv')
-    params:
-        script = os.path.join(config['scripts'], 'parse_hhr.py')
+        os.path.join(config['early_clans_concat_dir'], 'early_clans_info.tsv')
     shell:
         """
-        python {params.script} -i {input} -o {output}
-        """
-
-rule concat_hhr_results:
-    input:
-        get_hhr_file_names
-    output:
-        os.path.join(config['early_clans_concat_dir'],'early_clans_info_hhr.tsv')
-    shell:
-        """
-        cat {input} | grep -v "Query_start" > {output}
+        cat {input} > {output}
         """
