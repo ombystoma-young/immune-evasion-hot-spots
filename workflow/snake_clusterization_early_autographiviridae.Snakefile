@@ -268,7 +268,7 @@ checkpoint unpack_msa:
 
 rule run_hhsearch:
     input:
-        get_msa_clu_names,
+        # get_msa_clu_names,
         db = expand(os.path.join(config['early_hhsuite_db_dir'],'msa_{type_}.ffdata'),
                type_=['hhm', 'cs219', 'a3m']),
         a3m = os.path.join(config['early_msa_unpacked_dir'], "{sample}")

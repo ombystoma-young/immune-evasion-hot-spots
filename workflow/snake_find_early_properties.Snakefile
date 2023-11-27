@@ -5,7 +5,7 @@ configfile: 'config_autographiviridae.yaml'
 
 rule all:
     input:
-        os.path.join(config['domains_tables_dir'],"early_proteins_phrogs_with_descr.tsv"),
+        os.path.join(config['domains_tables_dir'], "early_proteins_phrogs_with_descr.tsv"),
         os.path.join(config['domains_tables_dir'],"pfam_early.tsv"),
         os.path.join(config['domains_tables_dir'], "apis_whole_with_descr.tsv"),
         os.path.join(config['upstreams_dir'],"early_physical_char.tsv")

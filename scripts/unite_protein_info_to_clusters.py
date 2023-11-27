@@ -188,8 +188,9 @@ def group_by_clu(source_agg_df: pd.DataFrame) -> pd.DataFrame:
     grouped_agg_sorted.index = np.arange(1, len(grouped_agg_sorted) + 1)
     grouped_agg_sorted.reset_index(inplace=True)
     grouped_agg_sorted = grouped_agg_sorted.rename(columns={'clu': 'old_clu', 'index': 'clu'})
+    grouped_agg_sorted['old_clu'] = grouped_agg_sorted['old_clu'].apply(lambda x: f'clu_{x}')
     grouped_agg_sorted['new_clan'] = grouped_agg_sorted.apply(
-        lambda x: x['clan'] if x['clan'] is not np.nan else f'clan_{x["clu"] + 66}', axis=1)
+        lambda x: x['clan'] if x['clan'] is not np.nan else f'clan_00{x["clu"]}', axis=1)
     return grouped_agg_sorted
 
 
