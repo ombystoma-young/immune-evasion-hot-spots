@@ -6,7 +6,7 @@ library(tidyverse)
 # rnaps_gff <- 'data/annotation/concatenated_rnaps_only.gff'
 # lengths_bed <- 'data/intergenics/chromosome_lengths.bed'
 # 
-# max.dist.tdr <- 10000
+# max.dist.tdr <- 4000
 # max.dist.inter <- 5000
 # min.dist.inter <- 1000
 # max.gen <- 65000 # k
@@ -144,6 +144,9 @@ too_long_intergenic <- rnap_igs_join %>%
 # save best TDRs and intergenics
 tdr_save <- rnap_tdr_join %>% 
   filter(r.tdr == 1) %>%
+  filter(dist.tdr < max.dist.tdr) %>% 
+  filter(dist.tdr > (min.dist.inter + (end.tdr - start.tdr))) %>% 
+  filter(! seq_id %in% too_long_genome) %>% 
   select(seq_id, start.tdr, end.tdr, dist.tdr, start2.tdr, end2.tdr)
 
 write.table(tdr_save, output.tdrs, sep='\t',col.names = F, row.names = F, quote = F)

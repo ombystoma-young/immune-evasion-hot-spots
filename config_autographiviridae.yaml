@@ -15,12 +15,12 @@ min_tdr_len: 99
 min_tdr_de: 0.3
 masking_threshold: -3
 max_genome_len: 65000
-max_dist_to_pol_tdr: 10000
+max_dist_to_pol_tdr: 5000
 max_dist_to_pol_inter: 5000
 min_dist_to_pol_inter: 1000
 min_intergenic_len: 500
 max_intergenic_len: 3000  # means long other-strand region -> wrong organization
-max_dist_from_pol: 10000
+max_dist_from_pol: 5000
 clu_min_seq_id: 0.3
 clu_min_cov: 0.7
 min_seq_msa: 3
@@ -78,3 +78,4 @@ meta: 'metadata'
 envs: 'envs'
 pics: 'pics'
 cl1_path: '~/Tools/cluster_one-1.0.jar'
+# TODO: ADD dN/dS for host-takeover, anti-defense proteins, rnaps and somethings???
