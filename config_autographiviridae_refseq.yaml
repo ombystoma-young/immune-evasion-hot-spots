@@ -1,0 +1,81 @@
+# DEFINE
+# PARAMETERS
+# annotation
+prefilter_ann: -1  # after PHANOTATE
+maxthreads: 10
+genomes_type: 'refseq'
+filter_strand: True
+maxram: 25G
+maxmem: 80G
+# filtering genomes
+manual_choice_genomes: True
+# if manual choise is True, specify path to file with genome IDs
+manual_choice_path: 'metadata/genomes_after_curation.txt'
+min_tdr_len: 99
+min_tdr_de: 0.3
+masking_threshold: -3
+max_genome_len: 65000
+max_dist_to_pol_tdr: 5000
+max_dist_to_pol_inter: 5000
+min_dist_to_pol_inter: 1000
+min_intergenic_len: 500
+max_intergenic_len: 3000  # means long other-strand region -> wrong organization
+max_dist_from_pol: 5000
+clu_min_seq_id: 0.3
+clu_min_cov: 0.7
+min_seq_msa: 3
+hhsearch_eval_thres: 0.00005
+haircut_score_cl1: 0.4
+hmmer_eval_thres: 0.0005
+# DIRS
+genomes_source: 'data_autographiviridae_refseq/genomes'
+phrog_db: '~/Tools/databases/phrogs_v_4'
+phrog_desc: '~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv'
+pfam_path: '~/Tools/databases/pfam_21_11_15/Pfam-A.hmm'
+dbapis_path:  '~/Tools/databases/dbAPIS.hmm'
+dbapis_desc:  '~/Tools/databases/dbAPIS_info.tsv'
+# OUTPUT DIRS
+# snake_annotate_genomes:
+annotation_dir: 'data_autographiviridae_refseq/annotation'
+annotation_dir_nucl: 'data_autographiviridae_refseq/annotation/cds'
+annotation_dir_prot: 'data_autographiviridae_refseq/annotation/prot'
+annotation_dir_table: 'data_autographiviridae_refseq/annotation/coords'
+
+mmseqs_db: 'data_autographiviridae_refseq/mmseqs_dbs'
+mmseqs_temp: 'mmseqs_temp'
+
+prot_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/whole_proteome_db'
+prot_clu_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/whole_proteome_clu_db'
+prot_clu_reprs_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/whole_proteome_clu_reprs_db'
+
+early_prot_db_dir:  'data_autographiviridae_refseq/mmseqs_dbs/early_proteome_db'
+early_clu_db_dir:  'data_autographiviridae_refseq/mmseqs_dbs/early_clu_proteome_db'
+early_clu_reprs_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_clu_reprs_db'
+early_clu_msa_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_msa_db'
+early_msa_unpacked_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_msa_db/msa_unpacked'
+early_hhsuite_db_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_msa_db/hhdb'
+
+early_clu_msa_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_msa'
+early_msa_unpacked_dir: 'data_autographiviridae_refseq/mmseqs_dbs/early_msa/msa_unpacked'
+
+early_clans_info_dir: 'data_autographiviridae_refseq/clans_pre_info'
+early_clans_concat_dir: 'data_autographiviridae_refseq/clans_info'
+
+domains_dir: 'data_autographiviridae_refseq/domains'
+domains_tables_dir: 'data_autographiviridae_refseq/domains/tables'
+early_prot_dom_db_dir:  'data_autographiviridae_refseq/mmseqs_dbs/early_proteome_domains_db'
+
+repeats_dir: 'data_autographiviridae_refseq/tdrs'
+repeats_per_genome_dir: 'data_autographiviridae_refseq/tdrs/per_genome'
+
+intergenic_dir: 'data_autographiviridae_refseq/intergenics'
+
+upstreams_dir: 'data_autographiviridae_refseq/upstreams'
+
+# DEFAULT
+scripts: 'scripts'
+meta: 'metadata'
+envs: 'envs'
+pics: 'pics'
+cl1_path: '~/Tools/cluster_one-1.0.jar'
+# TODO: ADD dN/dS for host-takeover, anti-defense proteins, rnaps and somethings???
