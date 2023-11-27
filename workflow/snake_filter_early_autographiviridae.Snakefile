@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae.yaml'
+configfile: 'config_autographiviridae_refseq.yaml'
 
 os.makedirs(config['repeats_dir'], exist_ok=True)
 os.makedirs(config['repeats_per_genome_dir'], exist_ok=True)
