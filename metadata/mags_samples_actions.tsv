@@ -1,0 +1,5 @@
+#sample	#path	#actions
+MGV	mgv_votu_representatives.fna	annotate
+HuVirDB	HuVirDB-1.0.fasta.gz	check_v
+GDV	GVDv1_viralpopulations.fna	check_v
+CHVD	CHVD_clustered_mash99_v1.fasta	annotate
