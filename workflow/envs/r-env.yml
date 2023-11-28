@@ -1,0 +1,8 @@
+channels:
+ - conda-forge
+dependencies:
+ - r-base=4.2.3
+ - r-tidyverse
+ - r-devtools
+ - r-ggpubr
+
