@@ -31,8 +31,8 @@ haircut_score_cl1: 0.4
 hmmer_eval_thres: 0.0005
 # DIRS
 samples_description: 'mags_samples_actions.tsv'
-#db_fastas: '/home/niagara/Storage/Marfa/O_Kotovskaya/dbs/meta_vir'
-db_fastas: '/home/oxalotl/Tools/databases/meta_vir'
+db_fastas: '/home/niagara/Storage/Marfa/O_Kotovskaya/dbs/meta_vir'
+#db_fastas: '/home/oxalotl/Tools/databases/meta_vir'
 
 phrog_db: '~/Tools/databases/phrogs_v_4'
 phrog_desc: '~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv'
