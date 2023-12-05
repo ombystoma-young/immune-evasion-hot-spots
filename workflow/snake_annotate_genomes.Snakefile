@@ -194,10 +194,11 @@ rule faa_to_gff:
         os.path.join(config['envs'], 'biopython.yml')
     params:
         script = os.path.join(config['scripts'], 'create_proteome_gff.py'),
-        s = strandness
+        s = strandness,
+        mode = 'phrog'
     shell:
         """
-        python {params.script} -f {input.faa} -t {input.domains_tsv} -c {input.clu_parents_tsv} -o {output} {params.s}
+        python {params.script} -f {input.faa} -t {input.domains_tsv} -c {input.clu_parents_tsv} -m {params.mode} -o {output} {params.s}
         """
 
 rule unite_gff:

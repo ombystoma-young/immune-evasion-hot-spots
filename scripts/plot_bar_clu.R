@@ -4,8 +4,27 @@ library(RColorBrewer)
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
 
-df <- read.delim('results/clusters - add tblast and union based on phrOG, no missed.tsv',
-                 sep='\t', na.strings = '')
+df <- read.delim('data_autographiviridae_refseq/clans_info/res_table.tsv',
+                 sep='\t')
+
+df <- df %>%  group_by(new_clan) %>% 
+        summarize(N = sum(num_reprs),
+                  prelims = paste0(prelim_info, collapse = " "),
+                  annotations = paste0(annotations, collapse = ' '))
+summary_df <- df %>% filter(N > 7
+                            ) %>% arrange(-N) 
+summary_df <- cbind(summary_df, ord = 1:nrow(summary_df))
+summary_df %>% 
+        ggplot(aes(x=ord, y=N)) +
+        geom_bar(stat='identity') +
+    # scale_fill_viridis_d(na.value='#666666') +
+  scale_x_continuous(labels = paste(summary_df$new_clan, summary_df$prelims, sep=':'), 
+                     breaks=summary_df$ord) +
+  theme(axis.text.x = element_text(angle = 315, vjust = 0.3, hjust=0.05),
+        axis.title.x = element_blank(),
+        legend.position = 'none')
+
+# -----
 df_na <- df %>% dplyr::select(clupar, counts, Product, In.place.of) %>% 
                 filter(is.na(Product)) %>% 
                 mutate(Product = 'Hypo') %>%
