@@ -1,5 +1,6 @@
 import os
 import argparse
+import gzip
 
 from Bio import SeqIO
 
@@ -22,31 +23,6 @@ def parse_args():
                         help='path to output directory, which will contains files with ".fna" extension'
                              ' and filenames corresponding to output contig names')
     return parser.parse_args()
-
-
-# def batch_iterator_no_filtering(iterator, batch_size: int, minlen: int):
-#     """Returns lists of length batch_size.
-#
-#     This can be used on any iterator, for example to batch up
-#     SeqRecord objects from Bio.SeqIO.parse(...), or to batch
-#     Alignment objects from Bio.Align.parse(...), or simply
-#     lines from a file handle.
-#
-#     This is a generator function, and it returns lists of the
-#     entries from the supplied iterator.  Each list will have
-#     batch_size entries, although the final list may be shorter.
-#     SOURCE: https://biopython.org/wiki/Split_large_file
-#     """
-#     batch = []
-#     for entry in iterator:
-#         print(entry)
-#         if len(entry) > minlen:
-#             batch.append(entry)
-#             if len(batch) == batch_size:
-#                 yield batch
-#                 batch = []
-#     if batch:
-#         yield batch
 
 
 def batch_iterator(iterator, batch_size: int, minlen: int, filtering: list | None):
@@ -94,12 +70,17 @@ def split_fasta(in_path: str, num_batches: int, min_len: int, out_dir: str, filt
     :return: None
     """
     os.makedirs(out_dir, exist_ok=True)
-    batch_size = len(list(SeqIO.parse(in_path, "fasta"))) // (num_batches - 1)
-    record_iter = SeqIO.parse(in_path, "fasta")
-    for i, batch in enumerate(batch_iterator(record_iter, batch_size, min_len, filtering)):
-        out_path = os.path.join(out_dir, f"batch_{i + 1}.fna")
-        with open(out_path, "wt") as output_handle:
-            SeqIO.write(batch, output_handle, "fasta")
+    pref = os.path.basename(in_path)[:3]
+    print(in_path.endswith('gz'))
+    opener = gzip.open if in_path.endswith('gz') else open
+    with opener(in_path, 'rt') as handle:
+        batch_size = len(list(SeqIO.parse(handle, "fasta"))) // (num_batches - 1)
+        handle.seek(0)
+        record_iter = SeqIO.parse(handle, "fasta")
+        for i, batch in enumerate(batch_iterator(record_iter, batch_size, min_len, filtering)):
+            out_path = os.path.join(out_dir, f"{pref}_batch_{i + 1}.fna")
+            with open(out_path, "wt") as output_handle:
+                SeqIO.write(batch, output_handle, "fasta")
 
 
 def read_txt_file(in_path: str | None) -> list | None:

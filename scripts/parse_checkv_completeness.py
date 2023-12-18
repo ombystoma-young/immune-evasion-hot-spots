@@ -29,7 +29,7 @@ def read_table(in_path: str) -> pd.DataFrame:
 
 
 def parse_completeness_one_contig(row: pd.DataFrame, thres: float) -> bool:
-    if row['aai_configence'] == 'low':
+    if row['aai_confidence'] == 'low':
         score = row['hmm_completeness_lower']
     else:
         score = row['aai_completeness']
@@ -50,4 +50,4 @@ if __name__ == '__main__':
     out_path = parse_args().output
     df = read_table(in_path)
     df = extract_complete_contigs(df, thres)
-    df['contig_id'].to_csv(out_path)
+    df['contig_id'].to_csv(out_path, header=False, index=False)

@@ -66,38 +66,50 @@ rule all:
         os.path.join(config['annotation_dir'], 'concatenated.faa'),
         os.path.join(config['annotation_dir'], 'meta_rnaps.gff')
 
-rule setup_db:
+# rule setup_db:
+#     output:
+#         os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
+#     params:
+#         config['checkv_db_path']
+#     conda:
+#         os.path.join(config['envs'], 'checkv.yml')
+#     shell:
+#         """
+#         checkv download_database {params}
+#         """
+
+# rule check_completeness:
+#     input:
+#         sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}'),
+#         db = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
+#     output:
+#         os.path.join(config['checkv_output'], '{db}', 'completeness.tsv')
+#     conda:
+#         os.path.join(config['envs'], 'checkv.yml')
+#     params:
+#         out_path = os.path.join(config['checkv_output'], '{db}'),
+#         db_path = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5')
+#     threads: config['maxthreads']
+#     shell:
+#         """
+#         checkv completeness {input.sequences} {params.out_path} -t {threads} -d {params.db_path}
+#         """
+
+rule parse_len:
+    input:
+        os.path.join(config['checkv_output'], '{db}', 'completeness.tsv')
     output:
-        os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
-    params:
-        config['checkv_db_path']
-    conda:
-        os.path.join(config['envs'], 'checkv.yml')
+        os.path.join(config['checkv_output'], '{db}', 'completeness_filtered.tsv')
+    params: minlen = config['min_contig_len']
     shell:
         """
-        checkv download_database {params}
+        cat {input} | awk -v FS="\t" -v OFS="\t" -v l={params.minlen} '$2>l {{print $0}}' > {output}
         """
 
-rule check_completeness:
-    input:
-        sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}'),
-        db = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
-    output:
-        os.path.join(config['checkv_output'], '{db}', 'completeness.tsv')
-    conda:
-        os.path.join(config['envs'], 'checkv.yml')
-    params:
-        out_path = os.path.join(config['checkv_output'], '{db}'),
-        db_path = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5')
-    threads: config['maxthreads']
-    shell:
-        """
-        checkv completeness {input.sequences} {params.out_path} -t {threads} -d {params.db_path}
-        """
 
 rule parse_completeness_results:
     input:
-        os.path.join(config['checkv_output'], '{db}', 'completeness.tsv')
+        os.path.join(config['checkv_output'], '{db}', 'completeness_filtered.tsv')
     output:
         os.path.join(config['checkv_output'], '{db}', 'complete_contigs.txt')
     params:
@@ -121,6 +133,7 @@ rule split_fasta:
         if actions[wc.db] == 'check_v' else '',
         batches = config['maxthreads'],
         minlen = config['min_contig_len']
+    conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
         python {params.script} -i {input.sequences} -o {output} {params.filter} -b {params.batches} -l {params.minlen}
