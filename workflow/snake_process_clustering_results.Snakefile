@@ -10,7 +10,8 @@ rule all:
         os.path.join(config['early_clans_concat_dir'], 'clans_wide_for_sankey.tsv'),
         os.path.join(config['early_clans_concat_dir'], "clusters_description.tsv"),
         os.path.join(config['early_clans_concat_dir'], "res_table_long.tsv"),
-        os.path.join(config['early_clans_concat_dir'], "res_table.tsv")
+        os.path.join(config['early_clans_concat_dir'], "res_table.tsv"),
+        os.path.join(config['upstreams_dir'],'early_with_clusters_phrogs.gff')
 
 # EXTRACT CLANS INFO
 ## parse similarity
@@ -100,4 +101,40 @@ rule add_proteins_info:
         python {params.script} --clu {input.clu_descr} --phrogs {input.phrogs} --pfam {input.pfam} \
         --apis {input.apis} --phys {input.phys_char} --clans {input.clans} \
         --output {output.res_tab} --long {output.res_tab_long} 
+        """
+
+rule select_cols_for_gff_formation:
+    input:
+        os.path.join(config['early_clans_concat_dir'], "res_table_long.tsv")
+    output:
+        os.path.join(config['early_clans_concat_dir'], "prot2famclan.tsv")
+    shell:
+        """
+        cat {input} | awk -v FS="\t" -v OFS="\t" '{{print $2,$3,$1,$16}}' > {output} 
+        """
+
+rule add_clusters_to_gff:
+    input:
+        tsv = os.path.join(config['early_clans_concat_dir'], "prot2famclan.tsv"),
+        gff =  os.path.join(config['upstreams_dir'], 'early.gff')
+    output:
+        gff = os.path.join(config['upstreams_dir'], 'early_with_clusters.gff')
+    params:
+        script = os.path.join(config['scripts'], 'add_clusters_info_to_gff.py')
+    shell:
+        """
+        python {params.script} -i {input.gff} -c {input.tsv} -o {output.gff} 
+        """
+
+rule add_phrogs_descr_to_gff:
+    input:
+        tsv = config['phrog_desc'],
+        gff = os.path.join(config['upstreams_dir'], 'early_with_clusters.gff')
+    output:
+        gff = os.path.join(config['upstreams_dir'], 'early_with_clusters_phrogs.gff')
+    params:
+        script = os.path.join(config['scripts'], 'add_phrog_description_to_gff.py')
+    shell:
+        """
+        python {params.script} -i {input.gff} -p {input.tsv} -o {output.gff} 
         """

@@ -30,7 +30,7 @@ hmmer_eval_thres: 0.0005
 # DIRS
 genomes_source: 'data_autographiviridae_refseq/genomes'
 phrog_db: '~/Tools/databases/phrogs_v_4'
-phrog_desc: '~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv'
+phrog_desc: '/home/oxalotl/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv'
 pfam_path: '~/Tools/databases/pfam_21_11_15/Pfam-A.hmm'
 dbapis_path:  '~/Tools/databases/dbAPIS.hmm'
 dbapis_desc:  '~/Tools/databases/dbAPIS_info.tsv'
