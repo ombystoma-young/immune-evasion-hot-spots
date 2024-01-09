@@ -1,15 +1,16 @@
 import os
 
-configfile: 'config_autographiviridae.yaml'
+configfile: 'config_autographiviridae_refseq.yaml'
 
 
 rule all:
     input:
         os.path.join(config['early_clans_concat_dir'], 'early_clans_edgelist.tsv'),
         os.path.join(config['early_clans_concat_dir'], 'clu2clans_parsed.tsv'),
-        os.path.join(config['early_clans_concat_dir'],"clusters_description.tsv"),
-        os.path.join(config['early_clans_concat_dir'],"res_table_long.tsv"),
-        os.path.join(config['early_clans_concat_dir'],"res_table.tsv")
+        os.path.join(config['early_clans_concat_dir'], 'clans_wide_for_sankey.tsv'),
+        os.path.join(config['early_clans_concat_dir'], "clusters_description.tsv"),
+        os.path.join(config['early_clans_concat_dir'], "res_table_long.tsv"),
+        os.path.join(config['early_clans_concat_dir'], "res_table.tsv")
 
 # EXTRACT CLANS INFO
 ## parse similarity
@@ -55,14 +56,17 @@ rule cluster_clusters_to_clans:
 
 rule parse_cl1_res:
     input:
-        os.path.join(config['early_clans_concat_dir'], 'clans.tsv')
+        i=os.path.join(config['early_clans_concat_dir'], 'clans.tsv'),
+        d=os.path.join(config['early_clans_concat_dir'], 'clusters_description.tsv'),
+        e=os.path.join(config['early_clans_concat_dir'], 'early_clans_edgelist.tsv'),
     output:
-        os.path.join(config['early_clans_concat_dir'],'clu2clans_parsed.tsv')
+        w=os.path.join(config['early_clans_concat_dir'], 'clu2clans_parsed.tsv'),
+        l=os.path.join(config['early_clans_concat_dir'], 'clans_wide_for_sankey.tsv')
     params:
         script = os.path.join(config['scripts'], 'reformat_clu1_res.py')
     shell:
         """
-        python {params.script} -i {input} -o {output}
+        python {params.script} -i {input.i} -d {input.d} -e {input.e} -o {output.l} -w {output.w} 
         """
 
 rule extract_clusters_info:
@@ -95,5 +99,5 @@ rule add_proteins_info:
         """
         python {params.script} --clu {input.clu_descr} --phrogs {input.phrogs} --pfam {input.pfam} \
         --apis {input.apis} --phys {input.phys_char} --clans {input.clans} \
-        --output {output.res_tab} --long {output.res_tab_long}
+        --output {output.res_tab} --long {output.res_tab_long} 
         """

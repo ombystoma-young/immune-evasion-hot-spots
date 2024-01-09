@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae.yaml'
+configfile: 'config_autographiviridae_refseq.yaml'
 # MMSeqs2 version: 9b9383a3f0c7a99fef37640823174368f74c1487,
 # since at conda available version there is a bug
 os.makedirs(config['early_prot_db_dir'], exist_ok=True)

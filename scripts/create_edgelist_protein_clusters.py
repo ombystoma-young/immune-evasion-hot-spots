@@ -20,9 +20,11 @@ def create_edgelist(source_df: pd.DataFrame, evalthres: float) -> pd.DataFrame:
     df['edge_pair'] = df.apply(lambda row: frozenset((row['query'], row['target'])), axis=1)
     df = df.drop(columns=['query', 'target'])
     df_min_eval = df.groupby(by=['edge_pair']).min()
-    df_min_eval_filt = df_min_eval.query('`eval` < @evalthres')
-    df_min_eval_filt['weight'] = - np.log10(df_min_eval_filt['eval'])
-    df_min_eval_filt.replace(np.inf, 116, inplace=True)
+    df_min_eval['similarity'] = 1 / (1 + df_min_eval['eval'])
+    df_min_eval_filt = df_min_eval.query('`similarity` >= 1 / (1 + @evalthres)')
+    df_min_eval_filt['weight'] = ((df_min_eval_filt['similarity'] - df_min_eval_filt['similarity'].min()) /
+                                  (df_min_eval_filt['similarity'].max() - df_min_eval_filt['similarity'].min()))
+    df_min_eval_filt = df_min_eval_filt.query('`weight` != 0')
     df_min_eval_filt = df_min_eval_filt.reset_index()
     df_min_eval_filt = df_min_eval_filt[df_min_eval_filt['edge_pair'].map(len) != 1]
     df_min_eval_filt['edge_pair_list'] = df_min_eval_filt['edge_pair'].apply(lambda x: list(x))
