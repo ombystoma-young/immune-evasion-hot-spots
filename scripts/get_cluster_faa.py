@@ -1,4 +1,5 @@
 import argparse
+from Bio.SeqIO.FastaIO import SimpleFastaParser
 
 
 def parse_args():
@@ -6,76 +7,54 @@ def parse_args():
     parser.add_argument('in_faa', default=None, nargs='?')
     parser.add_argument('in_list', default=None, nargs='?')
     parser.add_argument('out_faa', default=None, nargs='?')
-    parser.add_argument('clu', default=None, nargs='?')
-    parser.add_argument('extra_faa_samase', default=None, nargs='?')
-    parser.add_argument('extra_faa_ocr', default=None, nargs='?')
     return parser.parse_args()
 
 
-def define_genomes_in_dataset(txt_path: str, all=False) -> set:
-    genomes = set()
-    with open(txt_path, 'r') as in_f:
-        for line in in_f:
-            if all:
-                entry = line.strip().split('\t')[0]
-            else:
-                entry = line.strip()
-            genomes.add(entry)
-    return genomes
-
-
 def read_tsv(tsv_path: str) -> dict:
-    nuccore_protein = {}
+    protid2chrom = {}
     with open(tsv_path, 'r') as in_tsv:
         for line in in_tsv:
             entry = line.strip().split('\t')
             chrom = entry[0]
             protein_id = entry[1]
-            nuccore_protein[protein_id] = chrom
-    return nuccore_protein
+            protid2chrom[protein_id] = chrom
+    return protid2chrom
 
 
-def read_fa(protein_ids: dict, faa_path: str):
+def filter_fasta(protid2chrom: dict, in_path: str) -> dict:
+    """
+    reads fasta file into dict {seq_id: sequence} with filtering by dict
+    :param in_path: (str) path to fasta file to read
+    :return: (dict) with correspondence between seq_id and sequence
+    """
     sequences = {}
-    name = None
-    with open(faa_path, 'r') as in_faa:
-        for line in in_faa:
-            if line.startswith('>'):
-                if name in protein_ids.keys():
-                    sequences[protein_ids[name]] = seq
-                name = line.strip().split(' ')[0][1:]
-                seq = ''
-            else:
-                seq += line.strip()
-        if name in protein_ids.keys():
-            sequences[protein_ids[name]] = seq
+    with open(in_path, 'rt') as fasta:
+        for record in SimpleFastaParser(fasta):
+            if record[0].split(' ')[0] in protid2chrom.keys():
+                sequences[protid2chrom[record[0].split(' ')[0]]] = record[1]
     return sequences
+
+
+def write_fasta(sequences: dict, out_path: str, delimiter='\n') -> None:
+    """
+    writes sequences into file in FASTA format
+    :param sequences: (dict): {seq_id: sequence}
+    :param out_path: (str): path to output file
+    :param delimiter: (str): rows delimiter (default: '\n')
+    :return: None
+    """
+    with open(out_path, 'wt') as fasta_out:
+        for seqid, sequence in sequences.items():
+            fasta_out.write('>')
+            fasta_out.write(delimiter.join((seqid, sequence)))
+            fasta_out.write(delimiter)
 
 
 if __name__ == '__main__':
     in_faa = parse_args().in_faa
     in_tsv = parse_args().in_list
     out_faa_ = parse_args().out_faa
-    clu = parse_args().clu
-    extra_faa_samase = parse_args().extra_faa_samase
-    extra_faa_ocr = parse_args().extra_faa_ocr
 
-    protein_ids = read_tsv(in_tsv)
-    seqs = read_fa(protein_ids, in_faa)
-
-    with open(out_faa_, 'w') as out_faa:
-        for chrom in seqs.keys():
-            out_faa.write(f'>{chrom}\n')
-            out_faa.write(f'{seqs[chrom]}\n')
-
-    if clu == 'samase':
-        with open(extra_faa_samase, 'r') as in_faa:
-            with open(out_faa_, 'a') as out_faa:
-                for line in in_faa:
-                    out_faa.write(line)
-
-    elif clu == 'ocr_interest':
-        with open(extra_faa_ocr, 'r') as in_faa:
-            with open(out_faa_, 'a') as out_faa:
-                for line in in_faa:
-                    out_faa.write(line)
+    protid2chrom = read_tsv(in_tsv)
+    seqs = filter_fasta(protid2chrom, in_faa)
+    write_fasta(seqs, out_faa_)

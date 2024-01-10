@@ -71,6 +71,10 @@ repeats_per_genome_dir: 'data_autographiviridae_refseq/tdrs/per_genome'
 intergenic_dir: 'data_autographiviridae_refseq/intergenics'
 
 upstreams_dir: 'data_autographiviridae_refseq/upstreams'
+known_interest_dir: 'data_autographiviridae_refseq/known_proteins'
+alignments_dir: 'data_autographiviridae_refseq/known_proteins/alignments'
+alignments_trimmed_dir: 'data_autographiviridae_refseq/known_proteins/trimmed_alignments'
+trees_dir: 'data_autographiviridae_refseq/known_proteins/trees'
 
 # DEFAULT
 scripts: 'scripts'

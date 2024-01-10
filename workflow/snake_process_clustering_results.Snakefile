@@ -100,7 +100,7 @@ rule add_proteins_info:
         """
         python {params.script} --clu {input.clu_descr} --phrogs {input.phrogs} --pfam {input.pfam} \
         --apis {input.apis} --phys {input.phys_char} --clans {input.clans} \
-        --output {output.res_tab} --long {output.res_tab_long} 
+        --output {output.res_tab} --long {output.res_tab_long}
         """
 
 rule select_cols_for_gff_formation:

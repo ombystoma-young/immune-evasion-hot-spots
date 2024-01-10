@@ -212,4 +212,5 @@ if __name__ == '__main__':
     agg_prot_df = add_clans_info(clans, agg_prot_df)
     agg_prot_df.to_csv(res_tab_long, sep='\t')
     agg_grouped_prot_df = group_by_clu(agg_prot_df)
+    agg_grouped_prot_df['clu_netw'] = agg_grouped_prot_df['clu'].apply(lambda x: f'clu_{x}')
     agg_grouped_prot_df.to_csv(res_tab, sep='\t', index=False)
