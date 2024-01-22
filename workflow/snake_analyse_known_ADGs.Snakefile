@@ -148,7 +148,7 @@ rule align_representatives:
     threads: 10
     shell:
         """
-         mafft --thread {threads} --maxiterate 1000 --globalpair {input} > {output}
+         mafft --thread {threads} --maxiterate 1000 --localpair {input} > {output}
         """
 
 rule plot_alignment:

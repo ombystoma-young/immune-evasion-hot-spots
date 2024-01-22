@@ -13,8 +13,8 @@ library(RColorBrewer)
 col_pal <- brewer.pal(n = 8, name = "Dark2")
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
-s0 <- read_seqs("blasted/phages_genomes_concat.fna") %>% select(seq_id,
-                                                                seq_desc)
+s0 <- read_seqs("data_autographiviridae_refseq/genomes/concatenated_genomes.fna") %>% 
+  select(seq_id, seq_desc)
 s0 <- s0 %>% mutate(seq_desc = str_split(seq_desc, ",", simplify = T)[, 1]) %>% 
   mutate(seq_desc = str_split(seq_desc, " ", simplify = T)[, 1:6])
 
@@ -100,48 +100,53 @@ s2 <- s2 %>% left_join(s4, by=c('V1'='V3')) %>% select(subfamily, V2)
 colnames(s2) <- c('subfamily', 'seqid')
 
 # ocr 3, 100, 125, 260 (1-based)
-ocr <- c(2, 99, 124, 259)
-new_clp <- c('GCA_020488535.1_00041',
-  'GCA_017903885.1_00036',
-  'GCF_000903135.1_00004',
-  'GCA_014071185.1_00045',
-  'GCF_002997865.1_00003')
-clu_107 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num  == 99 | geom_id %in% new_clp)
-clu_135 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num  == 124)
-  
+ocr <-c(3814, 3136, 3132, 3030, 3020, 1911)
+# new_clp <- c('GCA_020488535.1_00041',
+#   'GCA_017903885.1_00036',
+#   'GCF_000903135.1_00004',
+#   'GCA_014071185.1_00045',
+#   'GCF_002997865.1_00003')
+# clu_107 <- read_feats('results/upstreams_with_clusters.gff') %>%
+#   filter(cluster_num  == 99 | geom_id %in% new_clp)
+# clu_135 <- read_feats('results/upstreams_with_clusters.gff') %>%
+#   filter(cluster_num  == 124)
 
-df2 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num %in% ocr) %>% 
+color_branches_ocr_df <- 
+  gggenomes::read_feats('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>% 
+  filter(clu %in% ocr) %>% select(seq_id, clu)
+color_branches_ocr_df <- color_branches_ocr_df %>% 
+  mutate(clu = factor(clu))  
+
+df2 <- read_feats('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
+  filter(clu %in% ocr) %>% 
   mutate(have_system = 'Ocr') %>% 
   select(seq_id, have_system) %>% unique()
 colnames(df2) <- c('seqid', 'have_system')
 
-samase <- c(4, 25, 48, 53, 251, 269, 324, 439)
+samase <- c(392, 516, 2538, 3167, 3357, 3486, 3509, 3704, 1677)
 
-color_branches_df <- gggenomes::read_feats('results/upstreams_with_clusters.gff') %>% 
-  filter(cluster_num %in% samase) %>% select(seq_id, cluster_num)
+color_branches_df <- 
+  gggenomes::read_feats('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>% 
+  filter(clu %in% samase) %>% select(seq_id, clu)
 color_branches_df <- color_branches_df %>% 
-  mutate(cluster_num = as.numeric(cluster_num) + 1) %>%  # 1-based
-  mutate(cluster_num = factor(cluster_num))
+  mutate(clu = factor(clu))
 
-clu_308 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num == 269) %>%
-  select(seq_id) %>% unique()
-clu_289 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num == 251) %>%
-  select(seq_id) %>% unique()
+# clu_308 <- read_feats('results/upstreams_with_clusters.gff') %>%
+#   filter(clu == 269) %>%
+#   select(seq_id) %>% unique()
+# clu_289 <- read_feats('results/upstreams_with_clusters.gff') %>%
+#   filter(clu == 251) %>%
+#   select(seq_id) %>% unique()
 
 
-df4 <- read_feats('results/upstreams_with_clusters.gff') %>%
-  filter(cluster_num %in% samase) %>% 
+df4 <- read_feats('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
+  filter(clu %in% samase) %>% 
   mutate(have_system = 'SAMase') %>% 
   select(seq_id, have_system) %>% unique()
 
 colnames(df4) <- c('seqid', 'have_system')
 
-df_none <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+df_none <- ape::read.gff('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
   filter(! seqid %in% df2$seqid) %>% 
   filter(! seqid %in% df4$seqid) %>% 
   mutate(have_system = 'No') %>% 
@@ -194,8 +199,8 @@ table(df3[, 1]) / nrow(df3) * 100 < 2.5
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 drops <- c('Svi3-7', 'Svi3-3', 'ORF1')
-samase_tree <- read.tree("antidefence_trees/trees/samase_bootstrap_model_selection.iqtree.contree")
-samase_tree <- drop.tip(samase_tree, drops)
+samase_tree <- read.tree("data_autographiviridae_refseq/known_proteins/trees/samase_bootstrap_model_selection.iqtree.contree")
+# samase_tree <- drop.tip(samase_tree, drops)
 samase_tree <- groupOTU(samase_tree, c('NC_003298.1'))
 a <- as.integer(samase_tree$node.label)
 a[is.na(a)] <- 0
@@ -205,7 +210,7 @@ samase_tree$node.label <- a
 t <- ggtree(samase_tree,
             branch.length = 'none',
             layout = 'circular',
-            aes(color = cluster_num, label = cluster_num)
+            aes(color = clu, label = clu)
             )  %<+% color_branches_df +
   geom_point2(aes(subset=(label == 'NC_003298.1')), shape=23, size=2.5, fill='red') +
   #geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
@@ -267,10 +272,10 @@ p3 <- gheatmap(p3, df3,  offset=6, width=.15,
                     breaks = c('Studiervirinae', 'Molineuxvirinae', 
                                'Colwellvirinae',  'Other')) + ggtitle('SAMase')
 p3
-ggsave('pics/samase_tree_dataset_order_virus_subfamily_all_clusters_color.svg', width=15, height = 9)
+ggsave('pics/samase_tree_jan.svg', width=15, height = 9)
 
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
-ocr_tree <- read.tree("antidefence_trees/trees/ocr_bootstrap_model_selection.iqtree.contree")
+ocr_tree <- read.tree("data_autographiviridae_refseq/known_proteins/trees/ocr_bootstrap_model_selection.iqtree.contree")
 # ocr_tree <- groupOTU(ocr_tree, c('NC_001604.1'))
 a <- as.integer(ocr_tree$node.label)
 a[is.na(a)] <- 0
@@ -279,16 +284,19 @@ ocr_tree$node.label <- a
 
 t <- ggtree(ocr_tree,
             branch.length = 'none',
-            layout='circular') +
+            layout='circular',
+            aes(color = clu, label = clu)
+            )  %<+% color_branches_ocr_df +
   geom_point2(aes(subset=(label == 'NC_001604.1')), shape=23, size=2.5, fill='red') +
-  geom_point2(aes(subset=(label %in% clu_107$seq_id)), shape=21, size=2.5, fill='#35b779') +
-  geom_point2(aes(subset=(label %in% clu_135$seq_id)), shape=21, size=2.5, fill='#fde725') +
+  # geom_point2(aes(subset=(label %in% clu_107$seq_id)), shape=21, size=2.5, fill='#35b779') +
+  # geom_point2(aes(subset=(label %in% clu_135$seq_id)), shape=21, size=2.5, fill='#fde725') +
   # geom_hilight(node=478, fill="purple", alpha=0.3) +
   # geom_tippoint(aes(alpha = group), col = "red") +
    scale_color_manual(values = c(0,1), aesthetics = "alpha") +
  # geom_tiplab(offset = 0.22, align=T, size=2)+
  geom_nodelab(color='firebrick') +
-  theme(legend.position = 'none')# + geom_tiplab2(size=2, hjust=8)
+  theme(legend.position = 'none') +
+  scale_color_brewer(na.value = "black", palette = 'Dark2')# + geom_tiplab2(size=2, hjust=8)
 t
 
 # write.table(df2, 'metadata/host_ids.tsv', col.names = F,
@@ -321,6 +329,6 @@ p4 <- gheatmap(p4, df3, offset=4.5, width=.15,
                                'Colwellvirinae',  'Other')) + ggtitle('Ocr')
 
 p4 
-ggsave('pics/ocr_tree_dataset_order_virus_subfamily_all_clusters_color.svg', width=15, height = 9)
+ggsave('pics/ocr_tree_jan.svg', width=15, height = 9)
 
 p3 + p4

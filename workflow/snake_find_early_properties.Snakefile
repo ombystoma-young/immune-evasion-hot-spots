@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae.yaml'
+configfile: 'config_autographiviridae_refseq.yaml'
 
 
 rule all:
@@ -98,7 +98,7 @@ rule hmmer_res_txt2tsv:
     shell:
         """
         python {params.script} --infile {input.pfam} --outfile {output.pfam}
-        python {params.script} --infile {input.dbapis} --outfile {output.dbapis}
+        python {params.script} --infile {input.dbapis} --outfile {output.dbapis} --extractbest
         """
 
 rule add_descr_dbapis:

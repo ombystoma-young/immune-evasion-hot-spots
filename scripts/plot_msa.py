@@ -60,4 +60,8 @@ def parse_args():
 if __name__ == '__main__':
     msa_file = parse_args().input
     output_path = parse_args().output
-    plot_msa(msa_file, insertions=None, out_file=output_path, regions=None, mark_positions=None)
+    if 'samase' in msa_file:
+        markers = [73, 76, 87, 113]
+    else:
+        markers = None
+    plot_msa(msa_file, insertions=None, out_file=output_path, regions=None, mark_positions=markers)

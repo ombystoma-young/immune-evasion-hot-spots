@@ -13,8 +13,8 @@ library(RColorBrewer)
 
 col_pal <- brewer.pal(n = 8, name = "Dark2")
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
-s0 <- read_seqs("blasted/phages_genomes_concat.fna") %>% select(seq_id,
-                                                                seq_desc)
+s0 <- read_seqs("data_autographiviridae_refseq/genomes/concatenated_genomes.fna") %>% 
+  select(seq_id, seq_desc)
 s0 <- s0 %>% mutate(seq_desc = str_split(seq_desc, ",", simplify = T)[, 1]) %>% 
   mutate(seq_desc = str_split(seq_desc, " ", simplify = T)[, 1:6])
 
@@ -100,9 +100,9 @@ s2 <- s2 %>% left_join(s4, by=c('V1'='V3')) %>% select(subfamily, V2)
 colnames(s2) <- c('subfamily', 'seqid')
 
 # ocr 3, 107, 135, 297 (1-based)
-ocr <- c(2, 99, 124, 259)
-ocr <- paste0('cluster_num=', ocr, ';', collapse = '|')
-df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+ocr <- c(3814, 3136, 3132, 3030, 3020, 1911)
+ocr <- paste0('clu=', ocr, ';', collapse = '|')
+df2 <- ape::read.gff('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
       filter(str_detect(attributes, ocr)) %>%
       mutate(have_system = 'Ocr') %>% 
       select(seqid, have_system) %>% unique()
@@ -114,14 +114,14 @@ df2 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
 # SAMase (1-based):
 # samase_1_based <- c(5, 33, 55, 104, 196, 238, 289, 308, 372, 503, 626)
 
-samase <- c(4, 25, 53, 251, 269, 324, 439)
-samase <- paste0('cluster_num=', samase, ';', collapse = '|')
-df4 <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+samase <- c(392, 516, 2538, 3167, 3357, 3486, 3509, 3704, 1677)
+samase <- paste0('clu=', samase, ';', collapse = '|')
+df4 <- ape::read.gff('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
   filter(str_detect(attributes, samase)) %>% 
   mutate(have_system = 'SAMase') %>% 
   select(seqid, have_system) %>% unique()
 
-df_none <- ape::read.gff('results/upstreams_with_clusters.gff') %>%
+df_none <- ape::read.gff('data_autographiviridae_refseq/upstreams/early_with_clusters.gff') %>%
   filter(! seqid %in% df2$seqid) %>% 
   filter(! seqid %in% df4$seqid) %>% 
   mutate(have_system = 'No') %>% 
@@ -166,17 +166,17 @@ table(df3$subfamily) / nrow(df3) * 100 < 2.5
 
 
 
-drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1',
-           'MZ318361.1', 'MZ318362.1')
-rnaps_tree <- read.tree("define_datasets/trees/polymerases_all.iqtree.contree")
-rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
-a <- as.integer(rnaps_tree_with_drops$node.label)
+# drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1',
+#            'MZ318361.1', 'MZ318362.1')
+rnaps_tree <- read.tree("data_autographiviridae_refseq/known_proteins/trees/rnap_bootstrap_model_selection.iqtree.contree")
+# rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
+a <- as.integer(rnaps_tree$node.label)
 a[is.na(a)] <- 0
 a <- ifelse(a >= 95, intToUtf8(9728), "")
-rnaps_tree_with_drops$node.label <- a
+rnaps_tree$node.label <- a
 
 # rnaps_tree_with_drops <- groupOTU(rnaps_tree_with_drops, )
-t <- ggtree(rnaps_tree_with_drops, 
+t <- ggtree(rnaps_tree, 
             layout = 'circular',
             branch.length = 'none') +
   #geom_hilight(node=478, fill="purple", alpha=0.3) +
@@ -239,7 +239,7 @@ p3 <- gheatmap(p3, df3, offset=11, width=.1,
 # p5 <- gridExtra::tableGrob(data.frame(table(df3$subfamily)))
 
 p3
-ggsave('pics/tree_dataset_order_virus_subfamily_ard_more_clusters_color.svg', width=15, height = 9)
+ggsave('pics/rnap_tree_jan.svg', width=15, height = 9)
 
 
 
