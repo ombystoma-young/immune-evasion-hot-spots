@@ -75,6 +75,10 @@ known_interest_dir: 'data_autographiviridae_refseq/known_proteins'
 alignments_dir: 'data_autographiviridae_refseq/known_proteins/alignments'
 alignments_trimmed_dir: 'data_autographiviridae_refseq/known_proteins/trimmed_alignments'
 trees_dir: 'data_autographiviridae_refseq/known_proteins/trees'
+# find novel adgs
+similarity_dir: 'data_autographiviridae_refseq/loci_similarity'
+permutations_dir: 'data_autographiviridae_refseq/loci_similarity/permutations'
+num_permutations: 5000
 
 # DEFAULT
 scripts: 'scripts'
