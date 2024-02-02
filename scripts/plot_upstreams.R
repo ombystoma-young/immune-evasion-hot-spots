@@ -46,7 +46,7 @@ ggsave('pics/upstreams_jan.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths 
                           width = 50, limitsize = FALSE)
 
 plot_upstream <- function(cl_num){
- seqs <- as.vector(unique(g0 %>% filter(cluster_num == cl_num) %>% select(seq_id)))$seq_id  # choose sequences to plot
+ seqs <- as.vector(unique(g0 %>% filter(clu %in% cl_num) %>% select(seq_id)))$seq_id  # choose sequences to plot
 flips <- as.vector(unique(g0[g0$seq_id %in% seqs, ] %>%   # find sequences to flip (- strand -> + strand)
                             filter(strand == '-') %>% select(seq_id)))$seq_id
 drops <- as.vector(s0 %>% filter(!seq_id %in% seqs) %>% select(seq_id))$seq_id
@@ -61,8 +61,8 @@ p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
   gggenomes::focus(.track_id = genes, .expand = 100, .overhang='drop') + # focus on particular region +- 100 bp
   geom_seq() +  # draw contig/chromosome lines
   geom_seq_label(aes(label=seq_desc), size=6, nudge_y = -0.3) + # label each sequence by this caption
-  geom_gene(aes(fill=`cluster_main_prod`), intron_shape=0, size=8) +  # add gene arrows
-  geom_gene_text(aes(label=`cluster_num`), size=6) +  # add gene cluster text
+  geom_gene(aes(fill=`clan`), intron_shape=0, size=8) +  # add gene arrows
+  geom_gene_text(aes(label=`clu`), size=6) +  # add gene cluster text
   geom_feat(color='red') +  # add TDRs
   scale_fill_discrete("Main cluster product") +  # change fill, genes
   theme(legend.position = 'bottom', legend.text = element_text(size=13), axis.text.x = element_text(size=15))  # change font size and legend position
@@ -71,20 +71,20 @@ p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
   gggenomes::focus(.track_id = genes, .expand = 100, .overhang='drop') + # focus on particular region +- 100 bp
   geom_seq() +  # draw contig/chromosome lines
   geom_seq_label(aes(label=seq_desc), size=6, nudge_y = -0.3) + # label each sequence by this caption
-  geom_gene(aes(fill=`cluster_main_prod`), intron_shape=0, size=8) +  # add gene arrows
-  geom_gene_text(aes(label=`cluster_num`), size=6) +  # add gene cluster text
+  geom_gene(aes(fill=`clan`), intron_shape=0, size=8) +  # add gene arrows
+  geom_gene_text(aes(label=`clu`), size=6) +  # add gene cluster text
   geom_feat(color='red') +  # add TDRs
   scale_fill_discrete("Main cluster product") +  # change fill, genes
   theme(legend.position = 'bottom', legend.text = element_text(size=13), axis.text.x = element_text(size=15))  # change font size and legend position
 }
 t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) 
 
-path_ <- paste0('pics/upstreams/', cl_num, '.svg')
+path_ <- paste0('pics/upstreams/', '322_mono', '.svg')
 ggsave(path_, dpi=200,  height = 1.29714286 * length(seqs), width = 25, limitsize = F)
 }
 
   # lapply(c( 117, 189, 596, 625),  plot_upstream)
-plot_upstream(205)
+plot_upstream(c(2472))
 
 
 
@@ -151,3 +151,46 @@ ggsave('pics/all_cand.svg', p, dpi=600, width = 20, height = 15)
 
 
 
+
+
+
+# 
+# plot_upstream <- function(clans){
+#   seqs <- as.vector(unique(g0 %>% filter(clan %in% clans) %>% select(seq_id)))$seq_id  # choose sequences to plot
+#   flips <- as.vector(unique(g0[g0$seq_id %in% seqs, ] %>%   # find sequences to flip (- strand -> + strand)
+#                               filter(strand == '-') %>% select(seq_id)))$seq_id
+#   drops <- as.vector(s0 %>% filter(!seq_id %in% seqs) %>% select(seq_id))$seq_id
+#   rnaps_tree_with_drops <- drop.tip(rnaps_tree, drops)
+#   
+#   t <- ggtree(rnaps_tree_with_drops) + geom_tiplab(align=T, size=8) +
+#     xlim(0,7) + scale_y_continuous(expand=c(0.01, 0.7, 0.01, 0.7))
+#   if (length(flips) != 0){
+#     p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
+#       gggenomes::pick_seqs(seqs) %>%   # choose chromosomes (phages)
+#       gggenomes::flip(flips) %>%  # flip sequences
+#       gggenomes::focus(.track_id = genes, .expand = 100, .overhang='drop') + # focus on particular region +- 100 bp
+#       geom_seq() +  # draw contig/chromosome lines
+#       geom_seq_label(aes(label=seq_desc), size=6, nudge_y = -0.3) + # label each sequence by this caption
+#       geom_gene(aes(fill=`clan`), intron_shape=0, size=8) +  # add gene arrows
+#       geom_gene_text(aes(label=`clu`), size=6) +  # add gene cluster text
+#       geom_feat(color='red') +  # add TDRs
+#       scale_fill_discrete("Main cluster product") +  # change fill, genes
+#       theme(legend.position = 'bottom', legend.text = element_text(size=13), axis.text.x = element_text(size=15))  # change font size and legend position
+#   } else {p <- gggenomes(seqs=s0, genes=g0, feats = f0) %>%
+#     gggenomes::pick_seqs(seqs) %>%   # choose chromosomes (phages)
+#     gggenomes::focus(.track_id = genes, .expand = 100, .overhang='drop') + # focus on particular region +- 100 bp
+#     geom_seq() +  # draw contig/chromosome lines
+#     geom_seq_label(aes(label=seq_desc), size=6, nudge_y = -0.3) + # label each sequence by this caption
+#     geom_gene(aes(fill=`clan`), intron_shape=0, size=8) +  # add gene arrows
+#     geom_gene_text(aes(label=`clu`), size=6) +  # add gene cluster text
+#     geom_feat(color='red') +  # add TDRs
+#     scale_fill_discrete("Main cluster product") +  # change fill, genes
+#     theme(legend.position = 'bottom', legend.text = element_text(size=13), axis.text.x = element_text(size=15))  # change font size and legend position
+#   }
+#   t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) 
+#   
+#   path_ <- paste0('pics/upstreams/', '481_mono', '.pdf')
+#   ggsave(path_, dpi=200,  height = 1.49714286 * length(seqs), width = 25, limitsize = F)
+# }
+# 
+# plot_upstream(c('481_mono'))
