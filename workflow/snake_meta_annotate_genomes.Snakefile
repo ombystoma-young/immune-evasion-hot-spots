@@ -131,7 +131,7 @@ rule split_fasta:
         script = os.path.join(config['scripts'], 'split_fastas_meta.py'),
         filter = lambda wc: "-f " + os.path.join(config['checkv_output'], f'{wc.db}', 'complete_contigs.txt')
         if actions[wc.db] == 'check_v' else '',
-        batches = config['maxthreads'],
+        batches = int(config['maxthreads']) * 3,
         minlen = config['min_contig_len']
     conda: os.path.join(config['envs'], 'biopython.yml')
     shell:

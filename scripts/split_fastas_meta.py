@@ -70,7 +70,7 @@ def split_fasta(in_path: str, num_batches: int, min_len: int, out_dir: str, filt
     :return: None
     """
     os.makedirs(out_dir, exist_ok=True)
-    pref = os.path.basename(in_path)[:3]
+    pref = os.path.basename(in_path).split('.')[0]
     print(in_path.endswith('gz'))
     opener = gzip.open if in_path.endswith('gz') else open
     with opener(in_path, 'rt') as handle:
