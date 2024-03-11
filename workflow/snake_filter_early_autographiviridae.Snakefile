@@ -26,7 +26,8 @@ for sample in os.listdir(config['genomes_source']):
             samples.append(sample)
     else:
         if not sample.startswith('concat'):
-            samples.append(sample)
+            samples.append('.'.join(sample.split('.')[:-1]))
+
 
 rule all:
     input:
