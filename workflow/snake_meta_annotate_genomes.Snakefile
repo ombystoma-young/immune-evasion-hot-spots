@@ -64,7 +64,8 @@ rule all:
     input:
         expand(os.path.join(config['contigs_dir'],'{db}'), db=databases),
         os.path.join(config['annotation_dir'], 'concatenated.faa'),
-        os.path.join(config['annotation_dir'], 'meta_rnaps.gff')
+        os.path.join(config['annotation_dir'], 'concatenated.gff'),
+        config['genomes_source']
 
 # rule setup_db:
 #     output:
@@ -230,7 +231,7 @@ rule faa_to_gff:
         faa = rules.concatenate_prots.output.not_filtered,  # os.path.join(config['annotation_dir_prot'], '{sample}.faa'),
         domains_tsv = rules.convert_hmmer_txt_to_tsv.output.tsv
     output:
-        os.path.join(config['annotation_dir'], 'meta_rnaps.gff')
+        os.path.join(config['annotation_dir'], 'concatenated.gff')
     conda:
         os.path.join(config['envs'], 'biopython.yml')
     params:
@@ -240,4 +241,44 @@ rule faa_to_gff:
     shell:
         """
         python {params.script} -f {input.faa} -t {input.domains_tsv} -m {params.mode}  -o {output} {params.s}
+        """
+
+
+rule select_target_seqids:
+    input:
+        os.path.join(config['annotation_dir'], 'concatenated.gff')
+    output:
+        os.path.join(config['meta'], 'meta_target_contigs.txt')
+    shell:
+        """
+        cat {input} | grep "PFAM" | cut -f 1 | sort -u > {output}
+        """
+
+
+rule split_target_sequences_into_separate_files:
+    input:
+        sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}'),
+        filters = os.path.join(config['meta'], 'meta_target_contigs.txt')
+    output:
+        directory(os.path.join(config['filtered_contigs_dir'], '{db}'))
+    params:
+        script=os.path.join(config['scripts'], 'split_fastas_meta.py')
+    conda: os.path.join(config['envs'], 'biopython.yml')
+    shell:
+        """
+        python {params.script} -i {input.sequences} -o {output} -f {input.filters} -s 1 -l 0
+        """
+
+rule mv_target_sequences:
+    input:
+        expand(os.path.join(config['filtered_contigs_dir'], '{db}'), db=databases)
+    output:
+        directory(config['genomes_source'])
+    shell:
+        """
+        mkdir {output};
+        array=({input})
+        for dir in ${{array[*]}}
+          do cp ${{dir}}/* {output}/
+        done
         """

@@ -52,6 +52,9 @@ annotation_dir_nucl: 'data_autographiviridae_meta/annotation/cds'
 annotation_dir_prot: 'data_autographiviridae_meta/annotation/prot'
 annotation_dir_table: 'data_autographiviridae_meta/annotation/coords'
 
+filtered_contigs_dir: 'data_autographiviridae_meta/filtered_mags'
+genomes_source: 'data_autographiviridae_meta/filtered_mags_flatten'
+
 mmseqs_db: 'data_autographiviridae_meta/mmseqs_dbs'
 mmseqs_temp: 'mmseqs_temp'
 
