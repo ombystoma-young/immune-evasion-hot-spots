@@ -6,6 +6,7 @@ os.makedirs(config['repeats_dir'], exist_ok=True)
 os.makedirs(config['repeats_per_genome_dir'], exist_ok=True)
 os.makedirs(config['intergenic_dir'], exist_ok=True)
 os.makedirs(config['upstreams_dir'], exist_ok=True)
+os.makedirs(config['pics'], exist_ok=True)
 
 # DEFINE PARAMETERS
 if config['genomes_type'] != 'meta':
@@ -26,7 +27,7 @@ for sample in os.listdir(config['genomes_source']):
             samples.append(sample)
     else:
         if not sample.startswith('concat'):
-            samples.append('.'.join(sample.split('.')[:-1]))
+            samples.append(sample.replace('.fna', ''))
 
 
 rule all:
