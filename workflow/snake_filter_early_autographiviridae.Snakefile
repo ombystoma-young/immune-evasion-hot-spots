@@ -267,6 +267,7 @@ rule get_upstream_faa:
         faa_total = os.path.join(config['upstreams_dir'], 'early.faa')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_proteins_faa.py')
+    conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
         python {params.script} -i {input.faa} -g {input.gff} -o {output.faa_total}
