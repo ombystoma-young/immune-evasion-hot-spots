@@ -25,7 +25,8 @@ for sample in os.listdir(config['genomes_source']):
         if sample.startswith('GC'):
             samples.append(sample)
     else:
-        samples.append(sample)
+        if not sample.startswith('concat'):
+            samples.append(sample)
 
 rule all:
     input:
