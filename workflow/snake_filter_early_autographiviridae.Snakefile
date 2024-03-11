@@ -26,7 +26,7 @@ for sample in os.listdir(config['genomes_source']):
         if sample.startswith('GC'):
             samples.append(sample)
     else:
-        if not sample.startswith('concat'):
+        if not sample.startswith('concat') and not sample.startswith('.snakemake'):
             samples.append(sample.replace('.fna', ''))
 
 
