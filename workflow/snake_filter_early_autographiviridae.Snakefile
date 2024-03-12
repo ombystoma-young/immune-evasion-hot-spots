@@ -6,6 +6,7 @@ os.makedirs(config['repeats_dir'], exist_ok=True)
 os.makedirs(config['repeats_per_genome_dir'], exist_ok=True)
 os.makedirs(config['intergenic_dir'], exist_ok=True)
 os.makedirs(config['upstreams_dir'], exist_ok=True)
+os.makedirs(config['pics'], exist_ok=True)
 
 # DEFINE PARAMETERS
 if config['genomes_type'] != 'meta':
@@ -25,7 +26,9 @@ for sample in os.listdir(config['genomes_source']):
         if sample.startswith('GC'):
             samples.append(sample)
     else:
-        samples.append(sample)
+        if not sample.startswith('concat') and not sample.startswith('.snakemake'):
+            samples.append(sample.replace('.fna', ''))
+
 
 rule all:
     input:
@@ -44,7 +47,7 @@ rule all:
 rule extract_RNAP_coordinates:
     input:
         gff = os.path.join(config['annotation_dir'], 'concatenated.gff'),
-        meta_domains = os.path.join(config['meta'], 'rnap_phrogs.txt')
+        meta_domains = os.path.join(config['meta'], 'rnap_phrogs.txt') if config['genomes_type'] != 'meta' else os.path.join(config['meta'], 'rnaps_hmm_list.txt')
     output:
         os.path.join(config['annotation_dir'], 'concatenated_rnaps_only.gff')
     params: script = os.path.join(config['scripts'], 'extract_earliest_rnap.py')
@@ -59,12 +62,16 @@ rule extract_RNAP_coordinates:
 # search TDRs in genomes with minimap2
 rule search_repeats:
     input:
-        jsonl = os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl')
+        jsonl = os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl') if
+            config['genomes_type'] != 'meta' else
+                os.path.join(config['genomes_source'], '{sample}.fna')
     output:
         paf = os.path.join(config['repeats_per_genome_dir'], '{sample}.paf')
     params:
         params='-X -N 50 -p 0.1 -c',
-        path = os.path.join(config['genomes_source'], '{sample}', '*.fna')
+        path = os.path.join(config['genomes_source'], '{sample}', '*.fna') if
+            config['genomes_type'] != 'meta' else
+                os.path.join(config['genomes_source'], '{sample}.fna')
     threads: 1
     conda:
         os.path.join(config['envs'], 'minimap2.yml')
@@ -118,11 +125,15 @@ rule create_masked_low_score:
 
 rule concat_fasta:
     input:
-        expand(os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl'), sample=samples)
+        expand(os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl'), sample=samples) if
+            config['genomes_type'] != 'meta' else
+                expand(os.path.join(config['genomes_source'], '{sample}.fna'), sample=samples)
     output:
         os.path.join(config['genomes_source'], 'concatenated_genomes.fna')
     params:
-        paths = os.path.join(config['genomes_source'], '*', '*.fna')
+        paths = os.path.join(config['genomes_source'], '*', '*.fna') if
+            config['genomes_type'] != 'meta' else
+                os.path.join(config['genomes_source'], '*.fna')
     shell:
         """
         cat {params.paths} > {output}
@@ -256,6 +267,7 @@ rule get_upstream_faa:
         faa_total = os.path.join(config['upstreams_dir'], 'early.faa')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_proteins_faa.py')
+    conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
         python {params.script} -i {input.faa} -g {input.gff} -o {output.faa_total}

@@ -15,10 +15,11 @@ rule search_phrog:
     input:
         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
     output:
-        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs')
+        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs.0')
     params:
             phrog_db = os.path.join(config['phrog_db'], 'phrogs_mmseqs_db', 'phrogs_profile_db'),
             temp_dir = os.path.join(config['mmseqs_temp'], 'tmp_phrog'),
+            out_path =  os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs'),
             maxmem = config['maxmem'],
             maxram = config['maxram']
     threads: config['maxthreads']
@@ -27,20 +28,21 @@ rule search_phrog:
         mmseqs search \
         --split-memory-limit {params.maxram} --disk-space-limit {params.maxmem} --threads {threads} \
         -s 7 \
-        {params.phrog_db} {input} {output.search} {params.temp_dir}
+        {params.phrog_db} {input} {params.out_path} {params.temp_dir}
         """
 
 rule write_results:
     input:
-        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs'),
+        search = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs.0'),
         db = os.path.join(config['early_prot_db_dir'], 'early_proteins')
     output:
         os.path.join(config['domains_tables_dir'], "early_proteins_phrogs.tsv")
     params:
-            phrog_db = os.path.join(config['phrog_db'],  'phrogs_mmseqs_db', 'phrogs_profile_db')
+            phrog_db = os.path.join(config['phrog_db'],  'phrogs_mmseqs_db', 'phrogs_profile_db'),
+            input_path = os.path.join(config['early_prot_dom_db_dir'], 'early_proteins_phrogs')
     shell:
         """
-        mmseqs createtsv {params.phrog_db} {input.db} {input.search} {output}
+        mmseqs createtsv {params.phrog_db} {input.db} {params.input_path} {output}
         """
 
 rule add_descr_phrogs:
@@ -122,6 +124,7 @@ rule calculate_phys_characteristics:
         os.path.join(config['upstreams_dir'], "early_physical_char.tsv")
     params:
         script = os.path.join(config['scripts'], 'extract_phys_chars.py')
+    conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
         python {params.script} -i {input} -o {output}

@@ -13,6 +13,9 @@ def parse_args():
                         help='path to raw fasta')
     parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
                         help='path to output gff file')
+    parser.add_argument('-m', '--mode', default=None, type=str, nargs='?',
+                        help='define mode of of input table: phrog-based approach or '
+                             'pfam-based approach')
     parser.add_argument('-t', '--tsv', default=None, type=str, nargs='?',
                         help='path to table with predicted domains')
     parser.add_argument('-c', '--clusters', default=None, type=str, nargs='?',
@@ -70,24 +73,30 @@ def find_strandness_by_counting(gff: pd.DataFrame) -> dict:
     return max_counts.to_dict()
 
 
-def extract_domains(table_path: str) -> dict:
-    colnames = ['query', 'target', 'alnLen', 'seqIdentity', 'eVal',
-                'qStart', 'qEnd', 'qLen', 'tStart', 'tEnd', 'tLen']
-    df = pd.read_csv(table_path, sep='\t', names=colnames)
-    agg_df = df.groupby('target').agg({'query': lambda x: ",".join(list(x))}).reset_index()
-    agg_df.rename(columns={"target": "attribute_ID", "query": "PHROGs"}, errors="raise", inplace=True)
+def extract_domains(table_path: str, mode: str) -> dict:
+    colnames_phrog = ['query', 'target', 'alnLen', 'seqIdentity', 'eVal',
+                      'qStart', 'qEnd', 'qLen', 'tStart', 'tEnd', 'tLen']
+    if mode == 'phrog':
+        df = pd.read_csv(table_path, sep='\t', names=colnames_phrog)
+        agg_df = df.groupby('target').agg({'query': lambda x: ",".join(list(x))}).reset_index()
+        agg_df.rename(columns={"target": "attribute_ID", "query": "PHROGs"}, errors="raise", inplace=True)
+    else:
+        df = pd.read_csv(table_path, sep='\t')
+        agg_df = df.groupby('target_name').agg({'query_accession': lambda x: ",".join(list(x))}).reset_index()
+        agg_df.rename(columns={"target_name": "attribute_ID", "query_accession": "PFAM"}, errors="raise", inplace=True)
     return agg_df.set_index('attribute_ID').to_dict()
 
 
 def filter_by_strand(gff: pd.DataFrame, strandnesses: dict) -> pd.DataFrame:
     gff_modified = gff.copy()
-    gff_modified['pass_strand'] = gff_modified.apply(lambda row: row['strand'] == strandnesses['strand'][row['chrm']], axis=1)
+    gff_modified['pass_strand'] = gff_modified.apply(lambda row: row['strand'] == strandnesses['strand'][row['chrm']],
+                                                     axis=1)
     gff_modified = gff_modified[gff_modified['pass_strand']].drop(columns=['pass_strand'])
 
     return gff_modified
 
 
-def find_domain(attribute_id: str, prot2par: dict, par2dom: dict):
+def find_domain_phrog(attribute_id: str, prot2par: dict, par2dom: dict):
     if attribute_id not in prot2par.keys():
         return nan
     elif prot2par[attribute_id] not in par2dom['PHROGs'].keys():
@@ -96,10 +105,25 @@ def find_domain(attribute_id: str, prot2par: dict, par2dom: dict):
         return par2dom['PHROGs'][prot2par[attribute_id]]
 
 
-def add_domains_info(gff: pd.DataFrame, prot2par: dict, par2dom: dict) -> pd.DataFrame:
+def find_domain_pfam(attribute_id: str, par2dom: dict):
+    if attribute_id not in par2dom['PFAM'].keys():
+        return nan
+    else:
+        return par2dom['PFAM'][attribute_id]
+
+
+def add_domains_info(gff: pd.DataFrame, prot2par: dict | None, prot2dom: dict) -> pd.DataFrame:
     gff_modified = gff.copy()
-    gff_modified['attribute_PHROGs'] = gff_modified.apply(lambda row: find_domain(row['attribute_ID'],
-                                                                                  prot2par, par2dom), axis=1)
+    if prot2par is not None:
+        gff_modified['attribute_PHROGs'] = (gff_modified
+                                            .apply(lambda row: find_domain_phrog(row['attribute_ID'],
+                                                                                 prot2par, prot2dom),
+                                                   axis=1))
+    else:
+        gff_modified['attribute_PFAM'] = (gff_modified
+                                          .apply(lambda row: find_domain_pfam(row['attribute_ID'],
+                                                                              prot2dom),
+                                                 axis=1))
     return gff_modified
 
 
@@ -135,18 +159,23 @@ def write_gff(gff: pd.DataFrame, filename: str) -> None:
 if __name__ == '__main__':
     faa_path = parse_args().faa
     tsv_path = parse_args().tsv
+    mode = parse_args().mode
     clusters = parse_args().clusters
     strandness = parse_args().strandness
     output_path = parse_args().output
 
     gff = read_fasta_phanotate(faa_path)
-    prot2parent = read_clusters_file(in_path=clusters)
-    parentid2domains = extract_domains(table_path=tsv_path)
-
+    prot2domains = extract_domains(table_path=tsv_path, mode=mode)
     if strandness:
         strandnesses = find_strandness_by_counting(gff=gff)
         gff = filter_by_strand(gff=gff, strandnesses=strandnesses)
 
-    gff = add_domains_info(gff=gff, prot2par=prot2parent, par2dom=parentid2domains)
+    if mode == 'phrog':
+        prot2parent = read_clusters_file(in_path=clusters)
+        gff = add_domains_info(gff=gff, prot2par=prot2parent,
+                               prot2dom=prot2domains)
+    elif mode == 'pfam':
+        gff = add_domains_info(gff=gff, prot2par=None,
+                               prot2dom=prot2domains)
 
     write_gff(gff, output_path)
