@@ -124,6 +124,7 @@ rule calculate_phys_characteristics:
         os.path.join(config['upstreams_dir'], "early_physical_char.tsv")
     params:
         script = os.path.join(config['scripts'], 'extract_phys_chars.py')
+    conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
         python {params.script} -i {input} -o {output}
