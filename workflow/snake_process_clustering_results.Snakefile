@@ -135,8 +135,9 @@ rule add_phrogs_descr_to_gff:
     output:
         gff = os.path.join(config['upstreams_dir'], 'early_with_clusters_phrogs.gff')
     params:
-        script = os.path.join(config['scripts'], 'add_phrog_description_to_gff.py')
+        script = os.path.join(config['scripts'], 'add_phrog_description_to_gff.py'),
+        path_phrogs_out = f"-t {os.path.join(config['domains_tables_dir'], 'early_proteins_phrogs_with_descr.tsv')}" if config['genomes_type'] == 'meta' else ''
     shell:
         """
-        python {params.script} -i {input.gff} -p {input.tsv} -o {output.gff} 
+        python {params.script} {params.path_phrogs_out} -i {input.gff} -p {input.tsv} -o {output.gff} 
         """

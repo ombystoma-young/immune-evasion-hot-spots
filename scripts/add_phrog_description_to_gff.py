@@ -6,6 +6,8 @@ from numpy import nan
 def parse_args():
     parser = argparse.ArgumentParser(description='Part of process clustering results pipeline.'
                                                  'Reformat gff3 entries')
+    parser.add_argument('-t', '--table', default=None, type=str, nargs='?',
+                        help='path to table with found phrogs, if meta mode was used')
     parser.add_argument('-i', '--input', default='../data_autographiviridae_refseq/upstreams/early.gff', type=str, nargs='?',
                         help='path to gff3 fasta')
     parser.add_argument('-o', '--output', default='../data_autographiviridae_refseq/upstreams/early_with_clusters.gff', type=str, nargs='?',
@@ -13,6 +15,25 @@ def parse_args():
     parser.add_argument('-p', '--phrogsinfo', default='~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv', type=str,
                         help='path to file with information about phrogs')
     return parser.parse_args()
+
+
+def extract_domains(table_path: str) -> pd.DataFrame:
+    colnames_phrog = ['target', 'phrog', 'annot', 'category']
+    df = pd.read_csv(table_path, sep='\t', names=colnames_phrog)
+    df.rename(columns={"target": "ATTRIBUTE_ID", "phrog": "ATTRIBUTE_PHROGs",
+                       'annot': 'ATTRIBUTE_phrog_ann',
+                       'category': 'ATTRIBUTE_phrog_category'},
+              errors="raise", inplace=True)
+    return df.set_index('attribute_ID')
+
+
+def add_domains_info(gff: pd.DataFrame, domains_df: pd.DataFrame) -> pd.DataFrame:
+    gff_modified = gff.copy()
+    gff_modified = (gff_modified
+                                .set_index('ATTRIBUTE_ID')
+                                .join(domains_df, how='left')
+                    )
+    return gff_modified
 
 
 def _split_attributes(attrs: str):
@@ -107,8 +128,14 @@ if __name__ == '__main__':
     input_path = parse_args().input
     output_path = parse_args().output
     phrogs_info_path = parse_args().phrogsinfo
+    table_path = parse_args().table
 
     gff_df = read_gff(input_path)
-    phrogs_info = read_tsv(phrogs_info_path)
-    gff_df = modify_gff(gff_df, phrogs_info)
+
+    if table_path is not None:
+        found_phrogs = extract_domains(table_path)
+        gff_df = add_domains_info(gff=gff_df, domains_df=found_phrogs)
+    else:
+        phrogs_info = read_tsv(phrogs_info_path)
+        gff_df = modify_gff(gff_df, phrogs_info)
     write_gff(gff_df, output_path)
