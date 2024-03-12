@@ -8,9 +8,11 @@ def parse_args():
                                                  'Reformat gff3 entries')
     parser.add_argument('-t', '--table', default=None, type=str, nargs='?',
                         help='path to table with found phrogs, if meta mode was used')
-    parser.add_argument('-i', '--input', default='../data_autographiviridae_refseq/upstreams/early.gff', type=str, nargs='?',
+    parser.add_argument('-i', '--input', default='../data_autographiviridae_refseq/upstreams/early.gff', type=str,
+                        nargs='?',
                         help='path to gff3 fasta')
-    parser.add_argument('-o', '--output', default='../data_autographiviridae_refseq/upstreams/early_with_clusters.gff', type=str, nargs='?',
+    parser.add_argument('-o', '--output', default='../data_autographiviridae_refseq/upstreams/early_with_clusters.gff',
+                        type=str, nargs='?',
                         help='path to output gff3 file')
     parser.add_argument('-p', '--phrogsinfo', default='~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv', type=str,
                         help='path to file with information about phrogs')
@@ -24,14 +26,15 @@ def extract_domains(table_path: str) -> pd.DataFrame:
                        'annot': 'ATTRIBUTE_phrog_ann',
                        'category': 'ATTRIBUTE_phrog_category'},
               errors="raise", inplace=True)
-    return df.set_index('attribute_ID')
+    return df.set_index('ATTRIBUTE_ID')
 
 
 def add_domains_info(gff: pd.DataFrame, domains_df: pd.DataFrame) -> pd.DataFrame:
     gff_modified = gff.copy()
     gff_modified = (gff_modified
-                                .set_index('ATTRIBUTE_ID')
-                                .join(domains_df, how='left')
+                    .set_index('ATTRIBUTE_ID')
+                    .join(domains_df, how='left')
+                    .reset_index()
                     )
     return gff_modified
 
