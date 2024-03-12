@@ -65,6 +65,8 @@ rule parse_cl1_res:
         l=os.path.join(config['early_clans_concat_dir'], 'clans_wide_for_sankey.tsv')
     params:
         script = os.path.join(config['scripts'], 'reformat_clu1_res.py')
+    conda:
+        os.path.join(config['envs'], 'networkx.yml')
     shell:
         """
         python {params.script} -i {input.i} -d {input.d} -e {input.e} -o {output.l} -w {output.w} 

@@ -35,7 +35,7 @@ db_fastas: '/home/niagara/Storage/IBG/O_Kotovskaya/dbs/meta_vir'
 #db_fastas: '/home/oxalotl/Tools/databases/meta_vir'
 
 phrog_db: '~/dbs/phrogs_v_4'
-phrog_desc: '~/dbs/phrogs_v_4/phrog_annot_v4.tsv'
+phrog_desc: '../../dbs/phrogs_v_4/phrog_annot_v4.tsv'
 pfam_path: '~/dbs/pfam_21_11_15/Pfam-A.hmm'
 dbapis_path:  '~/dbs/dbapis/dbAPIS.hmm'
 dbapis_desc:  '~/dbs/dbapis/dbAPIS_info.tsv'
