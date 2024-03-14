@@ -83,9 +83,20 @@ intergenic_dir: 'data_autographiviridae_meta/intergenics'
 
 upstreams_dir: 'data_autographiviridae_meta/upstreams'
 
+# analyse known adgs
+known_interest_dir: 'data_autographiviridae_meta/known_adgs_analysis'
+alignments_dir: 'data_autographiviridae_meta/known_adgs_analysis/alignments'
+alignments_trimmed_dir: 'data_autographiviridae_meta/known_adgs_analysis/alignments_trimmed'
+trees_dir: 'data_autographiviridae_meta/known_adgs_analysis/trees'
+
+# find novel adgs
+similarity_dir: 'data_autographiviridae_meta/loci_similarity'
+permutations_dir: 'data_autographiviridae_meta/loci_similarity/permutations'
+num_permutations: 500
+
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'
 envs: 'envs'
 pics: 'data_autographiviridae_meta/pics'
-cl1_path: '~/tools/clusterone/cluster_one-1.0.jar'
+cl1_path: '~/Tools/cluster_one-1.0.jar'

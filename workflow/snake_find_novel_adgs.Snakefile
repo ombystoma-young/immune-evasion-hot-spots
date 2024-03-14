@@ -3,14 +3,15 @@ import os
 configfile: 'config_autographiviridae_refseq.yaml'
 
 os.makedirs(config['similarity_dir'], exist_ok=True)
-os.makedirs(config['permutations_dir'], exist_ok=True)
 
 
 rule all:
     input:
-        os.path.join(config['similarity_dir'], 'edge_list_loci.tsv')
+        os.path.join(config['similarity_dir'], 'loci_communities.tsv')
+        # config['permutations_dir']
 
-rule permutation_test_2_define_min_score:  # TODO: argparse
+
+rule permutation_test_2_define_min_score:
     input:
         os.path.join(config['upstreams_dir'], 'early_with_clusters.gff')
     output:
@@ -19,24 +20,25 @@ rule permutation_test_2_define_min_score:  # TODO: argparse
         script = os.path.join(config['scripts'], 'permutation_test.py'),
         n_permutations = config['num_permutations']
     threads: 8
+    conda: os.path.join(config['envs'], 'num_sci_py.yml')
     shell:
         """
-        python3 {params.script}
+        python3 {params.script} -i {input} -t {threads} -n {params.n_permutations} -o {output} 
         """
 
-rule find_edges_from_scores:  # TODO: argparse
+rule find_edges_from_scores:
     input:
         gff = os.path.join(config['upstreams_dir'],'early_with_clusters.gff'),
-        p = expand(os.path.join(config['permutations_dir'], '{i}.pickle'),
-                                i=range(config['num_permutations']))
+        p = config['permutations_dir']
     output:
         os.path.join(config['similarity_dir'], 'edge_list_loci.tsv')
     params:
         script = os.path.join(config['scripts'], 'find_loci_similarity.py'),
-        in_dir = config['permutations_dir']
+        n_permutations = config['num_permutations']
+    conda: os.path.join(config['envs'], 'num_sci_py.yml')
     shell:
         """
-        python3 {params.script}
+        python3 {params.script} -g {input.gff} -p {input.p} -n {params.n_permutations} -o {output}
         """
 
 rule find_communities_of_loci:

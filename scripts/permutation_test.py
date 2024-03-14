@@ -6,8 +6,9 @@ import multiprocessing
 import pandas as pd
 
 from math import log10 as lg
+from numpy import nan
 from scipy.stats import hypergeom
-from numpy.random import permutation, choice
+from numpy.random import permutation
 
 
 def parse_args():
@@ -21,8 +22,6 @@ def parse_args():
                         help='Number of permutations to perform')
     parser.add_argument('-t', '--threads', default=None, type=int, nargs='?',
                         help='Number of threads')
-    parser.add_argument('-s', '--samplesize', default=None, type=int, nargs='?',
-                        help='Size of permuted sample')
     parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
                         help='path to output directory, which will contains resulting pickle permutation tables')
     return parser.parse_args()
@@ -140,8 +139,6 @@ def get_similarity_scores(loci_df):
 
 def write_perm_replica(x):
     df, i = x[0].copy(), x[1]
-    sample = choice(gff_df.seq_id.unique(), sample_size)
-    df = df.query('seq_id in @sample')
     df.loc[:, 'seq_id'] = permutation(df.seq_id.to_list())
     scores_df = get_similarity_scores(df)
     scores_df_melted = scores_df.melt(ignore_index=False)
@@ -153,7 +150,6 @@ def write_perm_replica(x):
 
 if __name__ == '__main__':
     data_path = parse_args().input
-    sample_size = parse_args().samplesize
     n_threads = parse_args().threads
     n_permutations = parse_args().numperm
     out_dir = parse_args().output

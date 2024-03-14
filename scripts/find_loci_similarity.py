@@ -1,10 +1,27 @@
 import os
+import argparse
 import numpy as np
 import pandas as pd
 
 from math import log10 as lg
 from scipy.stats import hypergeom
 from tqdm import tqdm
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Part of "snake_find_novel_adgs" pipeline. '
+                                                 'Find loci similarity based on vcontact-like hypergeometric '
+                                                 'score and compare it with scores for permuted sequences')
+    parser.add_argument('-g', '--gff', default=None, type=str, nargs='?',
+                        help='path to input gff file')
+    parser.add_argument('-n', '--numperm', default=None, type=int, nargs='?',
+                        help='Number of permutations to perform')
+    parser.add_argument('-p', '--permdir', default=None, type=str, nargs='?',
+                        help='path to directory with calculated permuted scores')
+    parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
+                        help='path to output file, which will edgelist for significantly similar loci')
+    return parser.parse_args()
+
 
 # read gff
 def _split_attributes(attrs: str):
@@ -119,26 +136,30 @@ def get_similarity_scores(loci_df):
 
 
 if __name__ == '__main__':
-    max_perm_values = []
-    n_permutations = 5000
-    data_path = 'data_autographiviridae_refseq/upstreams/early_with_clusters.gff'
-    in_dir = 'data_autographiviridae_refseq/loci_similarity/permutations'
-    out_file = 'data_autographiviridae_refseq/loci_similarity/edge_list_loci.tsv'
-    # calculate scores
+    data_path = parse_args().gff
+    in_dir = parse_args().permdir
+    n_permutations = parse_args().numperm
+    out_file = parse_args().output
 
+    q95_perm_values = []
+
+    # calculate scores
     gff_df = read_gff(data_path)
     loci_df = gff_df[['seq_id', 'ATTRIBUTE_clan']]
     scores_df = get_similarity_scores(loci_df)
     scores_df_melted = scores_df.melt(ignore_index=False)
     scores_df_melted = scores_df_melted[scores_df_melted.seq_id != scores_df_melted.index]
+    # replace infinity
+    replacement_score = scores_df_melted[scores_df_melted.value != float('+inf')].value.max()
+    scores_df_melted_replaced = scores_df_melted.replace(float('+inf'), replacement_score + 1)
 
-    # calculate max value from permutations
+    # calculate q0.95 value from permutations
     for i in tqdm(range(n_permutations)):
         scores_df_melted_perm = pd.read_pickle(os.path.join(in_dir, f'{i}.pickle'))
-        scores_df_melted_perm = scores_df_melted_perm[scores_df_melted_perm.value != float('+inf')]
-        max_perm_values.append(scores_df_melted_perm.value.max())
-    # write results
+        scores_df_melted_perm = scores_df_melted_perm[scores_df_melted_perm.index != scores_df_melted_perm.seq_id]
+        q95_perm_values.append(np.quantile(scores_df_melted_perm.value, .95))
 
-    max_perm_values = np.array(max_perm_values)
-    scores_df_melted[scores_df_melted.value >= max_perm_values.max()].loc[:, 'seq_id'].to_csv(out_file,
+    # write results
+    q95_perm_values = np.array(q95_perm_values)
+    scores_df_melted[scores_df_melted.value >= np.quantile(q95_perm_values, .95)].loc[:, 'seq_id'].to_csv(out_file,
                                                                                               sep='\t', header=False)
