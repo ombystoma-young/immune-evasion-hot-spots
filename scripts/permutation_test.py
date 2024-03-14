@@ -1,11 +1,31 @@
+import os
 import datetime
+import argparse
 import multiprocessing
 
 import pandas as pd
 
 from math import log10 as lg
 from scipy.stats import hypergeom
-from numpy.random import permutation
+from numpy.random import permutation, choice
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Part of "snake_find_novel_adgs" pipeline. '
+                                                 'Perform vcontact-like calculation of scores for proteins '
+                                                 'encoded in permuted (!) loci to find permuted '
+                                                 'loci similarity.')
+    parser.add_argument('-i', '--input', default=None, type=str, nargs='?',
+                        help='path to input gff file')
+    parser.add_argument('-n', '--numperm', default=None, type=int, nargs='?',
+                        help='Number of permutations to perform')
+    parser.add_argument('-t', '--threads', default=None, type=int, nargs='?',
+                        help='Number of threads')
+    parser.add_argument('-s', '--samplesize', default=None, type=int, nargs='?',
+                        help='Size of permuted sample')
+    parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
+                        help='path to output directory, which will contains resulting pickle permutation tables')
+    return parser.parse_args()
 
 
 def _split_attributes(attrs: str):
@@ -92,8 +112,9 @@ def get_score(prob,  mtcc):
     if prob != 0:
         score = - lg(prob * mtcc)
     else:
-        score = float('+inf')  # TODO: replace magic number
+        score = float('+inf')
     return score
+
 
 def _calculate_score(set1, set2, n_total, t):
     # calculate minimal and maximal cavitivity
@@ -104,6 +125,7 @@ def _calculate_score(set1, set2, n_total, t):
     pval = get_prob(c=c, n=n, k=k, n_tot=n_total)
     score = get_score(prob=pval, mtcc=t)
     return score
+
 
 def get_similarity_scores(loci_df):
     n_total = calculate_total_clan_number(loci_df)
@@ -118,27 +140,33 @@ def get_similarity_scores(loci_df):
 
 def write_perm_replica(x):
     df, i = x[0].copy(), x[1]
+    sample = choice(gff_df.seq_id.unique(), sample_size)
+    df = df.query('seq_id in @sample')
     df.loc[:, 'seq_id'] = permutation(df.seq_id.to_list())
     scores_df = get_similarity_scores(df)
     scores_df_melted = scores_df.melt(ignore_index=False)
     scores_df_melted = scores_df_melted[scores_df_melted.seq_id != scores_df_melted.index]
     max_score = scores_df_melted.value.max()
-    scores_df_melted.to_pickle(f'data_autographiviridae_refseq/loci_similarity/permutations/{i}.pickle')
+    scores_df_melted.to_pickle(os.path.join(out_dir, f'{i}.pickle'))
     return max_score
 
 
+if __name__ == '__main__':
+    data_path = parse_args().input
+    sample_size = parse_args().samplesize
+    n_threads = parse_args().threads
+    n_permutations = parse_args().numperm
+    out_dir = parse_args().output
 
-data_path = 'data_autographiviridae_refseq/upstreams/early_with_clusters.gff'
-n_threads = 8
-n_permutations = 5000
+    os.makedirs(out_dir, exist_ok=False)
 
-gff_df = read_gff(data_path)
-loci_df = gff_df[['seq_id', 'ATTRIBUTE_clan']]
-args = [(loci_df, i) for i in range(n_permutations)]
-start = datetime.datetime.now()
+    gff_df = read_gff(data_path)
+    loci_df = gff_df[['seq_id', 'ATTRIBUTE_clan']]
+    args = [(loci_df, i) for i in range(n_permutations)]
+    start = datetime.datetime.now()
 
-with multiprocessing.Pool(processes=n_threads) as pool:
-    results = pool.map(write_perm_replica, args)
+    with multiprocessing.Pool(processes=n_threads) as pool:
+        results = pool.map(write_perm_replica, args)
 
-n_seconds = datetime.datetime.now() - start
-print(f'{datetime.datetime.now() - start} hours')
+    n_seconds = datetime.datetime.now() - start
+    print(f'{datetime.datetime.now() - start} hours')
