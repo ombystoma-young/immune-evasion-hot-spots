@@ -7,19 +7,24 @@ library(viridis)
 
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
-s0 <- read_seqs("data_autographiviridae_refseq/genomes/concatenated_genomes.fna")  # sequence
-g0 <- read_feats("data_autographiviridae_refseq/upstreams/early_with_clusters_phrogs.gff")  # proteins 
-f0 <- read.table("data_autographiviridae_refseq/tdrs/best_tdrs.tsv", sep='\t', header=FALSE)  
+s0 <- read_seqs("data_autographiviridae_meta/filtered_mags_flatten/concatenated_genomes.fna")  # sequence
+g0 <- read_feats("data_autographiviridae_meta/upstreams/early_with_clusters_phrogs.gff")  # proteins 
+f0 <- read.table("data_autographiviridae_meta/tdrs/best_tdrs.tsv", sep='\t', header=FALSE)  
 
 f0 <- bind_rows(select(f0, seq_id=V1, start=V2, end=V3),
                       select(f0, seq_id=V1, start=V6, end=V6))
-curated <- read.table('metadata/genomes_after_curation.txt')
+curated <- read.table('metadata/filtered_upstreams_nuccore.id')
+
+g0 <- g0 %>% mutate(seq_id = str_replace_all(seq_id, '@', '_'))
+s0 <- s0 %>% mutate(seq_id = str_replace_all(seq_id, '@', '_'))
+f0 <- f0 %>% mutate(seq_id = str_replace_all(seq_id, '@', '_'))
+curated <- curated %>% mutate(V1 = str_replace_all(V1, '@', '_'))
+
 not_in_curated <- s0 %>% filter(! seq_id %in% curated$V1)
 
-rnaps_tree <- read.tree("data_autographiviridae_refseq/known_proteins/trees/rnap_bootstrap_model_selection.iqtree.contree")
+rnaps_tree <- read.tree("data_autographiviridae_meta/known_adgs_analysis/trees/rnap_bootstrap_model_selection.iqtree.contree")
 t <- ggtree(rnaps_tree) + geom_tiplab(align=T, size=8) +
   xlim(0,7) + scale_y_continuous(expand=c(0.01, 0.7, 0.01, 0.7))
-t
 
 flips__ <- g0 %>% group_by(seq_id, strand) %>% 
   summarise(n()) %>%
@@ -34,13 +39,13 @@ p <- gggenomes(seqs=s0, genes=g0, feats = f0)  %>%
   gggenomes::flip(flips__$seq_id) %>%  # flip sequences
   gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
   geom_seq() +  # draw contig/chromosome lines
-  geom_seq_label(aes(label=seq_desc), size=10, nudge_y = -0.22) + # label each sequence by this caption
+  geom_seq_label(aes(label=seq_id), size=10, nudge_y = -0.22) + # label each sequence by this caption
   geom_gene(aes(fill=`clan_col`), intron_shape=0, size=12) +  # add gene arrows
   geom_gene_text(aes(label=`clu`), size=10) +  # add gene cluster text
   scale_fill_discrete("Main cluster product") +  # change fill, genes
   theme(legend.position = 'bottom', axis.text.x = element_text(size=35))  # change font size and legend position
 
-ggsave('pics/upstreams_jan.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) + 
+ggsave('data_autographiviridae_meta/pics/upstreams_march.pdf', t + p %>% pick_by_tree(t) + plot_layout(widths = c(1,5)) + 
                               theme(legend.position = 'none'), 
                             dpi=600,  height = 1.2 * 465, 
                           width = 50, limitsize = FALSE)

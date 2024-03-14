@@ -274,6 +274,30 @@ p3 <- gheatmap(p3, df3,  offset=6, width=.15,
 p3
 ggsave('pics/samase_tree_jan.svg', width=15, height = 9)
 
+
+df2 <- cbind(df2, row.names(df2))
+color_all_df <- color_branches_df %>% left_join(as.data.frame(df2), by=c('seq_id'='V2'))
+t <- ggtree(samase_tree,
+            branch.length = 'none',
+            layout = 'circular',
+            linewidth=1.2,
+            aes(color = clu, label = clu)
+)  %<+% color_all_df +
+  geom_point2(aes(fill = order, subset=(label %in% color_all_df$seq_id)), color='black', shape=21, size=2.5) +
+  #geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
+  #geom_point2(aes(subset=(label %in% clu_308$seq_id)), shape=21, size=2.5, fill='#721f81') +
+  # geom_hilight(node=478, fill="purple", alpha=0.3) +
+  geom_nodelab(color='firebrick')  + 
+  # geom_tiplab(show.legend = FALSE, align = TRUE) +
+  scale_color_brewer(na.value = "black", palette = 'Paired')+
+  scale_fill_brewer(na.value = "black", palette = 'Paired')
+
+t
+
+
+
+
+
 # drops <- c('KJ183192.1', 'JQ780163.1', 'OP413828.1')
 ocr_tree <- read.tree("data_autographiviridae_refseq/known_proteins/trees/ocr_bootstrap_model_selection.iqtree.contree")
 # ocr_tree <- groupOTU(ocr_tree, c('NC_001604.1'))
