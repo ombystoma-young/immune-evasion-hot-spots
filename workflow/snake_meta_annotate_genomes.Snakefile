@@ -123,21 +123,17 @@ rule parse_completeness_results:
 
 rule split_fasta:
     input:
-        sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}'),
-        filters = expand(os.path.join(config['checkv_output'], '{db}', 'complete_contigs.txt'),
-           db=['HuVirDB', 'GDV'])
+        sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}')
     output:
         directory(os.path.join(config['contigs_dir'], '{db}'))
     params:
         script = os.path.join(config['scripts'], 'split_fastas_meta.py'),
-        filter = lambda wc: "-f " + os.path.join(config['checkv_output'], f'{wc.db}', 'complete_contigs.txt')
-        if actions[wc.db] == 'check_v' else '',
-        batches = int(config['maxthreads']) * 3,
+        batches = int(config['maxthreads']) * 5,
         minlen = config['min_contig_len']
     conda: os.path.join(config['envs'], 'biopython.yml')
     shell:
         """
-        python {params.script} -i {input.sequences} -o {output} {params.filter} -b {params.batches} -l {params.minlen}
+        python {params.script} -i {input.sequences} -o {output} -b {params.batches} -l {params.minlen}
         """
 
 checkpoint move_all_contigs_in_one_folder:
