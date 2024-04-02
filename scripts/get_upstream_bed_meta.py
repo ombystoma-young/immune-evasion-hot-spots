@@ -297,6 +297,7 @@ class IntersectionMaster:
         self.upstreams = []
         # determine lengths of chromosomes
         self._get_lengths()
+        self._read_gff()
 
         for genome_id in self.rnaps.keys():
             rnap_data = self.rnaps[genome_id]
