@@ -276,11 +276,12 @@ rule find_upstreams_coordinates_meta:
         os.path.join(config['upstreams_dir'], 'early_meta.bed')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_bed_meta.py'),
-        distance = config['max_dist_from_pol']
+        distance = config['max_dist_from_pol'],
+        mincirclen = config['min_contig_len_circ']
     shell:
         """
         python {params.script} -r {input.rnaps} -i {input.intergenics} \
-        -l {input.lengths} -b {params.distance} -o {output}
+        -l {input.lengths} -b {params.distance} -o {output} -s {params.mincirclen}
         """
 
 

@@ -23,6 +23,8 @@ def parse_args():  # checked, okay
                         help='size of upstream, if there is no intergenics and TDRs')
     # parser.add_argument('-s', '--size', default=500, type=int, nargs='?',
     #                     help='minimal intergenic region size')
+    parser.add_argument('-s', '--defshort', default=35000, type=int, nargs='?',
+                        help='Length of contig to consider it to be incomplete')
     parser.add_argument('-o', '--output', default=None, type=str, nargs='?',
                         help='path to output bed file')
     return parser.parse_args()
@@ -48,17 +50,20 @@ class IntersectionMaster:
     def __init__(self, gff_path: str,
                  intergenics: dict,
                  lengths_file: str,
+                 shortif: int,
                  bp=5000):
         """
         :param gff_path: (str) path to representative genomes file gff
         :param lengths_file: (str) path to file with length of genomes
         :param intergenics: (dict) dict with top2 intergenic regions
         :param bp: (int) number of bases as "upstream", if there is no borders, such as TDR or intergenic region
+        :param shortif: (int) number of bases to consider contig as incomplete
         """
         self.gff = gff_path
         self.intergenics = intergenics
         self.bp = bp
         self.lengths_file = lengths_file
+        self._short = short
         self.upstreams = None
         self.rnaps = None
         self.tdrs = None
@@ -265,11 +270,12 @@ class IntersectionMaster:
             elif rnap_start < self.bp:
                 upstream_start = str(0)
                 upstream_end = str(rnap_end)
-                shift = self.bp - rnap_start
-                upstream_2_start = str(length - shift - 1)
-                upstream_2_end = str(length)
-                upstreams.append(
-                    [upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
+                if length >= self._short:
+                    shift = self.bp - rnap_start
+                    upstream_2_start = str(length - shift - 1)
+                    upstream_2_end = str(length)
+                    upstreams.append(
+                        [upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
             else:
                 raise ValueError("Something happened with coordinates")
 
@@ -283,11 +289,12 @@ class IntersectionMaster:
             elif length < rnap_end + self.bp:
                 upstream_start = str(rnap_start - 1)
                 upstream_end = str(length)
-                shift = rnap_end + self.bp - length
-                upstream_2_start = str(0)
-                upstream_2_end = str(shift)
-                upstreams.append(
-                    [upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
+                if length > self._short:
+                    shift = rnap_end + self.bp - length
+                    upstream_2_start = str(0)
+                    upstream_2_end = str(shift)
+                    upstreams.append(
+                        [upstream_2_start, upstream_2_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
             else:
                 raise ValueError("Something happened with coordinates")
         upstreams.append([upstream_start, upstream_end, '.', '0', upstream_strand, str(rnap_start), str(rnap_end)])
@@ -327,10 +334,12 @@ if __name__ == '__main__':
     lengths_file = parse_args().lengthstsv
     dist = parse_args().bp
     bed = parse_args().output
+    short = parse_args().derfshort
 
     intergenics = get_intergenics(integenics_path)
     im = IntersectionMaster(gff_path=gff,
                             intergenics=intergenics,
-                            lengths_file=lengths_file, bp=dist)
+                            lengths_file=lengths_file, bp=dist,
+                            shortif=short)
     im.find_upstreams()
     im.write_bed(bed)
