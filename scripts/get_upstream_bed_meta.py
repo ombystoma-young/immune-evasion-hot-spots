@@ -334,7 +334,7 @@ if __name__ == '__main__':
     lengths_file = parse_args().lengthstsv
     dist = parse_args().bp
     bed = parse_args().output
-    short = parse_args().derfshort
+    short = parse_args().defshort
 
     intergenics = get_intergenics(integenics_path)
     im = IntersectionMaster(gff_path=gff,
