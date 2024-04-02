@@ -53,10 +53,11 @@ too_long_genome <- chr_lens %>% filter(seq_len > max.gen) %>% pull(seq_id) %>% u
 # define distances
 ## intergenics 
 rnap_igs_join <- rnaps %>% left_join(intergenics, by='seq_id',
-                                     suffix = c('.rnap', '.ig'))
+                                     suffix = c('.rnap', '.ig')) %>% 
+                  left_join(chr_lens)
 
 # add mask to remove RNAP downstream if length is less than threshold
-rnap_igs_join %>% mutate(short_contig = (seq_len <= min.len.circ)) %>% 
+rnap_igs_join <- rnap_igs_join %>% mutate(short_contig = (seq_len <= min.len.circ)) %>% 
     mutate(filter_target = case_when(
                     !short_contig ~ FALSE,
                     strand == '+' & end.ig >= end.rnap  ~ TRUE,
