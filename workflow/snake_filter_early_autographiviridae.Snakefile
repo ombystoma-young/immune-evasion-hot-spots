@@ -244,10 +244,50 @@ rule find_upstreams_coordinated:
         -l {input.lengths} -f {input.filtered} -b {params.distance} -o {output}
         """
 
+rule filter_intergenics_meta:
+    input:
+        rnaps = os.path.join(config['annotation_dir'], 'concatenated_rnaps_only.gff'),
+        intergenics = os.path.join(config['intergenic_dir'], 'all_intergenic_with_length.tsv'),
+        lengths = os.path.join(config['intergenic_dir'], 'chromosome_lengths.bed'),
+    output:
+        igs = os.path.join(config['intergenic_dir'], 'best_intergenics_meta.tsv')
+    conda:
+        os.path.join(config['envs'], 'r-env.yml')
+    params:
+        script = os.path.join(config['scripts'], 'split_into_datasets_meta.R'),
+        maxdistinter = config['max_dist_to_pol_inter'],
+        mindistinter = config['min_dist_to_pol_inter'],
+        maxgen = config['max_genome_len'],
+        minleninter = config['min_intergenic_len'],
+        maxleninter = config['max_intergenic_len'],
+        mincirclen = config['min_contig_len_circ']
+    shell:
+        """
+        Rscript {params.script} {input.intergenics} {input.rnaps} {input.lengths} {params.maxdistinter} {params.mindistinter} {params.maxgen} {params.mincirclen} {params.minleninter} {params.maxleninter} {output.igs}
+        """
+
+
+rule find_upstreams_coordinates_meta:
+    input:
+        rnaps = os.path.join(config['annotation_dir'], 'concatenated_rnaps_only.gff'),
+        lengths = os.path.join(config['intergenic_dir'], 'chromosome_lengths.bed'),
+        intergenics = os.path.join(config['intergenic_dir'], 'best_intergenics_meta.tsv')
+    output:
+        os.path.join(config['upstreams_dir'], 'early_meta.bed')
+    params:
+        script = os.path.join(config['scripts'], 'get_upstream_bed_meta.py'),
+        distance = config['max_dist_from_pol']
+    shell:
+        """
+        python {params.script} -r {input.rnaps} -i {input.intergenics} \
+        -l {input.lengths} -b {params.distance} -o {output}
+        """
+
 
 rule get_upstream_genes:
     input:
-        bed = os.path.join(config['upstreams_dir'], 'early.bed'),
+        bed = os.path.join(config['upstreams_dir'], 'early.bed') if config['genomes_type'] == 'refseq'
+        else os.path.join(config['upstreams_dir'], 'early_meta.bed'),
         gff = os.path.join(config['annotation_dir'], 'concatenated.gff')
     output:
         gff = os.path.join(config['upstreams_dir'], 'early.gff')

@@ -17,6 +17,7 @@ min_tdr_len: 99
 min_tdr_de: 0.3
 masking_threshold: -3
 max_genome_len: 65000
+min_contig_len_circ: 35000
 max_dist_to_pol_tdr: 5000
 max_dist_to_pol_inter: 5000
 min_dist_to_pol_inter: 1000
