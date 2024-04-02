@@ -33,12 +33,12 @@ for sample in os.listdir(config['genomes_source']):
 rule all:
     input:
         os.path.join(config['upstreams_dir'], 'early.faa'),
-        txt=os.path.join(config['meta'],'filtered_upstreams_nuccore.id'),
-        tdrs=os.path.join(config['repeats_dir'],'best_tdrs.tsv'),
-        igs=os.path.join(config['intergenic_dir'],'best_intergenics.tsv'),
-        pics = [os.path.join(config['pics'],'diagnostic_plot_intergenic_dist_RNAP.pdf'),
-        os.path.join(config['pics'],'diagnostic_plot_tdr_RNAP.pdf'),
-        os.path.join(config['pics'],'diagnostic_plot_intergenic_RNAP.pdf')]
+        # txt=os.path.join(config['meta'],'filtered_upstreams_nuccore.id'),
+        # tdrs=os.path.join(config['repeats_dir'],'best_tdrs.tsv'),
+        # igs=os.path.join(config['intergenic_dir'],'best_intergenics.tsv'),
+        # pics = [os.path.join(config['pics'],'diagnostic_plot_intergenic_dist_RNAP.pdf'),
+        # os.path.join(config['pics'],'diagnostic_plot_tdr_RNAP.pdf'),
+        # os.path.join(config['pics'],'diagnostic_plot_intergenic_RNAP.pdf')]
         # pics = [os.path.join(config['pics'], 'diagnostic_plot_tdr_RNAP.png'),
         #         os.path.join(config['pics'], 'diagnostic_plot_intergenic_RNAP.png')],
         # filtered_upstreams = os.path.join(config['upstreams_dir'], 'early.faa')
