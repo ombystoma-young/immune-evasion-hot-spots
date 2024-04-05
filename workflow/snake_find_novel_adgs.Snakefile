@@ -21,7 +21,7 @@ rule filter_onegene_contigs:
     conda: os.path.join(config['envs'], 'num_sci_py.yml')
     shell:
         """
-        python {params.script} -i {input} -o {output}
+        python {params.script} -g {input} -o {output}
         """
 
 
