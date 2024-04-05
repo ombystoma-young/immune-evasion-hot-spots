@@ -11,15 +11,29 @@ rule all:
         # config['permutations_dir']
 
 
-rule permutation_test_2_define_min_score:
+rule filter_onegene_contigs:
     input:
         os.path.join(config['upstreams_dir'], 'early_with_clusters.gff')
+    output:
+        os.path.join(config['similarity_dir'], 'early_with_clusters_no_onegene_contigs.gff')
+    params:
+        script = os.path.join(config['scripts'], 'filter_onegene_contigs.py')
+    conda: os.path.join(config['envs'], 'num_sci_py.yml')
+    shell:
+        """
+        python {params.script} -i {input} -o {output}
+        """
+
+
+rule permutation_test_2_define_min_score:
+    input:
+        os.path.join(config['similarity_dir'], 'early_with_clusters_no_onegene_contigs.gff')
     output:
         directory(config['permutations_dir'])
     params:
         script = os.path.join(config['scripts'], 'permutation_test.py'),
         n_permutations = config['num_permutations']
-    threads: 8
+    threads: config['maxthreads']
     conda: os.path.join(config['envs'], 'num_sci_py.yml')
     shell:
         """
@@ -53,5 +67,5 @@ rule find_communities_of_loci:
         haircut_score=config['haircut_score_cl1']
     shell:
         """
-        java -jar {params.path} {input} --fluff --haircut {params.haircut_score} > {output}
+        java -jar {params.path} {input} -s 2 -d 0.25 --fluff --haircut {params.haircut_score} > {output}
         """

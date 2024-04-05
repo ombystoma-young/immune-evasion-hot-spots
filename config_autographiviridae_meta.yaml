@@ -93,11 +93,11 @@ trees_dir: 'data_autographiviridae_meta/known_adgs_analysis/trees'
 # find novel adgs
 similarity_dir: 'data_autographiviridae_meta/loci_similarity'
 permutations_dir: 'data_autographiviridae_meta/loci_similarity/permutations'
-num_permutations: 500
+num_permutations: 100
 
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'
 envs: 'envs'
 pics: 'data_autographiviridae_meta/pics'
-cl1_path: '~/Tools/cluster_one-1.0.jar'
+cl1_path: '~/tools/clusterone/cluster_one-1.0.jar'

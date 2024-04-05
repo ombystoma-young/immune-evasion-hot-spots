@@ -141,7 +141,7 @@ if __name__ == '__main__':
     n_permutations = parse_args().numperm
     out_file = parse_args().output
 
-    q95_perm_values = []
+    q99_perm_values = []
 
     # calculate scores
     gff_df = read_gff(data_path)
@@ -153,13 +153,13 @@ if __name__ == '__main__':
     replacement_score = scores_df_melted[scores_df_melted.value != float('+inf')].value.max()
     scores_df_melted_replaced = scores_df_melted.replace(float('+inf'), replacement_score + 1)
 
-    # calculate q0.95 value from permutations
+    # calculate q0.99 value from permutations
     for i in tqdm(range(n_permutations)):
         scores_df_melted_perm = pd.read_pickle(os.path.join(in_dir, f'{i}.pickle'))
         scores_df_melted_perm = scores_df_melted_perm[scores_df_melted_perm.index != scores_df_melted_perm.seq_id]
-        q95_perm_values.append(np.quantile(scores_df_melted_perm.value, .95))
+        q99_perm_values.append(np.quantile(scores_df_melted_perm.value, .99))
 
     # write results
-    q95_perm_values = np.array(q95_perm_values)
-    scores_df_melted[scores_df_melted.value >= np.quantile(q95_perm_values, .95)].loc[:, 'seq_id'].to_csv(out_file,
-                                                                                              sep='\t', header=False)
+    q99_perm_values = np.array(q99_perm_values)
+    scores_df_melted[scores_df_melted.value >= np.quantile(q99_perm_values, .99)].loc[:, 'seq_id'].to_csv(out_file,
+                                                                                                sep='\t', header=False)
