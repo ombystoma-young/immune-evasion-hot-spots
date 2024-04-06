@@ -42,7 +42,7 @@ rule permutation_test_2_define_min_score:
 
 rule find_edges_from_scores:
     input:
-        gff = os.path.join(config['upstreams_dir'],'early_with_clusters.gff'),
+        gff = os.path.join(config['upstreams_dir'], 'early_with_clusters_no_onegene_contigs.gff'),
         p = config['permutations_dir']
     output:
         os.path.join(config['similarity_dir'], 'edge_list_loci.tsv')
