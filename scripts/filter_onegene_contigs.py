@@ -79,6 +79,7 @@ def filter_contigs(in_gff: pd.DataFrame) -> pd.DataFrame:
     counts = df.groupby('seq_id')['ATTRIBUTE_ID'].agg(['count'])
     has_more_than_one_gene = list(counts.query('count > 1').index.values)
     df = df[df['seq_id'].isin(has_more_than_one_gene)]
+    df = df[df['seq_id'] != 'Rampelli_SM_40_NODE_4474_length_5087_cov_1.856916']
     return df
 
 
