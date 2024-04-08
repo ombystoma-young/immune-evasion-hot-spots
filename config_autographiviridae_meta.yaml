@@ -93,7 +93,7 @@ trees_dir: 'data_autographiviridae_meta/known_adgs_analysis/trees'
 # find novel adgs
 similarity_dir: 'data_autographiviridae_meta/loci_similarity'
 permutations_dir: 'data_autographiviridae_meta/loci_similarity/permutations'
-num_permutations: 100
+num_permutations: 500
 
 # DEFAULT
 scripts: 'scripts'
