@@ -276,7 +276,7 @@ rule find_upstreams_coordinates_meta:
         """
 
 
-rule get_upstream_genes:
+rule get_target_genes:
     input:
         bed = os.path.join(config['target_dir'], 'target.bed') if config['genomes_type'] == 'refseq'
         else os.path.join(config['target_dir'], 'target_meta.bed'),
@@ -291,7 +291,7 @@ rule get_upstream_genes:
         rm temp_file.bed
         """
 
-rule get_upstream_faa:
+rule get_target_faa:
     input:
         faa = os.path.join(config['annotation_dir'], 'concatenated.faa'),
         gff = os.path.join(config['target_dir'], 'target.gff'),
