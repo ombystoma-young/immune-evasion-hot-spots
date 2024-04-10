@@ -16,6 +16,21 @@ library(tidyverse)
 
 args <- commandArgs(trailingOnly=TRUE)
 
+
+# intergenic_bed <- 'data_autographiviridae_meta/intergenics/all_intergenic_with_length.tsv'
+# rnaps_gff <- 'data_autographiviridae_meta/annotation/concatenated_rnaps_only.gff'
+# lengths_bed <- 'data_autographiviridae_meta/intergenics/chromosome_lengths.bed'
+# max.dist.inter <- 5000
+# min.dist.inter <- 1000
+# max.gen <- 60000
+# min.len.circ <- 35000
+# min.len.inter <- 500
+# max.len.inter <- 3000
+# test_igs.tsv
+
+
+
+
 intergenic_bed <- args[1]
 rnaps_gff <- args[2]
 lengths_bed <- args[3]
