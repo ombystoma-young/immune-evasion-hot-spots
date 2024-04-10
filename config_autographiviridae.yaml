@@ -5,10 +5,11 @@ prefilter_ann: -1  # after PHANOTATE
 maxthreads: 10
 genomes_type: 'c-c-combo!'
 filter_strand: True
-maxram: 25G
+maxram: 55G
 maxmem: 80G
 # filtering genomes
 manual_choice_genomes: False
+dbapis_everywhere: False
 # if manual choise is True, specify path to file with genome IDs
 manual_choice_path: ''
 min_tdr_len: 99
