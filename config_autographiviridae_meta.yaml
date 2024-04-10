@@ -95,6 +95,7 @@ similarity_dir: 'data_autographiviridae_meta/loci_similarity'
 permutations_dir: 'data_autographiviridae_meta/loci_similarity/permutations'
 num_permutations: 500
 
+clans: '107_clan,67_clan'
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'
