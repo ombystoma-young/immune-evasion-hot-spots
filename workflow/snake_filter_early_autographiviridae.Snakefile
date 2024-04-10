@@ -2,15 +2,15 @@ import os
 
 configfile: 'config_autographiviridae_refseq.yaml'
 
-os.makedirs(config['repeats_dir'], exist_ok=True)
-os.makedirs(config['repeats_per_genome_dir'], exist_ok=True)
 os.makedirs(config['intergenic_dir'], exist_ok=True)
-os.makedirs(config['upstreams_dir'], exist_ok=True)
+os.makedirs(config['target_dir'], exist_ok=True)
 os.makedirs(config['pics'], exist_ok=True)
 
 # DEFINE PARAMETERS
-if config['genomes_type'] != 'meta':
+if config['genomes_type'] == 'refseq':
     meta_mode = ''
+    os.makedirs(config['repeats_dir'], exist_ok=True)
+    os.makedirs(config['repeats_per_genome_dir'], exist_ok=True)
 else:
     meta_mode = '--meta'
 
@@ -32,22 +32,13 @@ for sample in os.listdir(config['genomes_source']):
 
 rule all:
     input:
-        os.path.join(config['upstreams_dir'], 'early.faa'),
-        # txt=os.path.join(config['meta'],'filtered_upstreams_nuccore.id'),
-        # tdrs=os.path.join(config['repeats_dir'],'best_tdrs.tsv'),
-        # igs=os.path.join(config['intergenic_dir'],'best_intergenics.tsv'),
-        # pics = [os.path.join(config['pics'],'diagnostic_plot_intergenic_dist_RNAP.pdf'),
-        # os.path.join(config['pics'],'diagnostic_plot_tdr_RNAP.pdf'),
-        # os.path.join(config['pics'],'diagnostic_plot_intergenic_RNAP.pdf')]
-        # pics = [os.path.join(config['pics'], 'diagnostic_plot_tdr_RNAP.png'),
-        #         os.path.join(config['pics'], 'diagnostic_plot_intergenic_RNAP.png')],
-        # filtered_upstreams = os.path.join(config['upstreams_dir'], 'early.faa')
+        os.path.join(config['target_dir'], 'target.faa')
 
 
 rule extract_RNAP_coordinates:
     input:
         gff = os.path.join(config['annotation_dir'], 'concatenated.gff'),
-        meta_domains = os.path.join(config['meta'], 'rnap_phrogs.txt') if config['genomes_type'] != 'meta' else os.path.join(config['meta'], 'rnaps_hmm_list.txt')
+        meta_domains = os.path.join(config['meta'], 'rnap_phrogs.txt') if config['genomes_type'] == 'refseq' else os.path.join(config['meta'], 'rnaps_hmm_list.txt')
     output:
         os.path.join(config['annotation_dir'], 'concatenated_rnaps_only.gff')
     params: script = os.path.join(config['scripts'], 'extract_earliest_rnap.py')
@@ -63,14 +54,14 @@ rule extract_RNAP_coordinates:
 rule search_repeats:
     input:
         jsonl = os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl') if
-            config['genomes_type'] != 'meta' else
+            config['genomes_type'] == 'refseq' else
                 os.path.join(config['genomes_source'], '{sample}.fna')
     output:
         paf = os.path.join(config['repeats_per_genome_dir'], '{sample}.paf')
     params:
         params='-X -N 50 -p 0.1 -c',
         path = os.path.join(config['genomes_source'], '{sample}', '*.fna') if
-            config['genomes_type'] != 'meta' else
+            config['genomes_type'] == 'refseq' else
                 os.path.join(config['genomes_source'], '{sample}.fna')
     threads: 1
     conda:
@@ -126,13 +117,13 @@ rule create_masked_low_score:
 rule concat_fasta:
     input:
         expand(os.path.join(config['genomes_source'], '{sample}', 'sequence_report.jsonl'), sample=samples) if
-            config['genomes_type'] != 'meta' else
+            config['genomes_type'] == 'refseq' else
                 expand(os.path.join(config['genomes_source'], '{sample}.fna'), sample=samples)
     output:
         os.path.join(config['genomes_source'], 'concatenated_genomes.fna')
     params:
         paths = os.path.join(config['genomes_source'], '*', '*.fna') if
-            config['genomes_type'] != 'meta' else
+            config['genomes_type'] == 'refseq' else
                 os.path.join(config['genomes_source'], '*.fna')
     shell:
         """
@@ -226,7 +217,7 @@ rule filter_based_on_distance:
         """
 
 
-rule find_upstreams_coordinated:
+rule find_upstreams_coordinates:
     input:
         rnaps = os.path.join(config['annotation_dir'], 'concatenated_rnaps_only.gff'),
         tdrs = os.path.join(config['repeats_dir'], 'best_tdrs.tsv'),
@@ -234,7 +225,7 @@ rule find_upstreams_coordinated:
         lengths = os.path.join(config['intergenic_dir'], 'chromosome_lengths.bed'),
         filtered = os.path.join(config['meta'], 'filtered_upstreams_nuccore.id') if not config['manual_choice_genomes'] else config['manual_choice_path']
     output:
-        os.path.join(config['upstreams_dir'], 'early.bed')
+        os.path.join(config['target_dir'], 'target.bed')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_bed.py'),
         distance = config['max_dist_from_pol'],
@@ -273,7 +264,7 @@ rule find_upstreams_coordinates_meta:
         lengths = os.path.join(config['intergenic_dir'], 'chromosome_lengths.bed'),
         intergenics = os.path.join(config['intergenic_dir'], 'best_intergenics_meta.tsv')
     output:
-        os.path.join(config['upstreams_dir'], 'early_meta.bed')
+        os.path.join(config['target_dir'], 'target_meta.bed')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_bed_meta.py'),
         distance = config['max_dist_from_pol'],
@@ -287,11 +278,11 @@ rule find_upstreams_coordinates_meta:
 
 rule get_upstream_genes:
     input:
-        bed = os.path.join(config['upstreams_dir'], 'early.bed') if config['genomes_type'] == 'refseq'
-        else os.path.join(config['upstreams_dir'], 'early_meta.bed'),
+        bed = os.path.join(config['target_dir'], 'target.bed') if config['genomes_type'] == 'refseq'
+        else os.path.join(config['target_dir'], 'target_meta.bed'),
         gff = os.path.join(config['annotation_dir'], 'concatenated.gff')
     output:
-        gff = os.path.join(config['upstreams_dir'], 'early.gff')
+        gff = os.path.join(config['target_dir'], 'target.gff')
     conda: os.path.join(config['envs'], 'bedtools.yml')
     shell:
         """
@@ -303,9 +294,9 @@ rule get_upstream_genes:
 rule get_upstream_faa:
     input:
         faa = os.path.join(config['annotation_dir'], 'concatenated.faa'),
-        gff = os.path.join(config['upstreams_dir'], 'early.gff'),
+        gff = os.path.join(config['target_dir'], 'target.gff'),
     output:
-        faa_total = os.path.join(config['upstreams_dir'], 'early.faa')
+        faa_total = os.path.join(config['target_dir'], 'target.faa')
     params:
         script = os.path.join(config['scripts'], 'get_upstream_proteins_faa.py')
     conda: os.path.join(config['envs'], 'biopython.yml')
