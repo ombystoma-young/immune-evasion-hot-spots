@@ -81,7 +81,7 @@ similarity_dir: 'data_autographiviridae/loci_similarity'
 permutations_dir: 'data_autographiviridae/loci_similarity/permutations'
 num_permutations: 1000
 
-clans: '###'
+clans: '33_clan&4_clan, 8_clan, 33_clan&22_clan, 25_clan, 52_clan&22_clan, 25_clan&22_clan'
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'

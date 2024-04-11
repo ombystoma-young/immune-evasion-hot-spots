@@ -18,7 +18,7 @@ def parse_args():
     parser.add_argument('-e', '--edgelist', default=None, type=str, nargs='?',
                         help='path to edgelist tsv file with information about links between loci (means similarity)')
     parser.add_argument('-m', '--markers', default=None, type=str, nargs='?',
-                        help='comma based list of target clans, e.g. "10_clan,106_pair"')
+                        help='& separated list of target clans, e.g. "10_clan&106_pair"')
     parser.add_argument('-o', '--outdir', default='.', type=str, nargs='?',
                         help='output directory')
     return parser.parse_args()
@@ -184,7 +184,7 @@ if __name__ == '__main__':
     markers_str = parse_args().markers
     outdir = parse_args().outdir
 
-    markers = markers_str.split(',')
+    markers = markers_str.split('&')
 
     # read gff
     gff_df = read_gff(gff_path)
