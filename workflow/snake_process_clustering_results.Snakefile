@@ -150,7 +150,7 @@ rule add_phrogs_descr_to_gff:
         gff = os.path.join(config['target_dir'], 'target_with_clusters_phrogs.gff')
     params:
         script = os.path.join(config['scripts'], 'add_phrog_description_to_gff.py'),
-        path_phrogs_out = f"-t {os.path.join(config['domains_tables_dir'], 'target_proteins_phrogs_with_descr.tsv')}" if config['genomes_type'] == 'meta' else ''
+        path_phrogs_out = f"-t {os.path.join(config['domains_tables_dir'], 'target_proteins_phrogs_with_descr.tsv')}" if config['genomes_type'] != 'refseq' else ''
     shell:
         """
         python {params.script} {params.path_phrogs_out} -i {input.gff} -p {input.tsv} -o {output.gff} 
