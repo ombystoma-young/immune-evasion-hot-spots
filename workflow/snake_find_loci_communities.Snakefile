@@ -89,7 +89,7 @@ rule find_loci_similarity_info:
         script = os.path.join(config['scripts'], 'extract_loci_similarity_info.py'),
         out_dir = config['similarity_dir'],
         markers = config['clans']
-    conda: os.path.join(config['envs'], 'num_sci_py.yml')
+    conda: os.path.join(config['envs'], 'networkx_and_pandas.yml')
     shell:
         """
         python {params.script} -c {input.c} -g {input.gff} -e {input.edges} -m {params.markers} -o {params.out_dir}

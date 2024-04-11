@@ -1,0 +1,11 @@
+name: snake_num_sci_py
+channels:
+ - anaconda
+ - conda-forge
+dependencies:
+ - python=3.11.3
+ - numpy
+ - pandas
+ - scipy
+ - tqdm
+ - networkx=2.7.1
