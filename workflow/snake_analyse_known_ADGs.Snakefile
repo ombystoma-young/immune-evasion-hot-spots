@@ -74,7 +74,7 @@ rule all:
 
 rule select_cluster_representatives:
     input:
-        os.path.join(config['upstreams_dir'], 'early_with_clusters_phrogs.gff')
+        os.path.join(config['upstreams_dir'], 'target_with_clusters_phrogs.gff')
     output:
         os.path.join(config['known_interest_dir'], 'upstreams_{family}.gff')
     params:
@@ -87,7 +87,7 @@ rule select_cluster_representatives:
 
 rule get_protein_ids:
     input:
-        os.path.join(config['similarity_dir'], 'early_with_clusters_phrogs_within_communities.gff')
+        os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff')
     output:
         os.path.join(config['known_interest_dir'], 'protein_ids_{family}.tsv')
     shell:
@@ -99,7 +99,7 @@ rule get_protein_ids:
 # BLOCK ALIGN ANTIDEFENCE PROTEINS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
 rule get_cluster_faa:
     input:
-        faa = os.path.join(config['upstreams_dir'], 'early.faa'),
+        faa = os.path.join(config['upstreams_dir'], 'target.faa'),
         tsv = os.path.join(config['known_interest_dir'], 'protein_ids_{family}.tsv')
     output:
         faa = os.path.join(config['known_interest_dir'],  'upsteam_{family}.faa')
@@ -166,7 +166,7 @@ rule build_tree_iqtree:
 
 rule extract_representatives:
     input:
-        fa = config['early_msa_unpacked_dir']
+        fa = config['target_msa_unpacked_dir']
     output:
         os.path.join(config['known_interest_dir'], 'representatives_{family}.faa')
     params: clu_nums = lambda wc: ','.join([str(i) for i in clu_files[wc.family]]),
