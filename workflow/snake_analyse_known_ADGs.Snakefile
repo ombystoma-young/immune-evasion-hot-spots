@@ -74,9 +74,9 @@ rule all:
 
 rule select_cluster_representatives:
     input:
-        os.path.join(config['upstreams_dir'], 'target_with_clusters_phrogs.gff')
+        os.path.join(config['target_dir'], 'target_with_clusters_phrogs.gff')
     output:
-        os.path.join(config['known_interest_dir'], 'upstreams_{family}.gff')
+        os.path.join(config['known_interest_dir'], 'target_{family}.gff')
     params:
         keyword=lambda wildcards: clu_num[f'{wildcards.family}']
     shell:
@@ -99,7 +99,7 @@ rule get_protein_ids:
 # BLOCK ALIGN ANTIDEFENCE PROTEINS FOR BEST DATASET: MAFFT + TRIMAL + IQTREE
 rule get_cluster_faa:
     input:
-        faa = os.path.join(config['upstreams_dir'], 'target.faa'),
+        faa = os.path.join(config['target_dir'], 'target.faa'),
         tsv = os.path.join(config['known_interest_dir'], 'protein_ids_{family}.tsv')
     output:
         faa = os.path.join(config['known_interest_dir'],  'upsteam_{family}.faa')
