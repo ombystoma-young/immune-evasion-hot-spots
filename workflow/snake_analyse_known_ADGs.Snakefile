@@ -21,11 +21,18 @@ def create_search_string(nums: list) -> str:
 #kinases = [21, 75, 237, 416, 622, 1390, 1458,
 #            1659, 2684, 2865, 3132, 3521, 3566, 3654]
 
-rnaps = [7905, 3093, 4851, 6262, 2689, 1423, 4636, 5335, 3763]
-samases = [4422, 7327, 3809]
-ocrs = [3892, 4935, 7170, 1528]
-kinases = [4877, 364, 3817, 4632, 2103, 3212]
-arda = [8435, 3512, 6059]
+#rnaps = [7905, 3093, 4851, 6262, 2689, 1423, 4636, 5335, 3763]
+#samases = [4422, 7327, 3809]
+#ocrs = [3892, 4935, 7170, 1528]
+#kinases = [4877, 364, 3817, 4632, 2103, 3212]
+#arda = [8435, 3512, 6059]
+
+rnaps = [1264]
+samases = [1180, 12011, 1511, 17333, 175, 3643, 4202, 9717, 8990, 17415, 2290]
+ocrs = [14462, 15652, 17328, 6958, 8013, 8030, 8611]
+kinases = [10265, 10700, 1459, 15065, 15623,
+           17364, 2411, 2835, 2969, 3025, 9668]
+
 
 #rnaps = [665, 2336, 499, 2679, 2003, 3009, 285, 558, 1244, 1175, 2670, 382, 677]
 #samases = [365, 2059, 957]
@@ -38,28 +45,28 @@ clusters = ['ocr', 'samase', 'rnap', 'arda']
 clu_nums_ocr_str = create_search_string(ocrs)
 clu_nums_rnaps_str = create_search_string(rnaps)
 clu_nums_samase_str = create_search_string(samases)
-clu_nums_arda_str = create_search_string(arda)
+#clu_nums_arda_str = create_search_string(arda)
 clu_nums_kinases_str = create_search_string(kinases)
 
 clu_num = {'ocr': clu_nums_ocr_str,
            'samase': clu_nums_samase_str,
            'rnap': clu_nums_rnaps_str,
-           'arda': clu_nums_arda_str,
+           #'arda': clu_nums_arda_str,
            'kinase': clu_nums_kinases_str
            }
 
 clu_files = {'ocr': ocrs,
            'samase': samases,
            'rnap': rnaps,
-           'arda': arda,
+           #'arda': arda,
            'kinase': kinases
            #  'interest': [3030, 3020, 1677, 516, 3704]
              }
-# clusters_exp = ['ocr', 'samase', 'rnap', 'kinase', 'interest']
-clusters_exp = ['ocr', 'samase', 'rnap', 'arda']
+# clusters_exp = ['ocr', 'samase', 'rnap','arda', 'kinase', 'interest']
+clusters_exp = ['ocr', 'samase', 'rnap', ]
 rule all:
     input:
-        expand([os.path.join(config['trees_dir'], '{family}_fasttree.treefile'),
+        expand([os.path.join(config['trees_dir'], '{family}_bootstrap_model_selection.iqtree.treefile'),
                 os.path.join(config['alignments_trimmed_dir'], 'trimmed_{family}.mafft.faa')],
                 family=clusters),
         # expand(os.path.join(config['alignments_dir'],'representatives_mafft_{family}.svg'),
