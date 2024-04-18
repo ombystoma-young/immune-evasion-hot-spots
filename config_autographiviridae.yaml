@@ -47,7 +47,7 @@ genomes_source: 'data_autographiviridae/genomes'
 mmseqs_db: 'data_autographiviridae/mmseqs_dbs'
 mmseqs_temp: 'mmseqs_temp'
 
-
+# snake_clustering
 target_prot_db_dir:  'data_autographiviridae/mmseqs_dbs/target_proteome_db'
 target_clu_db_dir:  'data_autographiviridae/mmseqs_dbs/target_clu_proteome_db'
 target_clu_reprs_db_dir: 'data_autographiviridae/mmseqs_dbs/target_clu_reprs_db'
@@ -60,28 +60,28 @@ target_msa_unpacked_dir: 'data_autographiviridae/mmseqs_dbs/target_msa/msa_unpac
 
 target_clans_info_dir: 'data_autographiviridae/clans_pre_info'
 target_clans_concat_dir: 'data_autographiviridae/clans_info'
-
+# snake_find_target_proteins_properties
 domains_dir: 'data_autographiviridae/domains'
 domains_tables_dir: 'data_autographiviridae/domains/tables'
 target_prot_dom_db_dir:  'data_autographiviridae/mmseqs_dbs/target_proteome_domains_db'
 
-
+# snake_filter_target_loci
 intergenic_dir: 'data_autographiviridae/intergenics'
 
 target_dir: 'data_autographiviridae/target_loci'
 
-# analyse known adgs
+# snake_analyse_known_adgs
 known_interest_dir: 'data_autographiviridae/known_adgs_analysis'
 alignments_dir: 'data_autographiviridae/known_adgs_analysis/alignments'
 alignments_trimmed_dir: 'data_autographiviridae/known_adgs_analysis/alignments_trimmed'
 trees_dir: 'data_autographiviridae/known_adgs_analysis/trees'
 
-# find novel adgs
+# snake_find_loci_communities
 similarity_dir: 'data_autographiviridae/loci_similarity'
 permutations_dir: 'data_autographiviridae/loci_similarity/permutations'
 num_permutations: 1000
-
 clans: '"33_clan&4_clan, 8_clan, 33_clan&22_clan, 25_clan, 52_clan&22_clan, 25_clan&22_clan"'
+
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'
