@@ -10,9 +10,10 @@ library(stringr)
 library(gridExtra)
 library(RColorBrewer)
 
-col_pal <- brewer.pal(n = 8, name = "Dark2")
+col_pal <- brewer.pal(n = 8, name = "Set3")
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
+
 s0 <- read_seqs("data_autographiviridae_refseq/genomes/concatenated_genomes.fna") %>% 
   select(seq_id, seq_desc)
 s0 <- s0 %>% mutate(seq_desc = str_split(seq_desc, ",", simplify = T)[, 1]) %>% 
@@ -53,7 +54,7 @@ s1 <- s1 %>% mutate(genus = case_when(
     .default = C
   )) %>% 
   mutate(order = case_when(
-    genus == 'Escherichia' ~ 'Escherichia',
+    genus == 'Escherichia' ~ 'Enterobacterales',
     genus == 'Synechococcus' ~ 'Synechococcus',
     genus == 'Rhizobium' ~ 'Hyphomicrobiales',
     .default = order)) %>% 
@@ -210,15 +211,16 @@ samase_tree$node.label <- a
 t <- ggtree(samase_tree,
             branch.length = 'none',
             layout = 'circular',
+            linewidth=1.5,
             aes(color = clu, label = clu)
             )  %<+% color_branches_df +
   geom_point2(aes(subset=(label == 'NC_003298.1')), shape=23, size=2.5, fill='red') +
   #geom_point2(aes(subset=(label %in% clu_289$seq_id)), shape=21, size=2.5, fill='#31aff5') +
   #geom_point2(aes(subset=(label %in% clu_308$seq_id)), shape=21, size=2.5, fill='#721f81') +
   # geom_hilight(node=478, fill="purple", alpha=0.3) +
-  geom_nodelab(color='firebrick')  + 
+  geom_nodelab(color='red')  + 
  # geom_tiplab(show.legend = FALSE, align = TRUE) +
-  scale_color_brewer(na.value = "black", palette = 'Dark2')
+  scale_color_brewer(na.value = "black", palette = 'Set3')
 
   # geom_tiplab(offset = 0.5, align=T, size=2) +
   # scale_color_manual(values = c(0,1), aesthetics = "alpha") 
@@ -240,7 +242,7 @@ colors_ <- c('Both'=col_pal[1], 'SAMase'=col_pal[2], 'Ocr'=col_pal[3], 'No'='#ff
 
 colors_bac <- c('Escherichia'=col_pal[4], 'Vibrionales'= col_pal[2], 
                 'Pseudomonadales'=col_pal[1], 
-                'Enterobacterales'=col_pal[3], 'Other'=col_pal[8])
+                'Enterobacterales'=col_pal[3], 'Other'=col_pal[9])
 
 colors_phage <- c('Molineuxvirinae'=col_pal[6], 'Studiervirinae'=col_pal[5], 
                   'Colwellvirinae'=col_pal[7], 'Other'=col_pal[8])
@@ -272,7 +274,7 @@ p3 <- gheatmap(p3, df3,  offset=6, width=.15,
                     breaks = c('Studiervirinae', 'Molineuxvirinae', 
                                'Colwellvirinae',  'Other')) + ggtitle('SAMase')
 p3
-ggsave('pics/samase_tree_jan.svg', width=15, height = 9)
+ggsave('pics/samase_tree_jan_may.svg', width=15, height = 9)
 
 
 df2 <- cbind(df2, row.names(df2))
@@ -309,6 +311,7 @@ ocr_tree$node.label <- a
 t <- ggtree(ocr_tree,
             branch.length = 'none',
             layout='circular',
+            linewidth=1.6,
             aes(color = clu, label = clu)
             )  %<+% color_branches_ocr_df +
   geom_point2(aes(subset=(label == 'NC_001604.1')), shape=23, size=2.5, fill='red') +
@@ -318,7 +321,7 @@ t <- ggtree(ocr_tree,
   # geom_tippoint(aes(alpha = group), col = "red") +
    scale_color_manual(values = c(0,1), aesthetics = "alpha") +
  # geom_tiplab(offset = 0.22, align=T, size=2)+
- geom_nodelab(color='firebrick') +
+ geom_nodelab(color='red') +
   theme(legend.position = 'none') +
   scale_color_brewer(na.value = "black", palette = 'Dark2')# + geom_tiplab2(size=2, hjust=8)
 t
@@ -353,6 +356,6 @@ p4 <- gheatmap(p4, df3, offset=4.5, width=.15,
                                'Colwellvirinae',  'Other')) + ggtitle('Ocr')
 
 p4 
-ggsave('pics/ocr_tree_jan.svg', width=15, height = 9)
+ggsave('pics/ocr_tree_may.svg', width=15, height = 9)
 
 p3 + p4

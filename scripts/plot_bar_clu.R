@@ -2,12 +2,12 @@ library(tidyverse)
 library(ggpubr)
 wd <- 'work_dir/anti_defence/anti_defence_pipeline/'
 setwd(wd)
-in_path <- 'data_autographiviridae_refseq/clans_info/res_table.tsv'
+in_path <- 'data_autographiviridae/loci_similarity/res_table_short_within_communities.tsv'
 
 res_df <- read.table(in_path, sep='\t',
                      header=TRUE)
 
-clans <- read.table('data_autographiviridae_refseq/clans_info/clans_wide_for_sankey.tsv',
+clans <- read.table('data_autographiviridae/clans_info/clans_wide_for_sankey.tsv',
                     sep='\t',
                     col.names = c('source', 'target'),
                     na.strings = "") 
@@ -49,9 +49,15 @@ bar_df <- clans %>% group_by(target) %>%
   summarize(s = sum(num_reprs)) %>% 
   left_join(res_df, by=c('target'='clan'))
 
-in_path <- 'data_autographiviridae_refseq/clans_info/res_table_long.tsv'
+in_path <- 'data_autographiviridae/loci_similarity/res_table_long_within_communities.tsv'
 res_df <- read.table(in_path, sep='\t',
-                     header=TRUE, na.strings = '')
+                     header=FALSE, na.strings = '',
+                     col.names = c('clu',	'prot',	'prelim_info',	
+                                   'phrog',	'annot',	'phrog_category',	
+                                   'pfam_dom',	'pfam_id',	'apis',	
+                                   'dbapis_clan_id',	'apis_genes',	
+                                   'defense_systems',	'seq',	
+                                   'length',	'pi',	'clan'))
 res_df <- res_df %>%  mutate(annot_no_hypo = case_when(
                                                   !is.na(prelim_info) ~ prelim_info,
                                                   annot == 'hypothetical protein' & is.na(pfam_dom) ~ NA,
@@ -68,17 +74,17 @@ res_df_ <- res_df %>%
 
 res_df_ <- res_df_ %>% 
            arrange(-Counts) %>% 
-           filter(Counts > 30)
+           filter(Counts > 10)
 res_df_ <- res_df_ %>% mutate(func = ifelse(str_detect(func, 'kinase'), 'kinase', func))
 
 res_df_ <- cbind(res_df_, ord = nrow(res_df_):1)
 res_df_ <- res_df_ %>% mutate(has_func = !is.na(func))   
-res_df_ <- res_df_ %>% mutate(func = if_else(is.na(func), 'hypo', func))
-
+res_df_ <- res_df_ %>% mutate(func = if_else(is.na(func), '', func))
+res_df_ <- res_df_ %>% mutate(func = paste(func, clan, sep=', '))
 ggbarplot(res_df_, x = "ord", y = "Counts",
            fill = 'has_func',
            sorting = "descending",                        # Sort value in descending order
-          palette='Dark2',
+          palette='Set3',
           font.label = list(size = 15,
                             vjust = -1),
           width = 0.6,     
@@ -92,5 +98,5 @@ ggbarplot(res_df_, x = "ord", y = "Counts",
   theme(legend.position = 'bottom',
         axis.text.y = element_text(angle=0))
 
-ggsave('pics/barplot_jan.pdf', width=8, height = 13)
+ggsave('data_autographiviridae/pics/barplot_may.pdf', width=8, height = 15)
 

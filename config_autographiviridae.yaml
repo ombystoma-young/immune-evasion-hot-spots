@@ -3,18 +3,20 @@
 # annotation
 prefilter_ann: -1  # after PHANOTATE
 maxthreads: 10
-genomes_type: 'refseq'
+genomes_type: 'c-c-combo!'
 filter_strand: True
-maxram: 25G
+maxram: 55G
 maxmem: 80G
 # filtering genomes
-manual_choice_genomes: True
+manual_choice_genomes: False
+dbapis_everywhere: False
 # if manual choise is True, specify path to file with genome IDs
-manual_choice_path: 'metadata/genomes_after_curation.txt'
+manual_choice_path: ''
 min_tdr_len: 99
 min_tdr_de: 0.3
 masking_threshold: -3
 max_genome_len: 65000
+min_contig_len_circ: 35000
 max_dist_to_pol_tdr: 5000
 max_dist_to_pol_inter: 5000
 min_dist_to_pol_inter: 1000
@@ -28,54 +30,66 @@ hhsearch_eval_thres: 0.00005
 haircut_score_cl1: 0.4
 hmmer_eval_thres: 0.0005
 # DIRS
-genomes_source: 'data/genomes'
-phrog_db: '~/Tools/databases/phrogs_v_4'
-phrog_desc: '~/Tools/databases/phrogs_v_4/phrog_annot_v4.tsv'
-pfam_path: '~/Tools/databases/pfam_21_11_15/Pfam-A.hmm'
-dbapis_path:  '~/Tools/databases/dbAPIS.hmm'
-dbapis_desc:  '~/Tools/databases/dbAPIS_info.tsv'
+phrog_db: '~/dbs/phrogs_v_4'
+phrog_desc: '../../dbs/phrogs_v_4/phrog_annot_v4.tsv'
+pfam_path: '~/dbs/pfam_21_11_15/Pfam-A.hmm'
+dbapis_path:  '~/dbs/dbapis/dbAPIS.hmm'
+dbapis_desc:  '~/dbs/dbapis/dbAPIS_info.tsv'
+taxdump_path: '~/Tools/databases/ncbi_folder/taxdump'
 # OUTPUT DIRS
+data: 'data_autographiviridae'
 # snake_annotate_genomes:
-annotation_dir: 'data/annotation'
-annotation_dir_nucl: 'data/annotation/cds'
-annotation_dir_prot: 'data/annotation/prot'
-annotation_dir_table: 'data/annotation/coords'
+annotation_dir: 'data_autographiviridae/annotation'
+annotation_dir_nucl: 'data_autographiviridae/annotation/cds'
+annotation_dir_prot: 'data_autographiviridae/annotation/prot'
+annotation_dir_table: 'data_autographiviridae/annotation/coords'
+genomes_source: 'data_autographiviridae/genomes'
 
-mmseqs_db: 'data/mmseqs_dbs'
+mmseqs_db: 'data_autographiviridae/mmseqs_dbs'
 mmseqs_temp: 'mmseqs_temp'
 
-prot_db_dir: 'data/mmseqs_dbs/whole_proteome_db'
-prot_clu_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_db'
-prot_clu_reprs_db_dir: 'data/mmseqs_dbs/whole_proteome_clu_reprs_db'
+# snake_clustering
+target_prot_db_dir:  'data_autographiviridae/mmseqs_dbs/target_proteome_db'
+target_clu_db_dir:  'data_autographiviridae/mmseqs_dbs/target_clu_proteome_db'
+target_clu_reprs_db_dir: 'data_autographiviridae/mmseqs_dbs/target_clu_reprs_db'
+target_clu_msa_db_dir: 'data_autographiviridae/mmseqs_dbs/target_msa_db'
+target_msa_unpacked_db_dir: 'data_autographiviridae/mmseqs_dbs/target_msa_db/msa_unpacked'
+target_hhsuite_db_dir: 'data_autographiviridae/mmseqs_dbs/target_msa_db/hhdb'
 
-early_prot_db_dir:  'data/mmseqs_dbs/early_proteome_db'
-early_clu_db_dir:  'data/mmseqs_dbs/early_clu_proteome_db'
-early_clu_reprs_db_dir: 'data/mmseqs_dbs/early_clu_reprs_db'
-early_clu_msa_db_dir: 'data/mmseqs_dbs/early_msa_db'
-early_msa_unpacked_db_dir: 'data/mmseqs_dbs/early_msa_db/msa_unpacked'
-early_hhsuite_db_dir: 'data/mmseqs_dbs/early_msa_db/hhdb'
+target_clu_msa_dir: 'data_autographiviridae/mmseqs_dbs/target_msa'
+target_msa_unpacked_dir: 'data_autographiviridae/mmseqs_dbs/target_msa/msa_unpacked'
 
-early_clu_msa_dir: 'data/mmseqs_dbs/early_msa'
-early_msa_unpacked_dir: 'data/mmseqs_dbs/early_msa/msa_unpacked'
+target_clans_info_dir: 'data_autographiviridae/clans_pre_info'
+target_clans_concat_dir: 'data_autographiviridae/clans_info'
+# snake_find_target_proteins_properties
+domains_dir: 'data_autographiviridae/domains'
+domains_tables_dir: 'data_autographiviridae/domains/tables'
+target_prot_dom_db_dir:  'data_autographiviridae/mmseqs_dbs/target_proteome_domains_db'
 
-early_clans_info_dir: 'data/clans_pre_info'
-early_clans_concat_dir: 'data/clans_info'
+# snake_filter_target_loci
+intergenic_dir: 'data_autographiviridae/intergenics'
 
-domains_dir: 'data/domains'
-domains_tables_dir: 'data/domains/tables'
-early_prot_dom_db_dir:  'data/mmseqs_dbs/early_proteome_domains_db'
+target_dir: 'data_autographiviridae/target_loci'
 
-repeats_dir: 'data/tdrs'
-repeats_per_genome_dir: 'data/tdrs/per_genome'
+# snake_analyse_known_adgs
+known_interest_dir: 'data_autographiviridae/known_adgs_analysis'
+alignments_dir: 'data_autographiviridae/known_adgs_analysis/alignments'
+alignments_trimmed_dir: 'data_autographiviridae/known_adgs_analysis/alignments_trimmed'
+trees_dir: 'data_autographiviridae/known_adgs_analysis/trees'
 
-intergenic_dir: 'data/intergenics'
-
-upstreams_dir: 'data/upstreams'
+# snake_find_loci_communities
+similarity_dir: 'data_autographiviridae/loci_similarity'
+permutations_dir: 'data_autographiviridae/loci_similarity/permutations'
+num_permutations: 1000
+clans: '"33_clan&4_clan, 8_clan, 33_clan&22_clan, 25_clan, 52_clan&22_clan, 25_clan&25_clan&22_clan&52_clan"'
+community_ids_dir: 'data_autographiviridae/loci_similarity/communities'
 
 # DEFAULT
 scripts: 'scripts'
 meta: 'metadata'
 envs: 'envs'
-pics: 'pics'
-cl1_path: '~/Tools/cluster_one-1.0.jar'
-# TODO: ADD dN/dS for host-takeover, anti-defense proteins, rnaps and somethings???
+pics: 'data_autographiviridae/pics'
+cl1_path: '~/tools/clusterone/cluster_one-1.0.jar'
+
+ncbi_metadata: 'data_autographiviridae_refseq/genomes'
+lineage_dir: 'metadata/lineage'
