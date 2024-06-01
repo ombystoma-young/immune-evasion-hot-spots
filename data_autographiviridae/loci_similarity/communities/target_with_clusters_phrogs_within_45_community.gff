@@ -1,0 +1,38 @@
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	7233	9848	-8.972695228062566e+20	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.7233;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	10095	10481	-2780.8128	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.10095;clu=2621;clan=1852_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	10773	10871	-0.5724	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.10773;clu=3180;clan=2051_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	10947	11042	-0.2311	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.10947;clu=3739;clan=2813_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	11061	11210	-85.4144	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.11061;clu=4298;clan=96_clan
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	11352	11477	-4.6705	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.11352;clu=8341;clan=2254_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	11529	11624	-0.2325	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.11529;clu=8900;clan=1781_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	11818	11913	-8.3565	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.11818;clu=5975;clan=13_clan
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	11982	12140	-16.5424	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.11982;clu=6534;clan=139_clan
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	12310	12450	-21.1684	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.12310;clu=7093;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	12510	13091	-11134.188	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.12510;clu=4262;clan=2353_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	13461	13580	-5.4721	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.13461;clu=8211;clan=13_clan;PHROGs=phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	13599	13886	-78.4226	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.13599;clu=8770;clan=13_clan;PHROGs=phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	13859	13972	-0.0788	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.13859;clu=9329;clan=1119_mono
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	14079	14384	-305.0344	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.14079;clu=11069;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984	PHANOTATE	CDS	14730	14843	-6.8889	-	0	ID=SAMN05827183_a1_ct4984@circular@Podoviridae__sp._ctWx7984.14730;clu=10445;clan=437_mono
+MGV-GENOME-0287507	PHANOTATE	CDS	381	530	-29.1918	-	0	ID=MGV-GENOME-0287507.381;clu=17261;clan=96_clan
+MGV-GENOME-0287507	PHANOTATE	CDS	672	797	-4.4635	-	0	ID=MGV-GENOME-0287507.672;clu=8341;clan=2254_mono
+MGV-GENOME-0287507	PHANOTATE	CDS	849	944	-0.219	-	0	ID=MGV-GENOME-0287507.849;clu=8900;clan=1781_mono
+MGV-GENOME-0287507	PHANOTATE	CDS	975	1508	-2338.1349	-	0	ID=MGV-GENOME-0287507.975;clu=3144;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0287507	PHANOTATE	CDS	39805	42420	-1.1543326841951651e+20	-	0	ID=MGV-GENOME-0287507.39805;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MGV-GENOME-0287507	PHANOTATE	CDS	42552	42677	-0.3221	-	0	ID=MGV-GENOME-0287507.42552;clu=10575;clan=1473_mono
+MGV-GENOME-0287507	PHANOTATE	CDS	42664	43062	-80.7604	-	0	ID=MGV-GENOME-0287507.42664;clu=11133;clan=114_clan;PHROGs=phrog_5643,phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0287507	PHANOTATE	CDS	43112	43501	-263.2286	-	0	ID=MGV-GENOME-0287507.43112;clu=2621;clan=1852_mono
+MGV-GENOME-0287507	PHANOTATE	CDS	43531	43620	-4.9419	-	0	ID=MGV-GENOME-0287507.43531;clu=12249;clan=2669_mono
+MGV-GENOME-0271295	PHANOTATE	CDS	107	2743	-2.8045442715097554e+18	+	0	ID=MGV-GENOME-0271295.2743;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0271295	PHANOTATE	CDS	35644	36151	-2546.6743	+	0	ID=MGV-GENOME-0271295.36151;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0271295	PHANOTATE	CDS	36197	36334	-1.2392	+	0	ID=MGV-GENOME-0271295.36334;clu=11716;clan=678_mono
+MGV-GENOME-0271295	PHANOTATE	CDS	36343	36564	-3.9964	+	0	ID=MGV-GENOME-0271295.36564;clu=12274;clan=2090_mono
+MGV-GENOME-0271295	PHANOTATE	CDS	36611	36721	-8.0182	+	0	ID=MGV-GENOME-0271295.36721;clu=12832;clan=2229_mono;PHROGs=phrog_17283,phrog_6050;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0271295	PHANOTATE	CDS	36956	37480	-1884.4236	+	0	ID=MGV-GENOME-0271295.37480;clu=7110;clan=13_clan;PHROGs=phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0271295	PHANOTATE	CDS	37655	38236	-3383.2561	+	0	ID=MGV-GENOME-0271295.38236;clu=4262;clan=2353_mono
+MGV-GENOME-0271295	PHANOTATE	CDS	38296	38673	-1702.7258	+	0	ID=MGV-GENOME-0271295.38673;clu=14506;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0271295	PHANOTATE	CDS	38887	39402	-711.1918	+	0	ID=MGV-GENOME-0271295.39402;clu=3144;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0271295	PHANOTATE	CDS	39474	39665	-4.5115	+	0	ID=MGV-GENOME-0271295.39665;clu=15622;clan=bridge: 13_clan, 13_clan
+MGV-GENOME-0271295	PHANOTATE	CDS	39687	39854	-1.3177	+	0	ID=MGV-GENOME-0271295.39854;clu=4937;clan=301_pair
+MGV-GENOME-0271295	PHANOTATE	CDS	39903	40040	-11.9716	+	0	ID=MGV-GENOME-0271295.40040;clu=16083;clan=96_clan
+MGV-GENOME-0271295	PHANOTATE	CDS	40299	40394	-0.2759	+	0	ID=MGV-GENOME-0271295.40394;clu=17296;clan=1173_mono

@@ -1,0 +1,262 @@
+MN855799.1	PHANOTATE	CDS	12258	14927	-4.69423227088988e+16	-	0	ID=MN855799.1.12258;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MN855799.1	PHANOTATE	CDS	14975	15145	-4.2433	-	0	ID=MN855799.1.14975;clu=7299;clan=223_pair
+MN855799.1	PHANOTATE	CDS	15142	16200	-3688796.9755	-	0	ID=MN855799.1.15142;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855799.1	PHANOTATE	CDS	16236	16484	-49.984	-	0	ID=MN855799.1.16236;clu=9083;clan=45_clan, 108_clan
+MN855799.1	PHANOTATE	CDS	16471	16611	-26.7626	-	0	ID=MN855799.1.16471;clu=3688;clan=290_pair
+MN855799.1	PHANOTATE	CDS	16611	16841	-6.6923	-	0	ID=MN855799.1.16611;clu=6030;clan=64_clan;PHROGs=phrog_11917;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855799.1	PHANOTATE	CDS	16843	17040	-116.9054	-	0	ID=MN855799.1.16843;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855799.1	PHANOTATE	CDS	17049	17195	-21.8439	-	0	ID=MN855799.1.17049;clu=14593;clan=986_mono
+MN855799.1	PHANOTATE	CDS	17255	17512	-13.4321	-	0	ID=MN855799.1.17255;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855799.1	PHANOTATE	CDS	17586	17759	-12.5784	-	0	ID=MN855799.1.17586;clu=11766;clan=116_clan;PHROGs=phrog_20418;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855799.1	PHANOTATE	CDS	17919	18158	-148.246	-	0	ID=MN855799.1.17919;clu=8473;clan=1101_mono
+MN855772.1	PHANOTATE	CDS	36870	39506	-1874717937744709.0	-	0	ID=MN855772.1.36870;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MN855772.1	PHANOTATE	CDS	39511	39687	-31.1846	-	0	ID=MN855772.1.39511;clu=15134;clan=929_mono
+MN855772.1	PHANOTATE	CDS	39747	40583	-61436.8453	-	0	ID=MN855772.1.39747;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855772.1	PHANOTATE	CDS	40647	40877	-38.799	-	0	ID=MN855772.1.40647;clu=16250;clan=1612_mono
+MN855772.1	PHANOTATE	CDS	40918	41187	-12.5883	-	0	ID=MN855772.1.40918;clu=1726;clan=15_clan
+MN855772.1	PHANOTATE	CDS	41208	41369	-63.2248	-	0	ID=MN855772.1.41208;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855772.1	PHANOTATE	CDS	41423	41695	-24.4351	-	0	ID=MN855772.1.41423;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855772.1	PHANOTATE	CDS	41792	41926	-9.9593	-	0	ID=MN855772.1.41792;clu=612;clan=844_mono
+MN855772.1	PHANOTATE	CDS	42025	42237	-23.8896	-	0	ID=MN855772.1.42025;clu=1171;clan=412_pair;PHROGs=phrog_10124;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855772.1	PHANOTATE	CDS	42313	42402	-2.115	-	0	ID=MN855772.1.42313;clu=1730;clan=998_mono
+MN855772.1	PHANOTATE	CDS	42491	42700	-11.8428	-	0	ID=MN855772.1.42491;clu=2289;clan=2701_mono
+MN855772.1	PHANOTATE	CDS	42815	43126	-30.2057	-	0	ID=MN855772.1.42815;clu=2848;clan=1304_mono
+MN855772.1	PHANOTATE	CDS	43123	43458	-81.794	-	0	ID=MN855772.1.43123;clu=3407;clan=2173_mono
+MN855772.1	PHANOTATE	CDS	43498	43680	-3.1186	-	0	ID=MN855772.1.43498;clu=3966;clan=1615_mono
+NC_027330.1	PHANOTATE	CDS	1	234	-32.5966	+	0	ID=NC_027330.1.234;clu=613;clan=64_clan;PHROGs=phrog_11917;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027330.1	PHANOTATE	CDS	234	374	-11.0101	+	0	ID=NC_027330.1.374;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+NC_027330.1	PHANOTATE	CDS	361	621	-43.5536	+	0	ID=NC_027330.1.621;clu=10113;clan=45_clan
+NC_027330.1	PHANOTATE	CDS	695	1729	-14549502.8528	+	0	ID=NC_027330.1.1729;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027330.1	PHANOTATE	CDS	1726	1911	-16.9772	+	0	ID=NC_027330.1.1911;clu=11229;clan=1592_mono
+NC_027330.1	PHANOTATE	CDS	1961	4594	-1549460087742645.2	+	0	ID=NC_027330.1.4594;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+NC_027330.1	PHANOTATE	CDS	42364	42484	-47154302.8071	+	0	ID=NC_027330.1.42484;clu=12345;clan=131_clan;PHROGs=phrog_21471,phrog_13893,phrog_28781,phrog_17959,phrog_20231,phrog_18522,phrog_14558,phrog_1171,phrog_4217;phrog_ann=tail spike protein,hypothetical protein,tail protein;phrog_category=tail,unknown function
+NC_027330.1	PHANOTATE	CDS	42568	42696	-87.9674	+	0	ID=NC_027330.1.42696;clu=12903;clan=1721_mono;PHROGs=phrog_6163;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027330.1	PHANOTATE	CDS	42748	42876	-0.2067	+	0	ID=NC_027330.1.42876;clu=13461;clan=739_mono
+NC_027330.1	PHANOTATE	CDS	42926	43180	-5.7151	+	0	ID=NC_027330.1.43180;clu=14019;clan=1403_mono
+NC_027330.1	PHANOTATE	CDS	43141	43242	-0.0971	+	0	ID=NC_027330.1.43242;clu=14577;clan=761_mono
+NC_027330.1	PHANOTATE	CDS	43458	43592	-0.2061	+	0	ID=NC_027330.1.43592;clu=15135;clan=760_mono
+NC_027330.1	PHANOTATE	CDS	43589	43687	-12.4921	+	0	ID=NC_027330.1.43687;clu=15693;clan=1593_mono
+NC_027330.1	PHANOTATE	CDS	44032	44277	-17.0771	+	0	ID=NC_027330.1.44277;clu=8473;clan=1101_mono
+NC_027330.1	PHANOTATE	CDS	44485	44589	-2.3779	+	0	ID=NC_027330.1.44589;clu=16809;clan=184_clan
+NC_027330.1	PHANOTATE	CDS	44662	44937	-18.8139	+	0	ID=NC_027330.1.44937;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027330.1	PHANOTATE	CDS	45003	45191	-23.7985	+	0	ID=NC_027330.1.45191;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027330.1	PHANOTATE	CDS	45193	45402	-45.1054	+	0	ID=NC_027330.1.45402;clu=613;clan=64_clan
+OP413830.1	PHANOTATE	CDS	66	968	-3044.5917	+	0	ID=OP413830.1.968;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP413830.1	PHANOTATE	CDS	1041	3674	-8638712390790.641	+	0	ID=OP413830.1.3674;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+OP413830.1	PHANOTATE	CDS	3607	3674	-0.1609	+	0	ID=OP413830.1.3819;clu=10678;clan=104_clan
+OP413830.1	PHANOTATE	CDS	43823	43975	-14.0665	+	0	ID=OP413830.1.43975;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP413830.1	PHANOTATE	CDS	43977	44177	-54.0364	+	0	ID=OP413830.1.44177;clu=9374;clan=134_clan
+OP413830.1	PHANOTATE	CDS	44174	44329	-1.5733	+	0	ID=OP413830.1.44329;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP413830.1	PHANOTATE	CDS	44644	44880	-18.03	+	0	ID=OP413830.1.44880;clu=9661;clan=369_pair
+OP413830.1	PHANOTATE	CDS	44935	45357	-50.1375	+	0	ID=OP413830.1.45357;clu=6288;clan=2757_mono;PHROGs=phrog_6246;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP413830.1	PHANOTATE	CDS	45357	45467	-6.2778	+	0	ID=OP413830.1.45467;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478376.1	PHANOTATE	CDS	31673	31707	-840.37	-	0	ID=MN478376.1.31345;clu=9013;clan=2578_mono
+MN478376.1	PHANOTATE	CDS	31673	34357	-1.197627887587118e+20	-	0	ID=MN478376.1.31673;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MN478376.1	PHANOTATE	CDS	34404	34580	-38.7564	-	0	ID=MN478376.1.34404;clu=6063;clan=223_pair
+MN478376.1	PHANOTATE	CDS	34577	35602	-171504561.3528	-	0	ID=MN478376.1.34577;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478376.1	PHANOTATE	CDS	35674	35844	-28.0346	-	0	ID=MN478376.1.35674;clu=4912;clan=108_clan
+MN478376.1	PHANOTATE	CDS	35831	35971	-4.8417	-	0	ID=MN478376.1.35831;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+MN478376.1	PHANOTATE	CDS	35968	36189	-11.5623	-	0	ID=MN478376.1.35968;clu=613;clan=64_clan
+MN478376.1	PHANOTATE	CDS	36189	36389	-52.297	-	0	ID=MN478376.1.36189;clu=1726;clan=15_clan
+MN478376.1	PHANOTATE	CDS	36397	36519	-6.6148	-	0	ID=MN478376.1.36397;clu=13477;clan=2434_mono
+MN478376.1	PHANOTATE	CDS	36519	36608	-2.1627	-	0	ID=MN478376.1.36519;clu=14035;clan=2230_mono
+MN478376.1	PHANOTATE	CDS	36598	36744	-13.9059	-	0	ID=MN478376.1.36598;clu=14593;clan=986_mono
+MN478376.1	PHANOTATE	CDS	36809	37297	-15545.3326	-	0	ID=MN478376.1.36809;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478376.1	PHANOTATE	CDS	37357	37533	-63.3231	-	0	ID=MN478376.1.37357;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478376.1	PHANOTATE	CDS	37545	37748	-132.5806	-	0	ID=MN478376.1.37545;clu=16267;clan=134_clan
+MN478376.1	PHANOTATE	CDS	37829	37927	-2.5467	-	0	ID=MN478376.1.37829;clu=16825;clan=184_clan
+MN478376.1	PHANOTATE	CDS	37944	38138	-55.9835	-	0	ID=MN478376.1.37944;clu=2320;clan=179_clan;PHROGs=phrog_6500;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478376.1	PHANOTATE	CDS	38447	38548	-0.0761	-	0	ID=MN478376.1.38447;clu=70;clan=731_mono
+MN478376.1	PHANOTATE	CDS	38638	38820	-13.4223	-	0	ID=MN478376.1.38638;clu=629;clan=2028_mono
+MN478376.1	PHANOTATE	CDS	38822	39097	-199.3763	-	0	ID=MN478376.1.38822;clu=1188;clan=1080_mono
+MN855769.1	PHANOTATE	CDS	15263	17938	-8.652638471576078e+16	-	0	ID=MN855769.1.15263;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MN855769.1	PHANOTATE	CDS	17987	18184	-6.622	-	0	ID=MN855769.1.17987;clu=4560;clan=2168_mono
+MN855769.1	PHANOTATE	CDS	18174	18326	-11.1347	-	0	ID=MN855769.1.18174;clu=5119;clan=2609_mono
+MN855769.1	PHANOTATE	CDS	18323	19339	-2896968.8492	-	0	ID=MN855769.1.18323;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855769.1	PHANOTATE	CDS	19412	19543	-0.5677	-	0	ID=MN855769.1.19412;clu=6237;clan=290_pair
+MN855769.1	PHANOTATE	CDS	19540	19782	-9.457	-	0	ID=MN855769.1.19540;clu=6796;clan=64_clan
+MN855769.1	PHANOTATE	CDS	19779	19982	-22.4811	-	0	ID=MN855769.1.19779;clu=7355;clan=15_clan
+MN855769.1	PHANOTATE	CDS	20048	20371	-502.2074	-	0	ID=MN855769.1.20048;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+MN855769.1	PHANOTATE	CDS	20659	20892	-8.5683	-	0	ID=MN855769.1.20659;clu=8473;clan=1101_mono
+MN855769.1	PHANOTATE	CDS	20892	21071	-12.9529	-	0	ID=MN855769.1.20892;clu=9032;clan=658_mono
+MN855769.1	PHANOTATE	CDS	21082	21357	-47.4917	-	0	ID=MN855769.1.21082;clu=9590;clan=134_clan
+MN855769.1	PHANOTATE	CDS	21463	21648	-5.0788	-	0	ID=MN855769.1.21463;clu=10148;clan=671_mono;PHROGs=phrog_7744;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN855769.1	PHANOTATE	CDS	21868	22065	-7.2713	-	0	ID=MN855769.1.21868;clu=10706;clan=1982_mono
+OK570184.1	PHANOTATE	CDS	1047	1238	-32.1235	+	0	ID=OK570184.1.1238;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570184.1	PHANOTATE	CDS	1235	1441	-32.3555	+	0	ID=OK570184.1.1441;clu=6817;clan=127_clan;PHROGs=phrog_27681;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570184.1	PHANOTATE	CDS	1443	1592	-22.3405	+	0	ID=OK570184.1.1592;clu=7376;clan=127_clan;PHROGs=phrog_36188;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570184.1	PHANOTATE	CDS	1650	2081	-341.1399	+	0	ID=OK570184.1.2081;clu=17415;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+OK570184.1	PHANOTATE	CDS	2088	2186	-14.051	+	0	ID=OK570184.1.2186;clu=5823;clan=1131_mono
+OK570184.1	PHANOTATE	CDS	2198	2293	-0.0627	+	0	ID=OK570184.1.2293;clu=6382;clan=1803_mono
+OK570184.1	PHANOTATE	CDS	2324	2650	-97.4542	+	0	ID=OK570184.1.2650;clu=6941;clan=2685_mono;PHROGs=phrog_23974;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570184.1	PHANOTATE	CDS	2650	2967	-73.4345	+	0	ID=OK570184.1.2967;clu=10169;clan=2359_mono
+OK570184.1	PHANOTATE	CDS	2987	3961	-7715.2442	+	0	ID=OK570184.1.3961;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570184.1	PHANOTATE	CDS	4029	6686	-5.8159817340156424e+16	+	0	ID=OK570184.1.6686;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+NC_047802.1	PHANOTATE	CDS	790	1035	-55.6755	+	0	ID=NC_047802.1.1035;clu=14497;clan=2271_mono
+NC_047802.1	PHANOTATE	CDS	1179	1361	-108.3678	+	0	ID=NC_047802.1.1361;clu=11766;clan=116_clan;PHROGs=phrog_20418;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047802.1	PHANOTATE	CDS	1509	1607	-4.9802	+	0	ID=NC_047802.1.1607;clu=5170;clan=184_clan
+NC_047802.1	PHANOTATE	CDS	1588	1692	-5.7757	+	0	ID=NC_047802.1.1692;clu=3489;clan=1427_mono
+NC_047802.1	PHANOTATE	CDS	1679	2020	-921.2417	+	0	ID=NC_047802.1.2020;clu=4048;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047802.1	PHANOTATE	CDS	2087	2242	-15.735	+	0	ID=NC_047802.1.2242;clu=4607;clan=1035_mono
+NC_047802.1	PHANOTATE	CDS	2287	2475	-13.0	+	0	ID=NC_047802.1.2475;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047802.1	PHANOTATE	CDS	2477	2707	-14.4337	+	0	ID=NC_047802.1.2707;clu=613;clan=64_clan;PHROGs=phrog_11917;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047802.1	PHANOTATE	CDS	2787	2999	-0.353	+	0	ID=NC_047802.1.2999;clu=6284;clan=870_mono
+NC_047802.1	PHANOTATE	CDS	2980	3120	-0.1008	+	0	ID=NC_047802.1.3120;clu=6843;clan=45_clan
+NC_047802.1	PHANOTATE	CDS	3198	4232	-5381890.5987	+	0	ID=NC_047802.1.4232;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047802.1	PHANOTATE	CDS	4229	4405	-7.0529	+	0	ID=NC_047802.1.4405;clu=17588;clan=2671_mono
+NC_047802.1	PHANOTATE	CDS	4455	7088	-1.4538774909717224e+16	+	0	ID=NC_047802.1.7088;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+OL362271.1	PHANOTATE	CDS	7157	7351	-54.4736	+	0	ID=OL362271.1.7351;clu=4052;clan=386_pair
+OL362271.1	PHANOTATE	CDS	7538	7723	-29.9477	+	0	ID=OL362271.1.7723;clu=10148;clan=671_mono;PHROGs=phrog_7744;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL362271.1	PHANOTATE	CDS	7733	7831	-4.919	+	0	ID=OL362271.1.7831;clu=5170;clan=184_clan
+OL362271.1	PHANOTATE	CDS	7913	8038	-23.1106	+	0	ID=OL362271.1.8038;clu=5729;clan=1328_mono
+OL362271.1	PHANOTATE	CDS	8108	8506	-1065.3923	+	0	ID=OL362271.1.8506;clu=6288;clan=2757_mono;PHROGs=phrog_6246;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL362271.1	PHANOTATE	CDS	8574	8981	-188.3243	+	0	ID=OL362271.1.8981;clu=6847;clan=570_mono
+OL362271.1	PHANOTATE	CDS	9016	9264	-23.4274	+	0	ID=OL362271.1.9264;clu=7355;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL362271.1	PHANOTATE	CDS	9264	9485	-19.2856	+	0	ID=OL362271.1.9485;clu=7965;clan=64_clan
+OL362271.1	PHANOTATE	CDS	9482	9622	-7.7332	+	0	ID=OL362271.1.9622;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+OL362271.1	PHANOTATE	CDS	9609	9827	-15.8393	+	0	ID=OL362271.1.9827;clu=9083;clan=45_clan, 108_clan
+OL362271.1	PHANOTATE	CDS	9859	10929	-215925383.8556	+	0	ID=OL362271.1.10929;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL362271.1	PHANOTATE	CDS	10926	11111	-6.7522	+	0	ID=OL362271.1.11111;clu=10199;clan=805_mono
+OL362271.1	PHANOTATE	CDS	11159	13843	-6.78457828638152e+17	+	0	ID=OL362271.1.13843;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+ON602733.1	PHANOTATE	CDS	10320	10586	-33.6331	+	0	ID=ON602733.1.10586;clu=3453;clan=412_pair;PHROGs=phrog_10124;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON602733.1	PHANOTATE	CDS	10653	10961	-42.5373	+	0	ID=ON602733.1.10961;clu=9670;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON602733.1	PHANOTATE	CDS	10966	11130	-8.8595	+	0	ID=ON602733.1.11130;clu=10228;clan=21_clan
+ON602733.1	PHANOTATE	CDS	11123	11293	-25.3334	+	0	ID=ON602733.1.11293;clu=17412;clan=414_pair
+ON602733.1	PHANOTATE	CDS	11290	11487	-12.1292	+	0	ID=ON602733.1.11487;clu=6799;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON602733.1	PHANOTATE	CDS	11516	12502	-109351.8436	+	0	ID=ON602733.1.12502;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+ON602733.1	PHANOTATE	CDS	12535	15219	-162599675015684.9	+	0	ID=ON602733.1.15219;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166,phrog_36028;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+ON148527.1	PHANOTATE	CDS	1002	1160	-16.7166	+	0	ID=ON148527.1.1160;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON148527.1	PHANOTATE	CDS	1157	1372	-16.357	+	0	ID=ON148527.1.1372;clu=9374;clan=134_clan
+ON148527.1	PHANOTATE	CDS	1369	1524	-1.3094	+	0	ID=ON148527.1.1524;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON148527.1	PHANOTATE	CDS	1684	2022	-146.6983	+	0	ID=ON148527.1.2022;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+ON148527.1	PHANOTATE	CDS	2019	2129	-4.9051	+	0	ID=ON148527.1.2129;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON148527.1	PHANOTATE	CDS	2218	3120	-2953.075	+	0	ID=ON148527.1.3120;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON148527.1	PHANOTATE	CDS	3193	5826	-3150835409492.715	+	0	ID=ON148527.1.5826;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MT680615.1	PHANOTATE	CDS	37034	39667	-9105762302262.326	-	0	ID=MT680615.1.37034;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MT680615.1	PHANOTATE	CDS	39740	40642	-2259.9573	-	0	ID=MT680615.1.39740;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT680615.1	PHANOTATE	CDS	40731	40841	-4.2844	-	0	ID=MT680615.1.40731;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT680615.1	PHANOTATE	CDS	40841	41263	-44.1183	-	0	ID=MT680615.1.40841;clu=6288;clan=2757_mono;PHROGs=phrog_6246;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT680615.1	PHANOTATE	CDS	41317	41553	-18.2496	-	0	ID=MT680615.1.41317;clu=9661;clan=369_pair
+MT680615.1	PHANOTATE	CDS	41650	41793	-4.3053	-	0	ID=MT680615.1.41650;clu=16967;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT680615.1	PHANOTATE	CDS	41823	42038	-18.1205	-	0	ID=MT680615.1.41823;clu=9374;clan=134_clan
+MT680615.1	PHANOTATE	CDS	42035	42193	-17.7563	-	0	ID=MT680615.1.42035;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570185.1	PHANOTATE	CDS	1014	1109	-3.7048	+	0	ID=OK570185.1.1109;clu=14188;clan=2515_mono
+OK570185.1	PHANOTATE	CDS	1194	1376	-7.5699	+	0	ID=OK570185.1.1376;clu=14746;clan=769_mono
+OK570185.1	PHANOTATE	CDS	1482	1688	-32.7346	+	0	ID=OK570185.1.1688;clu=15304;clan=1759_mono
+OK570185.1	PHANOTATE	CDS	1685	1855	-6.2769	+	0	ID=OK570185.1.1855;clu=15862;clan=2635_mono
+OK570185.1	PHANOTATE	CDS	1857	1988	-22.5146	+	0	ID=OK570185.1.1988;clu=5729;clan=1328_mono
+OK570185.1	PHANOTATE	CDS	2282	2548	-12.1943	+	0	ID=OK570185.1.2548;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570185.1	PHANOTATE	CDS	2608	2721	-2.9183	+	0	ID=OK570185.1.2721;clu=17536;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570185.1	PHANOTATE	CDS	2792	2887	-3.3182	+	0	ID=OK570185.1.2887;clu=223;clan=836_mono
+OK570185.1	PHANOTATE	CDS	2877	3086	-15.8754	+	0	ID=OK570185.1.3086;clu=54;clan=15_clan
+OK570185.1	PHANOTATE	CDS	3076	3348	-14.4182	+	0	ID=OK570185.1.3348;clu=6796;clan=64_clan;PHROGs=phrog_11917;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570185.1	PHANOTATE	CDS	3341	3520	-22.5198	+	0	ID=OK570185.1.3520;clu=1900;clan=2413_mono
+OK570185.1	PHANOTATE	CDS	3587	4621	-661929.0381	+	0	ID=OK570185.1.4621;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK570185.1	PHANOTATE	CDS	4618	4791	-3.5668	+	0	ID=OK570185.1.4791;clu=3018;clan=574_mono
+OK570185.1	PHANOTATE	CDS	4841	7513	-2.608007434475602e+16	+	0	ID=OK570185.1.7513;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+NC_047917.1	PHANOTATE	CDS	1051	1242	-45.276	+	0	ID=NC_047917.1.1242;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047917.1	PHANOTATE	CDS	1239	1601	-3715.6843	+	0	ID=NC_047917.1.1601;clu=11281;clan=127_clan;PHROGs=phrog_27681,phrog_36188;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047917.1	PHANOTATE	CDS	1659	2090	-940.7658	+	0	ID=NC_047917.1.2090;clu=17415;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_047917.1	PHANOTATE	CDS	2096	2194	-13.5929	+	0	ID=NC_047917.1.2194;clu=5823;clan=1131_mono
+NC_047917.1	PHANOTATE	CDS	2206	2301	-0.0601	+	0	ID=NC_047917.1.2301;clu=6382;clan=1803_mono
+NC_047917.1	PHANOTATE	CDS	2332	2658	-82.4194	+	0	ID=NC_047917.1.2658;clu=6941;clan=2685_mono;PHROGs=phrog_23974,phrog_18383;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047917.1	PHANOTATE	CDS	2655	2975	-60.3584	+	0	ID=NC_047917.1.2975;clu=10169;clan=2359_mono
+NC_047917.1	PHANOTATE	CDS	2995	3960	-34246.6772	+	0	ID=NC_047917.1.3960;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047917.1	PHANOTATE	CDS	4028	6685	-2.380132587258832e+17	+	0	ID=NC_047917.1.6685;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MT104467.1	PHANOTATE	CDS	2	142	-14.5887	+	0	ID=MT104467.1.142;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+MT104467.1	PHANOTATE	CDS	129	356	-6.3261	+	0	ID=MT104467.1.356;clu=16472;clan=45_clan;PHROGs=phrog_25572;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104467.1	PHANOTATE	CDS	429	1463	-1739175.0035	+	0	ID=MT104467.1.1463;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104467.1	PHANOTATE	CDS	1460	1636	-12.9808	+	0	ID=MT104467.1.1636;clu=17588;clan=2671_mono
+MT104467.1	PHANOTATE	CDS	1686	4319	-9978937776483480.0	+	0	ID=MT104467.1.4319;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MT104467.1	PHANOTATE	CDS	43110	43247	-22.3163	+	0	ID=MT104467.1.43247;clu=834;clan=662_mono
+MT104467.1	PHANOTATE	CDS	43350	43598	-45.7892	+	0	ID=MT104467.1.43598;clu=8473;clan=1101_mono
+MT104467.1	PHANOTATE	CDS	43801	43947	-3.7371	+	0	ID=MT104467.1.43947;clu=1952;clan=1448_mono
+MT104467.1	PHANOTATE	CDS	43937	44260	-41.6173	+	0	ID=MT104467.1.44260;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104467.1	PHANOTATE	CDS	44323	44412	-4.292	+	0	ID=MT104467.1.44412;clu=3070;clan=1247_mono
+MT104467.1	PHANOTATE	CDS	44414	44602	-26.6791	+	0	ID=MT104467.1.44602;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104467.1	PHANOTATE	CDS	44604	44816	-13.29	+	0	ID=MT104467.1.44816;clu=613;clan=64_clan
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	25652	25825	-24.4196	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.25825;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	25899	26156	-26.281	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26156;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26219	26314	-5.1545	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26314;clu=3070;clan=1247_mono
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26296	26394	-0.1586	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26394;clu=7148;clan=2478_mono
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26403	26585	-4.1244	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26585;clu=54;clan=15_clan
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26587	26793	-15.7686	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26793;clu=6030;clan=64_clan
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26783	26929	-17.7474	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.26929;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	26916	27089	-16.6411	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.27089;clu=4912;clan=108_clan
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	27161	28195	-14020971.0158	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.28195;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	28192	28338	-5.1419	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.28338;clu=3794;clan=1817_mono
+Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701	PHANOTATE	CDS	28420	31053	-1.4042859955235114e+17	+	0	ID=Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701.31053;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	5930	6196	-34.1167	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.6196;clu=154;clan=2002_mono;PHROGs=phrog_9817,phrog_24523;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	6337	6540	-13.7767	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.6540;clu=10533;clan=152_clan;PHROGs=phrog_17710,phrog_6314;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	6688	6861	-20.9185	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.6861;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	6936	7193	-31.4001	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.7193;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	7258	7446	-8.4753	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.7446;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	7448	7690	-30.6752	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.7690;clu=8299;clan=1048_mono
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	7678	7827	-18.8951	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.7827;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	7814	8011	-65.739	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.8011;clu=7181;clan=108_clan
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	8084	9133	-21606131.6734	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.9133;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	9130	9303	-61.4212	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.9303;clu=6063;clan=223_pair
+SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424	PHANOTATE	CDS	9353	11986	-4.3526765959951656e+16	+	0	ID=SAMN00990286_a1_ct8424@circular@Podoviridae__sp._ctAQR424.11986;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	19619	22255	-4678555798193.962	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.19619;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	22257	22601	-66.5788	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.22257;clu=17186;clan=363_pair;PHROGs=phrog_11472;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	22659	23564	-2530.43	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.22659;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	23653	23763	-2.4251	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.23653;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	23763	24101	-102.5142	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.23763;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	24258	24413	-1.6734	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.24258;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	24410	24610	-57.2894	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.24410;clu=9374;clan=134_clan
+SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598	PHANOTATE	CDS	24607	24762	-7.8797	-	0	ID=SAMN00715264_a1_ct14598@circular@Podoviridae__sp._ctG0N598.24607;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	1603	1758	-8.5159	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.1758;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	1755	1955	-43.6087	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.1955;clu=9374;clan=134_clan
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	1952	2107	-2.1242	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.2107;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	2264	2602	-104.2998	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.2602;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	2602	2712	-7.1427	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.2712;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	2801	3706	-2597.2854	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.3706;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	3764	4108	-85.0834	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.4108;clu=17186;clan=363_pair;PHROGs=phrog_11472;phrog_ann=hypothetical protein;phrog_category=unknown function
+Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262	PHANOTATE	CDS	4110	6746	-4648339329815.772	+	0	ID=Ma_2019_SRR341714_NODE_224_length_46619_cov_20.739262.6746;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MGV-GENOME-0299782	PHANOTATE	CDS	6893	7051	-22.1616	+	0	ID=MGV-GENOME-0299782.7051;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0299782	PHANOTATE	CDS	7048	7266	-31.6067	+	0	ID=MGV-GENOME-0299782.7266;clu=9374;clan=134_clan
+MGV-GENOME-0299782	PHANOTATE	CDS	7263	7439	-27.6657	+	0	ID=MGV-GENOME-0299782.7439;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0299782	PHANOTATE	CDS	7536	7772	-12.6664	+	0	ID=MGV-GENOME-0299782.7772;clu=9661;clan=369_pair
+MGV-GENOME-0299782	PHANOTATE	CDS	7827	8354	-900.7544	+	0	ID=MGV-GENOME-0299782.8354;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0299782	PHANOTATE	CDS	8351	8461	-11.2276	+	0	ID=MGV-GENOME-0299782.8461;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0299782	PHANOTATE	CDS	8550	9452	-3852.8179	+	0	ID=MGV-GENOME-0299782.9452;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0299782	PHANOTATE	CDS	9525	12158	-9963614379762.553	+	0	ID=MGV-GENOME-0299782.12158;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MGV-GENOME-0299782	PHANOTATE	CDS	12091	12158	-0.2721	+	0	ID=MGV-GENOME-0299782.12267;clu=13280;clan=104_clan
+MGV-GENOME-0300114	PHANOTATE	CDS	37637	37792	-8.4441	+	0	ID=MGV-GENOME-0300114.37792;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0300114	PHANOTATE	CDS	37789	37989	-43.1788	+	0	ID=MGV-GENOME-0300114.37989;clu=9374;clan=134_clan
+MGV-GENOME-0300114	PHANOTATE	CDS	37986	38141	-2.1517	+	0	ID=MGV-GENOME-0300114.38141;clu=837;clan=151_clan;PHROGs=phrog_35222;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0300114	PHANOTATE	CDS	38298	38636	-102.0063	+	0	ID=MGV-GENOME-0300114.38636;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+MGV-GENOME-0300114	PHANOTATE	CDS	38636	38746	-6.8819	+	0	ID=MGV-GENOME-0300114.38746;clu=638;clan=397_pair;PHROGs=phrog_11746;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0300114	PHANOTATE	CDS	38835	39740	-2518.4536	+	0	ID=MGV-GENOME-0300114.39740;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0300114	PHANOTATE	CDS	39798	40142	-83.7693	+	0	ID=MGV-GENOME-0300114.40142;clu=17186;clan=363_pair;PHROGs=phrog_11472;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0300114	PHANOTATE	CDS	40144	42780	-4306959289193.756	+	0	ID=MGV-GENOME-0300114.42780;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	3839	6472	-1.300847902649844e+17	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.3839;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	6554	6700	-4.2941	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.6554;clu=3794;clan=1817_mono
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	6697	7731	-15625626.4062	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.6697;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	7803	7976	-23.4802	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.7803;clu=4912;clan=108_clan
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	7963	8109	-17.7172	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.7963;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	8099	8305	-14.3459	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.8099;clu=6030;clan=64_clan
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	8307	8489	-4.5606	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.8307;clu=54;clan=15_clan
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	8498	8596	-0.1566	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.8498;clu=7148;clan=2478_mono
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	8578	8673	-5.6196	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.8578;clu=3070;clan=1247_mono
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	8736	8993	-28.5083	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.8736;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7	PHANOTATE	CDS	9067	9240	-25.3076	-	0	ID=SAMN00715211_b1_ct7@circular@Caudovirales__sp._ctjYH7.9067;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	9803	12436	-4.694806094083427e+16	-	0	ID=MGV-GENOME-0293792.9803;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+MGV-GENOME-0293792	PHANOTATE	CDS	12486	12659	-59.5599	-	0	ID=MGV-GENOME-0293792.12486;clu=6063;clan=223_pair
+MGV-GENOME-0293792	PHANOTATE	CDS	12656	13705	-22622541.1835	-	0	ID=MGV-GENOME-0293792.12656;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	13778	13975	-78.1364	-	0	ID=MGV-GENOME-0293792.13778;clu=7181;clan=108_clan
+MGV-GENOME-0293792	PHANOTATE	CDS	13962	14111	-22.1431	-	0	ID=MGV-GENOME-0293792.13962;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+MGV-GENOME-0293792	PHANOTATE	CDS	14099	14341	-29.2508	-	0	ID=MGV-GENOME-0293792.14099;clu=8299;clan=1048_mono
+MGV-GENOME-0293792	PHANOTATE	CDS	14343	14531	-8.9078	-	0	ID=MGV-GENOME-0293792.14343;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	14596	14853	-31.9234	-	0	ID=MGV-GENOME-0293792.14596;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	14928	15101	-18.4548	-	0	ID=MGV-GENOME-0293792.14928;clu=8815;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	15249	15452	-13.2776	-	0	ID=MGV-GENOME-0293792.15249;clu=10533;clan=152_clan;PHROGs=phrog_17710,phrog_6314;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0293792	PHANOTATE	CDS	15593	15859	-30.0854	-	0	ID=MGV-GENOME-0293792.15593;clu=154;clan=2002_mono;PHROGs=phrog_9817,phrog_24523;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0297924	PHANOTATE	CDS	39818	39991	-24.1622	+	0	ID=MGV-GENOME-0297924.39991;clu=17412;clan=414_pair;PHROGs=phrog_14219;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0297924	PHANOTATE	CDS	40376	40564	-8.9194	+	0	ID=MGV-GENOME-0297924.40564;clu=54;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0297924	PHANOTATE	CDS	40566	40775	-10.317	+	0	ID=MGV-GENOME-0297924.40775;clu=6030;clan=64_clan
+MGV-GENOME-0297924	PHANOTATE	CDS	40763	40912	-28.6012	+	0	ID=MGV-GENOME-0297924.40912;clu=3688;clan=290_pair;PHROGs=phrog_3924;phrog_ann=Kil protein for bacterial septation inhibition;phrog_category=other
+MGV-GENOME-0297924	PHANOTATE	CDS	40899	41069	-3.516	+	0	ID=MGV-GENOME-0297924.41069;clu=7798;clan=108_clan
+MGV-GENOME-0297924	PHANOTATE	CDS	41140	42186	-11362747.3417	+	0	ID=MGV-GENOME-0297924.42186;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0297924	PHANOTATE	CDS	42183	42329	-4.496	+	0	ID=MGV-GENOME-0297924.42329;clu=3794;clan=1817_mono
+MGV-GENOME-0297924	PHANOTATE	CDS	42411	45044	-1.454894481044648e+17	+	0	ID=MGV-GENOME-0297924.45044;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22

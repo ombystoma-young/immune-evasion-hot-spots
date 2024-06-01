@@ -1,0 +1,97 @@
+ON464735.2	PHANOTATE	CDS	526	858	-149.9713	+	0	ID=ON464735.2.858;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+ON464735.2	PHANOTATE	CDS	979	1170	-194.9278	+	0	ID=ON464735.2.1170;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON464735.2	PHANOTATE	CDS	1167	1367	-9.6068	+	0	ID=ON464735.2.1367;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON464735.2	PHANOTATE	CDS	1419	1544	-0.0658	+	0	ID=ON464735.2.1544;clu=3004;clan=2711_mono
+ON464735.2	PHANOTATE	CDS	1632	1733	-2.9884	+	0	ID=ON464735.2.1733;clu=2445;clan=838_mono
+ON464735.2	PHANOTATE	CDS	1761	4412	-1.8361912333641147e+18	+	0	ID=ON464735.2.4412;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+HQ641342.1	PHANOTATE	CDS	1	135	-3.9766	+	0	ID=HQ641342.1.135;clu=8412;clan=2645_mono
+HQ641342.1	PHANOTATE	CDS	289	387	-0.1401	+	0	ID=HQ641342.1.387;clu=5661;clan=140_clan
+HQ641342.1	PHANOTATE	CDS	593	925	-129.5688	+	0	ID=HQ641342.1.925;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+HQ641342.1	PHANOTATE	CDS	1046	1237	-151.9591	+	0	ID=HQ641342.1.1237;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641342.1	PHANOTATE	CDS	1234	1434	-7.3627	+	0	ID=HQ641342.1.1434;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641342.1	PHANOTATE	CDS	1486	1611	-0.0658	+	0	ID=HQ641342.1.1611;clu=3004;clan=2711_mono
+HQ641342.1	PHANOTATE	CDS	1699	1800	-2.5744	+	0	ID=HQ641342.1.1800;clu=2445;clan=838_mono
+HQ641342.1	PHANOTATE	CDS	1828	4479	-6.374018112985569e+17	+	0	ID=HQ641342.1.4479;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883644.1	PHANOTATE	CDS	5063	5206	-7.9015	+	0	ID=KY883644.1.5206;clu=9543;clan=140_clan
+KY883644.1	PHANOTATE	CDS	5361	5693	-131.8937	+	0	ID=KY883644.1.5693;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+KY883644.1	PHANOTATE	CDS	5814	6005	-146.8901	+	0	ID=KY883644.1.6005;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883644.1	PHANOTATE	CDS	6002	6202	-7.3106	+	0	ID=KY883644.1.6202;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883644.1	PHANOTATE	CDS	6254	6379	-0.0656	+	0	ID=KY883644.1.6379;clu=3004;clan=2711_mono
+KY883644.1	PHANOTATE	CDS	6467	6568	-1.9953	+	0	ID=KY883644.1.6568;clu=2445;clan=838_mono
+KY883644.1	PHANOTATE	CDS	6596	9247	-4.5046649494371846e+17	+	0	ID=KY883644.1.9247;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+JQ780163.1	PHANOTATE	CDS	1	186	-36.1404	+	0	ID=JQ780163.1.186;clu=14222;clan=214_pair
+JQ780163.1	PHANOTATE	CDS	237	359	-2.1145	+	0	ID=JQ780163.1.359;clu=14780;clan=140_clan
+JQ780163.1	PHANOTATE	CDS	632	964	-222.2509	+	0	ID=JQ780163.1.964;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+JQ780163.1	PHANOTATE	CDS	979	1167	-33.6257	+	0	ID=JQ780163.1.1167;clu=892;clan=175_clan;PHROGs=phrog_4445;phrog_ann=hypothetical protein;phrog_category=unknown function
+JQ780163.1	PHANOTATE	CDS	1175	1366	-44.0413	+	0	ID=JQ780163.1.1366;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+JQ780163.1	PHANOTATE	CDS	1363	1563	-8.9422	+	0	ID=JQ780163.1.1563;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+JQ780163.1	PHANOTATE	CDS	1713	1814	-5.0742	+	0	ID=JQ780163.1.1814;clu=2445;clan=838_mono
+JQ780163.1	PHANOTATE	CDS	1841	4492	-4.839314821287993e+17	+	0	ID=JQ780163.1.4492;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+HQ641344.1	PHANOTATE	CDS	614	946	-128.3197	+	0	ID=HQ641344.1.946;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+HQ641344.1	PHANOTATE	CDS	1067	1258	-152.6889	+	0	ID=HQ641344.1.1258;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641344.1	PHANOTATE	CDS	1255	1455	-7.4355	+	0	ID=HQ641344.1.1455;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641344.1	PHANOTATE	CDS	1507	1632	-0.065	+	0	ID=HQ641344.1.1632;clu=3004;clan=2711_mono
+HQ641344.1	PHANOTATE	CDS	1720	1821	-2.528	+	0	ID=HQ641344.1.1821;clu=2445;clan=838_mono
+HQ641344.1	PHANOTATE	CDS	1849	4500	-7.15343398524073e+17	+	0	ID=HQ641344.1.4500;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_015159.1	PHANOTATE	CDS	614	946	-127.8164	+	0	ID=NC_015159.1.946;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_015159.1	PHANOTATE	CDS	1067	1258	-155.3735	+	0	ID=NC_015159.1.1258;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015159.1	PHANOTATE	CDS	1255	1455	-10.3156	+	0	ID=NC_015159.1.1455;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015159.1	PHANOTATE	CDS	1507	1632	-0.0639	+	0	ID=NC_015159.1.1632;clu=3004;clan=2711_mono
+NC_015159.1	PHANOTATE	CDS	1720	1821	-2.5582	+	0	ID=NC_015159.1.1821;clu=2445;clan=838_mono
+NC_015159.1	PHANOTATE	CDS	1849	4500	-6.224555726506582e+17	+	0	ID=NC_015159.1.4500;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883648.1	PHANOTATE	CDS	460	963	-158.0674	+	0	ID=KY883648.1.963;clu=10755;clan=52_clan;PHROGs=phrog_2226,phrog_22483;phrog_ann=hypothetical protein,SAM-dependent methyltransferase;phrog_category=other,unknown function
+KY883648.1	PHANOTATE	CDS	1084	1275	-166.9308	+	0	ID=KY883648.1.1275;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883648.1	PHANOTATE	CDS	1272	1472	-8.8153	+	0	ID=KY883648.1.1472;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883648.1	PHANOTATE	CDS	1524	1649	-0.0657	+	0	ID=KY883648.1.1649;clu=3004;clan=2711_mono
+KY883648.1	PHANOTATE	CDS	1737	1838	-2.8733	+	0	ID=KY883648.1.1838;clu=2445;clan=838_mono
+KY883648.1	PHANOTATE	CDS	1866	4517	-8.000707782362849e+17	+	0	ID=KY883648.1.4517;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+HQ641343.1	PHANOTATE	CDS	614	946	-129.1147	+	0	ID=HQ641343.1.946;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+HQ641343.1	PHANOTATE	CDS	1067	1258	-158.2891	+	0	ID=HQ641343.1.1258;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641343.1	PHANOTATE	CDS	1255	1455	-10.5248	+	0	ID=HQ641343.1.1455;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641343.1	PHANOTATE	CDS	1507	1632	-0.0658	+	0	ID=HQ641343.1.1632;clu=3004;clan=2711_mono
+HQ641343.1	PHANOTATE	CDS	1720	1821	-2.5371	+	0	ID=HQ641343.1.1821;clu=2445;clan=838_mono
+HQ641343.1	PHANOTATE	CDS	1849	4500	-7.739109169383816e+17	+	0	ID=HQ641343.1.4500;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MF574151.1	PHANOTATE	CDS	5581	5913	-138.1476	+	0	ID=MF574151.1.5913;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+MF574151.1	PHANOTATE	CDS	6034	6225	-164.1032	+	0	ID=MF574151.1.6225;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+MF574151.1	PHANOTATE	CDS	6222	6422	-8.5862	+	0	ID=MF574151.1.6422;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+MF574151.1	PHANOTATE	CDS	6474	6599	-0.0657	+	0	ID=MF574151.1.6599;clu=3004;clan=2711_mono
+MF574151.1	PHANOTATE	CDS	6687	6788	-2.8753	+	0	ID=MF574151.1.6788;clu=2445;clan=838_mono
+MF574151.1	PHANOTATE	CDS	6816	9467	-5.811608066303588e+17	+	0	ID=MF574151.1.9467;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+HQ641341.1	PHANOTATE	CDS	625	957	-110.5007	+	0	ID=HQ641341.1.957;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+HQ641341.1	PHANOTATE	CDS	1078	1269	-143.0116	+	0	ID=HQ641341.1.1269;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641341.1	PHANOTATE	CDS	1299	1466	-4.8389	+	0	ID=HQ641341.1.1466;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+HQ641341.1	PHANOTATE	CDS	1518	1643	-0.0654	+	0	ID=HQ641341.1.1643;clu=3004;clan=2711_mono
+HQ641341.1	PHANOTATE	CDS	1731	1832	-2.6128	+	0	ID=HQ641341.1.1832;clu=2445;clan=838_mono
+HQ641341.1	PHANOTATE	CDS	1860	4511	-6.428479679729792e+17	+	0	ID=HQ641341.1.4511;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883649.1	PHANOTATE	CDS	13299	13802	-157.4832	+	0	ID=KY883649.1.13802;clu=10755;clan=52_clan;PHROGs=phrog_2226,phrog_22483;phrog_ann=hypothetical protein,SAM-dependent methyltransferase;phrog_category=other,unknown function
+KY883649.1	PHANOTATE	CDS	13923	14114	-178.5821	+	0	ID=KY883649.1.14114;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883649.1	PHANOTATE	CDS	14111	14311	-8.8348	+	0	ID=KY883649.1.14311;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883649.1	PHANOTATE	CDS	14363	14488	-0.0657	+	0	ID=KY883649.1.14488;clu=3004;clan=2711_mono
+KY883649.1	PHANOTATE	CDS	14576	14677	-2.8596	+	0	ID=KY883649.1.14677;clu=2445;clan=838_mono
+KY883649.1	PHANOTATE	CDS	14705	17356	-8.827768700734527e+17	+	0	ID=KY883649.1.17356;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883651.1	PHANOTATE	CDS	34693	37344	-8.76222603598653e+17	-	0	ID=KY883651.1.34693;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883651.1	PHANOTATE	CDS	37372	37473	-2.8563	-	0	ID=KY883651.1.37372;clu=2445;clan=838_mono
+KY883651.1	PHANOTATE	CDS	37561	37686	-0.0658	-	0	ID=KY883651.1.37561;clu=3004;clan=2711_mono
+KY883651.1	PHANOTATE	CDS	37738	37938	-14.2674	-	0	ID=KY883651.1.37738;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883651.1	PHANOTATE	CDS	37935	38126	-179.9751	-	0	ID=KY883651.1.37935;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883651.1	PHANOTATE	CDS	38247	38579	-133.022	-	0	ID=KY883651.1.38247;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_007149.1	PHANOTATE	CDS	1	186	-35.2507	+	0	ID=NC_007149.1.186;clu=14222;clan=214_pair
+NC_007149.1	PHANOTATE	CDS	237	359	-2.1333	+	0	ID=NC_007149.1.359;clu=14780;clan=140_clan
+NC_007149.1	PHANOTATE	CDS	637	969	-232.7833	+	0	ID=NC_007149.1.969;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_007149.1	PHANOTATE	CDS	984	1172	-32.9195	+	0	ID=NC_007149.1.1172;clu=892;clan=175_clan;PHROGs=phrog_4445;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_007149.1	PHANOTATE	CDS	1180	1371	-43.0185	+	0	ID=NC_007149.1.1371;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_007149.1	PHANOTATE	CDS	1368	1568	-7.5897	+	0	ID=NC_007149.1.1568;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_007149.1	PHANOTATE	CDS	1718	1819	-5.2296	+	0	ID=NC_007149.1.1819;clu=2445;clan=838_mono
+NC_007149.1	PHANOTATE	CDS	1846	4497	-4.5623893891305715e+17	+	0	ID=NC_007149.1.4497;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883645.1	PHANOTATE	CDS	3190	5841	-8.757429025900938e+17	-	0	ID=KY883645.1.3190;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+KY883645.1	PHANOTATE	CDS	5869	5970	-2.8881	-	0	ID=KY883645.1.5869;clu=2445;clan=838_mono
+KY883645.1	PHANOTATE	CDS	6058	6183	-0.0655	-	0	ID=KY883645.1.6058;clu=3004;clan=2711_mono
+KY883645.1	PHANOTATE	CDS	6235	6435	-14.4165	-	0	ID=KY883645.1.6235;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883645.1	PHANOTATE	CDS	6432	6623	-152.2512	-	0	ID=KY883645.1.6432;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+KY883645.1	PHANOTATE	CDS	6744	7247	-153.5182	-	0	ID=KY883645.1.6744;clu=10755;clan=52_clan;PHROGs=phrog_2226,phrog_22483;phrog_ann=hypothetical protein,SAM-dependent methyltransferase;phrog_category=other,unknown function
+MGV-GENOME-0260459	PHANOTATE	CDS	826	1329	-156.6105	+	0	ID=MGV-GENOME-0260459.1329;clu=10755;clan=52_clan;PHROGs=phrog_2226,phrog_22483;phrog_ann=hypothetical protein,SAM-dependent methyltransferase;phrog_category=other,unknown function
+MGV-GENOME-0260459	PHANOTATE	CDS	1450	1641	-156.5647	+	0	ID=MGV-GENOME-0260459.1641;clu=288;clan=2087_mono;PHROGs=phrog_11474;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0260459	PHANOTATE	CDS	1638	1838	-8.8716	+	0	ID=MGV-GENOME-0260459.1838;clu=3563;clan=988_mono;PHROGs=phrog_13599;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0260459	PHANOTATE	CDS	1890	2015	-0.0657	+	0	ID=MGV-GENOME-0260459.2015;clu=3004;clan=2711_mono
+MGV-GENOME-0260459	PHANOTATE	CDS	2103	2204	-2.8492	+	0	ID=MGV-GENOME-0260459.2204;clu=2445;clan=838_mono
+MGV-GENOME-0260459	PHANOTATE	CDS	2232	4883	-1.0507110097194102e+18	+	0	ID=MGV-GENOME-0260459.4883;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism

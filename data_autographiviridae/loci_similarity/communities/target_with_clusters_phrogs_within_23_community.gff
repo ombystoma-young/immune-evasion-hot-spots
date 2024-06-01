@@ -1,0 +1,451 @@
+NC_030937.1	PHANOTATE	CDS	17253	19865	-42006598121.4502	-	0	ID=NC_030937.1.17253;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_030937.1	PHANOTATE	CDS	20022	20189	-10.9712	-	0	ID=NC_030937.1.20022;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_030937.1	PHANOTATE	CDS	20186	21151	-80089.3205	-	0	ID=NC_030937.1.20186;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030937.1	PHANOTATE	CDS	21136	21420	-0.6021	-	0	ID=NC_030937.1.21136;clu=14526;clan=17_clan;PHROGs=phrog_1492,phrog_1872,phrog_6254;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030937.1	PHANOTATE	CDS	21517	21801	-48.394	-	0	ID=NC_030937.1.21517;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_030937.1	PHANOTATE	CDS	21791	22345	-951.061	-	0	ID=NC_030937.1.21791;clu=15642;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_030937.1	PHANOTATE	CDS	22355	23158	-2457.28	-	0	ID=NC_030937.1.22355;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030937.1	PHANOTATE	CDS	23218	23604	-29.2057	-	0	ID=NC_030937.1.23218;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_17507,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030937.1	PHANOTATE	CDS	23601	24533	-81116.4737	-	0	ID=NC_030937.1.23601;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030937.1	PHANOTATE	CDS	24533	24688	-6.1153	-	0	ID=NC_030937.1.24533;clu=12992;clan=432_pair;PHROGs=phrog_6163,phrog_6234;phrog_ann=hypothetical protein,host RecBCD nuclease inhibitor;phrog_category=moron, auxiliary metabolic gene and host takeover,unknown function
+NC_030937.1	PHANOTATE	CDS	24688	24865	-44990.4824	-	0	ID=NC_030937.1.24688;clu=11969;clan=10_clan
+MW960043.1	PHANOTATE	CDS	22548	24947	-12508886511700.834	-	0	ID=MW960043.1.22548;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MW960043.1	PHANOTATE	CDS	24953	25189	-34.3856	-	0	ID=MW960043.1.24953;clu=569;clan=169_clan
+MW960043.1	PHANOTATE	CDS	25186	26232	-80131.8246	-	0	ID=MW960043.1.25186;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MW960043.1	PHANOTATE	CDS	26323	26592	-25.7815	-	0	ID=MW960043.1.26323;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW960043.1	PHANOTATE	CDS	26589	27173	-2765.7323	-	0	ID=MW960043.1.26589;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_16254,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MW960043.1	PHANOTATE	CDS	27183	28025	-30077.9695	-	0	ID=MW960043.1.27183;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MW960043.1	PHANOTATE	CDS	28022	28423	-34.7474	-	0	ID=MW960043.1.28022;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_2914,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MW960043.1	PHANOTATE	CDS	28413	29348	-12970.5016	-	0	ID=MW960043.1.28413;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MW960043.1	PHANOTATE	CDS	29365	29947	-22492.4104	-	0	ID=MW960043.1.29365;clu=11969;clan=10_clan
+OK018136.1	PHANOTATE	CDS	10438	10979	-17022.7477	+	0	ID=OK018136.1.10979;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK018136.1	PHANOTATE	CDS	10995	11912	-7206.1733	+	0	ID=OK018136.1.11912;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OK018136.1	PHANOTATE	CDS	11896	12291	-52.3741	+	0	ID=OK018136.1.12291;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OK018136.1	PHANOTATE	CDS	12295	13128	-14683.3361	+	0	ID=OK018136.1.13128;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+OK018136.1	PHANOTATE	CDS	13138	13815	-391.8872	+	0	ID=OK018136.1.13815;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OK018136.1	PHANOTATE	CDS	13815	13928	-9.7381	+	0	ID=OK018136.1.13928;clu=6719;clan=bridge: 3_clan, 3_clan
+OK018136.1	PHANOTATE	CDS	13928	14185	-28.8438	+	0	ID=OK018136.1.14185;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK018136.1	PHANOTATE	CDS	14196	15233	-48068.7702	+	0	ID=OK018136.1.15233;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OK018136.1	PHANOTATE	CDS	15230	15433	-13.5642	+	0	ID=OK018136.1.15433;clu=14674;clan=169_clan
+OK018136.1	PHANOTATE	CDS	15438	17834	-457945422121.8923	+	0	ID=OK018136.1.17834;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	12786	13425	-14333.3312	+	0	ID=MZ326854.1.13425;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ326854.1	PHANOTATE	CDS	13441	14358	-7883.1808	+	0	ID=MZ326854.1.14358;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	14342	14737	-57.9044	+	0	ID=MZ326854.1.14737;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	14741	15574	-12615.0244	+	0	ID=MZ326854.1.15574;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	15584	16276	-263.304	+	0	ID=MZ326854.1.16276;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MZ326854.1	PHANOTATE	CDS	16276	16533	-19.4935	+	0	ID=MZ326854.1.16533;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ326854.1	PHANOTATE	CDS	16544	17581	-20230.335	+	0	ID=MZ326854.1.17581;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	17578	17781	-8.6305	+	0	ID=MZ326854.1.17781;clu=14674;clan=169_clan
+MZ326854.1	PHANOTATE	CDS	17786	20182	-758369526415.6162	+	0	ID=MZ326854.1.20182;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326854.1	PHANOTATE	CDS	20179	20182	-0.0579	+	0	ID=MZ326854.1.20268;clu=15790;clan=1124_mono
+OK490494.1	PHANOTATE	CDS	15001	15117	-15716.1392	+	0	ID=OK490494.1.15117;clu=11969;clan=10_clan
+OK490494.1	PHANOTATE	CDS	15130	16053	-13001.9715	+	0	ID=OK490494.1.16053;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OK490494.1	PHANOTATE	CDS	16043	16447	-10.1561	+	0	ID=OK490494.1.16447;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_2914,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OK490494.1	PHANOTATE	CDS	16522	17301	-4421.3729	+	0	ID=OK490494.1.17301;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+OK490494.1	PHANOTATE	CDS	17311	17928	-368.7505	+	0	ID=OK490494.1.17928;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_16254,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OK490494.1	PHANOTATE	CDS	17925	18191	-18.2613	+	0	ID=OK490494.1.18191;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK490494.1	PHANOTATE	CDS	18223	19266	-25007.0171	+	0	ID=OK490494.1.19266;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OK490494.1	PHANOTATE	CDS	19263	19505	-9.7515	+	0	ID=OK490494.1.19505;clu=1853;clan=2151_mono
+OK490494.1	PHANOTATE	CDS	19502	19759	-8.7506	+	0	ID=OK490494.1.19759;clu=7459;clan=872_mono
+OK490494.1	PHANOTATE	CDS	19759	19998	-10.5177	+	0	ID=OK490494.1.19998;clu=11200;clan=169_clan
+OK490494.1	PHANOTATE	CDS	20001	22394	-1105443522289.3154	+	0	ID=OK490494.1.22394;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OQ135104.1	PHANOTATE	CDS	12111	12750	-3942.3396	+	0	ID=OQ135104.1.12750;clu=11969;clan=10_clan
+OQ135104.1	PHANOTATE	CDS	12800	13837	-30240.8379	+	0	ID=OQ135104.1.13837;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135104.1	PHANOTATE	CDS	13855	13983	-0.1129	+	0	ID=OQ135104.1.13983;clu=3544;clan=1927_mono
+OQ135104.1	PHANOTATE	CDS	14037	14198	-4.9246	+	0	ID=OQ135104.1.14198;clu=13537;clan=14_clan;PHROGs=phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135104.1	PHANOTATE	CDS	14229	14321	-1.1126	+	0	ID=OQ135104.1.14321;clu=1711;clan=2007_mono
+OQ135104.1	PHANOTATE	CDS	14382	14555	-0.212	+	0	ID=OQ135104.1.14555;clu=2270;clan=554_mono
+OQ135104.1	PHANOTATE	CDS	14552	15376	-8472.5963	+	0	ID=OQ135104.1.15376;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135104.1	PHANOTATE	CDS	15369	15824	-3.6441	+	0	ID=OQ135104.1.15824;clu=4662;clan=bridge: 12_clan, 3_clan;PHROGs=phrog_11324,phrog_4824,phrog_26149,phrog_10602,phrog_23238,phrog_10946,phrog_236,phrog_32578,phrog_5839;phrog_ann=hypothetical protein,deoxynucleoside monophosphate kinase,nucleotide kinase;phrog_category=unknown function,other
+OQ135104.1	PHANOTATE	CDS	15827	16039	-4.3433	+	0	ID=OQ135104.1.16039;clu=9655;clan=2291_mono
+OQ135104.1	PHANOTATE	CDS	16110	16937	-1113.7965	+	0	ID=OQ135104.1.16937;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135104.1	PHANOTATE	CDS	16934	17107	-13.7951	+	0	ID=OQ135104.1.17107;clu=12952;clan=1118_mono
+OQ135104.1	PHANOTATE	CDS	17111	19528	-223702022994.8183	+	0	ID=OQ135104.1.19528;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OP087422.1	PHANOTATE	CDS	11151	11227	-26.773	-	0	ID=OP087422.1.10895;clu=4523;clan=288_pair;PHROGs=phrog_5112;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP087422.1	PHANOTATE	CDS	11151	13598	-104372278104.4288	-	0	ID=OP087422.1.11151;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OP087422.1	PHANOTATE	CDS	13607	14590	-5969.7128	-	0	ID=OP087422.1.13607;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OP087422.1	PHANOTATE	CDS	14530	15150	-24.1735	-	0	ID=OP087422.1.14530;clu=10826;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OP087422.1	PHANOTATE	CDS	15147	15368	-8.4469	-	0	ID=OP087422.1.15147;clu=2277;clan=2280_mono;PHROGs=phrog_33854;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP087422.1	PHANOTATE	CDS	15365	16159	-4496.7595	-	0	ID=OP087422.1.15365;clu=3538;clan=172_clan;PHROGs=phrog_192,phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+OP087422.1	PHANOTATE	CDS	16146	16346	-7.5393	-	0	ID=OP087422.1.16146;clu=16303;clan=911_mono
+OP087422.1	PHANOTATE	CDS	16330	16692	-7.1012	-	0	ID=OP087422.1.16330;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_20005,phrog_307;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OP087422.1	PHANOTATE	CDS	16725	17696	-2186.8036	-	0	ID=OP087422.1.16725;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OP087422.1	PHANOTATE	CDS	17696	18598	-5062.1339	-	0	ID=OP087422.1.17696;clu=11969;clan=10_clan
+ON932078.1	PHANOTATE	CDS	14994	15471	-5196.579	+	0	ID=ON932078.1.15471;clu=11969;clan=10_clan
+ON932078.1	PHANOTATE	CDS	15471	16400	-4640.904	+	0	ID=ON932078.1.16400;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ON932078.1	PHANOTATE	CDS	16397	16783	-18.9244	+	0	ID=ON932078.1.16783;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+ON932078.1	PHANOTATE	CDS	16879	17610	-1344.8211	+	0	ID=ON932078.1.17610;clu=17377;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+ON932078.1	PHANOTATE	CDS	17620	18192	-200.2146	+	0	ID=ON932078.1.18192;clu=4537;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+ON932078.1	PHANOTATE	CDS	18179	18391	-0.628	+	0	ID=ON932078.1.18391;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON932078.1	PHANOTATE	CDS	18391	18600	-5.6178	+	0	ID=ON932078.1.18600;clu=17550;clan=1246_mono
+ON932078.1	PHANOTATE	CDS	18597	18911	-16.6825	+	0	ID=ON932078.1.18911;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON932078.1	PHANOTATE	CDS	18904	19806	-3375.6368	+	0	ID=ON932078.1.19806;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+ON932078.1	PHANOTATE	CDS	19803	19994	-8.8618	+	0	ID=ON932078.1.19994;clu=7332;clan=317_pair
+ON932078.1	PHANOTATE	CDS	19994	22501	-89437815677.7998	+	0	ID=ON932078.1.22501;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MW965453.2	PHANOTATE	CDS	6508	6587	-32.7469	-	0	ID=MW965453.2.6261;clu=4523;clan=288_pair;PHROGs=phrog_5112;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW965453.2	PHANOTATE	CDS	6508	8958	-42571841459.6944	-	0	ID=MW965453.2.6508;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MW965453.2	PHANOTATE	CDS	8958	10007	-5909.3466	-	0	ID=MW965453.2.8958;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MW965453.2	PHANOTATE	CDS	9911	10549	-45.3446	-	0	ID=MW965453.2.9911;clu=10826;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_31158,phrog_801,phrog_37590,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MW965453.2	PHANOTATE	CDS	10546	10788	-7.4079	-	0	ID=MW965453.2.10546;clu=7333;clan=1424_mono
+MW965453.2	PHANOTATE	CDS	10785	11576	-3215.0791	-	0	ID=MW965453.2.10785;clu=3538;clan=172_clan;PHROGs=phrog_192,phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MW965453.2	PHANOTATE	CDS	11563	11775	-16.3412	-	0	ID=MW965453.2.11563;clu=8451;clan=706_mono
+MW965453.2	PHANOTATE	CDS	11772	12173	-23.2976	-	0	ID=MW965453.2.11772;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MW965453.2	PHANOTATE	CDS	12164	13126	-1164.2854	-	0	ID=MW965453.2.12164;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MW965453.2	PHANOTATE	CDS	13126	13958	-4758.4665	-	0	ID=MW965453.2.13126;clu=11969;clan=10_clan
+ON911539.2	PHANOTATE	CDS	14888	15379	-5547.0605	+	0	ID=ON911539.2.15379;clu=11969;clan=10_clan
+ON911539.2	PHANOTATE	CDS	15379	16308	-8052.5008	+	0	ID=ON911539.2.16308;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ON911539.2	PHANOTATE	CDS	16305	16691	-19.022	+	0	ID=ON911539.2.16691;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+ON911539.2	PHANOTATE	CDS	16787	17518	-948.1463	+	0	ID=ON911539.2.17518;clu=17377;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+ON911539.2	PHANOTATE	CDS	17528	17716	-10.076	+	0	ID=ON911539.2.17716;clu=7907;clan=bridge: 28_clan, 3_clan
+ON911539.2	PHANOTATE	CDS	17740	18099	-11.5909	+	0	ID=ON911539.2.18099;clu=15204;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+ON911539.2	PHANOTATE	CDS	18086	18298	-1.0418	+	0	ID=ON911539.2.18298;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON911539.2	PHANOTATE	CDS	18277	18507	-7.0405	+	0	ID=ON911539.2.18507;clu=17550;clan=1246_mono
+ON911539.2	PHANOTATE	CDS	18664	19713	-3209.094	+	0	ID=ON911539.2.19713;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+ON911539.2	PHANOTATE	CDS	19710	19886	-3.7833	+	0	ID=ON911539.2.19886;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON911539.2	PHANOTATE	CDS	19888	22392	-64427463444.3568	+	0	ID=ON911539.2.22392;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OQ135102.1	PHANOTATE	CDS	15495	15536	-0.0926	+	0	ID=OQ135102.1.15536;clu=9604;clan=2260_mono
+OQ135102.1	PHANOTATE	CDS	15496	16323	-3009.7771	+	0	ID=OQ135102.1.16323;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135102.1	PHANOTATE	CDS	16316	16783	-9.1381	+	0	ID=OQ135102.1.16783;clu=1909;clan=121_clan;PHROGs=phrog_16943,phrog_37386,phrog_474,phrog_17775,phrog_18396;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+OQ135102.1	PHANOTATE	CDS	16786	17055	-6.976	+	0	ID=OQ135102.1.17055;clu=2468;clan=1260_mono;PHROGs=phrog_30225;phrog_ann=hypothetical protein;phrog_category=unknown function
+OQ135102.1	PHANOTATE	CDS	17052	17267	-8.6769	+	0	ID=OQ135102.1.17267;clu=9655;clan=2291_mono
+OQ135102.1	PHANOTATE	CDS	17257	18174	-1983.7084	+	0	ID=OQ135102.1.18174;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135102.1	PHANOTATE	CDS	18171	18344	-9.1483	+	0	ID=OQ135102.1.18344;clu=12952;clan=1118_mono
+OQ135102.1	PHANOTATE	CDS	18411	20765	-24823435987.9283	+	0	ID=OQ135102.1.20765;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_011201.1	PHANOTATE	CDS	12600	13218	-1969.5763	+	0	ID=NC_011201.1.13218;clu=2546;clan=10_clan
+NC_011201.1	PHANOTATE	CDS	13218	14189	-2309.5131	+	0	ID=NC_011201.1.14189;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_011201.1	PHANOTATE	CDS	14222	14587	-8.6015	+	0	ID=NC_011201.1.14587;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_011201.1	PHANOTATE	CDS	14568	14795	-31.5744	+	0	ID=NC_011201.1.14795;clu=15745;clan=1338_mono
+NC_011201.1	PHANOTATE	CDS	14792	14992	-17.4598	+	0	ID=NC_011201.1.14992;clu=16303;clan=911_mono
+NC_011201.1	PHANOTATE	CDS	14979	15773	-3756.9732	+	0	ID=NC_011201.1.15773;clu=3538;clan=172_clan;PHROGs=phrog_192,phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_011201.1	PHANOTATE	CDS	15770	15991	-12.383	+	0	ID=NC_011201.1.15991;clu=2277;clan=2280_mono;PHROGs=phrog_33854;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_011201.1	PHANOTATE	CDS	15988	16668	-61.987	+	0	ID=NC_011201.1.16668;clu=10826;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_011201.1	PHANOTATE	CDS	16665	17591	-6157.9229	+	0	ID=NC_011201.1.17591;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_011201.1	PHANOTATE	CDS	17600	20047	-9282651181.1584	+	0	ID=NC_011201.1.20047;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_011201.1	PHANOTATE	CDS	19971	20047	-22.5452	+	0	ID=NC_011201.1.20303;clu=4523;clan=288_pair;PHROGs=phrog_5112;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON529868.1	PHANOTATE	CDS	34204	36639	-55460481724.2235	-	0	ID=ON529868.1.34204;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+ON529868.1	PHANOTATE	CDS	36642	36797	-2.5832	-	0	ID=ON529868.1.36642;clu=17435;clan=531_mono
+ON529868.1	PHANOTATE	CDS	36794	37744	-3542.9863	-	0	ID=ON529868.1.36794;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+ON529868.1	PHANOTATE	CDS	37695	38222	-63.367	-	0	ID=ON529868.1.37695;clu=1230;clan=bridge: outlier: 3_clan, 3_clan, 3_clan;PHROGs=phrog_2252,phrog_18716,phrog_801,phrog_37590,phrog_16254,phrog_11257;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+ON529868.1	PHANOTATE	CDS	38225	39418	-78912.2214	-	0	ID=ON529868.1.38225;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ON529868.1	PHANOTATE	CDS	39420	39713	-13.0908	-	0	ID=ON529868.1.39420;clu=7877;clan=14_clan;PHROGs=phrog_20005,phrog_36860;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+ON529868.1	PHANOTATE	CDS	39775	40782	-16737.5766	-	0	ID=ON529868.1.39775;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ON529868.1	PHANOTATE	CDS	40803	41114	-18.4626	-	0	ID=ON529868.1.40803;clu=3466;clan=2076_mono
+ON529868.1	PHANOTATE	CDS	41114	41639	-16071.2305	-	0	ID=ON529868.1.41114;clu=11969;clan=10_clan
+MK903280.1	PHANOTATE	CDS	15709	15819	-4.7279	+	0	ID=MK903280.1.15819;clu=13000;clan=3_clan;PHROGs=phrog_801;phrog_ann=dATP / dGTP pyrophosphohydrolase;phrog_category=DNA, RNA and nucleotide metabolism
+MK903280.1	PHANOTATE	CDS	15819	16076	-32.1032	+	0	ID=MK903280.1.16076;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK903280.1	PHANOTATE	CDS	16069	16344	-10.3154	+	0	ID=MK903280.1.16344;clu=8497;clan=2297_mono
+MK903280.1	PHANOTATE	CDS	16355	17392	-50734.6332	+	0	ID=MK903280.1.17392;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MK903280.1	PHANOTATE	CDS	17389	17589	-10.7055	+	0	ID=MK903280.1.17589;clu=14674;clan=169_clan
+MK903280.1	PHANOTATE	CDS	17594	19990	-500677660188.5832	+	0	ID=MK903280.1.19990;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MK903280.1	PHANOTATE	CDS	19987	19990	-0.0623	+	0	ID=MK903280.1.20076;clu=15790;clan=1124_mono
+OK335783.1	PHANOTATE	CDS	12672	12720	-20875525719.4208	+	0	ID=OK335783.1.12720;clu=7423;clan=30_clan;PHROGs=phrog_17,phrog_15971,phrog_9556,phrog_2573;phrog_ann=DNA polymerase I,DNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OK335783.1	PHANOTATE	CDS	12713	13570	-8988.5717	+	0	ID=OK335783.1.13570;clu=11969;clan=10_clan
+OK335783.1	PHANOTATE	CDS	13570	14598	-10944.5416	+	0	ID=OK335783.1.14598;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OK335783.1	PHANOTATE	CDS	14660	14953	-12.9512	+	0	ID=OK335783.1.14953;clu=7877;clan=14_clan;PHROGs=phrog_20005,phrog_36860;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OK335783.1	PHANOTATE	CDS	14956	16149	-72221.5775	+	0	ID=OK335783.1.16149;clu=15761;clan=257_pair;PHROGs=phrog_704,phrog_284;phrog_ann=exonuclease,DNA repair exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OK335783.1	PHANOTATE	CDS	16158	16670	-34.2696	+	0	ID=OK335783.1.16670;clu=11297;clan=outlier: 3_clan;PHROGs=phrog_2252,phrog_18716,phrog_801,phrog_37590,phrog_16254,phrog_11257,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OK335783.1	PHANOTATE	CDS	16663	17574	-2340.7225	+	0	ID=OK335783.1.17574;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OK335783.1	PHANOTATE	CDS	17571	17663	-0.3011	+	0	ID=OK335783.1.17663;clu=12413;clan=467_mono
+OK335783.1	PHANOTATE	CDS	17672	20110	-22649034750.6625	+	0	ID=OK335783.1.20110;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+GU393987.1	PHANOTATE	CDS	12441	13279	-13788.5133	+	0	ID=GU393987.1.13279;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU393987.1	PHANOTATE	CDS	13279	14307	-10680.4738	+	0	ID=GU393987.1.14307;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+GU393987.1	PHANOTATE	CDS	14369	14662	-17.7446	+	0	ID=GU393987.1.14662;clu=7877;clan=14_clan;PHROGs=phrog_20005,phrog_36860;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+GU393987.1	PHANOTATE	CDS	14681	14773	-1.2519	+	0	ID=GU393987.1.14773;clu=15203;clan=562_mono
+GU393987.1	PHANOTATE	CDS	14794	15858	-22779.0312	+	0	ID=GU393987.1.15858;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+GU393987.1	PHANOTATE	CDS	15861	16385	-43.3836	+	0	ID=GU393987.1.16385;clu=11297;clan=outlier: 3_clan;PHROGs=phrog_18716,phrog_801,phrog_37590,phrog_16254,phrog_11257;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+GU393987.1	PHANOTATE	CDS	16375	17286	-3749.8002	+	0	ID=GU393987.1.17286;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+GU393987.1	PHANOTATE	CDS	17283	17438	-3.6054	+	0	ID=GU393987.1.17438;clu=17435;clan=531_mono
+GU393987.1	PHANOTATE	CDS	17441	19894	-61654509537.1289	+	0	ID=GU393987.1.19894;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048055.1	PHANOTATE	CDS	20685	23135	-189676177899.9097	-	0	ID=NC_048055.1.20685;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048055.1	PHANOTATE	CDS	23132	24103	-131560.0164	-	0	ID=NC_048055.1.23132;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048055.1	PHANOTATE	CDS	24063	24314	-4.3741	-	0	ID=NC_048055.1.24063;clu=14646;clan=1469_mono
+NC_048055.1	PHANOTATE	CDS	24308	24721	-110.5255	-	0	ID=NC_048055.1.24308;clu=15204;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_801,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_048055.1	PHANOTATE	CDS	24798	25577	-22175.5848	-	0	ID=NC_048055.1.24798;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048055.1	PHANOTATE	CDS	25659	26042	-32.0409	-	0	ID=NC_048055.1.25659;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_20005,phrog_36860,phrog_2633;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048055.1	PHANOTATE	CDS	26017	27009	-37647.5006	-	0	ID=NC_048055.1.26017;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048055.1	PHANOTATE	CDS	27006	27914	-4689.121	-	0	ID=NC_048055.1.27006;clu=11969;clan=10_clan
+NC_048055.1	PHANOTATE	CDS	27919	28135	-17.0154	-	0	ID=NC_048055.1.27919;clu=123;clan=1785_mono
+NC_016764.1	PHANOTATE	CDS	12738	13023	-847007830565.8292	+	0	ID=NC_016764.1.13023;clu=11305;clan=30_clan;PHROGs=phrog_17,phrog_9556,phrog_2573;phrog_ann=DNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016764.1	PHANOTATE	CDS	13035	13919	-2565.4422	+	0	ID=NC_016764.1.13919;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016764.1	PHANOTATE	CDS	13919	14911	-50486.7834	+	0	ID=NC_016764.1.14911;clu=11973;clan=5_clan
+NC_016764.1	PHANOTATE	CDS	14986	15096	-2.7234	+	0	ID=NC_016764.1.15096;clu=12979;clan=2595_mono
+NC_016764.1	PHANOTATE	CDS	15123	15272	-2.8924	+	0	ID=NC_016764.1.15272;clu=13537;clan=14_clan;PHROGs=phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016764.1	PHANOTATE	CDS	15272	16249	-120412.8226	+	0	ID=NC_016764.1.16249;clu=16297;clan=95_clan;PHROGs=phrog_221;phrog_ann=metallo-phosphoesterase;phrog_category=other
+NC_016764.1	PHANOTATE	CDS	16251	16649	-31.6961	+	0	ID=NC_016764.1.16649;clu=14105;clan=3_clan;PHROGs=phrog_2252,phrog_11257,phrog_31158,phrog_801,phrog_37590,phrog_5332,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_016764.1	PHANOTATE	CDS	16646	16843	-8.472	+	0	ID=NC_016764.1.16843;clu=15211;clan=99_clan;PHROGs=phrog_23988;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016764.1	PHANOTATE	CDS	16845	17738	-73343.3857	+	0	ID=NC_016764.1.17738;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016764.1	PHANOTATE	CDS	17738	20149	-29568682274.9216	+	0	ID=NC_016764.1.20149;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OK258138.1	PHANOTATE	CDS	25618	28128	-69521722146.4955	-	0	ID=OK258138.1.25618;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OK258138.1	PHANOTATE	CDS	28128	28319	-9.0241	-	0	ID=OK258138.1.28128;clu=9644;clan=317_pair
+OK258138.1	PHANOTATE	CDS	28316	29278	-142293.3873	-	0	ID=OK258138.1.28316;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OK258138.1	PHANOTATE	CDS	29275	29574	-21.9417	-	0	ID=OK258138.1.29275;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK258138.1	PHANOTATE	CDS	29564	30142	-137.3067	-	0	ID=OK258138.1.29564;clu=4537;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OK258138.1	PHANOTATE	CDS	30152	31192	-5271.2472	-	0	ID=OK258138.1.30152;clu=3538;clan=172_clan;PHROGs=phrog_9369,phrog_403;phrog_ann=DNA polymerase exonuclease subunit,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+OK258138.1	PHANOTATE	CDS	31359	32288	-13659.065	-	0	ID=OK258138.1.31359;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OK258138.1	PHANOTATE	CDS	32288	32443	-11.2703	-	0	ID=OK258138.1.32288;clu=12992;clan=432_pair;PHROGs=phrog_4790,phrog_6234;phrog_ann=host RecBCD nuclease inhibitor;phrog_category=moron, auxiliary metabolic gene and host takeover
+OK258138.1	PHANOTATE	CDS	32443	33128	-3564.8799	-	0	ID=OK258138.1.32443;clu=11969;clan=10_clan
+MZ326858.1	PHANOTATE	CDS	15803	15913	-4.2635	+	0	ID=MZ326858.1.15913;clu=13000;clan=3_clan;PHROGs=phrog_801;phrog_ann=dATP / dGTP pyrophosphohydrolase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326858.1	PHANOTATE	CDS	15913	16170	-36.1991	+	0	ID=MZ326858.1.16170;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ326858.1	PHANOTATE	CDS	16183	17220	-47916.6684	+	0	ID=MZ326858.1.17220;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326858.1	PHANOTATE	CDS	17217	17417	-11.3986	+	0	ID=MZ326858.1.17417;clu=14674;clan=169_clan
+MZ326858.1	PHANOTATE	CDS	17422	19818	-474484515182.8289	+	0	ID=MZ326858.1.19818;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326858.1	PHANOTATE	CDS	19815	19818	-0.0691	+	0	ID=MZ326858.1.19904;clu=15790;clan=1124_mono
+NC_022982.1	PHANOTATE	CDS	12070	12696	-16268.9564	+	0	ID=NC_022982.1.12696;clu=11969;clan=10_clan
+NC_022982.1	PHANOTATE	CDS	12700	13629	-5916.8225	+	0	ID=NC_022982.1.13629;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022982.1	PHANOTATE	CDS	13604	14002	-19.4139	+	0	ID=NC_022982.1.14002;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022982.1	PHANOTATE	CDS	13999	14832	-5484.4394	+	0	ID=NC_022982.1.14832;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022982.1	PHANOTATE	CDS	14843	15472	-546.9539	+	0	ID=NC_022982.1.15472;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_022982.1	PHANOTATE	CDS	15541	15720	-6.1879	+	0	ID=NC_022982.1.15720;clu=14676;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022982.1	PHANOTATE	CDS	15713	15928	-10.8798	+	0	ID=NC_022982.1.15928;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022982.1	PHANOTATE	CDS	15930	16949	-20047.2958	+	0	ID=NC_022982.1.16949;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022982.1	PHANOTATE	CDS	16946	17116	-4.776	+	0	ID=NC_022982.1.17116;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022982.1	PHANOTATE	CDS	17070	19514	-383659159198.3015	+	0	ID=NC_022982.1.19514;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ137559.1	PHANOTATE	CDS	14557	15381	-5096.2567	+	0	ID=OQ137559.1.15381;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ137559.1	PHANOTATE	CDS	15422	15889	-84.5049	+	0	ID=OQ137559.1.15889;clu=9097;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_11257,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OQ137559.1	PHANOTATE	CDS	15886	16086	-0.2824	+	0	ID=OQ137559.1.16086;clu=9655;clan=2291_mono
+OQ137559.1	PHANOTATE	CDS	16161	16982	-1521.6095	+	0	ID=OQ137559.1.16982;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ137559.1	PHANOTATE	CDS	16957	17181	-3.3987	+	0	ID=OQ137559.1.17181;clu=10771;clan=535_mono
+OQ137559.1	PHANOTATE	CDS	17184	17351	-4.4133	+	0	ID=OQ137559.1.17351;clu=11329;clan=869_mono
+OQ137559.1	PHANOTATE	CDS	17435	17830	-57.9147	+	0	ID=OQ137559.1.17830;clu=11887;clan=130_clan
+OQ137559.1	PHANOTATE	CDS	17809	20229	-39540044534.5121	+	0	ID=OQ137559.1.20229;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MW145136.1	PHANOTATE	CDS	138	374	-11.0431	+	0	ID=MW145136.1.374;clu=4632;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_801,phrog_37590,phrog_11257,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MW145136.1	PHANOTATE	CDS	374	568	-4.6182	+	0	ID=MW145136.1.568;clu=9627;clan=99_clan;PHROGs=phrog_23988;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW145136.1	PHANOTATE	CDS	558	1472	-15928.6204	+	0	ID=MW145136.1.1472;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MW145136.1	PHANOTATE	CDS	1479	3881	-59175367480.8753	+	0	ID=MW145136.1.3881;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MW145136.1	PHANOTATE	CDS	37512	37546	-132467155506.3604	+	0	ID=MW145136.1.37546;clu=7423;clan=30_clan;PHROGs=phrog_15971,phrog_9556,phrog_2573;phrog_ann=DNA polymerase I,DNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MW145136.1	PHANOTATE	CDS	37557	38411	-8664.1493	+	0	ID=MW145136.1.38411;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW145136.1	PHANOTATE	CDS	38414	38839	-3.613	+	0	ID=MW145136.1.38839;clu=16215;clan=17_clan;PHROGs=phrog_1492,phrog_1872,phrog_6254,phrog_59,phrog_4842,phrog_826,phrog_3593;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MW145136.1	PHANOTATE	CDS	38827	39786	-22508.3875	+	0	ID=MW145136.1.39786;clu=11973;clan=5_clan
+MW145136.1	PHANOTATE	CDS	39783	40160	-159.9334	+	0	ID=MW145136.1.40160;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MW145136.1	PHANOTATE	CDS	40141	41031	-22561.2614	+	0	ID=MW145136.1.41031;clu=6982;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+OM735686.1	PHANOTATE	CDS	12761	13650	-45879.1087	+	0	ID=OM735686.1.13650;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OM735686.1	PHANOTATE	CDS	13640	14047	-12.6952	+	0	ID=OM735686.1.14047;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_2914,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+OM735686.1	PHANOTATE	CDS	14044	14880	-24667.6941	+	0	ID=OM735686.1.14880;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+OM735686.1	PHANOTATE	CDS	14890	15492	-432.5347	+	0	ID=OM735686.1.15492;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_16254,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OM735686.1	PHANOTATE	CDS	15489	15755	-20.9661	+	0	ID=OM735686.1.15755;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM735686.1	PHANOTATE	CDS	15748	15963	-6.1444	+	0	ID=OM735686.1.15963;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM735686.1	PHANOTATE	CDS	15993	17048	-125481.7258	+	0	ID=OM735686.1.17048;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OM735686.1	PHANOTATE	CDS	17045	17272	-13.4818	+	0	ID=OM735686.1.17272;clu=1853;clan=2151_mono
+OM735686.1	PHANOTATE	CDS	17269	17523	-12.5368	+	0	ID=OM735686.1.17523;clu=7459;clan=872_mono
+OM735686.1	PHANOTATE	CDS	17525	17758	-13.3953	+	0	ID=OM735686.1.17758;clu=11200;clan=169_clan
+OM735686.1	PHANOTATE	CDS	17761	20160	-849148103888.7291	+	0	ID=OM735686.1.20160;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MK903278.1	PHANOTATE	CDS	12730	13646	-13303.3548	+	0	ID=MK903278.1.13646;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MK903278.1	PHANOTATE	CDS	13643	14029	-39.3272	+	0	ID=MK903278.1.14029;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_17507,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MK903278.1	PHANOTATE	CDS	14125	14853	-1406.8581	+	0	ID=MK903278.1.14853;clu=17377;clan=172_clan;PHROGs=phrog_9369,phrog_403;phrog_ann=DNA polymerase exonuclease subunit,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+MK903278.1	PHANOTATE	CDS	14863	15441	-353.7548	+	0	ID=MK903278.1.15441;clu=4537;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MK903278.1	PHANOTATE	CDS	15428	15640	-1.1066	+	0	ID=MK903278.1.15640;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK903278.1	PHANOTATE	CDS	15640	15849	-6.3907	+	0	ID=MK903278.1.15849;clu=17550;clan=1246_mono
+MK903278.1	PHANOTATE	CDS	15850	16158	-36.903	+	0	ID=MK903278.1.16158;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK903278.1	PHANOTATE	CDS	16151	16351	-8.3449	+	0	ID=MK903278.1.16351;clu=14147;clan=2785_mono
+MK903278.1	PHANOTATE	CDS	16348	17310	-14515.0622	+	0	ID=MK903278.1.17310;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MK903278.1	PHANOTATE	CDS	17307	17474	-9.1357	+	0	ID=MK903278.1.17474;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK903278.1	PHANOTATE	CDS	17474	17728	-20.4116	+	0	ID=MK903278.1.17728;clu=15821;clan=2499_mono;PHROGs=phrog_38760;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK903278.1	PHANOTATE	CDS	17730	20240	-107020305650.9357	+	0	ID=MK903278.1.20240;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047840.1	PHANOTATE	CDS	12505	12672	-2166.1809	+	0	ID=NC_047840.1.12672;clu=11969;clan=10_clan
+NC_047840.1	PHANOTATE	CDS	12672	13601	-15598.7096	+	0	ID=NC_047840.1.13601;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047840.1	PHANOTATE	CDS	13768	14808	-5310.6586	+	0	ID=NC_047840.1.14808;clu=3538;clan=172_clan;PHROGs=phrog_9369,phrog_403;phrog_ann=DNA polymerase exonuclease subunit,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+NC_047840.1	PHANOTATE	CDS	14818	15396	-399.4597	+	0	ID=NC_047840.1.15396;clu=4537;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_047840.1	PHANOTATE	CDS	15383	15595	-1.3248	+	0	ID=NC_047840.1.15595;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047840.1	PHANOTATE	CDS	15625	15933	-37.1869	+	0	ID=NC_047840.1.15933;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047840.1	PHANOTATE	CDS	15926	16126	-10.4031	+	0	ID=NC_047840.1.16126;clu=14147;clan=2785_mono
+NC_047840.1	PHANOTATE	CDS	16123	17085	-10907.9104	+	0	ID=NC_047840.1.17085;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047840.1	PHANOTATE	CDS	17115	17249	-3.1012	+	0	ID=NC_047840.1.17249;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047840.1	PHANOTATE	CDS	17249	17503	-19.6796	+	0	ID=NC_047840.1.17503;clu=15821;clan=2499_mono;PHROGs=phrog_38760;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047840.1	PHANOTATE	CDS	17505	20015	-107269934430.5527	+	0	ID=NC_047840.1.20015;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OP583591.1	PHANOTATE	CDS	11414	11488	-5955.1064	+	0	ID=OP583591.1.11488;clu=11969;clan=10_clan
+OP583591.1	PHANOTATE	CDS	11488	11907	-22.8932	+	0	ID=OP583591.1.11907;clu=16215;clan=17_clan;PHROGs=phrog_1492,phrog_1872,phrog_6254,phrog_59,phrog_826,phrog_3593;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OP583591.1	PHANOTATE	CDS	11898	12827	-61013.3101	+	0	ID=OP583591.1.12827;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OP583591.1	PHANOTATE	CDS	12814	13188	-4.979	+	0	ID=OP583591.1.13188;clu=9658;clan=24_clan;PHROGs=phrog_1492,phrog_59,phrog_959,phrog_37683;phrog_ann=HNH endonuclease,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+OP583591.1	PHANOTATE	CDS	13346	14386	-4836.3181	+	0	ID=OP583591.1.14386;clu=3538;clan=172_clan;PHROGs=phrog_9369,phrog_403;phrog_ann=DNA polymerase exonuclease subunit,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+OP583591.1	PHANOTATE	CDS	14398	14625	-8.7839	+	0	ID=OP583591.1.14625;clu=7907;clan=bridge: 28_clan, 3_clan
+OP583591.1	PHANOTATE	CDS	14610	14978	-2.753	+	0	ID=OP583591.1.14978;clu=15204;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OP583591.1	PHANOTATE	CDS	14968	15267	-28.8935	+	0	ID=OP583591.1.15267;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP583591.1	PHANOTATE	CDS	15264	16226	-37593.1003	+	0	ID=OP583591.1.16226;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OP583591.1	PHANOTATE	CDS	16223	16414	-20.8841	+	0	ID=OP583591.1.16414;clu=9644;clan=317_pair
+OP583591.1	PHANOTATE	CDS	16414	18924	-42718289204.283	+	0	ID=OP583591.1.18924;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OQ137560.1	PHANOTATE	CDS	13176	13452	-3908.1369	+	0	ID=OQ137560.1.13452;clu=11969;clan=10_clan
+OQ137560.1	PHANOTATE	CDS	13502	14542	-9507.784	+	0	ID=OQ137560.1.14542;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ137560.1	PHANOTATE	CDS	14560	14688	-0.0989	+	0	ID=OQ137560.1.14688;clu=3544;clan=1927_mono
+OQ137560.1	PHANOTATE	CDS	14830	16083	-74734.334	+	0	ID=OQ137560.1.16083;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ137560.1	PHANOTATE	CDS	16127	16528	-52.0748	+	0	ID=OQ137560.1.16528;clu=4662;clan=bridge: 12_clan, 3_clan;PHROGs=phrog_11324,phrog_4824,phrog_26149,phrog_10602,phrog_23238,phrog_4472,phrog_10946,phrog_236,phrog_32578,phrog_5839;phrog_ann=hypothetical protein,deoxynucleoside monophosphate kinase,nucleotide kinase;phrog_category=unknown function,other
+OQ137560.1	PHANOTATE	CDS	16664	17668	-4866.2267	+	0	ID=OQ137560.1.17668;clu=5786;clan=26_clan
+OQ137560.1	PHANOTATE	CDS	17665	17838	-6.5103	+	0	ID=OQ137560.1.17838;clu=12952;clan=1118_mono
+OQ137560.1	PHANOTATE	CDS	17952	18197	-10.131	+	0	ID=OQ137560.1.18197;clu=6339;clan=130_clan
+OQ137560.1	PHANOTATE	CDS	18176	20593	-36301119093.2001	+	0	ID=OQ137560.1.20593;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MW831865.1	PHANOTATE	CDS	17547	17666	-25492.7203	+	0	ID=MW831865.1.17666;clu=11969;clan=10_clan
+MW831865.1	PHANOTATE	CDS	17679	18602	-18064.1841	+	0	ID=MW831865.1.18602;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MW831865.1	PHANOTATE	CDS	18592	18996	-9.242	+	0	ID=MW831865.1.18996;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_2914,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MW831865.1	PHANOTATE	CDS	19071	19850	-4811.9282	+	0	ID=MW831865.1.19850;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MW831865.1	PHANOTATE	CDS	19860	20477	-386.8525	+	0	ID=MW831865.1.20477;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_16254,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MW831865.1	PHANOTATE	CDS	20474	20740	-18.7849	+	0	ID=MW831865.1.20740;clu=7278;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW831865.1	PHANOTATE	CDS	20772	21815	-37152.7704	+	0	ID=MW831865.1.21815;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MW831865.1	PHANOTATE	CDS	21812	22054	-13.1186	+	0	ID=MW831865.1.22054;clu=1853;clan=2151_mono
+MW831865.1	PHANOTATE	CDS	22051	22305	-6.8745	+	0	ID=MW831865.1.22305;clu=7459;clan=872_mono
+MW831865.1	PHANOTATE	CDS	22305	22544	-11.435	+	0	ID=MW831865.1.22544;clu=11200;clan=169_clan
+MW831865.1	PHANOTATE	CDS	22547	24940	-415880992566.1537	+	0	ID=MW831865.1.24940;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MW831865.1	PHANOTATE	CDS	24937	24940	-0.1175	+	0	ID=MW831865.1.25041;clu=9136;clan=1763_mono
+LR778216.1	PHANOTATE	CDS	14999	15522	-18834.2412	+	0	ID=LR778216.1.15522;clu=11969;clan=10_clan
+LR778216.1	PHANOTATE	CDS	15567	16484	-23905.3172	+	0	ID=LR778216.1.16484;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+LR778216.1	PHANOTATE	CDS	16472	16846	-58.6046	+	0	ID=LR778216.1.16846;clu=7877;clan=14_clan;PHROGs=phrog_20005,phrog_36860,phrog_307,phrog_2914;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+LR778216.1	PHANOTATE	CDS	16843	17682	-54011.4529	+	0	ID=LR778216.1.17682;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+LR778216.1	PHANOTATE	CDS	17691	18230	-215.4301	+	0	ID=LR778216.1.18230;clu=17024;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+LR778216.1	PHANOTATE	CDS	18160	18429	-13.9645	+	0	ID=LR778216.1.18429;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+LR778216.1	PHANOTATE	CDS	18432	18674	-34.2417	+	0	ID=LR778216.1.18674;clu=17558;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+LR778216.1	PHANOTATE	CDS	18667	19584	-88900.4526	+	0	ID=LR778216.1.19584;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+LR778216.1	PHANOTATE	CDS	19581	19991	-40.7264	+	0	ID=LR778216.1.19991;clu=6345;clan=1038_mono;PHROGs=phrog_1040;phrog_ann=peptidase HslV family;phrog_category=other
+LR778216.1	PHANOTATE	CDS	19999	22437	-505330374572.8267	+	0	ID=LR778216.1.22437;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047930.1	PHANOTATE	CDS	11065	11967	-15860.5771	+	0	ID=NC_047930.1.11967;clu=7475;clan=10_clan
+NC_047930.1	PHANOTATE	CDS	11967	12938	-2013.1764	+	0	ID=NC_047930.1.12938;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047930.1	PHANOTATE	CDS	12971	13333	-7.8676	+	0	ID=NC_047930.1.13333;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047930.1	PHANOTATE	CDS	13317	13517	-10.4947	+	0	ID=NC_047930.1.13517;clu=16303;clan=911_mono
+NC_047930.1	PHANOTATE	CDS	13504	14298	-4004.751	+	0	ID=NC_047930.1.14298;clu=3538;clan=172_clan;PHROGs=phrog_192,phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047930.1	PHANOTATE	CDS	14295	14516	-7.5642	+	0	ID=NC_047930.1.14516;clu=2277;clan=2280_mono;PHROGs=phrog_33854;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047930.1	PHANOTATE	CDS	14513	15133	-19.3396	+	0	ID=NC_047930.1.15133;clu=10826;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_047930.1	PHANOTATE	CDS	15073	16056	-5309.9661	+	0	ID=NC_047930.1.16056;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047930.1	PHANOTATE	CDS	16065	18509	-85284993970.4516	+	0	ID=NC_047930.1.18509;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047930.1	PHANOTATE	CDS	18433	18509	-20.1483	+	0	ID=NC_047930.1.18765;clu=4523;clan=288_pair;PHROGs=phrog_5112;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_029092.1	PHANOTATE	CDS	13426	14381	-10620.3525	+	0	ID=NC_029092.1.14381;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_029092.1	PHANOTATE	CDS	14399	14575	-0.1006	+	0	ID=NC_029092.1.14575;clu=3544;clan=1927_mono
+NC_029092.1	PHANOTATE	CDS	14581	14736	-5.0316	+	0	ID=NC_029092.1.14736;clu=13537;clan=14_clan;PHROGs=phrog_20005;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_029092.1	PHANOTATE	CDS	14738	15922	-2723.0222	+	0	ID=NC_029092.1.15922;clu=15761;clan=257_pair;PHROGs=phrog_10496,phrog_284;phrog_ann=exonuclease,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+NC_029092.1	PHANOTATE	CDS	15915	16379	-90.32	+	0	ID=NC_029092.1.16379;clu=1909;clan=121_clan;PHROGs=phrog_16943,phrog_37386,phrog_474,phrog_17775,phrog_18396;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+NC_029092.1	PHANOTATE	CDS	16382	16651	-13.5233	+	0	ID=NC_029092.1.16651;clu=2468;clan=1260_mono;PHROGs=phrog_30225;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_029092.1	PHANOTATE	CDS	16648	16866	-7.8952	+	0	ID=NC_029092.1.16866;clu=9655;clan=2291_mono
+NC_029092.1	PHANOTATE	CDS	16853	16963	-2.7181	+	0	ID=NC_029092.1.16963;clu=3586;clan=2327_mono
+NC_029092.1	PHANOTATE	CDS	17050	17160	-1.06	+	0	ID=NC_029092.1.17160;clu=4145;clan=604_mono
+NC_029092.1	PHANOTATE	CDS	17187	17882	-1062.2078	+	0	ID=NC_029092.1.17882;clu=5786;clan=26_clan
+NC_029092.1	PHANOTATE	CDS	17879	18046	-8.9116	+	0	ID=NC_029092.1.18046;clu=11329;clan=869_mono
+NC_029092.1	PHANOTATE	CDS	18187	18432	-9.7303	+	0	ID=NC_029092.1.18432;clu=5822;clan=130_clan
+NC_029092.1	PHANOTATE	CDS	18426	20843	-179707678400.1689	+	0	ID=NC_029092.1.20843;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_022987.1	PHANOTATE	CDS	11541	12018	-5148.4299	+	0	ID=NC_022987.1.12018;clu=11969;clan=10_clan
+NC_022987.1	PHANOTATE	CDS	12018	12947	-4997.199	+	0	ID=NC_022987.1.12947;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022987.1	PHANOTATE	CDS	12944	13330	-17.4478	+	0	ID=NC_022987.1.13330;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022987.1	PHANOTATE	CDS	13426	14157	-709.3038	+	0	ID=NC_022987.1.14157;clu=17377;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022987.1	PHANOTATE	CDS	14168	14752	-212.3155	+	0	ID=NC_022987.1.14752;clu=4537;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_022987.1	PHANOTATE	CDS	14739	14951	-0.9473	+	0	ID=NC_022987.1.14951;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022987.1	PHANOTATE	CDS	14951	15160	-5.5591	+	0	ID=NC_022987.1.15160;clu=17550;clan=1246_mono
+NC_022987.1	PHANOTATE	CDS	15157	15471	-29.8269	+	0	ID=NC_022987.1.15471;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022987.1	PHANOTATE	CDS	15464	16366	-3962.5368	+	0	ID=NC_022987.1.16366;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_022987.1	PHANOTATE	CDS	16363	16539	-3.9738	+	0	ID=NC_022987.1.16539;clu=16350;clan=518_mono;PHROGs=phrog_18846;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_022987.1	PHANOTATE	CDS	16541	19045	-52297356451.4824	+	0	ID=NC_022987.1.19045;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_030928.1	PHANOTATE	CDS	31173	33683	-70535346298.569	-	0	ID=NC_030928.1.31173;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_030928.1	PHANOTATE	CDS	33683	33874	-8.7274	-	0	ID=NC_030928.1.33683;clu=9644;clan=317_pair
+NC_030928.1	PHANOTATE	CDS	33871	34728	-9239.7036	-	0	ID=NC_030928.1.33871;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030928.1	PHANOTATE	CDS	34845	35129	-32.1853	-	0	ID=NC_030928.1.34845;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_030928.1	PHANOTATE	CDS	35129	35674	-1476.9582	-	0	ID=NC_030928.1.35129;clu=17024;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_030928.1	PHANOTATE	CDS	35684	36487	-3223.526	-	0	ID=NC_030928.1.35684;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030928.1	PHANOTATE	CDS	36547	36933	-30.4352	-	0	ID=NC_030928.1.36547;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_36860,phrog_17507,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030928.1	PHANOTATE	CDS	36930	37862	-46499.8086	-	0	ID=NC_030928.1.36930;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_030928.1	PHANOTATE	CDS	37862	38017	-6.2755	-	0	ID=NC_030928.1.37862;clu=12992;clan=432_pair;PHROGs=phrog_6163,phrog_6234;phrog_ann=hypothetical protein,host RecBCD nuclease inhibitor;phrog_category=moron, auxiliary metabolic gene and host takeover,unknown function
+NC_030928.1	PHANOTATE	CDS	38017	38683	-42623.8899	-	0	ID=NC_030928.1.38017;clu=11969;clan=10_clan
+MZ326863.1	PHANOTATE	CDS	11256	11815	-12177.4793	+	0	ID=MZ326863.1.11815;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ326863.1	PHANOTATE	CDS	11869	12762	-1755.0821	+	0	ID=MZ326863.1.12762;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326863.1	PHANOTATE	CDS	12740	13120	-46.8172	+	0	ID=MZ326863.1.13120;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_2914,phrog_20005,phrog_307;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326863.1	PHANOTATE	CDS	13120	14319	-88476.0613	+	0	ID=MZ326863.1.14319;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326863.1	PHANOTATE	CDS	14319	14546	-12.3558	+	0	ID=MZ326863.1.14546;clu=1920;clan=404_pair;PHROGs=phrog_4856;phrog_ann=nucleoside triphosphate pyrophosphohydrolase;phrog_category=other
+MZ326863.1	PHANOTATE	CDS	14807	16201	-28878.0588	+	0	ID=MZ326863.1.16201;clu=2479;clan=26_clan;PHROGs=phrog_30362,phrog_114;phrog_ann=DNA ligase,ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ326863.1	PHANOTATE	CDS	16256	18661	-3025323125.4997	+	0	ID=MZ326863.1.18661;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+ON932081.1	PHANOTATE	CDS	15729	16531	-51223.5188	+	0	ID=ON932081.1.16531;clu=14213;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON932081.1	PHANOTATE	CDS	16531	17457	-8820.359	+	0	ID=ON932081.1.17457;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ON932081.1	PHANOTATE	CDS	17441	17821	-38.5009	+	0	ID=ON932081.1.17821;clu=7877;clan=14_clan;PHROGs=phrog_2914,phrog_20005,phrog_307,phrog_2633;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+ON932081.1	PHANOTATE	CDS	17818	18651	-23786.0354	+	0	ID=ON932081.1.18651;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+ON932081.1	PHANOTATE	CDS	18688	19035	-54.1584	+	0	ID=ON932081.1.19035;clu=4902;clan=3_clan;PHROGs=phrog_2252,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+ON932081.1	PHANOTATE	CDS	19022	19237	-0.7563	+	0	ID=ON932081.1.19237;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON932081.1	PHANOTATE	CDS	19241	19537	-18.3669	+	0	ID=ON932081.1.19537;clu=17561;clan=893_mono;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON932081.1	PHANOTATE	CDS	19576	20505	-10251.0824	+	0	ID=ON932081.1.20505;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+ON932081.1	PHANOTATE	CDS	20508	20726	-26.8777	+	0	ID=ON932081.1.20726;clu=807;clan=922_mono
+ON932081.1	PHANOTATE	CDS	20729	23170	-161655059125.2495	+	0	ID=ON932081.1.23170;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048029.1	PHANOTATE	CDS	29617	32205	-5262675835959.259	-	0	ID=NC_048029.1.29617;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048029.1	PHANOTATE	CDS	32202	32294	-0.0542	-	0	ID=NC_048029.1.32202;clu=15344;clan=1371_mono
+NC_048029.1	PHANOTATE	CDS	32295	33152	-4083.9526	-	0	ID=NC_048029.1.32295;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048029.1	PHANOTATE	CDS	33152	33598	-168.3416	-	0	ID=NC_048029.1.33152;clu=16460;clan=88_clan;PHROGs=phrog_415,phrog_505;phrog_ann=polynucleotide kinase;phrog_category=other
+NC_048029.1	PHANOTATE	CDS	33598	34092	-193.5127	-	0	ID=NC_048029.1.33598;clu=17018;clan=28_clan;PHROGs=phrog_27780;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048029.1	PHANOTATE	CDS	34103	35302	-1339058.7191	-	0	ID=NC_048029.1.34103;clu=15761;clan=257_pair;PHROGs=phrog_704,phrog_284;phrog_ann=exonuclease,DNA repair exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048029.1	PHANOTATE	CDS	35299	35685	-2.7742	-	0	ID=NC_048029.1.35299;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048029.1	PHANOTATE	CDS	35673	36722	-74605.5911	-	0	ID=NC_048029.1.35673;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048029.1	PHANOTATE	CDS	36845	37205	-11152.3209	-	0	ID=NC_048029.1.36845;clu=11969;clan=10_clan
+NC_047860.1	PHANOTATE	CDS	13293	13517	-14942.3786	+	0	ID=NC_047860.1.13517;clu=11969;clan=10_clan
+NC_047860.1	PHANOTATE	CDS	13539	14570	-63058.6981	+	0	ID=NC_047860.1.14570;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047860.1	PHANOTATE	CDS	14533	14928	-176.4381	+	0	ID=NC_047860.1.14928;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047860.1	PHANOTATE	CDS	15145	15306	-2.8804	+	0	ID=NC_047860.1.15306;clu=7530;clan=1037_mono
+NC_047860.1	PHANOTATE	CDS	15303	16127	-17671.2475	+	0	ID=NC_047860.1.16127;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047860.1	PHANOTATE	CDS	16240	16611	-34.8893	+	0	ID=NC_047860.1.16611;clu=2950;clan=3_clan, 29_clan;PHROGs=phrog_2252,phrog_11257,phrog_18716,phrog_801,phrog_37590,phrog_16254,phrog_5332,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_047860.1	PHANOTATE	CDS	16611	16874	-12.3271	+	0	ID=NC_047860.1.16874;clu=2468;clan=1260_mono;PHROGs=phrog_30225;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047860.1	PHANOTATE	CDS	16887	16994	-0.0839	+	0	ID=NC_047860.1.16994;clu=9765;clan=770_mono
+NC_047860.1	PHANOTATE	CDS	16991	17098	-2.266	+	0	ID=NC_047860.1.17098;clu=10323;clan=449_mono
+NC_047860.1	PHANOTATE	CDS	17095	17355	-10.9193	+	0	ID=NC_047860.1.17355;clu=10881;clan=1152_mono;PHROGs=phrog_25385;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047860.1	PHANOTATE	CDS	17430	18254	-2717.7862	+	0	ID=NC_047860.1.18254;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047860.1	PHANOTATE	CDS	18293	20674	-187232421967.5471	+	0	ID=NC_047860.1.20674;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_019454.1	PHANOTATE	CDS	14480	15303	-38025255.2824	+	0	ID=NC_019454.1.15303;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_019454.1	PHANOTATE	CDS	15313	15501	-13.2372	+	0	ID=NC_019454.1.15501;clu=14233;clan=80_clan;PHROGs=phrog_1374,phrog_20229;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_019454.1	PHANOTATE	CDS	15521	15619	-0.4959	+	0	ID=NC_019454.1.15619;clu=14791;clan=1820_mono
+NC_019454.1	PHANOTATE	CDS	15622	16479	-1594.0834	+	0	ID=NC_019454.1.16479;clu=3981;clan=10_clan
+NC_019454.1	PHANOTATE	CDS	16543	16917	-34.5846	+	0	ID=NC_019454.1.16917;clu=16826;clan=103_clan
+NC_019454.1	PHANOTATE	CDS	16917	17861	-87094.4806	+	0	ID=NC_019454.1.17861;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_019454.1	PHANOTATE	CDS	17848	18039	-21.3267	+	0	ID=NC_019454.1.18039;clu=2763;clan=122_clan;PHROGs=phrog_6923;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_019454.1	PHANOTATE	CDS	18039	18467	-12.7164	+	0	ID=NC_019454.1.18467;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_11865;phrog_ann=endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_019454.1	PHANOTATE	CDS	18464	18955	-1784.0383	+	0	ID=NC_019454.1.18955;clu=1515;clan=88_clan;PHROGs=phrog_415,phrog_36358,phrog_505;phrog_ann=hypothetical protein,polynucleotide kinase;phrog_category=other,unknown function
+NC_019454.1	PHANOTATE	CDS	19003	19368	-45.5274	+	0	ID=NC_019454.1.19368;clu=4902;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_801,phrog_37590,phrog_11257,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_019454.1	PHANOTATE	CDS	19352	19471	-0.2349	+	0	ID=NC_019454.1.19471;clu=15322;clan=46_clan;PHROGs=phrog_1312;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_019454.1	PHANOTATE	CDS	19480	21936	-8058167856825.022	+	0	ID=NC_019454.1.21936;clu=14649;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT951568.1	PHANOTATE	CDS	12632	13065	-6430.8983	+	0	ID=MT951568.1.13065;clu=1925;clan=10_clan
+MT951568.1	PHANOTATE	CDS	13069	14001	-3989.9161	+	0	ID=MT951568.1.14001;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MT951568.1	PHANOTATE	CDS	13976	14374	-22.8625	+	0	ID=MT951568.1.14374;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+MT951568.1	PHANOTATE	CDS	14371	15204	-12253.0817	+	0	ID=MT951568.1.15204;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MT951568.1	PHANOTATE	CDS	15217	15912	-3523.6373	+	0	ID=MT951568.1.15912;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+MT951568.1	PHANOTATE	CDS	15981	16160	-4.9357	+	0	ID=MT951568.1.16160;clu=14676;clan=398_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT951568.1	PHANOTATE	CDS	16153	16368	-8.8876	+	0	ID=MT951568.1.16368;clu=735;clan=270_pair;PHROGs=phrog_4276;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT951568.1	PHANOTATE	CDS	16370	17392	-17006.5987	+	0	ID=MT951568.1.17392;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MT951568.1	PHANOTATE	CDS	17392	17628	-11.8481	+	0	ID=MT951568.1.17628;clu=11200;clan=169_clan
+MT951568.1	PHANOTATE	CDS	17632	20028	-562177773426.9226	+	0	ID=MT951568.1.20028;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OP583592.1	PHANOTATE	CDS	12495	12569	-6376.297	+	0	ID=OP583592.1.12569;clu=11969;clan=10_clan
+OP583592.1	PHANOTATE	CDS	12569	12988	-16.0446	+	0	ID=OP583592.1.12988;clu=16215;clan=17_clan;PHROGs=phrog_1492,phrog_1872,phrog_6254,phrog_59,phrog_826,phrog_3593;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OP583592.1	PHANOTATE	CDS	12979	13908	-63201.0086	+	0	ID=OP583592.1.13908;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OP583592.1	PHANOTATE	CDS	13895	14269	-5.011	+	0	ID=OP583592.1.14269;clu=9658;clan=24_clan;PHROGs=phrog_1492,phrog_59,phrog_959,phrog_37683;phrog_ann=HNH endonuclease,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+OP583592.1	PHANOTATE	CDS	14427	15467	-4949.4885	+	0	ID=OP583592.1.15467;clu=3538;clan=172_clan;PHROGs=phrog_9369,phrog_403;phrog_ann=DNA polymerase exonuclease subunit,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+OP583592.1	PHANOTATE	CDS	15479	15706	-9.0382	+	0	ID=OP583592.1.15706;clu=7907;clan=bridge: 28_clan, 3_clan
+OP583592.1	PHANOTATE	CDS	15691	16059	-2.7379	+	0	ID=OP583592.1.16059;clu=15204;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+OP583592.1	PHANOTATE	CDS	16049	16348	-29.7509	+	0	ID=OP583592.1.16348;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP583592.1	PHANOTATE	CDS	16345	17307	-37440.4824	+	0	ID=OP583592.1.17307;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OP583592.1	PHANOTATE	CDS	17304	17495	-19.7482	+	0	ID=OP583592.1.17495;clu=9644;clan=317_pair
+OP583592.1	PHANOTATE	CDS	17495	20008	-66730604344.6677	+	0	ID=OP583592.1.20008;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047762.1	PHANOTATE	CDS	11336	12047	-38233.7196	+	0	ID=NC_047762.1.12047;clu=11969;clan=10_clan
+NC_047762.1	PHANOTATE	CDS	12047	12202	-2.9654	+	0	ID=NC_047762.1.12202;clu=12992;clan=432_pair;PHROGs=phrog_6234;phrog_ann=host RecBCD nuclease inhibitor;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047762.1	PHANOTATE	CDS	12202	13134	-34237.916	+	0	ID=NC_047762.1.13134;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047762.1	PHANOTATE	CDS	13131	13520	-41.7399	+	0	ID=NC_047762.1.13520;clu=7877;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_2633,phrog_36860,phrog_2914,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047762.1	PHANOTATE	CDS	13580	14383	-4806.9259	+	0	ID=NC_047762.1.14383;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047762.1	PHANOTATE	CDS	14393	14941	-288.8264	+	0	ID=NC_047762.1.14941;clu=1231;clan=3_clan;PHROGs=phrog_2252,phrog_19117,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+NC_047762.1	PHANOTATE	CDS	14938	15249	-40.5428	+	0	ID=NC_047762.1.15249;clu=11452;clan=428_pair;PHROGs=phrog_14849;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047762.1	PHANOTATE	CDS	15246	16148	-13617.1214	+	0	ID=NC_047762.1.16148;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047762.1	PHANOTATE	CDS	16145	16336	-30.5871	+	0	ID=NC_047762.1.16336;clu=9644;clan=317_pair
+NC_047762.1	PHANOTATE	CDS	16336	18834	-256828924858.1526	+	0	ID=NC_047762.1.18834;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MN478375.1	PHANOTATE	CDS	12616	13322	-4439.317	+	0	ID=MN478375.1.13322;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478375.1	PHANOTATE	CDS	13322	14254	-10437.1066	+	0	ID=MN478375.1.14254;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MN478375.1	PHANOTATE	CDS	14251	14340	-3.5198	+	0	ID=MN478375.1.14340;clu=2519;clan=1905_mono
+MN478375.1	PHANOTATE	CDS	14507	15547	-3084.2807	+	0	ID=MN478375.1.15547;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+MN478375.1	PHANOTATE	CDS	15558	16139	-322.6375	+	0	ID=MN478375.1.16139;clu=3637;clan=28_clan;PHROGs=phrog_27780;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN478375.1	PHANOTATE	CDS	16274	17410	-25936.6973	+	0	ID=MN478375.1.17410;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+MN478375.1	PHANOTATE	CDS	17407	17616	-1.8664	+	0	ID=MN478375.1.17616;clu=14674;clan=169_clan
+MN478375.1	PHANOTATE	CDS	17616	20114	-209589420271.5459	+	0	ID=MN478375.1.20114;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+LR797821.1	PHANOTATE	CDS	31828	32663	-1093.4848	+	0	ID=LR797821.1.32663;clu=11969;clan=10_clan;PHROGs=phrog_862;phrog_ann=hypothetical protein;phrog_category=unknown function
+LR797821.1	PHANOTATE	CDS	32663	33625	-18912.7833	+	0	ID=LR797821.1.33625;clu=6386;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+LR797821.1	PHANOTATE	CDS	33627	34091	-131.382	+	0	ID=LR797821.1.34091;clu=615;clan=19_clan;PHROGs=phrog_4578,phrog_99,phrog_3593,phrog_959,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+LR797821.1	PHANOTATE	CDS	34120	34257	-0.1324	+	0	ID=LR797821.1.34257;clu=4763;clan=1187_mono
+LR797821.1	PHANOTATE	CDS	34356	35489	-3778.1491	+	0	ID=LR797821.1.35489;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+LR797821.1	PHANOTATE	CDS	35486	35686	-7.4366	+	0	ID=LR797821.1.35686;clu=5881;clan=121_clan;PHROGs=phrog_17775,phrog_16943,phrog_37386,phrog_474;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+LR797821.1	PHANOTATE	CDS	35683	35946	-22.5826	+	0	ID=LR797821.1.35946;clu=6440;clan=1812_mono
+LR797821.1	PHANOTATE	CDS	35956	36819	-13983.6738	+	0	ID=LR797821.1.36819;clu=6999;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+LR797821.1	PHANOTATE	CDS	36828	39224	-25755299789.2849	+	0	ID=LR797821.1.39224;clu=15685;clan=1_clan, 6_clan, 9_clan;PFAM=PF00940.22
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	3	95	-2.8634	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.95;clu=5466;clan=257_pair
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	206	529	-329.1837	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.529;clu=6025;clan=121_clan;PHROGs=phrog_17775,phrog_16943,phrog_37386,phrog_474;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	627	785	-29.9048	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.785;clu=6584;clan=2132_mono
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	778	1623	-79741.1851	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.1623;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	1661	1768	-12.2474	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.1768;clu=7702;clan=2175_mono
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	1778	3679	-5796108077.9398	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.3679;clu=8261;clan=1_clan, 26_clan;PFAM=PF14700.9;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	2221	4614	-37484137898882.08	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.2221;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	4632	5843	-156042.969	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.4632;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	5916	6602	-2234.9119	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.5916;clu=4740;clan=3_clan;PHROGs=phrog_2252,phrog_31158,phrog_801,phrog_37590,phrog_5033,phrog_19680;phrog_ann=dATP / dGTP pyrophosphohydrolase,hypothetical protein,endolysin; inhibits RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism,unknown function,lysis
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	6615	7448	-45698.6656	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.6615;clu=3538;clan=172_clan;PHROGs=phrog_403;phrog_ann=DNA polymerase exonuclease subunit;phrog_category=DNA, RNA and nucleotide metabolism
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	7445	7846	-18.0656	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.7445;clu=8416;clan=14_clan;PHROGs=phrog_423,phrog_307,phrog_36860,phrog_2914,phrog_11865,phrog_20005;phrog_ann=HNH endonuclease,endonuclease VII;phrog_category=DNA, RNA and nucleotide metabolism
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	7821	8750	-11544.7974	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.7821;clu=11973;clan=5_clan;PHROGs=phrog_107;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+SRS741334|NODE_2_length_43394_cov_11.226632	PHANOTATE	CDS	8753	9614	-31189.6362	-	0	ID=SRS741334|NODE_2_length_43394_cov_11.226632.8753;clu=11969;clan=10_clan

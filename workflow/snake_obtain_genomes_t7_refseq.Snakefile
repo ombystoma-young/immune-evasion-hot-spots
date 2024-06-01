@@ -34,7 +34,7 @@ rule get_phage_assembly_metadata:
         os.path.join(temp_requests_dir, 'protein_ids.txt')
     output:
         os.path.join(metadata_dir, 'assembly_ids.txt')
-    script: "scripts/get_assembly_metadata.sh"
+    script: "../scripts/get_assembly_metadata.sh"
 
 # extract assembly IDs for this phages
 rule get_phage_assembly_IDs:

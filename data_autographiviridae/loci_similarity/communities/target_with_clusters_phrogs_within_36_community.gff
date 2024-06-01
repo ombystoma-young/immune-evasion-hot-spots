@@ -1,0 +1,273 @@
+NC_048184.1	PHANOTATE	CDS	61	159	-0.1998	+	0	ID=NC_048184.1.159;clu=7280;clan=2282_mono
+NC_048184.1	PHANOTATE	CDS	166	267	-0.0912	+	0	ID=NC_048184.1.267;clu=7839;clan=1545_mono
+NC_048184.1	PHANOTATE	CDS	264	377	-0.3019	+	0	ID=NC_048184.1.377;clu=8398;clan=281_pair
+NC_048184.1	PHANOTATE	CDS	421	720	-19.7019	+	0	ID=NC_048184.1.720;clu=8957;clan=273_pair;PHROGs=phrog_37659;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	720	1004	-146.206	+	0	ID=NC_048184.1.1004;clu=14702;clan=1055_mono;PHROGs=phrog_16022;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	1043	1315	-10.5139	+	0	ID=NC_048184.1.1315;clu=10073;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	1404	1715	-31.0816	+	0	ID=NC_048184.1.1715;clu=11466;clan=953_mono;PHROGs=phrog_27501,phrog_2543;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	1793	1984	-3.7513	+	0	ID=NC_048184.1.1984;clu=14060;clan=178_clan;PHROGs=phrog_25680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	1984	2154	-15.2911	+	0	ID=NC_048184.1.2154;clu=6324;clan=1006_mono;PHROGs=phrog_22372;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	2154	2420	-70.1834	+	0	ID=NC_048184.1.2420;clu=5700;clan=1169_mono;PHROGs=phrog_36170;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	2417	2560	-48.6817	+	0	ID=NC_048184.1.2560;clu=12863;clan=1633_mono
+NC_048184.1	PHANOTATE	CDS	2553	2687	-0.4504	+	0	ID=NC_048184.1.2687;clu=13421;clan=1958_mono
+NC_048184.1	PHANOTATE	CDS	2684	2848	-8.0859	+	0	ID=NC_048184.1.2848;clu=5682;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	2838	3152	-112.0205	+	0	ID=NC_048184.1.3152;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	3145	3285	-12.8766	+	0	ID=NC_048184.1.3285;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048184.1	PHANOTATE	CDS	3295	3393	-0.1936	+	0	ID=NC_048184.1.3393;clu=15653;clan=695_mono
+NC_048184.1	PHANOTATE	CDS	3418	3828	-307.2184	+	0	ID=NC_048184.1.3828;clu=2415;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_048184.1	PHANOTATE	CDS	3764	4702	-71603.5482	+	0	ID=NC_048184.1.4702;clu=2331;clan=2_clan;PHROGs=phrog_1,phrog_23271,phrog_216;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+NC_048184.1	PHANOTATE	CDS	4832	4981	-0.3588	+	0	ID=NC_048184.1.4981;clu=17327;clan=1383_mono
+NC_048184.1	PHANOTATE	CDS	4965	7316	-11282967430676.176	+	0	ID=NC_048184.1.7316;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048184.1	PHANOTATE	CDS	7316	7316	-5088.2465	+	0	ID=NC_048184.1.7894;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048184.1	PHANOTATE	CDS	47340	47374	-2522.3045	+	0	ID=NC_048184.1.47374;clu=1132;clan=2004_mono;PHROGs=phrog_6651;phrog_ann=internal virion protein;phrog_category=head and packaging
+NC_047710.1	PHANOTATE	CDS	6313	6313	-3005.341	-	0	ID=NC_047710.1.5744;clu=3376;clan=1926_mono
+NC_047710.1	PHANOTATE	CDS	6313	8652	-91849368634127.06	-	0	ID=NC_047710.1.6313;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047710.1	PHANOTATE	CDS	8636	8779	-16.5029	-	0	ID=NC_047710.1.8636;clu=7456;clan=271_pair;PHROGs=phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047710.1	PHANOTATE	CDS	8769	9086	-304.2283	-	0	ID=NC_047710.1.8769;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047710.1	PHANOTATE	CDS	9079	9405	-56.8874	-	0	ID=NC_047710.1.9079;clu=10646;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047710.1	PHANOTATE	CDS	9471	9695	-14.0277	-	0	ID=NC_047710.1.9471;clu=6171;clan=1808_mono
+NC_047710.1	PHANOTATE	CDS	9700	9960	-5.8395	-	0	ID=NC_047710.1.9700;clu=6730;clan=1527_mono;PHROGs=phrog_37139;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047710.1	PHANOTATE	CDS	9950	10114	-17.3187	-	0	ID=NC_047710.1.9950;clu=7289;clan=2221_mono
+NC_047710.1	PHANOTATE	CDS	10234	10413	-7.3543	-	0	ID=NC_047710.1.10234;clu=7848;clan=2261_mono
+NC_047710.1	PHANOTATE	CDS	10410	10760	-16.2435	-	0	ID=NC_047710.1.10410;clu=8407;clan=2456_mono
+NC_047710.1	PHANOTATE	CDS	10760	10999	-17.389	-	0	ID=NC_047710.1.10760;clu=8966;clan=312_pair
+NC_047710.1	PHANOTATE	CDS	11068	11259	-16.4732	-	0	ID=NC_047710.1.11068;clu=14060;clan=178_clan
+NC_047710.1	PHANOTATE	CDS	11256	11834	-378.695	-	0	ID=NC_047710.1.11256;clu=748;clan=1237_mono
+NC_047710.1	PHANOTATE	CDS	11976	12176	-2.7236	-	0	ID=NC_047710.1.11976;clu=10640;clan=2365_mono
+NC_047710.1	PHANOTATE	CDS	12179	12364	-3.329	-	0	ID=NC_047710.1.12179;clu=11198;clan=2030_mono
+NC_047710.1	PHANOTATE	CDS	12366	12527	-9.64	-	0	ID=NC_047710.1.12366;clu=11756;clan=1056_mono
+NC_047710.1	PHANOTATE	CDS	12578	12721	-0.2725	-	0	ID=NC_047710.1.12578;clu=12314;clan=647_mono
+NC_047710.1	PHANOTATE	CDS	12743	12844	-2.165	-	0	ID=NC_047710.1.12743;clu=12872;clan=2461_mono
+NC_047710.1	PHANOTATE	CDS	12895	13032	-34.6871	-	0	ID=NC_047710.1.12895;clu=13430;clan=716_mono
+NC_047710.1	PHANOTATE	CDS	13161	13349	-11.7079	-	0	ID=NC_047710.1.13161;clu=13988;clan=1396_mono
+NC_047710.1	PHANOTATE	CDS	13309	13652	-16641727909.6207	-	0	ID=NC_047710.1.13309;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_048026.1	PHANOTATE	CDS	1524	1958	-2628.9162	+	0	ID=NC_048026.1.1958;clu=7854;clan=2476_mono
+NC_048026.1	PHANOTATE	CDS	1958	2119	-13.0972	+	0	ID=NC_048026.1.2119;clu=12024;clan=1005_mono
+NC_048026.1	PHANOTATE	CDS	2116	2250	-24.1828	+	0	ID=NC_048026.1.2250;clu=8972;clan=1807_mono
+NC_048026.1	PHANOTATE	CDS	2243	2422	-5.9195	+	0	ID=NC_048026.1.2422;clu=9530;clan=2344_mono
+NC_048026.1	PHANOTATE	CDS	2422	2538	-1.9321	+	0	ID=NC_048026.1.2538;clu=88;clan=408_pair;PHROGs=phrog_29551;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048026.1	PHANOTATE	CDS	2566	2871	-38.502	+	0	ID=NC_048026.1.2871;clu=10646;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048026.1	PHANOTATE	CDS	2861	3190	-283.6773	+	0	ID=NC_048026.1.3190;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048026.1	PHANOTATE	CDS	3171	3308	-13.5983	+	0	ID=NC_048026.1.3308;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048026.1	PHANOTATE	CDS	3371	3505	-12.2967	+	0	ID=NC_048026.1.3505;clu=14151;clan=2347_mono
+NC_048026.1	PHANOTATE	CDS	3515	3613	-0.0727	+	0	ID=NC_048026.1.3613;clu=12878;clan=1656_mono
+NC_048026.1	PHANOTATE	CDS	3659	4012	-51.7913	+	0	ID=NC_048026.1.4012;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_048026.1	PHANOTATE	CDS	4005	4853	-41427.9316	+	0	ID=NC_048026.1.4853;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+NC_048026.1	PHANOTATE	CDS	5045	5476	-1.8671	+	0	ID=NC_048026.1.5476;clu=14552;clan=outlier: 1_clan
+NC_048026.1	PHANOTATE	CDS	5473	7431	-97377851827.1342	+	0	ID=NC_048026.1.7431;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048026.1	PHANOTATE	CDS	7431	7431	-1292.0707	+	0	ID=NC_048026.1.7991;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048034.1	PHANOTATE	CDS	20838	20838	-2574.5545	-	0	ID=NC_048034.1.20275;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048034.1	PHANOTATE	CDS	20838	23231	-8020123379863.741	-	0	ID=NC_048034.1.20838;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048034.1	PHANOTATE	CDS	23423	24271	-4864.4323	-	0	ID=NC_048034.1.23423;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+NC_048034.1	PHANOTATE	CDS	24264	24617	-36.1635	-	0	ID=NC_048034.1.24264;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_048034.1	PHANOTATE	CDS	24586	24753	-8.0269	-	0	ID=NC_048034.1.24586;clu=15169;clan=237_pair
+NC_048034.1	PHANOTATE	CDS	24829	24957	-8.5294	-	0	ID=NC_048034.1.24829;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048034.1	PHANOTATE	CDS	24950	25264	-34.9866	-	0	ID=NC_048034.1.24950;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048034.1	PHANOTATE	CDS	25254	25577	-48.1044	-	0	ID=NC_048034.1.25254;clu=10646;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048034.1	PHANOTATE	CDS	25574	25804	-160.8738	-	0	ID=NC_048034.1.25574;clu=17401;clan=308_pair
+NC_048034.1	PHANOTATE	CDS	25801	25914	-0.0708	-	0	ID=NC_048034.1.25801;clu=88;clan=408_pair;PHROGs=phrog_29551;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048034.1	PHANOTATE	CDS	25911	26042	-1.9909	-	0	ID=NC_048034.1.25911;clu=647;clan=2486_mono
+NC_048034.1	PHANOTATE	CDS	26039	26245	-27.6191	-	0	ID=NC_048034.1.26039;clu=1206;clan=2205_mono
+NC_048034.1	PHANOTATE	CDS	26298	26438	-64.617	-	0	ID=NC_048034.1.26298;clu=1765;clan=616_mono
+NC_048034.1	PHANOTATE	CDS	26438	26593	-9.0913	-	0	ID=NC_048034.1.26438;clu=2324;clan=1031_mono
+NC_048034.1	PHANOTATE	CDS	26731	27162	-448.7508	-	0	ID=NC_048034.1.26731;clu=2883;clan=189_clan
+NC_048034.1	PHANOTATE	CDS	27211	27504	-16.6122	-	0	ID=NC_048034.1.27211;clu=3442;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048171.1	PHANOTATE	CDS	36905	36905	-2008.4733	-	0	ID=NC_048171.1.36324;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048171.1	PHANOTATE	CDS	36905	39244	-3774540929825565.0	-	0	ID=NC_048171.1.36905;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048171.1	PHANOTATE	CDS	39222	39350	-4.9941	-	0	ID=NC_048171.1.39222;clu=4564;clan=161_clan
+NC_048171.1	PHANOTATE	CDS	39331	39648	-34.3403	-	0	ID=NC_048171.1.39331;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048171.1	PHANOTATE	CDS	39638	39799	-20.1035	-	0	ID=NC_048171.1.39638;clu=5682;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048171.1	PHANOTATE	CDS	39805	39951	-3.7872	-	0	ID=NC_048171.1.39805;clu=6241;clan=2758_mono
+NC_048171.1	PHANOTATE	CDS	39951	40172	-43.6226	-	0	ID=NC_048171.1.39951;clu=6962;clan=2241_mono
+NC_048171.1	PHANOTATE	CDS	40150	40278	-1.632	-	0	ID=NC_048171.1.40150;clu=88;clan=408_pair;PHROGs=phrog_29551;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048171.1	PHANOTATE	CDS	40281	40457	-35.2349	-	0	ID=NC_048171.1.40281;clu=7918;clan=849_mono
+NC_048171.1	PHANOTATE	CDS	40457	41017	-3044.217	-	0	ID=NC_048171.1.40457;clu=8477;clan=189_clan
+NC_048171.1	PHANOTATE	CDS	41057	41368	-165.5071	-	0	ID=NC_048171.1.41057;clu=9036;clan=2812_mono
+NC_048171.1	PHANOTATE	CDS	41322	41444	-0.0609	-	0	ID=NC_048171.1.41322;clu=9594;clan=2740_mono
+NC_048171.1	PHANOTATE	CDS	41520	41792	-239.0039	-	0	ID=NC_048171.1.41520;clu=10152;clan=916_mono
+NC_048171.1	PHANOTATE	CDS	41789	41923	-1.637	-	0	ID=NC_048171.1.41789;clu=10710;clan=1175_mono
+NC_048171.1	PHANOTATE	CDS	41923	42255	-76.2621	-	0	ID=NC_048171.1.41923;clu=11268;clan=250_pair;PHROGs=phrog_35755;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW015080.1	PHANOTATE	CDS	3699	3751	-206.0651	+	0	ID=MW015080.1.3751;clu=11828;clan=2787_mono;PHROGs=phrog_3316,phrog_16742,phrog_22672;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW015080.1	PHANOTATE	CDS	3854	3985	-1.527	+	0	ID=MW015080.1.3985;clu=12386;clan=783_mono
+MW015080.1	PHANOTATE	CDS	4129	4326	-6.647	+	0	ID=MW015080.1.4326;clu=12944;clan=1517_mono
+MW015080.1	PHANOTATE	CDS	4347	4499	-3.6513	+	0	ID=MW015080.1.4499;clu=13502;clan=626_mono
+MW015080.1	PHANOTATE	CDS	4499	4684	-23.5799	+	0	ID=MW015080.1.4684;clu=14060;clan=178_clan;PHROGs=phrog_25680;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW015080.1	PHANOTATE	CDS	4753	4920	-28.5284	+	0	ID=MW015080.1.4920;clu=14618;clan=1120_mono
+MW015080.1	PHANOTATE	CDS	4962	5639	-875.8429	+	0	ID=MW015080.1.5639;clu=137;clan=16_clan;PHROGs=phrog_2554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW015080.1	PHANOTATE	CDS	5648	5812	-11.6097	+	0	ID=MW015080.1.5812;clu=15734;clan=1961_mono
+MW015080.1	PHANOTATE	CDS	5831	5986	-0.3342	+	0	ID=MW015080.1.5986;clu=16292;clan=2314_mono
+MW015080.1	PHANOTATE	CDS	5994	6122	-3.9609	+	0	ID=MW015080.1.6122;clu=16850;clan=917_mono
+MW015080.1	PHANOTATE	CDS	6168	6305	-1.8302	+	0	ID=MW015080.1.6305;clu=17408;clan=637_mono
+MW015080.1	PHANOTATE	CDS	6462	6758	-110.3861	+	0	ID=MW015080.1.6758;clu=15838;clan=49_clan;PHROGs=phrog_22704,phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW015080.1	PHANOTATE	CDS	6755	6904	-8.0859	+	0	ID=MW015080.1.6904;clu=654;clan=744_mono
+MW015080.1	PHANOTATE	CDS	6962	7054	-1.1409	+	0	ID=MW015080.1.7054;clu=1213;clan=1609_mono
+MW015080.1	PHANOTATE	CDS	7085	7447	-88.4335	+	0	ID=MW015080.1.7447;clu=1772;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MW015080.1	PHANOTATE	CDS	7434	8423	-97085.1128	+	0	ID=MW015080.1.8423;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+MW015080.1	PHANOTATE	CDS	8699	11032	-1856861923473.0518	+	0	ID=MW015080.1.11032;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MW015080.1	PHANOTATE	CDS	11032	11032	-1296.6371	+	0	ID=MW015080.1.11601;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048183.1	PHANOTATE	CDS	1	168	-17.6012	-	0	ID=NC_048183.1.1;clu=15749;clan=1983_mono
+NC_048183.1	PHANOTATE	CDS	161	799	-120722.1357	-	0	ID=NC_048183.1.161;clu=1409;clan=379_pair;PHROGs=phrog_10644,phrog_22708,phrog_85;phrog_ann=thymidylate synthase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048183.1	PHANOTATE	CDS	796	993	-32.567	-	0	ID=NC_048183.1.796;clu=16865;clan=1415_mono
+NC_048183.1	PHANOTATE	CDS	1060	3003	-1098589514693.9921	-	0	ID=NC_048183.1.1060;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_048183.1	PHANOTATE	CDS	3000	3176	-1.4248	-	0	ID=NC_048183.1.3000;clu=110;clan=1446_mono;PHROGs=phrog_36777;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048183.1	PHANOTATE	CDS	3173	3394	-18.0566	-	0	ID=NC_048183.1.3173;clu=669;clan=1231_mono;PHROGs=phrog_36777,phrog_2214;phrog_ann=HNH endonuclease,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+NC_048183.1	PHANOTATE	CDS	3445	3446	-620035.7353	-	0	ID=NC_048183.1.3445;clu=1228;clan=711_mono
+NC_048183.1	PHANOTATE	CDS	37892	37935	-1655.8224	-	0	ID=NC_048183.1.37369;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048183.1	PHANOTATE	CDS	37892	40270	-6728663888097377.0	-	0	ID=NC_048183.1.37892;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048183.1	PHANOTATE	CDS	40270	40386	-2.3726	-	0	ID=NC_048183.1.40270;clu=9677;clan=161_clan
+NC_048183.1	PHANOTATE	CDS	40383	40607	-60.3108	-	0	ID=NC_048183.1.40383;clu=9119;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048183.1	PHANOTATE	CDS	40592	40693	-0.2261	-	0	ID=NC_048183.1.40592;clu=8560;clan=1243_mono
+NC_048183.1	PHANOTATE	CDS	40687	40851	-9.8138	-	0	ID=NC_048183.1.40687;clu=5682;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048183.1	PHANOTATE	CDS	40904	41125	-15.8806	-	0	ID=NC_048183.1.40904;clu=7442;clan=1688_mono
+NC_048183.1	PHANOTATE	CDS	41109	41390	-28.092	-	0	ID=NC_048183.1.41109;clu=5700;clan=1169_mono;PHROGs=phrog_36170;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048183.1	PHANOTATE	CDS	41390	41551	-32.1543	-	0	ID=NC_048183.1.41390;clu=6324;clan=1006_mono;PHROGs=phrog_22372;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048183.1	PHANOTATE	CDS	41551	41793	-11.3763	-	0	ID=NC_048183.1.41551;clu=6818;clan=178_clan;PHROGs=phrog_25680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	34731	34731	-706.9709	-	0	ID=NC_020838.1.34165;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_020838.1	PHANOTATE	CDS	34731	37070	-9992732233975.729	-	0	ID=NC_020838.1.34731;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_020838.1	PHANOTATE	CDS	37071	37205	-6.6232	-	0	ID=NC_020838.1.37071;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	37198	37518	-67.3378	-	0	ID=NC_020838.1.37198;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	37508	37825	-28.3164	-	0	ID=NC_020838.1.37508;clu=10646;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	37849	37947	-2.6078	-	0	ID=NC_020838.1.37849;clu=9066;clan=2654_mono
+NC_020838.1	PHANOTATE	CDS	37961	38116	-10.4753	-	0	ID=NC_020838.1.37961;clu=9624;clan=408_pair;PHROGs=phrog_29551;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	38113	38247	-11.6466	-	0	ID=NC_020838.1.38113;clu=13698;clan=2648_mono;PHROGs=phrog_1792;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	38244	38429	-20.2441	-	0	ID=NC_020838.1.38244;clu=14060;clan=178_clan;PHROGs=phrog_25680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	38429	38593	-2.277	-	0	ID=NC_020838.1.38429;clu=4647;clan=273_pair;PHROGs=phrog_37659;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	38595	38876	-25.5461	-	0	ID=NC_020838.1.38595;clu=11856;clan=1867_mono;PHROGs=phrog_33237;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020838.1	PHANOTATE	CDS	38873	38968	-1.3503	-	0	ID=NC_020838.1.38873;clu=12414;clan=1192_mono
+NC_020838.1	PHANOTATE	CDS	38946	39266	-59.5362	-	0	ID=NC_020838.1.38946;clu=11466;clan=953_mono;PHROGs=phrog_27501,phrog_2543;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	7673	7695	-204.7601	+	0	ID=NC_016656.1.7695;clu=17450;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	7797	8387	-590.9685	+	0	ID=NC_016656.1.8387;clu=137;clan=16_clan;PHROGs=phrog_2554;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	8479	8805	-202.2005	+	0	ID=NC_016656.1.8805;clu=696;clan=2161_mono;PHROGs=phrog_33278;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	8874	9158	-678.7032	+	0	ID=NC_016656.1.9158;clu=1255;clan=1008_mono
+NC_016656.1	PHANOTATE	CDS	9155	9364	-76.5079	+	0	ID=NC_016656.1.9364;clu=1814;clan=308_pair
+NC_016656.1	PHANOTATE	CDS	9361	9513	-5.6754	+	0	ID=NC_016656.1.9513;clu=2373;clan=1994_mono;PHROGs=phrog_36314;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	9510	9749	-135.6295	+	0	ID=NC_016656.1.9749;clu=2932;clan=347_pair;PHROGs=phrog_25438;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	9746	9928	-2.5501	+	0	ID=NC_016656.1.9928;clu=11919;clan=979_mono;PHROGs=phrog_23048;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	9928	10071	-3.5125	+	0	ID=NC_016656.1.10071;clu=4050;clan=2237_mono;PHROGs=phrog_3309;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	10096	10248	-3.7529	+	0	ID=NC_016656.1.10248;clu=4609;clan=416_pair;PHROGs=phrog_30072;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	10245	10559	-2.828	+	0	ID=NC_016656.1.10559;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	10556	10720	-7.8688	+	0	ID=NC_016656.1.10720;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016656.1	PHANOTATE	CDS	10772	10948	-9.2217	+	0	ID=NC_016656.1.10948;clu=6286;clan=237_pair
+NC_016656.1	PHANOTATE	CDS	10956	11276	-19.7654	+	0	ID=NC_016656.1.11276;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_016656.1	PHANOTATE	CDS	11269	11985	-8563.0712	+	0	ID=NC_016656.1.11985;clu=7404;clan=bridge: 2_clan, 2_clan, 2_clan, 2_clan, 2_clan;PHROGs=phrog_1;phrog_ann=integrase;phrog_category=integration and excision
+NC_016656.1	PHANOTATE	CDS	11982	12176	-34.409	+	0	ID=NC_016656.1.12176;clu=7963;clan=2_clan;PHROGs=phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+NC_016656.1	PHANOTATE	CDS	12227	12328	-1.6356	+	0	ID=NC_016656.1.12328;clu=8522;clan=374_pair
+NC_016656.1	PHANOTATE	CDS	12359	12619	-5.2368	+	0	ID=NC_016656.1.12619;clu=9081;clan=330_pair
+NC_016656.1	PHANOTATE	CDS	12673	14793	-1.2886848958248046e+18	+	0	ID=NC_016656.1.14793;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016656.1	PHANOTATE	CDS	14793	14793	-93790.9035	+	0	ID=NC_016656.1.15362;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025464.1	PHANOTATE	CDS	866	1156	-5.6505	+	0	ID=NC_025464.1.1156;clu=10073;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	1193	1558	-20.2846	+	0	ID=NC_025464.1.1558;clu=11466;clan=953_mono;PHROGs=phrog_27501,phrog_2543;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	1629	1787	-10.7449	+	0	ID=NC_025464.1.1787;clu=4647;clan=273_pair;PHROGs=phrog_37659;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	1788	1952	-16.6974	+	0	ID=NC_025464.1.1952;clu=5206;clan=460_mono
+NC_025464.1	PHANOTATE	CDS	2023	2139	-4.7338	+	0	ID=NC_025464.1.2139;clu=5765;clan=178_clan;PHROGs=phrog_25680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	2139	2300	-29.7407	+	0	ID=NC_025464.1.2300;clu=6324;clan=1006_mono;PHROGs=phrog_22372;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	2300	2581	-34.5748	+	0	ID=NC_025464.1.2581;clu=5700;clan=1169_mono;PHROGs=phrog_36170;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	2565	2786	-17.1832	+	0	ID=NC_025464.1.2786;clu=7442;clan=1688_mono
+NC_025464.1	PHANOTATE	CDS	2839	3003	-11.0885	+	0	ID=NC_025464.1.3003;clu=5682;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	2997	3098	-0.2195	+	0	ID=NC_025464.1.3098;clu=8560;clan=1243_mono
+NC_025464.1	PHANOTATE	CDS	3083	3307	-240.0812	+	0	ID=NC_025464.1.3307;clu=9119;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025464.1	PHANOTATE	CDS	3304	3420	-2.5297	+	0	ID=NC_025464.1.3420;clu=9677;clan=161_clan
+NC_025464.1	PHANOTATE	CDS	3420	5756	-1.825582716975438e+16	+	0	ID=NC_025464.1.5756;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025464.1	PHANOTATE	CDS	5756	5756	-2230.497	+	0	ID=NC_025464.1.6322;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025456.1	PHANOTATE	CDS	1	156	-4.0832	+	0	ID=NC_025456.1.156;clu=13586;clan=2661_mono
+NC_025456.1	PHANOTATE	CDS	179	406	-35.6101	+	0	ID=NC_025456.1.406;clu=14144;clan=250_pair;PHROGs=phrog_35755;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025456.1	PHANOTATE	CDS	406	687	-121.4676	+	0	ID=NC_025456.1.687;clu=14702;clan=1055_mono;PHROGs=phrog_16022;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025456.1	PHANOTATE	CDS	687	923	-125.9492	+	0	ID=NC_025456.1.923;clu=15260;clan=786_mono
+NC_025456.1	PHANOTATE	CDS	923	1066	-10.8317	+	0	ID=NC_025456.1.1066;clu=15818;clan=1374_mono
+NC_025456.1	PHANOTATE	CDS	1127	1693	-24988.6878	+	0	ID=NC_025456.1.1693;clu=8477;clan=189_clan
+NC_025456.1	PHANOTATE	CDS	1693	1809	-16.0258	+	0	ID=NC_025456.1.1809;clu=16934;clan=1017_mono
+NC_025456.1	PHANOTATE	CDS	1806	1973	-26.2581	+	0	ID=NC_025456.1.1973;clu=6324;clan=1006_mono;PHROGs=phrog_22372;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025456.1	PHANOTATE	CDS	1970	2068	-2.8171	+	0	ID=NC_025456.1.2068;clu=179;clan=2275_mono
+NC_025456.1	PHANOTATE	CDS	2105	2563	-348.2749	+	0	ID=NC_025456.1.2563;clu=738;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025456.1	PHANOTATE	CDS	2547	2693	-13.7102	+	0	ID=NC_025456.1.2693;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025456.1	PHANOTATE	CDS	2696	2896	-6.121	+	0	ID=NC_025456.1.2896;clu=15169;clan=237_pair
+NC_025456.1	PHANOTATE	CDS	2847	3167	-246.9434	+	0	ID=NC_025456.1.3167;clu=2415;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_025456.1	PHANOTATE	CDS	3157	4014	-26641.3229	+	0	ID=NC_025456.1.4014;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+NC_025456.1	PHANOTATE	CDS	4028	4120	-0.1602	+	0	ID=NC_025456.1.4120;clu=3533;clan=1482_mono
+NC_025456.1	PHANOTATE	CDS	4206	4295	-0.1635	+	0	ID=NC_025456.1.4295;clu=4092;clan=1200_mono
+NC_025456.1	PHANOTATE	CDS	4292	4420	-0.113	+	0	ID=NC_025456.1.4420;clu=4651;clan=2535_mono
+NC_025456.1	PHANOTATE	CDS	4396	6594	-15479151772965.549	+	0	ID=NC_025456.1.6594;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025456.1	PHANOTATE	CDS	6594	6594	-3009.3926	+	0	ID=NC_025456.1.7166;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025456.1	PHANOTATE	CDS	46226	46432	-9.5905	+	0	ID=NC_025456.1.46432;clu=6328;clan=548_mono
+NC_025456.1	PHANOTATE	CDS	46417	46515	-0.1079	+	0	ID=NC_025456.1.46515;clu=6887;clan=610_mono
+GU071093.1	PHANOTATE	CDS	417	882	-214.6502	+	0	ID=GU071093.1.882;clu=137;clan=16_clan;PHROGs=phrog_2554;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	911	1489	-114.0336	+	0	ID=GU071093.1.1489;clu=9129;clan=249_pair;PHROGs=phrog_27471,phrog_757;phrog_ann=hypothetical protein,DNA methyltransferase;phrog_category=other,unknown function
+GU071093.1	PHANOTATE	CDS	1552	1701	-0.0496	+	0	ID=GU071093.1.1701;clu=9687;clan=1974_mono
+GU071093.1	PHANOTATE	CDS	1705	1971	-5.4929	+	0	ID=GU071093.1.1971;clu=10245;clan=991_mono;PHROGs=phrog_9069;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	1950	2198	-21.5516	+	0	ID=GU071093.1.2198;clu=10803;clan=347_pair;PHROGs=phrog_25438;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	2195	2359	-8.4692	+	0	ID=GU071093.1.2359;clu=11361;clan=1662_mono
+GU071093.1	PHANOTATE	CDS	2356	2538	-15.3069	+	0	ID=GU071093.1.2538;clu=11919;clan=979_mono;PHROGs=phrog_23048;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	2619	2852	-0.9987	+	0	ID=GU071093.1.2852;clu=12477;clan=416_pair
+GU071093.1	PHANOTATE	CDS	2849	3187	-7.9106	+	0	ID=GU071093.1.3187;clu=13035;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	3180	3314	-3.579	+	0	ID=GU071093.1.3314;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+GU071093.1	PHANOTATE	CDS	3359	3478	-13.0129	+	0	ID=GU071093.1.3478;clu=14151;clan=2347_mono
+GU071093.1	PHANOTATE	CDS	3548	3736	-24.7042	+	0	ID=GU071093.1.3736;clu=6286;clan=237_pair
+GU071093.1	PHANOTATE	CDS	3711	4043	-200.2577	+	0	ID=GU071093.1.4043;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+GU071093.1	PHANOTATE	CDS	4021	4893	-22806.6072	+	0	ID=GU071093.1.4893;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+GU071093.1	PHANOTATE	CDS	4943	5065	-1.8112	+	0	ID=GU071093.1.5065;clu=16383;clan=2025_mono
+GU071093.1	PHANOTATE	CDS	5164	5442	-1.1783	+	0	ID=GU071093.1.5442;clu=16941;clan=330_pair
+GU071093.1	PHANOTATE	CDS	5417	7600	-1623605839551.72	+	0	ID=GU071093.1.7600;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+GU071093.1	PHANOTATE	CDS	7600	7600	-99225.3282	+	0	ID=GU071093.1.8169;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016657.1	PHANOTATE	CDS	1075	1075	-2792.6184	-	0	ID=NC_016657.1.503;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+NC_016657.1	PHANOTATE	CDS	1075	3405	-12505565221010.748	-	0	ID=NC_016657.1.1075;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_37802,phrog_20599,phrog_2051;phrog_ann=RNA polymerase,hypothetical protein;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+NC_016657.1	PHANOTATE	CDS	3480	3725	-39.1205	-	0	ID=NC_016657.1.3480;clu=11820;clan=2780_mono;PHROGs=phrog_24610;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	3730	4026	-58.6022	-	0	ID=NC_016657.1.3730;clu=15838;clan=49_clan;PHROGs=phrog_22704;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	4026	4154	-1.6507	-	0	ID=NC_016657.1.4026;clu=16396;clan=641_mono
+NC_016657.1	PHANOTATE	CDS	4154	4321	-5.0405	-	0	ID=NC_016657.1.4154;clu=16954;clan=2186_mono;PHROGs=phrog_22105;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	4321	4602	-3.6729	-	0	ID=NC_016657.1.4321;clu=17512;clan=1071_mono;PHROGs=phrog_25656;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	4599	4880	-2.4842	-	0	ID=NC_016657.1.4599;clu=14610;clan=652_mono;PHROGs=phrog_13625;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	4925	5548	-843.1443	-	0	ID=NC_016657.1.4925;clu=8953;clan=219_pair;PHROGs=phrog_3842;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	5690	5986	-17.8194	-	0	ID=NC_016657.1.5690;clu=1317;clan=1722_mono;PHROGs=phrog_27005;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	5983	6084	-1.3551	-	0	ID=NC_016657.1.5983;clu=1876;clan=2142_mono
+NC_016657.1	PHANOTATE	CDS	6081	6659	-23764.9553	-	0	ID=NC_016657.1.6081;clu=9129;clan=249_pair;PHROGs=phrog_27471,phrog_757;phrog_ann=hypothetical protein,DNA methyltransferase;phrog_category=other,unknown function
+NC_016657.1	PHANOTATE	CDS	6726	6971	-5.2707	-	0	ID=NC_016657.1.6726;clu=2994;clan=1965_mono;PHROGs=phrog_33275;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_016657.1	PHANOTATE	CDS	7037	7312	-15.005	-	0	ID=NC_016657.1.7037;clu=10073;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020867.1	PHANOTATE	CDS	24369	24539	-4.5152	+	0	ID=NC_020867.1.24539;clu=5285;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020867.1	PHANOTATE	CDS	24878	25222	-75.7786	+	0	ID=NC_020867.1.25222;clu=5844;clan=189_clan
+NC_020867.1	PHANOTATE	CDS	25327	25443	-1.0554	+	0	ID=NC_020867.1.25443;clu=88;clan=408_pair
+NC_020867.1	PHANOTATE	CDS	25440	25631	-14.3044	+	0	ID=NC_020867.1.25631;clu=6962;clan=2241_mono
+NC_020867.1	PHANOTATE	CDS	25628	25738	-2.646	+	0	ID=NC_020867.1.25738;clu=7521;clan=1153_mono
+NC_020867.1	PHANOTATE	CDS	25739	26062	-100.6007	+	0	ID=NC_020867.1.26062;clu=5123;clan=49_clan;PHROGs=phrog_22704,phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_020867.1	PHANOTATE	CDS	26043	26198	-18.7132	+	0	ID=NC_020867.1.26198;clu=8639;clan=161_clan
+NC_020867.1	PHANOTATE	CDS	26191	26280	-1.5525	+	0	ID=NC_020867.1.26280;clu=9198;clan=2165_mono
+NC_020867.1	PHANOTATE	CDS	26264	28606	-998701761135602.8	+	0	ID=NC_020867.1.28606;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_006882.2	PHANOTATE	CDS	1039	1086	-0.1173	+	0	ID=NC_006882.2.1086;clu=5289;clan=550_mono
+NC_006882.2	PHANOTATE	CDS	1079	1816	-258.3098	+	0	ID=NC_006882.2.1816;clu=137;clan=16_clan;PHROGs=phrog_2554;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	1845	2423	-126.9999	+	0	ID=NC_006882.2.2423;clu=9129;clan=249_pair;PHROGs=phrog_27471,phrog_757;phrog_ann=hypothetical protein,DNA methyltransferase;phrog_category=other,unknown function
+NC_006882.2	PHANOTATE	CDS	2484	2633	-0.0503	+	0	ID=NC_006882.2.2633;clu=9687;clan=1974_mono
+NC_006882.2	PHANOTATE	CDS	2637	2903	-5.8035	+	0	ID=NC_006882.2.2903;clu=10245;clan=991_mono;PHROGs=phrog_9069;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	2882	3130	-24.7658	+	0	ID=NC_006882.2.3130;clu=10803;clan=347_pair;PHROGs=phrog_25438;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	3127	3291	-8.6681	+	0	ID=NC_006882.2.3291;clu=11361;clan=1662_mono
+NC_006882.2	PHANOTATE	CDS	3288	3470	-15.887	+	0	ID=NC_006882.2.3470;clu=11919;clan=979_mono;PHROGs=phrog_23048;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	3551	3727	-3.1659	+	0	ID=NC_006882.2.3727;clu=4609;clan=416_pair;PHROGs=phrog_30072;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	3724	4062	-8.3356	+	0	ID=NC_006882.2.4062;clu=13035;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	4055	4189	-3.811	+	0	ID=NC_006882.2.4189;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_006882.2	PHANOTATE	CDS	4234	4353	-12.9797	+	0	ID=NC_006882.2.4353;clu=14151;clan=2347_mono
+NC_006882.2	PHANOTATE	CDS	4423	4611	-25.4976	+	0	ID=NC_006882.2.4611;clu=6286;clan=237_pair
+NC_006882.2	PHANOTATE	CDS	4586	4918	-205.5712	+	0	ID=NC_006882.2.4918;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_006882.2	PHANOTATE	CDS	4896	5768	-27642.9186	+	0	ID=NC_006882.2.5768;clu=2331;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+NC_006882.2	PHANOTATE	CDS	5818	5940	-1.8244	+	0	ID=NC_006882.2.5940;clu=16383;clan=2025_mono
+NC_006882.2	PHANOTATE	CDS	6039	8375	-543004847805979.2	+	0	ID=NC_006882.2.8375;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_006882.2	PHANOTATE	CDS	8375	8375	-102093.4052	+	0	ID=NC_006882.2.8944;clu=3376;clan=1926_mono;PHROGs=phrog_112;phrog_ann=Gp2.5-like ssDNA binding protein and ssDNA annealing protein;phrog_category=DNA, RNA and nucleotide metabolism
+MT424636.1	PHANOTATE	CDS	2	157	-2.0121	+	0	ID=MT424636.1.157;clu=8675;clan=1220_mono
+MT424636.1	PHANOTATE	CDS	218	316	-1.7254	+	0	ID=MT424636.1.316;clu=9234;clan=2433_mono
+MT424636.1	PHANOTATE	CDS	313	429	-4.6047	+	0	ID=MT424636.1.429;clu=9792;clan=281_pair
+MT424636.1	PHANOTATE	CDS	458	592	-0.173	+	0	ID=MT424636.1.592;clu=10350;clan=2444_mono
+MT424636.1	PHANOTATE	CDS	649	924	-7.6264	+	0	ID=MT424636.1.924;clu=10073;clan=58_clan;PHROGs=phrog_7365;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	1019	1330	-35.846	+	0	ID=MT424636.1.1330;clu=11466;clan=953_mono;PHROGs=phrog_2543;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	1405	1566	-6.4919	+	0	ID=MT424636.1.1566;clu=12024;clan=1005_mono
+MT424636.1	PHANOTATE	CDS	1566	1910	-121.2197	+	0	ID=MT424636.1.1910;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	1907	2095	-4.7623	+	0	ID=MT424636.1.2095;clu=2324;clan=1031_mono
+MT424636.1	PHANOTATE	CDS	2092	2226	-3.7263	+	0	ID=MT424636.1.2226;clu=13698;clan=2648_mono;PHROGs=phrog_1792;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	2223	2450	-24.7078	+	0	ID=MT424636.1.2450;clu=14256;clan=2627_mono
+MT424636.1	PHANOTATE	CDS	2447	2566	-2.275	+	0	ID=MT424636.1.2566;clu=88;clan=408_pair;PHROGs=phrog_29551;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	2553	2759	-11.3912	+	0	ID=MT424636.1.2759;clu=6962;clan=2241_mono;PHROGs=phrog_30433;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	2791	2898	-5.1526	+	0	ID=MT424636.1.2898;clu=15930;clan=42_clan;PHROGs=phrog_29942;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	2888	3196	-45.0454	+	0	ID=MT424636.1.3196;clu=5123;clan=49_clan;PHROGs=phrog_9569;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	3189	3323	-4.2486	+	0	ID=MT424636.1.3323;clu=1297;clan=271_pair;PHROGs=phrog_38794,phrog_21680;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	3324	5663	-105872487645004.31	+	0	ID=MT424636.1.5663;clu=13670;clan=1_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT424636.1	PHANOTATE	CDS	43843	44471	-300617046892.9038	+	0	ID=MT424636.1.44471;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MT424636.1	PHANOTATE	CDS	44452	44562	-0.1514	+	0	ID=MT424636.1.44562;clu=850;clan=2460_mono
+MT424636.1	PHANOTATE	CDS	44617	45240	-21227.8249	+	0	ID=MT424636.1.45240;clu=1409;clan=379_pair;PHROGs=phrog_10644,phrog_22708,phrog_85;phrog_ann=thymidylate synthase;phrog_category=DNA, RNA and nucleotide metabolism
+MT424636.1	PHANOTATE	CDS	45237	45332	-9.3077	+	0	ID=MT424636.1.45332;clu=1968;clan=871_mono;PHROGs=phrog_814,phrog_10723,phrog_25423;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT424636.1	PHANOTATE	CDS	45329	45496	-0.2813	+	0	ID=MT424636.1.45496;clu=8675;clan=1220_mono

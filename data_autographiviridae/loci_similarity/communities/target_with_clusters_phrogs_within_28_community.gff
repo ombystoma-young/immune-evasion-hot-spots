@@ -1,0 +1,315 @@
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	78	560	-19.9931	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.78;clu=1024;clan=1384_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	637	732	-0.0505	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.637;clu=12725;clan=1188_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	1023	1322	-832.4877	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.1023;clu=3653;clan=720_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	1617	1745	-0.222	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.1617;clu=5888;clan=579_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	42705	42818	-1.6627	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.42705;clu=10996;clan=1664_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	42826	42966	-1.1077	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.42826;clu=7006;clan=298_pair
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	43063	43242	-1.0426	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.43063;clu=7565;clan=2311_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	76797	77537	-9490929.9403	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.76797;clu=8362;clan=9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	77588	78469	-39665561.0221	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.77588;clu=9448;clan=6_clan, 9_clan
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	78472	78942	-88692.0267	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.78472;clu=1583;clan=954_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	78991	79386	-19742.1592	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.78991;clu=1024;clan=1384_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	79350	79460	-0.0506	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.79350;clu=2214;clan=1888_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	79535	79756	-168.5971	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.79535;clu=465;clan=2557_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	79759	79872	-0.2544	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.79759;clu=3671;clan=105_clan
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	79897	79986	-0.1314	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.79897;clu=12032;clan=1678_mono
+SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856	PHANOTATE	CDS	79973	80104	-2.1738	-	0	ID=SRS058336_a1_ct10856@circular@Podoviridae__sp._ctNyu856.79973;clu=2605;clan=420_pair
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	64803	65078	-298.8952	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.65078;clu=3653;clan=720_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	65319	65420	-14.5456	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.65420;clu=1487;clan=303_pair
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	65535	66017	-131.9424	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66017;clu=1024;clan=1384_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	66114	66245	-2.6985	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66245;clu=2605;clan=420_pair
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	66253	66372	-0.1142	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66372;clu=3790;clan=124_clan
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	66345	66458	-0.1957	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66458;clu=3671;clan=105_clan
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	66461	66712	-1385.7695	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66712;clu=1096;clan=1022_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	66714	66935	-75.8336	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.66935;clu=465;clan=2557_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	67010	67102	-0.0482	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.67102;clu=8125;clan=1858_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	67083	67478	-92236.0023	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.67478;clu=1024;clan=1384_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	67527	67997	-231269.0788	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.67997;clu=1583;clan=954_mono
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	68000	68881	-161315301.7608	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.68881;clu=9448;clan=6_clan, 9_clan
+SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454	PHANOTATE	CDS	68921	70204	-45303895165636.52	+	0	ID=SRS062714_a1_ct13454@circular@Podoviridae__sp._ctz4Z454.70204;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	69619	69882	-619.0677	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.69882;clu=2231;clan=2223_mono
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	70790	70936	-35.5263	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.70936;clu=2605;clan=420_pair
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	70961	71053	-0.117	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.71053;clu=14334;clan=105_clan
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	71070	71291	-344.5529	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.71291;clu=465;clan=2557_mono
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	71414	71866	-441.2144	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.71866;clu=7771;clan=outlier: 74_clan
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	71926	72450	-44038.5492	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.72450;clu=16583;clan=1044_mono
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	72489	73454	-128974823.5843	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.73454;clu=9448;clan=6_clan, 9_clan
+SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1	PHANOTATE	CDS	73458	74726	-648905571.3493	+	0	ID=SRS014573_a1_ct22863_vs1@Podoviridae__sp._ctTce1.74726;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	29074	30342	-996359779.451	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.29074;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	30346	31311	-281465300.2044	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.30346;clu=9448;clan=6_clan, 9_clan
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	31351	31881	-30778.7887	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.31351;clu=16583;clan=1044_mono
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	31941	32393	-1396.9851	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.31941;clu=7771;clan=outlier: 74_clan
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	32516	32737	-66.4912	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.32516;clu=465;clan=2557_mono
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	32811	32921	-1.0824	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.32811;clu=13776;clan=296_pair
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	32914	33201	-10.3298	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.32914;clu=5903;clan=874_mono
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	33263	33439	-1257.6803	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.33263;clu=2622;clan=2047_mono
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	33465	33575	-0.9711	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.33465;clu=3790;clan=124_clan
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	33602	33763	-21.6019	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.33602;clu=2605;clan=420_pair
+SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938	PHANOTATE	CDS	34378	34641	-647.7354	-	0	ID=SRS014888_a1_ct10938@circular@Podoviridae__sp._ctvt9938.34378;clu=2231;clan=2223_mono
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	25448	25552	-3.1747	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.25552;clu=6134;clan=2416_mono
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	25604	25870	-1042.0327	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.25870;clu=6693;clan=491_mono
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	25992	26243	-0.0894	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.26243;clu=10611;clan=420_pair
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	26400	26621	-2298.7449	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.26621;clu=465;clan=2557_mono
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	26819	27178	-972.5999	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.27178;clu=9488;clan=74_clan;PHROGs=phrog_4099;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	27240	28076	-492571724.7774	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.28076;clu=9448;clan=6_clan, 9_clan
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	28079	28585	-532748.3261	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.28585;clu=1021;clan=912_mono;PHROGs=phrog_335,phrog_15329;phrog_ann=phosphatase,hypothetical protein;phrog_category=other,unknown function
+SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1	PHANOTATE	CDS	28704	30026	-1117266596126.5999	+	0	ID=SRS015596_a1_ct15919_vs1@Podoviridae__sp._ctNDg1.30026;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	27	169	-296.2171	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.27;clu=3653;clan=720_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	76201	77484	-102702119829794.08	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.76201;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	77524	77631	-1.6066	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.77524;clu=17630;clan=bridge: 6_clan, 6_clan
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	77643	78356	-691888.4123	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.77643;clu=317;clan=1166_mono;PHROGs=phrog_24910,phrog_314;phrog_ann=hypothetical protein,homing endonuclease;phrog_category=DNA, RNA and nucleotide metabolism,unknown function
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	78621	79412	-9452706.1851	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.78621;clu=9448;clan=6_clan, 9_clan
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	79415	79885	-222203.9293	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.79415;clu=1583;clan=954_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	79934	80332	-6856.2288	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.79934;clu=1024;clan=1384_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	80477	80698	-135.3971	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.80477;clu=465;clan=2557_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	80700	80957	-2575.7858	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.80700;clu=1096;clan=1022_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	80960	81073	-0.1991	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.80960;clu=3671;clan=105_clan
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	81046	81165	-0.9693	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.81046;clu=3790;clan=124_clan
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	81173	81304	-3.1319	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.81173;clu=2605;clan=420_pair
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	81402	81884	-44.7838	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.81402;clu=1024;clan=1384_mono
+SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199	PHANOTATE	CDS	81999	82097	-5.4363	-	0	ID=SRS015174_a1_ct11199@circular@Podoviridae__sp._ct9Qh199.81999;clu=1487;clan=303_pair
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	45620	45766	-55.5378	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.45766;clu=2605;clan=420_pair
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	45763	45861	-0.0609	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.45861;clu=8192;clan=2770_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	45930	46106	-38.4754	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.46106;clu=2622;clan=2047_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	46166	46390	-110.5323	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.46390;clu=9310;clan=268_pair
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	46484	46693	-228.2031	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.46693;clu=9868;clan=508_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	46778	47086	-338.7753	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.47086;clu=10426;clan=1796_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	47083	47409	-1999.7757	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.47409;clu=10984;clan=2324_mono;PHROGs=phrog_30542;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	47402	47500	-0.0518	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.47500;clu=11542;clan=296_pair
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	47603	47845	-763.0397	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.47845;clu=1096;clan=1022_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	47847	48068	-124.5498	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.48068;clu=465;clan=2557_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	48089	48193	-0.0671	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.48193;clu=13216;clan=1627_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	48190	48642	-35.7605	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.48642;clu=7771;clan=outlier: 74_clan
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	48702	49229	-26412.753	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.49229;clu=16583;clan=1044_mono
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	49269	50234	-61621532.1857	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.50234;clu=9448;clan=6_clan, 9_clan
+SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1	PHANOTATE	CDS	50238	51506	-90243830.0216	+	0	ID=SRS017209_a1_ct4787_vs1@Podoviridae__sp._ctlOl1.51506;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	91	354	-526.8483	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.354;clu=2231;clan=2223_mono
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	1262	1408	-44.0029	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.1408;clu=2605;clan=420_pair
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	1435	1545	-0.9603	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.1545;clu=3790;clan=124_clan
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	1571	1747	-557.9383	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.1747;clu=2622;clan=2047_mono
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	1809	2096	-9.2972	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.2096;clu=5903;clan=874_mono
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	2089	2199	-1.1319	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.2199;clu=13776;clan=296_pair
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	2177	2269	-0.1162	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.2269;clu=14334;clan=105_clan
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	2286	2507	-347.6695	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.2507;clu=465;clan=2557_mono
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	2630	3082	-746.1992	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.3082;clu=7771;clan=outlier: 74_clan
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	3142	3666	-57524.0554	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.3666;clu=16583;clan=1044_mono
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	3705	4670	-229983766.4171	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.4670;clu=9448;clan=6_clan, 9_clan
+SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911	PHANOTATE	CDS	4674	5942	-250233301.2578	+	0	ID=SRS077300_a1_ct9911@circular@Podoviridae__sp._ct29Q911.5942;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	49534	49569	-0.0682	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.49569;clu=17682;clan=417_pair
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	49535	49828	-773.8339	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.49828;clu=3653;clan=720_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	49797	49937	-6.4875	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.49937;clu=928;clan=933_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	50068	50169	-4.6709	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.50169;clu=1487;clan=303_pair
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	50284	50766	-115.9993	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.50766;clu=1024;clan=1384_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	50863	50994	-3.0792	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.50994;clu=2605;clan=420_pair
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	51002	51121	-0.1158	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.51121;clu=3790;clan=124_clan
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	51094	51204	-0.2612	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.51204;clu=3671;clan=105_clan
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	51207	51428	-339.9971	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.51428;clu=465;clan=2557_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	51581	51976	-26650.137	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.51976;clu=1024;clan=1384_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	52025	52495	-149623.6032	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.52495;clu=1583;clan=954_mono
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	52498	53379	-243093207.246	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.53379;clu=9448;clan=6_clan, 9_clan
+SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604	PHANOTATE	CDS	53419	54702	-38497002245835.81	+	0	ID=SRS077322_a1_ct22604@circular@Podoviridae__sp._ctjkZ604.54702;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	26	145	-0.1159	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.26;clu=3790;clan=124_clan
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	153	284	-3.2539	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.153;clu=2605;clan=420_pair
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	381	863	-114.9125	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.381;clu=1024;clan=1384_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	978	1079	-5.1452	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.978;clu=1487;clan=303_pair
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	1210	1350	-6.3366	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.1210;clu=928;clan=933_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	1319	1612	-718.6946	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.1319;clu=3653;clan=720_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	45151	45252	-2.5054	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.45151;clu=10996;clan=1664_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	45260	45367	-0.0909	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.45260;clu=11554;clan=298_pair
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	45463	45585	-0.229	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.45463;clu=12112;clan=1683_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	75973	77256	-36903631095375.57	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.75973;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	77296	78177	-147638709.5966	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.77296;clu=9448;clan=6_clan, 9_clan
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	78180	78650	-163375.832	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.78180;clu=1583;clan=954_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	78699	79094	-24095.9428	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.78699;clu=1024;clan=1384_mono
+SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular	PHANOTATE	CDS	79247	79468	-307.9633	-	0	ID=SRS148820_a1_ct27022@Caudovirales__sp._cthYo175@circular.79247;clu=465;clan=2557_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	74259	75527	-1817543582.1988	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.74259;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	75532	76497	-31590341.2134	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.75532;clu=9448;clan=6_clan, 9_clan
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	76536	77060	-52844.1574	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.76536;clu=16583;clan=1044_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	77120	77572	-422.2501	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.77120;clu=7771;clan=outlier: 74_clan
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	77695	77916	-221.2522	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.77695;clu=465;clan=2557_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	77918	78169	-693.0003	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.77918;clu=1096;clan=1022_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	78172	78315	-0.205	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.78172;clu=2113;clan=105_clan
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	78329	78499	-82.7281	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.78329;clu=3865;clan=536_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	78558	78734	-711.888	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.78558;clu=2622;clan=2047_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	78760	78888	-2.1823	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.78760;clu=3790;clan=124_clan
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	78897	79043	-15.3769	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.78897;clu=2605;clan=420_pair
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	79104	79298	-9.5497	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.79104;clu=1499;clan=1203_mono
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	79487	79585	-2.0454	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.79487;clu=1672;clan=303_pair
+SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540	PHANOTATE	CDS	79886	80155	-650.855	-	0	ID=SRS011247_a1_ct7540@circular@Podoviridae__sp._ctUDd540.79886;clu=2231;clan=2223_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	33002	33160	-4.6353	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.33160;clu=8207;clan=1212_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	33295	33594	-741.6407	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.33594;clu=3653;clan=720_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	34132	34548	-2876.7209	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.34548;clu=1024;clan=1384_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	34647	34778	-8.2886	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.34778;clu=2605;clan=420_pair
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	34786	34944	-0.1215	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.34944;clu=10441;clan=124_clan
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	34990	35247	-911.0192	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.35247;clu=1096;clan=1022_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	35249	35470	-99.9577	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.35470;clu=465;clan=2557_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	35615	36013	-1122.4487	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.36013;clu=1024;clan=1384_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	36062	36532	-1668376.1133	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.36532;clu=1583;clan=954_mono
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	36535	37416	-71388073.9882	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.37416;clu=9448;clan=6_clan, 9_clan
+SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150	PHANOTATE	CDS	37457	38740	-10946245058901.12	+	0	ID=SRS011306_a1_ct13150@circular@Podoviridae__sp._ctIs2150.38740;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0353062	PHANOTATE	CDS	12806	13885	-276075932.3027	-	0	ID=MGV-GENOME-0353062.12806;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0353062	PHANOTATE	CDS	13889	14854	-227273917.4833	-	0	ID=MGV-GENOME-0353062.13889;clu=9448;clan=6_clan, 9_clan
+MGV-GENOME-0353062	PHANOTATE	CDS	14893	15429	-567864.3297	-	0	ID=MGV-GENOME-0353062.14893;clu=16583;clan=1044_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	15489	15938	-127.2352	-	0	ID=MGV-GENOME-0353062.15489;clu=7771;clan=outlier: 74_clan
+MGV-GENOME-0353062	PHANOTATE	CDS	16056	16277	-268.7985	-	0	ID=MGV-GENOME-0353062.16056;clu=465;clan=2557_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	16280	16387	-0.0913	-	0	ID=MGV-GENOME-0353062.16280;clu=3671;clan=105_clan
+MGV-GENOME-0353062	PHANOTATE	CDS	16378	16482	-0.0526	-	0	ID=MGV-GENOME-0353062.16378;clu=11542;clan=296_pair
+MGV-GENOME-0353062	PHANOTATE	CDS	16485	16787	-198.7605	-	0	ID=MGV-GENOME-0353062.16485;clu=14476;clan=2727_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	16883	17038	-56.7562	-	0	ID=MGV-GENOME-0353062.16883;clu=3865;clan=536_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	17096	17272	-93.0316	-	0	ID=MGV-GENOME-0353062.17096;clu=2622;clan=2047_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	17308	17439	-1.162	-	0	ID=MGV-GENOME-0353062.17308;clu=3790;clan=124_clan
+MGV-GENOME-0353062	PHANOTATE	CDS	17447	17626	-45.7354	-	0	ID=MGV-GENOME-0353062.17447;clu=2622;clan=2047_mono
+MGV-GENOME-0353062	PHANOTATE	CDS	17637	17783	-15.7779	-	0	ID=MGV-GENOME-0353062.17637;clu=2605;clan=420_pair
+MGV-GENOME-0353062	PHANOTATE	CDS	17841	18050	-95.036	-	0	ID=MGV-GENOME-0353062.17841;clu=1499;clan=1203_mono
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	32517	33839	-191748293809.4702	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.32517;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	33958	34464	-710748.5256	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.33958;clu=1021;clan=912_mono;PHROGs=phrog_335,phrog_15329;phrog_ann=phosphatase,hypothetical protein;phrog_category=other,unknown function
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	34467	35303	-13214330.6966	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.34467;clu=9448;clan=6_clan, 9_clan
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	35365	35721	-314.4254	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.35365;clu=9488;clan=74_clan;PHROGs=phrog_4099;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	35918	36139	-1134.3021	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.35918;clu=465;clan=2557_mono
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	36276	36437	-20.7573	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.36276;clu=2605;clan=420_pair
+SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular	PHANOTATE	CDS	36652	36918	-419.2632	-	0	ID=SRS146738_a1_ct23551@Podoviridae__sp._ctQ9m114@circular.36652;clu=6693;clan=491_mono
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	74517	75785	-535926361.6926	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.74517;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	75790	76755	-381137805.894	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.75790;clu=9448;clan=6_clan, 9_clan
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	76794	77318	-38330.7728	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.76794;clu=16583;clan=1044_mono
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	77378	77830	-271.298	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.77378;clu=7771;clan=outlier: 74_clan
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	77953	78174	-172.1694	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.77953;clu=465;clan=2557_mono
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	78295	78456	-18.0968	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.78295;clu=2605;clan=420_pair
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	78645	78743	-2.0749	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.78645;clu=1672;clan=303_pair
+SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581	PHANOTATE	CDS	79050	79313	-623.48	-	0	ID=SRS063373_a1_ct10581@circular@Podoviridae__sp._ctt8L581.79050;clu=2231;clan=2223_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	20189	20464	-610.8933	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.20464;clu=3653;clan=720_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	20452	20574	-0.8339	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.20574;clu=928;clan=933_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	20706	20807	-14.644	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.20807;clu=1487;clan=303_pair
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	20922	21404	-32.0379	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.21404;clu=1024;clan=1384_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	21501	21632	-2.8926	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.21632;clu=2605;clan=420_pair
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	21640	21744	-0.1375	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.21744;clu=17850;clan=124_clan
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	21731	21841	-0.2622	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.21841;clu=3671;clan=105_clan
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	21844	22086	-1468.8716	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.22086;clu=1096;clan=1022_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	22088	22309	-409.724	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.22309;clu=465;clan=2557_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	22384	22494	-0.0494	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.22494;clu=2214;clan=1888_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	22458	22853	-22409.7808	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.22853;clu=1024;clan=1384_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	22902	23372	-142584.616	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.23372;clu=1583;clan=954_mono
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	23375	24256	-61145454.8684	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.24256;clu=9448;clan=6_clan, 9_clan
+SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1	PHANOTATE	CDS	24296	25579	-37224396497010.24	+	0	ID=SRS043461_a1_ct14623_vs1@Podoviridae__sp._ct0yR1.25579;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	14944	15219	-135.6429	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.15219;clu=3653;clan=720_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	15207	15329	-0.6532	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.15329;clu=928;clan=933_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	15455	15583	-1.2418	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.15583;clu=12725;clan=1188_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	15723	16142	-67.2938	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.16142;clu=1024;clan=1384_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	16239	16370	-2.8778	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.16370;clu=2605;clan=420_pair
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	16378	16482	-0.141	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.16482;clu=17850;clan=124_clan
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	16469	16579	-0.2771	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.16579;clu=3671;clan=105_clan
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	16582	16824	-1699.6505	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.16824;clu=1096;clan=1022_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	16826	17047	-400.9027	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.17047;clu=465;clan=2557_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	17122	17232	-0.0498	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.17232;clu=2214;clan=1888_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	17196	17591	-25559.3247	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.17591;clu=1024;clan=1384_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	17640	18110	-150137.4841	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.18110;clu=1583;clan=954_mono
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	18113	18994	-74603792.4608	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.18994;clu=9448;clan=6_clan, 9_clan
+SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1	PHANOTATE	CDS	19034	20317	-41404739575559.484	+	0	ID=SRS022145_a1_ct1_vs1@Caudovirales__sp._ct7Yp1.20317;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	74449	75717	-1141929326.8306	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.74449;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	75722	76687	-1566345935.7791	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.75722;clu=9448;clan=6_clan, 9_clan
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	76726	77250	-178208.4776	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.76726;clu=16583;clan=1044_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	77310	77762	-497.0574	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.77310;clu=7771;clan=outlier: 74_clan
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	77746	77865	-0.131	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.77746;clu=13216;clan=1627_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	77886	78107	-173.5568	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.77886;clu=465;clan=2557_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	78109	78363	-1143.486	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.78109;clu=1096;clan=1022_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	78366	78509	-0.1981	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.78366;clu=2113;clan=105_clan
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	78523	78693	-127.9467	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.78523;clu=3865;clan=536_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	78761	78937	-819.0093	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.78761;clu=2622;clan=2047_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	78963	79091	-2.0141	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.78963;clu=3790;clan=124_clan
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	79100	79246	-21.7135	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.79100;clu=2605;clan=420_pair
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	79302	79526	-5.5133	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.79302;clu=1499;clan=1203_mono
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	79718	79816	-1.987	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.79718;clu=1672;clan=303_pair
+SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843	PHANOTATE	CDS	80113	80376	-764.3161	-	0	ID=SRS044486_a1_ct4843@circular@Podoviridae__sp._ctEdD843.80113;clu=2231;clan=2223_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	12271	12306	-1.4421	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.12306;clu=13872;clan=417_pair
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	12272	12547	-846.1953	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.12547;clu=3653;clan=720_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	12817	12933	-0.0581	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.12933;clu=12725;clan=1188_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	13034	13123	-0.9793	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.13123;clu=15546;clan=1727_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	13084	13500	-4228.4542	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.13500;clu=1024;clan=1384_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	13599	13730	-1.9276	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.13730;clu=2605;clan=420_pair
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	13875	14162	-3.9314	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.14162;clu=5903;clan=874_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	14217	14348	-1.6454	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.14348;clu=2113;clan=105_clan
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	14341	14562	-354.0609	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.14562;clu=465;clan=2557_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	14706	15104	-943.4505	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.15104;clu=1024;clan=1384_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	15153	15623	-2883567.9379	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.15623;clu=1583;clan=954_mono
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	15626	16507	-131900496.5353	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.16507;clu=9448;clan=6_clan, 9_clan
+SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836	PHANOTATE	CDS	16558	17841	-4555183588052.208	+	0	ID=SRS045602_a1_ct6836@circular@Podoviridae__sp._ctOkd836.17841;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	1	303	-23.0871	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.303;clu=14476;clan=2727_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	306	410	-0.0527	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.410;clu=11542;clan=296_pair
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	401	508	-0.09	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.508;clu=3671;clan=105_clan
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	511	732	-243.8601	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.732;clu=465;clan=2557_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	850	1299	-132.1271	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.1299;clu=7771;clan=outlier: 74_clan
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	1359	1895	-284497.2627	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.1895;clu=16583;clan=1044_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	1934	2899	-225823376.524	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.2899;clu=9448;clan=6_clan, 9_clan
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	2903	3982	-273363155.8615	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.3982;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	80166	80375	-157.7221	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.80375;clu=1499;clan=1203_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	80433	80579	-14.6618	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.80579;clu=2605;clan=420_pair
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	80590	80769	-48.6753	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.80769;clu=2622;clan=2047_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	80777	80908	-1.1908	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.80908;clu=3790;clan=124_clan
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	80944	81120	-93.0394	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.81120;clu=2622;clan=2047_mono
+SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10	PHANOTATE	CDS	81178	81333	-56.4619	+	0	ID=SAMEA2738138_b1_ct10@circular@Podoviridae__sp._ctZUq10.81333;clu=3865;clan=536_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	34038	34778	-5327274.3412	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.34038;clu=8362;clan=9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	34818	35699	-1377428870.8598	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.34818;clu=9448;clan=6_clan, 9_clan
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	35702	36172	-85738.4572	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.35702;clu=1583;clan=954_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	36231	36626	-17739.3303	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.36231;clu=1024;clan=1384_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	36590	36700	-0.0505	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.36590;clu=2214;clan=1888_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	36776	36997	-161.683	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.36776;clu=465;clan=2557_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	37000	37110	-0.2699	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.37000;clu=3671;clan=105_clan
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	37097	37201	-0.1416	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.37097;clu=17850;clan=124_clan
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	37209	37340	-2.8566	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.37209;clu=2605;clan=420_pair
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	37437	37856	-68.2505	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.37437;clu=1024;clan=1384_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	37996	38124	-1.0217	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.37996;clu=12725;clan=1188_mono
+SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear	PHANOTATE	CDS	38389	38688	-1134.5836	-	0	ID=SRS144302_a1_ct18437_vs01@Podoviridae__sp._ctN2O101@linear.38389;clu=3653;clan=720_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	14681	14956	-289.1115	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.14956;clu=3653;clan=720_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	14944	15066	-0.8948	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.15066;clu=928;clan=933_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	15208	15336	-1.5331	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.15336;clu=12725;clan=1188_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	15476	15895	-133.2679	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.15895;clu=1024;clan=1384_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	15992	16123	-3.3	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16123;clu=2605;clan=420_pair
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16131	16235	-0.1497	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16235;clu=17850;clan=124_clan
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16222	16332	-0.3866	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16332;clu=3671;clan=105_clan
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16335	16577	-1809.5012	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16577;clu=1096;clan=1022_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16579	16800	-402.956	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16800;clu=465;clan=2557_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16875	16985	-0.0568	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.16985;clu=2214;clan=1888_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	16949	17344	-29075.5852	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.17344;clu=1024;clan=1384_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	17393	17863	-208874.4504	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.17863;clu=1583;clan=954_mono
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	17866	18747	-149649398.4477	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.18747;clu=9448;clan=6_clan, 9_clan
+SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear	PHANOTATE	CDS	18787	19527	-24817565.6023	+	0	ID=SRS144368_a1_ct35956_vs01@Podoviridae__sp._ctuzx26@linear.19527;clu=8362;clan=9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	15743	16006	-1176.9055	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.16006;clu=2231;clan=2223_mono
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	16297	16398	-2.884	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.16398;clu=1672;clan=303_pair
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	16587	16748	-16.276	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.16748;clu=2605;clan=420_pair
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	16775	16885	-0.9925	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.16885;clu=3790;clan=124_clan
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	16911	17087	-405.468	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.17087;clu=2622;clan=2047_mono
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	17146	17316	-43.4919	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.17316;clu=3865;clan=536_mono
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	17330	17479	-0.2309	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.17479;clu=2113;clan=105_clan
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	17463	17684	-279.5364	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.17684;clu=465;clan=2557_mono
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	17807	18259	-129.4246	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.18259;clu=7771;clan=outlier: 74_clan
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	18319	18843	-51566.7436	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.18843;clu=16583;clan=1044_mono
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	18883	19848	-137048457.4021	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.19848;clu=9448;clan=6_clan, 9_clan
+SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285	PHANOTATE	CDS	19853	21121	-362953460.1659	+	0	ID=SRS049147_a1_ct9285@circular@Podoviridae__sp._ctVsq285.21121;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	11204	11302	-3.261	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.11302;clu=6134;clan=2416_mono
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	11366	11632	-398.6592	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.11632;clu=6693;clan=491_mono
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	11633	11737	-0.0943	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.11737;clu=7252;clan=2534_mono
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	11848	12009	-15.5894	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.12009;clu=2605;clan=420_pair
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	12084	12335	-616.159	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.12335;clu=8370;clan=268_pair
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	12394	12615	-749.2833	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.12615;clu=465;clan=2557_mono
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	12817	13173	-145.6047	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.13173;clu=9488;clan=74_clan;PHROGs=phrog_4099;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	13239	14075	-7088991.896	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.14075;clu=9448;clan=6_clan, 9_clan
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	14078	14584	-486322.8122	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.14584;clu=1021;clan=912_mono;PHROGs=phrog_335,phrog_15329;phrog_ann=phosphatase,hypothetical protein;phrog_category=other,unknown function
+SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252	PHANOTATE	CDS	14703	16019	-502413287428.9092	+	0	ID=SRS064329_a1_ct8252@circular@Podoviridae__sp._cty6T252.16019;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	69566	70888	-73162334117.1647	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.69566;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	71007	71513	-347730.4875	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.71007;clu=1021;clan=912_mono;PHROGs=phrog_335,phrog_15329;phrog_ann=phosphatase,hypothetical protein;phrog_category=other,unknown function
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	71516	72352	-79359370.7735	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.71516;clu=9448;clan=6_clan, 9_clan
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	72414	72770	-320.1933	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.72414;clu=9488;clan=74_clan;PHROGs=phrog_4099;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	72967	73188	-1693.3095	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.72967;clu=465;clan=2557_mono
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	73345	73596	-0.1688	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.73345;clu=10611;clan=420_pair
+SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531	PHANOTATE	CDS	73719	73985	-843.0164	-	0	ID=SRS047113_a1_ct10531@circular@Podoviridae__sp._ctfNC531.73719;clu=6693;clan=491_mono
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	72607	73707	-441255491.4418	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.72607;clu=14958;clan=1_clan, 9_clan;PFAM=PF00940.22;PHROGs=phrog_20599,phrog_2051;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	73711	74676	-718935928.3682	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.73711;clu=9448;clan=6_clan, 9_clan
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	74715	75239	-33390.6143	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.74715;clu=16583;clan=1044_mono
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	75299	75751	-745.1347	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.75299;clu=7771;clan=outlier: 74_clan
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	75874	76095	-214.8299	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.75874;clu=465;clan=2557_mono
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	76126	76227	-0.1293	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.76126;clu=16751;clan=105_clan
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	76241	76411	-47.4602	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.76241;clu=3865;clan=536_mono
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	76470	76646	-1485.6417	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.76470;clu=2622;clan=2047_mono
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	76672	76782	-0.9634	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.76672;clu=3790;clan=124_clan
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	76809	76970	-20.0022	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.76809;clu=2605;clan=420_pair
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	77159	77257	-2.036	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.77159;clu=1672;clan=303_pair
+SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671	PHANOTATE	CDS	77554	77817	-572.3359	-	0	ID=SRS042910_a1_ct8671@circular@Podoviridae__sp._ct2WC671.77554;clu=2231;clan=2223_mono

@@ -1,0 +1,14 @@
+OQ135102.1	PHANOTATE	CDS	15495	15536	-0.0926	+	0	ID=OQ135102.1.15536;clu=9604;clan=2260_mono
+OQ135102.1	PHANOTATE	CDS	15496	16323	-3009.7771	+	0	ID=OQ135102.1.16323;clu=15761;clan=257_pair;PHROGs=phrog_284;phrog_ann=exonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135102.1	PHANOTATE	CDS	16316	16783	-9.1381	+	0	ID=OQ135102.1.16783;clu=1909;clan=121_clan;PHROGs=phrog_16943,phrog_37386,phrog_474,phrog_17775,phrog_18396;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+OQ135102.1	PHANOTATE	CDS	16786	17055	-6.976	+	0	ID=OQ135102.1.17055;clu=2468;clan=1260_mono;PHROGs=phrog_30225;phrog_ann=hypothetical protein;phrog_category=unknown function
+OQ135102.1	PHANOTATE	CDS	17052	17267	-8.6769	+	0	ID=OQ135102.1.17267;clu=9655;clan=2291_mono
+OQ135102.1	PHANOTATE	CDS	17257	18174	-1983.7084	+	0	ID=OQ135102.1.18174;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ135102.1	PHANOTATE	CDS	18171	18344	-9.1483	+	0	ID=OQ135102.1.18344;clu=12952;clan=1118_mono
+OQ135102.1	PHANOTATE	CDS	18411	20765	-24823435987.9283	+	0	ID=OQ135102.1.20765;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	3	95	-2.8634	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.95;clu=5466;clan=257_pair
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	206	529	-329.1837	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.529;clu=6025;clan=121_clan;PHROGs=phrog_17775,phrog_16943,phrog_37386,phrog_474;phrog_ann=hypothetical protein,phosphofructokinase;phrog_category=unknown function,other
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	627	785	-29.9048	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.785;clu=6584;clan=2132_mono
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	778	1623	-79741.1851	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.1623;clu=5786;clan=26_clan;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	1661	1768	-12.2474	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.1768;clu=7702;clan=2175_mono
+Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679	PHANOTATE	CDS	1778	3679	-5796108077.9398	+	0	ID=Zuo_2019_SRR8240690_NODE_577_length_7372_cov_6.590679.3679;clu=8261;clan=1_clan, 26_clan;PFAM=PF14700.9;PHROGs=phrog_114;phrog_ann=ATP-dependent DNA ligase;phrog_category=DNA, RNA and nucleotide metabolism

@@ -1,0 +1,10 @@
+SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1	PHANOTATE	CDS	5054	5203	-13.833	+	0	ID=SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1.5203;clu=15380;clan=2642_mono
+SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1	PHANOTATE	CDS	7771	7863	-4.1113	+	0	ID=SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1.7863;clu=15938;clan=2558_mono
+SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1	PHANOTATE	CDS	7832	10312	-2.6737269598012582e+22	+	0	ID=SRS062544_a1_ct19334_vs1@Podoviridae__sp._ctYdZ1.10312;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11	PHANOTATE	CDS	28836	31307	-1.6600253633146923e+22	-	0	ID=SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11.28836;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11	PHANOTATE	CDS	31700	32215	-3240.9797	-	0	ID=SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11.31700;clu=10415;clan=1810_mono;PHROGs=phrog_1577;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11	PHANOTATE	CDS	32368	32514	-0.4149	-	0	ID=SRS148193_a1_ct145018_vs1@Podoviridae__sp._ctnY11.32368;clu=10973;clan=277_pair
+SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1	PHANOTATE	CDS	25884	28364	-1.5888870242987707e+24	-	0	ID=SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1.25884;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1	PHANOTATE	CDS	28333	28425	-4.2388	-	0	ID=SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1.28333;clu=15938;clan=2558_mono
+SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1	PHANOTATE	CDS	28765	29280	-19300.51	-	0	ID=SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1.28765;clu=10415;clan=1810_mono;PHROGs=phrog_1577;phrog_ann=hypothetical protein;phrog_category=unknown function
+SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1	PHANOTATE	CDS	29433	30131	-527903.9367	-	0	ID=SRS017139_a1_ct40986_vs1@Podoviridae__sp._ctZUj1.29433;clu=7074;clan=277_pair

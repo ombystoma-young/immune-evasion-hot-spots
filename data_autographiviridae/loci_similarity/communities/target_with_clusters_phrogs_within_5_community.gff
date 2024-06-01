@@ -1,0 +1,295 @@
+AY264776.1	PHANOTATE	CDS	901	1254	-720.9437	+	0	ID=AY264776.1.1254;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+AY264776.1	PHANOTATE	CDS	1254	1409	-48.0943	+	0	ID=AY264776.1.1409;clu=30;clan=20_clan;PHROGs=phrog_25044,phrog_7202;phrog_ann=hypothetical protein;phrog_category=unknown function
+AY264776.1	PHANOTATE	CDS	1557	4208	-3.839313958841852e+16	+	0	ID=AY264776.1.4208;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+AY264776.1	PHANOTATE	CDS	34221	34279	-26.7026	+	0	ID=AY264776.1.34279;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+AY264776.1	PHANOTATE	CDS	34285	34554	-467.2504	+	0	ID=AY264776.1.34554;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+AY264776.1	PHANOTATE	CDS	34529	34630	-4.6146	+	0	ID=AY264776.1.34630;clu=6714;clan=1774_mono
+AY264776.1	PHANOTATE	CDS	34649	35080	-1814.2648	+	0	ID=AY264776.1.35080;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+AY264776.1	PHANOTATE	CDS	35102	36862	-63402461010.4839	+	0	ID=AY264776.1.36862;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+AY264776.1	PHANOTATE	CDS	37121	37270	-8.5116	+	0	ID=AY264776.1.37270;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047940.1	PHANOTATE	CDS	593	847	-87.9895	+	0	ID=NC_047940.1.847;clu=17328;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047940.1	PHANOTATE	CDS	847	999	-11.5749	+	0	ID=NC_047940.1.999;clu=30;clan=20_clan;PHROGs=phrog_25044,phrog_7202;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047940.1	PHANOTATE	CDS	996	1205	-0.3706	+	0	ID=NC_047940.1.1205;clu=9068;clan=48_clan;PHROGs=phrog_16572;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047940.1	PHANOTATE	CDS	1202	1363	-10.3336	+	0	ID=NC_047940.1.1363;clu=7467;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047940.1	PHANOTATE	CDS	1347	4058	-6.7981756097566216e+16	+	0	ID=NC_047940.1.4058;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047940.1	PHANOTATE	CDS	4051	4058	-0.0715	+	0	ID=NC_047940.1.4170;clu=2251;clan=399_pair
+NC_047940.1	PHANOTATE	CDS	34635	35044	-2464.445	+	0	ID=NC_047940.1.35044;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+NC_047940.1	PHANOTATE	CDS	35054	36814	-86036876733.2857	+	0	ID=NC_047940.1.36814;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_047940.1	PHANOTATE	CDS	37073	37222	-10.172	+	0	ID=NC_047940.1.37222;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047940.1	PHANOTATE	CDS	37929	38057	-0.1879	+	0	ID=NC_047940.1.38057;clu=4487;clan=1564_mono
+NC_047940.1	PHANOTATE	CDS	38102	38287	-0.1668	+	0	ID=NC_047940.1.38287;clu=5046;clan=2369_mono
+NC_004777.1	PHANOTATE	CDS	906	1328	-1747.0011	+	0	ID=NC_004777.1.1328;clu=6958;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_004777.1	PHANOTATE	CDS	1399	4050	-1.7619256615767706e+17	+	0	ID=NC_004777.1.4050;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_004777.1	PHANOTATE	CDS	4043	4050	-0.0744	+	0	ID=NC_004777.1.4162;clu=2251;clan=399_pair
+NC_004777.1	PHANOTATE	CDS	33976	34179	-209.6965	+	0	ID=NC_004777.1.34179;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_004777.1	PHANOTATE	CDS	34184	34453	-371.3969	+	0	ID=NC_004777.1.34453;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+NC_004777.1	PHANOTATE	CDS	34428	34535	-1.9866	+	0	ID=NC_004777.1.34535;clu=8400;clan=1768_mono
+NC_004777.1	PHANOTATE	CDS	34547	34990	-3396.8869	+	0	ID=NC_004777.1.34990;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+NC_004777.1	PHANOTATE	CDS	35000	36760	-236418651496.4087	+	0	ID=NC_004777.1.36760;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_004777.1	PHANOTATE	CDS	37019	37168	-10.5295	+	0	ID=NC_004777.1.37168;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK290739.2	PHANOTATE	CDS	95	205	-5.7439	+	0	ID=MK290739.2.205;clu=13454;clan=1420_mono
+MK290739.2	PHANOTATE	CDS	465	641	-29.2048	+	0	ID=MK290739.2.641;clu=7872;clan=2113_mono
+MK290739.2	PHANOTATE	CDS	739	1218	-698.0689	+	0	ID=MK290739.2.1218;clu=9717;clan=22_clan, 25_clan, 52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+MK290739.2	PHANOTATE	CDS	1218	1646	-826.6946	+	0	ID=MK290739.2.1646;clu=8990;clan=22_clan
+MK290739.2	PHANOTATE	CDS	1643	1840	-18.7783	+	0	ID=MK290739.2.1840;clu=6799;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK290739.2	PHANOTATE	CDS	1860	2000	-4.0839	+	0	ID=MK290739.2.2000;clu=10106;clan=2355_mono
+MK290739.2	PHANOTATE	CDS	2025	3227	-50250584.809	+	0	ID=MK290739.2.3227;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+MK290739.2	PHANOTATE	CDS	3313	6027	-2201661616561197.0	+	0	ID=MK290739.2.6027;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MK290739.2	PHANOTATE	CDS	38540	39281	-5829755426.6055	+	0	ID=MK290739.2.39281;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MK290739.2	PHANOTATE	CDS	39451	39723	-46.8205	+	0	ID=MK290739.2.39723;clu=12338;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK290739.2	PHANOTATE	CDS	39808	39969	-0.1419	+	0	ID=MK290739.2.39969;clu=12896;clan=2172_mono
+MK290739.2	PHANOTATE	CDS	40100	40210	-5.9988	+	0	ID=MK290739.2.40210;clu=13454;clan=1420_mono
+NC_029102.1	PHANOTATE	CDS	16013	18679	-1031332427778135.6	-	0	ID=NC_029102.1.16013;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_029102.1	PHANOTATE	CDS	20334	22097	-2468212459.9812	-	0	ID=NC_029102.1.20334;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_029102.1	PHANOTATE	CDS	22155	22409	-190.093	-	0	ID=NC_029102.1.22155;clu=8992;clan=921_mono;PHROGs=phrog_31145,phrog_4306;phrog_ann=hypothetical protein,Rz-like spanin;phrog_category=unknown function,lysis
+NC_029102.1	PHANOTATE	CDS	22614	22880	-79.0319	-	0	ID=NC_029102.1.22614;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+NC_029102.1	PHANOTATE	CDS	22884	23087	-96.1664	-	0	ID=NC_029102.1.22884;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_029102.1	PHANOTATE	CDS	23099	23679	-122139158.0539	-	0	ID=NC_029102.1.23099;clu=10666;clan=34_clan;PHROGs=phrog_28766,phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_27277,phrog_1419,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_38424,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_1980,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481;phrog_ann=tail spike protein,hypothetical protein,tail fiber protein,tail protein;phrog_category=tail,unknown function
+OK169295.1	PHANOTATE	CDS	5895	8546	-1468074898247554.0	-	0	ID=OK169295.1.5895;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OK169295.1	PHANOTATE	CDS	8593	8775	-49.9739	-	0	ID=OK169295.1.8593;clu=8032;clan=1843_mono;PHROGs=phrog_28061;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK169295.1	PHANOTATE	CDS	8775	9107	-123.2376	-	0	ID=OK169295.1.8775;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+OK169295.1	PHANOTATE	CDS	9308	9400	-2.3875	-	0	ID=OK169295.1.9308;clu=5661;clan=140_clan
+OK169295.1	PHANOTATE	CDS	9628	9771	-1.4607	-	0	ID=OK169295.1.9628;clu=6220;clan=214_pair
+OK169295.1	PHANOTATE	CDS	9859	9975	-0.2487	-	0	ID=OK169295.1.9859;clu=6779;clan=384_pair
+OK169295.1	PHANOTATE	CDS	10075	10221	-1.8447	-	0	ID=OK169295.1.10075;clu=13056;clan=1411_mono;PHROGs=phrog_19284;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK169295.1	PHANOTATE	CDS	10453	12171	-17248911967.6905	-	0	ID=OK169295.1.10453;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+OK169295.1	PHANOTATE	CDS	12280	12477	-3.5666	-	0	ID=OK169295.1.12280;clu=11940;clan=1789_mono;PHROGs=phrog_10167;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK169295.1	PHANOTATE	CDS	12477	12620	-32.9142	-	0	ID=OK169295.1.12477;clu=11382;clan=400_pair;PHROGs=phrog_4712;phrog_ann=holin;phrog_category=lysis
+OK169295.1	PHANOTATE	CDS	12639	12872	-509.9739	-	0	ID=OK169295.1.12639;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+OK169295.1	PHANOTATE	CDS	12884	13354	-1543.924	-	0	ID=OK169295.1.12884;clu=10266;clan=295_pair;PHROGs=phrog_12315;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK169295.1	PHANOTATE	CDS	13354	13546	-155.2365	-	0	ID=OK169295.1.13354;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_047799.1	PHANOTATE	CDS	2	235	-3.7435	+	0	ID=NC_047799.1.235;clu=1750;clan=205_pair
+NC_047799.1	PHANOTATE	CDS	399	599	-8.7839	+	0	ID=NC_047799.1.599;clu=2153;clan=113_clan
+NC_047799.1	PHANOTATE	CDS	895	1347	-305.4271	+	0	ID=NC_047799.1.1347;clu=9717;clan=22_clan, 25_clan, 52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_047799.1	PHANOTATE	CDS	1347	1493	-7.2504	+	0	ID=NC_047799.1.1493;clu=14152;clan=18_clan;PHROGs=phrog_5058;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047799.1	PHANOTATE	CDS	1471	1668	-10.074	+	0	ID=NC_047799.1.1668;clu=6799;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047799.1	PHANOTATE	CDS	1652	1831	-11.6624	+	0	ID=NC_047799.1.1831;clu=750;clan=1436_mono;PHROGs=phrog_12100;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047799.1	PHANOTATE	CDS	1864	2868	-165166.2528	+	0	ID=NC_047799.1.2868;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+NC_047799.1	PHANOTATE	CDS	2940	5660	-376225387721183.1	+	0	ID=NC_047799.1.5660;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047799.1	PHANOTATE	CDS	38103	39407	-78399954.3676	+	0	ID=NC_047799.1.39407;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_047799.1	PHANOTATE	CDS	39382	39519	-2.3759	+	0	ID=NC_047799.1.39519;clu=632;clan=235_pair
+NC_047799.1	PHANOTATE	CDS	39651	39800	-5.4468	+	0	ID=NC_047799.1.39800;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047799.1	PHANOTATE	CDS	39962	40162	-0.1025	+	0	ID=NC_047799.1.40162;clu=1750;clan=205_pair
+ON287378.1	PHANOTATE	CDS	19872	22514	-2555802814948371.5	-	0	ID=ON287378.1.19872;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+ON287378.1	PHANOTATE	CDS	22590	23699	-1178876.5311	-	0	ID=ON287378.1.22590;clu=3025;clan=8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+ON287378.1	PHANOTATE	CDS	23712	24044	-23.6268	-	0	ID=ON287378.1.23712;clu=12404;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON287378.1	PHANOTATE	CDS	24091	24225	-9.4008	-	0	ID=ON287378.1.24091;clu=12962;clan=21_clan
+ON287378.1	PHANOTATE	CDS	24225	24350	-7.2979	-	0	ID=ON287378.1.24225;clu=13520;clan=2003_mono
+ON287378.1	PHANOTATE	CDS	24352	24690	-47.2801	-	0	ID=ON287378.1.24352;clu=9717;clan=22_clan, 25_clan, 52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+ON287378.1	PHANOTATE	CDS	25116	25337	-5.4569	-	0	ID=ON287378.1.25116;clu=11841;clan=763_mono
+ON287378.1	PHANOTATE	CDS	25461	25673	-5.488	-	0	ID=ON287378.1.25461;clu=15194;clan=53_clan, 67_clan;PHROGs=phrog_24929;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON287378.1	PHANOTATE	CDS	25787	25945	-14.7194	-	0	ID=ON287378.1.25787;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON287378.1	PHANOTATE	CDS	26011	26193	-2.3565	-	0	ID=ON287378.1.26011;clu=16310;clan=2549_mono
+ON287378.1	PHANOTATE	CDS	26214	27514	-7805595202.9196	-	0	ID=ON287378.1.26214;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_028772.1	PHANOTATE	CDS	187	279	-2.3521	+	0	ID=NC_028772.1.279;clu=17432;clan=898_mono
+NC_028772.1	PHANOTATE	CDS	713	892	-19.3553	+	0	ID=NC_028772.1.892;clu=750;clan=1436_mono;PHROGs=phrog_12100;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028772.1	PHANOTATE	CDS	915	1154	-8.2226	+	0	ID=NC_028772.1.1154;clu=678;clan=1528_mono
+NC_028772.1	PHANOTATE	CDS	1184	3865	-522284289191378.9	+	0	ID=NC_028772.1.3865;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166,phrog_414,phrog_36028;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_028772.1	PHANOTATE	CDS	35317	35502	-125262526.9516	+	0	ID=NC_028772.1.35502;clu=1796;clan=2699_mono;PHROGs=phrog_20911,phrog_14879,phrog_17312,phrog_14442,phrog_27156,phrog_29932;phrog_ann=tail spike protein,hypothetical protein,tail fiber protein,tail protein;phrog_category=tail,unknown function
+NC_028772.1	PHANOTATE	CDS	35512	35718	-35.3758	+	0	ID=NC_028772.1.35718;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_028772.1	PHANOTATE	CDS	35720	35977	-113.2525	+	0	ID=NC_028772.1.35977;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+NC_028772.1	PHANOTATE	CDS	36074	36514	-123.0775	+	0	ID=NC_028772.1.36514;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+NC_028772.1	PHANOTATE	CDS	36511	38271	-1698194086.5529	+	0	ID=NC_028772.1.38271;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_028772.1	PHANOTATE	CDS	38511	38663	-0.9024	+	0	ID=NC_028772.1.38663;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+OX001577.1	PHANOTATE	CDS	1	102	-5.3299	+	0	ID=OX001577.1.102;clu=15779;clan=1178_mono
+OX001577.1	PHANOTATE	CDS	192	2891	-3659860335503558.0	+	0	ID=OX001577.1.2891;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OX001577.1	PHANOTATE	CDS	35329	35972	-41019.7218	+	0	ID=OX001577.1.35972;clu=16895;clan=295_pair;PHROGs=phrog_12315;phrog_ann=hypothetical protein;phrog_category=unknown function
+OX001577.1	PHANOTATE	CDS	35984	36124	-4.0737	+	0	ID=OX001577.1.36124;clu=17453;clan=400_pair
+OX001577.1	PHANOTATE	CDS	36121	36330	-5.1085	+	0	ID=OX001577.1.36330;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+OX001577.1	PHANOTATE	CDS	36320	36565	-278.0983	+	0	ID=OX001577.1.36565;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+OX001577.1	PHANOTATE	CDS	36562	36705	-8.6688	+	0	ID=OX001577.1.36705;clu=1258;clan=474_mono
+OX001577.1	PHANOTATE	CDS	36776	37021	-84.6915	+	0	ID=OX001577.1.37021;clu=1817;clan=2195_mono
+OX001577.1	PHANOTATE	CDS	37002	38774	-188933312607.7299	+	0	ID=OX001577.1.38774;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+OX001577.1	PHANOTATE	CDS	38846	38974	-0.0823	+	0	ID=OX001577.1.38974;clu=2935;clan=1712_mono
+OX001577.1	PHANOTATE	CDS	38986	39111	-0.1824	+	0	ID=OX001577.1.39111;clu=3494;clan=475_mono
+OX001577.1	PHANOTATE	CDS	39399	39539	-0.2982	+	0	ID=OX001577.1.39539;clu=4053;clan=782_mono
+OX001577.1	PHANOTATE	CDS	39654	39857	-0.2857	+	0	ID=OX001577.1.39857;clu=4612;clan=2045_mono
+OX001577.1	PHANOTATE	CDS	39860	40003	-25.4233	+	0	ID=OX001577.1.40003;clu=7467;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ318362.1	PHANOTATE	CDS	3	98	-2.9058	+	0	ID=MZ318362.1.98;clu=12993;clan=2276_mono
+MZ318362.1	PHANOTATE	CDS	699	932	-27.9542	+	0	ID=MZ318362.1.932;clu=13989;clan=4_clan, 8_clan
+MZ318362.1	PHANOTATE	CDS	1003	3654	-2.6621600445264356e+16	+	0	ID=MZ318362.1.3654;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ318362.1	PHANOTATE	CDS	32945	33659	-11083855327.0089	+	0	ID=MZ318362.1.33659;clu=14667;clan=34_clan;PHROGs=phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_27277,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_29288,phrog_4277,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481;phrog_ann=tail spike protein,hypothetical protein,tail fiber protein,tail protein;phrog_category=tail,unknown function
+MZ318362.1	PHANOTATE	CDS	33718	33987	-971.0033	+	0	ID=MZ318362.1.33987;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MZ318362.1	PHANOTATE	CDS	33965	34063	-0.8758	+	0	ID=MZ318362.1.34063;clu=6714;clan=1774_mono
+MZ318362.1	PHANOTATE	CDS	34082	34513	-1705.0002	+	0	ID=MZ318362.1.34513;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+MZ318362.1	PHANOTATE	CDS	34535	36295	-90654961813.4749	+	0	ID=MZ318362.1.36295;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MZ318362.1	PHANOTATE	CDS	36554	36703	-13.0086	+	0	ID=MZ318362.1.36703;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+OW991346.1	PHANOTATE	CDS	16262	17031	-40250.2302	+	0	ID=OW991346.1.17031;clu=16895;clan=295_pair;PHROGs=phrog_12315;phrog_ann=hypothetical protein;phrog_category=unknown function
+OW991346.1	PHANOTATE	CDS	17043	17183	-4.0267	+	0	ID=OW991346.1.17183;clu=17453;clan=400_pair
+OW991346.1	PHANOTATE	CDS	17180	17389	-5.0551	+	0	ID=OW991346.1.17389;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+OW991346.1	PHANOTATE	CDS	17379	17624	-275.2359	+	0	ID=OW991346.1.17624;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+OW991346.1	PHANOTATE	CDS	17621	17764	-8.5577	+	0	ID=OW991346.1.17764;clu=1258;clan=474_mono
+OW991346.1	PHANOTATE	CDS	17835	18080	-83.7344	+	0	ID=OW991346.1.18080;clu=1817;clan=2195_mono
+OW991346.1	PHANOTATE	CDS	18061	19833	-177940540828.0246	+	0	ID=OW991346.1.19833;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+OW991346.1	PHANOTATE	CDS	19905	20033	-0.0818	+	0	ID=OW991346.1.20033;clu=2935;clan=1712_mono
+OW991346.1	PHANOTATE	CDS	20045	20170	-0.1794	+	0	ID=OW991346.1.20170;clu=3494;clan=475_mono
+OW991346.1	PHANOTATE	CDS	20334	20471	-0.1716	+	0	ID=OW991346.1.20471;clu=2942;clan=1027_mono
+OW991346.1	PHANOTATE	CDS	20459	20599	-0.2991	+	0	ID=OW991346.1.20599;clu=4053;clan=782_mono
+OW991346.1	PHANOTATE	CDS	20714	20917	-0.2758	+	0	ID=OW991346.1.20917;clu=4612;clan=2045_mono
+OW991346.1	PHANOTATE	CDS	20920	21063	-25.1696	+	0	ID=OW991346.1.21063;clu=7467;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+OW991346.1	PHANOTATE	CDS	21262	23961	-3632649043954829.0	+	0	ID=OW991346.1.23961;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT104465.1	PHANOTATE	CDS	80	277	-5.8202	+	0	ID=MT104465.1.277;clu=2263;clan=389_pair
+MT104465.1	PHANOTATE	CDS	267	440	-3.3734	+	0	ID=MT104465.1.440;clu=2822;clan=158_clan
+MT104465.1	PHANOTATE	CDS	470	781	-8.8827	+	0	ID=MT104465.1.781;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104465.1	PHANOTATE	CDS	786	965	-13.3332	+	0	ID=MT104465.1.965;clu=9700;clan=2200_mono
+MT104465.1	PHANOTATE	CDS	987	1538	-77.3615	+	0	ID=MT104465.1.1538;clu=708;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104465.1	PHANOTATE	CDS	1559	1651	-1.1468	+	0	ID=MT104465.1.1651;clu=1267;clan=619_mono
+MT104465.1	PHANOTATE	CDS	1810	4464	-9662652227229.943	+	0	ID=MT104465.1.4464;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT104465.1	PHANOTATE	CDS	35843	36024	-25.7314	+	0	ID=MT104465.1.36024;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MT104465.1	PHANOTATE	CDS	36037	36507	-26.8938	+	0	ID=MT104465.1.36507;clu=13073;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+MT104465.1	PHANOTATE	CDS	36488	38224	-1710312780.2661	+	0	ID=MT104465.1.38224;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MT104465.1	PHANOTATE	CDS	38369	38593	-5.2983	+	0	ID=MT104465.1.38593;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104465.1	PHANOTATE	CDS	38640	38885	-1.1482	+	0	ID=MT104465.1.38885;clu=4621;clan=53_clan, 67_clan
+MT104465.1	PHANOTATE	CDS	38914	39033	-3.2392	+	0	ID=MT104465.1.39033;clu=5180;clan=202_pair
+MN327636.1	PHANOTATE	CDS	1	438	-882.7344	-	0	ID=MN327636.1.1;clu=15165;clan=17_clan;PHROGs=phrog_1492,phrog_1872,phrog_6254,phrog_59,phrog_826,phrog_3593;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MN327636.1	PHANOTATE	CDS	476	2215	-1721455880790.9404	-	0	ID=MN327636.1.476;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MN327636.1	PHANOTATE	CDS	2199	2663	-524.5009	-	0	ID=MN327636.1.2199;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+MN327636.1	PHANOTATE	CDS	2762	2764	-343.0504	-	0	ID=MN327636.1.2762;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MN327636.1	PHANOTATE	CDS	33645	33652	-0.1258	-	0	ID=MN327636.1.33563;clu=9124;clan=2714_mono
+MN327636.1	PHANOTATE	CDS	33645	36317	-3758360762568786.0	-	0	ID=MN327636.1.33645;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MN327636.1	PHANOTATE	CDS	36397	37470	-42785443.943	-	0	ID=MN327636.1.36397;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+MN327636.1	PHANOTATE	CDS	37556	37804	-7.9475	-	0	ID=MN327636.1.37556;clu=10798;clan=20_clan;PHROGs=phrog_25044,phrog_7202;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN327636.1	PHANOTATE	CDS	37788	37988	-6.3523	-	0	ID=MN327636.1.37788;clu=6799;clan=15_clan
+MN327636.1	PHANOTATE	CDS	37992	38435	-690.2348	-	0	ID=MN327636.1.37992;clu=9717;clan=22_clan, 25_clan, 52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+MN327636.1	PHANOTATE	CDS	38422	38553	-2.0694	-	0	ID=MN327636.1.38422;clu=12472;clan=339_pair
+OL964749.1	PHANOTATE	CDS	368	463	-0.4588	+	0	ID=OL964749.1.463;clu=7454;clan=1764_mono
+OL964749.1	PHANOTATE	CDS	854	1549	-30899.9482	+	0	ID=OL964749.1.1549;clu=8013;clan=4_clan, 8_clan, 33_clan;prelim_info=Ocr::STPK;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+OL964749.1	PHANOTATE	CDS	1620	4271	-3.4114653918664256e+16	+	0	ID=OL964749.1.4271;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OL964749.1	PHANOTATE	CDS	33683	33782	-27.9729	+	0	ID=OL964749.1.33782;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+OL964749.1	PHANOTATE	CDS	33788	34057	-482.022	+	0	ID=OL964749.1.34057;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+OL964749.1	PHANOTATE	CDS	34032	34133	-2.7976	+	0	ID=OL964749.1.34133;clu=6714;clan=1774_mono
+OL964749.1	PHANOTATE	CDS	34152	34583	-1555.4979	+	0	ID=OL964749.1.34583;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+OL964749.1	PHANOTATE	CDS	34605	36365	-78095460226.2804	+	0	ID=OL964749.1.36365;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+OL964749.1	PHANOTATE	CDS	36624	36773	-10.9621	+	0	ID=OL964749.1.36773;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL964748.1	PHANOTATE	CDS	854	1549	-31313.5224	+	0	ID=OL964748.1.1549;clu=8013;clan=4_clan, 8_clan, 33_clan;prelim_info=Ocr::STPK;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+OL964748.1	PHANOTATE	CDS	1620	4271	-2.8591717342642012e+16	+	0	ID=OL964748.1.4271;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OL964748.1	PHANOTATE	CDS	33708	33807	-27.5811	+	0	ID=OL964748.1.33807;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+OL964748.1	PHANOTATE	CDS	33813	34082	-471.3233	+	0	ID=OL964748.1.34082;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+OL964748.1	PHANOTATE	CDS	34057	34158	-2.7838	+	0	ID=OL964748.1.34158;clu=6714;clan=1774_mono
+OL964748.1	PHANOTATE	CDS	34177	34608	-1489.5667	+	0	ID=OL964748.1.34608;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+OL964748.1	PHANOTATE	CDS	34630	36390	-70354136203.8124	+	0	ID=OL964748.1.36390;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+OL964748.1	PHANOTATE	CDS	36649	36798	-10.533	+	0	ID=OL964748.1.36798;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_013651.1	PHANOTATE	CDS	309	407	-0.1057	+	0	ID=NC_013651.1.407;clu=5661;clan=140_clan
+NC_013651.1	PHANOTATE	CDS	608	940	-124.0263	+	0	ID=NC_013651.1.940;clu=2290;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_013651.1	PHANOTATE	CDS	940	1122	-70.3891	+	0	ID=NC_013651.1.1122;clu=8032;clan=1843_mono;PHROGs=phrog_28061;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_013651.1	PHANOTATE	CDS	1169	3820	-1.436607946526933e+17	+	0	ID=NC_013651.1.3820;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_013651.1	PHANOTATE	CDS	34666	34674	-4492175403.9952	+	0	ID=NC_013651.1.34674;clu=9150;clan=34_clan;PHROGs=phrog_15864,phrog_13980,phrog_14442,phrog_1858,phrog_16586,phrog_27277,phrog_327,phrog_26630,phrog_20472,phrog_9502,phrog_24786,phrog_2097,phrog_1640,phrog_3100,phrog_523,phrog_15695,phrog_31166,phrog_2710,phrog_9116,phrog_4242,phrog_14307,phrog_7489,phrog_2915,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481;phrog_ann=hypothetical protein,tail fiber protein,tail collar fiber protein,tail spike protein,tail protein;phrog_category=tail,unknown function
+NC_013651.1	PHANOTATE	CDS	34689	34883	-207.2598	+	0	ID=NC_013651.1.34883;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_013651.1	PHANOTATE	CDS	34883	35353	-8134.7106	+	0	ID=NC_013651.1.35353;clu=10266;clan=295_pair;PHROGs=phrog_12315;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_013651.1	PHANOTATE	CDS	35365	35598	-368.5325	+	0	ID=NC_013651.1.35598;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+NC_013651.1	PHANOTATE	CDS	35617	35760	-55.0244	+	0	ID=NC_013651.1.35760;clu=11382;clan=400_pair;PHROGs=phrog_4712;phrog_ann=holin;phrog_category=lysis
+NC_013651.1	PHANOTATE	CDS	35760	35957	-5.9783	+	0	ID=NC_013651.1.35957;clu=11940;clan=1789_mono;PHROGs=phrog_10167;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_013651.1	PHANOTATE	CDS	36066	37784	-423090673901.0647	+	0	ID=NC_013651.1.37784;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_013651.1	PHANOTATE	CDS	38016	38162	-2.1991	+	0	ID=NC_013651.1.38162;clu=13056;clan=1411_mono;PHROGs=phrog_19284;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_013651.1	PHANOTATE	CDS	38262	38495	-1.0337	+	0	ID=NC_013651.1.38495;clu=13614;clan=384_pair
+NC_004665.1	PHANOTATE	CDS	117	227	-4.6205	+	0	ID=NC_004665.1.227;clu=5180;clan=202_pair
+NC_004665.1	PHANOTATE	CDS	351	449	-1.574	+	0	ID=NC_004665.1.449;clu=16441;clan=350_pair
+NC_004665.1	PHANOTATE	CDS	491	589	-2.4387	+	0	ID=NC_004665.1.589;clu=16999;clan=1818_mono
+NC_004665.1	PHANOTATE	CDS	813	929	-0.3255	+	0	ID=NC_004665.1.929;clu=9725;clan=outlier: 27_clan
+NC_004665.1	PHANOTATE	CDS	1058	3715	-5707102844333.543	+	0	ID=NC_004665.1.3715;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_004665.1	PHANOTATE	CDS	33417	33536	-204661.7309	+	0	ID=NC_004665.1.33536;clu=10841;clan=34_clan;PHROGs=phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_33642,phrog_27277,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_19294,phrog_21412,phrog_13481;phrog_ann=hypothetical protein,tail fiber protein,tail spike protein,tail protein,tail fiber assembly;phrog_category=tail,unknown function
+NC_004665.1	PHANOTATE	CDS	33575	33934	-194.6586	+	0	ID=NC_004665.1.33934;clu=11399;clan=1431_mono;PHROGs=phrog_1795;phrog_ann=tail fiber protein;phrog_category=tail
+NC_004665.1	PHANOTATE	CDS	33934	34149	-6.6604	+	0	ID=NC_004665.1.34149;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+NC_004665.1	PHANOTATE	CDS	34146	34403	-17.9544	+	0	ID=NC_004665.1.34403;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+NC_004665.1	PHANOTATE	CDS	34403	34852	-8.2626	+	0	ID=NC_004665.1.34852;clu=13073;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+NC_004665.1	PHANOTATE	CDS	34852	36600	-1096334914.045	+	0	ID=NC_004665.1.36600;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_004665.1	PHANOTATE	CDS	36566	36676	-1.5062	+	0	ID=NC_004665.1.36676;clu=14189;clan=2728_mono
+NC_004665.1	PHANOTATE	CDS	36779	36952	-11.6457	+	0	ID=NC_004665.1.36952;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_004665.1	PHANOTATE	CDS	37036	37230	-6.186	+	0	ID=NC_004665.1.37230;clu=15305;clan=357_pair
+NC_004665.1	PHANOTATE	CDS	37260	37358	-3.508	+	0	ID=NC_004665.1.37358;clu=5180;clan=202_pair
+MZ318361.1	PHANOTATE	CDS	3	98	-2.8907	+	0	ID=MZ318361.1.98;clu=12993;clan=2276_mono
+MZ318361.1	PHANOTATE	CDS	699	932	-27.8646	+	0	ID=MZ318361.1.932;clu=13989;clan=4_clan, 8_clan
+MZ318361.1	PHANOTATE	CDS	1003	3654	-2.2902265123290096e+16	+	0	ID=MZ318361.1.3654;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ318361.1	PHANOTATE	CDS	32945	33659	-11392910094.424	+	0	ID=MZ318361.1.33659;clu=14667;clan=34_clan;PHROGs=phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_27277,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_29288,phrog_4277,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481;phrog_ann=tail spike protein,hypothetical protein,tail fiber protein,tail protein;phrog_category=tail,unknown function
+MZ318361.1	PHANOTATE	CDS	33718	33987	-1018.7082	+	0	ID=MZ318361.1.33987;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MZ318361.1	PHANOTATE	CDS	33965	34063	-0.8736	+	0	ID=MZ318361.1.34063;clu=6714;clan=1774_mono
+MZ318361.1	PHANOTATE	CDS	34082	34513	-1698.7467	+	0	ID=MZ318361.1.34513;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+MZ318361.1	PHANOTATE	CDS	34535	36295	-91147139625.2623	+	0	ID=MZ318361.1.36295;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MZ318361.1	PHANOTATE	CDS	36554	36703	-12.9868	+	0	ID=MZ318361.1.36703;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	1253	1399	-6.3282	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.1253;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	1523	1654	-2.8357	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.1523;clu=15407;clan=2171_mono
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	1661	3421	-11249863478.8055	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.1661;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	3433	4113	-1644.99	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.3433;clu=16523;clan=2358_mono;PHROGs=phrog_5004,phrog_23820;phrog_ann=hypothetical protein,tail fiber protein;phrog_category=tail,unknown function
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	4115	4363	-1131.6479	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.4115;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	35069	37726	-570375848288585.6	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.35069;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_2166;phrog_ann=N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251	PHANOTATE	CDS	37796	38269	-57.8258	-	0	ID=Broecker_Sample_ID29-1191-3_NODE_102_length_38363_cov_11.011251.37796;clu=326;clan=bridge: 4_clan, 8_clan, 8_clan, 8_clan
+MGV-GENOME-0282854	PHANOTATE	CDS	23259	23924	-1.2274709812380738e+16	+	0	ID=MGV-GENOME-0282854.23924;clu=12072;clan=41_clan;PHROGs=phrog_4218,phrog_25611,phrog_487;phrog_ann=NrdD-like anaerobic ribonucleotide reductase large subunit,anaerobic ribonucleoside reductase large subunit;phrog_category=DNA, RNA and nucleotide metabolism,moron, auxiliary metabolic gene and host takeover
+MGV-GENOME-0282854	PHANOTATE	CDS	23921	24103	-339.258	+	0	ID=MGV-GENOME-0282854.24103;clu=12630;clan=2527_mono;PHROGs=phrog_4132;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0282854	PHANOTATE	CDS	24060	24302	-114.3206	+	0	ID=MGV-GENOME-0282854.24302;clu=13188;clan=335_pair;PHROGs=phrog_22;phrog_ann=thioredoxin domain;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0282854	PHANOTATE	CDS	24306	24587	-61.793	+	0	ID=MGV-GENOME-0282854.24587;clu=1478;clan=84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+MGV-GENOME-0282854	PHANOTATE	CDS	24547	24822	-377.4727	+	0	ID=MGV-GENOME-0282854.24822;clu=16068;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MGV-GENOME-0282854	PHANOTATE	CDS	24800	26554	-57442294319849.07	+	0	ID=MGV-GENOME-0282854.26554;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0282854	PHANOTATE	CDS	26848	27018	-39.0132	+	0	ID=MGV-GENOME-0282854.27018;clu=17261;clan=96_clan
+MGV-GENOME-0282854	PHANOTATE	CDS	27088	27192	-0.1982	+	0	ID=MGV-GENOME-0282854.27192;clu=16107;clan=391_pair
+MGV-GENOME-0282854	PHANOTATE	CDS	27270	27374	-0.0947	+	0	ID=MGV-GENOME-0282854.27374;clu=16536;clan=324_pair
+MGV-GENOME-0282854	PHANOTATE	CDS	27882	28112	-181.0029	+	0	ID=MGV-GENOME-0282854.28112;clu=5950;clan=1250_mono
+MGV-GENOME-0282854	PHANOTATE	CDS	28259	30913	-5.663612448203114e+19	+	0	ID=MGV-GENOME-0282854.30913;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0267196	PHANOTATE	CDS	136	225	-0.136	-	0	ID=MGV-GENOME-0267196.136;clu=908;clan=2127_mono
+MGV-GENOME-0267196	PHANOTATE	CDS	212	370	-6.5016	-	0	ID=MGV-GENOME-0267196.212;clu=16083;clan=96_clan
+MGV-GENOME-0267196	PHANOTATE	CDS	518	661	-0.1697	-	0	ID=MGV-GENOME-0267196.518;clu=2026;clan=375_pair
+MGV-GENOME-0267196	PHANOTATE	CDS	679	897	-57.3062	-	0	ID=MGV-GENOME-0267196.679;clu=15622;clan=bridge: 13_clan, 13_clan
+MGV-GENOME-0267196	PHANOTATE	CDS	1000	1485	-271.0442	-	0	ID=MGV-GENOME-0267196.1000;clu=3144;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0267196	PHANOTATE	CDS	1699	2076	-1257.952	-	0	ID=MGV-GENOME-0267196.1699;clu=14506;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0267196	PHANOTATE	CDS	2138	2719	-454.5103	-	0	ID=MGV-GENOME-0267196.2138;clu=4262;clan=2353_mono
+MGV-GENOME-0267196	PHANOTATE	CDS	2894	3547	-672.1746	-	0	ID=MGV-GENOME-0267196.2894;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0267196	PHANOTATE	CDS	3550	4125	-3091.1589	-	0	ID=MGV-GENOME-0267196.3550;clu=5892;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0267196	PHANOTATE	CDS	4328	4660	-73.035	-	0	ID=MGV-GENOME-0267196.4328;clu=5939;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0267196	PHANOTATE	CDS	4803	4964	-193.6747	-	0	ID=MGV-GENOME-0267196.4803;clu=16068;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MGV-GENOME-0267196	PHANOTATE	CDS	37067	39703	-2.819428319997905e+18	-	0	ID=MGV-GENOME-0267196.37067;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	13	102	-0.2234	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.13;clu=7639;clan=2348_mono
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	247	381	-0.3761	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.247;clu=2760;clan=835_mono
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	463	570	-1.4502	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.463;clu=8757;clan=538_mono
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	593	724	-8.9926	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.593;clu=666;clan=580_mono
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	739	2469	-13336826414.9539	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.739;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	2505	2948	-1177.7085	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.2505;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	3059	3322	-293.5096	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.3059;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	3319	3513	-26.1534	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.3319;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	3688	4999	-7079239993.2512	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.3688;clu=12106;clan=34_clan;PHROGs=phrog_34776,phrog_13980,phrog_38183,phrog_29731,phrog_14442,phrog_11182,phrog_27367,phrog_20231,phrog_7992,phrog_8846,phrog_16586,phrog_13362,phrog_19921,phrog_32933,phrog_23412,phrog_15455,phrog_1819,phrog_15437,phrog_26630,phrog_26143,phrog_17635,phrog_13768,phrog_9502,phrog_24786,phrog_29076,phrog_1171,phrog_28871,phrog_4217,phrog_27199,phrog_21878,phrog_14879,phrog_31166,phrog_8649,phrog_27156,phrog_18522,phrog_18484,phrog_4242,phrog_21710,phrog_36390,phrog_28781,phrog_8460,phrog_17312,phrog_6256,phrog_25325,phrog_34575;phrog_ann=hypothetical protein,tail fiber protein,tail spike protein,haemolysin-type calcium binding,tail protein,virion structural protein;phrog_category=tail,other,unknown function,head and packaging
+SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61	PHANOTATE	CDS	35049	36404	-484240919.8921	-	0	ID=SAMN10080928_a1_ct35515_vs1@linear@Podoviridae__sp._ctoh61.35049;clu=12664;clan=1_clan;PFAM=PF00940.22
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	106	243	-16.2043	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.106;clu=16083;clan=96_clan
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	502	1005	-4375.2913	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.502;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	1074	1208	-4.4701	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.1074;clu=12739;clan=139_clan
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	1332	2621	-998050429.789	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.1332;clu=13297;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	2605	2799	-31.1906	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.2605;clu=16068;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	2783	3094	-83.4928	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.2783;clu=1478;clan=84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	3094	3429	-1174.3621	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.3094;clu=8376;clan=1594_mono
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	3371	3901	-2354.4998	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.3371;clu=8935;clan=2506_mono;PHROGs=phrog_20267,phrog_626;phrog_ann=anaerobic ribonucleotide reductase small subunit,anaerobic ribonucleoside reductase small subunit;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	3904	4365	-184.4809	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.3904;clu=16087;clan=41_clan;PHROGs=phrog_4218,phrog_26446,phrog_29160;phrog_ann=anaerobic ribonucleoside reductase large subunit;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	4400	4618	-10.0769	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.4400;clu=16645;clan=outlier: 24_clan
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	4608	4706	-0.2784	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.4608;clu=17203;clan=653_mono
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	4725	4905	-3564.8483	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.4725;clu=17761;clan=41_clan;PHROGs=phrog_4218;phrog_ann=anaerobic ribonucleoside reductase large subunit;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1	PHANOTATE	CDS	34431	37067	-1.0562282886327239e+19	-	0	ID=SAMN05826896_a1_ct11019_vs1@linear@Podoviridae__sp._ctmni1.34431;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	82	237	-31.4209	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.237;clu=10901;clan=21_clan;PHROGs=phrog_5058;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	311	400	-16.0845	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.400;clu=7503;clan=68_clan
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	397	597	-15.0561	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.597;clu=1726;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	594	920	-33.8857	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.920;clu=9598;clan=63_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	1018	3699	-9841180658908852.0	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.3699;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	34142	34922	-4975908907.0809	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.34922;clu=17810;clan=34_clan;PHROGs=phrog_34776,phrog_13980,phrog_38183,phrog_4818,phrog_29731,phrog_14442,phrog_11182,phrog_27367,phrog_7992,phrog_8846,phrog_16586,phrog_13362,phrog_19921,phrog_22294,phrog_32933,phrog_23412,phrog_1819,phrog_26630,phrog_15437,phrog_26143,phrog_9502,phrog_24786,phrog_4217,phrog_27199,phrog_21878,phrog_15695,phrog_14879,phrog_31166,phrog_27156,phrog_20900,phrog_18484,phrog_4242,phrog_21710,phrog_36390,phrog_8460,phrog_17312,phrog_6256,phrog_25325,phrog_34575;phrog_ann=hypothetical protein,tail fiber protein,tail spike protein,haemolysin-type calcium binding,tail protein,virion structural protein;phrog_category=tail,other,unknown function,head and packaging
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	35049	35243	-29.6882	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.35243;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	35240	35503	-578.4578	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.35503;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	35566	35967	-463.4778	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.35967;clu=7755;clan=19_clan;PHROGs=phrog_15471,phrog_1492,phrog_4578,phrog_99,phrog_1872,phrog_6254,phrog_59,phrog_3593,phrog_959,phrog_1891;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	35948	36400	-2124.1398	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.36400;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+ERS795789|NODE_1_length_38124_cov_7.214622	PHANOTATE	CDS	36430	38124	-3096189667.5316	+	0	ID=ERS795789|NODE_1_length_38124_cov_7.214622.38124;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	3	329	-104.3552	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.329;clu=14462;clan=33_clan;PHROGs=phrog_2568;phrog_ann=ocr-like anti-restriction;phrog_category=moron, auxiliary metabolic gene and host takeover
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	329	484	-30.7917	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.484;clu=10901;clan=21_clan;PHROGs=phrog_5058;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	558	647	-16.7656	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.647;clu=7503;clan=68_clan
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	644	844	-15.0298	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.844;clu=1726;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	841	1167	-26.7408	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.1167;clu=9598;clan=63_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	1265	3946	-6554374215816812.0	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.3946;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	33383	35169	-3817393389.1363	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.35169;clu=17810;clan=34_clan;PHROGs=phrog_34776,phrog_13980,phrog_38183,phrog_4818,phrog_29731,phrog_14442,phrog_11182,phrog_27367,phrog_7992,phrog_8846,phrog_16586,phrog_13362,phrog_19921,phrog_22294,phrog_32933,phrog_23412,phrog_1819,phrog_26630,phrog_15437,phrog_26143,phrog_9502,phrog_24786,phrog_4217,phrog_27199,phrog_21878,phrog_15695,phrog_14879,phrog_31166,phrog_27156,phrog_20900,phrog_18484,phrog_4242,phrog_21710,phrog_36390,phrog_8460,phrog_17312,phrog_6256,phrog_25325,phrog_34575;phrog_ann=hypothetical protein,tail fiber protein,tail spike protein,haemolysin-type calcium binding,tail protein,virion structural protein;phrog_category=tail,other,unknown function,head and packaging
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	35296	35490	-29.8539	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.35490;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	35487	35750	-551.5802	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.35750;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	35813	36214	-439.4756	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.36214;clu=7755;clan=19_clan;PHROGs=phrog_15471,phrog_1492,phrog_4578,phrog_99,phrog_1872,phrog_6254,phrog_59,phrog_3593,phrog_959,phrog_1891;phrog_ann=HNH endonuclease,endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	36195	36647	-1996.34	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.36647;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+ERS795790|NODE_3_length_37118_cov_27.174421	PHANOTATE	CDS	36677	37117	-121.5255	+	0	ID=ERS795790|NODE_3_length_37118_cov_27.174421.37117;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0199759	PHANOTATE	CDS	8900	9098	-44.6198	+	0	ID=MGV-GENOME-0199759.9098;clu=10689;clan=outlier: 84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+MGV-GENOME-0199759	PHANOTATE	CDS	9102	9359	-55.3275	+	0	ID=MGV-GENOME-0199759.9359;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MGV-GENOME-0199759	PHANOTATE	CDS	9456	9902	-79.5983	+	0	ID=MGV-GENOME-0199759.9902;clu=3473;clan=282_pair;PHROGs=phrog_1327;phrog_ann=Rz-like spanin;phrog_category=lysis
+MGV-GENOME-0199759	PHANOTATE	CDS	10025	11656	-39762701.3896	+	0	ID=MGV-GENOME-0199759.11656;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0199759	PHANOTATE	CDS	11631	11792	-4.7976	+	0	ID=MGV-GENOME-0199759.11792;clu=632;clan=235_pair
+MGV-GENOME-0199759	PHANOTATE	CDS	11902	12051	-3.5786	+	0	ID=MGV-GENOME-0199759.12051;clu=14849;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0199759	PHANOTATE	CDS	12337	12438	-0.2466	+	0	ID=MGV-GENOME-0199759.12438;clu=3911;clan=111_clan
+MGV-GENOME-0199759	PHANOTATE	CDS	12494	12610	-0.2704	+	0	ID=MGV-GENOME-0199759.12610;clu=4470;clan=76_clan
+MGV-GENOME-0199759	PHANOTATE	CDS	13493	13690	-19.5215	+	0	ID=MGV-GENOME-0199759.13690;clu=6799;clan=15_clan;PHROGs=phrog_2385;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0199759	PHANOTATE	CDS	13710	13817	-4.1739	+	0	ID=MGV-GENOME-0199759.13817;clu=5588;clan=outlier: 62_clan
+MGV-GENOME-0199759	PHANOTATE	CDS	13900	16620	-192018958604533.66	+	0	ID=MGV-GENOME-0199759.16620;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22

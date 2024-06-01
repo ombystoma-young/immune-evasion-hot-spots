@@ -1,0 +1,15 @@
+OM716005.1	PHANOTATE	CDS	36921	37139	-18.7989	+	0	ID=OM716005.1.37139;clu=17005;clan=714_mono
+OM716005.1	PHANOTATE	CDS	37149	37283	-3.9007	+	0	ID=OM716005.1.37283;clu=7467;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM716005.1	PHANOTATE	CDS	37296	37493	-123.2382	+	0	ID=OM716005.1.37493;clu=11766;clan=116_clan;PHROGs=phrog_20418;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM716005.1	PHANOTATE	CDS	37582	38136	-1433.9116	+	0	ID=OM716005.1.38136;clu=9157;clan=91_clan;PHROGs=phrog_14321,phrog_2059;phrog_ann=anti-restriction protein;phrog_category=moron, auxiliary metabolic gene and host takeover
+OM716005.1	PHANOTATE	CDS	38215	38424	-66.2774	+	0	ID=OM716005.1.38424;clu=1281;clan=1782_mono
+OM716005.1	PHANOTATE	CDS	38417	38527	-5.0964	+	0	ID=OM716005.1.38527;clu=10273;clan=1754_mono
+OM716005.1	PHANOTATE	CDS	38690	41335	-109138238708226.61	+	0	ID=OM716005.1.41335;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT740748.1	PHANOTATE	CDS	822	1031	-34.1014	+	0	ID=MT740748.1.1031;clu=17005;clan=714_mono
+MT740748.1	PHANOTATE	CDS	1041	1175	-5.5713	+	0	ID=MT740748.1.1175;clu=7467;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT740748.1	PHANOTATE	CDS	1267	1824	-2945.9067	+	0	ID=MT740748.1.1824;clu=9157;clan=91_clan;PHROGs=phrog_14321,phrog_2059;phrog_ann=anti-restriction protein;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT740748.1	PHANOTATE	CDS	1902	2099	-63.5301	+	0	ID=MT740748.1.2099;clu=1281;clan=1782_mono
+MT740748.1	PHANOTATE	CDS	2115	2339	-292.6379	+	0	ID=MT740748.1.2339;clu=722;clan=1841_mono
+MT740748.1	PHANOTATE	CDS	2336	2461	-9.8114	+	0	ID=MT740748.1.2461;clu=17342;clan=1084_mono
+MT740748.1	PHANOTATE	CDS	2442	2627	-4.9442	+	0	ID=MT740748.1.2627;clu=163;clan=587_mono
+MT740748.1	PHANOTATE	CDS	2720	5365	-35298026073232.016	+	0	ID=MT740748.1.5365;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_2166;phrog_ann=RNA polymerase,N4-like RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism

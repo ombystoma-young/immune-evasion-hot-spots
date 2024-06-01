@@ -1,0 +1,30 @@
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	2	259	-22.9038	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.259;clu=8772;clan=686_mono
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	283	567	-689.2391	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.567;clu=8213;clan=1604_mono
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	672	764	-0.1654	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.764;clu=3656;clan=1576_mono
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	754	2418	-27676645124.0821	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.2418;clu=4801;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	35304	35437	-225.7845	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.35437;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	35478	35576	-0.2055	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.35576;clu=6551;clan=1149_mono
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	35631	36080	-542.9428	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.36080;clu=5892;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	36040	36255	-167.3769	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.36255;clu=6451;clan=outlier: 56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	36209	37474	-7639128197.1482	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.37474;clu=7010;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	37489	37587	-0.1616	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.37587;clu=7569;clan=1066_mono
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	37753	38286	-2753.7303	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.38286;clu=8128;clan=229_pair
+SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1	PHANOTATE	CDS	38409	39548	-171263.4343	+	0	ID=SAMEA2580140_a1_ct46243_vs1@Podoviridae__sp._ctocX1.39548;clu=8687;clan=910_mono;PHROGs=phrog_857,phrog_10912;phrog_ann=hypothetical protein,kinase;phrog_category=unknown function,other
+MGV-GENOME-0281603	PHANOTATE	CDS	3762	3989	-66.9347	+	0	ID=MGV-GENOME-0281603.3989;clu=8772;clan=686_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	4013	4240	-207.5828	+	0	ID=MGV-GENOME-0281603.4240;clu=9331;clan=1335_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	4293	4559	-841.7862	+	0	ID=MGV-GENOME-0281603.4559;clu=8723;clan=36_clan;PHROGs=phrog_5149;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0281603	PHANOTATE	CDS	4647	5015	-396.2214	+	0	ID=MGV-GENOME-0281603.5015;clu=9889;clan=1597_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	5018	5389	-933.3155	+	0	ID=MGV-GENOME-0281603.5389;clu=9840;clan=2039_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	5392	5481	-2.1968	+	0	ID=MGV-GENOME-0281603.5481;clu=10398;clan=2403_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	5516	5626	-0.1459	+	0	ID=MGV-GENOME-0281603.5626;clu=3656;clan=1576_mono
+MGV-GENOME-0281603	PHANOTATE	CDS	5616	7280	-51862303694.333	+	0	ID=MGV-GENOME-0281603.7280;clu=4801;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	37103	38767	-138694605671.0588	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.37103;clu=4801;clan=1_clan;PFAM=PF14700.9,PF00940.22
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	38961	39245	-1273.9563	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.38961;clu=8213;clan=1604_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	39270	39497	-38.1572	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.39270;clu=8772;clan=686_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	39589	39813	-143.1261	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.39589;clu=9331;clan=1335_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	39819	40184	-253.7833	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.39819;clu=9889;clan=1597_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	40287	40541	-529.0565	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.40287;clu=8373;clan=36_clan;PHROGs=phrog_5149;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	40620	41024	-2535.1189	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.40620;clu=11005;clan=1323_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	41113	41511	-137.6778	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.41113;clu=11563;clan=1747_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	41735	41839	-3.8992	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.41735;clu=12121;clan=899_mono
+SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear	PHANOTATE	CDS	42112	42249	-10.0755	-	0	ID=SAMEA2737798_b1_ct21_vs2@Caudovirales__sp._ctQRR21@linear.42112;clu=12679;clan=710_mono

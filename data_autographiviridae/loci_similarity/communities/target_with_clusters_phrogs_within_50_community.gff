@@ -1,0 +1,33 @@
+NC_047836.1	PHANOTATE	CDS	2074	2074	-319.6772	+	0	ID=NC_047836.1.2074;clu=9120;clan=155_clan
+NC_047836.1	PHANOTATE	CDS	2076	2924	-7701524.2523	+	0	ID=NC_047836.1.2924;clu=9678;clan=155_clan
+NC_047836.1	PHANOTATE	CDS	2968	3138	-14.8171	+	0	ID=NC_047836.1.3138;clu=10236;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	3135	3482	-2774.2785	+	0	ID=NC_047836.1.3482;clu=10794;clan=1216_mono;PHROGs=phrog_37227;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	3552	4139	-15786.9386	+	0	ID=NC_047836.1.4139;clu=11352;clan=143_clan;PHROGs=phrog_33646;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	4153	4650	-4355.2474	+	0	ID=NC_047836.1.4650;clu=13026;clan=521_mono;PHROGs=phrog_19396;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	4647	5000	-64.4734	+	0	ID=NC_047836.1.5000;clu=12468;clan=1871_mono;PHROGs=phrog_35602;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	5002	5454	-8429.7492	+	0	ID=NC_047836.1.5454;clu=13026;clan=521_mono;PHROGs=phrog_19396;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	5451	6017	-27188.917	+	0	ID=NC_047836.1.6017;clu=13584;clan=1962_mono;PHROGs=phrog_28112;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	6028	6828	-3240722.8769	+	0	ID=NC_047836.1.6828;clu=14142;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	6831	7070	-11.2038	+	0	ID=NC_047836.1.7070;clu=14700;clan=1020_mono;PHROGs=phrog_31133;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047836.1	PHANOTATE	CDS	7074	9812	-9.963057625836274e+18	+	0	ID=NC_047836.1.9812;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+NC_047821.1	PHANOTATE	CDS	1013	1102	-159.0187	+	0	ID=NC_047821.1.1102;clu=17491;clan=597_mono;PHROGs=phrog_32338;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	1104	1832	-2786557.7569	+	0	ID=NC_047821.1.1832;clu=178;clan=155_clan
+NC_047821.1	PHANOTATE	CDS	1898	2068	-10.0141	+	0	ID=NC_047821.1.2068;clu=10236;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	2065	2412	-1358.217	+	0	ID=NC_047821.1.2412;clu=10794;clan=1216_mono;PHROGs=phrog_37227;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	2482	3069	-34463.8318	+	0	ID=NC_047821.1.3069;clu=11352;clan=143_clan;PHROGs=phrog_33646;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	3083	3580	-2290.3316	+	0	ID=NC_047821.1.3580;clu=13026;clan=521_mono;PHROGs=phrog_19396;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	3577	3930	-72.0728	+	0	ID=NC_047821.1.3930;clu=12468;clan=1871_mono;PHROGs=phrog_35602;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	3932	4384	-6397.9203	+	0	ID=NC_047821.1.4384;clu=13026;clan=521_mono;PHROGs=phrog_19396;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	4381	4947	-10744.8143	+	0	ID=NC_047821.1.4947;clu=13584;clan=1962_mono;PHROGs=phrog_28112;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	4958	5758	-1018870.251	+	0	ID=NC_047821.1.5758;clu=14142;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	5761	6009	-10.4431	+	0	ID=NC_047821.1.6009;clu=14700;clan=1020_mono;PHROGs=phrog_31133;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047821.1	PHANOTATE	CDS	6013	8751	-7.040942818789032e+17	+	0	ID=NC_047821.1.8751;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22
+NC_047894.1	PHANOTATE	CDS	1021	1029	-2.659	+	0	ID=NC_047894.1.1029;clu=9142;clan=1042_mono
+NC_047894.1	PHANOTATE	CDS	1022	1186	-8.219	+	0	ID=NC_047894.1.1186;clu=9700;clan=2200_mono
+NC_047894.1	PHANOTATE	CDS	1188	1313	-3.3941	+	0	ID=NC_047894.1.1313;clu=10258;clan=2744_mono
+NC_047894.1	PHANOTATE	CDS	1310	1513	-27.5247	+	0	ID=NC_047894.1.1513;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047894.1	PHANOTATE	CDS	1611	2177	-291.8142	+	0	ID=NC_047894.1.2177;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047894.1	PHANOTATE	CDS	2183	2296	-2.1069	+	0	ID=NC_047894.1.2296;clu=11932;clan=123_clan
+NC_047894.1	PHANOTATE	CDS	2374	3237	-2450.5688	+	0	ID=NC_047894.1.3237;clu=4353;clan=285_pair;PHROGs=phrog_4571;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047894.1	PHANOTATE	CDS	3276	3476	-16.1334	+	0	ID=NC_047894.1.3476;clu=13048;clan=98_clan
+NC_047894.1	PHANOTATE	CDS	3486	6149	-16160111485476.03	+	0	ID=NC_047894.1.6149;clu=15258;clan=1_clan;PFAM=PF14700.9,PF00940.22

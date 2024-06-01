@@ -1,0 +1,483 @@
+MGV-GENOME-0277355	PHANOTATE	CDS	82	378	-3706.029	-	0	ID=MGV-GENOME-0277355.82;clu=4311;clan=12_clan;PHROGs=phrog_36380,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0277355	PHANOTATE	CDS	410	538	-17.7848	-	0	ID=MGV-GENOME-0277355.410;clu=10469;clan=1702_mono
+MGV-GENOME-0277355	PHANOTATE	CDS	526	774	-49.7671	-	0	ID=MGV-GENOME-0277355.526;clu=2192;clan=176_clan
+MGV-GENOME-0277355	PHANOTATE	CDS	823	921	-0.1859	-	0	ID=MGV-GENOME-0277355.823;clu=6444;clan=2099_mono
+MGV-GENOME-0277355	PHANOTATE	CDS	906	1106	-10.1542	-	0	ID=MGV-GENOME-0277355.906;clu=1001;clan=145_clan
+MGV-GENOME-0277355	PHANOTATE	CDS	1318	1578	-61.4344	-	0	ID=MGV-GENOME-0277355.1318;clu=3882;clan=299_pair
+MGV-GENOME-0277355	PHANOTATE	CDS	1678	1956	-812.4649	-	0	ID=MGV-GENOME-0277355.1678;clu=17254;clan=238_pair
+MGV-GENOME-0277355	PHANOTATE	CDS	1959	2135	-0.5278	-	0	ID=MGV-GENOME-0277355.1959;clu=8680;clan=59_clan
+MGV-GENOME-0277355	PHANOTATE	CDS	2089	2202	-0.0651	-	0	ID=MGV-GENOME-0277355.2089;clu=3803;clan=59_clan
+MGV-GENOME-0277355	PHANOTATE	CDS	38692	41334	-2.087891030035933e+19	-	0	ID=MGV-GENOME-0277355.38692;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0277355	PHANOTATE	CDS	41382	41480	-0.1216	-	0	ID=MGV-GENOME-0277355.41382;clu=515;clan=1577_mono
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	79	2721	-1.2415725195216881e+20	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.2721;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	42559	42801	-79.1836	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.42801;clu=15505;clan=176_clan
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	42791	42907	-17.3753	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.42907;clu=10469;clan=1702_mono
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	42897	43199	-3221.6931	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.43199;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	43180	43278	-0.501	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.43278;clu=501;clan=766_mono
+SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear	PHANOTATE	CDS	43390	43479	-2.6008	+	0	ID=SAMEA2737857_b1_ct123_vs2@Caudovirales__sp._ct2CC123@linear.43479;clu=515;clan=1577_mono
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	23872	24061	-276.3835	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.24061;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	24228	24836	-1327.1895	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.24836;clu=5892;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	24839	25657	-251474.2443	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.25657;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	25938	26453	-7406.5913	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.26453;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	26475	26642	-1.1208	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.26642;clu=4937;clan=301_pair
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	26691	26828	-12.5023	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.26828;clu=16083;clan=96_clan
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	27150	27242	-3.9235	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.27242;clu=12047;clan=632_mono
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	27221	27334	-2.8101	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.27334;clu=12605;clan=59_clan
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	27444	27743	-511.5182	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.27743;clu=17254;clan=238_pair
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	27728	27826	-0.1471	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.27826;clu=6444;clan=2099_mono
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	27875	28123	-52.9997	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.28123;clu=2192;clan=176_clan
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	28111	28242	-36.4714	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.28242;clu=10469;clan=1702_mono
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	28232	28546	-4712.2805	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.28546;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	28735	28824	-2.6427	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.28824;clu=515;clan=1577_mono
+SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161	PHANOTATE	CDS	28872	31514	-4.0149073501715963e+18	+	0	ID=SAMEA2580196_a1_ct23161@circular@Podoviridae__sp._ctiiw161.31514;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0210182	PHANOTATE	CDS	26563	29199	-3.5584421911170053e+18	-	0	ID=MGV-GENOME-0210182.26563;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MGV-GENOME-0210182	PHANOTATE	CDS	29383	29640	-134.4031	-	0	ID=MGV-GENOME-0210182.29383;clu=539;clan=12_clan;PHROGs=phrog_26623,phrog_2585,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689;phrog_ann=hypothetical protein,nucleotide kinase;phrog_category=unknown function,other
+MGV-GENOME-0210182	PHANOTATE	CDS	29674	29781	-10.3352	-	0	ID=MGV-GENOME-0210182.29674;clu=556;clan=795_mono
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	15022	17664	-1.1338412376959832e+19	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.15022;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	17712	17801	-2.2001	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.17712;clu=515;clan=1577_mono
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	17913	18011	-0.4333	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.17913;clu=501;clan=766_mono
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	17992	18294	-3072.5203	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.17992;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	18284	18400	-20.8664	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.18284;clu=10469;clan=1702_mono
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	18390	18632	-202.2218	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.18390;clu=15505;clan=176_clan
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	18936	19328	-306.3677	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.18936;clu=15066;clan=outlier, outlier: 37_clan
+SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992	PHANOTATE	CDS	19487	19801	-384.5235	-	0	ID=SAMN00792115_a1_ct3992@circular@Podoviridae__sp._ctUIG992.19487;clu=17254;clan=238_pair
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	26752	29394	-1.3116021391270732e+19	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.26752;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	29442	29531	-2.2464	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.29442;clu=515;clan=1577_mono
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	29643	29741	-0.437	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.29643;clu=501;clan=766_mono
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	29722	30024	-3083.8105	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.29722;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	30014	30130	-21.0088	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.30014;clu=10469;clan=1702_mono
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	30120	30362	-187.9191	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.30120;clu=15505;clan=176_clan
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	30666	31058	-329.6286	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.30666;clu=15066;clan=outlier, outlier: 37_clan
+SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear	PHANOTATE	CDS	31217	31531	-387.5697	-	0	ID=SAMN00792115_b1_ct5_vs2@Caudovirales__sp._ctYL15@linear.31217;clu=17254;clan=238_pair
+MGV-GENOME-0280772	PHANOTATE	CDS	36569	36847	-489.007	+	0	ID=MGV-GENOME-0280772.36847;clu=17254;clan=238_pair
+MGV-GENOME-0280772	PHANOTATE	CDS	37004	37264	-110.999	+	0	ID=MGV-GENOME-0280772.37264;clu=3882;clan=299_pair
+MGV-GENOME-0280772	PHANOTATE	CDS	37420	37518	-2.5586	+	0	ID=MGV-GENOME-0280772.37518;clu=10955;clan=1318_mono
+MGV-GENOME-0280772	PHANOTATE	CDS	37564	37698	-1.4445	+	0	ID=MGV-GENOME-0280772.37698;clu=5502;clan=244_pair
+MGV-GENOME-0280772	PHANOTATE	CDS	37787	38029	-121.1007	+	0	ID=MGV-GENOME-0280772.38029;clu=15505;clan=176_clan
+MGV-GENOME-0280772	PHANOTATE	CDS	38019	38135	-21.3211	+	0	ID=MGV-GENOME-0280772.38135;clu=10469;clan=1702_mono
+MGV-GENOME-0280772	PHANOTATE	CDS	38125	38427	-2211.5461	+	0	ID=MGV-GENOME-0280772.38427;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0280772	PHANOTATE	CDS	38408	38506	-0.4312	+	0	ID=MGV-GENOME-0280772.38506;clu=501;clan=766_mono
+MGV-GENOME-0280772	PHANOTATE	CDS	38618	38707	-2.1908	+	0	ID=MGV-GENOME-0280772.38707;clu=515;clan=1577_mono
+MGV-GENOME-0280772	PHANOTATE	CDS	38755	41391	-3.0786906209398514e+19	+	0	ID=MGV-GENOME-0280772.41391;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0283569	PHANOTATE	CDS	253	534	-108.1886	+	0	ID=MGV-GENOME-0283569.534;clu=17659;clan=238_pair
+MGV-GENOME-0283569	PHANOTATE	CDS	587	691	-0.0596	+	0	ID=MGV-GENOME-0283569.691;clu=346;clan=594_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	768	1259	-27465.8183	+	0	ID=MGV-GENOME-0283569.1259;clu=373;clan=323_pair
+MGV-GENOME-0283569	PHANOTATE	CDS	1256	1360	-5.2082	+	0	ID=MGV-GENOME-0283569.1360;clu=1464;clan=563_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	1505	1765	-324.3385	+	0	ID=MGV-GENOME-0283569.1765;clu=15505;clan=176_clan
+MGV-GENOME-0283569	PHANOTATE	CDS	1743	1871	-22.1362	+	0	ID=MGV-GENOME-0283569.1871;clu=10469;clan=1702_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	1861	2163	-3064.4079	+	0	ID=MGV-GENOME-0283569.2163;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0283569	PHANOTATE	CDS	2144	2242	-0.492	+	0	ID=MGV-GENOME-0283569.2242;clu=501;clan=766_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	2499	5141	-3.5031170635908874e+19	+	0	ID=MGV-GENOME-0283569.5141;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0283569	PHANOTATE	CDS	5135	5141	-0.3846	+	0	ID=MGV-GENOME-0283569.5230;clu=4900;clan=2026_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	40408	40653	-1940.5794	+	0	ID=MGV-GENOME-0283569.40653;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0283569	PHANOTATE	CDS	40828	41409	-3727.7081	+	0	ID=MGV-GENOME-0283569.41409;clu=4262;clan=2353_mono
+MGV-GENOME-0283569	PHANOTATE	CDS	41469	41609	-29.8275	+	0	ID=MGV-GENOME-0283569.41609;clu=7093;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0283569	PHANOTATE	CDS	41876	42379	-4310.8531	+	0	ID=MGV-GENOME-0283569.42379;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0283569	PHANOTATE	CDS	42401	42568	-0.5524	+	0	ID=MGV-GENOME-0283569.42568;clu=4937;clan=301_pair
+MGV-GENOME-0283569	PHANOTATE	CDS	42618	42755	-15.2656	+	0	ID=MGV-GENOME-0283569.42755;clu=16083;clan=96_clan
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	16016	18652	-2.9254642929918853e+19	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.16016;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	18912	19010	-0.4655	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.18912;clu=501;clan=766_mono
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	18991	19293	-3474.6104	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.18991;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4472,phrog_4943,phrog_11450,phrog_236,phrog_1689;phrog_ann=hypothetical protein,nucleotide kinase;phrog_category=unknown function,other
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	19283	19399	-19.5765	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.19283;clu=10469;clan=1702_mono
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	19389	19631	-244.8672	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.19389;clu=15505;clan=176_clan
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	19720	19821	-0.1419	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.19720;clu=5502;clan=244_pair
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	19802	19960	-6.0524	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.19802;clu=1001;clan=145_clan
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	20022	20417	-199.1806	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.20022;clu=15555;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683	PHANOTATE	CDS	20672	20950	-529.7057	-	0	ID=SAMN00715265_a1_ct16683@circular@Podoviridae__sp._cthkV683.20672;clu=17254;clan=238_pair
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	334	615	-385.9134	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.615;clu=17254;clan=238_pair
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	734	1126	-625.0845	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.1126;clu=15066;clan=outlier, outlier: 37_clan
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	1230	1625	-117.7068	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.1625;clu=15555;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	1687	1845	-5.1482	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.1845;clu=1001;clan=145_clan
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	1826	1927	-0.1586	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.1927;clu=5502;clan=244_pair
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	2016	2258	-106.2415	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.2258;clu=15505;clan=176_clan
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	2248	2364	-19.0185	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.2364;clu=10469;clan=1702_mono
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	2354	2656	-3224.8321	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.2656;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	2637	2735	-0.5233	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.2735;clu=501;clan=766_mono
+SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1	PHANOTATE	CDS	2989	5631	-3.752436020605393e+18	+	0	ID=SAMN05827031_a1_ct9210_vs1@linear@Podoviridae__sp._ctHhE1.5631;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	97	2739	-2.0101403087031353e+19	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.2739;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	43018	43332	-475.3603	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.43332;clu=17254;clan=238_pair
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	43471	43806	-129.3003	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.43806;clu=15066;clan=outlier, outlier: 37_clan
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44013	44216	-8.4939	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.44216;clu=1001;clan=145_clan
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44197	44298	-0.1696	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.44298;clu=5502;clan=244_pair
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44345	44593	-34.9178	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.44593;clu=2192;clan=176_clan
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44597	44710	-15.6155	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.44710;clu=10469;clan=1702_mono
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44700	45002	-3143.9709	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.45002;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947	PHANOTATE	CDS	44983	45081	-0.3468	+	0	ID=Ma_2019_SRR413717_NODE_194_length_45232_cov_3.487947.45081;clu=501;clan=766_mono
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	15693	18335	-9.18897898798311e+18	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.15693;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	18383	18472	-2.7059	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.18383;clu=515;clan=1577_mono
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	18661	18975	-6095.9826	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.18661;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	18965	19081	-27.4776	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.18965;clu=10469;clan=1702_mono
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	19071	19313	-533.1851	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.19071;clu=15505;clan=176_clan
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	19391	19501	-0.1825	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.19391;clu=6444;clan=2099_mono
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	19486	19686	-13.1892	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.19486;clu=1001;clan=145_clan
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	19784	20173	-6443.5181	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.19784;clu=15066;clan=outlier, outlier: 37_clan
+SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134	PHANOTATE	CDS	20319	20591	-94.2434	-	0	ID=SAMN10080923_a1_ct1134@circular@Podoviridae__sp._ctqI6134.20319;clu=17254;clan=238_pair
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	9898	10371	-3440.8504	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.10371;clu=373;clan=323_pair
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	10513	10785	-70.7053	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.10785;clu=17254;clan=238_pair
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	10911	11300	-3499.4833	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.11300;clu=15066;clan=outlier, outlier: 37_clan
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	11398	11598	-9.0415	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.11598;clu=1001;clan=145_clan
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	11579	11680	-0.1439	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.11680;clu=5502;clan=244_pair
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	11769	12011	-112.5679	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.12011;clu=15505;clan=176_clan
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	12001	12114	-9.0366	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.12114;clu=10469;clan=1702_mono
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	12098	12475	-9881.8601	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.12475;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	12664	12753	-2.3441	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.12753;clu=515;clan=1577_mono
+SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1	PHANOTATE	CDS	12801	15437	-2.5704729857164073e+18	+	0	ID=SAMN10080926_a1_ct9939_vs1@linear@Podoviridae__sp._ctqTj1.15437;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	12885	13163	-365.5732	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.13163;clu=17254;clan=238_pair
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	13189	13467	-2.946	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.13467;clu=17128;clan=outlier
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	13560	13820	-168.8782	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.13820;clu=3882;clan=299_pair
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	13958	14434	-1003.1466	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.14434;clu=373;clan=323_pair
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	14447	14737	-25.7974	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.14737;clu=932;clan=2608_mono
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	14880	15164	-50.9062	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.15164;clu=2192;clan=176_clan
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	15154	15267	-23.1547	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.15267;clu=10469;clan=1702_mono
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	15251	15616	-5321.6324	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.15616;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	15597	15695	-0.3861	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.15695;clu=501;clan=766_mono
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	15807	15896	-2.229	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.15896;clu=515;clan=1577_mono
+SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449	PHANOTATE	CDS	15944	18580	-2.6954016653090894e+19	+	0	ID=SAMN10080933_a1_ct449@circular@Podoviridae__sp._ct1b8449.18580;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439	PHANOTATE	CDS	11130	11372	-76.0308	+	0	ID=SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439.11372;clu=15505;clan=176_clan
+SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439	PHANOTATE	CDS	11362	11475	-25.5119	+	0	ID=SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439.11475;clu=10469;clan=1702_mono
+SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439	PHANOTATE	CDS	11459	11824	-1511.6878	+	0	ID=SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439.11824;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439	PHANOTATE	CDS	12013	12102	-1.9209	+	0	ID=SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439.12102;clu=515;clan=1577_mono
+SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439	PHANOTATE	CDS	12150	14792	-8.701743411721261e+18	+	0	ID=SAMEA2579951_a1_ct11439@circular@Podoviridae__sp._ctFp1439.14792;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	3	1946	-141039395909078.44	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.3;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	1994	2083	-2.9395	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.1994;clu=515;clan=1577_mono
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	2272	2649	-4839.1034	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.2272;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	2633	2758	-32.0212	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.2633;clu=10469;clan=1702_mono
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	2736	2990	-858.739	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.2736;clu=15505;clan=176_clan
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	3175	3465	-32.9942	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.3175;clu=932;clan=2608_mono
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	3478	3954	-1560.6664	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.3478;clu=373;clan=323_pair
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	4047	4136	-0.2096	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.4047;clu=7106;clan=145_clan
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	4178	4450	-268.5211	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.4178;clu=17254;clan=238_pair
+SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51	PHANOTATE	CDS	42685	43203	-3865.6423	-	0	ID=SAMN10080901_a1_ct4413_vs1@linear@Podoviridae__sp._ctrM51.42685;clu=17253;clan=1_clan;PFAM=PF00940.22
+SAMN10080908_a1_ct17258_vs1@linear@Podoviridae__sp._ct7XP1	PHANOTATE	CDS	3	158	-42.7453	+	0	ID=SAMN10080908_a1_ct17258_vs1@linear@Podoviridae__sp._ct7XP1.158;clu=12134;clan=12_clan
+SAMN10080908_a1_ct17258_vs1@linear@Podoviridae__sp._ct7XP1	PHANOTATE	CDS	495	3131	-4.868606297313507e+18	+	0	ID=SAMN10080908_a1_ct17258_vs1@linear@Podoviridae__sp._ct7XP1.3131;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0288021	PHANOTATE	CDS	38271	40913	-8.220417131311861e+19	-	0	ID=MGV-GENOME-0288021.38271;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0288021	PHANOTATE	CDS	41164	41262	-0.4919	-	0	ID=MGV-GENOME-0288021.41164;clu=501;clan=766_mono
+MGV-GENOME-0288021	PHANOTATE	CDS	41243	41545	-3251.1509	-	0	ID=MGV-GENOME-0288021.41243;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0288021	PHANOTATE	CDS	41535	41651	-18.3543	-	0	ID=MGV-GENOME-0288021.41535;clu=10469;clan=1702_mono
+MGV-GENOME-0288021	PHANOTATE	CDS	41641	41883	-247.5923	-	0	ID=MGV-GENOME-0288021.41641;clu=15505;clan=176_clan
+MGV-GENOME-0288021	PHANOTATE	CDS	41961	42059	-0.1292	-	0	ID=MGV-GENOME-0288021.41961;clu=6444;clan=2099_mono
+MGV-GENOME-0288021	PHANOTATE	CDS	42044	42244	-11.9391	-	0	ID=MGV-GENOME-0288021.42044;clu=1001;clan=145_clan
+MGV-GENOME-0288021	PHANOTATE	CDS	42258	42653	-28.3176	-	0	ID=MGV-GENOME-0288021.42258;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_5643,phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0288021	PHANOTATE	CDS	42751	43143	-666.4305	-	0	ID=MGV-GENOME-0288021.42751;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0288021	PHANOTATE	CDS	43274	43552	-570.2907	-	0	ID=MGV-GENOME-0288021.43274;clu=17254;clan=238_pair
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	80	2716	-2.8689936251154473e+19	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.2716;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	39070	39197	-284788.4294	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.39197;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	39318	39812	-14357.4629	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.39812;clu=11024;clan=139_clan;PHROGs=phrog_447,phrog_314;phrog_ann=homing endonuclease,NAD synthetase;phrog_category=DNA, RNA and nucleotide metabolism,other
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	39881	40384	-4424.7437	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.40384;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	40406	40573	-1.1264	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.40573;clu=4937;clan=301_pair
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	40622	40759	-16.1067	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.40759;clu=16083;clan=96_clan
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	41164	41346	-8.5662	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.41346;clu=13256;clan=59_clan
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	41401	41679	-228.5294	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.41679;clu=17254;clan=238_pair
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	41779	42039	-144.712	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.42039;clu=3882;clan=299_pair
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	42177	42653	-1057.8664	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.42653;clu=373;clan=323_pair
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	42666	42956	-25.0199	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.42956;clu=932;clan=2608_mono
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	43141	43383	-120.3364	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.43383;clu=15505;clan=176_clan
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	43373	43489	-20.694	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.43489;clu=10469;clan=1702_mono
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	43479	43781	-3243.6662	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.43781;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1	PHANOTATE	CDS	43762	43860	-0.5327	+	0	ID=SRS016753_a1_ct9855_vs1@Podoviridae__sp._ctazm1.43860;clu=501;clan=766_mono
+MGV-GENOME-0290434	PHANOTATE	CDS	1	285	-15.0189	+	0	ID=MGV-GENOME-0290434.285;clu=4881;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0290434	PHANOTATE	CDS	288	1106	-245096.0701	+	0	ID=MGV-GENOME-0290434.1106;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0290434	PHANOTATE	CDS	1387	1902	-7201.922	+	0	ID=MGV-GENOME-0290434.1902;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0290434	PHANOTATE	CDS	1924	2091	-1.0994	+	0	ID=MGV-GENOME-0290434.2091;clu=4937;clan=301_pair
+MGV-GENOME-0290434	PHANOTATE	CDS	2140	2277	-12.462	+	0	ID=MGV-GENOME-0290434.2277;clu=16083;clan=96_clan
+MGV-GENOME-0290434	PHANOTATE	CDS	2599	2691	-3.9141	+	0	ID=MGV-GENOME-0290434.2691;clu=12047;clan=632_mono
+MGV-GENOME-0290434	PHANOTATE	CDS	2670	2783	-2.8008	+	0	ID=MGV-GENOME-0290434.2783;clu=12605;clan=59_clan
+MGV-GENOME-0290434	PHANOTATE	CDS	2893	3192	-504.5069	+	0	ID=MGV-GENOME-0290434.3192;clu=17254;clan=238_pair
+MGV-GENOME-0290434	PHANOTATE	CDS	3177	3275	-0.1459	+	0	ID=MGV-GENOME-0290434.3275;clu=6444;clan=2099_mono
+MGV-GENOME-0290434	PHANOTATE	CDS	3324	3572	-50.3444	+	0	ID=MGV-GENOME-0290434.3572;clu=2192;clan=176_clan
+MGV-GENOME-0290434	PHANOTATE	CDS	3560	3691	-36.2459	+	0	ID=MGV-GENOME-0290434.3691;clu=10469;clan=1702_mono
+MGV-GENOME-0290434	PHANOTATE	CDS	3681	3995	-4656.1026	+	0	ID=MGV-GENOME-0290434.3995;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0290434	PHANOTATE	CDS	4184	4273	-2.5602	+	0	ID=MGV-GENOME-0290434.4273;clu=515;clan=1577_mono
+MGV-GENOME-0290434	PHANOTATE	CDS	4321	6963	-3.6137916364482355e+18	+	0	ID=MGV-GENOME-0290434.6963;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0290434	PHANOTATE	CDS	43698	43832	-267.2582	+	0	ID=MGV-GENOME-0290434.43832;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0290434	PHANOTATE	CDS	43999	44376	-78.8745	+	0	ID=MGV-GENOME-0290434.44376;clu=5892;clan=56_clan;PHROGs=phrog_2081;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0291141	PHANOTATE	CDS	26890	29526	-1.591130700327986e+19	-	0	ID=MGV-GENOME-0291141.26890;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0291141	PHANOTATE	CDS	29575	29664	-1.6229	-	0	ID=MGV-GENOME-0291141.29575;clu=515;clan=1577_mono
+MGV-GENOME-0291141	PHANOTATE	CDS	29996	30310	-3139.8916	-	0	ID=MGV-GENOME-0291141.29996;clu=441;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0291141	PHANOTATE	CDS	30300	30416	-17.0317	-	0	ID=MGV-GENOME-0291141.30300;clu=10469;clan=1702_mono
+MGV-GENOME-0291141	PHANOTATE	CDS	30406	30660	-328.8927	-	0	ID=MGV-GENOME-0291141.30406;clu=15505;clan=176_clan
+MGV-GENOME-0291141	PHANOTATE	CDS	30751	30879	-4.9859	-	0	ID=MGV-GENOME-0291141.30751;clu=6444;clan=2099_mono
+MGV-GENOME-0291141	PHANOTATE	CDS	30921	31322	-1533.2971	-	0	ID=MGV-GENOME-0291141.30921;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0291141	PHANOTATE	CDS	31500	31814	-215.0713	-	0	ID=MGV-GENOME-0291141.31500;clu=17254;clan=238_pair
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	17108	17386	-624.181	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.17386;clu=17254;clan=238_pair
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	17543	17803	-153.2004	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.17803;clu=3882;clan=299_pair
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	17955	18155	-22.3605	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.18155;clu=1001;clan=145_clan
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	18284	18568	-135.7351	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.18568;clu=2192;clan=176_clan
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	18558	18674	-25.7102	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.18674;clu=10469;clan=1702_mono
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	18664	18966	-2252.5191	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.18966;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	18947	19045	-0.4441	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.19045;clu=501;clan=766_mono
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	19157	19246	-2.6499	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.19246;clu=515;clan=1577_mono
+SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1	PHANOTATE	CDS	19294	21738	-3.623322190129985e+17	+	0	ID=SAMN03418283_a1_ct11742_vs1@Podoviridae__sp._ctr7A1.21738;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0283386	PHANOTATE	CDS	7436	7705	-415.4697	+	0	ID=MGV-GENOME-0283386.7705;clu=17254;clan=238_pair
+MGV-GENOME-0283386	PHANOTATE	CDS	7817	8212	-582.8484	+	0	ID=MGV-GENOME-0283386.8212;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0283386	PHANOTATE	CDS	8310	8708	-18.8369	+	0	ID=MGV-GENOME-0283386.8708;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0283386	PHANOTATE	CDS	8731	8829	-0.118	+	0	ID=MGV-GENOME-0283386.8829;clu=14947;clan=244_pair
+MGV-GENOME-0283386	PHANOTATE	CDS	8918	9160	-131.6174	+	0	ID=MGV-GENOME-0283386.9160;clu=15505;clan=176_clan
+MGV-GENOME-0283386	PHANOTATE	CDS	9150	9266	-18.3765	+	0	ID=MGV-GENOME-0283386.9266;clu=10469;clan=1702_mono
+MGV-GENOME-0283386	PHANOTATE	CDS	9256	9570	-3918.3451	+	0	ID=MGV-GENOME-0283386.9570;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0283386	PHANOTATE	CDS	9910	12552	-2.736106647100556e+19	+	0	ID=MGV-GENOME-0283386.12552;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	90	371	-365.2863	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.371;clu=17254;clan=238_pair
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	510	905	-444.8101	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.905;clu=15066;clan=outlier, outlier: 37_clan
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	1066	1170	-0.0677	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.1170;clu=5502;clan=244_pair
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	1259	1501	-105.9339	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.1501;clu=15505;clan=176_clan
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	1491	1607	-20.4171	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.1607;clu=10469;clan=1702_mono
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	1597	1899	-3477.3664	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.1899;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	1880	1978	-0.2712	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.1978;clu=501;clan=766_mono
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	2090	2182	-2.5037	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.2182;clu=515;clan=1577_mono
+Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063	PHANOTATE	CDS	2230	4872	-1.307183432360868e+19	+	0	ID=Zuo_2017_SRR5677805_NODE_18_length_44096_cov_275.030063.4872;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	17051	19693	-1.4768356341664242e+19	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.17051;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	19950	20048	-0.3314	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.19950;clu=501;clan=766_mono
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	20029	20331	-2987.4885	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.20029;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	20321	20437	-17.2249	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.20321;clu=10469;clan=1702_mono
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	20427	20669	-239.3072	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.20427;clu=15505;clan=176_clan
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	20758	20859	-0.1362	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.20758;clu=5502;clan=244_pair
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	20840	21043	-1.2218	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.20840;clu=1001;clan=145_clan
+SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43	PHANOTATE	CDS	21142	21420	-343.7348	-	0	ID=SAMN00715140_b1_ct3@circular@Caudovirales__sp._ctJk43.21142;clu=17254;clan=238_pair
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	27333	29969	-3.807948997793467e+18	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.27333;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	30217	30315	-0.5032	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.30217;clu=501;clan=766_mono
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	30296	30616	-4702.5015	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.30296;clu=441;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	30606	30722	-17.6385	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.30606;clu=10469;clan=1702_mono
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	30712	30954	-193.1712	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.30712;clu=15505;clan=176_clan
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	31043	31144	-0.1476	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.31043;clu=5502;clan=244_pair
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	31125	31325	-10.3456	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.31125;clu=1001;clan=145_clan
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	31339	31734	-28.0293	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.31339;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_5643,phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	31832	32224	-579.2864	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.31832;clu=15066;clan=outlier, outlier: 37_clan
+SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1	PHANOTATE	CDS	32343	32621	-568.3359	-	0	ID=SAMEA2579988_a1_ct149655_vs1@Podoviridae__sp._cteYo1.32343;clu=17254;clan=238_pair
+MGV-GENOME-0285005	PHANOTATE	CDS	362	499	-20.0706	-	0	ID=MGV-GENOME-0285005.362;clu=16083;clan=96_clan
+MGV-GENOME-0285005	PHANOTATE	CDS	737	2038	-786854885.7135	-	0	ID=MGV-GENOME-0285005.737;clu=7010;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0285005	PHANOTATE	CDS	2041	2610	-1020.3323	-	0	ID=MGV-GENOME-0285005.2041;clu=5892;clan=56_clan;PHROGs=phrog_2081,phrog_953;phrog_ann=HNH endonuclease;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0285005	PHANOTATE	CDS	2810	2874	-1013.8502	-	0	ID=MGV-GENOME-0285005.2810;clu=11158;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MGV-GENOME-0285005	PHANOTATE	CDS	38411	41047	-1.7618757935542638e+18	-	0	ID=MGV-GENOME-0285005.38411;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0285005	PHANOTATE	CDS	41095	41184	-2.2659	-	0	ID=MGV-GENOME-0285005.41095;clu=515;clan=1577_mono
+MGV-GENOME-0285005	PHANOTATE	CDS	41373	41687	-3258.0006	-	0	ID=MGV-GENOME-0285005.41373;clu=441;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0285005	PHANOTATE	CDS	41677	41805	-23.8828	-	0	ID=MGV-GENOME-0285005.41677;clu=10469;clan=1702_mono
+MGV-GENOME-0285005	PHANOTATE	CDS	41783	42061	-1062.531	-	0	ID=MGV-GENOME-0285005.41783;clu=15505;clan=176_clan
+MGV-GENOME-0285005	PHANOTATE	CDS	42150	42251	-0.1709	-	0	ID=MGV-GENOME-0285005.42150;clu=5502;clan=244_pair
+MGV-GENOME-0285005	PHANOTATE	CDS	42232	42432	-9.0778	-	0	ID=MGV-GENOME-0285005.42232;clu=1001;clan=145_clan
+MGV-GENOME-0285005	PHANOTATE	CDS	42589	42870	-420.5447	-	0	ID=MGV-GENOME-0285005.42589;clu=17254;clan=238_pair
+MGV-GENOME-0285005	PHANOTATE	CDS	42927	43037	-5.5868	-	0	ID=MGV-GENOME-0285005.42927;clu=2119;clan=59_clan
+MGV-GENOME-0286098	PHANOTATE	CDS	26818	29454	-1.3644673088476377e+19	-	0	ID=MGV-GENOME-0286098.26818;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0286098	PHANOTATE	CDS	29703	29801	-0.3456	-	0	ID=MGV-GENOME-0286098.29703;clu=501;clan=766_mono
+MGV-GENOME-0286098	PHANOTATE	CDS	29782	30072	-2302.8286	-	0	ID=MGV-GENOME-0286098.29782;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0286098	PHANOTATE	CDS	30074	30190	-12.8786	-	0	ID=MGV-GENOME-0286098.30074;clu=10469;clan=1702_mono
+MGV-GENOME-0286098	PHANOTATE	CDS	30180	30434	-548.4575	-	0	ID=MGV-GENOME-0286098.30180;clu=15505;clan=176_clan
+MGV-GENOME-0286098	PHANOTATE	CDS	30606	30806	-10.4751	-	0	ID=MGV-GENOME-0286098.30606;clu=1001;clan=145_clan
+MGV-GENOME-0286098	PHANOTATE	CDS	30904	31293	-2524.7083	-	0	ID=MGV-GENOME-0286098.30904;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0286098	PHANOTATE	CDS	31414	31695	-709.0282	-	0	ID=MGV-GENOME-0286098.31414;clu=17254;clan=238_pair
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	31621	34257	-2.780957994888475e+18	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.31621;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	34508	34606	-0.4769	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.34508;clu=501;clan=766_mono
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	34587	34889	-3200.4848	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.34587;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	34879	34995	-20.3022	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.34879;clu=10469;clan=1702_mono
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	34985	35269	-89.1161	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.34985;clu=2192;clan=176_clan
+SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892	PHANOTATE	CDS	35398	35682	-1040.3708	-	0	ID=SAMN05826911_a1_ct892@circular@Podoviridae__sp._ctb8K892.35398;clu=17254;clan=238_pair
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	73	171	-0.4893	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.73;clu=501;clan=766_mono
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	152	454	-3096.9165	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.152;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	444	560	-15.2458	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.444;clu=10469;clan=1702_mono
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	550	792	-242.7033	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.550;clu=15505;clan=176_clan
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	881	982	-0.1485	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.881;clu=5502;clan=244_pair
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	963	1166	-6.9761	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.963;clu=1001;clan=145_clan
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	1180	1575	-16.7566	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.1180;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	1705	1965	-153.9841	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.1705;clu=3882;clan=299_pair
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	1962	2084	-0.2956	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.1962;clu=2126;clan=145_clan
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	2063	2341	-895.0212	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.2063;clu=17254;clan=238_pair
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	2344	2520	-0.5232	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.2344;clu=8680;clan=59_clan
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	2498	2587	-0.0977	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.2498;clu=3803;clan=59_clan
+SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61	PHANOTATE	CDS	41098	43593	-3.300965074684807e+17	-	0	ID=SAMN05414985_a1_ct23717_vs1@Podoviridae__sp._ctlW61.41098;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	13556	13603	-53565.8177	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.13603;clu=7110;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	13724	14218	-4098.0701	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.14218;clu=11024;clan=139_clan;PHROGs=phrog_447,phrog_314;phrog_ann=homing endonuclease,NAD synthetase;phrog_category=DNA, RNA and nucleotide metabolism,other
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	14287	14790	-1295.339	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.14790;clu=4378;clan=13_clan;PHROGs=phrog_15524;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	14812	14979	-1.5907	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.14979;clu=4937;clan=301_pair
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	15028	15165	-9.9397	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.15165;clu=16083;clan=96_clan
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	15615	15797	-6.2743	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.15797;clu=13256;clan=59_clan
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	15852	16130	-245.2951	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.16130;clu=17254;clan=238_pair
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	16230	16490	-153.8253	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.16490;clu=3882;clan=299_pair
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	16628	17104	-6245.6546	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.17104;clu=373;clan=323_pair
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	17117	17407	-63.2217	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.17407;clu=932;clan=2608_mono
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	17592	17834	-318.2552	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.17834;clu=15505;clan=176_clan
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	17824	17940	-31.6702	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.17940;clu=10469;clan=1702_mono
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	17930	18232	-1672.3723	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.18232;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	18213	18311	-0.6022	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.18311;clu=501;clan=766_mono
+SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1	PHANOTATE	CDS	18556	21192	-4.829957190889776e+17	+	0	ID=SRS045739_a1_ct2269_vs1@Podoviridae__sp._ctiQv1.21192;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0291449	PHANOTATE	CDS	26494	29136	-2.2846606191079195e+19	-	0	ID=MGV-GENOME-0291449.26494;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0291449	PHANOTATE	CDS	29393	29491	-0.6369	-	0	ID=MGV-GENOME-0291449.29393;clu=501;clan=766_mono
+MGV-GENOME-0291449	PHANOTATE	CDS	29472	29774	-2792.6758	-	0	ID=MGV-GENOME-0291449.29472;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0291449	PHANOTATE	CDS	29764	29880	-16.9731	-	0	ID=MGV-GENOME-0291449.29764;clu=10469;clan=1702_mono
+MGV-GENOME-0291449	PHANOTATE	CDS	29870	30112	-263.8132	-	0	ID=MGV-GENOME-0291449.29870;clu=15505;clan=176_clan
+MGV-GENOME-0291449	PHANOTATE	CDS	30201	30338	-2.3988	-	0	ID=MGV-GENOME-0291449.30201;clu=5502;clan=244_pair
+MGV-GENOME-0291449	PHANOTATE	CDS	30424	30666	-2.5299	-	0	ID=MGV-GENOME-0291449.30424;clu=6061;clan=503_mono
+MGV-GENOME-0291449	PHANOTATE	CDS	30725	31003	-324.1635	-	0	ID=MGV-GENOME-0291449.30725;clu=17254;clan=238_pair
+MGV-GENOME-0294206	PHANOTATE	CDS	39567	42209	-3.8030924722172575e+18	-	0	ID=MGV-GENOME-0294206.39567;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0294206	PHANOTATE	CDS	42463	42561	-0.4779	-	0	ID=MGV-GENOME-0294206.42463;clu=501;clan=766_mono
+MGV-GENOME-0294206	PHANOTATE	CDS	42542	42844	-2974.8442	-	0	ID=MGV-GENOME-0294206.42542;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0294206	PHANOTATE	CDS	42834	42950	-17.3207	-	0	ID=MGV-GENOME-0294206.42834;clu=10469;clan=1702_mono
+MGV-GENOME-0294206	PHANOTATE	CDS	42940	43182	-159.8392	-	0	ID=MGV-GENOME-0294206.42940;clu=15505;clan=176_clan
+MGV-GENOME-0294206	PHANOTATE	CDS	43271	43372	-0.1505	-	0	ID=MGV-GENOME-0294206.43271;clu=5502;clan=244_pair
+MGV-GENOME-0294206	PHANOTATE	CDS	43353	43511	-5.0681	-	0	ID=MGV-GENOME-0294206.43353;clu=1001;clan=145_clan
+MGV-GENOME-0294206	PHANOTATE	CDS	43573	43968	-132.6984	-	0	ID=MGV-GENOME-0294206.43573;clu=15555;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0294206	PHANOTATE	CDS	44072	44464	-702.052	-	0	ID=MGV-GENOME-0294206.44072;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0294206	PHANOTATE	CDS	44583	44864	-540.0547	-	0	ID=MGV-GENOME-0294206.44583;clu=17254;clan=238_pair
+Monaco_MBA1751_NODE_51_length_20846_cov_12.657737	PHANOTATE	CDS	17565	20216	-6.449407898414094e+17	-	0	ID=Monaco_MBA1751_NODE_51_length_20846_cov_12.657737.17565;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+Monaco_MBA1751_NODE_51_length_20846_cov_12.657737	PHANOTATE	CDS	20412	20705	-2447.2465	-	0	ID=Monaco_MBA1751_NODE_51_length_20846_cov_12.657737.20412;clu=17251;clan=12_clan;PHROGs=phrog_236,phrog_1689;phrog_ann=nucleotide kinase;phrog_category=other
+Monaco_MBA1751_NODE_51_length_20846_cov_12.657737	PHANOTATE	CDS	20718	20846	-2.4774	-	0	ID=Monaco_MBA1751_NODE_51_length_20846_cov_12.657737.20718;clu=17809;clan=2305_mono
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	334	726	-310.6453	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.726;clu=15066;clan=outlier, outlier: 37_clan
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	819	995	-5.5275	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.995;clu=1607;clan=299_pair
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	1068	1184	-2.9797	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.1184;clu=6444;clan=2099_mono
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	1262	1504	-94.1989	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.1504;clu=15505;clan=176_clan
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	1494	1610	-13.8496	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.1610;clu=10469;clan=1702_mono
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	1600	1914	-4596.1052	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.1914;clu=441;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	2103	2192	-1.7603	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.2192;clu=515;clan=1577_mono
+ERS698777|NODE_7_length_43252_cov_47.221080	PHANOTATE	CDS	2240	4876	-2.8522597285787378e+19	+	0	ID=ERS698777|NODE_7_length_43252_cov_47.221080.4876;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	10131	12767	-6.815817391628754e+18	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.10131;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13043	13141	-0.4531	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13043;clu=501;clan=766_mono
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13122	13424	-2980.7033	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13122;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13414	13542	-22.4057	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13414;clu=10469;clan=1702_mono
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13520	13774	-350.8957	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13520;clu=2192;clan=176_clan
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13863	13967	-0.0578	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13863;clu=5502;clan=244_pair
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	13994	14386	-823.4771	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.13994;clu=15066;clan=outlier, outlier: 37_clan
+SRS2563956|NODE_35_length_24475_cov_4.775635	PHANOTATE	CDS	14520	14840	-230.4211	-	0	ID=SRS2563956|NODE_35_length_24475_cov_4.775635.14520;clu=17254;clan=238_pair
+ERS743411|NODE_47_length_20350_cov_11.596452	PHANOTATE	CDS	17069	19720	-5.427417993799633e+17	-	0	ID=ERS743411|NODE_47_length_20350_cov_11.596452.17069;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+ERS743411|NODE_47_length_20350_cov_11.596452	PHANOTATE	CDS	19916	20209	-2381.4419	-	0	ID=ERS743411|NODE_47_length_20350_cov_11.596452.19916;clu=17251;clan=12_clan;PHROGs=phrog_236,phrog_1689;phrog_ann=nucleotide kinase;phrog_category=other
+ERS743411|NODE_47_length_20350_cov_11.596452	PHANOTATE	CDS	20222	20350	-2.3802	-	0	ID=ERS743411|NODE_47_length_20350_cov_11.596452.20222;clu=17809;clan=2305_mono
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	145	423	-129.5836	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.423;clu=6117;clan=1952_mono
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	461	574	-0.1477	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.574;clu=13905;clan=145_clan
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	704	952	-16.5195	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.952;clu=2192;clan=176_clan
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	956	1066	-16.9763	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.1066;clu=10469;clan=1702_mono
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	1050	1427	-9350.919	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.1427;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	1616	1705	-2.1789	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.1705;clu=515;clan=1577_mono
+SRS2267549|NODE_15_length_42090_cov_92.874509	PHANOTATE	CDS	1753	4395	-9.451791094575647e+18	+	0	ID=SRS2267549|NODE_15_length_42090_cov_92.874509.4395;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	3095	3367	-321.4998	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.3367;clu=17254;clan=238_pair
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	3501	3893	-839.4301	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.3893;clu=15066;clan=outlier, outlier: 37_clan
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	3920	4024	-0.0494	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.4024;clu=5502;clan=244_pair
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	4113	4367	-246.542	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.4367;clu=2192;clan=176_clan
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	4357	4473	-15.2882	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.4473;clu=10469;clan=1702_mono
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	4463	4765	-2613.3184	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.4765;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	4746	4844	-0.4188	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.4844;clu=501;clan=766_mono
+SRS2563949|NODE_184_length_7576_cov_4.461508	PHANOTATE	CDS	5120	7576	-1.8325153886439044e+16	+	0	ID=SRS2563949|NODE_184_length_7576_cov_4.461508.7576;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	3	1085	-43675407.0273	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.3;clu=11676;clan=1_clan;PFAM=PF14700.9;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	1133	1231	-0.1018	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.1133;clu=515;clan=1577_mono
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	1334	1432	-0.4392	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.1334;clu=501;clan=766_mono
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	1413	1715	-2417.1153	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.1413;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	1705	1821	-23.8368	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.1705;clu=10469;clan=1702_mono
+SRS150945|NODE_76_length_2559_cov_3.017270	PHANOTATE	CDS	1811	1978	-13.5177	-	0	ID=SRS150945|NODE_76_length_2559_cov_3.017270.1811;clu=14466;clan=176_clan
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	1	105	-0.2272	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.1;clu=15024;clan=301_pair
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	127	1887	-2362712166310.187	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.127;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	1871	2134	-187.4241	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.1871;clu=2385;clan=380_pair;PHROGs=phrog_1351;phrog_ann=terminase small subunit;phrog_category=head and packaging
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	2357	2695	-458.8377	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.2357;clu=8376;clan=1594_mono
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	2655	3074	-3756.9102	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.2655;clu=8935;clan=2506_mono;PHROGs=phrog_20267,phrog_626;phrog_ann=anaerobic ribonucleotide reductase small subunit,anaerobic ribonucleoside reductase small subunit;phrog_category=DNA, RNA and nucleotide metabolism
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	36930	39566	-6.163060809507763e+18	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.36930;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	39814	39912	-0.4779	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.39814;clu=501;clan=766_mono
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	39893	40195	-2924.0082	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.39893;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	40185	40301	-17.6606	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.40185;clu=10469;clan=1702_mono
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	40291	40533	-236.7623	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.40291;clu=15505;clan=176_clan
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	40622	40723	-0.1425	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.40622;clu=5502;clan=244_pair
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	40704	40907	-9.1996	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.40704;clu=1001;clan=145_clan
+SRS150947|NODE_1_length_41492_cov_7.237689	PHANOTATE	CDS	40921	41316	-23.1652	-	0	ID=SRS150947|NODE_1_length_41492_cov_7.237689.40921;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	1	279	-111.2539	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.279;clu=2192;clan=176_clan
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	267	395	-25.8607	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.395;clu=10469;clan=1702_mono
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	379	723	-10851.2176	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.723;clu=4311;clan=12_clan;PHROGs=phrog_36380,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	926	1024	-0.1755	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.1024;clu=515;clan=1577_mono
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	1072	3714	-1.434132874462183e+19	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.3714;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	42458	42736	-107.3151	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.42736;clu=17254;clan=238_pair
+SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957	PHANOTATE	CDS	42865	43356	-20254.7663	+	0	ID=SAMEA2580142_a1_ct10957@circular@Podoviridae__sp._ctFnt957.43356;clu=373;clan=323_pair
+MGV-GENOME-0286857	PHANOTATE	CDS	10426	10707	-253.0581	+	0	ID=MGV-GENOME-0286857.10707;clu=17254;clan=238_pair
+MGV-GENOME-0286857	PHANOTATE	CDS	10743	10943	-9.8814	+	0	ID=MGV-GENOME-0286857.10943;clu=1001;clan=145_clan
+MGV-GENOME-0286857	PHANOTATE	CDS	11075	11359	-123.3744	+	0	ID=MGV-GENOME-0286857.11359;clu=2192;clan=176_clan
+MGV-GENOME-0286857	PHANOTATE	CDS	11349	11465	-18.3111	+	0	ID=MGV-GENOME-0286857.11465;clu=10469;clan=1702_mono
+MGV-GENOME-0286857	PHANOTATE	CDS	11455	11757	-3041.2325	+	0	ID=MGV-GENOME-0286857.11757;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0286857	PHANOTATE	CDS	11738	11836	-0.3332	+	0	ID=MGV-GENOME-0286857.11836;clu=501;clan=766_mono
+MGV-GENOME-0286857	PHANOTATE	CDS	11948	12037	-2.3985	+	0	ID=MGV-GENOME-0286857.12037;clu=515;clan=1577_mono
+MGV-GENOME-0286857	PHANOTATE	CDS	12085	14727	-9.675561561931473e+18	+	0	ID=MGV-GENOME-0286857.14727;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0287176	PHANOTATE	CDS	38279	40921	-1.5963206993340178e+19	-	0	ID=MGV-GENOME-0287176.38279;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0287176	PHANOTATE	CDS	40969	41067	-0.1411	-	0	ID=MGV-GENOME-0287176.40969;clu=515;clan=1577_mono
+MGV-GENOME-0287176	PHANOTATE	CDS	41270	41614	-9989.5355	-	0	ID=MGV-GENOME-0287176.41270;clu=4311;clan=12_clan;PHROGs=phrog_36380,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0287176	PHANOTATE	CDS	41598	41708	-31.0023	-	0	ID=MGV-GENOME-0287176.41598;clu=10469;clan=1702_mono
+MGV-GENOME-0287176	PHANOTATE	CDS	41714	41962	-98.6964	-	0	ID=MGV-GENOME-0287176.41714;clu=2192;clan=176_clan
+MGV-GENOME-0287176	PHANOTATE	CDS	42107	42598	-24685.0788	-	0	ID=MGV-GENOME-0287176.42107;clu=373;clan=323_pair
+MGV-GENOME-0287176	PHANOTATE	CDS	42727	43005	-128.3225	-	0	ID=MGV-GENOME-0287176.42727;clu=17254;clan=238_pair
+MGV-GENOME-0287317	PHANOTATE	CDS	37409	40045	-3.1979344579372713e+18	-	0	ID=MGV-GENOME-0287317.37409;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0287317	PHANOTATE	CDS	40396	40740	-8401.8116	-	0	ID=MGV-GENOME-0287317.40396;clu=4311;clan=12_clan;PHROGs=phrog_36380,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0287317	PHANOTATE	CDS	40724	40834	-25.4922	-	0	ID=MGV-GENOME-0287317.40724;clu=10469;clan=1702_mono
+MGV-GENOME-0287317	PHANOTATE	CDS	40840	41088	-26.8679	-	0	ID=MGV-GENOME-0287317.40840;clu=2192;clan=176_clan
+MGV-GENOME-0287317	PHANOTATE	CDS	41233	41724	-22552.1826	-	0	ID=MGV-GENOME-0287317.41233;clu=373;clan=323_pair
+MGV-GENOME-0287317	PHANOTATE	CDS	41852	42340	-2766.0703	-	0	ID=MGV-GENOME-0287317.41852;clu=2198;clan=2564_mono
+MGV-GENOME-0287317	PHANOTATE	CDS	42440	42718	-636.1426	-	0	ID=MGV-GENOME-0287317.42440;clu=17254;clan=238_pair
+MGV-GENOME-0288171	PHANOTATE	CDS	10234	10515	-335.8147	+	0	ID=MGV-GENOME-0288171.10515;clu=17254;clan=238_pair
+MGV-GENOME-0288171	PHANOTATE	CDS	10630	11028	-296.4902	+	0	ID=MGV-GENOME-0288171.11028;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0288171	PHANOTATE	CDS	11122	11394	-93.5526	+	0	ID=MGV-GENOME-0288171.11394;clu=13926;clan=1836_mono
+MGV-GENOME-0288171	PHANOTATE	CDS	11487	11885	-40.2751	+	0	ID=MGV-GENOME-0288171.11885;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0288171	PHANOTATE	CDS	11900	12100	-46.8498	+	0	ID=MGV-GENOME-0288171.12100;clu=1001;clan=145_clan
+MGV-GENOME-0288171	PHANOTATE	CDS	12085	12195	-0.1714	+	0	ID=MGV-GENOME-0288171.12195;clu=6444;clan=2099_mono
+MGV-GENOME-0288171	PHANOTATE	CDS	12205	12507	-81.2314	+	0	ID=MGV-GENOME-0288171.12507;clu=2192;clan=176_clan
+MGV-GENOME-0288171	PHANOTATE	CDS	12504	12620	-15.9426	+	0	ID=MGV-GENOME-0288171.12620;clu=10469;clan=1702_mono
+MGV-GENOME-0288171	PHANOTATE	CDS	12630	12980	-3315.3897	+	0	ID=MGV-GENOME-0288171.12980;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0288171	PHANOTATE	CDS	13307	15949	-1.8378717105399575e+19	+	0	ID=MGV-GENOME-0288171.15949;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	31486	34122	-5.146777147532725e+19	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.31486;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	34170	34268	-0.1192	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.34170;clu=515;clan=1577_mono
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	34475	34825	-1412.0477	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.34475;clu=4311;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	34809	34922	-15.7486	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.34809;clu=10469;clan=1702_mono
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	34933	35154	-150.5288	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.34933;clu=15505;clan=176_clan
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	35243	35344	-0.1346	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.35243;clu=5502;clan=244_pair
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	35325	35483	-4.7946	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.35325;clu=1001;clan=145_clan
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	35545	35940	-143.8475	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.35545;clu=15555;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	36264	36557	-294.9812	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.36264;clu=17254;clan=238_pair
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	36575	36766	-5.3082	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.36575;clu=13256;clan=59_clan
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	37127	37264	-14.4074	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.37127;clu=16083;clan=96_clan
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	37313	37480	-2.5499	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.37313;clu=4937;clan=301_pair
+SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246	PHANOTATE	CDS	37502	39122	-7919797968926.175	-	0	ID=SAMN00792026_a1_ct14246@circular@Podoviridae__sp._ct4nY246.37502;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	8660	8938	-58.8395	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.8938;clu=17254;clan=238_pair
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	8923	9021	-0.0726	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.9021;clu=1639;clan=780_mono
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	9051	9539	-2578.8992	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.9539;clu=2198;clan=2564_mono
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	9626	10186	-23880.261	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.10186;clu=373;clan=323_pair
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	10219	10428	-29.9031	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.10428;clu=3316;clan=2631_mono
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	10409	10513	-1.284	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.10513;clu=14947;clan=244_pair
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	10573	10821	-40.9264	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.10821;clu=2192;clan=176_clan
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	10809	10937	-11.6963	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.10937;clu=10469;clan=1702_mono
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	10921	11265	-7204.1371	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.11265;clu=4311;clan=12_clan;PHROGs=phrog_36380,phrog_10602,phrog_4943,phrog_4472,phrog_236,phrog_1225,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663	PHANOTATE	CDS	11627	14269	-7.114353733626203e+18	+	0	ID=SAMN09781737_a1_ct17663@circular@Podoviridae__sp._ct9eJ663.14269;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0289325	PHANOTATE	CDS	130	402	-74.0807	+	0	ID=MGV-GENOME-0289325.402;clu=17254;clan=238_pair
+MGV-GENOME-0289325	PHANOTATE	CDS	478	690	-2.8007	+	0	ID=MGV-GENOME-0289325.690;clu=6117;clan=1952_mono
+MGV-GENOME-0289325	PHANOTATE	CDS	821	1216	-351.9668	+	0	ID=MGV-GENOME-0289325.1216;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0289325	PHANOTATE	CDS	1764	1865	-0.1535	+	0	ID=MGV-GENOME-0289325.1865;clu=5502;clan=244_pair
+MGV-GENOME-0289325	PHANOTATE	CDS	1954	2196	-106.7975	+	0	ID=MGV-GENOME-0289325.2196;clu=15505;clan=176_clan
+MGV-GENOME-0289325	PHANOTATE	CDS	2186	2302	-19.701	+	0	ID=MGV-GENOME-0289325.2302;clu=10469;clan=1702_mono
+MGV-GENOME-0289325	PHANOTATE	CDS	2292	2594	-2949.0558	+	0	ID=MGV-GENOME-0289325.2594;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0289325	PHANOTATE	CDS	2575	2682	-0.1146	+	0	ID=MGV-GENOME-0289325.2682;clu=501;clan=766_mono
+MGV-GENOME-0289325	PHANOTATE	CDS	2924	5560	-1.5169964052770548e+19	+	0	ID=MGV-GENOME-0289325.5560;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0289325	PHANOTATE	CDS	43562	44047	-1744.0243	+	0	ID=MGV-GENOME-0289325.44047;clu=2198;clan=2564_mono
+MGV-GENOME-0289604	PHANOTATE	CDS	63	365	-3017.5429	-	0	ID=MGV-GENOME-0289604.63;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+MGV-GENOME-0289604	PHANOTATE	CDS	355	471	-18.9506	-	0	ID=MGV-GENOME-0289604.355;clu=10469;clan=1702_mono
+MGV-GENOME-0289604	PHANOTATE	CDS	461	703	-268.2884	-	0	ID=MGV-GENOME-0289604.461;clu=15505;clan=176_clan
+MGV-GENOME-0289604	PHANOTATE	CDS	888	1178	-23.0607	-	0	ID=MGV-GENOME-0289604.888;clu=932;clan=2608_mono
+MGV-GENOME-0289604	PHANOTATE	CDS	1191	1667	-1326.7806	-	0	ID=MGV-GENOME-0289604.1191;clu=373;clan=323_pair
+MGV-GENOME-0289604	PHANOTATE	CDS	1805	2065	-139.3242	-	0	ID=MGV-GENOME-0289604.1805;clu=3882;clan=299_pair
+MGV-GENOME-0289604	PHANOTATE	CDS	2165	2443	-291.1986	-	0	ID=MGV-GENOME-0289604.2165;clu=17254;clan=238_pair
+MGV-GENOME-0289604	PHANOTATE	CDS	2498	2701	-0.456	-	0	ID=MGV-GENOME-0289604.2498;clu=13256;clan=59_clan
+MGV-GENOME-0289604	PHANOTATE	CDS	41196	43832	-3.136346807069785e+19	-	0	ID=MGV-GENOME-0289604.41196;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0289604	PHANOTATE	CDS	44077	44175	-0.7518	-	0	ID=MGV-GENOME-0289604.44077;clu=501;clan=766_mono
+MGV-GENOME-0289760	PHANOTATE	CDS	63	365	-3468.0535	-	0	ID=MGV-GENOME-0289760.63;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4472,phrog_4943,phrog_11450,phrog_236,phrog_1689;phrog_ann=hypothetical protein,nucleotide kinase;phrog_category=unknown function,other
+MGV-GENOME-0289760	PHANOTATE	CDS	355	471	-19.5296	-	0	ID=MGV-GENOME-0289760.355;clu=10469;clan=1702_mono
+MGV-GENOME-0289760	PHANOTATE	CDS	461	703	-245.2625	-	0	ID=MGV-GENOME-0289760.461;clu=15505;clan=176_clan
+MGV-GENOME-0289760	PHANOTATE	CDS	792	893	-0.1426	-	0	ID=MGV-GENOME-0289760.792;clu=5502;clan=244_pair
+MGV-GENOME-0289760	PHANOTATE	CDS	874	1032	-6.0353	-	0	ID=MGV-GENOME-0289760.874;clu=1001;clan=145_clan
+MGV-GENOME-0289760	PHANOTATE	CDS	1094	1489	-199.5157	-	0	ID=MGV-GENOME-0289760.1094;clu=15555;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0289760	PHANOTATE	CDS	1744	2022	-531.0372	-	0	ID=MGV-GENOME-0289760.1744;clu=17254;clan=238_pair
+MGV-GENOME-0289760	PHANOTATE	CDS	41222	43858	-2.9614307617004593e+19	-	0	ID=MGV-GENOME-0289760.41222;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0289760	PHANOTATE	CDS	44118	44216	-0.4199	-	0	ID=MGV-GENOME-0289760.44118;clu=501;clan=766_mono
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	26810	29452	-6.686883697945412e+19	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.26810;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	29500	29589	-2.0917	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.29500;clu=515;clan=1577_mono
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	29701	29799	-0.355	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.29701;clu=501;clan=766_mono
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	29780	30082	-2900.8275	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.29780;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	30072	30185	-14.8578	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.30072;clu=10469;clan=1702_mono
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	30189	30437	-25.5425	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.30189;clu=2192;clan=176_clan
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	30497	30595	-0.1144	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.30497;clu=14947;clan=244_pair
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	30617	31015	-38.515	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.30617;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear	PHANOTATE	CDS	31113	31568	-528.6647	-	0	ID=SAMEA2737831_b1_ct56_vs2@Caudovirales__sp._ctN5W56@linear.31113;clu=15066;clan=outlier, outlier: 37_clan
+MGV-GENOME-0275413	PHANOTATE	CDS	92	2734	-4.567115311804508e+19	+	0	ID=MGV-GENOME-0275413.2734;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0275413	PHANOTATE	CDS	39462	39503	-0.3134	+	0	ID=MGV-GENOME-0275413.39503;clu=4465;clan=2418_mono
+MGV-GENOME-0275413	PHANOTATE	CDS	39463	39741	-232.1491	+	0	ID=MGV-GENOME-0275413.39741;clu=17254;clan=238_pair
+MGV-GENOME-0275413	PHANOTATE	CDS	39827	40222	-15.9539	+	0	ID=MGV-GENOME-0275413.40222;clu=6524;clan=114_clan, 198_clan;PHROGs=phrog_5643,phrog_4264;phrog_ann=hypothetical protein;phrog_category=unknown function
+MGV-GENOME-0275413	PHANOTATE	CDS	40236	40436	-7.4409	+	0	ID=MGV-GENOME-0275413.40436;clu=1001;clan=145_clan
+MGV-GENOME-0275413	PHANOTATE	CDS	40417	40518	-0.1438	+	0	ID=MGV-GENOME-0275413.40518;clu=5502;clan=244_pair
+MGV-GENOME-0275413	PHANOTATE	CDS	40607	40849	-97.2822	+	0	ID=MGV-GENOME-0275413.40849;clu=15505;clan=176_clan
+MGV-GENOME-0275413	PHANOTATE	CDS	40839	40955	-16.6417	+	0	ID=MGV-GENOME-0275413.40955;clu=10469;clan=1702_mono
+MGV-GENOME-0275413	PHANOTATE	CDS	40945	41247	-3291.6399	+	0	ID=MGV-GENOME-0275413.41247;clu=539;clan=12_clan;PHROGs=phrog_10602,phrog_4943,phrog_4472,phrog_11450,phrog_236,phrog_1689,phrog_4897;phrog_ann=hypothetical protein,nucleotide kinase,kinase;phrog_category=unknown function,other

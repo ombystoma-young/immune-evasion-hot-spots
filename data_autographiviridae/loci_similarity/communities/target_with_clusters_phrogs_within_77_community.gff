@@ -1,0 +1,22 @@
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	33358	33789	-6546.9496	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.33789;clu=925;clan=2767_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	34084	34362	-171.5698	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.34362;clu=1484;clan=1172_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	34397	34729	-536.9581	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.34729;clu=2043;clan=2573_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	34843	34989	-1.487	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.34989;clu=2602;clan=280_pair
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	35221	35352	-1.9665	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.35352;clu=3161;clan=1266_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	35356	35532	-195.6246	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.35532;clu=1525;clan=2475_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	35560	35787	-444.6234	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.35787;clu=4879;clan=1300_mono
+SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1	PHANOTATE	CDS	35879	38398	-8.932074902754867e+17	+	0	ID=SRS017127_a1_ct24_vs1@Podoviridae__sp._ctIZx1.38398;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	9515	12034	-4.205830203716631e+17	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.9515;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	12134	12352	-31.1253	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.12134;clu=4879;clan=1300_mono
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	12381	12557	-77.1838	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.12381;clu=1525;clan=2475_mono
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	12578	12679	-2.499	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.12578;clu=5997;clan=806_mono
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	13183	13323	-0.5491	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.13183;clu=6556;clan=280_pair
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	13427	13711	-10993.1673	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.13427;clu=7115;clan=1422_mono
+SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear	PHANOTATE	CDS	13785	14141	-26379.6558	-	0	ID=SRS050905_a1_ct4188_vs01@Caudovirales__sp._ctPbl114@linear.13785;clu=7674;clan=1111_mono
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	9515	12034	-4.205830203716631e+17	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.9515;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	12134	12352	-31.1253	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.12134;clu=4879;clan=1300_mono
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	12381	12557	-77.1838	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.12381;clu=1525;clan=2475_mono
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	12578	12679	-2.499	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.12578;clu=5997;clan=806_mono
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	13183	13323	-0.5491	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.13183;clu=6556;clan=280_pair
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	13427	13711	-10993.1673	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.13427;clu=7115;clan=1422_mono
+SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1	PHANOTATE	CDS	13785	14141	-26379.6558	-	0	ID=SRS050905_a1_ct4188_vs1@Podoviridae__sp._ct0KF1.13785;clu=7674;clan=1111_mono

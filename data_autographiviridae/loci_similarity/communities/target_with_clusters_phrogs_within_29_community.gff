@@ -1,0 +1,119 @@
+MT708545.1	PHANOTATE	CDS	4351	4557	-166185.5641	+	0	ID=MT708545.1.4557;clu=17315;clan=170_clan;PHROGs=phrog_21791,phrog_4191;phrog_ann=peptidase;phrog_category=other
+MT708545.1	PHANOTATE	CDS	4554	4661	-0.3729	+	0	ID=MT708545.1.4661;clu=2;clan=1563_mono
+MT708545.1	PHANOTATE	CDS	4761	4961	-12.4751	+	0	ID=MT708545.1.4961;clu=561;clan=665_mono
+MT708545.1	PHANOTATE	CDS	5019	5468	-41.9105	+	0	ID=MT708545.1.5468;clu=12869;clan=23_clan
+MT708545.1	PHANOTATE	CDS	5434	6510	-81351.704	+	0	ID=MT708545.1.6510;clu=10231;clan=2_clan;PHROGs=phrog_1,phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+MT708545.1	PHANOTATE	CDS	6536	6850	-3.1904	+	0	ID=MT708545.1.6850;clu=2238;clan=1269_mono
+MT708545.1	PHANOTATE	CDS	6865	6984	-3.7108	+	0	ID=MT708545.1.6984;clu=2797;clan=1548_mono
+MT708545.1	PHANOTATE	CDS	6974	7819	-2208.6187	+	0	ID=MT708545.1.7819;clu=3356;clan=499_mono;PHROGs=phrog_38808,phrog_200;phrog_ann=hypothetical protein,lipoprotein;phrog_category=other,unknown function
+MT708545.1	PHANOTATE	CDS	7828	7977	-0.0825	+	0	ID=MT708545.1.7977;clu=3915;clan=2363_mono
+MT708545.1	PHANOTATE	CDS	8010	8231	-26.3303	+	0	ID=MT708545.1.8231;clu=4474;clan=1262_mono
+MT708545.1	PHANOTATE	CDS	8203	8697	-64.5151	+	0	ID=MT708545.1.8697;clu=5033;clan=419_pair
+MT708545.1	PHANOTATE	CDS	8852	8959	-0.1059	+	0	ID=MT708545.1.8959;clu=5592;clan=1647_mono
+MT708545.1	PHANOTATE	CDS	8963	9349	-32.4772	+	0	ID=MT708545.1.9349;clu=6151;clan=1637_mono
+MT708545.1	PHANOTATE	CDS	9351	11840	-1365907174.7007	+	0	ID=MT708545.1.11840;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_36028;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MN988539.1	PHANOTATE	CDS	18416	18742	-57.4891	+	0	ID=MN988539.1.18742;clu=15085;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MN988539.1	PHANOTATE	CDS	18881	19957	-73.5851	+	0	ID=MN988539.1.19957;clu=12853;clan=852_mono;PHROGs=phrog_13772;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN988539.1	PHANOTATE	CDS	19954	20130	-0.3913	+	0	ID=MN988539.1.20130;clu=13411;clan=1156_mono
+MN988539.1	PHANOTATE	CDS	20137	20541	-59.5597	+	0	ID=MN988539.1.20541;clu=13969;clan=2207_mono;PHROGs=phrog_1540;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN988539.1	PHANOTATE	CDS	20544	21455	-12027.3041	+	0	ID=MN988539.1.21455;clu=14527;clan=2790_mono
+MN988539.1	PHANOTATE	CDS	21621	21968	-36.6692	+	0	ID=MN988539.1.21968;clu=15085;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MN988539.1	PHANOTATE	CDS	21970	23106	-18179.8086	+	0	ID=MN988539.1.23106;clu=15643;clan=2_clan;PHROGs=phrog_1,phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+MN988539.1	PHANOTATE	CDS	23304	23495	-1.9943	+	0	ID=MN988539.1.23495;clu=16201;clan=1360_mono
+MN988539.1	PHANOTATE	CDS	23416	26094	-46778160765.8242	+	0	ID=MN988539.1.26094;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+LR798386.1	PHANOTATE	CDS	375	1592	-35714.5627	-	0	ID=LR798386.1.375;clu=27;clan=2_clan;PHROGs=phrog_1,phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+LR798386.1	PHANOTATE	CDS	1593	1967	-138.9774	-	0	ID=LR798386.1.1593;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+LR798386.1	PHANOTATE	CDS	2009	2104	-0.1421	-	0	ID=LR798386.1.2009;clu=7301;clan=1699_mono
+LR798386.1	PHANOTATE	CDS	2130	2384	-14.8647	-	0	ID=LR798386.1.2130;clu=7860;clan=755_mono
+LR798386.1	PHANOTATE	CDS	2387	2554	-2.2615	-	0	ID=LR798386.1.2387;clu=8419;clan=1632_mono
+LR798386.1	PHANOTATE	CDS	2585	2986	-24.3757	-	0	ID=LR798386.1.2585;clu=8978;clan=2372_mono;PHROGs=phrog_465,phrog_1768,phrog_15351,phrog_2649,phrog_5115,phrog_6523;phrog_ann=endolysin,ferredoxin;phrog_category=moron, auxiliary metabolic gene and host takeover,lysis
+LR798386.1	PHANOTATE	CDS	2990	3655	-1040.3581	-	0	ID=LR798386.1.2990;clu=9536;clan=2583_mono
+LR798386.1	PHANOTATE	CDS	3679	4179	-56.3521	-	0	ID=LR798386.1.3679;clu=10094;clan=883_mono
+LR798386.1	PHANOTATE	CDS	4179	4998	-129801.9854	-	0	ID=LR798386.1.4179;clu=10652;clan=1109_mono;PHROGs=phrog_34853,phrog_5939;phrog_ann=hypothetical protein,tail protein;phrog_category=tail,unknown function
+LR798386.1	PHANOTATE	CDS	39881	39903	-2.6092	-	0	ID=LR798386.1.39673;clu=11210;clan=2177_mono
+LR798386.1	PHANOTATE	CDS	39881	42292	-233674299542.989	-	0	ID=LR798386.1.39881;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+LR796349.1	PHANOTATE	CDS	7323	9902	-597907292261909.8	-	0	ID=LR796349.1.7323;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+LR796349.1	PHANOTATE	CDS	9938	10054	-0.1953	-	0	ID=LR796349.1.9938;clu=8443;clan=1790_mono
+LR796349.1	PHANOTATE	CDS	10070	11266	-8121.8638	-	0	ID=LR796349.1.10070;clu=27;clan=2_clan;PHROGs=phrog_1,phrog_7269,phrog_216,phrog_35951,phrog_7685;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+LR796349.1	PHANOTATE	CDS	11244	11651	-207.1375	-	0	ID=LR796349.1.11244;clu=16431;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+LR796349.1	PHANOTATE	CDS	11648	11749	-1.7475	-	0	ID=LR796349.1.11648;clu=10118;clan=2248_mono
+LR796349.1	PHANOTATE	CDS	11780	12184	-42.4441	-	0	ID=LR796349.1.11780;clu=10676;clan=316_pair;PHROGs=phrog_2524;phrog_ann=hypothetical protein;phrog_category=unknown function
+LR796349.1	PHANOTATE	CDS	12181	12387	-4.9947	-	0	ID=LR796349.1.12181;clu=11234;clan=84_clan;PHROGs=phrog_920;phrog_ann=holin;phrog_category=lysis
+LR796349.1	PHANOTATE	CDS	12481	14733	-6567673.0387	-	0	ID=LR796349.1.12481;clu=11792;clan=1672_mono;PHROGs=phrog_1171,phrog_18522,phrog_20231,phrog_13893;phrog_ann=tail spike protein,tail protein;phrog_category=tail
+LR796349.1	PHANOTATE	CDS	14723	14869	-13.5325	-	0	ID=LR796349.1.14723;clu=12350;clan=2380_mono
+NC_025431.1	PHANOTATE	CDS	5536	5565	-38.0233	+	0	ID=NC_025431.1.5565;clu=6771;clan=427_pair
+NC_025431.1	PHANOTATE	CDS	5690	6070	-103.6724	+	0	ID=NC_025431.1.6070;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_025431.1	PHANOTATE	CDS	6073	7152	-7060.8603	+	0	ID=NC_025431.1.7152;clu=7889;clan=2_clan;PHROGs=phrog_1,phrog_7269,phrog_216,phrog_35951,phrog_7685;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+NC_025431.1	PHANOTATE	CDS	7233	7886	-621.1581	+	0	ID=NC_025431.1.7886;clu=8448;clan=1312_mono
+NC_025431.1	PHANOTATE	CDS	7861	8502	-168.1839	+	0	ID=NC_025431.1.8502;clu=9007;clan=2315_mono;PHROGs=phrog_15877,phrog_359,phrog_21315,phrog_10837;phrog_ann=hypothetical protein,DNA methyltransferase;phrog_category=other,unknown function
+NC_025431.1	PHANOTATE	CDS	8855	9400	-86.1651	+	0	ID=NC_025431.1.9400;clu=9565;clan=2350_mono;PHROGs=phrog_1075;phrog_ann=tRNA splicing ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025431.1	PHANOTATE	CDS	9397	10050	-173.2323	+	0	ID=NC_025431.1.10050;clu=10123;clan=1228_mono;PHROGs=phrog_1075;phrog_ann=tRNA splicing ligase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_025431.1	PHANOTATE	CDS	10047	10328	-15.0349	+	0	ID=NC_025431.1.10328;clu=14610;clan=652_mono;PHROGs=phrog_13625;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_025431.1	PHANOTATE	CDS	10328	10612	-6.8064	+	0	ID=NC_025431.1.10612;clu=11239;clan=419_pair
+NC_025431.1	PHANOTATE	CDS	10536	12950	-2220698608.6757	+	0	ID=NC_025431.1.12950;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MH598806.1	PHANOTATE	CDS	1	552	-13380.3604	+	0	ID=MH598806.1.552;clu=3527;clan=2219_mono;PHROGs=phrog_10499;phrog_ann=hypothetical protein;phrog_category=unknown function
+MH598806.1	PHANOTATE	CDS	552	881	-28.1249	+	0	ID=MH598806.1.881;clu=4086;clan=1083_mono
+MH598806.1	PHANOTATE	CDS	1095	1280	-11.4982	+	0	ID=MH598806.1.1280;clu=4645;clan=1286_mono
+MH598806.1	PHANOTATE	CDS	1273	1554	-52.9734	+	0	ID=MH598806.1.1554;clu=11419;clan=541_mono
+MH598806.1	PHANOTATE	CDS	1554	1787	-2.17	+	0	ID=MH598806.1.1787;clu=11977;clan=2656_mono
+MH598806.1	PHANOTATE	CDS	1791	1919	-4.2636	+	0	ID=MH598806.1.1919;clu=6322;clan=352_pair
+MH598806.1	PHANOTATE	CDS	1919	2146	-588.2219	+	0	ID=MH598806.1.2146;clu=13093;clan=1211_mono
+MH598806.1	PHANOTATE	CDS	2161	2502	-122652.6628	+	0	ID=MH598806.1.2502;clu=13651;clan=2386_mono
+MH598806.1	PHANOTATE	CDS	2631	2945	-1661.4757	+	0	ID=MH598806.1.2945;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MH598806.1	PHANOTATE	CDS	3055	4086	-203033621769.5446	+	0	ID=MH598806.1.4086;clu=27;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_35951,phrog_7269;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+MH598806.1	PHANOTATE	CDS	4245	6689	-1.3784477378089467e+28	+	0	ID=MH598806.1.6689;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MH598806.1	PHANOTATE	CDS	37602	37666	-0.0563	+	0	ID=MH598806.1.37666;clu=9675;clan=500_mono
+MH598806.1	PHANOTATE	CDS	37701	37796	-1.9386	+	0	ID=MH598806.1.37796;clu=10233;clan=2333_mono
+MH598806.1	PHANOTATE	CDS	37821	38012	-3.5492	+	0	ID=MH598806.1.38012;clu=10791;clan=877_mono
+LR796849.1	PHANOTATE	CDS	3199	4093	-123750.0313	+	0	ID=LR796849.1.4093;clu=10652;clan=1109_mono;PHROGs=phrog_34853,phrog_5939;phrog_ann=hypothetical protein,tail protein;phrog_category=tail,unknown function
+LR796849.1	PHANOTATE	CDS	4093	4593	-56.2271	+	0	ID=LR796849.1.4593;clu=10094;clan=883_mono
+LR796849.1	PHANOTATE	CDS	4617	5282	-991.4245	+	0	ID=LR796849.1.5282;clu=9536;clan=2583_mono
+LR796849.1	PHANOTATE	CDS	5286	5687	-26.9878	+	0	ID=LR796849.1.5687;clu=8978;clan=2372_mono;PHROGs=phrog_465,phrog_1768,phrog_15351,phrog_2649,phrog_5115,phrog_6523;phrog_ann=endolysin,ferredoxin;phrog_category=moron, auxiliary metabolic gene and host takeover,lysis
+LR796849.1	PHANOTATE	CDS	5718	5885	-2.7683	+	0	ID=LR796849.1.5885;clu=8419;clan=1632_mono
+LR796849.1	PHANOTATE	CDS	5888	6142	-15.4265	+	0	ID=LR796849.1.6142;clu=7860;clan=755_mono
+LR796849.1	PHANOTATE	CDS	6168	6263	-0.1422	+	0	ID=LR796849.1.6263;clu=7301;clan=1699_mono
+LR796849.1	PHANOTATE	CDS	6305	6679	-143.4656	+	0	ID=LR796849.1.6679;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+LR796849.1	PHANOTATE	CDS	6680	7897	-35876.5352	+	0	ID=LR796849.1.7897;clu=27;clan=2_clan;PHROGs=phrog_1,phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+LR796849.1	PHANOTATE	CDS	7836	7952	-0.129	+	0	ID=LR796849.1.7952;clu=5798;clan=2652_mono
+LR796849.1	PHANOTATE	CDS	8199	10685	-495671702179.6308	+	0	ID=LR796849.1.10685;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+LR796849.1	PHANOTATE	CDS	10663	10685	-2.5309	+	0	ID=LR796849.1.10893;clu=11210;clan=2177_mono
+NC_047738.1	PHANOTATE	CDS	1088	2053	-6868.3845	+	0	ID=NC_047738.1.2053;clu=10858;clan=862_mono;PHROGs=phrog_29643,phrog_7247;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047738.1	PHANOTATE	CDS	2157	2384	-13.3181	+	0	ID=NC_047738.1.2384;clu=16219;clan=1838_mono
+NC_047738.1	PHANOTATE	CDS	2384	2548	-2.2325	+	0	ID=NC_047738.1.2548;clu=17335;clan=1057_mono
+NC_047738.1	PHANOTATE	CDS	2580	2723	-6.7125	+	0	ID=NC_047738.1.2723;clu=12532;clan=292_pair
+NC_047738.1	PHANOTATE	CDS	3248	3634	-64.7162	+	0	ID=NC_047738.1.3634;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+NC_047738.1	PHANOTATE	CDS	3723	4736	-103609.5432	+	0	ID=NC_047738.1.4736;clu=27;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+NC_047738.1	PHANOTATE	CDS	4989	7739	-1107839608824.6812	+	0	ID=NC_047738.1.7739;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MH598801.1	PHANOTATE	CDS	1	555	-273.9733	+	0	ID=MH598801.1.555;clu=3527;clan=2219_mono;PHROGs=phrog_10499;phrog_ann=hypothetical protein;phrog_category=unknown function
+MH598801.1	PHANOTATE	CDS	555	893	-37.6325	+	0	ID=MH598801.1.893;clu=4086;clan=1083_mono
+MH598801.1	PHANOTATE	CDS	1164	1445	-18.439	+	0	ID=MH598801.1.1445;clu=11419;clan=541_mono
+MH598801.1	PHANOTATE	CDS	1446	1679	-2.867	+	0	ID=MH598801.1.1679;clu=11977;clan=2656_mono
+MH598801.1	PHANOTATE	CDS	1669	1812	-11.8343	+	0	ID=MH598801.1.1812;clu=6322;clan=352_pair
+MH598801.1	PHANOTATE	CDS	1812	2015	-233.3161	+	0	ID=MH598801.1.2015;clu=13093;clan=1211_mono
+MH598801.1	PHANOTATE	CDS	2049	2390	-58387.8878	+	0	ID=MH598801.1.2390;clu=13651;clan=2386_mono
+MH598801.1	PHANOTATE	CDS	2414	2767	-1399.0126	+	0	ID=MH598801.1.2767;clu=12869;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MH598801.1	PHANOTATE	CDS	2892	3923	-1229426376755.0847	+	0	ID=MH598801.1.3923;clu=27;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_35951,phrog_7269;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+MH598801.1	PHANOTATE	CDS	4082	6526	-9.221735836935113e+27	+	0	ID=MH598801.1.6526;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0328026	PHANOTATE	CDS	1733	1837	-0.2605	+	0	ID=MGV-GENOME-0328026.1837;clu=6587;clan=846_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	1936	4371	-23423951.0858	+	0	ID=MGV-GENOME-0328026.4371;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MGV-GENOME-0328026	PHANOTATE	CDS	42830	43087	-293.0891	+	0	ID=MGV-GENOME-0328026.43087;clu=9920;clan=91_clan;PHROGs=phrog_2059;phrog_ann=anti-restriction protein;phrog_category=moron, auxiliary metabolic gene and host takeover
+MGV-GENOME-0328026	PHANOTATE	CDS	43181	43303	-2.8295	+	0	ID=MGV-GENOME-0328026.43303;clu=1479;clan=2472_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	43329	43469	-6.298	+	0	ID=MGV-GENOME-0328026.43469;clu=2038;clan=1117_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	43466	43633	-3.1437	+	0	ID=MGV-GENOME-0328026.43633;clu=2597;clan=2105_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	43630	43782	-3.5302	+	0	ID=MGV-GENOME-0328026.43782;clu=3156;clan=679_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	43779	43907	-1.9216	+	0	ID=MGV-GENOME-0328026.43907;clu=3715;clan=841_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	43941	44162	-1.8875	+	0	ID=MGV-GENOME-0328026.44162;clu=4274;clan=628_mono
+MGV-GENOME-0328026	PHANOTATE	CDS	44209	44583	-21.0534	+	0	ID=MGV-GENOME-0328026.44583;clu=4833;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+MGV-GENOME-0328026	PHANOTATE	CDS	44650	45894	-11266.1874	+	0	ID=MGV-GENOME-0328026.45894;clu=5392;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_7269;phrog_ann=integrase;phrog_category=integration and excision
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	2	133	-1.4812	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.133;clu=1539;clan=1502_mono
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	130	282	-0.1354	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.282;clu=2098;clan=600_mono
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	295	444	-1.3248	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.444;clu=2657;clan=1094_mono
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	469	1116	-2173.8307	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.1116;clu=3216;clan=8_clan
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	1166	1348	-1.5469	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.1348;clu=3775;clan=1085_mono
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	1528	1878	-25.1523	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.1878;clu=781;clan=23_clan;PHROGs=phrog_9665;phrog_ann=transcriptional regulator;phrog_category=transcription regulation
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	1871	2872	-15574.3873	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.2872;clu=27;clan=2_clan;PHROGs=phrog_216,phrog_1,phrog_35951,phrog_7269;phrog_ann=hypothetical protein,integrase;phrog_category=integration and excision,unknown function
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	2952	3164	-3.4114	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.3164;clu=5452;clan=2616_mono
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	3502	3924	-11.2455	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.3924;clu=6011;clan=1687_mono;PHROGs=phrog_23810;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	4008	6485	-223808285636.5654	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.6485;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	42974	43345	-589231.0621	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.43345;clu=7129;clan=985_mono;PHROGs=phrog_6980;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1	PHANOTATE	CDS	43278	43964	-1179.7101	+	0	ID=SAMN04262467_a1_ct4897_vs1@Podoviridae__sp._ctJcq1.43964;clu=7688;clan=170_clan;PHROGs=phrog_4191;phrog_ann=peptidase;phrog_category=other

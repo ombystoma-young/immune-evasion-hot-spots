@@ -1,0 +1,751 @@
+index	clu	clan	num_reprs	prelim_info	annotations	pfam_domains	mean_length	std_length	mean_pi	std_pi	apises	dbapis_clans	defense_systems	phrogs	pfam_ids	clu_netw
+1	1264	1_clan; 6_clan; 9_clan	447	T7pRNAP, T3pRNAP, nan	nan: 222; RNA polymerase: 114; RNA polymerase,N4-like RNA polymerase: 64; N4-like RNA polymerase: 47	RNA_pol,RPOL_N: 447	892.1409395973154	16.190577507057572	7.012975391498882	0.4523673224939312	nan: 447	nan: 447	nan: 447	nan: 222; phrog_414: 79; phrog_414,phrog_2166: 59; phrog_2166: 47; phrog_414,phrog_20599: 20; phrog_20599: 7; phrog_414,phrog_36028: 6; phrog_2166,phrog_36028: 3; phrog_36028: 2; phrog_2166,phrog_414,phrog_36028: 2	PF00940.22,PF14700.9: 447	clu_1264
+2	2969	4_clan; 8_clan	250	T7pSTPK, T3pSTPK, nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 214; protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase,MarR family transcrition regulator: 35; hypothetical protein,serine-threonine kinase,kinase,protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,MarR family transcrition regulator: 1	nan: 250	349.004	19.786307788559608	6.87028	0.8558039044615106	nan: 137; APIS085: 113	nan: 137; CLAN020: 113	nan: 137; restriction-modification (RM);bacteriophage exclusion (BREX): 113	phrog_15752,phrog_2828,phrog_18305: 214; phrog_15752,phrog_1687,phrog_2828,phrog_18305: 35; phrog_3809,phrog_15752,phrog_2828,phrog_1687,phrog_18305: 1	nan: 250	clu_2969
+3	6799	15_clan	226	T3p0.6, nan	hypothetical protein: 221; nan: 5	nan: 226	65.570796460177	3.5234877018451614	10.716902654867257	0.2132669882086467	nan: 226	nan: 226	nan: 226	phrog_2385: 221; nan: 5	nan: 226	clu_6799
+4	9717	22_clan; 25_clan; 52_clan	189	nan, SAMase	SAM-dependent methyltransferase: 189	nan: 189	154.47619047619048	5.468061452528876	5.842910052910053	1.0481521213669613	APIS091: 177; APIS093: 12	CLAN015: 189	restriction-modification (RM);bacteriophage exclusion (BREX): 189	phrog_2226: 189	nan: 189	clu_9717
+5	6958	33_clan	183	nan, Ocr	ocr-like anti-restriction: 183	ocr: 183	116.78142076502732	5.450706593272114	4.053060109289617	0.017554677345120742	APIS087: 84; APIS010: 65; APIS077: 33; APIS085: 1	CLAN020: 183	restriction-modification (RM);bacteriophage exclusion (BREX): 183	phrog_2568: 183	PF08684.13: 183	clu_6958
+6	15258	1_clan	98	nan	nan: 98	RNA_pol,RPOL_N: 98	880.9081632653061	12.9655266428984	6.070408163265306	0.25005945011630315	nan: 98	nan: 98	nan: 98	nan: 98	PF00940.22,PF14700.9: 98	clu_15258
+7	4353	285_pair	98	nan	hypothetical protein: 98	nan: 98	306.01020408163265	18.328893813090023	4.909285714285715	0.129473557384725	nan: 98	nan: 98	nan: 98	phrog_22983,phrog_4571: 51; phrog_4571: 47	nan: 98	clu_4353
+8	9598	63_clan	67	nan	hypothetical protein: 67	nan: 67	99.46268656716418	11.550060157535786	9.549701492537315	0.34621752730019273	nan: 67	nan: 67	nan: 67	phrog_7066: 67	nan: 67	clu_9598
+9	638	397_pair	67	nan	hypothetical protein: 67	nan: 67	38.134328358208954	0.9518008829846147	7.89	0.7512252617819729	nan: 67	nan: 67	nan: 67	phrog_11746: 67	nan: 67	clu_638
+10	924	18_clan	65	nan	hypothetical protein: 65	nan: 65	63.87692307692308	5.641663352648348	9.358307692307692	0.7608888084642549	nan: 65	nan: 65	nan: 65	phrog_5058: 65	nan: 65	clu_924
+11	1726	15_clan	62	nan	hypothetical protein: 60; nan: 2	nan: 62	70.90322580645162	9.960100199343504	10.901129032258064	0.3167462905638094	nan: 62	nan: 62	nan: 62	phrog_2385: 60; nan: 2	nan: 62	clu_1726
+12	10901	21_clan	62	nan	hypothetical protein: 60; nan: 2	nan: 62	52.24193548387097	3.691751922605921	9.495322580645162	0.7087248251912808	nan: 62	nan: 62	nan: 62	phrog_5058: 60; nan: 2	nan: 62	clu_10901
+13	14152	18_clan	58	nan	hypothetical protein: 58	nan: 58	49.41379310344828	2.8899977706457807	10.007931034482759	0.21081927589795713	nan: 58	nan: 58	nan: 58	phrog_5058: 55; phrog_5058,phrog_7202: 2; phrog_25044,phrog_5058: 1	nan: 58	clu_14152
+14	2320	179_clan	55	nan	hypothetical protein: 55	nan: 55	74.07272727272728	9.024359104061475	7.691454545454545	0.7346312206155072	nan: 55	nan: 55	nan: 55	phrog_6500: 55	nan: 55	clu_2320
+15	13594	171_clan	48	nan	nan: 37; hypothetical protein: 11	nan: 48	41.729166666666664	1.8763883748662835	5.715	0.57828800893378	nan: 48	nan: 48	nan: 48	nan: 37; phrog_33188: 11	nan: 48	clu_13594
+16	1387	150_clan	46	nan	hypothetical protein: 46	nan: 46	62.76086956521739	8.127278573103725	4.750217391304347	0.2681996696529144	nan: 46	nan: 46	nan: 46	phrog_9275: 46	nan: 46	clu_1387
+17	2466	79_clan	46	T3p0.65, nan	hypothetical protein: 46	nan: 46	45.58695652173913	4.906123552172197	11.340434782608694	0.2381218784267991	nan: 46	nan: 46	nan: 46	phrog_10380: 45; phrog_10380,phrog_23914: 1	nan: 46	clu_2466
+18	8433	13_clan	38	nan	terminase large subunit: 38	nan: 21; Terminase_6N: 17	564.5	44.11149877667189	5.303684210526316	0.1646358972486662	nan: 38	nan: 38	nan: 38	phrog_38,phrog_4758,phrog_15524,phrog_17672: 33; phrog_38,phrog_15524,phrog_17672: 5	nan: 21; PF03237.18: 17	clu_8433
+19	30	20_clan	36	T7p0.4, nan	hypothetical protein: 36	nan: 36	51.52777777777778	1.383290303404192	5.02138888888889	1.1955827097583067	nan: 36	nan: 36	nan: 36	phrog_25044,phrog_7202: 33; phrog_7202: 3	nan: 36	clu_30
+20	7467	31_clan	36	T7p0.6A, nan	hypothetical protein: 36	nan: 36	49.69444444444444	4.903756253814557	10.549722222222222	0.28329173364079435	nan: 36	nan: 36	nan: 36	phrog_8393,phrog_29241: 36	nan: 36	clu_7467
+21	7503	68_clan	35	nan	nan: 35	nan: 35	30.0	0.0	8.323714285714285	0.7677740388876898	nan: 35	nan: 35	nan: 35	nan: 35	nan: 35	clu_7503
+22	7952	78_clan	35	nan	2OG-Fe(II) oxygenase: 32; DNA endonuclease,2OG-Fe(II) oxygenase: 3	nan: 27; 2OG-FeII_Oxy_3: 8	237.02857142857144	9.102312939046657	5.0765714285714285	0.26276743079970094	nan: 35	nan: 35	nan: 35	phrog_61: 32; phrog_2297,phrog_61: 3	nan: 27; PF13640.9: 8	clu_7952
+23	154	2002_mono	30	nan	hypothetical protein: 30	nan: 30	93.03333333333333	2.5795392977246405	8.564666666666666	0.9675626446201653	nan: 30	nan: 30	nan: 30	phrog_9817,phrog_24523: 26; phrog_9817: 4	nan: 30	clu_154
+24	229	outlier: 79_clan	28	nan	hypothetical protein: 28	nan: 28	77.46428571428571	2.134064854739144	11.57642857142857	0.23659958807944928	nan: 28	nan: 28	nan: 28	phrog_10380,phrog_23914: 22; phrog_23914: 6	nan: 28	clu_229
+25	3453	412_pair	25	nan	hypothetical protein: 25	nan: 25	84.92	2.215851980616034	9.5352	0.2343985210419782	nan: 25	nan: 25	nan: 25	phrog_10124: 25	nan: 25	clu_3453
+26	17269	66_clan	24	nan	hypothetical protein: 24	nan: 24	74.75	0.8469895538599191	4.18625	0.3106768557450848	nan: 24	nan: 24	nan: 24	phrog_6403: 24	nan: 24	clu_17269
+27	750	1436_mono	24	nan	hypothetical protein: 24	nan: 24	61.125	3.663124112130186	8.0175	1.366621508621201	nan: 24	nan: 24	nan: 24	phrog_12100: 24	nan: 24	clu_750
+28	16829	143_clan	24	nan	hypothetical protein: 24	nan: 24	165.41666666666666	10.769993204417004	5.2179166666666665	0.36022914406233697	nan: 24	nan: 24	nan: 24	phrog_7806: 24	nan: 24	clu_16829
+29	15652	33_clan	23	nan	ocr-like anti-restriction: 23	ocr: 23	171.8695652173913	5.778520948116929	4.066086956521739	0.03677191745127652	APIS087: 23	CLAN020: 23	restriction-modification (RM);bacteriophage exclusion (BREX): 23	phrog_2568: 23	PF08684.13: 23	clu_15652
+30	13700	154_clan	22	nan	hypothetical protein: 22	nan: 22	183.36363636363637	6.114350446718064	9.251363636363637	0.36892760232541	nan: 22	nan: 22	nan: 22	phrog_8679: 22	nan: 22	clu_13700
+31	688	2469_mono	22	nan	hypothetical protein: 22	nan: 22	55.04545454545455	3.8603882450599976	9.705454545454545	0.28832401206062547	nan: 22	nan: 22	nan: 22	phrog_25811: 22	nan: 22	clu_688
+32	14212	66_clan	20	nan	hypothetical protein: 20	nan: 20	72.05	6.3201848740448465	5.071	0.7312059253474068	nan: 20	nan: 20	nan: 20	phrog_6403: 20	nan: 20	clu_14212
+33	8815	414_pair	20	nan	hypothetical protein: 20	nan: 20	53.5	2.910959328215754	5.885	1.7385278103523165	nan: 20	nan: 20	nan: 20	phrog_14219: 20	nan: 20	clu_8815
+34	5301	256_pair	20	nan	hypothetical protein: 20	nan: 20	87.3	6.358583092747033	6.668000000000001	0.5258837173848667	nan: 20	nan: 20	nan: 20	phrog_16407: 20	nan: 20	clu_5301
+35	697	27_clan	19	nan	hypothetical protein: 19	nan: 19	166.73684210526315	26.726686840566003	8.986315789473684	0.1548551483130748	nan: 19	nan: 19	nan: 19	phrog_9238: 15; phrog_9238,phrog_6379: 3; phrog_9238,phrog_6440,phrog_6379: 1	nan: 19	clu_697
+36	2385	380_pair	19	nan	terminase small subunit: 19	DNA_Packaging_2: 19	86.52631578947368	4.060219220308071	4.730526315789473	0.21300687741141436	nan: 19	nan: 19	nan: 19	phrog_1351: 19	PF11123.11: 19	clu_2385
+37	14849	97_clan	19	nan	hypothetical protein: 19	DUF5465: 11; nan: 8	50.89473684210526	1.2864566686188537	8.512631578947369	1.0284445758591152	nan: 19	nan: 19	nan: 19	phrog_2193: 19	PF17553.5: 11; nan: 8	clu_14849
+38	266	116_clan	19	nan	hypothetical protein: 19	nan: 19	61.05263157894737	3.9224947306887112	4.602631578947369	0.5495638887665903	nan: 19	nan: 19	nan: 19	phrog_20418: 19	nan: 19	clu_266
+39	10700	8_clan	18	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 18	nan: 18	248.0	12.727922061357855	5.626111111111111	0.8241868640836887	nan: 18	nan: 18	nan: 18	phrog_15752,phrog_2828,phrog_18305: 18	nan: 18	clu_10700
+40	9374	134_clan	18	nan	nan: 18	nan: 18	68.33333333333333	3.0292689857844057	9.637222222222222	0.16792174492393958	nan: 18	nan: 18	nan: 18	nan: 18	nan: 18	clu_9374
+41	15238	1524_mono	18	nan	nan: 18	nan: 18	35.166666666666664	3.8233031607267978	9.38111111111111	0.33344703942991466	nan: 18	nan: 18	nan: 18	nan: 18	nan: 18	clu_15238
+42	892	175_clan	17	nan	hypothetical protein: 17	nan: 17	69.29411764705883	3.9649197009894293	7.346470588235294	1.259399366645022	nan: 17	nan: 17	nan: 17	phrog_4445: 17	nan: 17	clu_892
+43	1371	73_clan	17	nan	hypothetical protein: 17	nan: 17	71.76470588235294	2.305683514836378	4.869999999999999	0.3283671725370855	nan: 17	nan: 17	nan: 17	phrog_30192: 17	nan: 17	clu_1371
+44	12959	outlier: 48_clan	17	nan	hypothetical protein: 17	nan: 17	52.23529411764706	4.451536416855223	9.194705882352942	0.5495807225405884	nan: 17	nan: 17	nan: 17	phrog_16572: 17	nan: 17	clu_12959
+45	259	411_pair	17	nan	hypothetical protein: 17	nan: 17	172.1764705882353	7.169687006048862	5.6917647058823535	0.33849363535592597	nan: 17	nan: 17	nan: 17	phrog_11084: 17	nan: 17	clu_259
+46	2988	1330_mono	16	nan	hypothetical protein: 16	nan: 16	52.125	4.129164564412517	9.647499999999999	0.2783882181415005	nan: 16	nan: 16	nan: 16	phrog_13225: 16	nan: 16	clu_2988
+47	9072	94_clan	16	nan	nan: 16	nan: 16	70.625	4.787135538781691	11.0425	0.3119294792096445	nan: 16	nan: 16	nan: 16	nan: 16	nan: 16	clu_9072
+48	17319	70_clan	16	nan	hypothetical protein: 16	nan: 16	66.4375	0.7274384280931714	6.023125	1.1349227213045534	nan: 16	nan: 16	nan: 16	phrog_7884: 16	nan: 16	clu_17319
+49	8636	79_clan	16	nan	hypothetical protein: 16	nan: 16	56.5	2.0	11.519375	0.37759711775029947	nan: 16	nan: 16	nan: 16	phrog_10380,phrog_23914: 12; phrog_10380: 4	nan: 16	clu_8636
+50	54	15_clan	15	nan	hypothetical protein: 12; nan: 3	nan: 15	64.2	2.8334733858943206	10.03	0.2749805187904883	nan: 15	nan: 15	nan: 15	phrog_2385: 12; nan: 3	nan: 15	clu_54
+51	3563	988_mono	15	nan	hypothetical protein: 15	nan: 15	66.26666666666667	2.840187787218773	10.004	0.12619712471254796	nan: 15	nan: 15	nan: 15	phrog_13599: 15	nan: 15	clu_3563
+52	10689	outlier: 84_clan	15	nan	holin: 15	Phage_holin_2_2: 15	67.6	2.1974010622941447	6.64	1.0769931688336214	nan: 15	nan: 15	nan: 15	phrog_920: 15	PF10746.12: 15	clu_10689
+53	837	151_clan	15	nan	hypothetical protein: 15	nan: 15	53.266666666666666	2.7894358535288784	10.844	0.34231981704665765	nan: 15	nan: 15	nan: 15	phrog_35222: 15	nan: 15	clu_837
+54	2445	838_mono	15	nan	nan: 15	nan: 15	34.0	0.0	5.322	0.22463303408003024	nan: 15	nan: 15	nan: 15	nan: 15	nan: 15	clu_2445
+55	288	2087_mono	15	nan	hypothetical protein: 15	nan: 15	64.0	0.0	8.043333333333333	0.49261208538429785	nan: 15	nan: 15	nan: 15	phrog_11474: 15	nan: 15	clu_288
+56	17704	14_clan	15	nan	HNH endonuclease,hypothetical protein,endonuclease,endonuclease VII: 4; Lar-like restriction alleviation protein,HNH endonuclease,endonuclease,endonuclease VII: 3; HNH endonuclease,hypothetical protein,endonuclease VII: 3; Lar-like restriction alleviation protein,hypothetical protein,endonuclease,endonuclease VII,HNH endonuclease: 2; HNH endonuclease,endonuclease,endonuclease VII: 2; endonuclease,endonuclease VII: 1	Endonuclease_7: 15	148.86666666666667	8.484158908280325	9.320666666666666	0.18017716149337448	nan: 15	nan: 15	nan: 15	phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_2255,phrog_5558,phrog_1035: 3; phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_12813,phrog_2255,phrog_1035: 3; phrog_307,phrog_30859,phrog_2633,phrog_6611,phrog_17507,phrog_2914,phrog_2340,phrog_2255,phrog_1035: 2; phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_12813,phrog_2255,phrog_5558,phrog_1035: 2; phrog_307,phrog_30859,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_2255,phrog_1035: 1; phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_2255: 1; phrog_307,phrog_2633,phrog_6611,phrog_17507,phrog_2914,phrog_2340,phrog_2255,phrog_1035: 1; phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_2255,phrog_1035: 1; phrog_307,phrog_2633,phrog_17507,phrog_2914,phrog_2340,phrog_1035: 1	PF02945.18: 15	clu_17704
+57	2816	1531_mono	14	nan	nan: 14	nan: 14	37.5	1.3445044840729639	6.555714285714286	1.0480730617934717	nan: 14	nan: 14	nan: 14	nan: 14	nan: 14	clu_2816
+58	8511	54_clan	14	nan	hypothetical protein: 13; nan: 1	nan: 14	74.28571428571429	10.087529021432442	9.723571428571429	0.8306402270617446	nan: 14	nan: 14	nan: 14	phrog_19243: 11; phrog_7066,phrog_19243: 1; phrog_7066: 1; nan: 1	nan: 14	clu_8511
+59	3473	282_pair	14	nan	Rz-like spanin: 14	Phage_lysis: 14	148.0	3.9026618135279456	8.492857142857144	0.7823281681221522	nan: 14	nan: 14	nan: 14	phrog_1327: 14	PF03245.16: 14	clu_3473
+60	585	2772_mono	14	nan	hypothetical protein: 14	nan: 14	36.357142857142854	2.373155732746617	4.880000000000001	1.0085328262076851	nan: 14	nan: 14	nan: 14	phrog_17444: 14	nan: 14	clu_585
+61	3004	2711_mono	13	nan	nan: 13	nan: 13	42.0	0.0	9.853846153846153	0.11529227073966292	nan: 13	nan: 13	nan: 13	nan: 13	nan: 13	clu_3004
+62	2290	52_clan	13	nan	SAM-dependent methyltransferase: 13	nan: 13	111.0	0.0	4.32	0.0	APIS091: 13	CLAN015: 13	restriction-modification (RM);bacteriophage exclusion (BREX): 13	phrog_2226: 13	nan: 13	clu_2290
+63	15284	154_clan	13	nan	hypothetical protein: 13	nan: 13	185.3846153846154	16.42426285275568	9.094615384615384	0.9847725235184631	nan: 13	nan: 13	nan: 13	phrog_8679: 13	nan: 13	clu_15284
+64	13	284_pair	13	nan	hypothetical protein: 12; nan: 1	nan: 13	56.15384615384615	2.5115119565099233	7.000769230769231	1.624020020086275	nan: 13	nan: 13	nan: 13	phrog_7319: 12; nan: 1	nan: 13	clu_13
+65	16714	162_clan	13	nan	nan: 13	nan: 13	42.53846153846154	4.520608082536842	10.053076923076922	0.44178397087612475	nan: 13	nan: 13	nan: 13	nan: 13	nan: 13	clu_16714
+66	740	2218_mono	13	nan	hypothetical protein: 13	nan: 13	70.38461538461539	0.9607689228305233	7.781538461538461	0.4241628255329581	nan: 13	nan: 13	nan: 13	phrog_26099: 13	nan: 13	clu_740
+67	1180	25_clan	13	nan	nan: 9; transposase: 4	BrkDBD: 7; nan: 2; HTH_28,HTH_Tnp_1: 2; HTH_23,HTH_28,HTH_Tnp_1: 1; BrkDBD,HTH_Tnp_ISL3: 1	116.6923076923077	1.7974340685458345	9.522307692307692	0.20125248843819005	nan: 13	nan: 13	nan: 13	nan: 9; phrog_2422: 2; phrog_151: 2	PF09607.13: 7; nan: 2; PF13518.9,PF01527.23: 2; PF13384.9,PF13518.9,PF01527.23: 1; PF09607.13,PF13542.9: 1	clu_1180
+68	2011	69_clan	12	nan	hypothetical protein: 12	nan: 12	90.83333333333333	9.888775393742076	8.553333333333333	1.25857302553569	nan: 12	nan: 12	nan: 12	phrog_3199: 12	nan: 12	clu_2011
+69	1376	20_clan	12	nan	hypothetical protein: 12	nan: 12	44.0	0.0	10.606666666666667	0.43328204824725175	nan: 12	nan: 12	nan: 12	phrog_7202: 12	nan: 12	clu_1376
+70	1299	793_mono	11	nan	hypothetical protein: 11	nan: 11	53.36363636363637	3.6406792573015068	9.776363636363635	0.02802596198981473	nan: 11	nan: 11	nan: 11	phrog_16783: 11	nan: 11	clu_1299
+71	33	18_clan	11	nan	hypothetical protein: 10; nan: 1	nan: 11	55.81818181818182	8.692734688441627	9.214545454545455	0.6931863189123634	nan: 11	nan: 11	nan: 11	phrog_5058: 10; nan: 1	nan: 11	clu_33
+72	15688	52_clan	11	nan	SAM-dependent methyltransferase: 11	nan: 11	141.36363636363637	7.486958358007973	4.771818181818182	0.26091447571256665	APIS091: 11	CLAN015: 11	restriction-modification (RM);bacteriophage exclusion (BREX): 11	phrog_2226: 11	nan: 11	clu_15688
+73	16900	307_pair	11	nan	nan: 11	nan: 11	35.0	0.0	8.154545454545454	0.24610419079583454	nan: 11	nan: 11	nan: 11	nan: 11	nan: 11	clu_16900
+74	13610	182_clan	11	nan	virion structural protein: 11	nan: 11	105.45454545454545	15.148357246669596	9.296363636363635	0.827723054255138	nan: 11	nan: 11	nan: 11	phrog_13431: 11	nan: 11	clu_13610
+75	5008	66_clan	10	nan	hypothetical protein: 10	nan: 10	68.2	0.4216370213557825	4.911	0.8579750061109654	nan: 10	nan: 10	nan: 10	phrog_6403: 10	nan: 10	clu_5008
+76	11028	1129_mono	10	nan	nan: 10	nan: 10	52.1	2.330951164939612	4.5440000000000005	0.17582819897717072	nan: 10	nan: 10	nan: 10	nan: 10	nan: 10	clu_11028
+77	17772	63_clan	10	nan	hypothetical protein: 10	nan: 10	131.7	9.019115502334168	9.66	0.2328566559543069	nan: 10	nan: 10	nan: 10	phrog_7066: 10	nan: 10	clu_17772
+78	11766	116_clan	10	nan	hypothetical protein: 10	nan: 10	61.0	4.546060565661953	6.271	0.9990601138625802	nan: 10	nan: 10	nan: 10	phrog_20418: 10	nan: 10	clu_11766
+79	3688	290_pair	10	nan	Kil protein for bacterial septation inhibition: 9; nan: 1	Lambda_Kil: 9; nan: 1	48.3	1.4181364924121778	10.025	0.12158673173226262	nan: 10	nan: 10	nan: 10	phrog_3924: 9; nan: 1	PF06301.14: 9; nan: 1	clu_3688
+80	10265	8_clan	9	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 8; protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase,MarR family transcrition regulator: 1	nan: 9	272.55555555555554	48.59812524962025	5.818888888888889	0.37863057339722483	nan: 9	nan: 9	nan: 9	phrog_15752,phrog_2828,phrog_18305: 8; phrog_15752,phrog_1687,phrog_2828,phrog_18305: 1	nan: 9	clu_10265
+81	11456	1317_mono	9	nan	nan: 9	nan: 9	30.0	0.0	9.64111111111111	0.4383618495160254	nan: 9	nan: 9	nan: 9	nan: 9	nan: 9	clu_11456
+82	3485	166_clan	9	nan	hypothetical protein: 9	nan: 9	109.11111111111111	9.33333333333333	8.945555555555556	1.3655778182797844	nan: 9	nan: 9	nan: 9	phrog_18517: 9	nan: 9	clu_3485
+83	3025	8_clan	9	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 7; hypothetical protein,protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 2	nan: 9	395.8888888888889	33.46806105992864	7.512222222222222	1.2999690167248001	nan: 9	nan: 9	nan: 9	phrog_15752,phrog_2828,phrog_18305: 7; phrog_3809,phrog_15752,phrog_2828,phrog_18305: 2	nan: 9	clu_3025
+84	3607	2135_mono	9	nan	hypothetical protein: 9	nan: 9	76.0	0.0	4.403333333333332	0.04000000000000008	nan: 9	nan: 9	nan: 9	phrog_32657: 9	nan: 9	clu_3607
+85	8611	33_clan	9	nan	ocr-like anti-restriction: 9	ocr: 9	171.55555555555554	6.043821454822912	4.084444444444444	0.0710828937071203	APIS087: 9	CLAN020: 9	restriction-modification (RM);bacteriophage exclusion (BREX): 9	phrog_2568: 9	PF08684.13: 9	clu_8611
+86	50	2278_mono	8	nan	hypothetical protein: 8	nan: 8	76.0	0.0	7.8237499999999995	0.3217335854398789	nan: 8	nan: 8	nan: 8	phrog_21597: 8	nan: 8	clu_50
+87	4024	355_pair	8	nan	nan: 6; hypothetical protein: 2	nan: 8	53.875	3.943801646707328	6.315	0.2654376440091774	nan: 8	nan: 8	nan: 8	nan: 6; phrog_36247: 2	nan: 8	clu_4024
+88	6797	2293_mono	8	nan	hypothetical protein: 8	nan: 8	103.75	0.7071067811865497	8.74125	1.5475550994114184	nan: 8	nan: 8	nan: 8	phrog_554: 7; phrog_554,phrog_12194: 1	nan: 8	clu_6797
+89	12433	2746_mono	8	nan	hypothetical protein: 6; nan: 2	nan: 8	79.5	2.7774602993176547	6.45375	0.3732841698070941	nan: 8	nan: 8	nan: 8	phrog_30554: 6; nan: 2	nan: 8	clu_12433
+90	10320	2810_mono	8	nan	hypothetical protein: 8	nan: 8	64.25	2.4928469095164494	6.36625	1.1927631485636319	nan: 8	nan: 8	nan: 8	phrog_10097,phrog_336: 8	nan: 8	clu_10320
+91	9068	48_clan	8	T7p0.5, nan	hypothetical protein: 8	nan: 8	69.375	1.505940617307718	8.36125	1.2019322241410169	nan: 8	nan: 8	nan: 8	phrog_16572: 8	nan: 8	clu_9068
+92	3047	355_pair	8	nan	hypothetical protein: 8	nan: 8	52.0	0.0	6.81125	0.4932237249536391	nan: 8	nan: 8	nan: 8	phrog_36247: 8	nan: 8	clu_3047
+93	16958	62_clan	8	nan	hypothetical protein,anti-repressor,anti-repressor Ant: 8	Bro-N: 8	277.5	7.690439333539869	9.14125	0.30455764174102956	nan: 8	nan: 8	nan: 8	phrog_245,phrog_2011,phrog_450,phrog_7940,phrog_130,phrog_25722,phrog_5060,phrog_2593: 6; phrog_2011,phrog_450,phrog_130,phrog_7940,phrog_25722,phrog_5060,phrog_2593: 2	PF02498.20: 8	clu_16958
+94	157	1386_mono	8	nan	nan: 8	nan: 8	42.0	0.0	8.12	0.0	nan: 8	nan: 8	nan: 8	nan: 8	nan: 8	clu_157
+95	839	1113_mono	8	nan	nan: 8	nan: 8	32.0	0.0	6.89	0.0	nan: 8	nan: 8	nan: 8	nan: 8	nan: 8	clu_839
+96	778	690_mono	8	nan	hypothetical protein: 8	nan: 8	62.125	0.35355339059327484	9.11375	0.06457277179386695	nan: 8	nan: 8	nan: 8	phrog_20059: 8	nan: 8	clu_778
+97	280	701_mono	8	nan	nan: 8	nan: 8	33.0	0.0	7.93	0.0	nan: 8	nan: 8	nan: 8	nan: 8	nan: 8	clu_280
+98	17415	52_clan	7	nan	SAM-dependent methyltransferase: 7	nan: 7	141.85714285714286	2.6726124191242464	5.578571428571428	0.1504912590405802	APIS091: 7	CLAN015: 7	restriction-modification (RM);bacteriophage exclusion (BREX): 7	phrog_2226: 7	nan: 7	clu_17415
+99	2493	864_mono	7	nan	hypothetical protein: 7	nan: 7	55.0	0.0	10.962857142857143	0.35302097603939814	nan: 7	nan: 7	nan: 7	phrog_10380: 7	nan: 7	clu_2493
+100	5275	97_clan	7	nan	hypothetical protein: 7	nan: 7	60.42857142857143	6.425396041156862	9.022857142857143	0.24177911997760063	nan: 7	nan: 7	nan: 7	phrog_2193: 7	nan: 7	clu_5275
+101	13463	2803_mono	7	nan	nan: 7	nan: 7	69.28571428571429	2.9277002188456	9.462857142857143	0.3735288603626361	nan: 7	nan: 7	nan: 7	nan: 7	nan: 7	clu_13463
+102	366	61_clan	6	nan	hypothetical protein: 6	nan: 6	32.666666666666664	0.816496580927726	4.25	0.30983866769659363	nan: 6	nan: 6	nan: 6	phrog_2061: 6	nan: 6	clu_366
+103	10755	52_clan	6	nan	hypothetical protein,SAM-dependent methyltransferase: 4; SAM-dependent methyltransferase: 2	nan: 6	160.83333333333334	12.93702696397695	4.993333333333333	0.11003029885748139	APIS091: 6	CLAN015: 6	restriction-modification (RM);bacteriophage exclusion (BREX): 6	phrog_2226,phrog_22483: 4; phrog_2226: 2	nan: 6	clu_10755
+104	5180	202_pair	6	nan	nan: 6	nan: 6	38.666666666666664	6.531972647421808	5.206666666666667	1.1159510144565783	nan: 6	nan: 6	nan: 6	nan: 6	nan: 6	clu_5180
+105	15165	17_clan	6	nan	HNH endonuclease,endonuclease: 6	HNH_3: 4; HNH_3,zf-His_Me_endon: 2	146.5	7.314369419163897	9.67	0.39166312055132213	nan: 6	nan: 6	nan: 6	phrog_1492,phrog_1872,phrog_6254,phrog_59,phrog_826,phrog_3593: 4; phrog_826,phrog_99,phrog_1872,phrog_6254,phrog_59,phrog_4842,phrog_10495,phrog_3593,phrog_1891: 1; phrog_1492,phrog_99,phrog_1872,phrog_6254,phrog_59,phrog_4842,phrog_826,phrog_3593: 1	PF13392.9: 4; PF13392.9,PF05551.14: 2	clu_15165
+106	17186	363_pair	6	nan	hypothetical protein: 6	nan: 6	115.0	0.0	9.861666666666666	0.02994439290863444	nan: 6	nan: 6	nan: 6	phrog_11472: 6	nan: 6	clu_17186
+107	13989	4_clan; 8_clan	6	nan	nan: 6	nan: 6	68.83333333333333	11.356349178616632	7.5683333333333325	1.808783200570667	APIS085: 4; nan: 2	CLAN020: 4; nan: 2	restriction-modification (RM);bacteriophage exclusion (BREX): 4; nan: 2	nan: 6	nan: 6	clu_13989
+108	6952	61_clan	6	nan	hypothetical protein: 5; hypothetical protein,unknown function: 1	nan: 6	51.666666666666664	7.061633427661525	4.1499999999999995	0.17538529014715018	nan: 6	nan: 6	nan: 6	phrog_2061: 4; phrog_2061,phrog_35040: 1; phrog_2061,phrog_22232: 1	nan: 6	clu_6952
+109	6885	123_clan	5	nan	nan: 5	nan: 5	45.2	7.463243262818116	8.132	1.082783450187525	nan: 5	nan: 5	nan: 5	nan: 5	nan: 5	clu_6885
+110	3368	69_clan	5	nan	hypothetical protein: 5	nan: 5	94.2	8.01249024960405	8.256	1.0054004177440943	nan: 5	nan: 5	nan: 5	phrog_3199: 5	nan: 5	clu_3368
+111	11158	13_clan	5	nan	terminase large subunit: 5	Terminase_6N: 3; nan: 2	161.0	7.8740078740118085	9.658	0.24923884127479004	nan: 5	nan: 5	nan: 5	phrog_38,phrog_4758,phrog_17672: 5	PF03237.18: 3; nan: 2	clu_11158
+112	6736	305_pair	5	nan	hypothetical protein: 5	nan: 5	66.0	0.0	7.918000000000001	1.179817782541016	nan: 5	nan: 5	nan: 5	phrog_36438: 5	nan: 5	clu_6736
+113	6718	20_clan	5	nan	hypothetical protein: 5	nan: 5	89.0	0.0	9.178	0.10733126291998948	APIS087: 5	CLAN020: 5	restriction-modification (RM);bacteriophage exclusion (BREX): 5	phrog_25044,phrog_7202: 5	nan: 5	clu_6718
+114	6714	1774_mono	5	nan	nan: 5	nan: 5	33.6	0.5477225575051667	5.3	0.0	nan: 5	nan: 5	nan: 5	nan: 5	nan: 5	clu_6714
+115	4679	1488_mono	5	nan	hypothetical protein: 5	nan: 5	78.8	6.260990336999412	8.958	0.21194338866782353	nan: 5	nan: 5	nan: 5	phrog_19860: 5	nan: 5	clu_4679
+116	5892	56_clan	5	nan	HNH endonuclease: 5	nan: 5	181.6	5.813776741499455	9.564	0.008944271909998688	nan: 5	nan: 5	nan: 5	phrog_2081,phrog_953: 5	nan: 5	clu_5892
+117	7277	outlier: 15_clan	5	nan	nan: 5	nan: 5	42.0	0.0	11.01	0.0	nan: 5	nan: 5	nan: 5	nan: 5	nan: 5	clu_7277
+118	613	64_clan	5	nan	nan: 3; hypothetical protein: 2	nan: 5	74.0	3.535533905932736	5.864	0.6335850377021226	nan: 5	nan: 5	nan: 5	nan: 3; phrog_11917: 2	nan: 5	clu_613
+119	16273	1580_mono	5	nan	hypothetical protein: 5	nan: 5	66.2	1.7888543819998306	9.734	0.24213632523849035	nan: 5	nan: 5	nan: 5	phrog_16587: 5	nan: 5	clu_16273
+120	9661	369_pair	5	nan	nan: 5	nan: 5	77.8	1.6431676725154987	8.922	0.2625261891697669	nan: 5	nan: 5	nan: 5	nan: 5	nan: 5	clu_9661
+121	8109	212_pair	5	nan	nan: 5	nan: 5	51.6	6.308724118235002	9.208	0.31292171544972697	nan: 5	nan: 5	nan: 5	nan: 5	nan: 5	clu_8109
+122	5066	31_clan; 48_clan	5	nan	hypothetical protein: 5	nan: 5	106.6	4.449719092257396	10.309999999999999	0.4949242366261725	nan: 5	nan: 5	nan: 5	phrog_8393,phrog_29241: 5	nan: 5	clu_5066
+123	16967	151_clan	5	nan	hypothetical protein: 5	nan: 5	42.6	3.0495901363953815	11.379999999999999	0.1504991694329245	nan: 5	nan: 5	nan: 5	phrog_35222: 5	nan: 5	clu_16967
+124	9186	125_clan	4	nan	hypothetical protein: 4	nan: 4	147.0	10.893423092245461	8.0125	0.9501710372348755	nan: 4	nan: 4	nan: 4	phrog_25437: 4	nan: 4	clu_9186
+125	8473	1101_mono	4	nan	nan: 4	nan: 4	80.75	2.217355782608345	9.075	1.4852272553383876	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_8473
+126	6288	2757_mono	4	nan	hypothetical protein: 4	nan: 4	139.0	3.9999999999999973	6.3225	1.067251141953008	nan: 4	nan: 4	nan: 4	phrog_6246: 4	nan: 4	clu_6288
+127	12342	24_clan	4	nan	HNH endonuclease,hypothetical protein: 4	HNH_3: 4	129.5	17.97220075561143	8.219999999999999	1.3333916653906808	nan: 4	nan: 4	nan: 4	phrog_37683,phrog_30377,phrog_1492,phrog_99,phrog_59,phrog_959: 3; phrog_37683,phrog_1492,phrog_99,phrog_59,phrog_959: 1	PF13392.9: 4	clu_12342
+128	11960	70_clan	4	nan	hypothetical protein: 4	nan: 4	79.0	3.4641016151377544	6.1899999999999995	0.4643274706497561	nan: 4	nan: 4	nan: 4	phrog_7884: 4	nan: 4	clu_11960
+129	8668	73_clan	4	nan	hypothetical protein: 4	nan: 4	47.0	0.0	4.66	0.0	nan: 4	nan: 4	nan: 4	phrog_30192: 4	nan: 4	clu_8668
+130	8954	1090_mono	4	nan	nan: 4	nan: 4	37.0	0.0	10.15	0.0	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_8954
+131	8236	2148_mono	4	nan	hypothetical protein: 4	nan: 4	50.0	0.0	10.425	0.32264531609803354	nan: 4	nan: 4	nan: 4	phrog_2423: 4	nan: 4	clu_8236
+132	8280	160_clan	4	nan	nan: 4	nan: 4	33.5	2.3804761428476167	7.6274999999999995	1.7550569791320165	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_8280
+133	9512	1373_mono	4	nan	nan: 4	nan: 4	30.0	0.0	10.3	0.0	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_9512
+134	6030	64_clan	4	nan	nan: 3; hypothetical protein: 1	nan: 4	71.25	3.8622100754188238	5.595	0.2150193789716017	nan: 4	nan: 4	nan: 4	nan: 3; phrog_11917: 1	nan: 4	clu_6030
+135	9700	2200_mono	4	nan	nan: 4	nan: 4	58.5	7.54983443527075	6.0375000000000005	2.294084784832505	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_9700
+136	4040	166_clan	4	nan	hypothetical protein: 4	nan: 4	76.5	1.7320508075688772	10.05	0.35795716689756707	nan: 4	nan: 4	nan: 4	phrog_18517: 4	nan: 4	clu_4040
+137	3324	867_mono	4	nan	nan: 4	nan: 4	34.0	0.0	4.86	0.0	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_3324
+138	3979	54_clan	4	nan	hypothetical protein: 4	nan: 4	117.5	5.686240703077326	10.0	0.32721043178154763	nan: 4	nan: 4	nan: 4	phrog_7066: 4	nan: 4	clu_3979
+139	5328	175_clan	4	nan	nan: 4	nan: 4	44.0	0.0	10.0075	0.6769231861888019	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_5328
+140	10910	283_pair	4	nan	nan: 4	nan: 4	95.25	2.8722813232690148	5.89	0.7412601882380212	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_10910
+141	3542	54_clan	4	nan	hypothetical protein: 4	nan: 4	59.0	0.0	10.5	0.0	nan: 4	nan: 4	nan: 4	phrog_19243: 4	nan: 4	clu_3542
+142	6382	1803_mono	4	nan	nan: 4	nan: 4	32.0	0.0	7.6275	1.1000416658775551	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_6382
+143	17392	741_mono	4	nan	hypothetical protein: 4	nan: 4	167.0	0.0	4.362500000000001	0.04924428900898029	nan: 4	nan: 4	nan: 4	phrog_23478: 4	nan: 4	clu_17392
+144	17412	414_pair	4	nan	hypothetical protein: 3; nan: 1	nan: 4	59.25	3.2015621187164243	8.2325	0.39229028367608954	nan: 4	nan: 4	nan: 4	phrog_14219: 3; nan: 1	nan: 4	clu_17412
+145	15197	1429_mono	4	nan	nan: 4	nan: 4	69.0	0.0	8.655	0.8133265027035578	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_15197
+146	2251	399_pair	4	nan	nan: 4	nan: 4	40.75	1.5	9.735	1.87	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_2251
+147	17565	1210_mono	4	nan	nan: 4	nan: 4	96.0	0.0	9.219999999999999	0.18867962264113225	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_17565
+148	1625	110_clan	4	nan	nan: 4	nan: 4	43.0	0.0	8.84	0.0	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_1625
+149	17321	bridge: 15_clan, 15_clan	4	nan	nan: 4	nan: 4	54.75	7.5	10.825	0.010000000000000083	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_17321
+150	1263	2659_mono	4	nan	hypothetical protein: 4	nan: 4	91.75	2.5	9.97	0.108012344973464	nan: 4	nan: 4	nan: 4	phrog_23827: 4	nan: 4	clu_1263
+151	13452	1680_mono	4	nan	nan: 4	nan: 4	75.0	4.0	4.5375	0.15882380174268607	nan: 4	nan: 4	nan: 4	nan: 4	nan: 4	clu_13452
+152	16068	380_pair	3	nan	terminase small subunit: 3	DNA_Packaging_2: 3	80.66666666666667	14.0118997046558	4.873333333333333	0.06658328118479405	nan: 3	nan: 3	nan: 3	phrog_1351: 3	PF11123.11: 3	clu_16068
+153	11141	171_clan	3	nan	nan: 3	nan: 3	42.0	0.0	5.986666666666667	0.5100326786916042	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_11141
+154	2153	113_clan	3	nan	nan: 3	nan: 3	63.666666666666664	5.773502691896256	9.786666666666667	0.09814954576223633	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_2153
+155	5721	27_clan	3	nan	hypothetical protein: 3	nan: 3	94.0	7.0	8.319999999999999	1.6735889578985639	nan: 3	nan: 3	nan: 3	phrog_8103,phrog_6379: 1; phrog_6440,phrog_9238,phrog_8103,phrog_6379: 1; phrog_9238,phrog_8103,phrog_6379: 1	nan: 3	clu_5721
+156	4724	622_mono	3	nan	nan: 3	nan: 3	39.0	0.0	10.59	0.4676537180435961	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_4724
+157	5661	140_clan	3	nan	nan: 3	nan: 3	32.333333333333336	1.154700538379251	8.13	0.11269427669584674	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_5661
+158	16632	2_clan	3	nan	integrase: 3	Phage_integrase: 3	497.0	8.660254037844387	8.606666666666667	1.5126577052768193	nan: 3	nan: 3	nan: 3	phrog_1: 2; phrog_1,phrog_216: 1	PF00589.25: 3	clu_16632
+159	4596	20_clan	3	nan	hypothetical protein: 3	nan: 3	69.0	5.196152422706632	9.373333333333333	0.12701705922171727	nan: 3	nan: 3	nan: 3	phrog_25044,phrog_7202: 3	nan: 3	clu_4596
+160	10798	20_clan	3	nan	hypothetical protein: 3	nan: 3	96.0	11.789826122551595	9.706666666666665	0.2589079630550855	nan: 3	nan: 3	nan: 3	phrog_25044,phrog_7202: 3	nan: 3	clu_10798
+161	3357	2093_mono	3	nan	nan: 3	nan: 3	41.0	0.0	10.0	0.0	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_3357
+162	666	580_mono	3	nan	nan: 3	nan: 3	42.333333333333336	2.886751345948128	8.299999999999999	1.5418171097766438	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_666
+163	1175	151_clan	3	nan	hypothetical protein: 3	nan: 3	93.33333333333333	18.77054430040145	10.453333333333333	0.2916047553338817	nan: 3	nan: 3	nan: 3	phrog_35222: 3	nan: 3	clu_1175
+164	3528	1684_mono	3	nan	nan: 3	nan: 3	31.333333333333332	1.1547005383792517	8.203333333333333	0.49074772881118167	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_3528
+165	4912	108_clan	3	nan	nan: 3	nan: 3	57.666666666666664	0.5773502691896247	4.923333333333333	0.11547005383792538	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_4912
+166	17190	2547_mono	3	nan	nan: 3	nan: 3	128.66666666666666	2.886751345948127	7.7	0.03464101615137732	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_17190
+167	10632	1719_mono	3	nan	nan: 3	nan: 3	41.333333333333336	0.5773502691896263	9.353333333333333	0.3415162270424836	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_10632
+168	1881	4_clan; 8_clan	3	nan	nan: 3	nan: 3	87.0	0.0	4.273333333333333	0.06350852961085844	APIS085: 3	CLAN020: 3	restriction-modification (RM);bacteriophage exclusion (BREX): 3	nan: 3	nan: 3	clu_1881
+169	3794	1817_mono	3	nan	nan: 3	nan: 3	49.0	0.0	8.203333333333333	0.04041451884327397	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_3794
+170	15223	54_clan	3	nan	nan: 3	nan: 3	77.0	0.0	9.933333333333334	0.09814954576223582	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_15223
+171	10219	175_clan	3	nan	nan: 3	nan: 3	133.0	0.0	6.670000000000001	0.36345563690772487	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_10219
+172	2293	425_pair	3	nan	hypothetical protein: 3	nan: 3	170.66666666666666	1.5275252316519499	5.94	0.8154140052758475	nan: 3	nan: 3	nan: 3	phrog_31405: 3	nan: 3	clu_2293
+173	11232	842_mono	3	nan	nan: 3	nan: 3	32.0	0.0	10.29	0.0	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_11232
+174	2940	2572_mono	3	nan	nan: 3	nan: 3	39.0	0.0	4.93	0.4330127018922193	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_2940
+175	15684	1350_mono	3	nan	hypothetical protein: 3	nan: 3	101.0	15.588457268119896	5.669999999999999	0.9872689603142599	nan: 3	nan: 3	nan: 3	phrog_29460: 3	nan: 3	clu_15684
+176	8757	538_mono	3	nan	nan: 3	nan: 3	36.0	0.0	6.54	0.2771281292110206	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_8757
+177	6244	1603_mono	3	nan	nan: 3	nan: 3	46.0	0.0	10.2	0.7274613391789283	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_6244
+178	16310	2549_mono	3	nan	nan: 3	nan: 3	61.0	0.0	9.83	0.1558845726811987	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_16310
+179	8627	730_mono	3	nan	hypothetical protein: 3	nan: 3	127.0	1.0	4.91	0.20808652046684767	nan: 3	nan: 3	nan: 3	phrog_5680,phrog_22565: 2; phrog_22565: 1	nan: 3	clu_8627
+180	4644	54_clan	3	nan	hypothetical protein: 3	nan: 3	87.33333333333333	5.859465277082317	10.15	0.23895606290697002	nan: 3	nan: 3	nan: 3	phrog_7066: 3	nan: 3	clu_4644
+181	9225	27_clan	3	nan	hypothetical protein: 3	nan: 3	70.0	0.0	8.98	0.0	nan: 3	nan: 3	nan: 3	phrog_8103,phrog_6379: 3	nan: 3	clu_9225
+182	6941	2685_mono	3	nan	hypothetical protein: 3	nan: 3	109.0	0.0	4.626666666666667	0.06027713773341694	nan: 3	nan: 3	nan: 3	phrog_23974,phrog_18383: 2; phrog_23974: 1	nan: 3	clu_6941
+183	11841	763_mono	3	nan	nan: 3	nan: 3	68.66666666666667	10.115993936995677	9.576666666666666	1.3370240586217335	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_11841
+184	9668	8_clan	3	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 3	nan: 3	408.6666666666667	24.664414311581243	7.6933333333333325	0.6553116307020137	nan: 3	nan: 3	nan: 3	phrog_15752,phrog_2828,phrog_18305: 3	nan: 3	clu_9668
+185	6063	223_pair	3	nan	nan: 3	nan: 3	58.333333333333336	0.5773502691896247	9.889999999999999	0.3464101615137755	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_6063
+186	8117	1998_mono	3	nan	hypothetical protein: 3	nan: 3	160.33333333333334	0.5773502691896278	8.18	0.9090104509850252	nan: 3	nan: 3	nan: 3	phrog_2563: 3	nan: 3	clu_8117
+187	1553	154_clan	3	nan	hypothetical protein: 3	nan: 3	146.0	5.196152422706632	9.15	0.9179869280115047	nan: 3	nan: 3	nan: 3	phrog_8679: 3	nan: 3	clu_1553
+188	254	54_clan	3	nan	hypothetical protein: 3	nan: 3	51.0	0.0	9.39	0.1558845726811987	nan: 3	nan: 3	nan: 3	phrog_19243: 3	nan: 3	clu_254
+189	5823	1131_mono	3	nan	nan: 3	nan: 3	33.0	0.0	5.890000000000001	0.5542562584220406	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_5823
+190	7011	2211_mono	3	nan	nan: 3	nan: 3	108.0	3.4641016151377544	8.813333333333334	0.13279056191361444	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_7011
+191	11378	2376_mono	3	nan	nan: 3	nan: 3	80.33333333333333	1.1547005383792526	9.103333333333333	0.3412232895529459	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_11378
+192	3070	1247_mono	3	nan	nan: 3	nan: 3	31.333333333333332	1.1547005383792517	7.416666666666667	1.4433756729740643	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_3070
+193	5737	386_pair	3	nan	nan: 3	nan: 3	69.66666666666667	3.0550504633038913	7.11	1.6628890522220656	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_5737
+194	13280	104_clan	3	nan	nan: 3	nan: 3	53.666666666666664	4.618802153517006	11.606666666666667	0.25929391302792515	nan: 3	nan: 3	nan: 3	nan: 3	nan: 3	clu_13280
+195	16999	1818_mono	2	nan	nan: 2	nan: 2	33.0	0.0	11.12	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_16999
+196	16074	683_mono	2	nan	nan: 2	sCache_2: 2	126.0	0.0	9.91	0.0	nan: 2	nan: 2	nan: 2	nan: 2	PF17200.7: 2	clu_16074
+197	16441	350_pair	2	nan	nan: 2	nan: 2	33.0	0.0	9.18	1.1313708498984765	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_16441
+198	17005	714_mono	2	nan	nan: 2	nan: 2	70.0	0.0	9.690000000000001	0.15556349186104027	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17005
+199	16895	295_pair	2	nan	hypothetical protein: 2	nan: 2	362.0	0.0	4.73	0.0	nan: 2	nan: 2	nan: 2	phrog_12315: 2	nan: 2	clu_16895
+200	16083	96_clan	2	nan	nan: 2	nan: 2	49.5	4.949747468305833	9.84	0.1979898987322341	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_16083
+201	8299	1048_mono	2	nan	nan: 2	nan: 2	81.0	0.0	4.83	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_8299
+202	16378	162_clan	2	nan	nan: 2	nan: 2	32.0	0.0	11.56	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_16378
+203	16857	152_clan	2	nan	hypothetical protein: 2	nan: 2	65.0	0.0	4.33	0.0	nan: 2	nan: 2	nan: 2	phrog_6314: 2	nan: 2	clu_16857
+204	17021	76_clan	2	nan	nan: 2	nan: 2	39.0	0.0	9.875	0.38890872965260165	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17021
+205	12916	2594_mono	2	nan	nan: 2	nan: 2	30.0	0.0	5.44	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_12916
+206	17088	outlier; outlier: 1_clan	2	nan	nan: 2	RPOL_N: 2	307.0	9.899494936611665	7.48	1.7960512242138305	nan: 2	nan: 2	nan: 2	nan: 2	PF14700.9: 2	clu_17088
+207	8076	415_pair	2	nan	hypothetical protein: 2	nan: 2	73.0	0.0	4.9399999999999995	0.21213203435596445	nan: 2	nan: 2	nan: 2	phrog_19783: 2	nan: 2	clu_8076
+208	17810	34_clan	2	nan	hypothetical protein,tail fiber protein,tail spike protein,haemolysin-type calcium binding,tail protein,virion structural protein: 2	Phage_T7_tail,Tail_spike_N: 2	804.0	0.0	5.14	0.0	nan: 2	nan: 2	nan: 2	phrog_34776,phrog_13980,phrog_38183,phrog_4818,phrog_29731,phrog_14442,phrog_11182,phrog_27367,phrog_7992,phrog_8846,phrog_16586,phrog_13362,phrog_19921,phrog_22294,phrog_32933,phrog_23412,phrog_1819,phrog_26630,phrog_15437,phrog_26143,phrog_9502,phrog_24786,phrog_4217,phrog_27199,phrog_21878,phrog_15695,phrog_14879,phrog_31166,phrog_27156,phrog_20900,phrog_18484,phrog_4242,phrog_21710,phrog_36390,phrog_8460,phrog_17312,phrog_6256,phrog_25325,phrog_34575: 2	PF03906.17,PF18668.4: 2	clu_17810
+209	17748	1573_mono	2	nan	nan: 2	nan: 2	38.0	0.0	9.7	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17748
+210	17588	2671_mono	2	nan	nan: 2	nan: 2	59.0	0.0	10.055	0.06363961030678918	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17588
+211	6796	64_clan	2	nan	nan: 1; hypothetical protein: 1	nan: 2	86.0	7.0710678118654755	6.625	0.12020815280171303	nan: 2	nan: 2	nan: 2	nan: 1; phrog_11917: 1	nan: 2	clu_6796
+212	17538	44_clan	2	nan	hypothetical protein: 2	nan: 2	102.0	0.0	5.824999999999999	0.3323401871576768	nan: 2	nan: 2	nan: 2	phrog_21575: 2	nan: 2	clu_17538
+213	6817	127_clan	2	nan	hypothetical protein: 2	nan: 2	69.0	0.0	5.535	0.3323401871576775	nan: 2	nan: 2	nan: 2	phrog_27681: 2	nan: 2	clu_6817
+214	17522	208_pair	2	nan	nan: 2	nan: 2	51.0	0.0	11.07	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17522
+215	17453	400_pair	2	nan	nan: 2	nan: 2	47.0	0.0	7.99	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17453
+216	17448	1075_mono	2	nan	nan: 2	nan: 2	78.0	0.0	9.0	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17448
+217	17446	363_pair	2	nan	hypothetical protein: 2	nan: 2	117.5	4.949747468305833	9.645	0.5303300858899106	nan: 2	nan: 2	nan: 2	phrog_1081: 2	nan: 2	clu_17446
+218	6997	2501_mono	2	nan	nan: 2	nan: 2	41.0	0.0	4.36	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_6997
+219	7148	2478_mono	2	nan	nan: 2	nan: 2	33.0	0.0	9.2	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_7148
+220	7181	108_clan	2	nan	nan: 2	nan: 2	66.0	0.0	9.3	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_7181
+221	7355	15_clan	2	nan	nan: 1; hypothetical protein: 1	nan: 2	75.5	10.606601717798213	9.559999999999999	0.07071067811865388	nan: 2	nan: 2	nan: 2	nan: 1; phrog_2385: 1	nan: 2	clu_7355
+222	7376	127_clan	2	nan	hypothetical protein: 2	nan: 2	50.0	0.0	9.88	0.0	nan: 2	nan: 2	nan: 2	phrog_36188: 2	nan: 2	clu_7376
+223	7444	182_clan	2	nan	virion structural protein: 2	nan: 2	117.0	0.0	9.93	0.0	nan: 2	nan: 2	nan: 2	phrog_13431: 2	nan: 2	clu_7444
+224	17395	800_mono	2	nan	nan: 2	nan: 2	95.0	0.0	7.380000000000001	0.6788225099390859	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17395
+225	7639	2348_mono	2	nan	nan: 2	nan: 2	35.0	7.0710678118654755	5.635	1.2515790027001887	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_7639
+226	7755	19_clan	2	nan	HNH endonuclease,endonuclease: 2	HNH_3: 2	134.0	0.0	9.71	0.0	nan: 2	nan: 2	nan: 2	phrog_15471,phrog_1492,phrog_4578,phrog_99,phrog_1872,phrog_6254,phrog_59,phrog_3593,phrog_959,phrog_1891: 2	PF13392.9: 2	clu_7755
+227	7998	123_clan	2	nan	nan: 2	nan: 2	40.5	0.7071067811865476	9.205	0.06363961030678918	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_7998
+228	17119	2043_mono	2	nan	nan: 2	nan: 2	48.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17119
+229	8013	4_clan; 8_clan; 33_clan	2	Ocr::STPK	ocr-like anti-restriction: 2	ocr: 2	232.0	0.0	5.57	0.0	APIS085: 2	CLAN020: 2	restriction-modification (RM);bacteriophage exclusion (BREX): 2	phrog_2568: 2	PF08684.13: 2	clu_8013
+230	8032	1843_mono	2	nan	hypothetical protein: 2	nan: 2	61.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	phrog_28061: 2	nan: 2	clu_8032
+231	17358	1696_mono	2	nan	nan: 2	nan: 2	83.0	0.0	4.67	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_17358
+232	15594	2060_mono	2	nan	nan: 2	nan: 2	66.0	0.0	10.22	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15594
+233	15777	1606_mono	2	nan	nan: 2	nan: 2	33.5	0.7071067811865476	9.334999999999999	3.1183409050326736	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15777
+234	13454	1420_mono	2	nan	nan: 2	nan: 2	37.0	0.0	5.19	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13454
+235	14497	2271_mono	2	nan	nan: 2	nan: 2	82.0	0.0	8.57	0.9758073580374358	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14497
+236	14229	131_clan	2	nan	hypothetical protein,tail fiber protein,tail spike protein,tail protein,tail spike protein with colonic acid degradation activity: 2	End_beta_barrel,End_beta_propel,End_N_terminal,End_tail_spike,Peptidase_S74: 2	812.0	0.0	6.1850000000000005	0.10606601717798207	nan: 2	nan: 2	nan: 2	phrog_13893,phrog_14895,phrog_17635,phrog_8280,phrog_20231,phrog_18522,phrog_1171,phrog_38424: 2	PF12195.11,PF12217.11,PF12218.11,PF12219.11,PF13884.9: 2	clu_14229
+237	14222	214_pair	2	nan	nan: 2	nan: 2	62.0	0.0	6.44	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14222
+238	14219	1253_mono	2	nan	hypothetical protein: 2	nan: 2	90.0	0.0	9.67	0.0	nan: 2	nan: 2	nan: 2	phrog_3436: 2	nan: 2	clu_14219
+239	14010	2586_mono	2	nan	nan: 2	nan: 2	86.5	0.7071067811865476	7.295	0.8273149339882605	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14010
+240	13542	1452_mono	2	nan	nan: 2	nan: 2	65.5	9.192388155425117	5.1	0.5374011537017769	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13542
+241	11280	outlier: 15_clan	2	nan	hypothetical protein: 2	nan: 2	48.0	0.0	5.875	1.2374368670764582	nan: 2	nan: 2	nan: 2	phrog_36394: 2	nan: 2	clu_11280
+242	11281	127_clan	2	nan	hypothetical protein: 2	nan: 2	121.0	0.0	7.68	0.0	nan: 2	nan: 2	nan: 2	phrog_27681,phrog_36188: 2	nan: 2	clu_11281
+243	11283	53_clan; 67_clan	2	nan	hypothetical protein: 2	nan: 2	40.0	0.0	11.645	0.27577164466275395	nan: 2	nan: 2	nan: 2	phrog_24929: 2	nan: 2	clu_11283
+244	11342	824_mono	2	nan	nan: 2	nan: 2	34.0	0.0	5.92	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_11342
+245	11382	400_pair	2	nan	holin: 2	nan: 2	48.0	0.0	7.79	0.0	nan: 2	nan: 2	nan: 2	phrog_4712: 2	nan: 2	clu_11382
+246	13456	2181_mono	2	nan	nan: 2	nan: 2	131.0	0.0	9.935	0.07778174593051983	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13456
+247	11395	63_clan	2	nan	hypothetical protein: 2	nan: 2	60.0	0.0	7.845000000000001	1.2657211383239197	nan: 2	nan: 2	nan: 2	phrog_7066: 2	nan: 2	clu_11395
+248	11748	1543_mono	2	nan	nan: 2	nan: 2	91.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_11748
+249	15770	1934_mono	2	nan	nan: 2	nan: 2	80.0	1.4142135623730951	7.145	0.8414570696119915	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15770
+250	13142	526_mono	2	nan	nan: 2	nan: 2	135.0	2.8284271247461903	10.379999999999999	0.3676955262170063	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13142
+251	13113	1643_mono	2	nan	nan: 2	nan: 2	36.0	0.0	9.62	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13113
+252	13075	1639_mono	2	nan	nan: 2	nan: 2	42.0	0.0	9.055	1.138441917710341	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13075
+253	11849	1404_mono	2	nan	nan: 2	nan: 2	42.0	0.0	5.3	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_11849
+254	11932	123_clan	2	nan	nan: 2	nan: 2	41.0	0.0	9.05	0.15556349186104027	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_11932
+255	11940	1789_mono	2	nan	hypothetical protein: 2	nan: 2	66.0	0.0	4.18	0.0	nan: 2	nan: 2	nan: 2	phrog_10167: 2	nan: 2	clu_11940
+256	13073	282_pair	2	nan	Rz-like spanin: 2	Phage_lysis: 2	153.5	4.949747468305833	8.925	0.1484924240491737	nan: 2	nan: 2	nan: 2	phrog_1327: 2	PF03245.16: 2	clu_13073
+257	12312	4_clan; 8_clan	2	nan	nan: 2	nan: 2	96.0	4.242640687119285	9.535	1.435426765808692	APIS085: 2	CLAN020: 2	restriction-modification (RM);bacteriophage exclusion (BREX): 2	nan: 2	nan: 2	clu_12312
+258	13056	1411_mono	2	nan	hypothetical protein: 2	nan: 2	49.0	0.0	9.99	0.0	nan: 2	nan: 2	nan: 2	phrog_19284: 2	nan: 2	clu_13056
+259	13032	94_clan	2	T7p0.6B, nan	nan: 2	nan: 2	58.0	8.48528137423857	11.815000000000001	0.26162950903902266	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_13032
+260	12399	2147_mono	2	nan	nan: 2	nan: 2	44.0	0.0	10.81	0.3676955262170044	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_12399
+261	12993	2276_mono	2	nan	nan: 2	nan: 2	32.0	0.0	10.45	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_12993
+262	12664	1_clan	2	nan	nan: 2	RNA_pol: 2	529.5	109.60155108391487	6.824999999999999	0.7848885271170684	nan: 2	nan: 2	nan: 2	nan: 2	PF00940.22: 2	clu_12664
+263	10808	113_clan	2	nan	nan: 2	nan: 2	54.0	9.899494936611665	9.7	0.09899494936611643	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10808
+264	14531	2788_mono	2	nan	nan: 2	nan: 2	73.0	5.656854249492381	4.595000000000001	0.2616295090390223	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14531
+265	14593	986_mono	2	nan	nan: 2	DUF1482: 2	49.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	nan: 2	PF07358.14: 2	clu_14593
+266	14625	2726_mono	2	nan	nan: 2	nan: 2	34.0	0.0	9.78	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14625
+267	9083	45_clan; 108_clan	2	nan	nan: 2	nan: 2	78.0	7.0710678118654755	4.535	0.6858935777509506	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_9083
+268	9089	1064_mono	2	nan	nan: 2	nan: 2	92.0	0.0	8.79	0.14142135623730964	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_9089
+269	9103	2321_mono	2	nan	nan: 2	nan: 2	32.0	0.0	4.87	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_9103
+270	15721	1481_mono	2	nan	nan: 2	nan: 2	37.5	0.7071067811865476	8.34	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15721
+271	9509	839_mono	2	nan	hypothetical protein: 2	nan: 2	107.0	0.0	8.525	0.898025612106916	nan: 2	nan: 2	nan: 2	phrog_12224,phrog_30118: 2	nan: 2	clu_9509
+272	12956	1058_mono	2	nan	nan: 2	nan: 2	58.5	13.435028842544403	10.915	0.9828784258492995	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_12956
+273	15516	861_mono	2	nan	nan: 2	nan: 2	79.0	0.0	9.92	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15516
+274	15364	1850_mono	2	nan	nan: 2	nan: 2	62.5	0.7071067811865476	4.215	0.1343502884254437	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15364
+275	15305	357_pair	2	nan	nan: 2	nan: 2	65.0	0.0	10.38	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15305
+276	9893	875_mono	2	nan	nan: 2	nan: 2	53.0	0.0	4.16	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_9893
+277	10014	599_mono	2	nan	hypothetical protein: 2	nan: 2	52.0	0.0	9.684999999999999	0.2333452377915601	nan: 2	nan: 2	nan: 2	phrog_3955,phrog_11192,phrog_6144,phrog_36005: 1; phrog_11192,phrog_15992,phrog_3955,phrog_6144,phrog_36005: 1	nan: 2	clu_10014
+278	10033	104_clan	2	nan	nan: 2	nan: 2	34.0	0.0	11.57	0.014142135623730649	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10033
+279	10074	1107_mono	2	nan	nan: 2	nan: 2	35.5	3.5355339059327378	9.184999999999999	0.007071067811865952	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10074
+280	10148	671_mono	2	nan	hypothetical protein: 2	nan: 2	62.0	0.0	9.86	0.18384776310850157	nan: 2	nan: 2	nan: 2	phrog_7744: 2	nan: 2	clu_10148
+281	10169	2359_mono	2	nan	nan: 2	nan: 2	106.5	0.7071067811865476	10.504999999999999	0.26162950903902144	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10169
+282	10173	110_clan	2	nan	nan: 2	nan: 2	33.5	0.7071067811865476	6.08	2.616295090390225	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10173
+283	10186	1806_mono	2	nan	nan: 2	nan: 2	32.0	0.0	5.83	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10186
+284	15183	2742_mono	2	nan	nan: 2	nan: 2	78.0	0.0	4.73	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15183
+285	10250	160_clan	2	nan	nan: 2	nan: 2	40.5	9.192388155425117	5.775	1.4071424945612288	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10250
+286	15160	67_clan	2	nan	nan: 2	nan: 2	42.0	7.0710678118654755	11.075	0.9121677477306463	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15160
+287	10266	295_pair	2	nan	hypothetical protein: 2	nan: 2	157.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	phrog_12315: 2	nan: 2	clu_10266
+288	15157	302_pair	2	nan	nan: 2	nan: 2	44.5	6.363961030678928	11.585	0.0070710678118646965	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_15157
+289	15065	4_clan; 8_clan	2	nan	serine-threonine kinase: 1; hypothetical protein: 1	nan: 2	232.5	24.748737341529164	8.52	2.545584412271572	APIS085: 2	CLAN020: 2	restriction-modification (RM);bacteriophage exclusion (BREX): 2	phrog_2828: 1; phrog_8393,phrog_29241: 1	nan: 2	clu_15065
+290	10533	152_clan	2	nan	hypothetical protein: 2	nan: 2	68.0	0.0	4.39	0.0	nan: 2	nan: 2	nan: 2	phrog_17710,phrog_6314: 2	nan: 2	clu_10533
+291	14780	140_clan	2	nan	nan: 2	nan: 2	41.0	0.0	9.52	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_14780
+292	14667	34_clan	2	nan	tail spike protein,hypothetical protein,tail fiber protein,tail protein: 2	gp37_C,Phage_T7_tail,YadA_stalk: 2	554.0	0.0	6.88	0.0	nan: 2	nan: 2	nan: 2	phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_27277,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_29288,phrog_4277,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481: 2	PF12604.11,PF03906.17,PF05662.17: 2	clu_14667
+293	10678	104_clan	2	nan	nan: 2	nan: 2	73.0	2.8284271247461903	10.01	0.3959797974644657	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_10678
+294	12353	1148_mono	2	nan	hypothetical protein: 2	nan: 2	52.0	0.0	4.75	0.0	nan: 2	nan: 2	nan: 2	phrog_20928: 2	nan: 2	clu_12353
+295	8589	302_pair	2	nan	nan: 2	nan: 2	31.0	0.0	11.105	0.0070710678118646965	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_8589
+296	1750	205_pair	2	nan	nan: 2	nan: 2	72.5	7.7781745930520225	6.71	0.4101219330881976	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1750
+297	5802	2548_mono	2	nan	nan: 2	nan: 2	39.0	0.0	5.324999999999999	0.3747665940288707	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_5802
+298	661	1141_mono	2	nan	nan: 2	nan: 2	56.5	6.363961030678928	4.3100000000000005	0.24041630560342636	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_661
+299	5729	1328_mono	2	nan	nan: 2	nan: 2	43.0	1.4142135623730951	10.16	0.09899494936611705	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_5729
+300	4442	15_clan; 18_clan	2	nan	hypothetical protein: 2	nan: 2	99.5	7.7781745930520225	10.879999999999999	0.21213203435596414	nan: 2	nan: 2	nan: 2	phrog_5058,phrog_2385: 1; phrog_2385: 1	nan: 2	clu_4442
+301	3911	111_clan	2	nan	nan: 2	nan: 2	38.0	5.656854249492381	7.915	1.675843071412117	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_3911
+302	1478	84_clan	2	nan	holin: 2	Phage_holin_2_2: 2	99.0	7.0710678118654755	7.51	2.3334523779156062	nan: 2	nan: 2	nan: 2	phrog_920: 2	PF10746.12: 2	clu_1478
+303	2935	1712_mono	2	nan	nan: 2	nan: 2	43.0	0.0	5.0	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2935
+304	838	15_clan	2	nan	hypothetical protein: 2	nan: 2	32.0	0.0	11.74	0.0	nan: 2	nan: 2	nan: 2	phrog_2385: 2	nan: 2	clu_838
+305	2263	389_pair	2	nan	nan: 2	nan: 2	57.0	12.727922061357855	5.395	0.021213203435596288	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2263
+306	3059	2464_mono	2	nan	nan: 2	nan: 2	69.5	2.1213203435596424	9.55	0.08485281374238453	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_3059
+307	1293	15_clan	2	nan	nan: 2	nan: 2	51.5	9.192388155425117	9.629999999999999	0.5515432893255072	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1293
+308	3494	475_mono	2	nan	nan: 2	nan: 2	42.0	0.0	8.01	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_3494
+309	5170	184_clan	2	nan	nan: 2	nan: 2	33.0	0.0	5.765000000000001	0.07778174593052077	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_5170
+310	1955	2580_mono	2	nan	nan: 2	nan: 2	57.5	13.435028842544403	10.55	0.5374011537017765	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1955
+311	4612	2045_mono	2	nan	nan: 2	nan: 2	68.0	0.0	8.46	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_4612
+312	5041	67_clan	2	nan	nan: 2	nan: 2	58.0	5.656854249492381	9.82	0.2828427124746186	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_5041
+313	1281	1782_mono	2	nan	nan: 2	nan: 2	66.0	0.0	9.585	0.035355339059325995	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1281
+314	4722	150_clan	2	nan	nan: 2	nan: 2	42.5	0.7071067811865476	4.755	0.6010407640085651	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_4722
+315	1245	2681_mono	2	nan	nan: 2	nan: 2	103.5	2.1213203435596424	7.905	1.8596908345206207	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1245
+316	3433	2615_mono	2	nan	nan: 2	nan: 2	76.0	7.0710678118654755	8.78	1.0465180361560906	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_3433
+317	3461	2322_mono	2	nan	hypothetical protein: 2	nan: 2	78.0	1.4142135623730951	9.325	0.03535533905932725	nan: 2	nan: 2	nan: 2	phrog_27091: 2	nan: 2	clu_3461
+318	1258	474_mono	2	nan	nan: 2	nan: 2	48.0	0.0	4.05	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1258
+319	632	235_pair	2	nan	nan: 2	nan: 2	50.0	5.656854249492381	7.995	1.393000358937499	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_632
+320	2363	1551_mono	2	nan	nan: 2	nan: 2	44.0	0.0	8.66	0.282842712474618	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2363
+321	2828	73_clan	2	nan	hypothetical protein: 2	nan: 2	49.0	8.48528137423857	5.14	0.8202438661763952	nan: 2	nan: 2	nan: 2	phrog_30192: 2	nan: 2	clu_2828
+322	2760	835_mono	2	nan	nan: 2	nan: 2	39.5	7.7781745930520225	8.27	0.12727922061357835	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2760
+323	2822	158_clan	2	nan	nan: 2	nan: 2	57.0	1.4142135623730951	9.46	0.2262741699796948	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2822
+324	4132	2163_mono	2	nan	nan: 2	nan: 2	63.5	0.7071067811865476	7.365	0.6717514421272206	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_4132
+325	1817	2195_mono	2	nan	nan: 2	nan: 2	82.0	0.0	4.64	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_1817
+326	2824	314_pair	2	nan	nan: 2	nan: 2	30.0	0.0	11.73	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_2824
+327	6273	1512_mono	2	nan	nan: 2	nan: 2	42.5	0.7071067811865476	9.84	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_6273
+328	6264	415_pair	2	nan	hypothetical protein: 2	nan: 2	75.0	0.0	7.380000000000001	0.9475230867899739	nan: 2	nan: 2	nan: 2	phrog_19783: 2	nan: 2	clu_6264
+329	2835	8_clan	2	nan	nan: 1; serine-threonine kinase: 1	nan: 2	56.0	9.899494936611665	4.275	0.049497474683058214	nan: 2	nan: 2	nan: 2	nan: 1; phrog_2828: 1	nan: 2	clu_2835
+330	4053	782_mono	2	nan	nan: 2	nan: 2	47.0	0.0	5.21	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_4053
+331	1784	97_clan	2	nan	hypothetical protein: 2	nan: 2	56.0	4.242640687119285	9.5	0.282842712474618	nan: 2	nan: 2	nan: 2	phrog_2193: 2	nan: 2	clu_1784
+332	6238	2242_mono	2	nan	nan: 2	nan: 2	42.0	0.0	10.885	0.27577164466275395	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_6238
+333	163	587_mono	2	nan	nan: 2	nan: 2	58.0	5.656854249492381	9.77	0.0	nan: 2	nan: 2	nan: 2	nan: 2	nan: 2	clu_163
+334	1864	251_pair	1	nan	nan: 1	nan: 1	46.0		10.69		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1864
+335	15135	760_mono	1	nan	nan: 1	nan: 1	45.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15135
+336	14235	outlier: 54_clan	1	nan	hypothetical protein: 1	nan: 1	53.0		11.48		nan: 1	nan: 1	nan: 1	phrog_19243: 1	nan: 1	clu_14235
+337	1952	1448_mono	1	nan	nan: 1	nan: 1	49.0		5.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1952
+338	14258	432_pair	1	nan	host RecBCD nuclease inhibitor: 1	nan: 1	65.0		4.05		nan: 1	nan: 1	nan: 1	phrog_6234: 1	nan: 1	clu_14258
+339	1950	259_pair	1	nan	hypothetical protein: 1	nan: 1	90.0		6.15		nan: 1	nan: 1	nan: 1	phrog_18383: 1	nan: 1	clu_1950
+340	14207	205_pair	1	nan	nan: 1	nan: 1	47.0		4.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14207
+341	1852	79_clan	1	nan	hypothetical protein: 1	nan: 1	40.0		11.53		nan: 1	nan: 1	nan: 1	phrog_10380: 1	nan: 1	clu_1852
+342	1964	1967_mono	1	nan	nan: 1	nan: 1	45.0		7.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1964
+343	14462	33_clan	1	nan	ocr-like anti-restriction: 1	nan: 1	109.0		4.05		APIS087: 1	CLAN020: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2568: 1	nan: 1	clu_14462
+344	14191	357_pair	1	nan	nan: 1	nan: 1	39.0		10.83		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14191
+345	1825	1716_mono	1	nan	nan: 1	nan: 1	65.0		9.18		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1825
+346	14189	2728_mono	1	nan	nan: 1	nan: 1	37.0		11.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14189
+347	15163	2611_mono	1	nan	hypothetical protein: 1	nan: 1	73.0		9.87		nan: 1	nan: 1	nan: 1	phrog_29806: 1	nan: 1	clu_15163
+348	14357	1_clan	1	nan	nan: 1	RNA_pol: 1	219.0		7.1		nan: 1	nan: 1	nan: 1	nan: 1	PF00940.22: 1	clu_14357
+349	1936	1987_mono	1	nan	nan: 1	nan: 1	30.0		8.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1936
+350	15134	929_mono	1	nan	nan: 1	nan: 1	59.0		5.62		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15134
+351	2026	375_pair	1	nan	nan: 1	nan: 1	48.0		9.63		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2026
+352	1884	431_pair	1	nan	nan: 1	nan: 1	36.0		10.65		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1884
+353	14765	111_clan	1	nan	nan: 1	nan: 1	64.0		9.39		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14765
+354	1863	1568_mono	1	nan	nan: 1	nan: 1	51.0		5.65		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1863
+355	14746	769_mono	1	nan	nan: 1	nan: 1	61.0		4.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14746
+356	14726	772_mono	1	nan	nan: 1	nan: 1	37.0		9.19		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14726
+357	15094	2270_mono	1	nan	nan: 1	nan: 1	58.0		4.59		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15094
+358	1889	8_clan	1	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,kinase: 1	nan: 1	310.0		8.75		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_18305: 1	nan: 1	clu_1889
+359	1900	2413_mono	1	nan	nan: 1	nan: 1	60.0		4.69		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1900
+360	14602	outlier: 67_clan	1	nan	nan: 1	nan: 1	32.0		10.45		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14602
+361	15100	116_clan	1	nan	hypothetical protein: 1	nan: 1	34.0		4.05		nan: 1	nan: 1	nan: 1	phrog_20418: 1	nan: 1	clu_15100
+362	14811	2778_mono	1	nan	nan: 1	nan: 1	33.0		9.5		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14811
+363	14597	1826_mono	1	nan	nan: 1	nan: 1	45.0		5.96		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14597
+364	1922	212_pair	1	nan	nan: 1	nan: 1	118.0		10.03		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1922
+365	15114	685_mono	1	nan	nan: 1	nan: 1	52.0		7.87		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15114
+366	14580	113_clan	1	nan	nan: 1	nan: 1	60.0		10.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14580
+367	14577	761_mono	1	nan	nan: 1	nan: 1	34.0		7.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14577
+368	14560	78_clan	1	nan	2OG-Fe(II) oxygenase: 1	2OG-FeII_Oxy,2OG-FeII_Oxy_3: 1	210.0		5.39		nan: 1	nan: 1	nan: 1	phrog_61: 1	PF03171.23,PF13640.9: 1	clu_14560
+369	14542	116_clan	1	nan	hypothetical protein: 1	nan: 1	38.0		6.89		nan: 1	nan: 1	nan: 1	phrog_20418: 1	nan: 1	clu_14542
+370	1934	1979_mono	1	nan	hypothetical protein: 1	nan: 1	67.0		6.2		nan: 1	nan: 1	nan: 1	phrog_29417: 1	nan: 1	clu_1934
+371	14506	13_clan	1	nan	terminase large subunit: 1	nan: 1	126.0		6.11		nan: 1	nan: 1	nan: 1	phrog_15524: 1	nan: 1	clu_14506
+372	14188	2515_mono	1	nan	nan: 1	nan: 1	32.0		9.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14188
+373	14022	111_clan	1	nan	nan: 1	nan: 1	41.0		5.82		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14022
+374	14131	outlier: 21_clan	1	nan	nan: 1	nan: 1	45.0		9.69		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14131
+375	14110	2201_mono	1	nan	nan: 1	nan: 1	52.0		8.74		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14110
+376	2382	2724_mono	1	nan	nan: 1	nan: 1	39.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2382
+377	13444	231_pair	1	nan	nan: 1	nan: 1	77.0		8.98		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13444
+378	13373	1558_mono	1	nan	nan: 1	nan: 1	36.0		11.55		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13373
+379	13297	13_clan	1	nan	terminase large subunit: 1	GpA_ATPase: 1	430.0		8.48		nan: 1	nan: 1	nan: 1	phrog_38,phrog_4758,phrog_15524,phrog_17672: 1	PF05876.15: 1	clu_13297
+380	2384	19_clan	1	nan	HNH endonuclease: 1	HNH_3: 1	153.0		9.96		nan: 1	nan: 1	nan: 1	phrog_15471,phrog_1492,phrog_4578,phrog_99,phrog_6254,phrog_826,phrog_59,phrog_959,phrog_1891: 1	PF13392.9: 1	clu_2384
+381	13188	335_pair	1	nan	thioredoxin domain: 1	Glutaredoxin: 1	81.0		6.09		nan: 1	nan: 1	nan: 1	phrog_22: 1	PF00462.27: 1	clu_13188
+382	2411	8_clan	1	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 1	nan: 1	232.0		7.78		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_2828,phrog_18305: 1	nan: 1	clu_2411
+383	2455	669_mono	1	nan	nan: 1	nan: 1	49.0		10.31		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2455
+384	2476	369_pair	1	nan	nan: 1	nan: 1	105.0		9.81		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2476
+385	13074	21_clan	1	nan	hypothetical protein: 1	nan: 1	77.0		8.74		nan: 1	nan: 1	nan: 1	phrog_5058: 1	nan: 1	clu_13074
+386	2481	73_clan	1	nan	hypothetical protein: 1	nan: 1	47.0		6.81		nan: 1	nan: 1	nan: 1	phrog_30192: 1	nan: 1	clu_2481
+387	2483	809_mono	1	nan	nan: 1	nan: 1	40.0		8.16		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2483
+388	2500	194_clan	1	nan	nan: 1	nan: 1	42.0		8.4		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2500
+389	12994	2316_mono	1	nan	hypothetical protein: 1	nan: 1	67.0		9.05		nan: 1	nan: 1	nan: 1	phrog_30192: 1	nan: 1	clu_12994
+390	2509	479_mono	1	nan	nan: 1	nan: 1	62.0		7.84		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2509
+391	12990	284_pair	1	nan	hypothetical protein: 1	nan: 1	64.0		6.52		nan: 1	nan: 1	nan: 1	phrog_7319: 1	nan: 1	clu_12990
+392	12965	390_pair	1	nan	nan: 1	nan: 1	49.0		7.82		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12965
+393	12962	21_clan	1	nan	nan: 1	nan: 1	45.0		9.87		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12962
+394	2512	110_clan	1	nan	nan: 1	nan: 1	35.0		9.38		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2512
+395	12957	927_mono	1	nan	nan: 1	nan: 1	48.0		11.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12957
+396	2671	27_clan	1	nan	hypothetical protein: 1	nan: 1	102.0		6.39		nan: 1	nan: 1	nan: 1	phrog_9238,phrog_8103,phrog_6379: 1	nan: 1	clu_2671
+397	12955	2651_mono	1	nan	nan: 1	nan: 1	81.0		8.99		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12955
+398	12923	53_clan; 67_clan	1	nan	nan: 1	nan: 1	50.0		9.98		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12923
+399	2357	272_pair	1	nan	nan: 1	nan: 1	51.0		4.96		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2357
+400	13461	739_mono	1	nan	nan: 1	nan: 1	43.0		11.42		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13461
+401	2347	66_clan	1	nan	nan: 1	nan: 1	37.0		10.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2347
+402	13659	2183_mono	1	nan	nan: 1	nan: 1	30.0		9.99		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13659
+403	14106	425_pair	1	nan	hypothetical protein: 1	nan: 1	155.0		9.58		nan: 1	nan: 1	nan: 1	phrog_31405: 1	nan: 1	clu_14106
+404	14101	24_clan	1	nan	HNH endonuclease,hypothetical protein: 1	HNH_3: 1	136.0		9.54		nan: 1	nan: 1	nan: 1	phrog_59,phrog_959,phrog_99,phrog_37683: 1	PF13392.9: 1	clu_14101
+405	14039	350_pair	1	nan	nan: 1	nan: 1	33.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14039
+406	14035	2230_mono	1	nan	nan: 1	nan: 1	30.0		9.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14035
+407	15177	668_mono	1	nan	nan: 1	nan: 1	74.0		9.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15177
+408	14019	1403_mono	1	nan	nan: 1	nan: 1	85.0		9.73		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_14019
+409	2078	20_clan	1	nan	hypothetical protein: 1	nan: 1	80.0		7.79		nan: 1	nan: 1	nan: 1	phrog_25044,phrog_7202: 1	nan: 1	clu_2078
+410	2130	307_pair	1	nan	nan: 1	nan: 1	35.0		8.5		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2130
+411	2201	776_mono	1	nan	nan: 1	nan: 1	37.0		9.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2201
+412	13671	2078_mono	1	nan	nan: 1	nan: 1	30.0		9.11		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13671
+413	13633	202_pair	1	nan	nan: 1	nan: 1	54.0		9.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13633
+414	13477	2434_mono	1	nan	nan: 1	nan: 1	41.0		4.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13477
+415	13632	411_pair	1	nan	hypothetical protein: 1	nan: 1	54.0		6.02		nan: 1	nan: 1	nan: 1	phrog_11084: 1	nan: 1	clu_13632
+416	13614	384_pair	1	nan	nan: 1	nan: 1	78.0		8.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13614
+417	13611	314_pair	1	nan	nan: 1	nan: 1	30.0		9.79		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13611
+418	2289	2701_mono	1	nan	nan: 1	nan: 1	70.0		7.82		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2289
+419	13552	110_clan	1	nan	nan: 1	nan: 1	44.0		9.11		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13552
+420	13549	166_clan	1	nan	hypothetical protein: 1	nan: 1	78.0		10.36		nan: 1	nan: 1	nan: 1	phrog_18517: 1	nan: 1	clu_13549
+421	13543	289_pair	1	nan	nan: 1	nan: 1	39.0		8.73		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13543
+422	2302	738_mono	1	nan	nan: 1	nan: 1	33.0		10.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2302
+423	13520	2003_mono	1	nan	nan: 1	nan: 1	42.0		4.43		APIS093: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	nan: 1	nan: 1	clu_13520
+424	13513	1492_mono	1	nan	nan: 1	nan: 1	60.0		10.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_13513
+425	1823	171_clan	1	nan	nan: 1	nan: 1	42.0		4.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1823
+426	6284	870_mono	1	nan	nan: 1	nan: 1	71.0		9.65		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6284
+427	1821	2313_mono	1	nan	nan: 1	nan: 1	32.0		5.96		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1821
+428	17342	1084_mono	1	nan	nan: 1	nan: 1	42.0		8.37		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17342
+429	17328	33_clan	1	nan	ocr-like anti-restriction: 1	ocr: 1	85.0		4.05		APIS010: 1	CLAN020: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2568: 1	PF08684.13: 1	clu_17328
+430	678	1528_mono	1	nan	nan: 1	nan: 1	80.0		6.07		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_678
+431	680	2427_mono	1	nan	nan: 1	nan: 1	49.0		5.74		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_680
+432	690	158_clan	1	nan	nan: 1	nan: 1	38.0		5.98		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_690
+433	17261	96_clan	1	nan	nan: 1	nan: 1	57.0		9.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17261
+434	17203	653_mono	1	nan	nan: 1	nan: 1	33.0		10.03		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17203
+435	708	125_clan	1	nan	hypothetical protein: 1	nan: 1	184.0		9.66		nan: 1	nan: 1	nan: 1	phrog_25437: 1	nan: 1	clu_708
+436	722	1841_mono	1	nan	nan: 1	nan: 1	71.0		9.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_722
+437	746	2294_mono	1	nan	nan: 1	nan: 1	32.0		11.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_746
+438	806	1102_mono	1	nan	nan: 1	nan: 1	106.0		8.58		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_806
+439	17025	1868_mono	1	nan	nan: 1	nan: 1	36.0		5.38		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17025
+440	832	1_clan	1	nan	RNA polymerase: 1	RNA_pol,RPOL_N: 1	575.0		7.91		nan: 1	nan: 1	nan: 1	phrog_20599: 1	PF00940.22,PF14700.9: 1	clu_832
+441	834	662_mono	1	nan	nan: 1	nan: 1	46.0		5.5		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_834
+442	16983	289_pair	1	nan	nan: 1	nan: 1	97.0		5.08		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16983
+443	16979	2628_mono	1	nan	nan: 1	nan: 1	35.0		6.49		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16979
+444	908	2127_mono	1	nan	nan: 1	nan: 1	30.0		4.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_908
+445	16959	399_pair	1	nan	nan: 1	nan: 1	43.0		8.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16959
+446	1121	1395_mono	1	nan	nan: 1	nan: 1	39.0		8.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1121
+447	16942	1718_mono	1	nan	endolysin: 1	Hydrolase_2: 1	130.0		6.28		nan: 1	nan: 1	nan: 1	phrog_938: 1	PF07486.15: 1	clu_16942
+448	1158	2243_mono	1	nan	nan: 1	nan: 1	36.0		5.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1158
+449	1171	412_pair	1	nan	hypothetical protein: 1	nan: 1	71.0		9.16		nan: 1	nan: 1	nan: 1	phrog_10124: 1	nan: 1	clu_1171
+450	16886	2771_mono	1	nan	nan: 1	nan: 1	35.0		8.93		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16886
+451	1188	1080_mono	1	nan	nan: 1	nan: 1	92.0		7.01		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1188
+452	17333	22_clan; 25_clan	1	nan	SAM-dependent methyltransferase: 1	nan: 1	106.0		5.07		APIS091: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2226: 1	nan: 1	clu_17333
+453	17353	outlier: 17_clan	1	nan	HNH endonuclease: 1	nan: 1	72.0		9.3		nan: 1	nan: 1	nan: 1	phrog_6254: 1	nan: 1	clu_17353
+454	16825	184_clan	1	nan	nan: 1	nan: 1	33.0		5.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16825
+455	17364	8_clan	1	nan	nucleotide kinase,protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 1	nan: 1	409.0		8.55		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_2828,phrog_18305,phrog_2585: 1	nan: 1	clu_17364
+456	40	outlier: 17_clan	1	nan	nan: 1	nan: 1	56.0		10.93		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_40
+457	45	1409_mono	1	nan	nan: 1	nan: 1	85.0		6.06		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_45
+458	17761	41_clan	1	nan	anaerobic ribonucleoside reductase large subunit: 1	NRDD: 1	171.0		8.67		nan: 1	nan: 1	nan: 1	phrog_4218: 1	PF13597.9: 1	clu_17761
+459	70	731_mono	1	nan	nan: 1	nan: 1	34.0		10.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_70
+460	99	1744_mono	1	nan	nan: 1	nan: 1	56.0		5.82		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_99
+461	131	1225_mono	1	nan	nan: 1	nan: 1	37.0		10.09		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_131
+462	17586	53_clan; 67_clan	1	nan	nan: 1	nan: 1	44.0		4.7		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17586
+463	17579	160_clan	1	nan	nan: 1	nan: 1	47.0		8.41		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17579
+464	17557	outlier: outlier: 27_clan	1	nan	nan: 1	nan: 1	37.0		9.62		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17557
+465	175	22_clan; 25_clan	1	nan	nan: 1	nan: 1	60.0		6.82		APIS093: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	nan: 1	nan: 1	clu_175
+466	17536	397_pair	1	nan	hypothetical protein: 1	nan: 1	38.0		9.7		nan: 1	nan: 1	nan: 1	phrog_11746: 1	nan: 1	clu_17536
+467	187	2164_mono	1	nan	hypothetical protein: 1	nan: 1	39.0		6.11		nan: 1	nan: 1	nan: 1	phrog_1312: 1	nan: 1	clu_187
+468	17516	1644_mono	1	nan	nan: 1	nan: 1	73.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17516
+469	17500	1977_mono	1	nan	hypothetical protein: 1	nan: 1	54.0		9.72		nan: 1	nan: 1	nan: 1	phrog_20492: 1	nan: 1	clu_17500
+470	223	836_mono	1	nan	nan: 1	nan: 1	32.0		4.1		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_223
+471	247	1076_mono	1	nan	hypothetical protein: 1	nan: 1	62.0		9.52		nan: 1	nan: 1	nan: 1	phrog_15633: 1	nan: 1	clu_247
+472	273	941_mono	1	nan	nan: 1	nan: 1	53.0		8.12		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_273
+473	17444	2075_mono	1	nan	nan: 1	nan: 1	40.0		10.56		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17444
+474	17432	898_mono	1	nan	nan: 1	nan: 1	31.0		5.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17432
+475	326	bridge: 4_clan, 8_clan, 8_clan, 8_clan	1	nan	nan: 1	nan: 1	158.0		8.53		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_326
+476	612	844_mono	1	nan	nan: 1	nan: 1	45.0		9.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_612
+477	629	2028_mono	1	nan	nan: 1	nan: 1	61.0		11.54		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_629
+478	17369	131_clan	1	nan	tail spike protein,hypothetical protein,tail fiber protein,tail protein: 1	Peptidase_S74: 1	238.0		6.44		nan: 1	nan: 1	nan: 1	phrog_19921,phrog_24159,phrog_15695,phrog_14895,phrog_17635,phrog_27613,phrog_24369,phrog_1171,phrog_23437,phrog_38424: 1	PF13884.9: 1	clu_17369
+479	1200	20_clan	1	nan	hypothetical protein: 1	nan: 1	55.0		9.35		nan: 1	nan: 1	nan: 1	phrog_25044,phrog_7202: 1	nan: 1	clu_1200
+480	16809	184_clan	1	nan	nan: 1	nan: 1	35.0		7.88		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16809
+481	15194	53_clan; 67_clan	1	nan	hypothetical protein: 1	nan: 1	71.0		10.53		nan: 1	nan: 1	nan: 1	phrog_24929: 1	nan: 1	clu_15194
+482	1348	1270_mono	1	nan	nan: 1	nan: 1	74.0		10.02		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1348
+483	1391	2121_mono	1	nan	nan: 1	nan: 1	50.0		9.36		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1391
+484	15735	1943_mono	1	nan	nan: 1	nan: 1	37.0		4.49		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15735
+485	1459	8_clan	1	nan	serine-threonine kinase: 1	nan: 1	72.0		4.31		nan: 1	nan: 1	nan: 1	phrog_2828: 1	nan: 1	clu_1459
+486	15693	1593_mono	1	nan	nan: 1	nan: 1	33.0		4.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15693
+487	1511	22_clan; 25_clan	1	nan	nan: 1	nan: 1	39.0		4.54		APIS091: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	nan: 1	nan: 1	clu_1511
+488	15676	1497_mono	1	nan	nan: 1	nan: 1	34.0		6.81		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15676
+489	15672	728_mono	1	nan	nan: 1	nan: 1	31.0		6.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15672
+490	1697	63_clan	1	nan	hypothetical protein: 1	nan: 1	71.0		9.92		nan: 1	nan: 1	nan: 1	phrog_11917,phrog_7066: 1	nan: 1	clu_1697
+491	15647	640_mono	1	nan	nan: 1	nan: 1	43.0		10.64		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15647
+492	15623	8_clan	1	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase: 1	nan: 1	103.0		5.0		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_2828,phrog_18305: 1	nan: 1	clu_15623
+493	15622	bridge: 13_clan, 13_clan	1	nan	nan: 1	nan: 1	73.0		4.55		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15622
+494	1704	209_pair	1	nan	nan: 1	nan: 1	34.0		8.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1704
+495	1729	48_clan	1	nan	nan: 1	nan: 1	34.0		8.47		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1729
+496	15407	2171_mono	1	nan	nan: 1	nan: 1	44.0		10.02		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15407
+497	1730	998_mono	1	nan	nan: 1	nan: 1	30.0		5.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1730
+498	15331	94_clan	1	nan	nan: 1	nan: 1	97.0		10.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15331
+499	15306	68_clan	1	nan	nan: 1	nan: 1	48.0		9.02		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15306
+500	12896	2172_mono	1	nan	nan: 1	nan: 1	54.0		9.87		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12896
+501	15304	1759_mono	1	nan	nan: 1	nan: 1	69.0		4.31		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15304
+502	1759	2604_mono	1	nan	nan: 1	nan: 1	44.0		7.09		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1759
+503	15247	996_mono	1	nan	nan: 1	nan: 1	41.0		11.38		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15247
+504	1788	66_clan	1	nan	nan: 1	nan: 1	43.0		4.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1788
+505	1796	2699_mono	1	nan	tail spike protein,hypothetical protein,tail fiber protein,tail protein: 1	nan: 1	537.0		7.61		nan: 1	nan: 1	nan: 1	phrog_20911,phrog_14879,phrog_17312,phrog_14442,phrog_27156,phrog_29932: 1	nan: 1	clu_1796
+506	15772	465_mono	1	nan	nan: 1	nan: 1	50.0		4.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15772
+507	15779	1178_mono	1	nan	nan: 1	nan: 1	34.0		8.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15779
+508	1217	1182_mono	1	nan	nan: 1	nan: 1	186.0		8.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1217
+509	15805	1500_mono	1	nan	nan: 1	nan: 1	39.0		6.2		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15805
+510	16645	outlier: 24_clan	1	nan	nan: 1	nan: 1	73.0		8.38		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16645
+511	1234	2686_mono	1	nan	nan: 1	nan: 1	32.0		9.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1234
+512	16536	324_pair	1	nan	nan: 1	nan: 1	35.0		9.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16536
+513	16523	2358_mono	1	nan	hypothetical protein,tail fiber protein: 1	nan: 1	227.0		4.72		nan: 1	nan: 1	nan: 1	phrog_5004,phrog_23820: 1	nan: 1	clu_16523
+514	16472	45_clan	1	nan	hypothetical protein: 1	nan: 1	76.0		4.71		nan: 1	nan: 1	nan: 1	phrog_25572: 1	nan: 1	clu_16472
+515	16423	27_clan	1	nan	hypothetical protein: 1	nan: 1	203.0		9.08		nan: 1	nan: 1	nan: 1	phrog_9238,phrog_6379: 1	nan: 1	clu_16423
+516	16384	1583_mono	1	nan	hypothetical protein: 1	nan: 1	66.0		4.99		nan: 1	nan: 1	nan: 1	phrog_21064: 1	nan: 1	clu_16384
+517	16330	18_clan	1	nan	hypothetical protein: 1	nan: 1	74.0		8.75		nan: 1	nan: 1	nan: 1	phrog_5058: 1	nan: 1	clu_16330
+518	16328	2174_mono	1	nan	nan: 1	nan: 1	37.0		9.7		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16328
+519	1267	619_mono	1	nan	nan: 1	nan: 1	31.0		11.57		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1267
+520	16276	66_clan	1	nan	hypothetical protein: 1	nan: 1	71.0		5.41		nan: 1	nan: 1	nan: 1	phrog_6403: 1	nan: 1	clu_16276
+521	16267	134_clan	1	nan	nan: 1	nan: 1	68.0		10.13		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16267
+522	16250	1612_mono	1	nan	nan: 1	nan: 1	77.0		6.13		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16250
+523	16248	61_clan	1	nan	hypothetical protein: 1	nan: 1	35.0		4.14		nan: 1	nan: 1	nan: 1	phrog_2061: 1	nan: 1	clu_16248
+524	16234	2784_mono	1	nan	nan: 1	nan: 1	43.0		10.79		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16234
+525	16230	outlier: outlier: 15_clan	1	nan	nan: 1	nan: 1	30.0		6.15		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16230
+526	16107	391_pair	1	nan	nan: 1	nan: 1	35.0		6.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_16107
+527	16087	41_clan	1	nan	anaerobic ribonucleoside reductase large subunit: 1	Gly_radical,NRDD,TackOD1: 1	154.0		7.62		nan: 1	nan: 1	nan: 1	phrog_4218,phrog_26446,phrog_29160: 1	PF01228.24,PF13597.9,PF18551.4: 1	clu_16087
+528	1304	703_mono	1	nan	nan: 1	nan: 1	88.0		5.15		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1304
+529	1305	1316_mono	1	nan	nan: 1	nan: 1	36.0		7.82		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_1305
+530	15924	4_clan	1	nan	nan: 1	nan: 1	47.0		8.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15924
+531	15862	2635_mono	1	nan	nan: 1	nan: 1	57.0		4.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15862
+532	15826	2783_mono	1	nan	nan: 1	nan: 1	37.0		10.12		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_15826
+533	12903	1721_mono	1	nan	hypothetical protein: 1	nan: 1	43.0		4.05		nan: 1	nan: 1	nan: 1	phrog_6163: 1	nan: 1	clu_12903
+534	12404	15_clan	1	nan	hypothetical protein: 1	nan: 1	111.0		9.9		nan: 1	nan: 1	nan: 1	phrog_2385: 1	nan: 1	clu_12404
+535	12882	1671_mono	1	nan	nan: 1	nan: 1	99.0		4.44		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12882
+536	8461	21_clan	1	nan	hypothetical protein: 1	nan: 1	57.0		8.0		nan: 1	nan: 1	nan: 1	phrog_5058: 1	nan: 1	clu_8461
+537	8839	76_clan	1	nan	nan: 1	nan: 1	38.0		9.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8839
+538	4598	158_clan	1	nan	nan: 1	nan: 1	103.0		11.81		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4598
+539	4606	2452_mono	1	nan	nan: 1	nan: 1	59.0		10.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4606
+540	8677	389_pair	1	nan	nan: 1	nan: 1	39.0		5.46		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8677
+541	4607	1035_mono	1	nan	nan: 1	nan: 1	52.0		5.25		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4607
+542	4621	53_clan; 67_clan	1	nan	nan: 1	nan: 1	82.0		9.81		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4621
+543	4655	48_clan	1	nan	nan: 1	nan: 1	32.0		9.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4655
+544	8557	283_pair	1	nan	nan: 1	nan: 1	209.0		6.44		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8557
+545	4738	19_clan	1	nan	HNH endonuclease: 1	HNH_3: 1	145.0		8.9		nan: 1	nan: 1	nan: 1	phrog_30377,phrog_1492,phrog_4578,phrog_99,phrog_6254,phrog_826,phrog_59,phrog_959,phrog_1891: 1	PF13392.9: 1	clu_4738
+546	8474	1969_mono	1	nan	nan: 1	nan: 1	73.0		10.23		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8474
+547	4745	1631_mono	1	nan	nan: 1	nan: 1	50.0		9.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4745
+548	4813	466_mono	1	nan	nan: 1	nan: 1	30.0		11.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4813
+549	12857	20_clan	1	nan	hypothetical protein: 1	nan: 1	53.0		9.57		nan: 1	nan: 1	nan: 1	phrog_7202: 1	nan: 1	clu_12857
+550	8432	1892_mono	1	nan	nan: 1	nan: 1	51.0		9.02		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8432
+551	8412	2645_mono	1	nan	nan: 1	nan: 1	45.0		10.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8412
+552	8400	1768_mono	1	nan	nan: 1	nan: 1	36.0		6.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8400
+553	8399	8_clan	1	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,kinase: 1	nan: 1	313.0		8.82		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_18305: 1	nan: 1	clu_8399
+554	8376	1594_mono	1	nan	nan: 1	nan: 1	112.0		4.79		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8376
+555	5045	27_clan	1	nan	hypothetical protein: 1	nan: 1	131.0		8.9		nan: 1	nan: 1	nan: 1	phrog_9238,phrog_8103,phrog_6379: 1	nan: 1	clu_5045
+556	5046	2369_mono	1	nan	nan: 1	nan: 1	62.0		8.17		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5046
+557	5110	1729_mono	1	nan	nan: 1	nan: 1	41.0		5.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5110
+558	5119	2609_mono	1	nan	nan: 1	nan: 1	51.0		4.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5119
+559	5165	559_mono	1	nan	nan: 1	nan: 1	38.0		9.57		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5165
+560	8030	33_clan	1	nan	ocr-like anti-restriction: 1	ocr: 1	133.0		4.05		APIS087: 1	CLAN020: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2568: 1	PF08684.13: 1	clu_8030
+561	8897	1835_mono	1	nan	tail protein: 1	nan: 1	575.0		7.04		nan: 1	nan: 1	nan: 1	phrog_4217: 1	nan: 1	clu_8897
+562	8917	365_pair	1	nan	nan: 1	nan: 1	46.0		11.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8917
+563	8935	2506_mono	1	nan	anaerobic ribonucleotide reductase small subunit,anaerobic ribonucleoside reductase small subunit: 1	Fer4_12,Fer4_14: 1	177.0		5.27		nan: 1	nan: 1	nan: 1	phrog_20267,phrog_626: 1	PF13353.9,PF13394.9: 1	clu_8935
+564	4560	2168_mono	1	nan	nan: 1	nan: 1	66.0		9.99		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4560
+565	9543	140_clan	1	nan	nan: 1	nan: 1	48.0		10.01		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9543
+566	9528	4_clan	1	nan	nan: 1	nan: 1	43.0		6.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9528
+567	4262	2353_mono	1	nan	nan: 1	nan: 1	194.0		9.96		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4262
+568	4304	1160_mono	1	nan	nan: 1	nan: 1	58.0		6.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4304
+569	9398	111_clan	1	nan	nan: 1	nan: 1	33.0		8.84		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9398
+570	4378	13_clan	1	nan	terminase large subunit: 1	nan: 1	168.0		5.48		nan: 1	nan: 1	nan: 1	phrog_15524: 1	nan: 1	clu_4378
+571	9354	923_mono	1	nan	nan: 1	nan: 1	46.0		8.43		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9354
+572	9236	2159_mono	1	nan	nan: 1	nan: 1	41.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9236
+573	9235	182_clan	1	nan	virion structural protein: 1	nan: 1	137.0		9.26		nan: 1	nan: 1	nan: 1	phrog_13431: 1	nan: 1	clu_9235
+574	4470	76_clan	1	nan	nan: 1	nan: 1	39.0		10.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4470
+575	9150	34_clan	1	nan	hypothetical protein,tail fiber protein,tail collar fiber protein,tail spike protein,tail protein: 1	Collar,Phage_T7_tail,YadA_stalk: 1	595.0		5.28		nan: 1	nan: 1	nan: 1	phrog_15864,phrog_13980,phrog_14442,phrog_1858,phrog_16586,phrog_27277,phrog_327,phrog_26630,phrog_20472,phrog_9502,phrog_24786,phrog_2097,phrog_1640,phrog_3100,phrog_523,phrog_15695,phrog_31166,phrog_2710,phrog_9116,phrog_4242,phrog_14307,phrog_7489,phrog_2915,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481: 1	PF07484.15,PF03906.17,PF05662.17: 1	clu_9150
+576	9124	2714_mono	1	nan	nan: 1	nan: 1	30.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9124
+577	9116	1003_mono	1	nan	nan: 1	nan: 1	41.0		8.06		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9116
+578	4487	1564_mono	1	nan	nan: 1	nan: 1	43.0		11.57		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4487
+579	4499	70_clan	1	nan	hypothetical protein: 1	nan: 1	89.0		4.84		nan: 1	nan: 1	nan: 1	phrog_7884: 1	nan: 1	clu_4499
+580	4500	1669_mono	1	nan	nan: 1	nan: 1	33.0		10.63		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4500
+581	4525	504_mono	1	nan	nan: 1	nan: 1	158.0		9.59		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4525
+582	9070	27_clan	1	nan	hypothetical protein: 1	nan: 1	110.0		9.51		nan: 1	nan: 1	nan: 1	phrog_9238,phrog_6379: 1	nan: 1	clu_9070
+583	4545	234_pair	1	nan	nan: 1	nan: 1	103.0		10.45		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4545
+584	9032	658_mono	1	nan	nan: 1	nan: 1	60.0		4.66		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9032
+585	9013	2578_mono	1	nan	nan: 1	nan: 1	121.0		9.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9013
+586	8992	921_mono	1	nan	hypothetical protein,Rz-like spanin: 1	O_Spanin_T7: 1	85.0		9.72		nan: 1	nan: 1	nan: 1	phrog_31145,phrog_4306: 1	PF17531.5: 1	clu_8992
+587	8990	22_clan	1	nan	nan: 1	nan: 1	143.0		4.37		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_8990
+588	5175	outlier: 1_clan	1	nan	nan: 1	nan: 1	51.0		8.58		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5175
+589	5211	15_clan	1	nan	nan: 1	nan: 1	40.0		9.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5211
+590	7971	1162_mono	1	nan	nan: 1	nan: 1	90.0		5.33		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7971
+591	5773	2690_mono	1	nan	nan: 1	nan: 1	60.0		5.6		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5773
+592	7118	1050_mono	1	nan	hypothetical protein,tail fiber protein,EPS depolymerase: 1	nan: 1	651.0		6.33		nan: 1	nan: 1	nan: 1	phrog_9624,phrog_17640,phrog_31454,phrog_27731,phrog_4250: 1	nan: 1	clu_7118
+593	7110	13_clan	1	nan	terminase large subunit: 1	nan: 1	218.0		5.47		nan: 1	nan: 1	nan: 1	phrog_38,phrog_17672: 1	nan: 1	clu_7110
+594	5794	994_mono	1	nan	nan: 1	nan: 1	46.0		4.56		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5794
+595	5939	13_clan	1	nan	terminase large subunit: 1	nan: 1	111.0		9.46		nan: 1	nan: 1	nan: 1	phrog_38,phrog_4758,phrog_17672: 1	nan: 1	clu_5939
+596	5950	1250_mono	1	nan	nan: 1	nan: 1	77.0		4.49		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5950
+597	6122	1168_mono	1	nan	nan: 1	nan: 1	53.0		7.64		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6122
+598	6927	1302_mono	1	nan	nan: 1	nan: 1	51.0		6.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6927
+599	6163	1752_mono	1	nan	nan: 1	nan: 1	161.0		7.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6163
+600	6847	570_mono	1	nan	nan: 1	HTH_23: 1	136.0		9.75		nan: 1	nan: 1	nan: 1	nan: 1	PF13384.9: 1	clu_6847
+601	6843	45_clan	1	nan	nan: 1	nan: 1	47.0		4.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6843
+602	6834	234_pair	1	nan	nan: 1	nan: 1	126.0		5.47		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6834
+603	6220	214_pair	1	nan	nan: 1	nan: 1	48.0		5.84		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6220
+604	6813	1379_mono	1	nan	nan: 1	nan: 1	59.0		11.91		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6813
+605	6225	4_clan; 8_clan	1	nan	nan: 1	nan: 1	164.0		10.14		APIS085: 1	CLAN020: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	nan: 1	nan: 1	clu_6225
+606	6228	1623_mono	1	nan	hypothetical protein: 1	nan: 1	68.0		4.05		nan: 1	nan: 1	nan: 1	phrog_9294,phrog_37123,phrog_9396: 1	nan: 1	clu_6228
+607	6237	290_pair	1	nan	nan: 1	nan: 1	44.0		7.09		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6237
+608	6779	384_pair	1	nan	nan: 1	nan: 1	39.0		6.03		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6779
+609	6761	2308_mono	1	nan	nan: 1	nan: 1	36.0		4.87		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6761
+610	6722	2104_mono	1	nan	nan: 1	nan: 1	45.0		6.88		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6722
+611	6276	27_clan	1	nan	hypothetical protein: 1	nan: 1	177.0		9.13		nan: 1	nan: 1	nan: 1	phrog_9238: 1	nan: 1	clu_6276
+612	6361	251_pair	1	nan	nan: 1	nan: 1	86.0		8.83		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6361
+613	6326	1438_mono	1	nan	nan: 1	nan: 1	90.0		6.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6326
+614	6321	231_pair	1	nan	nan: 1	nan: 1	93.0		9.07		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6321
+615	5777	8_clan	1	nan	protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,kinase: 1	nan: 1	311.0		9.05		nan: 1	nan: 1	nan: 1	phrog_15752,phrog_18305: 1	nan: 1	clu_5777
+616	5738	259_pair	1	nan	hypothetical protein: 1	nan: 1	153.0		6.05		nan: 1	nan: 1	nan: 1	phrog_23974,phrog_18383: 1	nan: 1	clu_5738
+617	7969	31_clan	1	nan	hypothetical protein: 1	nan: 1	69.0		10.59		nan: 1	nan: 1	nan: 1	phrog_8393: 1	nan: 1	clu_7969
+618	7296	1507_mono	1	nan	nan: 1	nan: 1	38.0		10.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7296
+619	7965	64_clan	1	nan	nan: 1	nan: 1	74.0		7.79		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7965
+620	7960	63_clan	1	nan	hypothetical protein: 1	nan: 1	83.0		8.8		nan: 1	nan: 1	nan: 1	phrog_7066: 1	nan: 1	clu_7960
+621	5218	527_mono	1	nan	nan: 1	nan: 1	54.0		6.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5218
+622	7924	1004_mono	1	nan	nan: 1	nan: 1	43.0		9.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7924
+623	7873	194_clan	1	nan	nan: 1	nan: 1	70.0		9.42		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7873
+624	7872	2113_mono	1	nan	nan: 1	nan: 1	59.0		10.35		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7872
+625	7798	108_clan	1	nan	nan: 1	nan: 1	57.0		4.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7798
+626	5235	1425_mono	1	nan	nan: 1	nan: 1	59.0		4.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5235
+627	7677	2704_mono	1	nan	nan: 1	nan: 1	84.0		4.68		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7677
+628	5297	235_pair	1	nan	nan: 1	nan: 1	30.0		9.69		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5297
+629	5588	outlier: 62_clan	1	nan	nan: 1	nan: 1	36.0		6.51		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5588
+630	5618	1092_mono	1	nan	nan: 1	nan: 1	66.0		5.2		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5618
+631	7454	1764_mono	1	nan	nan: 1	nan: 1	32.0		8.5		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7454
+632	5631	outlier: 73_clan	1	nan	nan: 1	nan: 1	74.0		10.16		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_5631
+633	7429	15_clan	1	nan	hypothetical protein: 1	nan: 1	125.0		9.93		nan: 1	nan: 1	nan: 1	phrog_36394,phrog_2385: 1	nan: 1	clu_7429
+634	7412	61_clan	1	nan	hypothetical protein: 1	nan: 1	62.0		5.0		nan: 1	nan: 1	nan: 1	phrog_2061: 1	nan: 1	clu_7412
+635	7410	48_clan	1	nan	nan: 1	nan: 1	38.0		6.92		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7410
+636	5681	20_clan	1	nan	hypothetical protein: 1	nan: 1	36.0		7.96		nan: 1	nan: 1	nan: 1	phrog_7202: 1	nan: 1	clu_5681
+637	7372	1659_mono	1	nan	nan: 1	nan: 1	33.0		10.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7372
+638	7358	2384_mono	1	nan	nan: 1	nan: 1	34.0		7.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7358
+639	7356	1539_mono	1	nan	nan: 1	nan: 1	31.0		5.75		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7356
+640	7320	56_clan	1	nan	HNH endonuclease: 1	nan: 1	201.0		10.03		nan: 1	nan: 1	nan: 1	phrog_2081,phrog_953: 1	nan: 1	clu_7320
+641	7299	223_pair	1	nan	nan: 1	nan: 1	57.0		8.98		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_7299
+642	9590	134_clan	1	nan	nan: 1	nan: 1	92.0		9.95		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9590
+643	4254	717_mono	1	nan	nan: 1	nan: 1	35.0		6.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4254
+644	4202	22_clan; 25_clan	1	nan	nan: 1	nan: 1	44.0		8.99		APIS091: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	nan: 1	nan: 1	clu_4202
+645	11924	4_clan	1	nan	nan: 1	nan: 1	31.0		5.3		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11924
+646	11893	18_clan	1	nan	nan: 1	nan: 1	65.0		9.7		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11893
+647	2924	194_clan	1	nan	nan: 1	nan: 1	36.0		8.59		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2924
+648	11807	851_mono	1	nan	nan: 1	nan: 1	38.0		7.08		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11807
+649	11770	69_clan	1	nan	hypothetical protein: 1	nan: 1	82.0		9.03		nan: 1	nan: 1	nan: 1	phrog_3199: 1	nan: 1	clu_11770
+650	2942	1027_mono	1	nan	nan: 1	nan: 1	46.0		9.85		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2942
+651	3007	2682_mono	1	nan	nan: 1	nan: 1	31.0		5.75		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3007
+652	11688	385_pair	1	nan	nan: 1	nan: 1	31.0		5.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11688
+653	11467	78_clan	1	nan	2OG-Fe(II) oxygenase: 1	2OG-FeII_Oxy_3: 1	102.0		6.26		nan: 1	nan: 1	nan: 1	phrog_61: 1	PF13640.9: 1	clu_11467
+654	3018	574_mono	1	nan	nan: 1	nan: 1	58.0		10.16		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3018
+655	11455	61_clan	1	nan	hypothetical protein: 1	nan: 1	46.0		4.05		nan: 1	nan: 1	nan: 1	phrog_2061,phrog_35040: 1	nan: 1	clu_11455
+656	11448	256_pair	1	nan	hypothetical protein: 1	nan: 1	130.0		8.67		nan: 1	nan: 1	nan: 1	phrog_16407: 1	nan: 1	clu_11448
+657	11400	2474_mono	1	nan	nan: 1	nan: 1	44.0		8.27		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11400
+658	11399	1431_mono	1	nan	tail fiber protein: 1	nan: 1	120.0		4.4		nan: 1	nan: 1	nan: 1	phrog_1795: 1	nan: 1	clu_11399
+659	3042	963_mono	1	nan	nan: 1	nan: 1	37.0		10.83		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3042
+660	3068	1134_mono	1	nan	nan: 1	HTH_23: 1	383.0		4.79		nan: 1	nan: 1	nan: 1	nan: 1	PF13384.9: 1	clu_3068
+661	11349	2273_mono	1	nan	nan: 1	nan: 1	56.0		6.8		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11349
+662	3076	976_mono	1	nan	nan: 1	nan: 1	53.0		9.52		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3076
+663	11316	20_clan	1	nan	hypothetical protein: 1	nan: 1	51.0		8.85		nan: 1	nan: 1	nan: 1	phrog_7202: 1	nan: 1	clu_11316
+664	3144	56_clan	1	nan	HNH endonuclease: 1	nan: 1	162.0		9.42		nan: 1	nan: 1	nan: 1	phrog_2081,phrog_953: 1	nan: 1	clu_3144
+665	3146	179_clan	1	nan	hypothetical protein: 1	nan: 1	42.0		5.98		nan: 1	nan: 1	nan: 1	phrog_6500: 1	nan: 1	clu_3146
+666	3186	2647_mono	1	nan	nan: 1	nan: 1	30.0		10.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3186
+667	3327	848_mono	1	nan	tail fiber protein: 1	Beta_helix: 1	649.0		6.38		nan: 1	nan: 1	nan: 1	phrog_18512: 1	PF13229.9: 1	clu_3327
+668	11229	1592_mono	1	nan	nan: 1	nan: 1	62.0		9.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11229
+669	11907	339_pair	1	nan	nan: 1	nan: 1	108.0		8.34		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11907
+670	2910	150_clan	1	nan	nan: 1	nan: 1	30.0		5.97		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2910
+671	3407	2173_mono	1	nan	nan: 1	nan: 1	112.0		9.44		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3407
+672	2875	431_pair	1	nan	nan: 1	nan: 1	37.0		9.36		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2875
+673	12739	139_clan	1	nan	nan: 1	nan: 1	45.0		7.89		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12739
+674	12630	2527_mono	1	nan	hypothetical protein: 1	NRDD: 1	61.0		7.86		nan: 1	nan: 1	nan: 1	phrog_4132: 1	PF13597.9: 1	clu_12630
+675	12482	997_mono	1	nan	nan: 1	nan: 1	31.0		12.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12482
+676	12472	339_pair	1	nan	nan: 1	nan: 1	44.0		7.71		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12472
+677	12436	973_mono	1	nan	nan: 1	nan: 1	45.0		4.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12436
+678	2823	1146_mono	1	nan	nan: 1	nan: 1	61.0		9.76		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2823
+679	12428	24_clan	1	nan	HNH endonuclease,hypothetical protein: 1	HNH_3: 1	55.0		6.0		nan: 1	nan: 1	nan: 1	phrog_37683,phrog_30377,phrog_99,phrog_59,phrog_959: 1	PF13392.9: 1	clu_12428
+680	12407	209_pair	1	nan	nan: 1	nan: 1	51.0		8.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12407
+681	6297	692_mono	1	nan	nan: 1	nan: 1	31.0		6.74		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_6297
+682	12397	2763_mono	1	nan	nan: 1	nan: 1	33.0		9.98		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12397
+683	12347	402_pair	1	nan	nan: 1	nan: 1	144.0		9.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12347
+684	12345	131_clan	1	nan	tail spike protein,hypothetical protein,tail protein: 1	Pectate_lyase_3: 1	543.0		6.07		nan: 1	nan: 1	nan: 1	phrog_21471,phrog_13893,phrog_28781,phrog_17959,phrog_20231,phrog_18522,phrog_14558,phrog_1171,phrog_4217: 1	PF12708.10: 1	clu_12345
+685	12338	97_clan	1	nan	hypothetical protein: 1	nan: 1	91.0		5.44		nan: 1	nan: 1	nan: 1	phrog_2193: 1	nan: 1	clu_12338
+686	2848	1304_mono	1	nan	nan: 1	nan: 1	104.0		9.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_2848
+687	12302	67_clan	1	nan	nan: 1	nan: 1	79.0		9.74		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12302
+688	12246	162_clan	1	nan	nan: 1	nan: 1	65.0		9.62		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_12246
+689	12188	18_clan	1	nan	hypothetical protein: 1	nan: 1	42.0		9.65		nan: 1	nan: 1	nan: 1	phrog_5058: 1	nan: 1	clu_12188
+690	12108	66_clan	1	nan	hypothetical protein: 1	nan: 1	46.0		4.54		nan: 1	nan: 1	nan: 1	phrog_6403: 1	nan: 1	clu_12108
+691	12106	34_clan	1	nan	hypothetical protein,tail fiber protein,tail spike protein,haemolysin-type calcium binding,tail protein,virion structural protein: 1	Phage_T7_tail,Tail_spike_N: 1	748.0		5.15		nan: 1	nan: 1	nan: 1	phrog_34776,phrog_13980,phrog_38183,phrog_29731,phrog_14442,phrog_11182,phrog_27367,phrog_20231,phrog_7992,phrog_8846,phrog_16586,phrog_13362,phrog_19921,phrog_32933,phrog_23412,phrog_15455,phrog_1819,phrog_15437,phrog_26630,phrog_26143,phrog_17635,phrog_13768,phrog_9502,phrog_24786,phrog_29076,phrog_1171,phrog_28871,phrog_4217,phrog_27199,phrog_21878,phrog_14879,phrog_31166,phrog_8649,phrog_27156,phrog_18522,phrog_18484,phrog_4242,phrog_21710,phrog_36390,phrog_28781,phrog_8460,phrog_17312,phrog_6256,phrog_25325,phrog_34575: 1	PF03906.17,PF18668.4: 1	clu_12106
+692	12072	41_clan	1	nan	NrdD-like anaerobic ribonucleotide reductase large subunit,anaerobic ribonucleoside reductase large subunit: 1	ATP-cone,NRDD: 1	665.0		5.3		nan: 1	nan: 1	nan: 1	phrog_4218,phrog_25611,phrog_487: 1	PF03477.19,PF13597.9: 1	clu_12072
+693	12011	22_clan; 25_clan	1	nan	SAM-dependent methyltransferase: 1	nan: 1	231.0		5.06		APIS091: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2226: 1	nan: 1	clu_12011
+694	11976	27_clan	1	nan	hypothetical protein: 1	nan: 1	125.0		5.27		nan: 1	nan: 1	nan: 1	phrog_6440,phrog_9238,phrog_8103,phrog_6379: 1	nan: 1	clu_11976
+695	2868	70_clan	1	nan	hypothetical protein: 1	nan: 1	104.0		6.89		nan: 1	nan: 1	nan: 1	phrog_7884: 1	nan: 1	clu_2868
+696	3382	1012_mono	1	nan	nan: 1	nan: 1	33.0		8.21		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3382
+697	11130	1343_mono	1	nan	nan: 1	nan: 1	35.0		7.85		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_11130
+698	4186	1138_mono	1	nan	nan: 1	nan: 1	34.0		7.89		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4186
+699	3966	1615_mono	1	nan	nan: 1	nan: 1	61.0		10.24		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3966
+700	3970	1920_mono	1	nan	nan: 1	nan: 1	53.0		4.52		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3970
+701	10199	805_mono	1	nan	nan: 1	nan: 1	62.0		10.34		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10199
+702	10189	1676_mono	1	nan	nan: 1	nan: 1	51.0		9.89		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10189
+703	3986	69_clan	1	nan	hypothetical protein: 1	nan: 1	93.0		6.72		nan: 1	nan: 1	nan: 1	phrog_3199: 1	nan: 1	clu_3986
+704	4048	125_clan	1	nan	hypothetical protein: 1	nan: 1	114.0		6.18		nan: 1	nan: 1	nan: 1	phrog_25437: 1	nan: 1	clu_4048
+705	4052	386_pair	1	nan	nan: 1	nan: 1	65.0		6.55		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4052
+706	10113	45_clan	1	nan	nan: 1	nan: 1	87.0		5.02		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10113
+707	10106	2355_mono	1	nan	nan: 1	nan: 1	47.0		10.63		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10106
+708	4057	2448_mono	1	nan	nan: 1	nan: 1	46.0		9.61		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4057
+709	10034	2781_mono	1	nan	nan: 1	nan: 1	30.0		6.9		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10034
+710	4059	305_pair	1	nan	hypothetical protein: 1	nan: 1	30.0		10.29		nan: 1	nan: 1	nan: 1	phrog_36438: 1	nan: 1	clu_4059
+711	4089	2378_mono	1	nan	hypothetical protein: 1	nan: 1	58.0		8.62		nan: 1	nan: 1	nan: 1	phrog_20712: 1	nan: 1	clu_4089
+712	9912	385_pair	1	nan	nan: 1	nan: 1	31.0		6.49		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9912
+713	4099	2072_mono	1	nan	nan: 1	nan: 1	43.0		9.1		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4099
+714	9794	886_mono	1	nan	nan: 1	nan: 1	48.0		10.96		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9794
+715	9781	2419_mono	1	nan	nan: 1	nan: 1	33.0		9.31		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9781
+716	9725	outlier: 27_clan	1	nan	nan: 1	nan: 1	39.0		10.13		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9725
+717	9724	2696_mono	1	nan	hypothetical protein: 1	nan: 1	107.0		9.52		nan: 1	nan: 1	nan: 1	phrog_9227: 1	nan: 1	clu_9724
+718	9720	104_clan	1	nan	nan: 1	nan: 1	31.0		11.72		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9720
+719	9707	18_clan	1	nan	nan: 1	nan: 1	65.0		10.0		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9707
+720	4172	1261_mono	1	nan	nan: 1	nan: 1	32.0		9.7		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_4172
+721	9674	614_mono	1	nan	nan: 1	nan: 1	66.0		8.07		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_9674
+722	9670	69_clan	1	nan	hypothetical protein: 1	nan: 1	103.0		6.95		nan: 1	nan: 1	nan: 1	phrog_3199: 1	nan: 1	clu_9670
+723	10228	21_clan	1	nan	nan: 1	nan: 1	55.0		9.6		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10228
+724	3965	18_clan; 79_clan	1	nan	hypothetical protein: 1	nan: 1	96.0		10.29		nan: 1	nan: 1	nan: 1	phrog_10380,phrog_5058: 1	nan: 1	clu_3965
+725	10909	78_clan	1	nan	nan: 1	nan: 1	159.0		5.08		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10909
+726	3941	960_mono	1	nan	nan: 1	nan: 1	72.0		4.78		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3941
+727	10905	outlier: 4_clan	1	nan	nan: 1	nan: 1	30.0		4.56		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10905
+728	3462	78_clan	1	nan	nan: 1	nan: 1	139.0		6.07		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3462
+729	10890	158_clan	1	nan	nan: 1	nan: 1	38.0		10.88		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10890
+730	10843	143_clan	1	nan	hypothetical protein: 1	nan: 1	34.0		9.19		nan: 1	nan: 1	nan: 1	phrog_7806: 1	nan: 1	clu_10843
+731	10841	34_clan	1	nan	hypothetical protein,tail fiber protein,tail spike protein,tail protein,tail fiber assembly: 1	Phage_T7_tail: 1	619.0		7.72		nan: 1	nan: 1	nan: 1	phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_33642,phrog_27277,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_19294,phrog_21412,phrog_13481: 1	PF03906.17: 1	clu_10841
+732	10820	179_clan	1	nan	hypothetical protein: 1	nan: 1	59.0		4.16		nan: 1	nan: 1	nan: 1	phrog_6500: 1	nan: 1	clu_10820
+733	3488	453_mono	1	nan	nan: 1	nan: 1	61.0		10.05		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3488
+734	3489	1427_mono	1	nan	nan: 1	nan: 1	35.0		4.22		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3489
+735	10761	68_clan	1	nan	nan: 1	nan: 1	44.0		9.11		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10761
+736	10747	402_pair	1	nan	nan: 1	nan: 1	46.0		11.64		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10747
+737	10706	1982_mono	1	nan	nan: 1	nan: 1	66.0		10.09		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10706
+738	3497	31_clan	1	nan	hypothetical protein: 1	nan: 1	35.0		10.96		nan: 1	nan: 1	nan: 1	phrog_8393: 1	nan: 1	clu_3497
+739	3498	650_mono	1	nan	nan: 1	nan: 1	37.0		8.19		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3498
+740	3540	1865_mono	1	nan	nan: 1	nan: 1	57.0		9.17		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_3540
+741	10674	208_pair	1	nan	nan: 1	nan: 1	46.0		11.12		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10674
+742	10673	578_mono	1	nan	tail spike protein,hypothetical protein,tail fiber protein,tail protein: 1	Peptidase_S74: 1	249.0		5.76		nan: 1	nan: 1	nan: 1	phrog_15695,phrog_14895,phrog_17635,phrog_31154,phrog_23437,phrog_28871: 1	PF13884.9: 1	clu_10673
+743	10666	34_clan	1	nan	tail spike protein,hypothetical protein,tail fiber protein,tail protein: 1	Peptidase_S74,Phage_T7_tail: 1	648.0		5.8		nan: 1	nan: 1	nan: 1	phrog_28766,phrog_15864,phrog_13980,phrog_14442,phrog_16586,phrog_27277,phrog_1419,phrog_26630,phrog_9502,phrog_24786,phrog_1640,phrog_38424,phrog_15695,phrog_31166,phrog_2710,phrog_4242,phrog_1980,phrog_29288,phrog_8460,phrog_17312,phrog_6256,phrog_21412,phrog_13481: 1	PF13884.9,PF03906.17: 1	clu_10666
+744	3604	152_clan	1	nan	hypothetical protein: 1	nan: 1	66.0		4.44		nan: 1	nan: 1	nan: 1	phrog_6314: 1	nan: 1	clu_3604
+745	10592	192_clan	1	nan	nan: 1	nan: 1	66.0		6.91		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10592
+746	10572	1045_mono	1	nan	nan: 1	nan: 1	39.0		10.69		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10572
+747	3643	22_clan; 25_clan	1	nan	SAM-dependent methyltransferase: 1	nan: 1	87.0		8.93		APIS091: 1	CLAN015: 1	restriction-modification (RM);bacteriophage exclusion (BREX): 1	phrog_2226: 1	nan: 1	clu_3643
+748	10332	390_pair	1	nan	nan: 1	nan: 1	57.0		7.73		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10332
+749	10272	749_mono	1	nan	nan: 1	nan: 1	59.0		7.75		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_10272
+750	17855	1365_mono	1	nan	nan: 1	nan: 1	31.0		11.83		nan: 1	nan: 1	nan: 1	nan: 1	nan: 1	clu_17855

@@ -1,0 +1,25 @@
+NC_047961.1	PHANOTATE	CDS	125	802	-10139.4812	+	0	ID=NC_047961.1.802;clu=17391;clan=2042_mono
+NC_047961.1	PHANOTATE	CDS	862	1395	-514.0425	+	0	ID=NC_047961.1.1395;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047961.1	PHANOTATE	CDS	1392	1553	-2.5837	+	0	ID=NC_047961.1.1553;clu=637;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047961.1	PHANOTATE	CDS	1546	1683	-24.3568	+	0	ID=NC_047961.1.1683;clu=1196;clan=584_mono
+NC_047961.1	PHANOTATE	CDS	1715	2770	-286181.5298	+	0	ID=NC_047961.1.2770;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+NC_047961.1	PHANOTATE	CDS	2826	5459	-1057266042029555.5	+	0	ID=NC_047961.1.5459;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048057.1	PHANOTATE	CDS	125	802	-9755.5905	+	0	ID=NC_048057.1.802;clu=17391;clan=2042_mono
+NC_048057.1	PHANOTATE	CDS	862	1395	-493.6618	+	0	ID=NC_048057.1.1395;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048057.1	PHANOTATE	CDS	1392	1553	-2.6733	+	0	ID=NC_048057.1.1553;clu=637;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048057.1	PHANOTATE	CDS	1546	1683	-28.776	+	0	ID=NC_048057.1.1683;clu=1196;clan=584_mono
+NC_048057.1	PHANOTATE	CDS	1715	2773	-467544.8505	+	0	ID=NC_048057.1.2773;clu=15065;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+NC_048057.1	PHANOTATE	CDS	2832	5462	-301907360341077.8	+	0	ID=NC_048057.1.5462;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048060.1	PHANOTATE	CDS	101	997	-127343.1071	+	0	ID=NC_048060.1.997;clu=17391;clan=2042_mono
+NC_048060.1	PHANOTATE	CDS	1057	1590	-441.6505	+	0	ID=NC_048060.1.1590;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048060.1	PHANOTATE	CDS	1587	1748	-3.6267	+	0	ID=NC_048060.1.1748;clu=637;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048060.1	PHANOTATE	CDS	1741	1878	-30.401	+	0	ID=NC_048060.1.1878;clu=1196;clan=584_mono
+NC_048060.1	PHANOTATE	CDS	1910	2968	-345186.6964	+	0	ID=NC_048060.1.2968;clu=9668;clan=8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+NC_048060.1	PHANOTATE	CDS	3028	5658	-3290228879361113.5	+	0	ID=NC_048060.1.5658;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048059.1	PHANOTATE	CDS	101	1042	-185009.3218	+	0	ID=NC_048059.1.1042;clu=17391;clan=2042_mono
+NC_048059.1	PHANOTATE	CDS	1102	1635	-534.7498	+	0	ID=NC_048059.1.1635;clu=259;clan=411_pair;PHROGs=phrog_11084;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048059.1	PHANOTATE	CDS	1632	1793	-1.8709	+	0	ID=NC_048059.1.1793;clu=637;clan=31_clan;PHROGs=phrog_8393,phrog_29241;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048059.1	PHANOTATE	CDS	1787	2011	-104.8876	+	0	ID=NC_048059.1.2011;clu=9168;clan=outlier: 21_clan
+NC_048059.1	PHANOTATE	CDS	2025	2162	-24.484	+	0	ID=NC_048059.1.2162;clu=1196;clan=584_mono
+NC_048059.1	PHANOTATE	CDS	2194	3252	-2125232.4483	+	0	ID=NC_048059.1.3252;clu=2969;clan=4_clan, 8_clan;PHROGs=phrog_15752,phrog_2828,phrog_18305;phrog_ann=protein kinase; inhibitor of host transcription; positively regulates RNaseIII; negatively on RNaseE,serine-threonine kinase,kinase;phrog_category=other
+NC_048059.1	PHANOTATE	CDS	3312	5942	-1879234090733193.0	+	0	ID=NC_048059.1.5942;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22

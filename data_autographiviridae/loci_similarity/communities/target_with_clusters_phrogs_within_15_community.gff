@@ -1,0 +1,41 @@
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	29726	32299	-3.0106045183876656e+16	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.29726;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF00940.22
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	32465	33244	-9823.6661	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.32465;clu=7720;clan=62_clan;PHROGs=phrog_245,phrog_9976,phrog_2011,phrog_450,phrog_463,phrog_2977,phrog_7940,phrog_130,phrog_2899,phrog_25722,phrog_5060,phrog_2593;phrog_ann=hypothetical protein,anti-repressor,anti-repressor Ant;phrog_category=transcription regulation,unknown function
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	33360	33458	-11.6267	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.33360;clu=9858;clan=2496_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	33515	33859	-108.3338	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.33515;clu=534;clan=87_clan
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	33990	34349	-10398.0094	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.33990;clu=17724;clan=57_clan
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	34352	34690	-2503.5061	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.34352;clu=411;clan=1542_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	34778	34972	-31.5194	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.34778;clu=970;clan=2390_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	34993	35166	-18.2727	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.34993;clu=1529;clan=978_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	35196	35318	-19.5477	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.35196;clu=2088;clan=1945_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	35396	35527	-1.1876	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.35396;clu=2647;clan=2287_mono
+SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1	PHANOTATE	CDS	35773	35883	-8.1885	-	0	ID=SRS053398_a1_ct89549_vs1@Podoviridae__sp._ct3gf1.35773;clu=14322;clan=1362_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	23959	26532	-4282630569263129.5	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.23959;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF00940.22
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	26698	27477	-4417.1927	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.26698;clu=7720;clan=62_clan;PHROGs=phrog_245,phrog_9976,phrog_2011,phrog_450,phrog_463,phrog_2977,phrog_7940,phrog_130,phrog_2899,phrog_25722,phrog_5060,phrog_2593;phrog_ann=hypothetical protein,anti-repressor,anti-repressor Ant;phrog_category=transcription regulation,unknown function
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	27593	27691	-8.0554	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.27593;clu=9858;clan=2496_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	27748	28092	-60.7711	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.27748;clu=534;clan=87_clan
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	28223	28582	-7172.0415	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.28223;clu=17724;clan=57_clan
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	28585	28923	-1815.7343	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.28585;clu=411;clan=1542_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	29011	29205	-55.1481	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.29011;clu=970;clan=2390_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	29226	29399	-14.9498	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.29226;clu=1529;clan=978_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	29429	29551	-13.334	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.29429;clu=2088;clan=1945_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	29629	29760	-1.1279	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.29629;clu=2647;clan=2287_mono
+SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1	PHANOTATE	CDS	30130	30234	-2.641	-	0	ID=SRS103987_a1_ct3663_vs1@Podoviridae__sp._ctk7i1.30130;clu=3206;clan=817_mono
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	7010	7024	-0.6617	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.7024;clu=4925;clan=2035_mono
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	7011	7376	-523.721	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.7376;clu=11171;clan=57_clan
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	7373	7627	-54.514	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.7627;clu=6043;clan=183_clan
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	7736	8494	-115448.5038	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.8494;clu=450;clan=50_clan;PHROGs=phrog_6361;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	8590	8802	-60.331	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.8802;clu=7161;clan=989_mono
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	8930	9751	-3474799.4867	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.9751;clu=7720;clan=62_clan;PHROGs=phrog_245,phrog_9976,phrog_2011,phrog_450,phrog_463,phrog_2977,phrog_7940,phrog_130,phrog_2899,phrog_25722,phrog_5060,phrog_2593;phrog_ann=hypothetical protein,anti-repressor,anti-repressor Ant;phrog_category=transcription regulation,unknown function
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	9876	12434	-1.1033568704957565e+18	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.12434;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1	PHANOTATE	CDS	12400	12434	-5.6705	+	0	ID=SAMN00791981_a1_ct21530_vs1@linear@Podoviridae__sp._ctd3i1.12513;clu=347;clan=1743_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	2207	2317	-8.0562	+	0	ID=MGV-GENOME-4421240.2317;clu=14322;clan=1362_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	2563	2694	-1.1634	+	0	ID=MGV-GENOME-4421240.2694;clu=2647;clan=2287_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	2772	2894	-15.588	+	0	ID=MGV-GENOME-4421240.2894;clu=2088;clan=1945_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	2924	3097	-14.8335	+	0	ID=MGV-GENOME-4421240.3097;clu=1529;clan=978_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	3118	3312	-67.8737	+	0	ID=MGV-GENOME-4421240.3312;clu=970;clan=2390_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	3400	3738	-6348.1966	+	0	ID=MGV-GENOME-4421240.3738;clu=411;clan=1542_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	3741	4100	-6743.8398	+	0	ID=MGV-GENOME-4421240.4100;clu=17724;clan=57_clan
+MGV-GENOME-4421240	PHANOTATE	CDS	4231	4575	-67.4792	+	0	ID=MGV-GENOME-4421240.4575;clu=534;clan=87_clan
+MGV-GENOME-4421240	PHANOTATE	CDS	4632	4730	-7.5667	+	0	ID=MGV-GENOME-4421240.4730;clu=9858;clan=2496_mono
+MGV-GENOME-4421240	PHANOTATE	CDS	4846	5625	-7950.5179	+	0	ID=MGV-GENOME-4421240.5625;clu=7720;clan=62_clan;PHROGs=phrog_245,phrog_9976,phrog_2011,phrog_450,phrog_463,phrog_2977,phrog_7940,phrog_130,phrog_2899,phrog_25722,phrog_5060,phrog_2593;phrog_ann=hypothetical protein,anti-repressor,anti-repressor Ant;phrog_category=transcription regulation,unknown function
+MGV-GENOME-4421240	PHANOTATE	CDS	5791	8364	-2.607259914781209e+16	+	0	ID=MGV-GENOME-4421240.8364;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF00940.22

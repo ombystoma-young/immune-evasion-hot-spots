@@ -1,0 +1,430 @@
+MN729596.1	PHANOTATE	CDS	936	1190	-6.5398	+	0	ID=MN729596.1.1190;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	1190	1390	-15.051	+	0	ID=MN729596.1.1390;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	1395	1706	-20.1053	+	0	ID=MN729596.1.1706;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	1794	2273	-213.7633	+	0	ID=MN729596.1.2273;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	2304	2840	-127.0609	+	0	ID=MN729596.1.2840;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	2837	3541	-1500.9729	+	0	ID=MN729596.1.3541;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MN729596.1	PHANOTATE	CDS	3541	3801	-4.067	+	0	ID=MN729596.1.3801;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	3803	4237	-394.3901	+	0	ID=MN729596.1.4237;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729596.1	PHANOTATE	CDS	4367	7027	-4036562925994.1274	+	0	ID=MN729596.1.7027;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OQ622254.1	PHANOTATE	CDS	72	1532	-16084633.7396	+	0	ID=OQ622254.1.1532;clu=16632;clan=2_clan;PHROGs=phrog_1,phrog_216;phrog_ann=integrase;phrog_category=integration and excision
+OQ622254.1	PHANOTATE	CDS	1581	1976	-14.4962	+	0	ID=OQ622254.1.1976;clu=17190;clan=2547_mono
+OQ622254.1	PHANOTATE	CDS	1983	2318	-18.7744	+	0	ID=OQ622254.1.2318;clu=7011;clan=2211_mono
+OQ622254.1	PHANOTATE	CDS	2525	2785	-3.9495	+	0	ID=OQ622254.1.2785;clu=3368;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+OQ622254.1	PHANOTATE	CDS	2835	3254	-91.4426	+	0	ID=OQ622254.1.3254;clu=1553;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OQ622254.1	PHANOTATE	CDS	3321	4070	-8003.3714	+	0	ID=OQ622254.1.4070;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OQ622254.1	PHANOTATE	CDS	4067	4459	-8.5123	+	0	ID=OQ622254.1.4459;clu=5045;clan=27_clan;PHROGs=phrog_9238,phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+OQ622254.1	PHANOTATE	CDS	4645	7338	-16052555482819.248	+	0	ID=OQ622254.1.7338;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OQ622254.1	PHANOTATE	CDS	40445	40546	-191.2741	+	0	ID=OQ622254.1.40546;clu=6163;clan=1752_mono
+OQ622254.1	PHANOTATE	CDS	40588	40722	-1.9391	+	0	ID=OQ622254.1.40722;clu=6722;clan=2104_mono
+OM282085.1	PHANOTATE	CDS	29	130	-3.5238	+	0	ID=OM282085.1.130;clu=1704;clan=209_pair
+OM282085.1	PHANOTATE	CDS	171	314	-0.2332	+	0	ID=OM282085.1.314;clu=2263;clan=389_pair
+OM282085.1	PHANOTATE	CDS	304	471	-6.7267	+	0	ID=OM282085.1.471;clu=2822;clan=158_clan
+OM282085.1	PHANOTATE	CDS	508	819	-11.8633	+	0	ID=OM282085.1.819;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM282085.1	PHANOTATE	CDS	826	1005	-20.0741	+	0	ID=OM282085.1.1005;clu=9700;clan=2200_mono
+OM282085.1	PHANOTATE	CDS	990	1256	-17.5918	+	0	ID=OM282085.1.1256;clu=4499;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM282085.1	PHANOTATE	CDS	1280	1735	-89.2824	+	0	ID=OM282085.1.1735;clu=9186;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM282085.1	PHANOTATE	CDS	1732	1938	-9.2696	+	0	ID=OM282085.1.1938;clu=15197;clan=1429_mono
+OM282085.1	PHANOTATE	CDS	2079	2645	-162.4459	+	0	ID=OM282085.1.2645;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM282085.1	PHANOTATE	CDS	2642	3346	-1356.0506	+	0	ID=OM282085.1.3346;clu=7952;clan=78_clan;PHROGs=phrog_2297,phrog_61;phrog_ann=DNA endonuclease,2OG-Fe(II) oxygenase;phrog_category=DNA, RNA and nucleotide metabolism,moron, auxiliary metabolic gene and host takeover
+OM282085.1	PHANOTATE	CDS	3352	3840	-157.0769	+	0	ID=OM282085.1.3840;clu=697;clan=27_clan;PHROGs=phrog_9238,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM282085.1	PHANOTATE	CDS	3985	6663	-5545461747044.228	+	0	ID=OM282085.1.6663;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_023005.1	PHANOTATE	CDS	1047	1343	-35.2836	+	0	ID=NC_023005.1.1343;clu=10910;clan=283_pair
+NC_023005.1	PHANOTATE	CDS	1345	1590	-22.5791	+	0	ID=NC_023005.1.1590;clu=11770;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_023005.1	PHANOTATE	CDS	1662	1991	-62.5599	+	0	ID=NC_023005.1.1991;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_023005.1	PHANOTATE	CDS	1903	2298	-116.2792	+	0	ID=NC_023005.1.2298;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_023005.1	PHANOTATE	CDS	2295	2525	-6.7519	+	0	ID=NC_023005.1.2525;clu=13444;clan=231_pair
+NC_023005.1	PHANOTATE	CDS	2605	3147	-332.4527	+	0	ID=NC_023005.1.3147;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_023005.1	PHANOTATE	CDS	3225	3854	-957.7797	+	0	ID=NC_023005.1.3854;clu=14560;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_023005.1	PHANOTATE	CDS	3851	4126	-15.6006	+	0	ID=NC_023005.1.4126;clu=8511;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_023005.1	PHANOTATE	CDS	4242	4343	-2.3539	+	0	ID=NC_023005.1.4343;clu=15676;clan=1497_mono
+NC_023005.1	PHANOTATE	CDS	4355	4483	-2.6441	+	0	ID=NC_023005.1.4483;clu=16234;clan=2784_mono
+NC_023005.1	PHANOTATE	CDS	4572	7244	-1191820804756.9653	+	0	ID=NC_023005.1.7244;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OL581611.1	PHANOTATE	CDS	434	559	-3.4886	+	0	ID=OL581611.1.559;clu=13075;clan=1639_mono
+OL581611.1	PHANOTATE	CDS	797	934	-0.0919	+	0	ID=OL581611.1.934;clu=6244;clan=1603_mono
+OL581611.1	PHANOTATE	CDS	931	1185	-20.3038	+	0	ID=OL581611.1.1185;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	1185	1382	-27.4918	+	0	ID=OL581611.1.1382;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	1387	1698	-15.2442	+	0	ID=OL581611.1.1698;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	1788	2267	-243.632	+	0	ID=OL581611.1.2267;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	2298	2840	-118.4594	+	0	ID=OL581611.1.2840;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	2837	3541	-1777.09	+	0	ID=OL581611.1.3541;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OL581611.1	PHANOTATE	CDS	3625	3801	-3.8591	+	0	ID=OL581611.1.3801;clu=3542;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	3804	4403	-2254.2201	+	0	ID=OL581611.1.4403;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+OL581611.1	PHANOTATE	CDS	4543	7200	-11707112082246.445	+	0	ID=OL581611.1.7200;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MH179478.2	PHANOTATE	CDS	33315	35984	-1723749322951.6013	-	0	ID=MH179478.2.33315;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+MH179478.2	PHANOTATE	CDS	36079	36423	-35.3478	-	0	ID=MH179478.2.36079;clu=3979;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+MH179478.2	PHANOTATE	CDS	36427	37143	-968.7087	-	0	ID=MH179478.2.36427;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MH179478.2	PHANOTATE	CDS	37140	37673	-261.8996	-	0	ID=MH179478.2.37140;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MH179478.2	PHANOTATE	CDS	37682	38074	-3.1297	-	0	ID=MH179478.2.37682;clu=13456;clan=2181_mono
+MH179478.2	PHANOTATE	CDS	38138	38461	-76.9989	-	0	ID=MH179478.2.38138;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+MH179478.2	PHANOTATE	CDS	38448	38723	-53.7157	-	0	ID=MH179478.2.38448;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+MH179478.2	PHANOTATE	CDS	38733	38852	-5.8254	-	0	ID=MH179478.2.38733;clu=6885;clan=123_clan
+MH179478.2	PHANOTATE	CDS	38849	39268	-142.0814	-	0	ID=MH179478.2.38849;clu=15688;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+MH179478.2	PHANOTATE	CDS	39345	39587	-26.6447	-	0	ID=MH179478.2.39345;clu=11378;clan=2376_mono
+NC_027292.1	PHANOTATE	CDS	588	1070	-146.1783	+	0	ID=NC_027292.1.1070;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027292.1	PHANOTATE	CDS	1070	1273	-5.6326	+	0	ID=NC_027292.1.1273;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027292.1	PHANOTATE	CDS	1263	1385	-4.5019	+	0	ID=NC_027292.1.1385;clu=11932;clan=123_clan
+NC_027292.1	PHANOTATE	CDS	1398	1673	-44.764	+	0	ID=NC_027292.1.1673;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_027292.1	PHANOTATE	CDS	1657	1956	-46.3638	+	0	ID=NC_027292.1.1956;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027292.1	PHANOTATE	CDS	2017	2115	-1.6435	+	0	ID=NC_027292.1.2115;clu=2302;clan=738_mono
+NC_027292.1	PHANOTATE	CDS	2112	2648	-276.5655	+	0	ID=NC_027292.1.2648;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027292.1	PHANOTATE	CDS	2645	3349	-3178.2824	+	0	ID=NC_027292.1.3349;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_027292.1	PHANOTATE	CDS	3353	3694	-19.6899	+	0	ID=NC_027292.1.3694;clu=3979;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_027292.1	PHANOTATE	CDS	3943	6468	-2340493168847.1436	+	0	ID=NC_027292.1.6468;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OP924544.1	PHANOTATE	CDS	1069	1311	-21.1479	+	0	ID=OP924544.1.1311;clu=11378;clan=2376_mono
+OP924544.1	PHANOTATE	CDS	1396	1707	-38.6139	+	0	ID=OP924544.1.1707;clu=2868;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP924544.1	PHANOTATE	CDS	1718	2218	-1060.8291	+	0	ID=OP924544.1.2218;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP924544.1	PHANOTATE	CDS	2298	2576	-8.983	+	0	ID=OP924544.1.2576;clu=3986;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP924544.1	PHANOTATE	CDS	2583	2891	-14.3325	+	0	ID=OP924544.1.2891;clu=4545;clan=234_pair
+OP924544.1	PHANOTATE	CDS	2980	5646	-4755298124685.866	+	0	ID=OP924544.1.5646;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+OP924544.1	PHANOTATE	CDS	5633	5646	-0.0845	+	0	ID=OP924544.1.5728;clu=10186;clan=1806_mono
+NC_047922.1	PHANOTATE	CDS	14235	14348	-0.3478	+	0	ID=NC_047922.1.14348;clu=11807;clan=851_mono
+NC_047922.1	PHANOTATE	CDS	14345	14518	-3.9858	+	0	ID=NC_047922.1.14518;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	14609	14758	-8.7433	+	0	ID=NC_047922.1.14758;clu=12923;clan=53_clan, 67_clan
+NC_047922.1	PHANOTATE	CDS	14820	14972	-12.0633	+	0	ID=NC_047922.1.14972;clu=5180;clan=202_pair
+NC_047922.1	PHANOTATE	CDS	15051	15149	-1.0647	+	0	ID=NC_047922.1.15149;clu=14039;clan=350_pair
+NC_047922.1	PHANOTATE	CDS	15318	15452	-4.4824	+	0	ID=NC_047922.1.15452;clu=14597;clan=1826_mono
+NC_047922.1	PHANOTATE	CDS	15555	15845	-14.6299	+	0	ID=NC_047922.1.15845;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	15851	16048	-26.792	+	0	ID=NC_047922.1.16048;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	16053	16364	-18.4928	+	0	ID=NC_047922.1.16364;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	16331	16930	-398.9535	+	0	ID=NC_047922.1.16930;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	16999	17574	-297.85	+	0	ID=NC_047922.1.17574;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	17571	18275	-857.7298	+	0	ID=NC_047922.1.18275;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047922.1	PHANOTATE	CDS	18272	18478	-5.9389	+	0	ID=NC_047922.1.18478;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	18478	19032	-780.4093	+	0	ID=NC_047922.1.19032;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047922.1	PHANOTATE	CDS	19167	21821	-18544523786794.598	+	0	ID=NC_047922.1.21821;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MZ501272.1	PHANOTATE	CDS	918	922	-0.0917	+	0	ID=MZ501272.1.922;clu=6244;clan=1603_mono
+MZ501272.1	PHANOTATE	CDS	919	1173	-17.5754	+	0	ID=MZ501272.1.1173;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	1173	1400	-20.166	+	0	ID=MZ501272.1.1400;clu=11960;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	1397	1639	-20.3578	+	0	ID=MZ501272.1.1639;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	1729	2208	-202.7712	+	0	ID=MZ501272.1.2208;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	2239	2781	-133.2647	+	0	ID=MZ501272.1.2781;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	2778	3482	-2151.6088	+	0	ID=MZ501272.1.3482;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MZ501272.1	PHANOTATE	CDS	3566	3742	-3.0908	+	0	ID=MZ501272.1.3742;clu=3542;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	3745	4344	-3232.5902	+	0	ID=MZ501272.1.4344;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ501272.1	PHANOTATE	CDS	4484	7141	-8239461332252.989	+	0	ID=MZ501272.1.7141;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_015208.1	PHANOTATE	CDS	947	1261	-52.4497	+	0	ID=NC_015208.1.1261;clu=1245;clan=2681_mono
+NC_015208.1	PHANOTATE	CDS	1329	1820	-293.3807	+	0	ID=NC_015208.1.1820;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015208.1	PHANOTATE	CDS	1820	1951	-4.773	+	0	ID=NC_015208.1.1951;clu=2363;clan=1551_mono
+NC_015208.1	PHANOTATE	CDS	1962	2207	-7.629	+	0	ID=NC_015208.1.2207;clu=11960;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015208.1	PHANOTATE	CDS	2213	2572	-102.636	+	0	ID=NC_015208.1.2572;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_015208.1	PHANOTATE	CDS	2565	2789	-11.1383	+	0	ID=NC_015208.1.2789;clu=4040;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015208.1	PHANOTATE	CDS	2810	3475	-1866.2679	+	0	ID=NC_015208.1.3475;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015208.1	PHANOTATE	CDS	3472	3888	-56.0956	+	0	ID=NC_015208.1.3888;clu=3462;clan=78_clan
+NC_015208.1	PHANOTATE	CDS	4009	6657	-129591052390.075	+	0	ID=NC_015208.1.6657;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_028661.1	PHANOTATE	CDS	62	187	-3.9243	+	0	ID=NC_028661.1.187;clu=11849;clan=1404_mono
+NC_028661.1	PHANOTATE	CDS	175	327	-5.2793	+	0	ID=NC_028661.1.327;clu=12407;clan=209_pair
+NC_028661.1	PHANOTATE	CDS	327	473	-4.3854	+	0	ID=NC_028661.1.473;clu=12965;clan=390_pair
+NC_028661.1	PHANOTATE	CDS	893	1141	-14.2307	+	0	ID=NC_028661.1.1141;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	1146	1421	-14.2729	+	0	ID=NC_028661.1.1421;clu=10910;clan=283_pair
+NC_028661.1	PHANOTATE	CDS	1434	1913	-66.3842	+	0	ID=NC_028661.1.1913;clu=9186;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	1910	2116	-7.1626	+	0	ID=NC_028661.1.2116;clu=15197;clan=1429_mono
+NC_028661.1	PHANOTATE	CDS	2176	2559	-129.5525	+	0	ID=NC_028661.1.2559;clu=8627;clan=730_mono;PHROGs=phrog_5680,phrog_22565;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	2642	3217	-716.148	+	0	ID=NC_028661.1.3217;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	3214	3927	-2787.6629	+	0	ID=NC_028661.1.3927;clu=7952;clan=78_clan;PHROGs=phrog_2297,phrog_61;phrog_ann=DNA endonuclease,2OG-Fe(II) oxygenase;phrog_category=DNA, RNA and nucleotide metabolism,moron, auxiliary metabolic gene and host takeover
+NC_028661.1	PHANOTATE	CDS	3927	4130	-6.5459	+	0	ID=NC_028661.1.4130;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	4132	4542	-365.921	+	0	ID=NC_028661.1.4542;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_028661.1	PHANOTATE	CDS	4685	7366	-4665963525238.57	+	0	ID=NC_028661.1.7366;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_028661.1	PHANOTATE	CDS	40834	40879	-0.0841	+	0	ID=NC_028661.1.40879;clu=1234;clan=2686_mono
+NC_028661.1	PHANOTATE	CDS	40964	41089	-3.6953	+	0	ID=NC_028661.1.41089;clu=11849;clan=1404_mono
+NC_047981.1	PHANOTATE	CDS	397	413	-1.7788	+	0	ID=NC_047981.1.413;clu=4598;clan=158_clan
+NC_047981.1	PHANOTATE	CDS	398	598	-11.4884	+	0	ID=NC_047981.1.598;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047981.1	PHANOTATE	CDS	609	1100	-574.4725	+	0	ID=NC_047981.1.1100;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047981.1	PHANOTATE	CDS	1100	1222	-1.9535	+	0	ID=NC_047981.1.1222;clu=7998;clan=123_clan
+NC_047981.1	PHANOTATE	CDS	1292	1669	-196.5973	+	0	ID=NC_047981.1.1669;clu=6834;clan=234_pair
+NC_047981.1	PHANOTATE	CDS	1734	2330	-1522.6804	+	0	ID=NC_047981.1.2330;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047981.1	PHANOTATE	CDS	2207	3034	-3243.3891	+	0	ID=NC_047981.1.3034;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047981.1	PHANOTATE	CDS	3031	3306	-14.7003	+	0	ID=NC_047981.1.3306;clu=8511;clan=54_clan;PHROGs=phrog_7066,phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047981.1	PHANOTATE	CDS	3306	3635	-194.7991	+	0	ID=NC_047981.1.3635;clu=9070;clan=27_clan;PHROGs=phrog_9238,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047981.1	PHANOTATE	CDS	3757	6423	-11406019171695.297	+	0	ID=NC_047981.1.6423;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047981.1	PHANOTATE	CDS	6410	6423	-0.0894	+	0	ID=NC_047981.1.6505;clu=10186;clan=1806_mono
+MT711887.2	PHANOTATE	CDS	932	1174	-26.3908	+	0	ID=MT711887.2.1174;clu=15770;clan=1934_mono
+MT711887.2	PHANOTATE	CDS	1185	1490	-103.0632	+	0	ID=MT711887.2.1490;clu=1245;clan=2681_mono
+MT711887.2	PHANOTATE	CDS	1559	2050	-207.1814	+	0	ID=MT711887.2.2050;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	2050	2181	-2.7374	+	0	ID=MT711887.2.2181;clu=2363;clan=1551_mono
+MT711887.2	PHANOTATE	CDS	2192	2437	-6.3385	+	0	ID=MT711887.2.2437;clu=11960;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	2443	2802	-79.5705	+	0	ID=MT711887.2.2802;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+MT711887.2	PHANOTATE	CDS	2795	3019	-13.6922	+	0	ID=MT711887.2.3019;clu=4040;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	3040	3705	-1620.463	+	0	ID=MT711887.2.3705;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	3702	4406	-1548.8185	+	0	ID=MT711887.2.4406;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT711887.2	PHANOTATE	CDS	4408	4689	-13.4922	+	0	ID=MT711887.2.4689;clu=4644;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	4604	5134	-219.4973	+	0	ID=MT711887.2.5134;clu=6276;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711887.2	PHANOTATE	CDS	5271	7919	-317604070368.9366	+	0	ID=MT711887.2.7919;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047965.1	PHANOTATE	CDS	33390	36059	-1335270117287.0608	-	0	ID=NC_047965.1.33390;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_047965.1	PHANOTATE	CDS	36154	36498	-33.6479	-	0	ID=NC_047965.1.36154;clu=3979;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047965.1	PHANOTATE	CDS	36502	37218	-907.502	-	0	ID=NC_047965.1.36502;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047965.1	PHANOTATE	CDS	37215	37748	-396.4985	-	0	ID=NC_047965.1.37215;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047965.1	PHANOTATE	CDS	37757	38149	-3.9916	-	0	ID=NC_047965.1.37757;clu=13456;clan=2181_mono
+NC_047965.1	PHANOTATE	CDS	38213	38536	-84.4604	-	0	ID=NC_047965.1.38213;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047965.1	PHANOTATE	CDS	38523	38798	-53.7242	-	0	ID=NC_047965.1.38523;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_047965.1	PHANOTATE	CDS	38808	38927	-6.4591	-	0	ID=NC_047965.1.38808;clu=6885;clan=123_clan
+NC_047965.1	PHANOTATE	CDS	38924	39343	-144.1714	-	0	ID=NC_047965.1.38924;clu=15688;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_047965.1	PHANOTATE	CDS	39421	39657	-18.6786	-	0	ID=NC_047965.1.39421;clu=15770;clan=1934_mono
+NC_021062.1	PHANOTATE	CDS	2	112	-2.4523	+	0	ID=NC_021062.1.112;clu=16328;clan=2174_mono
+NC_021062.1	PHANOTATE	CDS	124	228	-3.7359	+	0	ID=NC_021062.1.228;clu=16886;clan=2771_mono
+NC_021062.1	PHANOTATE	CDS	225	344	-0.2392	+	0	ID=NC_021062.1.344;clu=17444;clan=2075_mono
+NC_021062.1	PHANOTATE	CDS	331	441	-5.7222	+	0	ID=NC_021062.1.441;clu=131;clan=1225_mono
+NC_021062.1	PHANOTATE	CDS	703	816	-1.3516	+	0	ID=NC_021062.1.816;clu=690;clan=158_clan
+NC_021062.1	PHANOTATE	CDS	869	1351	-194.9445	+	0	ID=NC_021062.1.1351;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	1351	1554	-10.7338	+	0	ID=NC_021062.1.1554;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	1544	1666	-2.0484	+	0	ID=NC_021062.1.1666;clu=11932;clan=123_clan
+NC_021062.1	PHANOTATE	CDS	1679	1954	-45.8468	+	0	ID=NC_021062.1.1954;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_021062.1	PHANOTATE	CDS	1938	2237	-29.885	+	0	ID=NC_021062.1.2237;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	2366	2902	-304.1627	+	0	ID=NC_021062.1.2902;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	2899	3603	-1919.6687	+	0	ID=NC_021062.1.3603;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_021062.1	PHANOTATE	CDS	3607	3861	-9.169	+	0	ID=NC_021062.1.3861;clu=4644;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	3861	4133	-44.2725	+	0	ID=NC_021062.1.4133;clu=5721;clan=27_clan;PHROGs=phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_021062.1	PHANOTATE	CDS	4377	6902	-1202102794450.703	+	0	ID=NC_021062.1.6902;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_021062.1	PHANOTATE	CDS	39569	39616	-537357376.0452	+	0	ID=NC_021062.1.39616;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_021062.1	PHANOTATE	CDS	39837	40010	-15.0008	+	0	ID=NC_021062.1.40010;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	937	1191	-6.4669	+	0	ID=NC_024362.1.1191;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	1191	1388	-24.9257	+	0	ID=NC_024362.1.1388;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	1393	1668	-18.0331	+	0	ID=NC_024362.1.1668;clu=3368;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	1665	1763	-0.1418	+	0	ID=NC_024362.1.1763;clu=15777;clan=1606_mono
+NC_024362.1	PHANOTATE	CDS	1756	2235	-203.4845	+	0	ID=NC_024362.1.2235;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	2266	2802	-120.4597	+	0	ID=NC_024362.1.2802;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	2799	3503	-1891.1384	+	0	ID=NC_024362.1.3503;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_024362.1	PHANOTATE	CDS	3554	3706	-7.5584	+	0	ID=NC_024362.1.3706;clu=254;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	3708	4148	-375.2963	+	0	ID=NC_024362.1.4148;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_024362.1	PHANOTATE	CDS	4277	6934	-5531094206251.848	+	0	ID=NC_024362.1.6934;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047873.1	PHANOTATE	CDS	752	1231	-491.3385	+	0	ID=NC_047873.1.1231;clu=8117;clan=1998_mono;PHROGs=phrog_2563;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047873.1	PHANOTATE	CDS	1228	1452	-4.3925	+	0	ID=NC_047873.1.1452;clu=12433;clan=2746_mono
+NC_047873.1	PHANOTATE	CDS	1464	1772	-40.2765	+	0	ID=NC_047873.1.1772;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_047873.1	PHANOTATE	CDS	1759	1992	-11.45	+	0	ID=NC_047873.1.1992;clu=13549;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047873.1	PHANOTATE	CDS	2064	2606	-213.5534	+	0	ID=NC_047873.1.2606;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047873.1	PHANOTATE	CDS	2603	3307	-1368.8201	+	0	ID=NC_047873.1.3307;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047873.1	PHANOTATE	CDS	3309	3539	-6.0732	+	0	ID=NC_047873.1.3539;clu=15223;clan=54_clan
+NC_047873.1	PHANOTATE	CDS	3608	3817	-16.0627	+	0	ID=NC_047873.1.3817;clu=9225;clan=27_clan;PHROGs=phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047873.1	PHANOTATE	CDS	4054	6576	-134575875907.1401	+	0	ID=NC_047873.1.6576;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OM471789.1	PHANOTATE	CDS	4811	5065	-6.825	+	0	ID=OM471789.1.5065;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	5065	5262	-25.2327	+	0	ID=OM471789.1.5262;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	5255	5497	-12.3956	+	0	ID=OM471789.1.5497;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	5494	5595	-0.1985	+	0	ID=OM471789.1.5595;clu=15777;clan=1606_mono
+OM471789.1	PHANOTATE	CDS	5585	6064	-267.1639	+	0	ID=OM471789.1.6064;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	6095	6631	-120.8557	+	0	ID=OM471789.1.6631;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	6628	7332	-1541.2723	+	0	ID=OM471789.1.7332;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OM471789.1	PHANOTATE	CDS	7332	7535	-4.4417	+	0	ID=OM471789.1.7535;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	7537	7974	-384.4616	+	0	ID=OM471789.1.7974;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM471789.1	PHANOTATE	CDS	8103	10760	-4271622210026.1055	+	0	ID=OM471789.1.10760;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MN729597.1	PHANOTATE	CDS	936	1190	-7.7167	+	0	ID=MN729597.1.1190;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	1190	1390	-15.3767	+	0	ID=MN729597.1.1390;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	1395	1706	-22.361	+	0	ID=MN729597.1.1706;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	1794	2273	-217.6599	+	0	ID=MN729597.1.2273;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	2304	2840	-134.7284	+	0	ID=MN729597.1.2840;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	2837	3541	-1880.6892	+	0	ID=MN729597.1.3541;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MN729597.1	PHANOTATE	CDS	3541	3801	-4.5141	+	0	ID=MN729597.1.3801;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	3804	4403	-4042.1128	+	0	ID=MN729597.1.4403;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MN729597.1	PHANOTATE	CDS	4543	7200	-3837878646180.0146	+	0	ID=MN729597.1.7200;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OM131411.1	PHANOTATE	CDS	33218	35878	-557334321776.915	-	0	ID=OM131411.1.33218;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OM131411.1	PHANOTATE	CDS	35997	36383	-78.8902	-	0	ID=OM131411.1.35997;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM131411.1	PHANOTATE	CDS	36383	36631	-8.8009	-	0	ID=OM131411.1.36383;clu=4644;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM131411.1	PHANOTATE	CDS	36633	37406	-3016.2879	-	0	ID=OM131411.1.36633;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OM131411.1	PHANOTATE	CDS	37403	37936	-1189.5157	-	0	ID=OM131411.1.37403;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM131411.1	PHANOTATE	CDS	38013	38291	-3.7983	-	0	ID=OM131411.1.38013;clu=6321;clan=231_pair
+OM131411.1	PHANOTATE	CDS	38288	38614	-61.0794	-	0	ID=OM131411.1.38288;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+OM131411.1	PHANOTATE	CDS	38601	39014	-59.6714	-	0	ID=OM131411.1.38601;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+OM131411.1	PHANOTATE	CDS	39026	39145	-1.5009	-	0	ID=OM131411.1.39026;clu=7998;clan=123_clan
+OM131411.1	PHANOTATE	CDS	39145	39771	-1673.5409	-	0	ID=OM131411.1.39145;clu=8557;clan=283_pair
+OM131411.1	PHANOTATE	CDS	40257	40379	-5.4725	-	0	ID=OM131411.1.40257;clu=9116;clan=1003_mono
+OM131411.1	PHANOTATE	CDS	40565	40762	-3.3468	-	0	ID=OM131411.1.40565;clu=9674;clan=614_mono
+NC_015264.1	PHANOTATE	CDS	69	242	-7.2178	+	0	ID=NC_015264.1.242;clu=6885;clan=123_clan
+NC_015264.1	PHANOTATE	CDS	252	602	-61.7723	+	0	ID=NC_015264.1.602;clu=7444;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_015264.1	PHANOTATE	CDS	602	928	-79.074	+	0	ID=NC_015264.1.928;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015264.1	PHANOTATE	CDS	996	1511	-476.9	+	0	ID=NC_015264.1.1511;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015264.1	PHANOTATE	CDS	1508	2215	-974.021	+	0	ID=NC_015264.1.2215;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_015264.1	PHANOTATE	CDS	2217	2594	-15.6708	+	0	ID=NC_015264.1.2594;clu=3979;clan=54_clan;PHROGs=phrog_7066;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015264.1	PHANOTATE	CDS	2591	2989	-73.7247	+	0	ID=NC_015264.1.2989;clu=697;clan=27_clan;PHROGs=phrog_9238,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015264.1	PHANOTATE	CDS	3252	5798	-3093085733216.499	+	0	ID=NC_015264.1.5798;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_015264.1	PHANOTATE	CDS	39261	39839	-441.178	+	0	ID=NC_015264.1.39839;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_015264.1	PHANOTATE	CDS	39836	40105	-15.3032	+	0	ID=NC_015264.1.40105;clu=6326;clan=1438_mono
+NC_015264.1	PHANOTATE	CDS	40102	40230	-3.824	+	0	ID=NC_015264.1.40230;clu=6885;clan=123_clan
+NC_015264.1	PHANOTATE	CDS	40240	40590	-61.7723	+	0	ID=NC_015264.1.40590;clu=7444;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_015264.1	PHANOTATE	CDS	40590	40916	-79.074	+	0	ID=NC_015264.1.40916;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	941	1195	-16.7769	+	0	ID=MZ826346.1.1195;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	1195	1392	-26.9811	+	0	ID=MZ826346.1.1392;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	1397	1708	-21.8692	+	0	ID=MZ826346.1.1708;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	1732	2277	-196.1459	+	0	ID=MZ826346.1.2277;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	2308	2850	-134.9506	+	0	ID=MZ826346.1.2850;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	2847	3551	-2260.7478	+	0	ID=MZ826346.1.3551;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MZ826346.1	PHANOTATE	CDS	3635	3811	-3.1739	+	0	ID=MZ826346.1.3811;clu=3542;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	3814	4413	-3085.0534	+	0	ID=MZ826346.1.4413;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826346.1	PHANOTATE	CDS	4553	7210	-8299977719725.122	+	0	ID=MZ826346.1.7210;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047997.1	PHANOTATE	CDS	947	1123	-22.7238	+	0	ID=NC_047997.1.1123;clu=10820;clan=179_clan;PHROGs=phrog_6500;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047997.1	PHANOTATE	CDS	1135	1371	-30.5833	+	0	ID=NC_047997.1.1371;clu=11378;clan=2376_mono
+NC_047997.1	PHANOTATE	CDS	1406	1549	-6.1764	+	0	ID=NC_047997.1.1549;clu=9700;clan=2200_mono
+NC_047997.1	PHANOTATE	CDS	1608	2027	-451.1969	+	0	ID=NC_047997.1.2027;clu=15688;clan=52_clan;PHROGs=phrog_2226;phrog_ann=SAM-dependent methyltransferase;phrog_category=other
+NC_047997.1	PHANOTATE	CDS	2024	2158	-4.487	+	0	ID=NC_047997.1.2158;clu=6885;clan=123_clan
+NC_047997.1	PHANOTATE	CDS	2155	2448	-89.2579	+	0	ID=NC_047997.1.2448;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+NC_047997.1	PHANOTATE	CDS	2438	2758	-115.2617	+	0	ID=NC_047997.1.2758;clu=3485;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047997.1	PHANOTATE	CDS	2821	2931	-3.7904	+	0	ID=NC_047997.1.2931;clu=14726;clan=772_mono
+NC_047997.1	PHANOTATE	CDS	2936	3469	-262.3502	+	0	ID=NC_047997.1.3469;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047997.1	PHANOTATE	CDS	3466	4182	-814.6655	+	0	ID=NC_047997.1.4182;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047997.1	PHANOTATE	CDS	4175	4378	-7.0774	+	0	ID=NC_047997.1.4378;clu=8511;clan=54_clan
+NC_047997.1	PHANOTATE	CDS	4402	5193	-2089.6316	+	0	ID=NC_047997.1.5193;clu=16958;clan=62_clan;PHROGs=phrog_245,phrog_2011,phrog_450,phrog_7940,phrog_130,phrog_25722,phrog_5060,phrog_2593;phrog_ann=hypothetical protein,anti-repressor,anti-repressor Ant;phrog_category=transcription regulation,unknown function
+NC_047997.1	PHANOTATE	CDS	5358	5576	-0.1279	+	0	ID=NC_047997.1.5576;clu=17516;clan=1644_mono
+NC_047997.1	PHANOTATE	CDS	5522	7954	-164074723113.2158	+	0	ID=NC_047997.1.7954;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048201.1	PHANOTATE	CDS	2	103	-2.0088	-	0	ID=NC_048201.1.2;clu=10843;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	197	472	-13.2529	-	0	ID=NC_048201.1.197;clu=3368;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	472	726	-17.9397	-	0	ID=NC_048201.1.472;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	723	860	-0.0988	-	0	ID=NC_048201.1.723;clu=6244;clan=1603_mono
+NC_048201.1	PHANOTATE	CDS	1122	1247	-3.2759	-	0	ID=NC_048201.1.1122;clu=13075;clan=1639_mono
+NC_048201.1	PHANOTATE	CDS	1424	1585	-8.1663	-	0	ID=NC_048201.1.1424;clu=13633;clan=202_pair
+NC_048201.1	PHANOTATE	CDS	1705	1821	-4.0756	-	0	ID=NC_048201.1.1705;clu=14191;clan=357_pair
+NC_048201.1	PHANOTATE	CDS	1905	2078	-13.0729	-	0	ID=NC_048201.1.1905;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	2257	2280	-376741371.6888	-	0	ID=NC_048201.1.2257;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_048201.1	PHANOTATE	CDS	34865	37522	-13498246536038.145	-	0	ID=NC_048201.1.34865;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048201.1	PHANOTATE	CDS	37651	38259	-588.9305	-	0	ID=NC_048201.1.37651;clu=16423;clan=27_clan;PHROGs=phrog_9238,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	38262	38465	-3.9348	-	0	ID=NC_048201.1.38262;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	38465	39169	-1320.9704	-	0	ID=NC_048201.1.38465;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_048201.1	PHANOTATE	CDS	39166	39708	-118.0634	-	0	ID=NC_048201.1.39166;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048201.1	PHANOTATE	CDS	39739	40242	-239.7545	-	0	ID=NC_048201.1.39739;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	970	1224	-19.9582	+	0	ID=MZ826354.1.1224;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	1224	1451	-11.3834	+	0	ID=MZ826354.1.1451;clu=11960;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	1448	1690	-18.0539	+	0	ID=MZ826354.1.1690;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	1780	2259	-230.304	+	0	ID=MZ826354.1.2259;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	2290	2832	-144.0444	+	0	ID=MZ826354.1.2832;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	2829	3533	-2275.869	+	0	ID=MZ826354.1.3533;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MZ826354.1	PHANOTATE	CDS	3617	3793	-3.2921	+	0	ID=MZ826354.1.3793;clu=3542;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	3796	4395	-2680.3759	+	0	ID=MZ826354.1.4395;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+MZ826354.1	PHANOTATE	CDS	4535	7192	-8810032531602.188	+	0	ID=MZ826354.1.7192;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT711889.1	PHANOTATE	CDS	1024	1221	-16.1391	+	0	ID=MT711889.1.1221;clu=9700;clan=2200_mono
+MT711889.1	PHANOTATE	CDS	1224	1478	-13.7152	+	0	ID=MT711889.1.1478;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711889.1	PHANOTATE	CDS	1481	1765	-19.7533	+	0	ID=MT711889.1.1765;clu=10910;clan=283_pair
+MT711889.1	PHANOTATE	CDS	1776	2153	-86.9556	+	0	ID=MT711889.1.2153;clu=8627;clan=730_mono;PHROGs=phrog_5680,phrog_22565;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711889.1	PHANOTATE	CDS	2164	2577	-47.2979	+	0	ID=MT711889.1.2577;clu=9186;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711889.1	PHANOTATE	CDS	2574	2780	-11.1442	+	0	ID=MT711889.1.2780;clu=15197;clan=1429_mono
+MT711889.1	PHANOTATE	CDS	2873	3283	-15.0246	+	0	ID=MT711889.1.3283;clu=13142;clan=526_mono
+MT711889.1	PHANOTATE	CDS	3352	3894	-185.7461	+	0	ID=MT711889.1.3894;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711889.1	PHANOTATE	CDS	3891	4595	-2478.2975	+	0	ID=MT711889.1.4595;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT711889.1	PHANOTATE	CDS	4701	5075	-44.5339	+	0	ID=MT711889.1.5075;clu=11976;clan=27_clan;PHROGs=phrog_6440,phrog_9238,phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711889.1	PHANOTATE	CDS	5203	7860	-9551712928284.25	+	0	ID=MT711889.1.7860;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OK523999.1	PHANOTATE	CDS	117	227	-7.7452	+	0	ID=OK523999.1.227;clu=5180;clan=202_pair
+OK523999.1	PHANOTATE	CDS	362	460	-1.4379	+	0	ID=OK523999.1.460;clu=16441;clan=350_pair
+OK523999.1	PHANOTATE	CDS	502	600	-3.0074	+	0	ID=OK523999.1.600;clu=16999;clan=1818_mono
+OK523999.1	PHANOTATE	CDS	823	933	-0.2297	+	0	ID=OK523999.1.933;clu=17557;clan=outlier: outlier: 27_clan
+OK523999.1	PHANOTATE	CDS	946	1200	-6.5144	+	0	ID=OK523999.1.1200;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	1200	1397	-18.9344	+	0	ID=OK523999.1.1397;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	1390	1632	-16.2504	+	0	ID=OK523999.1.1632;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	1720	2199	-219.2309	+	0	ID=OK523999.1.2199;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	2230	2766	-121.1738	+	0	ID=OK523999.1.2766;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	2763	3467	-1621.4021	+	0	ID=OK523999.1.3467;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OK523999.1	PHANOTATE	CDS	3467	3670	-7.9913	+	0	ID=OK523999.1.3670;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	3672	4112	-399.5763	+	0	ID=OK523999.1.4112;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	4241	6898	-14363756608860.807	+	0	ID=OK523999.1.6898;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OK523999.1	PHANOTATE	CDS	39902	40075	-11.1808	+	0	ID=OK523999.1.40075;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523999.1	PHANOTATE	CDS	40159	40353	-6.0026	+	0	ID=OK523999.1.40353;clu=15305;clan=357_pair
+OK523999.1	PHANOTATE	CDS	40383	40484	-4.1319	+	0	ID=OK523999.1.40484;clu=5180;clan=202_pair
+ON189046.1	PHANOTATE	CDS	775	1044	-16.0848	+	0	ID=ON189046.1.1044;clu=14219;clan=1253_mono;PHROGs=phrog_3436;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	1041	1295	-7.0004	+	0	ID=ON189046.1.1295;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	1295	1492	-23.2443	+	0	ID=ON189046.1.1492;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	1497	1772	-16.8732	+	0	ID=ON189046.1.1772;clu=3368;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	1860	2339	-208.0919	+	0	ID=ON189046.1.2339;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	2370	2906	-137.4983	+	0	ID=ON189046.1.2906;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	2903	3607	-1386.9017	+	0	ID=ON189046.1.3607;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+ON189046.1	PHANOTATE	CDS	3607	3810	-5.4742	+	0	ID=ON189046.1.3810;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	3813	4397	-2396.8993	+	0	ID=ON189046.1.4397;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+ON189046.1	PHANOTATE	CDS	4525	7182	-7655684439176.241	+	0	ID=ON189046.1.7182;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047747.1	PHANOTATE	CDS	993	1262	-15.8392	+	0	ID=NC_047747.1.1262;clu=14219;clan=1253_mono;PHROGs=phrog_3436;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	1259	1513	-5.4756	+	0	ID=NC_047747.1.1513;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	1513	1710	-20.9905	+	0	ID=NC_047747.1.1710;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	1667	1990	-21.8501	+	0	ID=NC_047747.1.1990;clu=3368;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	2078	2557	-178.5957	+	0	ID=NC_047747.1.2557;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	2588	3124	-149.3493	+	0	ID=NC_047747.1.3124;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	3121	3825	-2537.6237	+	0	ID=NC_047747.1.3825;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047747.1	PHANOTATE	CDS	3876	4028	-6.9655	+	0	ID=NC_047747.1.4028;clu=254;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	4030	4470	-260.9268	+	0	ID=NC_047747.1.4470;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047747.1	PHANOTATE	CDS	4598	7255	-3518882778974.2085	+	0	ID=NC_047747.1.7255;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_047874.1	PHANOTATE	CDS	1026	1505	-302.3338	+	0	ID=NC_047874.1.1505;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047874.1	PHANOTATE	CDS	1536	2072	-159.7136	+	0	ID=NC_047874.1.2072;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047874.1	PHANOTATE	CDS	2069	2773	-1383.5438	+	0	ID=NC_047874.1.2773;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+NC_047874.1	PHANOTATE	CDS	2773	2931	-2.5655	+	0	ID=NC_047874.1.2931;clu=14235;clan=outlier: 54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047874.1	PHANOTATE	CDS	2992	5649	-8614144511897.597	+	0	ID=NC_047874.1.5649;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+NC_048200.1	PHANOTATE	CDS	11061	13739	-7852537545743.357	-	0	ID=NC_048200.1.11061;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22
+NC_048200.1	PHANOTATE	CDS	13876	14142	-58.8283	-	0	ID=NC_048200.1.13876;clu=5721;clan=27_clan;PHROGs=phrog_6440,phrog_9238,phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	14144	14350	-0.9623	-	0	ID=NC_048200.1.14144;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	14347	15060	-1233.135	-	0	ID=NC_048200.1.14347;clu=7952;clan=78_clan;PHROGs=phrog_2297,phrog_61;phrog_ann=DNA endonuclease,2OG-Fe(II) oxygenase;phrog_category=DNA, RNA and nucleotide metabolism,moron, auxiliary metabolic gene and host takeover
+NC_048200.1	PHANOTATE	CDS	15057	15632	-312.5502	-	0	ID=NC_048200.1.15057;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	15708	16187	-157.824	-	0	ID=NC_048200.1.15708;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	16257	16568	-29.1496	-	0	ID=NC_048200.1.16257;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	16573	16770	-11.8432	-	0	ID=NC_048200.1.16573;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_048200.1	PHANOTATE	CDS	16770	17018	-12.4832	-	0	ID=NC_048200.1.16770;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	26	196	-6.0353	+	0	ID=MT104466.1.196;clu=10332;clan=390_pair
+MT104466.1	PHANOTATE	CDS	292	405	-0.3011	+	0	ID=MT104466.1.405;clu=10890;clan=158_clan
+MT104466.1	PHANOTATE	CDS	565	954	-23.5727	+	0	ID=MT104466.1.954;clu=11448;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	959	1156	-9.8547	+	0	ID=MT104466.1.1156;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	1149	1391	-28.4984	+	0	ID=MT104466.1.1391;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	1459	1956	-294.4192	+	0	ID=MT104466.1.1956;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	2027	2602	-194.3703	+	0	ID=MT104466.1.2602;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	2599	3312	-1912.5733	+	0	ID=MT104466.1.3312;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT104466.1	PHANOTATE	CDS	3363	3515	-3.6456	+	0	ID=MT104466.1.3515;clu=254;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	3518	4009	-514.8849	+	0	ID=MT104466.1.4009;clu=697;clan=27_clan;PHROGs=phrog_9238,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	4145	6799	-11009307972397.8	+	0	ID=MT104466.1.6799;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT104466.1	PHANOTATE	CDS	40131	40174	-524560412.8247	+	0	ID=MT104466.1.40174;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_4758,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MT104466.1	PHANOTATE	CDS	40362	40535	-9.7851	+	0	ID=MT104466.1.40535;clu=5275;clan=97_clan;PHROGs=phrog_2193;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT104466.1	PHANOTATE	CDS	40581	40712	-1.5903	+	0	ID=MT104466.1.40712;clu=17586;clan=53_clan, 67_clan
+MT104466.1	PHANOTATE	CDS	40828	40986	-1.5124	+	0	ID=MT104466.1.40986;clu=273;clan=941_mono
+OK094519.1	PHANOTATE	CDS	774	1253	-493.6361	+	0	ID=OK094519.1.1253;clu=8117;clan=1998_mono;PHROGs=phrog_2563;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK094519.1	PHANOTATE	CDS	1250	1474	-5.3314	+	0	ID=OK094519.1.1474;clu=12433;clan=2746_mono
+OK094519.1	PHANOTATE	CDS	1486	1794	-41.5791	+	0	ID=OK094519.1.1794;clu=13610;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+OK094519.1	PHANOTATE	CDS	1781	2014	-9.5352	+	0	ID=OK094519.1.2014;clu=4040;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK094519.1	PHANOTATE	CDS	2086	2628	-186.8909	+	0	ID=OK094519.1.2628;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK094519.1	PHANOTATE	CDS	2625	3329	-1367.1985	+	0	ID=OK094519.1.3329;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OK094519.1	PHANOTATE	CDS	3331	3561	-5.9527	+	0	ID=OK094519.1.3561;clu=15223;clan=54_clan
+OK094519.1	PHANOTATE	CDS	3630	3839	-16.4938	+	0	ID=OK094519.1.3839;clu=9225;clan=27_clan;PHROGs=phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK094519.1	PHANOTATE	CDS	4076	6598	-123670730217.1277	+	0	ID=OK094519.1.6598;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OK523998.1	PHANOTATE	CDS	954	1208	-5.6612	+	0	ID=OK523998.1.1208;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	1208	1405	-22.1529	+	0	ID=OK523998.1.1405;clu=17319;clan=70_clan;PHROGs=phrog_7884;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	1398	1640	-18.7818	+	0	ID=OK523998.1.1640;clu=12433;clan=2746_mono;PHROGs=phrog_30554;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	1728	2207	-197.4969	+	0	ID=OK523998.1.2207;clu=16829;clan=143_clan;PHROGs=phrog_7806;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	2238	2774	-128.3949	+	0	ID=OK523998.1.2774;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	2771	3475	-1481.8239	+	0	ID=OK523998.1.3475;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OK523998.1	PHANOTATE	CDS	3475	3678	-8.0563	+	0	ID=OK523998.1.3678;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	3680	4120	-341.0048	+	0	ID=OK523998.1.4120;clu=697;clan=27_clan;PHROGs=phrog_9238;phrog_ann=hypothetical protein;phrog_category=unknown function
+OK523998.1	PHANOTATE	CDS	4249	6906	-6173686096436.057	+	0	ID=OK523998.1.6906;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+OP485124.1	PHANOTATE	CDS	1014	1496	-959.9608	+	0	ID=OP485124.1.1496;clu=8117;clan=1998_mono;PHROGs=phrog_2563;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP485124.1	PHANOTATE	CDS	1499	1810	-29.4842	+	0	ID=OP485124.1.1810;clu=6797;clan=2293_mono;PHROGs=phrog_554;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP485124.1	PHANOTATE	CDS	1777	2187	-32.7374	+	0	ID=OP485124.1.2187;clu=9235;clan=182_clan;PHROGs=phrog_13431;phrog_ann=virion structural protein;phrog_category=head and packaging
+OP485124.1	PHANOTATE	CDS	2174	2407	-8.9787	+	0	ID=OP485124.1.2407;clu=4040;clan=166_clan;PHROGs=phrog_18517;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP485124.1	PHANOTATE	CDS	2479	3021	-174.8037	+	0	ID=OP485124.1.3021;clu=15284;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP485124.1	PHANOTATE	CDS	3018	3494	-98.6236	+	0	ID=OP485124.1.3494;clu=10909;clan=78_clan
+OP485124.1	PHANOTATE	CDS	3494	3799	-10.9588	+	0	ID=OP485124.1.3799;clu=11467;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+OP485124.1	PHANOTATE	CDS	3801	4031	-6.4056	+	0	ID=OP485124.1.4031;clu=15223;clan=54_clan
+OP485124.1	PHANOTATE	CDS	4100	4309	-13.1793	+	0	ID=OP485124.1.4309;clu=9225;clan=27_clan;PHROGs=phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+OP485124.1	PHANOTATE	CDS	4546	7068	-118504099482.7188	+	0	ID=OP485124.1.7068;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414,phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+MT711890.1	PHANOTATE	CDS	478	594	-2.6581	+	0	ID=MT711890.1.594;clu=8677;clan=389_pair
+MT711890.1	PHANOTATE	CDS	597	719	-2.4883	+	0	ID=MT711890.1.719;clu=9236;clan=2159_mono
+MT711890.1	PHANOTATE	CDS	823	966	-3.8546	+	0	ID=MT711890.1.966;clu=9794;clan=886_mono
+MT711890.1	PHANOTATE	CDS	1014	1268	-12.6084	+	0	ID=MT711890.1.1268;clu=5301;clan=256_pair;PHROGs=phrog_16407;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	1271	1555	-13.4672	+	0	ID=MT711890.1.1555;clu=10910;clan=283_pair
+MT711890.1	PHANOTATE	CDS	1566	1946	-80.3271	+	0	ID=MT711890.1.1946;clu=8627;clan=730_mono;PHROGs=phrog_22565;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	1957	2370	-43.5247	+	0	ID=MT711890.1.2370;clu=9186;clan=125_clan;PHROGs=phrog_25437;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	2367	2573	-10.8327	+	0	ID=MT711890.1.2573;clu=15197;clan=1429_mono
+MT711890.1	PHANOTATE	CDS	2667	3065	-15.2792	+	0	ID=MT711890.1.3065;clu=13142;clan=526_mono
+MT711890.1	PHANOTATE	CDS	3134	3676	-347.0159	+	0	ID=MT711890.1.3676;clu=13700;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	3673	3867	-7.8622	+	0	ID=MT711890.1.3867;clu=14258;clan=432_pair;PHROGs=phrog_6234;phrog_ann=host RecBCD nuclease inhibitor;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT711890.1	PHANOTATE	CDS	3864	4568	-1188.0703	+	0	ID=MT711890.1.4568;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+MT711890.1	PHANOTATE	CDS	4568	4771	-4.6885	+	0	ID=MT711890.1.4771;clu=8511;clan=54_clan;PHROGs=phrog_19243;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	4773	5321	-564.6034	+	0	ID=MT711890.1.5321;clu=697;clan=27_clan;PHROGs=phrog_9238,phrog_6440,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT711890.1	PHANOTATE	CDS	5449	8106	-20138202783840.445	+	0	ID=MT711890.1.8106;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_414;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	43448	46126	-7520913493232.207	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.43448;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	46259	46564	-39.4601	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.46259;clu=5721;clan=27_clan;PHROGs=phrog_9238,phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	46652	47311	-2188.2532	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.46652;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	47429	47875	-52.9587	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.47429;clu=1553;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	47923	48171	-8.9454	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.47923;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	48368	48685	-13.9577	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.48368;clu=7011;clan=2211_mono
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	48690	48803	-4.0449	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.48690;clu=17748;clan=1573_mono
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	48806	49186	-42.2244	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.48806;clu=17190;clan=2547_mono
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	49229	50734	-2869278.3959	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.49229;clu=16632;clan=2_clan;PHROGs=phrog_1;phrog_ann=integrase;phrog_category=integration and excision
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	50692	51069	-51.3153	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.50692;clu=16074;clan=683_mono
+SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1	PHANOTATE	CDS	51091	51126	-3.8039	-	0	ID=SAMN10408130_a1_ct2517_vs1@linear@Podoviridae__sp._ctk5T1.51091;clu=15516;clan=861_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	1505	1540	-4.3776	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.1540;clu=15516;clan=861_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	1562	1939	-53.4988	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.1939;clu=16074;clan=683_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	1897	3402	-3549226.257	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.3402;clu=16632;clan=2_clan;PHROGs=phrog_1;phrog_ann=integrase;phrog_category=integration and excision
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	3445	3825	-72.2656	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.3825;clu=17190;clan=2547_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	3828	3941	-4.428	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.3941;clu=17748;clan=1573_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	3946	4263	-15.2304	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.4263;clu=7011;clan=2211_mono
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	4460	4708	-12.545	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.4708;clu=2011;clan=69_clan;PHROGs=phrog_3199;phrog_ann=hypothetical protein;phrog_category=unknown function
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	4756	5202	-74.5491	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.5202;clu=1553;clan=154_clan;PHROGs=phrog_8679;phrog_ann=hypothetical protein;phrog_category=unknown function
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	5320	5979	-2158.539	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.5979;clu=7952;clan=78_clan;PHROGs=phrog_61;phrog_ann=2OG-Fe(II) oxygenase;phrog_category=moron, auxiliary metabolic gene and host takeover
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	6067	6372	-37.592	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.6372;clu=2671;clan=27_clan;PHROGs=phrog_9238,phrog_8103,phrog_6379;phrog_ann=hypothetical protein;phrog_category=unknown function
+Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837	PHANOTATE	CDS	6505	9183	-9750756576273.953	+	0	ID=Zuo_2019_SRR8240683_NODE_207_length_19048_cov_34.129837.9183;clu=1264;clan=1_clan, 6_clan, 9_clan;PFAM=PF14700.9,PF00940.22;PHROGs=phrog_20599;phrog_ann=RNA polymerase;phrog_category=DNA, RNA and nucleotide metabolism

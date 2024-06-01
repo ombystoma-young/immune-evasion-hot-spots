@@ -1,0 +1,42 @@
+MW043865.1	PHANOTATE	CDS	2	103	-3.9814	+	0	ID=MW043865.1.103;clu=5701;clan=2143_mono
+MW043865.1	PHANOTATE	CDS	156	788	-1958146.8521	+	0	ID=MW043865.1.788;clu=6260;clan=1377_mono
+MW043865.1	PHANOTATE	CDS	802	969	-260.1367	+	0	ID=MW043865.1.969;clu=6819;clan=2373_mono
+MW043865.1	PHANOTATE	CDS	1020	1247	-165.2856	+	0	ID=MW043865.1.1247;clu=7378;clan=834_mono;PHROGs=phrog_21816;phrog_ann=hypothetical protein;phrog_category=unknown function
+MW043865.1	PHANOTATE	CDS	1249	1512	-99.3844	+	0	ID=MW043865.1.1512;clu=9200;clan=2340_mono
+MW043865.1	PHANOTATE	CDS	1608	3734	-2025732824496613.0	+	0	ID=MW043865.1.3734;clu=5154;clan=1_clan;PFAM=PF00940.22
+MW043865.1	PHANOTATE	CDS	45433	45602	-1051.3171	+	0	ID=MW043865.1.45602;clu=11432;clan=682_mono;PHROGs=phrog_891;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MW043865.1	PHANOTATE	CDS	45671	47656	-1012365520731476.9	+	0	ID=MW043865.1.47656;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MW043865.1	PHANOTATE	CDS	47653	48066	-1618.2014	+	0	ID=MW043865.1.48066;clu=12548;clan=177_clan
+MW043865.1	PHANOTATE	CDS	48066	48380	-1183.9794	+	0	ID=MW043865.1.48380;clu=13106;clan=1918_mono;PHROGs=phrog_29640;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT227925.1	PHANOTATE	CDS	1	243	-38.7215	+	0	ID=MT227925.1.243;clu=4595;clan=1112_mono
+MT227925.1	PHANOTATE	CDS	334	2355	-12167747230971.205	+	0	ID=MT227925.1.2355;clu=5154;clan=1_clan;PFAM=PF00940.22
+MT227925.1	PHANOTATE	CDS	38647	38733	-22.0848	+	0	ID=MT227925.1.38733;clu=5713;clan=1800_mono
+MT227925.1	PHANOTATE	CDS	38736	38921	-35.1372	+	0	ID=MT227925.1.38921;clu=6272;clan=1249_mono;PHROGs=phrog_402;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT227925.1	PHANOTATE	CDS	38922	39188	-92.7034	+	0	ID=MT227925.1.39188;clu=6831;clan=2422_mono
+MT227925.1	PHANOTATE	CDS	39197	39535	-883.3186	+	0	ID=MT227925.1.39535;clu=11432;clan=682_mono;PHROGs=phrog_891;phrog_ann=terminase small subunit;phrog_category=head and packaging
+MT227925.1	PHANOTATE	CDS	39522	41516	-102450690989730.77	+	0	ID=MT227925.1.41516;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MT227925.1	PHANOTATE	CDS	41482	42195	-17104.3799	+	0	ID=MT227925.1.42195;clu=8508;clan=177_clan
+MT227925.1	PHANOTATE	CDS	42301	42615	-55.5736	+	0	ID=MT227925.1.42615;clu=13106;clan=1918_mono;PHROGs=phrog_29640;phrog_ann=hypothetical protein;phrog_category=unknown function
+MT227925.1	PHANOTATE	CDS	42893	43081	-42.7814	+	0	ID=MT227925.1.43081;clu=9625;clan=1477_mono
+MT227925.1	PHANOTATE	CDS	43133	43264	-0.4669	+	0	ID=MT227925.1.43264;clu=10183;clan=843_mono
+MK892825.1	PHANOTATE	CDS	9493	9590	-3951.6778	+	0	ID=MK892825.1.9590;clu=10298;clan=1668_mono
+MK892825.1	PHANOTATE	CDS	9587	9940	-554.7734	+	0	ID=MK892825.1.9940;clu=10856;clan=316_pair;PHROGs=phrog_2524;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK892825.1	PHANOTATE	CDS	9937	10260	-441.5208	+	0	ID=MK892825.1.10260;clu=11432;clan=682_mono;PHROGs=phrog_34686,phrog_891;phrog_ann=hypothetical protein,terminase small subunit;phrog_category=unknown function,head and packaging
+MK892825.1	PHANOTATE	CDS	10268	12289	-5.460131083173667e+16	+	0	ID=MK892825.1.12289;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+MK892825.1	PHANOTATE	CDS	12310	12675	-816.0969	+	0	ID=MK892825.1.12675;clu=12530;clan=177_clan
+MK892825.1	PHANOTATE	CDS	12690	13007	-237.7173	+	0	ID=MK892825.1.13007;clu=13106;clan=1918_mono;PHROGs=phrog_29640;phrog_ann=hypothetical protein;phrog_category=unknown function
+MK892825.1	PHANOTATE	CDS	13066	13173	-3.8195	+	0	ID=MK892825.1.13173;clu=13646;clan=2234_mono
+MK892825.1	PHANOTATE	CDS	13786	14010	-422.4972	+	0	ID=MK892825.1.14010;clu=14204;clan=970_mono
+MK892825.1	PHANOTATE	CDS	14036	14374	-751.6095	+	0	ID=MK892825.1.14374;clu=9200;clan=2340_mono
+MK892825.1	PHANOTATE	CDS	14493	16619	-5.774937661565761e+18	+	0	ID=MK892825.1.16619;clu=5154;clan=1_clan;PFAM=PF00940.22
+NC_047834.1	PHANOTATE	CDS	3	341	-2.4153	+	0	ID=NC_047834.1.341;clu=8082;clan=1885_mono
+NC_047834.1	PHANOTATE	CDS	344	562	-135.3994	+	0	ID=NC_047834.1.562;clu=8641;clan=2191_mono;PHROGs=phrog_21816,phrog_19839;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047834.1	PHANOTATE	CDS	562	825	-69.4351	+	0	ID=NC_047834.1.825;clu=9200;clan=2340_mono
+NC_047834.1	PHANOTATE	CDS	921	3047	-4084483821216914.5	+	0	ID=NC_047834.1.3047;clu=5154;clan=1_clan;PFAM=PF00940.22
+NC_047834.1	PHANOTATE	CDS	43552	43785	-927.4494	+	0	ID=NC_047834.1.43785;clu=10316;clan=1610_mono;PHROGs=phrog_5982,phrog_731;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047834.1	PHANOTATE	CDS	43782	44153	-810.7033	+	0	ID=NC_047834.1.44153;clu=10856;clan=316_pair;PHROGs=phrog_2524;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047834.1	PHANOTATE	CDS	44150	44467	-1169.7219	+	0	ID=NC_047834.1.44467;clu=11432;clan=682_mono;PHROGs=phrog_34686,phrog_891;phrog_ann=hypothetical protein,terminase small subunit;phrog_category=unknown function,head and packaging
+NC_047834.1	PHANOTATE	CDS	44536	46518	-119598261383973.55	+	0	ID=NC_047834.1.46518;clu=8433;clan=13_clan;PHROGs=phrog_38,phrog_15524,phrog_17672;phrog_ann=terminase large subunit;phrog_category=head and packaging
+NC_047834.1	PHANOTATE	CDS	46560	46919	-172.1295	+	0	ID=NC_047834.1.46919;clu=12548;clan=177_clan
+NC_047834.1	PHANOTATE	CDS	46919	47233	-523.5846	+	0	ID=NC_047834.1.47233;clu=13106;clan=1918_mono;PHROGs=phrog_29640;phrog_ann=hypothetical protein;phrog_category=unknown function
+NC_047834.1	PHANOTATE	CDS	47257	47373	-0.2832	+	0	ID=NC_047834.1.47373;clu=13664;clan=2232_mono
