@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae_refseq.yaml'
+configfile: 'config_autographiviridae.yaml'
 
 # CREATE FOLDERS
 os.makedirs(config['known_interest_dir'], exist_ok=True)
@@ -15,17 +15,6 @@ def create_search_string(nums: list) -> str:
     return nums_str
 
 
-#rnaps = [3832, 3398, 2681, 2172, 803, 156]
-#samases = [392, 516, 2538, 3167, 3357, 3486, 3509, 3704, 1677]
-#ocrs = [3814, 3136, 3132, 3030, 3020, 1911, 1677]
-#kinases = [21, 75, 237, 416, 622, 1390, 1458,
-#            1659, 2684, 2865, 3132, 3521, 3566, 3654]
-
-#rnaps = [7905, 3093, 4851, 6262, 2689, 1423, 4636, 5335, 3763]
-#samases = [4422, 7327, 3809]
-#ocrs = [3892, 4935, 7170, 1528]
-#kinases = [4877, 364, 3817, 4632, 2103, 3212]
-#arda = [8435, 3512, 6059]
 
 rnaps = [1264, 15258]
 samases = [3643, 9717, 12011, 17333, 17415, 7377,
@@ -43,18 +32,14 @@ mreb_inhibitors = [
                     1293, 1726, 17321, 4442,
                     54, 6799, 7355, 7429, 7503, 838
                     ]
-#rnaps = [665, 2336, 499, 2679, 2003, 3009, 285, 558, 1244, 1175, 2670, 382, 677]
-#samases = [365, 2059, 957]
-#ocrs = [851, 19]
-#arda = [357, 2015, 1747]
 
 
-#clusters = ['ocr', 'samase', 'rnap', 'arda', 'kinase']
+
 clusters = ['ocr', 'samase', 'rnap', 'arda']
 clu_nums_ocr_str = create_search_string(ocrs)
 clu_nums_rnaps_str = create_search_string(rnaps)
 clu_nums_samase_str = create_search_string(samases)
-#clu_nums_arda_str = create_search_string(arda)
+
 clu_nums_kinases_str = create_search_string(kinases)
 clu_nums_06_str = create_search_string(mreb_inhibitors)
 
@@ -72,7 +57,7 @@ clu_files = {'ocr': ocrs,
            'kinase': kinases
            #  'interest': [3030, 3020, 1677, 516, 3704]
              }
-# clusters_exp = ['ocr', 'samase', 'rnap','arda', 'kinase', 'interest']
+
 clusters_exp = ['ocr', 'samase', 'rnap', 'kinase', '06']
 rule all:
     input:

@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae_refseq.yaml'
+configfile: 'config_autographiviridae.yaml'
 
 # CREATE FOLDERS
 os.makedirs(config['annotation_dir'], exist_ok=True)

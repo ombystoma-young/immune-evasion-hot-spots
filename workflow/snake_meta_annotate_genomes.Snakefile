@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae_meta.yaml'
+configfile: 'config_autographiviridae.yaml'
 
 # CREATE FOLDERS
 os.makedirs(config['data'], exist_ok=True)
@@ -67,34 +67,6 @@ rule all:
         os.path.join(config['annotation_dir'], 'concatenated.gff'),
         config['genomes_source']
 
-# rule setup_db:
-#     output:
-#         os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
-#     params:
-#         config['checkv_db_path']
-#     conda:
-#         os.path.join(config['envs'], 'checkv.yml')
-#     shell:
-#         """
-#         checkv download_database {params}
-#         """
-
-# rule check_completeness:
-#     input:
-#         sequences = lambda wc: os.path.join(config['db_fastas'], f'{wc.db}', f'{paths[wc.db]}'),
-#         db = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5', 'README.txt')
-#     output:
-#         os.path.join(config['checkv_output'], '{db}', 'completeness.tsv')
-#     conda:
-#         os.path.join(config['envs'], 'checkv.yml')
-#     params:
-#         out_path = os.path.join(config['checkv_output'], '{db}'),
-#         db_path = os.path.join(config['checkv_db_path'], 'checkv-db-v1.5')
-#     threads: config['maxthreads']
-#     shell:
-#         """
-#         checkv completeness {input.sequences} {params.out_path} -t {threads} -d {params.db_path}
-#         """
 
 rule parse_len:
     input:

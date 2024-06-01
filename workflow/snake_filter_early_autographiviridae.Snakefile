@@ -1,6 +1,6 @@
 import os
 
-configfile: 'config_autographiviridae_refseq.yaml'
+configfile: 'config_autographiviridae.yaml'
 
 os.makedirs(config['intergenic_dir'], exist_ok=True)
 os.makedirs(config['target_dir'], exist_ok=True)

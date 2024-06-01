@@ -2,7 +2,7 @@ library(gggenomes)
 library(tidyverse)
 setwd('PycharmProjects/anti_defence_pipeline/')
 
-# g <- read_feats('data_autographiviridae_meta/annotation/concatenated_sele.gff')
+
 g <- read_feats('data_autographiviridae_refseq/annotation/concatenated_with_clusters_phrogs.gff')
 
 s <- read_seqs('data_autographiviridae_refseq/genomes/concatenated_genomes.fna')

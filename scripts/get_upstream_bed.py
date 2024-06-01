@@ -41,19 +41,9 @@ def get_genomes(path: str) -> list:  # checked, okay
             genomes.append(genome)
     return genomes
 
-# def get_intergenics(path: str, minsize: int) -> dict:  # checked, okay
-#     df = pd.read_csv(path, sep='\t', names=['genome', 'start', 'end', 'length'])
-#     # df = df.query(f'`length` >= {minsize}')
-#     # df = df[df.groupby('genome')['length'].rank(method='first', ascending=False) <= 2]
-#     df = df.groupby(['genome']).agg(lambda col: list(col))
-#     intergenics = df.to_dict('index')
-#     return intergenics
-
 
 def get_intergenics(path: str, ) -> dict:  # checked, okay
     df = pd.read_csv(path, sep='\t', names=['genome', 'start', 'end', 'length'])
-    # df = df.query(f'`length` >= {minsize}')
-    # df = df[df.groupby('genome')['length'].rank(method='first', ascending=False) <= 2]
     df = df.groupby(['genome']).agg(lambda col: list(col))
     intergenics = df.to_dict('index')
     return intergenics
@@ -259,7 +249,6 @@ class IntersectionMaster:
         rnap_start, rnap_end = int(rnap['pol_start']), int(rnap['pol_end'])
         upstream_strand = rnap['strand']
         length = int(self._lengths[nuccore_id])
-        # if len(intergenics['start']) == 1:  # check if there is only one intergenic region
         if upstream_strand == '+':
             distance = rnap_start - intergenics['end'][0]
         else:
@@ -269,86 +258,6 @@ class IntersectionMaster:
         else:
             intergenic_start = intergenics['start'][0]
             intergenic_end = intergenics['end'][0]
-        # else:  # select best intergenic
-        #     if upstream_strand == '+':
-        #         distance_1 = rnap_start - intergenics['end'][0]
-        #         distance_2 = rnap_start - intergenics['end'][1]
-        #
-        #         if distance_1 < 0 and distance_2 < 0:
-        #             distance_1 = length - intergenics['end'][0]
-        #             distance_2 = length - intergenics['end'][1]
-        #             if distance_1 < distance_2:
-        #                 if distance_1 > self.bp - rnap_start + 1000:
-        #                     return None
-        #                 intergenic_start = intergenics['start'][0]
-        #                 intergenic_end = intergenics['end'][0]
-        #             else:
-        #                 if distance_2 > self.bp - rnap_start + 1000:
-        #                     return None
-        #                 intergenic_start = intergenics['start'][1]
-        #                 intergenic_end = intergenics['end'][1]
-        #         elif distance_1 > 0 > distance_2:
-        #             if distance_1 > self.bp + 1000:
-        #                 return None
-        #             intergenic_start = intergenics['start'][0]
-        #             intergenic_end = intergenics['end'][0]
-        #         elif distance_2 > 0 > distance_1:
-        #             if distance_2 > self.bp + 1000:
-        #                 return None
-        #             intergenic_start = intergenics['start'][1]
-        #             intergenic_end = intergenics['end'][1]
-        #         else:
-        #             if distance_1 < distance_2:
-        #                 if distance_1 > self.bp + 1000:
-        #                     return None
-        #                 else:
-        #                     intergenic_start = intergenics['start'][0]
-        #                     intergenic_end = intergenics['end'][0]
-        #             else:
-        #                 if distance_2 > self.bp + 1000:
-        #                     return None
-        #                 else:
-        #                     intergenic_start = intergenics['start'][1]
-        #                     intergenic_end = intergenics['end'][1]
-        #     else:
-        #         distance_1 = intergenics['start'][0] - rnap_end
-        #         distance_2 = intergenics['start'][1] - rnap_end
-        #         if distance_1 < 0 and distance_2 < 0:
-        #             distance_1 = intergenics['start'][0]
-        #             distance_2 = intergenics['start'][1]
-        #             if distance_1 < distance_2:
-        #                 if distance_1 > self.bp - rnap_start + 1000:
-        #                     return None
-        #                 intergenic_start = intergenics['start'][0]
-        #                 intergenic_end = intergenics['end'][0]
-        #             else:
-        #                 if distance_2 > self.bp - rnap_start + 1000:
-        #                     return None
-        #                 intergenic_start = intergenics['start'][1]
-        #                 intergenic_end = intergenics['end'][1]
-        #         elif distance_1 > 0 > distance_2:
-        #             if distance_1 > self.bp + 1000:
-        #                 return None
-        #             intergenic_start = intergenics['start'][0]
-        #             intergenic_end = intergenics['end'][0]
-        #         elif distance_2 > 0 > distance_1:
-        #             if distance_2 > self.bp + 1000:
-        #                 return None
-        #             intergenic_start = intergenics['start'][1]
-        #             intergenic_end = intergenics['end'][1]
-        #         else:
-        #             if distance_1 < distance_2:
-        #                 if distance_1 > self.bp + 1000:
-        #                     return None
-        #                 else:
-        #                     intergenic_start = intergenics['start'][0]
-        #                     intergenic_end = intergenics['end'][0]
-        #             else:
-        #                 if distance_2 > self.bp + 1000:
-        #                     return None
-        #                 else:
-        #                     intergenic_start = intergenics['start'][1]
-        #                     intergenic_end = intergenics['end'][1]
 
         if upstream_strand == '+':  # "+"-strand
             if rnap_start > intergenic_end:  # RNAP after intergenic

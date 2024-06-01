@@ -11,9 +11,9 @@ for file in os.listdir(config['community_ids_dir']):
 
 rule all:
     input:
-        # os.path.join(config['similarity_dir'], 'res_table_short_within_communities.tsv'),
-        #os.path.join(config['similarity_dir'], 'loci_communities.tsv'),
-        # os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff'),
+        os.path.join(config['similarity_dir'], 'res_table_short_within_communities.tsv'),
+        os.path.join(config['similarity_dir'], 'loci_communities.tsv'),
+        os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff'),
         expand([os.path.join(config['community_ids_dir'], 'target_with_clusters_phrogs_within_{community}.gff'),
                 os.path.join(config['community_ids_dir'], 'res_table_short_within_{community}.tsv')],
                 community=found_communities)
