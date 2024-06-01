@@ -7,14 +7,19 @@ library(viridis)
 
 
 setwd('work_dir/anti_defence/anti_defence_pipeline/')
-s0 <- read_seqs("data_autographiviridae_refseq/genomes/concatenated_genomes.fna")  # sequence
-g0 <- read_feats("data_autographiviridae_refseq/upstreams/early_with_clusters_phrogs.gff")  # proteins 
+s0 <- read_seqs("data_autographiviridae/genomes/concatenated_genomes.fna")  # sequence
+g0 <- read_feats("data_autographiviridae/target_loci/target_with_clusters.gff")  # proteins 
 f0 <- read.table("data_autographiviridae_refseq/tdrs/best_tdrs.tsv", sep='\t', header=FALSE)  
 
 f0 <- bind_rows(select(f0, seq_id=V1, start=V2, end=V3),
                 select(f0, seq_id=V1, start=V6, end=V6))
-curated <- read.table('metadata/genomes_after_curation.txt')
-not_in_curated <- s0 %>% filter(! seq_id %in% curated$V1)
+# curated <- read.table('data_autographiviridae/loci_similarity/community_representatives.tsv', sep='\t',
+#                       header=TRUE) %>% filter(!str_detect(structure, ':')) %>% 
+      # filter(str_detect(structure, 'community'))
+curated <- read.table('thesis_tables/plot_list.tsv', sep='\t',
+                      header=TRUE) %>% pull(representative.with.known)
+
+not_in_curated <- s0 %>% filter(! seq_id %in% curated)
 
 
 
@@ -35,25 +40,28 @@ plot_it <- function(interest){
               if (length(flips) != 0){      
               p <- gggenomes(seqs=s, genes=g)  %>%
                 gggenomes::flip(flips) %>%  # flip sequences
-                gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
+                # pick_seqs(interest) %>% 
+                gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') +
+                 # focus on particular region +- 100 bp
                 geom_seq() +  # draw contig/chromosome lines
-                geom_seq_label(aes(label=seq_id), size=5, nudge_y = -0.22) + # label each sequence by this caption
-                geom_gene(aes(fill=`clan`, color=`freq`), intron_shape=0, size=8) +  # add gene arrows
+                geom_seq_label(aes(label=paste(seq_id, str_split_i(seq_desc, ',', 1), sep=', ')), size=5, nudge_y = -0.22) + # label each sequence by this caption
+                geom_gene(aes(fill=`clan`), intron_shape=0, size=7) +  # add gene arrows
                 # geom_gene(aes(fill=`freq`), intron_shape=0, size=8) +  # add gene arrows
                 #geom_gene(aes(fill=cluster_num), intron_shape=0, size=8) +  # add gene arrows
                 geom_gene_text(aes(label=`clu`), size=5) +  # add gene cluster text
                 #geom_feat(color='red') +  # add TDRs
-                scale_colour_distiller(palette="Greys") +  # change color
+                # scale_colour_distiller(palette="Greys") +  # change color
                 theme(legend.position = 'none')  # change font size and legend position
               } else {
                 p <- gggenomes(seqs=s, genes=g)  %>%
-                  gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
+                  gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + #%>% 
+                  # pick_seqs(interest) + # focus on particular region +- 100 bp
                   geom_seq() +  # draw contig/chromosome lines
                   geom_seq_label(aes(label=seq_id), size=5, nudge_y = -0.22) + # label each sequence by this caption
-                  geom_gene(aes(fill=`clan`), intron_shape=0, size=8) +  # add gene arrows
+                  geom_gene(aes(fill=`clan`), intron_shape=0, size=6) +  # add gene arrows
                   # geom_gene(aes(fill=`freq`), intron_shape=0, size=8) +  # add gene arrows
                   #geom_gene(aes(fill=cluster_num), intron_shape=0, size=8) +  # add gene arrows
-                  geom_gene_text(aes(label=`clu`), size=5) +  # add gene cluster text
+                  geom_gene_text(aes(label=`clu`), size=4) +  # add gene cluster text
                   #geom_feat(color='red') +  # add TDRs
                   scale_colour_distiller(palette="Greys") +  # change color
                   # scale_fill_discrete("Clan") +  # change fill, genes
@@ -77,6 +85,11 @@ interest <- c('MW671054.1', 'MT740748.1', 'MZ851152.1')
 plot_it(interest)
 ggsave('pics/jan_ardA_loci.pdf', width=20, height=6)
 
+
+# in place of kinase noc
+interest <- c('MN481365.1',
+              'OP413828.1')
+plot_it(interest)
 
 
 # community 8
@@ -108,7 +121,125 @@ ggsave('pics/jan_158.pdf', width=20, height=6)
 
 
 
-# 
+# SAMase duplcation ?
+interest <- c(
+  'OK274245.1',
+  'OK318991.1',
+  'NC_023736.1',
+  'OP313111.1',
+  'MK290739.2'
+)
+plot_it(interest)
+ggsave('data_autographiviridae/pics/samase_duplication.pdf', width=20, height=6)
+
+
+interest <- c('NC_047751.1')
+
+
+
+interest <- c(
+  'AY264778.1',
+  'NC_001604.1',
+  'MZ375268.1'
+)
+plot_it(interest)
+ggsave('data_autographiviridae/pics/kinases_shut_off_only.pdf', width=20, height=6)
+
+interest <- c(
+  'NC_031258.1',
+'MZ501064.1',
+'NC_047789.1',
+'NC_048164.1'
+)
+plot_it(interest)
+ggsave('data_autographiviridae/pics/kinases_shut_off_after_stop.pdf', width=20, height=6)
+
+
+interest <- c(
+  'AY264775.1',
+  'MGV-GENOME-0262495',
+  'NC_011045.1'
+)
+plot_it(interest)
+ggsave('data_autographiviridae/pics/kinases_shut_off_after_stop_part_of_kinase.pdf', width=20, height=6)
+
+
+interest <- c(
+  'OM457002.1',
+  'MGV-GENOME-0268676',
+  'MGV-GENOME-0270012',
+  'SAMN00792109_a1_ct16482@circular@Podoviridae__sp._cteXl482'
+)
+plot_it(interest)
+ggsave('data_autographiviridae/pics/kinases_only_kinase.pdf', width=20, height=6)
+
+
+
+interest <- c('SRS741334|NODE_2_length_43394_cov_11.226632',
+              'OK499982.1',
+              'NC_028863.1',
+              'MGV-GENOME-0290541',
+              'MN327636.1')
+plot_it(interest)
+
+
+plot_it(curated)
+plot_it(c('Ma_2019_SRR341661_NODE_362_length_45429_cov_48.701701'))
+ggsave('data_autographiviridae/pics/target_loci_representatives2.pdf', width=20, height=6/4)
+
+# PLOT REPRESENTATIVES
+
+
+plot_it <- function(interest){
+  s <- s0 %>% filter(seq_id %in% interest$max_k)
+  s <- s %>% left_join(interest, by=c('seq_id' = 'max_k'))
+  g <- g0 %>% filter(seq_id %in% interest$max_k)
+  flips <- as.vector(unique(g[g$seq_id %in% s$seq_id, ] %>%   # find sequences to flip (- strand -> + strand)
+                              filter(strand == '-') %>% select(seq_id)))$seq_id
+  g <- g %>% group_by(clan) %>% mutate(freq = n()) %>% ungroup()
+  # 
+  # flips__ <- g %>% group_by(seq_id, strand) %>%
+  #   summarise(n()) %>%
+  #   pivot_wider(names_from = strand, names_prefix = 'strand_', values_from = `n()`) %>%
+  #   ungroup() %>%
+  #   filter(is.na(`strand_+`) | `strand_-` > `strand_+`) %>%
+  #   select(seq_id) %>% as.vector()
+  if (length(flips) != 0){      
+    p <- gggenomes(seqs=s, genes=g)  %>%
+      gggenomes::flip(flips) %>%  # flip sequences
+      gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
+      geom_seq() +  # draw contig/chromosome lines
+      geom_seq_label(aes(label=structure), size=3, nudge_y = -0.22) + # label each sequence by this caption
+      geom_gene(aes(fill=`clan`), intron_shape=0, size=5) +  # add gene arrows
+      # geom_gene(aes(fill=`freq`), intron_shape=0, size=8) +  # add gene arrows
+      #geom_gene(aes(fill=cluster_num), intron_shape=0, size=8) +  # add gene arrows
+      geom_gene_text(aes(label=`clu`), size=3) +  # add gene cluster text
+      #geom_feat(color='red') +  # add TDRs
+      # scale_colour_distiller(palette="Greys") +  # change color
+      theme(legend.position = 'none')  # change font size and legend position
+  } else {
+    p <- gggenomes(seqs=s, genes=g)  %>%
+      gggenomes::focus(.track_id = genes, .expand = 100, .overhang='keep') + # focus on particular region +- 100 bp
+      geom_seq() +  # draw contig/chromosome lines
+      geom_seq_label(aes(label=seq_id), size=3, nudge_y = -0.22) + # label each sequence by this caption
+      geom_gene(aes(fill=`clan`), intron_shape=0, size=5) +  # add gene arrows
+      # geom_gene(aes(fill=`freq`), intron_shape=0, size=8) +  # add gene arrows
+      #geom_gene(aes(fill=cluster_num), intron_shape=0, size=8) +  # add gene arrows
+      geom_gene_text(aes(label=`clu`), size=5) +  # add gene cluster text
+      #geom_feat(color='red') +  # add TDRs
+      scale_colour_distiller(palette="Greys") +  # change color
+      # scale_fill_discrete("Clan") +  # change fill, genes
+      theme(legend.position = 'none') 
+  }
+  return(p) 
+}
+
+plot_it(curated)
+ggsave('data_autographiviridae/pics/community_representatives.pdf', width=25, height=60, limitsize = FALSE)
+
+
+
+# METAGENOMES 
 s0 <- read_seqs("data_autographiviridae_meta/filtered_mags_flatten/concatenated_genomes.fna")  # sequence
 g0 <- read_feats("data_autographiviridae_meta/upstreams/early_with_clusters_phrogs.gff")  # proteins 
 # f0 <- read.table("data_autographiviridae_meta/tdrs/best_tdrs.tsv", sep='\t', header=FALSE)  

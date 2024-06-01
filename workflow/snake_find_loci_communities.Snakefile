@@ -3,13 +3,20 @@ import os
 configfile: 'config_autographiviridae.yaml'
 
 os.makedirs(config['similarity_dir'], exist_ok=True)
+found_communities = []
+for file in os.listdir(config['community_ids_dir']):
+    if file.endswith('ids'):
+        found_communities.append(file.split('.')[0])
 
 
 rule all:
     input:
-        os.path.join(config['similarity_dir'], 'res_table_short_within_communities.tsv'),
+        # os.path.join(config['similarity_dir'], 'res_table_short_within_communities.tsv'),
         #os.path.join(config['similarity_dir'], 'loci_communities.tsv'),
-        os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff')
+        # os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff'),
+        expand([os.path.join(config['community_ids_dir'], 'target_with_clusters_phrogs_within_{community}.gff'),
+                os.path.join(config['community_ids_dir'], 'res_table_short_within_{community}.tsv')],
+                community=found_communities)
 
 
 rule filter_onegene_contigs:
@@ -118,6 +125,32 @@ rule filter_gff_selected_communities:
         gff = os.path.join(config['target_dir'], 'target_with_clusters_phrogs.gff')
     output:
         gff = os.path.join(config['similarity_dir'], 'target_with_clusters_phrogs_within_communities.gff')
+    shell:
+        """
+        cat {input.gff} | grep -f {input.ids} > {output}
+        """
+
+
+rule aggregate_results_for_all_communities:
+    input:
+        long = os.path.join(config['target_clans_concat_dir'], 'res_table_long.tsv'),
+        ids = os.path.join(config['community_ids_dir'], '{community}.ids')
+    output:
+        grouped = os.path.join(config['community_ids_dir'], 'res_table_short_within_{community}.tsv')
+    params:
+        script = os.path.join(config['scripts'], 'filter_clusters_target_loci.py')
+    conda: os.path.join(config['envs'], 'num_sci_py.yml')
+    shell:
+        """
+        python {params.script} --long {input.long} --ids {input.ids} --output {output.grouped}
+        """
+
+rule filter_gff_all_communities:
+    input:
+        ids = os.path.join(config['community_ids_dir'], '{community}.ids'),
+        gff = os.path.join(config['target_dir'], 'target_with_clusters_phrogs.gff')
+    output:
+        gff = os.path.join(config['community_ids_dir'], 'target_with_clusters_phrogs_within_{community}.gff')
     shell:
         """
         cat {input.gff} | grep -f {input.ids} > {output}

@@ -35,17 +35,17 @@ def plot_msa(msa_file: str, out_file: str, insertions: list = None, regions: lis
     :param out_file: (str) path to output figure
     :return: None
     """
-    mv = MsaViz(msa_file, wrap_length=46, show_count=True, color_scheme='Identity',
-                label_type='description', )
+    mv = MsaViz(msa_file, wrap_length=33, show_count=True, color_scheme='Identity',
+                label_type='description', start=90)
     mv.set_plot_params(identity_color='#7570B3')
-    if mark_positions is not None:
-        mv.add_markers(positions=mark_positions, color='#d95f02')
-    if insertions is not None:
-        for insertion in insertions:
-            mv.add_text_annotation(insertion, "Insert Region", text_color="#E7298A", range_color="#E7298A")
     if regions is not None:
         for region_name in regions.keys():
             mv.add_text_annotation(regions[region_name][0], region_name, text_color=regions[region_name][1], range_color=regions[region_name][1])
+    if insertions is not None:
+        for insertion in insertions:
+            mv.add_text_annotation(insertion, "Insert Region", text_color="#E7298A", range_color="#E7298A")
+    if mark_positions is not None:
+        mv.add_markers(positions=mark_positions, color='#d95f02')
     mv.savefig(out_file, dpi=300)
 
 
@@ -60,8 +60,19 @@ def parse_args():
 if __name__ == '__main__':
     msa_file = parse_args().input
     output_path = parse_args().output
+    regions = None
     if 'samase' in msa_file:
-        markers = [73, 76, 87, 113]
-    else:
+        markers = [84, 86, 100, 129]
+    elif 'kinase' in msa_file:
+        regions = {'ATP binding': ((92, 107), '#E7298A'),
+                   'Catalysis': ((108, 120), '#d95f02'),
+                   ' ': ((239, 256), '#E7298A'),
+                   }
+        markers = [273]
+    elif 'ocr' in msa_file:
+        regions = {'dimerization surface': ((64, 73), '#E7298A')
+                   }
         markers = None
-    plot_msa(msa_file, insertions=None, out_file=output_path, regions=None, mark_positions=markers)
+    else:
+        markers = [131]
+    plot_msa(msa_file, insertions=None, out_file=output_path, regions=regions, mark_positions=markers)

@@ -35,6 +35,7 @@ phrog_desc: '../../dbs/phrogs_v_4/phrog_annot_v4.tsv'
 pfam_path: '~/dbs/pfam_21_11_15/Pfam-A.hmm'
 dbapis_path:  '~/dbs/dbapis/dbAPIS.hmm'
 dbapis_desc:  '~/dbs/dbapis/dbAPIS_info.tsv'
+taxdump_path: '~/Tools/databases/ncbi_folder/taxdump'
 # OUTPUT DIRS
 data: 'data_autographiviridae'
 # snake_annotate_genomes:
@@ -80,7 +81,8 @@ trees_dir: 'data_autographiviridae/known_adgs_analysis/trees'
 similarity_dir: 'data_autographiviridae/loci_similarity'
 permutations_dir: 'data_autographiviridae/loci_similarity/permutations'
 num_permutations: 1000
-clans: '"33_clan&4_clan, 8_clan, 33_clan&22_clan, 25_clan, 52_clan&22_clan, 25_clan&22_clan"'
+clans: '"33_clan&4_clan, 8_clan, 33_clan&22_clan, 25_clan, 52_clan&22_clan, 25_clan&25_clan&22_clan&52_clan"'
+community_ids_dir: 'data_autographiviridae/loci_similarity/communities'
 
 # DEFAULT
 scripts: 'scripts'
@@ -88,3 +90,6 @@ meta: 'metadata'
 envs: 'envs'
 pics: 'data_autographiviridae/pics'
 cl1_path: '~/tools/clusterone/cluster_one-1.0.jar'
+
+ncbi_metadata: 'data_autographiviridae_refseq/genomes'
+lineage_dir: 'metadata/lineage'

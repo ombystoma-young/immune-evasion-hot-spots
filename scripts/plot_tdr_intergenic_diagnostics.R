@@ -21,11 +21,11 @@ lengths_bed <- args[4]
 tdr_figure_name <- args[5]
 intergenic_full_figure_name <- args[6]
 intergenic_conditions_figure_name <- args[7]
-
+setwd('PycharmProjects/anti_defence_pipeline/')
 # tdrs_tsv <- 'data/tdrs/tdrs.tsv'
-# intergenic_bed <- 'data/intergenics/all_intergenic_with_length.tsv'
-# rnaps_gff <- 'data/annotation/concatenated_rnaps_only.gff'
-# lengths_bed <- 'data/intergenics/chromosome_lengths.bed'
+intergenic_bed <- 'data_autographiviridae/intergenics/all_intergenic_with_length.tsv'
+rnaps_gff <- 'data_autographiviridae/annotation/concatenated_rnaps_only.gff'
+lengths_bed <- 'data_autographiviridae/intergenics/chromosome_lengths.bed'
 
 # read data
 
@@ -110,7 +110,8 @@ ggsave(tdr_figure_name, dpi=300)
 ## intergenics and rnaps
 rnap_intergenics_join <- rnaps %>% left_join(intergenics, by='seq_id',
                                      suffix = c('.rnap', '.ig')) %>% 
-                                   left_join(chr_lens)
+                                   left_join(chr_lens) %>% 
+  filter(seq_len >= 35000)
 
 
 
@@ -207,7 +208,7 @@ ggsave(intergenic_full_figure_name, dpi=300, width=10, height=10)
 
 
 too_long_genome <- rnap_intergenics_join %>% filter(seq_len > 65000) %>% pull(seq_id) %>% unique()
-too_long_intergenic <- rnap_intergenics_join %>% filter(length > 10000) %>% pull(seq_id) %>% unique()
+too_long_intergenic <- rnap_intergenics_join %>% filter(length > 5000) %>% pull(seq_id) %>% unique()
 
 
 rnap_intergenics_join <- rnap_intergenics_join %>%
@@ -254,27 +255,33 @@ b <- rnap_intergenics_join %>%
   scale_color_continuous(type='viridis')
 
 c <- rnap_intergenics_join %>%
-  ggplot(aes(x = dist.intergenic, y=length, color=is_max)) +
-  geom_point(size=3, stroke=2, shape=21, alpha=0.8) + 
-  # geom_line(aes(group = seq_id)) +
-  theme_minimal(base_size=12) + 
+  filter(!is.na(is_max)) %>% 
+  ggplot(aes(x = dist.intergenic, y=length, fill=is_max)) +
+  geom_point(size=3, stroke=1, color='black', shape=21, alpha=0.8) + 
+  geom_vline(xintercept = 5000, color='black') +
+  theme_classic(base_size=12) + 
   ylab('Intergenic region size, bp') + 
   xlab('RNAP-intergenic region distance, bp') +
   # scale_y_log10() +
-  labs(color=TeX(r"(Is $\max\left[\frac{L}{||L||}\cdot\frac{D}{||D||}\right]$)")) +
-  scale_color_manual(values=c('grey', 'tomato'))
+  labs(fill=TeX(r"(Is $\max\left[\frac{L}{||L||}\cdot\frac{D}{||D||}\right]$)")) +
+  scale_fill_manual(values=c('grey', 'tomato'))
 
+c
 
 d <- rnap_intergenics_join %>%
-  ggplot(aes(x = dist.intergenic, y=length, color=is_max_inv)) +
-  geom_point(size=3, stroke=2, shape=21, alpha=0.8) + 
+  filter(!is.na(is_max_inv)) %>% 
+  ggplot(aes(x = dist.intergenic, y=length, fill=is_max_inv)) +
+  geom_point(size=3, stroke=1, color='black', shape=21, alpha=0.8) + 
+  geom_vline(xintercept = 5000, color='black') +
   # geom_line(aes(group = seq_id)) +
-  theme_minimal(base_size=12) + 
+  theme_classic(base_size=12) + 
   ylab('Intergenic region size, bp') + 
   xlab('RNAP-intergenic region distance, bp') +
   # scale_y_log10() +
-  labs(color=TeX(r"(Is $\max\left[\frac{L}{||L||}\cdot\frac{||D||}{D}\right]$)")) +
-  scale_color_manual(values=c('grey', 'tomato'))
+  labs(fill=TeX(r"(Is $\max\left[\frac{L}{||L||}\cdot\frac{||D||}{D}\right]$)")) +
+  scale_fill_manual(values=c('#d9d9d9ff', '#8dd3c7ff'))
+d
+ggsave('data_autographiviridae/pics/intergenics.svg', width = 14, height = 6)
 
 e <- rnap_intergenics_join %>%
   filter(is_max) %>%

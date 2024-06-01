@@ -5,7 +5,7 @@ library(treeio)
 library(gggenomes)
 setwd('work_dir/anti_defence/anti_defence_pipeline')
 
-s0 <- read_seqs("blasted/phages_genomes_concat.fna")  # sequence
+s0 <- read_seqs("data_autographiviridae/genomes/co/phages_genomes_concat.fna")  # sequence
 g0 <- read_feats("upstream_search/representative_genomes.gff")  # proteins 
 f0 <- read.table("minimap2_out/TDRs_all.tsv", sep='\t', header=TRUE)  # domains, format: `chr(phage)	start	end	CDS_id	domain`
 
